@@ -1220,6 +1220,42 @@
         effectInfo:
           isPermanent: true
 
+  triggers:
+    hp:
+      percent:
+        75:
+          - type: effect
+            canRecur: false # the effect cannot happen again if the boss healers past this %
+            delay: 2000 # every effect should support this
+            effect: SedgwickBlast # this effect does not exist, but it would be scripted
+
+        50:
+          - type: effect
+            canRecur: false
+            delay: 2000 # every effect should support this
+            effect: SedgwickBlast # this effect does not exist, but it would be scripted
+
+        25:
+          - type: effect
+            canRecur: false
+            delay: 2000 # every effect should support this
+            effect: SedgwickBlast # this effect does not exist, but it would be scripted
+
+        0:
+          - type: message
+            radius: 50
+            message: Curse you, $player.name! Curse you to your grave!
+
+          - type: message
+            radius: 50
+            message: You hear a lock click in the distance.
+
+          - type: modifyInteractable
+            interactable: Chest Door
+            change:
+              properties:
+                requireLockpick: false
+
   copyDrops:
     - drop: 'rightHand'
       chance: -1
