@@ -1,0 +1,32 @@
+
+isRepeatable: true
+
+objectives:
+  - type: kill
+    kills: 10
+    npcIds:
+      - Rylt Renegade Rebel
+      - Rylt Renegade Weak Rebel
+      - Rylt Renegade Rebel Thief
+      - Rylt Renegade Mage Rebel
+      - Rylt Renegade Healer Rebel
+
+    messages:
+      kill: You have killed $current/$total rebels.
+      incomplete: Thanks for offering your help. You have to kill more $remaining rebels.
+
+rewards:
+  - type: xp
+    xp: 5000
+
+  - type: gold
+    gold: 5000
+
+  - type: resetPoints
+    resetPoints: 2
+
+  - type: silver
+    silver: 1
+
+  - type: holidayTokens
+    holidayTokens: 15     # only granted if a holiday is going on
