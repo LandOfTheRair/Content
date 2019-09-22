@@ -1,0 +1,43 @@
+
+tag: Tutorial Billy
+hostility: Never
+affiliation: Lost Child
+
+items:
+  gear:
+    Armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: chat
+          message: >
+            Aw, shucks. Have you seen my pet Moose? It's so lonely in this town, I might have to move. There are just the MERCHANTS, the HERMIT, and me.
+
+          options:
+            - text: The merchants?
+              action: merchants
+
+            - text: The hermit?
+              action: hermit
+
+    merchants:
+      actions:
+        - type: chat
+          message: >
+            Yeah. The building to the south of here has some merchants. They sell armor, weapons, and potions. Nothin' there for a kid like me, though.
+
+          options:
+            - text: I'll go check them out
+              action: noop
+
+    hermit:
+      actions:
+        - type: chat
+          message: >
+            Old man Hermit is off in the distant house, northwest of here. I hear he has the key to let people out of this forsaken town, whatever that means.
+
+          options:
+            - text: I'll pay him a visit
+              action: noop

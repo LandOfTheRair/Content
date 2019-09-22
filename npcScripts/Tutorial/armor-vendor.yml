@@ -1,0 +1,29 @@
+
+tag: Tutorial Armor Vendor
+hostility: Never
+affiliation: Armor Vendor
+
+items:
+  rightHand: Antanian Longsword
+  gear:
+    Armor: Antanian Breastplate
+
+vendorCurrency: gold # default gold, but can be any currency - currencies should be tracked in a "wallet" of sorts
+
+vendorItems: 
+  - item: Antanian Tunic
+    valueMult: 2 # can be set to multiply the items base value
+
+  - item: Antanian Studded Tunic
+    valueSet: 100 # can be set to specify the item sell value exactly
+
+  - item: Antanian Scalemail Tunic
+
+  - item: Antanian Ringmail Tunic
+
+  - item: Antanian Breastplate
+
+  - item: Antanian Cloak
+
+dailyVendorItems: # these items can only be purchased once per character per day
+  - Antanian Gem RNG Box
