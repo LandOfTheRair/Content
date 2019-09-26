@@ -8,7 +8,8 @@
     "build:npcs": "node _transformers/npc.js",
     "build:droptables": "node _transformers/droptable.js",
     "build:recipes": "node _transformers/recipe.js",
-    "build:lores": "node _transformers/lore.js"
+    "build:lores": "node _transformers/lore.js",
+    "build:spawners": "node _transformers/spawner.js"
   },
   "repository": {
     "type": "git",
