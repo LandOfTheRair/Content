@@ -12,7 +12,8 @@ baseStats:
 
 allegiances:
   - name: 'Pirates'
-    description: 'Yarr. Ye be strong and dextrous, but what ye make up in physical, ye lack in the mental. At least ye get some gold, aye?'
+    description: >
+      Yarr. Ye be strong and dextrous, but what ye make up in physical, ye lack in the mental. At least ye get some gold, aye?
     statMods:
       str: 5
       dex: 2
@@ -32,7 +33,8 @@ allegiances:
       twohanded: 1
 
   - name: 'Townsfolk'
-    description: 'You happen to be a person of the town. You may not be used to defending your town, but you can dodge a thrown milk can.'
+    description: >
+      You happen to be a person of the town. You may not be used to defending your town, but you can dodge a thrown milk can.
     statMods:
       str: -1
       dex: -1
@@ -49,7 +51,9 @@ allegiances:
       onehanded: 1
 
   - name: 'Royalty'
-    description: 'You may never have picked up a sword in your life, but you are very well read, knowledgable, and wealthy. You come from a long line of nobles that originates in the East.'
+    description: >
+      You may never have picked up a sword in your life, but you are very well read, knowledgable, and wealthy. 
+      You come from a long line of nobles that originates in the East.
     statMods:
       str: -2
       dex: -2
@@ -68,7 +72,9 @@ allegiances:
       staff: 1
 
   - name: 'Adventurers'
-    description: 'You get around. You have seen a lot in your travels, and it shaped you to be hardy and knowledgable, even if your reflexes suffer. You''ve seen a few things in your time.'
+    description: >
+      You get around. You have seen a lot in your travels, and it shaped you to be hardy and knowledgable, even if your reflexes suffer.
+      You've seen a few things in your time.
     statMods:
       str: 2
       dex: 2
@@ -88,7 +94,9 @@ allegiances:
       dagger: 1
 
   - name: 'Wilderness'
-    description: 'You spend a lot of time in the wilderness, away from society. This gives you lots of time to read, and you happen to like practicing magic with the spellbooks you have found.'
+    description: >
+      You spend a lot of time in the wilderness, away from society. 
+      This gives you lots of time to read, and you happen to like practicing magic with the spellbooks you have found.
     statMods:
       str: -2
       dex: -2
@@ -108,7 +116,9 @@ allegiances:
       dagger: 1
 
   - name: 'Underground'
-    description: 'You live underground. You train daily by punching rocks. It is not the smartest choice, but you do it anyway. You have not seen yourself since you were young, so your appearance is lacking.'
+    description: >
+      You live underground. You train daily by punching rocks. It is not the smartest choice, but you do it anyway. 
+      You have not seen yourself since you were young, so your appearance is lacking.
     statMods:
       str: 3
       dex: 3
@@ -129,31 +139,81 @@ allegiances:
 
 classes:
   - name: 'Undecided'
-    description: 'You don''t know what you want to do, but you do know you want to go on an adventure!'
+    description: >
+      You don't know what you want to do, but you do know you want to go on an adventure!
+      
+      This is an advanced selection! This class has no skill tree, low HP maxes, and below average combat ability.
+      If you choose to enter the world Undecided, you can change your class a single time at any class trainer.
     statMods:
       luk: 1
       cha: 1
 
   - name: 'Mage'
-    description: 'You want to fling magic at your enemies, using a combination of energy, fire, and frost.'
+    description: >
+      You want to fling magic at your enemies, using a combination of energy, fire, and frost.
+      
+      The Mage is a very powerful and versatile spellcaster, able to do excellent single target damage, area of effect damage,
+      and brings some interesting utility ablities to combat.
+      
+      The Mage is able to specialize in 3 unique ways - as a Protector, Elementalist, or Battlemage.
+      
+      The Protector brings support abilities to combat, and can help protect or support allies.
+      
+      The Elementalist brings powerful fire and ice abilities to combat.
+      
+      The Battlemage augments their melee abilities with magic, making them a fine hybrid combat class.
+      
     statMods:
       int: 2
       wil: 1
 
   - name: 'Thief'
-    description: 'You want to hide from your enemies, throwing daggers at them, having them set off traps, and shooting arrows at them.'
+    description: >
+      You want to hide from your enemies, throwing daggers at them, having them set off traps, and shooting arrows at them.
+      
+      The Thief is a stealthy melee class, capable of using traps, ranged attacks, and other trinkets.
+      
+      The Thief is able to specialize in 3 unique ways - as a Ninja, Rogue, or Assassin.
+      
+      The Ninja specialization allows for the Thief to get even stealthier, able to hide from the most powerful of foes.
+      
+      The Rogue specialization allows for the Thief to dual wield, and create more effective traps.
+      
+      The Assassin specialization allows for the Thief to become even more lethal before, as well as learning some combat spells.
     statMods:
       agi: 2
       dex: 1
 
   - name: 'Healer'
-    description: 'You want to keep your allies (and yourself) alive while using dark arts to combat your foes.'
+    description: >
+      You want to keep your allies (and yourself) alive while using dark arts to combat your foes.
+      
+      The Healer is a very supportive class, able to do moderate single target damage and keep allies alive with support magic.
+      
+      The Healer is able to specialize in 3 unique ways - as a Druid, Bard, or Diviner.
+      
+      The Druid specialization gives the Healer an immense amount of debuffing magic to snare and daze foes.
+      
+      The Bard specialization gives the Healer a wide array of support magic, even allowing to cast on multiple allies simultaneously.
+      
+      The Diviner specialization gives the Healer strong single-target damage spells, and some holy buffs to be cast on itself.
     statMods:
       wis: 2
       wil: 1
 
   - name: 'Warrior'
-    description: 'You want to pick up a weapon and swing it at your foes.'
+    description: >
+      You want to pick up a weapon and swing it at your foes.
+      
+      The Warrior is your run of the mill combat class. It runs into combat, takes damage, and deals damage.
+      
+      The Warrior is able to specialize in 3 unique ways - as a Duelist, Monk, or Paladin.
+      
+      The Duelist specialization unlocks Stances, which give the Warrior passive abilities like more damage, or more blocking.
+      
+      The Monk specialization turns the Warrior into an extremely powerful fist fighter.
+      
+      The Paladin specialization allows the Warrior to become more defensive and able to provoke enemies into attacking it.
     statMods:
       str: 2
       dex: 1
