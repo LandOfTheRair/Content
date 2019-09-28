@@ -8,7 +8,9 @@ baseStats:
   cha: 10
   luk: 10
   hp: 100
+  hpregen: 1
   gold: 500
+  actionSpeed: 1
 
 allegiances:
   - name: 'Pirates'
@@ -166,6 +168,8 @@ classes:
     statMods:
       int: 2
       wil: 1
+      mp: 30
+      mpregen: 1
 
   - name: 'Thief'
     description: >
@@ -200,6 +204,8 @@ classes:
     statMods:
       wis: 2
       wil: 1
+      mp: 30
+      mpregen: 1
 
   - name: 'Warrior'
     description: >
