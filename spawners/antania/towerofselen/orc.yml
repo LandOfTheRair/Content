@@ -8,4 +8,4 @@ maxCreatures: 5
 spawnRadius: 1
 randomWalkRadius: 15
 leashRadius: 20
-name: 'Antania Towerofselen Orc'
+tag: 'Antania Towerofselen Orc'

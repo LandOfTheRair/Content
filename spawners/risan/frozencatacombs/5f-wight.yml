@@ -6,4 +6,4 @@ maxCreatures: 3
 spawnRadius: 1
 randomWalkRadius: 15
 leashRadius: 25
-name: 'Risan Frozencatacombs 5f-wight'
+tag: 'Risan Frozencatacombs 5f-wight'

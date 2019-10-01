@@ -8,4 +8,4 @@ maxCreatures: 7
 spawnRadius: 4
 randomWalkRadius: 20
 leashRadius: 25
-name: 'Antania Rylt Forest'
+tag: 'Antania Rylt Forest'

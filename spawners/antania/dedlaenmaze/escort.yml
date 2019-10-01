@@ -11,4 +11,4 @@ npcAISettings:
     - dedlaenescort
 canSlowDown: no
 doInitialSpawnImmediately: yes
-name: 'Antania Dedlaenmaze Escort'
+tag: 'Antania Dedlaenmaze Escort'

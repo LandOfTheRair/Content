@@ -14,4 +14,4 @@ spawnRadius: 0
 randomWalkRadius: 0
 leashRadius: 35
 doInitialSpawnImmediately: yes
-name: 'Antania Yzalt Heniz-town'
+tag: 'Antania Yzalt Heniz-town'

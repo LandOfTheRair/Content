@@ -6,4 +6,4 @@ maxCreatures: 4
 spawnRadius: 0
 randomWalkRadius: 15
 leashRadius: 25
-name: 'Antania Rylt Prison-weakrebel'
+tag: 'Antania Rylt Prison-weakrebel'

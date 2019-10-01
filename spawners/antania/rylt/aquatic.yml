@@ -7,4 +7,4 @@ maxCreatures: 5
 spawnRadius: 1
 randomWalkRadius: 45
 leashRadius: 55
-name: 'Antania Rylt Aquatic'
+tag: 'Antania Rylt Aquatic'

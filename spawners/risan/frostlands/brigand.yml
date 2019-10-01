@@ -11,4 +11,4 @@ maxCreatures: 6
 spawnRadius: 6
 randomWalkRadius: 7
 leashRadius: 12
-name: 'Risan Frostlands Brigand'
+tag: 'Risan Frostlands Brigand'

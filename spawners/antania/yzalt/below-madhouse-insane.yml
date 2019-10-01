@@ -10,4 +10,4 @@ spawnRadius: 2
 randomWalkRadius: 7
 leashRadius: 50
 shouldBeActive: yes
-name: 'Antania Yzalt Below-madhouse-insane'
+tag: 'Antania Yzalt Below-madhouse-insane'

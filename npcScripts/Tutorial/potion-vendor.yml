@@ -8,5 +8,8 @@ items:
   gear:
     Armor: Antanian Tunic
 
-vendorItems: 
-  - item: Mend Bottle
+behaviors:
+  - type: vendor
+  
+    vendorItems: 
+      - item: Mend Bottle

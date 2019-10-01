@@ -8,4 +8,4 @@ spawnRadius: 1
 randomWalkRadius: 7
 leashRadius: 12
 doInitialSpawnImmediately: yes
-name: 'Risan Frostlands Town-guardtower'
+tag: 'Risan Frostlands Town-guardtower'

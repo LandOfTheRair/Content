@@ -13,4 +13,4 @@ canSlowDown: no
 eliteTickCap: 0
 npcAISettings:
     - resource
-name: 'Global Single-resource'
+tag: 'Global Single-resource'

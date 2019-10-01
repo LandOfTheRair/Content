@@ -16,4 +16,4 @@ eliteTickCap: 0
 npcAISettings:
     - resource
 doInitialSpawnImmediately: yes
-name: 'Resource Random-antanian-tree'
+tag: 'Resource Random-antanian-tree'

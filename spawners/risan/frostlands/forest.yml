@@ -9,4 +9,4 @@ maxCreatures: 6
 spawnRadius: 7
 randomWalkRadius: 12
 leashRadius: 18
-name: 'Risan Frostlands Forest'
+tag: 'Risan Frostlands Forest'

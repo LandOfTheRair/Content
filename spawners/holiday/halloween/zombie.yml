@@ -6,4 +6,4 @@ maxCreatures: 2
 spawnRadius: 0
 randomWalkRadius: 15
 leashRadius: 35
-name: 'Holiday Halloween Zombie'
+tag: 'Holiday Halloween Zombie'

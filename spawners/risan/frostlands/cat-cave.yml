@@ -6,4 +6,4 @@ maxCreatures: 5
 spawnRadius: 5
 randomWalkRadius: 7
 leashRadius: 12
-name: 'Risan Frostlands Cat-cave'
+tag: 'Risan Frostlands Cat-cave'

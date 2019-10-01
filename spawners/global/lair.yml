@@ -14,4 +14,4 @@ stripOnSpawner: yes
 canSlowDown: no
 isDangerous: yes
 eliteTickCap: 0
-name: 'Global Lair'
+tag: 'Global Lair'

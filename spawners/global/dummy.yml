@@ -15,4 +15,4 @@ eliteTickCap: 0
 npcAISettings:
     - trainingdummy
 doInitialSpawnImmediately: yes
-name: 'Global Dummy'
+tag: 'Global Dummy'

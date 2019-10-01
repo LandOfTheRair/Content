@@ -7,4 +7,4 @@ maxCreatures: 4
 spawnRadius: 3
 randomWalkRadius: 6
 leashRadius: 12
-name: 'Risan Frostlands Yeti-extra'
+tag: 'Risan Frostlands Yeti-extra'

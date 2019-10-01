@@ -11,4 +11,4 @@ spawnRadius: 1
 randomWalkRadius: 20
 leashRadius: 35
 doInitialSpawnImmediately: yes
-name: 'Antania Rylt Town'
+tag: 'Antania Rylt Town'

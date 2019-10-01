@@ -7,4 +7,4 @@ spawnRadius: 1
 randomWalkRadius: 15
 leashRadius: 25
 eliteTickCap: 45
-name: 'Risan Frozencatacombs 2f-wight'
+tag: 'Risan Frozencatacombs 2f-wight'

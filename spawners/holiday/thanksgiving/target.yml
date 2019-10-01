@@ -8,4 +8,4 @@ randomWalkRadius: 0
 leashRadius: 0
 doInitialSpawnImmediately: yes
 shouldBeActive: yes
-name: 'Holiday Thanksgiving Target'
+tag: 'Holiday Thanksgiving Target'

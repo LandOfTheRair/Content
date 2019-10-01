@@ -14,9 +14,11 @@ const fixSpawners = async () => {
 
   files.forEach(file => {
     const spawnerData = YAML.load(file);
-    if(spawnerData.name) return;
+    if(spawnerData.tag) return;
 
-    if(!spawnerData.name) spawnerData.name = spawnerRealName(file);
+    delete spawnerData.name;
+
+    if(!spawnerData.tag) spawnerData.tag = spawnerRealName(file);
 
     fs.writeFileSync(file, YAML.stringify(spawnerData));
   });

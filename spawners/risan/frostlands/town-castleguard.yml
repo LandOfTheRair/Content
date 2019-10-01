@@ -12,4 +12,4 @@ spawnRadius: 1
 randomWalkRadius: 0
 leashRadius: 40
 doInitialSpawnImmediately: yes
-name: 'Risan Frostlands Town-castleguard'
+tag: 'Risan Frostlands Town-castleguard'

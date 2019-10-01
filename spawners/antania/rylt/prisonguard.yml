@@ -6,4 +6,4 @@ maxCreatures: 5
 spawnRadius: 3
 randomWalkRadius: 10
 leashRadius: 15
-name: 'Antania Rylt Prisonguard'
+tag: 'Antania Rylt Prisonguard'

@@ -7,4 +7,4 @@ spawnRadius: 0
 randomWalkRadius: 0
 leashRadius: 0
 shouldBeActive: yes
-name: 'Antania Rylt Cave-upstairs-acolyte'
+tag: 'Antania Rylt Cave-upstairs-acolyte'

@@ -7,4 +7,4 @@ maxCreatures: 8
 spawnRadius: 2
 randomWalkRadius: 7
 leashRadius: 12
-name: 'Antania Dedlaenmaze Skeleton-room'
+tag: 'Antania Dedlaenmaze Skeleton-room'

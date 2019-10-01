@@ -16,4 +16,4 @@ eliteTickCap: 0
 npcAISettings:
     - resource
 doInitialSpawnImmediately: yes
-name: 'Resource Random-risan-tree'
+tag: 'Resource Random-risan-tree'

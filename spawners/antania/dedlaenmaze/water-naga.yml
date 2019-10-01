@@ -6,4 +6,4 @@ maxCreatures: 5
 spawnRadius: 2
 randomWalkRadius: 10
 leashRadius: 15
-name: 'Antania Dedlaenmaze Water-naga'
+tag: 'Antania Dedlaenmaze Water-naga'

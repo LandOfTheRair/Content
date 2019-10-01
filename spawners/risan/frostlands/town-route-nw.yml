@@ -13,4 +13,4 @@ spawnRadius: 1
 randomWalkRadius: 0
 leashRadius: 35
 doInitialSpawnImmediately: yes
-name: 'Risan Frostlands Town-route-nw'
+tag: 'Risan Frostlands Town-route-nw'

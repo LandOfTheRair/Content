@@ -6,4 +6,4 @@ maxCreatures: 3
 spawnRadius: 0
 randomWalkRadius: 15
 leashRadius: 20
-name: 'Antania Dedlaenmaze Incorporeal-undead'
+tag: 'Antania Dedlaenmaze Incorporeal-undead'

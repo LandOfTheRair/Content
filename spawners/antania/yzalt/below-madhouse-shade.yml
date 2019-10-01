@@ -8,4 +8,4 @@ randomWalkRadius: 1
 leashRadius: 50
 shouldBeActive: yes
 canSlowDown: no
-name: 'Antania Yzalt Below-madhouse-shade'
+tag: 'Antania Yzalt Below-madhouse-shade'

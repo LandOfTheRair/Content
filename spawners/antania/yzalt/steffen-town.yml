@@ -8,4 +8,4 @@ spawnRadius: 0
 randomWalkRadius: 35
 leashRadius: 45
 doInitialSpawnImmediately: yes
-name: 'Antania Yzalt Steffen-town'
+tag: 'Antania Yzalt Steffen-town'

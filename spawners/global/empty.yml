@@ -13,4 +13,4 @@ shouldStrip: yes
 stripOnSpawner: yes
 canSlowDown: no
 eliteTickCap: 0
-name: 'Global Empty'
+tag: 'Global Empty'

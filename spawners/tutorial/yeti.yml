@@ -6,4 +6,4 @@ maxCreatures: 1
 spawnRadius: 1
 randomWalkRadius: 5
 leashRadius: 10
-name: 'Tutorial Yeti'
+tag: 'Tutorial Yeti'

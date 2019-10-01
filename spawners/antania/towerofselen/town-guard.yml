@@ -7,4 +7,4 @@ spawnRadius: 1
 randomWalkRadius: 15
 leashRadius: 20
 doInitialSpawnImmediately: yes
-name: 'Antania Towerofselen Town-guard'
+tag: 'Antania Towerofselen Town-guard'

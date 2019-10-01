@@ -7,4 +7,4 @@ spawnRadius: 1
 randomWalkRadius: 7
 leashRadius: 12
 doInitialSpawnImmediately: yes
-name: 'Risan Frostlands Town-castleslave'
+tag: 'Risan Frostlands Town-castleslave'

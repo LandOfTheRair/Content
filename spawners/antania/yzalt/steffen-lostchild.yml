@@ -9,4 +9,4 @@ leashRadius: 50
 npcAISettings:
     - steffenlostchild
 doInitialSpawnImmediately: yes
-name: 'Antania Yzalt Steffen-lostchild'
+tag: 'Antania Yzalt Steffen-lostchild'

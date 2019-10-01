@@ -6,4 +6,4 @@ maxCreatures: 3
 spawnRadius: 0
 randomWalkRadius: 25
 leashRadius: 45
-name: 'Antania Yzalt Dungeon-sewer-rat'
+tag: 'Antania Yzalt Dungeon-sewer-rat'

@@ -7,4 +7,4 @@ maxCreatures: 5
 spawnRadius: 1
 randomWalkRadius: 10
 leashRadius: 35
-name: 'Antania Yzalt Crazed-steffen'
+tag: 'Antania Yzalt Crazed-steffen'

@@ -7,4 +7,4 @@ maxCreatures: 5
 spawnRadius: 0
 randomWalkRadius: 15
 leashRadius: 35
-name: 'Antania Yzalt Heniz-defense'
+tag: 'Antania Yzalt Heniz-defense'

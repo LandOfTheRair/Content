@@ -7,4 +7,4 @@ spawnRadius: 1
 randomWalkRadius: 15
 leashRadius: 25
 eliteTickCap: 40
-name: 'Risan Frozencatacombs 3f-skeleton'
+tag: 'Risan Frozencatacombs 3f-skeleton'

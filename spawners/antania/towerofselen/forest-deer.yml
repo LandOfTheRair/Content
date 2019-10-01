@@ -6,4 +6,4 @@ maxCreatures: 3
 spawnRadius: 1
 randomWalkRadius: 40
 leashRadius: 50
-name: 'Antania Towerofselen Forest-deer'
+tag: 'Antania Towerofselen Forest-deer'

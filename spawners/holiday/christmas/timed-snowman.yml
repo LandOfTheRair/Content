@@ -7,4 +7,4 @@ maxCreatures: 3
 spawnRadius: 1
 randomWalkRadius: 25
 leashRadius: 35
-name: 'Holiday Christmas Timed-snowman'
+tag: 'Holiday Christmas Timed-snowman'

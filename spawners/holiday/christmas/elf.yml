@@ -6,4 +6,4 @@ maxCreatures: 3
 spawnRadius: 1
 randomWalkRadius: 25
 leashRadius: 35
-name: 'Holiday Christmas Elf'
+tag: 'Holiday Christmas Elf'

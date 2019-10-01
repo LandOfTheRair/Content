@@ -9,4 +9,4 @@ maxCreatures: 3
 spawnRadius: 0
 randomWalkRadius: 15
 leashRadius: 35
-name: 'Antania Yzalt Steffen-offense'
+tag: 'Antania Yzalt Steffen-offense'

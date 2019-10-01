@@ -6,4 +6,4 @@ maxCreatures: 5
 spawnRadius: 1
 randomWalkRadius: 10
 leashRadius: 20
-name: 'Antania Towerofselen Goblin-basic'
+tag: 'Antania Towerofselen Goblin-basic'

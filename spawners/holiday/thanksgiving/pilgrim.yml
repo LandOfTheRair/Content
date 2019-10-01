@@ -7,4 +7,4 @@ spawnRadius: 1
 randomWalkRadius: 25
 leashRadius: 35
 doInitialSpawnImmediately: yes
-name: 'Holiday Thanksgiving Pilgrim'
+tag: 'Holiday Thanksgiving Pilgrim'

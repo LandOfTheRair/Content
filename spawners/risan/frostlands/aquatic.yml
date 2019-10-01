@@ -6,4 +6,4 @@ maxCreatures: 2
 spawnRadius: 1
 randomWalkRadius: 25
 leashRadius: 30
-name: 'Risan Frostlands Aquatic'
+tag: 'Risan Frostlands Aquatic'

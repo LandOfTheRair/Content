@@ -6,4 +6,4 @@ maxCreatures: 3
 spawnRadius: 0
 randomWalkRadius: 7
 leashRadius: 20
-name: 'Antania Yzalt Sewer-ratguard'
+tag: 'Antania Yzalt Sewer-ratguard'

@@ -7,4 +7,4 @@ spawnRadius: 3
 randomWalkRadius: 7
 leashRadius: 10
 doInitialSpawnImmediately: yes
-name: 'Antania Dedlaenmaze Town-person'
+tag: 'Antania Dedlaenmaze Town-person'

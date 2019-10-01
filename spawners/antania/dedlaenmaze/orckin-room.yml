@@ -13,4 +13,4 @@ maxCreatures: 8
 spawnRadius: 2
 randomWalkRadius: 7
 leashRadius: 15
-name: 'Antania Dedlaenmaze Orckin-room'
+tag: 'Antania Dedlaenmaze Orckin-room'

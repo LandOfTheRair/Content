@@ -12,4 +12,4 @@ maxCreatures: 1
 spawnRadius: 0
 randomWalkRadius: 15
 leashRadius: 25
-name: 'Risan Frozencatacombs Lich-random'
+tag: 'Risan Frozencatacombs Lich-random'
