@@ -1,5 +1,3 @@
-# created by a GM command. all of these properties can be overridden at that point.
-
 npcIds: []
 respawnRate: 0
 initialSpawn: 0
@@ -15,3 +13,4 @@ shouldStrip: yes
 stripOnSpawner: yes
 canSlowDown: no
 eliteTickCap: 0
+name: 'Global Empty'

@@ -1,11 +1,9 @@
-# TODO: only active during Christmas holiday time
-
 npcIds:
-  - name: Christmas Present Elf
-    chance: 1
+    - {name: 'Christmas Present Elf', chance: 1}
 respawnRate: 300
 initialSpawn: 1
 maxCreatures: 1
 spawnRadius: 1
 randomWalkRadius: 25
 leashRadius: 35
+name: 'Holiday Christmas Present-elf'

@@ -1,7 +1,5 @@
 npcIds:
-  - name: Training Dummy
-    chance: 1
-
+    - {name: 'Training Dummy', chance: 1}
 respawnRate: 5
 initialSpawn: 1
 maxSpawn: 1
@@ -14,5 +12,7 @@ alwaysSpawn: yes
 requireDeadToRespawn: yes
 canSlowDown: no
 eliteTickCap: 0
-npcAISettings: ['trainingdummy']
+npcAISettings:
+    - trainingdummy
 doInitialSpawnImmediately: yes
+name: 'Global Dummy'

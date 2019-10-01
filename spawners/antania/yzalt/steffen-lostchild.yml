@@ -1,12 +1,12 @@
-
 npcIds:
-  - name: Steffen LostChild
-    chance: 1
+    - {name: 'Steffen LostChild', chance: 1}
 respawnRate: 900
 initialSpawn: 1
 maxCreatures: 1
 spawnRadius: 0
 randomWalkRadius: 50
 leashRadius: 50
-npcAISettings: ['steffenlostchild']
+npcAISettings:
+    - steffenlostchild
 doInitialSpawnImmediately: yes
+name: 'Antania Yzalt Steffen-lostchild'

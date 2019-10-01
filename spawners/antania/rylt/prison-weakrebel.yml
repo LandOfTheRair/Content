@@ -1,9 +1,9 @@
 npcIds:
-  - name: Rylt Renegade Weak Rebel
-    chance: 1
+    - {name: 'Rylt Renegade Weak Rebel', chance: 1}
 respawnRate: 20
 initialSpawn: 2
 maxCreatures: 4
 spawnRadius: 0
 randomWalkRadius: 15
 leashRadius: 25
+name: 'Antania Rylt Prison-weakrebel'

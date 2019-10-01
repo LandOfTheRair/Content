@@ -9,7 +9,8 @@
     "build:droptables": "node _transformers/droptable.js",
     "build:recipes": "node _transformers/recipe.js",
     "build:lores": "node _transformers/lore.js",
-    "build:spawners": "node _transformers/spawner.js"
+    "build:spawners": "node _transformers/spawner.js",
+    "fix:spawnersandmaps": "node _transformers/convert-spawners-and-maps"
   },
   "repository": {
     "type": "git",

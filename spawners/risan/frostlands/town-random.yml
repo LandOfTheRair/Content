@@ -1,8 +1,6 @@
 npcIds:
-  - name: Frostlands Guard
-    chance: 5
-  - name: Frostlands Townee
-    chance: 1
+    - {name: 'Frostlands Guard', chance: 5}
+    - {name: 'Frostlands Townee', chance: 1}
 respawnRate: 15
 initialSpawn: 3
 maxCreatures: 7
@@ -10,3 +8,4 @@ spawnRadius: 2
 randomWalkRadius: 20
 leashRadius: 35
 doInitialSpawnImmediately: yes
+name: 'Risan Frostlands Town-random'

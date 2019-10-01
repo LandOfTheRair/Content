@@ -1,9 +1,6 @@
 npcIds:
-  - name: Small Risan Dying Tree
-    chance: 20
-  - name: Large Risan Dying Tree
-    chance: 1
-
+    - {name: 'Small Risan Dying Tree', chance: 20}
+    - {name: 'Large Risan Dying Tree', chance: 1}
 respawnRate: 1800
 initialSpawn: 1
 maxSpawn: 1
@@ -16,5 +13,7 @@ alwaysSpawn: yes
 requireDeadToRespawn: yes
 canSlowDown: no
 eliteTickCap: 0
-npcAISettings: ['resource']
+npcAISettings:
+    - resource
 doInitialSpawnImmediately: yes
+name: 'Resource Random-risan-tree'

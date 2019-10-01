@@ -1,6 +1,5 @@
 npcIds:
-  - name: Dedlaen Townee
-    chance: 1
+    - {name: 'Dedlaen Townee', chance: 1}
 respawnRate: 30
 initialSpawn: 2
 maxCreatures: 5
@@ -8,3 +7,4 @@ spawnRadius: 3
 randomWalkRadius: 7
 leashRadius: 10
 doInitialSpawnImmediately: yes
+name: 'Antania Dedlaenmaze Town-person'

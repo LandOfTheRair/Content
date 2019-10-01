@@ -1,12 +1,8 @@
 npcIds:
-  - name: Lunatic Warrior
-    chance: 1
-  - name: Lunatic Mage
-    chance: 1
-  - name: Lunatic Healer
-    chance: 1
-  - name: Lunatic Thief
-    chance: 1
+    - {name: 'Lunatic Warrior', chance: 1}
+    - {name: 'Lunatic Mage', chance: 1}
+    - {name: 'Lunatic Healer', chance: 1}
+    - {name: 'Lunatic Thief', chance: 1}
 respawnRate: 0
 initialSpawn: 0
 maxCreatures: 100
@@ -14,3 +10,4 @@ spawnRadius: 2
 randomWalkRadius: 7
 leashRadius: 50
 shouldBeActive: yes
+name: 'Antania Yzalt Below-madhouse-insane'

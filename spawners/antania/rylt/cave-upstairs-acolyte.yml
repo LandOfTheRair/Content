@@ -1,6 +1,5 @@
 npcIds:
-  - name: Crazed Saraxa Acolyte
-    chance: 1
+    - {name: 'Crazed Saraxa Acolyte', chance: 1}
 respawnRate: 0
 initialSpawn: 0
 maxCreatures: 1
@@ -8,3 +7,4 @@ spawnRadius: 0
 randomWalkRadius: 0
 leashRadius: 0
 shouldBeActive: yes
+name: 'Antania Rylt Cave-upstairs-acolyte'

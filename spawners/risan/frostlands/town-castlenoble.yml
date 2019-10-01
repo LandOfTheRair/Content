@@ -1,6 +1,5 @@
 npcIds:
-  - name: Frostlands Noble
-    chance: 1
+    - {name: 'Frostlands Noble', chance: 1}
 respawnRate: 30
 initialSpawn: 1
 maxCreatures: 2
@@ -8,3 +7,4 @@ spawnRadius: 1
 randomWalkRadius: 7
 leashRadius: 12
 doInitialSpawnImmediately: yes
+name: 'Risan Frostlands Town-castlenoble'

@@ -1,6 +1,3 @@
-# the npcId is inferred from the map, and all of these properties can be overridden by the map object
-# obj.properties.lairName is the npcId to spawn
-
 npcIds: []
 respawnRate: 3600
 initialSpawn: 1
@@ -17,3 +14,4 @@ stripOnSpawner: yes
 canSlowDown: no
 isDangerous: yes
 eliteTickCap: 0
+name: 'Global Lair'

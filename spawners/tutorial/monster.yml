@@ -1,11 +1,10 @@
 npcIds:
-  - name: Tutorial Deer
-    chance: 1
-  - name: Tutorial Wolf
-    chance: 1
+    - {name: 'Tutorial Deer', chance: 1}
+    - {name: 'Tutorial Wolf', chance: 1}
 respawnRate: 15
 initialSpawn: 2
 maxCreatures: 6
 spawnRadius: 1
 randomWalkRadius: 5
 leashRadius: 10
+name: 'Tutorial Monster'
