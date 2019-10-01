@@ -1142,10 +1142,12 @@
         effectInfo:
           isPermanent: true
 
-  combatMessages:
-    - "WHO INTRUDES UPON MY HOME?"
-    - "RAWWWWWWWRGH!"
-    - "WHERE... SEDGWICK?"
+  triggers:
+    combat:
+      messages:
+        - "WHO INTRUDES UPON MY HOME?"
+        - "RAWWWWWWWRGH!"
+        - "WHERE... SEDGWICK?"
 
 
 - npcId: Crazed Sedgwick
@@ -1221,6 +1223,13 @@
           isPermanent: true
 
   triggers:
+    combat:
+      messages:
+        - "WHY YOU HERE"
+        - "WHY I HERE"
+        - "WHERE HOME?"
+        - "KILLLLLLLLLLLLL"
+        - "FOR THE KING!"
     hp:
       percent:
         75:
@@ -1261,10 +1270,3 @@
       chance: -1
     - drop: 'gear.Robe1'
       chance: -1
-
-  combatMessages:
-    - "WHY YOU HERE"
-    - "WHY I HERE"
-    - "WHERE HOME?"
-    - "KILLLLLLLLLLLLL"
-    - "FOR THE KING!"

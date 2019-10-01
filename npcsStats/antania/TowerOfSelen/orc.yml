@@ -297,4 +297,7 @@
     - drop: 'leftHand'
       chance: -1
 
-  spawnMessage: "the rallying warcry of the orcs"
+  triggers:
+    spawn:
+      messages:
+        - "the rallying warcry of the orcs"

@@ -151,9 +151,13 @@
   tansFor: Rylt Fur
   tanSkillRequired: 1
 
-  spawnMessage: "the howling of a wolf"
-  sfx: "wolf"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the howling of a wolf"
+      sfx: 
+        name: "wolf"
+        maxChance: 20
 
 - npcId: Rylt Bear
   name: bear
@@ -205,9 +209,14 @@
       chance: 1
       maxChance: 25
 
-  spawnMessage: "a deep roar"
-  sfx: "bear"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "a deep roar"
+      sfx: 
+        name: "bear"
+        maxChance: 20
+
   tanSkillRequired: 1
 
 - npcId: Rylt Werebear
@@ -280,7 +289,16 @@
       chance: 1
       maxChance: 25
 
-  spawnMessage: "a guttural roar"
-  leashMessage: "a guttural roar"
-  sfx: "bear"
-  sfxMaxChance: 1
+  triggers:
+    leash:
+      messages:
+        - "a guttural roar"
+      sfx: 
+        name: "bear"
+        maxChance: 1
+    spawn:
+      messages:
+        - "a guttural roar"
+      sfx: 
+        name: "bear"
+        maxChance: 1

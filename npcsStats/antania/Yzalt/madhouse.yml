@@ -167,9 +167,11 @@
       - Rune Scroll - Martial Agility I
       - Rune Scroll - Sterling Armor I
 
-  combatMessages:
-    - "Gwahaha, the power! You truly don't understand!"
-    - "Fools, your time is short!"
+  triggers:
+    combat:
+      messages:
+        - "Gwahaha, the power! You truly don't understand!"
+        - "Fools, your time is short!"
 
 - npcId: Lunatic Healer
   name: lunatic healer

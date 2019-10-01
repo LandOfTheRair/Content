@@ -130,9 +130,13 @@
   tansFor: Crazed Beast Fur
   tanSkillRequired: 12
 
-  spawnMessage: "the howling of a wolf"
-  sfx: "wolf"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the howling of a wolf"
+      sfx: 
+        name: "wolf"
+        maxChance: 20
 
 - npcId: Risan Crazed Bear
   name: crazed bear
@@ -201,9 +205,13 @@
   tansFor: Crazed Bear Fur
   tanSkillRequired: 12
 
-  spawnMessage: "a deep roar"
-  sfx: "bear"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "a deep roar"
+      sfx: 
+        name: "bear"
+        maxChance: 20
 
 - npcId: Mines Griffon
   name: griffon
@@ -266,10 +274,19 @@
   tansFor: Mines Griffon Fur
   tanSkillRequired: 14
 
-  spawnMessage: "the screeching of a crazed griffon"
-  leashMessage: "the screeching of a crazed griffon"
-  sfx: "bird"
-  sfxMaxChance: 1
+  triggers:
+    leash:
+      messages:
+        - "the screeching of an crazed griffon"
+      sfx: 
+        name: "bird"
+        maxChance: 1
+    spawn:
+      messages:
+        - "the screeching of an crazed griffon"
+      sfx: 
+        name: "bird"
+        maxChance: 1
 
 - npcId: Risan Dryad
   name: dryad

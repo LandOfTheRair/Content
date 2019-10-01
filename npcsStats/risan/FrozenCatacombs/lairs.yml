@@ -93,10 +93,19 @@
   tansFor: Catacombs Silver Dragon Scale Tunic
   tanSkillRequired: 18
 
-  spawnMessage: "a billowing gust of wind displaced by a strong crunching sound"
-  leashMessage: "a billowing gust of wind displaced by a strong crunching sound"
-  sfx: "dragon"
-  sfxMaxChance: 1
+  triggers:
+    leash:
+      messages:
+        - "a billowing gust of wind displaced by a strong crunching sound"
+      sfx: 
+        name: "dragon"
+        maxChance: 1
+    spawn:
+      messages:
+        - "a billowing gust of wind displaced by a strong crunching sound"
+      sfx: 
+        name: "dragon"
+        maxChance: 1
 
 
 - npcId: Catacombs Tomb Guardian
@@ -185,10 +194,19 @@
   tansFor: Catacombs Tomb Guardian Fur
   tanSkillRequired: 16
 
-  spawnMessage: "the screeching of an enormous bird"
-  leashMessage: "the screeching of an enormous bird"
-  sfx: "bird"
-  sfxMaxChance: 1
+  triggers:
+    leash:
+      messages:
+        - "the screeching of an enormous bird"
+      sfx: 
+        name: "bird"
+        maxChance: 1
+    spawn:
+      messages:
+        - "the screeching of an enormous bird"
+      sfx: 
+        name: "bird"
+        maxChance: 1
 
 - npcId: Catacombs Frost Knight
   name: frost knight
@@ -476,7 +494,9 @@
     DegenerativeVenom: 1
     CorrosivePoison: 1
 
-  combatMessages:
-    - "Gwahaha, you shall meet your end here in this frozen tomb!"
-    - "My students shall rise up and bring a proper rule to this world!"
-    - "The ancient Risan kingdom will take power once more!"
+  triggers:
+    combat:
+      messages:
+        - "Gwahaha, you shall meet your end here in this frozen tomb!"
+        - "My students shall rise up and bring a proper rule to this world!"
+        - "The ancient Risan kingdom will take power once more!"

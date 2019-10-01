@@ -52,7 +52,10 @@
     - Darkness
     - DarkVision
 
-  spawnMessage: "the sound of water being skittered around in"
+  triggers:
+    spawn:
+      messages:
+        - "the sound of water being skittered around in"
 
 - npcId: Yzalt Sewer RatGuard
   name: ratguard
@@ -119,5 +122,8 @@
     - DiseaseBiteWeak
     - Darkness
     - DarkVision
-
-  spawnMessage: "the sound of water being splashed around in"
+    
+  triggers:
+    spawn:
+      messages:
+        - "the sound of water being skittered around in"

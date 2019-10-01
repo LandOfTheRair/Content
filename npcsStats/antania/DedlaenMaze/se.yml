@@ -262,8 +262,17 @@
     min: 369000
     max: 375000
 
-  spawnMessage: "the splashing and crunching of a giant sea creature"
-  leashMessage: "the splashing and crunching of a giant sea creature"
-  sfx: "dragon"
-  sfxMaxChance: 1
+  triggers:
+    leash:
+      messages:
+        - "the splashing and crunching of a giant sea creature"
+      sfx: 
+        name: "dragon"
+        maxChance: 1
+    spawn:
+      messages:
+        - "the splashing and crunching of a giant sea creature"
+      sfx: 
+        name: "dragon"
+        maxChance: 1
 

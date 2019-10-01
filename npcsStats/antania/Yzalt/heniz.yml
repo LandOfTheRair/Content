@@ -228,10 +228,12 @@
     - Identify
     - Transmute
 
-  combatMessages:
-    - "Remove yourselves from our home, Steffen fiends!"
-    - "You can't take our home away from us, you Steffen monsters!"
-    - "The Steffen never learn, do they?"
+  triggers:
+    combat:
+      messages:
+        - "Remove yourselves from our home, Steffen fiends!"
+        - "You can't take our home away from us, you Steffen monsters!"
+        - "The Steffen never learn, do they?"
 
   copyDrops:
     - drop: 'rightHand'
@@ -329,10 +331,12 @@
       - result: Heniz Battlemage Gloves
         chance: 1
 
-  combatMessages:
-    - "Remove yourselves from our home, Steffen fiends!"
-    - "You can't take our home away from us, you Steffen monsters!"
-    - "The Steffen never learn, do they?"
+  triggers:
+    combat:
+      messages:
+        - "Remove yourselves from our home, Steffen fiends!"
+        - "You can't take our home away from us, you Steffen monsters!"
+        - "The Steffen never learn, do they?"
 
   copyDrops:
     - drop: 'rightHand'
@@ -431,10 +435,12 @@
     - Identify
     - Transmute
 
-  combatMessages:
-    - "Remove yourselves from our land, Steffen fiends!"
-    - "We will conquer your town and displace your king!"
-    - "The Steffen never learn, do they?"
+  triggers:
+    combat:
+      messages:
+        - "Remove yourselves from our land, Steffen fiends!"
+        - "We will conquer your town and displace your king!"
+        - "The Steffen never learn, do they?"
 
   copyDrops:
     - drop: 'rightHand'
@@ -532,10 +538,12 @@
       - result: Heniz Battlemage Gloves
         chance: 1
 
-  combatMessages:
-    - "Remove yourselves from our land, Steffen fiends!"
-    - "We will conquer your town and displace your king!"
-    - "The Steffen never learn, do they?"
+  triggers:
+    combat:
+      messages:
+        - "Remove yourselves from our land, Steffen fiends!"
+        - "We will conquer your town and displace your king!"
+        - "The Steffen never learn, do they?"
 
   copyDrops:
     - drop: 'rightHand'

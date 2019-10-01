@@ -108,11 +108,14 @@
       - Rune Scroll - Martial Agility I
       - Rune Scroll - Sterling Armor I
 
-  combatMessages:
-    - "BROTHERS... HELP"
-    - "WHY IT END THIS WAY"
-    - "YOU... DIE"
-    - "ETHER... POWER"
+
+  triggers:
+    combat:
+      messages:
+        - "BROTHERS... HELP"
+        - "WHY IT END THIS WAY"
+        - "YOU... DIE"
+        - "ETHER... POWER"
 
 - npcId: Shadow Telwin
   name: Shadow Telwin

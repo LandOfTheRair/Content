@@ -58,9 +58,13 @@
     - drop: 'gear.Armor'
       chance: -1
 
-  spawnMessage: "the sound of rocks grinding together"
-  sfx: "rocks"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the sound of rocks grinding together"
+      sfx: 
+        name: "rocks"
+        maxChance: 20
 
 - npcId: Rylt Cave Apprentice
   name: apprentice
@@ -226,10 +230,12 @@
       chance: 1
       maxChance: 20
 
-  combatMessages:
-    - "Ah, Rocky, do be a dear and take care of our guests!"
-    - "Those who trespass in my cave must pay the price!"
-    - "You shall not interfere with our plans!"
+  triggers:
+    combat:
+      messages:
+        - "Ah, Rocky, do be a dear and take care of our guests!"
+        - "Those who trespass in my cave must pay the price!"
+        - "You shall not interfere with our plans!"
 
 - npcId: Saraxa Rocky
   name: Rocky

@@ -111,9 +111,13 @@
         effectInfo:
           isPermanent: true
 
-  spawnMessage: "the clattering of bones"
-  sfx: "skeleton"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the clattering of bones"
+      sfx: 
+        name: "skeleton"
+        maxChance: 20
 
 - npcId: Catacombs Mummy 2F
   name: mummy squire
@@ -346,9 +350,13 @@
         effectInfo:
           isPermanent: true
 
-  spawnMessage: "the screeching of an ancient banshee"
-  sfx: "ghost"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the screeching of an ancient banshee"
+      sfx: 
+        name: "ghost"
+        maxChance: 20
 
 - npcId: Catacombs Wight 2F
   name: wight mage

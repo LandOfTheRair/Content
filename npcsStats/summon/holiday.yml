@@ -34,9 +34,13 @@
     min: 0
     max: 0
 
-  spawnMessage: "the gobbling of a turkey"
-  sfx: "turkey"
-  sfxMaxChance: 1
+  triggers:
+    spawn:
+      messages:
+        - "the gobbling of a turkey"
+      sfx: 
+        name: "turkey"
+        maxChance: 1
 
 - npcId: Holiday Summon Snowman
   name: snowman

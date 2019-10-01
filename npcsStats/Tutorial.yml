@@ -103,9 +103,13 @@
     Armor: Tutorial Fur
     Hands: Basic Claws
 
-  spawnMessage: "the howling of a wolf"
-  sfx: "wolf"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the howling of a wolf"
+      sfx: 
+        name: "wolf"
+        maxChance: 20
 
 - npcId: Tutorial Yeti
   name: yeti

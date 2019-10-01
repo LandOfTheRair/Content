@@ -104,9 +104,13 @@
       chance: 1
       maxChance: 50
 
-  spawnMessage: "the gobbling of a young turkey"
-  sfx: "turkey"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the gobbling of a young turkey"
+      sfx:
+        name: "turkey"
+        maxChance: 20
 
 - npcId: Thanksgiving Strong Turkey
   name: turkey
@@ -158,9 +162,13 @@
       chance: 1
       maxChance: 40
 
-  spawnMessage: "the gobbling of a turkey"
-  sfx: "turkey"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the gobbling of a turkey"
+      sfx:
+        name: "turkey"
+        maxChance: 20
 
 - npcId: Thanksgiving Secret Turkey
   name: gobbler
@@ -215,9 +223,13 @@
       chance: 1
       maxChance: 20
 
-  spawnMessage: "the guttural gobbling of a turkey"
-  sfx: "turkey"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the guttural gobbling of a turkey"
+      sfx:
+        name: "turkey"
+        maxChance: 20
 
 - npcId: Thanksgiving Gobbleguard
   name: gobbleguard
@@ -275,9 +287,13 @@
       chance: 1
       maxChance: 2
 
-  spawnMessage: "the gobbling of a turkey"
-  sfx: "turkey"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the gobbling of a turkey"
+      sfx:
+        name: "turkey"
+        maxChance: 20
 
 - npcId: Thanksgiving King Gobbler
   name: Rojd
@@ -374,8 +390,17 @@
       - result: Thanksgiving Pilgrim Cloak
         chance: 1
 
-  spawnMessage: "a deep gobble-roar"
-  leashMessage: "a deep gobble-roar"
-  sfx: "turkey"
-  sfxMaxChance: 1
+  triggers:
+    spawn:
+      messages:
+        - "the deep gobble-roar"
+      sfx:
+        name: "turkey"
+        maxChance: 20
+    leash:
+      messages:
+        - "the deep gobble-roar"
+      sfx:
+        name: "turkey"
+        maxChance: 20
 

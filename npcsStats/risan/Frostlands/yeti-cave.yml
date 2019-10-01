@@ -230,9 +230,13 @@
     - drop: 'gear.Armor'
       chance: -1
 
-  spawnMessage: "the sound of rocks grinding together"
-  sfx: "rocks"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the sound of rocks grinding together"
+      sfx: 
+        name: "rocks"
+        maxChance: 20
 
 - npcId: Abomniblus
   name: Abomniblus

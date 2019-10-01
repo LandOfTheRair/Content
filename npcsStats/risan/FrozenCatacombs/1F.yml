@@ -102,9 +102,13 @@
         effectInfo:
           isPermanent: true
 
-  spawnMessage: "the clattering of bones"
-  sfx: "skeleton"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the clattering of bones"
+      sfx: 
+        name: "skeleton"
+        maxChance: 20
 
 - npcId: Catacombs Mummy 1F
   name: mummy page
@@ -312,9 +316,13 @@
         effectInfo:
           isPermanent: true
 
-  spawnMessage: "the screeching of an ancient banshee"
-  sfx: "ghost"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the screeching of an ancient banshee"
+      sfx: 
+        name: "ghost"
+        maxChance: 20
 
 - npcId: Catacombs Wight 1F
   name: wight initiate

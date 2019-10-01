@@ -65,7 +65,11 @@
   gear:
     Armor: Antanian Tunic
 
-  leashMessage: "the lost child says: Mama says I shouldn't go into these woods.."
+
+  triggers:
+    leash:
+      messages:
+        - "the lost child says: Mama says I shouldn't go into these woods.."
 
 - npcId: Steffen Townee
   name: townee
@@ -241,10 +245,12 @@
   usableSkills:
     - Boost
 
-  combatMessages:
-    - "We will erase the infidels from our town!"
-    - "No Heniz will leave here unscathed!"
-    - "Come out, you shadow fiends!"
+  triggers:
+    combat:
+      messages:
+        - "We will erase the infidels from our town!"
+        - "No Heniz will leave here unscathed!"
+        - "Come out, you shadow fiends!"
 
   copyDrops:
     - drop: 'rightHand'
@@ -335,10 +341,12 @@
       - result: Steffen Offensive Sash
         chance: 1
 
-  combatMessages:
-    - "We will erase the infidels from our town!"
-    - "No Heniz will leave here unscathed!"
-    - "Come out, you shadow fiends!"
+  triggers:
+    combat:
+      messages:
+        - "We will erase the infidels from our town!"
+        - "No Heniz will leave here unscathed!"
+        - "Come out, you shadow fiends!"
 
   copyDrops:
     - drop: 'rightHand'
@@ -432,10 +440,12 @@
   usableSkills:
     - Boost
 
-  combatMessages:
-    - "We will erase the infidels from our continent!"
-    - "Down with the Heniz!"
-    - "Come out, you shadow fiends!"
+  triggers:
+    combat:
+      messages:
+        - "We will erase the infidels from our continent!"
+        - "Down with the Heniz!"
+        - "Come out, you shadow fiends!"
 
   copyDrops:
     - drop: 'rightHand'
@@ -524,10 +534,12 @@
       - result: Steffen Offensive Sash
         chance: 1
 
-  combatMessages:
-    - "We will erase the infidels from our continent!"
-    - "Down with the Heniz!"
-    - "Come out, you shadow fiends!"
+  triggers:
+    combat:
+      messages:
+        - "We will erase the infidels from our continent!"
+        - "Down with the Heniz!"
+        - "Come out, you shadow fiends!"
 
   copyDrops:
     - drop: 'rightHand'

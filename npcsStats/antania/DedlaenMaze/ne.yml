@@ -98,9 +98,13 @@
         effectInfo:
           isPermanent: true
 
-  spawnMessage: "the indecipherable blabbering of goblins"
-  sfx: "goblin"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the indecipherable blabbering of goblins"
+      sfx: 
+        name: "goblin"
+        maxChance: 20
 
 
 - npcId: Dedlaen Goblin Thief
@@ -233,9 +237,13 @@
       chance: 10
       maxChance: 100
 
-  spawnMessage: "the indecipherable blabbering of goblins"
-  sfx: "goblin"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the indecipherable blabbering of goblins"
+      sfx: 
+        name: "goblin"
+        maxChance: 20
 
 
 - npcId: Dedlaen Hobgoblin
@@ -339,9 +347,13 @@
     - drop: 'leftHand'
       chance: -1
 
-  spawnMessage: "the indecipherable blabbering of goblins"
-  sfx: "goblin"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the indecipherable blabbering of goblins"
+      sfx: 
+        name: "goblin"
+        maxChance: 20
 
 - npcId: Dedlaen Orc
   name: orc
@@ -892,7 +904,11 @@
         effectInfo:
           isPermanent: true
 
-  leashMessage: "the townee says: This is too much for me! I can't do this!"
+
+  triggers:
+    leash:
+      messages:
+        - "the townee says: This is too much for me! I can't do this!"
 
 - npcId: Dedlaen Escort Guard
   name: guard
@@ -935,4 +951,7 @@
         effectInfo:
           isPermanent: true
 
-  leashMessage: "the guard says: Maybe this was too tough after all..."
+  triggers:
+    leash:
+      messages:
+        - "the guard says: Maybe this was too tough after all..."

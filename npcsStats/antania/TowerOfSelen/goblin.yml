@@ -77,9 +77,13 @@
     - drop: 'leftHand'
       chance: -1
 
-  spawnMessage: "the indecipherable blabbering of goblins"
-  sfx: "goblin"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the indecipherable blabbering of goblins"
+      sfx: 
+        name: "goblin"
+        maxChance: 20
 
 
 - npcId: Tower Goblin Thief
@@ -191,9 +195,13 @@
       chance: 10
       maxChance: 100
 
-  spawnMessage: "the indecipherable blabbering of goblins"
-  sfx: "goblin"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the indecipherable blabbering of goblins"
+      sfx: 
+        name: "goblin"
+        maxChance: 20
 
 
 - npcId: Tower Hobgoblin
@@ -276,6 +284,10 @@
     - drop: 'leftHand'
       chance: -1
 
-  spawnMessage: "the indecipherable blabbering of goblins"
-  sfx: "goblin"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the indecipherable blabbering of goblins"
+      sfx: 
+        name: "goblin"
+        maxChance: 20

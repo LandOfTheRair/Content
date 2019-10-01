@@ -351,10 +351,12 @@
     FrostedTouch: 5
     WintersEmbrace: 5
 
-  combatMessages:
-    - "Gwahaha, Christmas is mine!"
-    - "You'll never save Santa Claus!"
-    - "Don't even try to stop me!"
+  triggers:
+    combat:
+      messages:
+        - "Gwahaha, Christmas is mine!"
+        - "You'll never save Santa Claus!"
+        - "Don't even try to stop me!"
 
   baseEffects:
     - name: Attribute

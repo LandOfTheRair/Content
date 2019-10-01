@@ -59,9 +59,14 @@
       chance: 1
       maxChance: 50
 
-  spawnMessage: "the clattering of bones"
-  sfx: "skeleton"
-  sfxMaxChance: 20
+
+  triggers:
+    spawn:
+      messages:
+        - "the clattering of bones"
+      sfx: 
+        name: "skeleton"
+        maxChance: 20
 
 - npcId: Dedlaen Skeleton Knight
   name: skeleton knight
@@ -126,9 +131,13 @@
   usableSkills:
     - Charge
 
-  spawnMessage: "the clattering of bones"
-  sfx: "skeleton"
-  sfxMaxChance: 20
+  triggers:
+    spawn:
+      messages:
+        - "the clattering of bones"
+      sfx: 
+        name: "skeleton"
+        maxChance: 20
 
 - npcId: Dedlaen Death Knight
   name: death knight
@@ -207,11 +216,13 @@
     - MagicShield
     - DarkVision
 
-  combatMessages:
-    - You will not take the throne from the dark lord!
-    - You will fall here!
-    - Your life is no longer your own!
-    - For the dark lord!
+  triggers:
+    combat:
+      messages:
+        - You will not take the throne from the dark lord!
+        - You will fall here!
+        - Your life is no longer your own!
+        - For the dark lord!
 
 - npcId: Dedlaen Vampire
   name: vampire
@@ -264,10 +275,12 @@
     - DarkVision
     - TrueSight
 
-  combatMessages:
-    - Gwahahaha! Very good!
-    - Soon, you'll become one of my pet skeletons!
-    - You cannot dethrone the dark lord!
+  triggers:
+    combat:
+      messages:
+        - Gwahahaha! Very good!
+        - Soon, you'll become one of my pet skeletons!
+        - You cannot dethrone the dark lord!
 
 - npcId: Dedlaen Vampire Bat
   name: bat

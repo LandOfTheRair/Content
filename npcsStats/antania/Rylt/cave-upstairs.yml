@@ -116,10 +116,12 @@
       - Rune Scroll - Martial Agility I
       - Rune Scroll - Sterling Armor I
 
-  combatMessages:
-    - "CAVE EXPERIMENTS... SUCCESS"
-    - "SENTIENT GOLEMS, ATTACK"
-    - "SHAMANS... NEXT"
+  triggers:
+    combat:
+      messages:
+        - "CAVE EXPERIMENTS... SUCCESS"
+        - "SENTIENT GOLEMS, ATTACK"
+        - "SHAMANS... NEXT"
 
 - npcId: Crazed Saraxa Rocky
   name: Crazed Rocky
