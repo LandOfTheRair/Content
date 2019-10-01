@@ -40,7 +40,7 @@ const merge = async () => {
     console.log(`Loading ${allRecipeData.length} recipes...`);
 
     if(!fs.existsSync('_output')) fs.mkdirSync('_output');
-    fs.writeFileSync('_output/recipes.yml', YAML.stringify(allRecipeData, 4));
+    fs.writeFileSync('_output/recipes.json', JSON.stringify(allRecipeData, null, 4));
 
   } catch(e) {
     console.error(e);

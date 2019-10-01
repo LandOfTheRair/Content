@@ -213,7 +213,7 @@ const merge = async () => {
     console.log(`Loading ${allItemData.length} items...`);
 
     if(!fs.existsSync('_output')) fs.mkdirSync('_output');
-    fs.writeFileSync('_output/items.yml', YAML.stringify(allItemData, 4));
+    fs.writeFileSync('_output/items.json', JSON.stringify(allItemData, null, 4));
 
   } catch(e) {
     console.error(e);

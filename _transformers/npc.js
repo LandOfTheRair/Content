@@ -176,7 +176,7 @@ const merge = async () => {
     console.log(`Loading ${allNPCData.length} NPCs...`);
 
     if(!fs.existsSync('_output')) fs.mkdirSync('_output');
-    fs.writeFileSync('_output/npcs.yml', YAML.stringify(allNPCData, 4));
+    fs.writeFileSync('_output/npcs.json', JSON.stringify(allNPCData, null, 4));
 
   } catch(e) {
     console.error(e);

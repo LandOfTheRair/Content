@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Content scripts for LotR",
   "scripts": {
-    "build:all": "npm run build:items && npm run build:npcs && npm run build:droptables && npm run build:recipes && npm run build:lores",
+    "build:all": "npm run build:items && npm run build:npcs && npm run build:droptables && npm run build:recipes && npm run build:lores && npm run build:spawners",
     "build:items": "node _transformers/item.js",
     "build:npcs": "node _transformers/npc.js",
     "build:droptables": "node _transformers/droptable.js",

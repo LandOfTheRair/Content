@@ -21,7 +21,7 @@ const mergeRegions = async () => {
     console.log(`Loading ${droptables.length} regions droptables...`);
 
     if(!fs.existsSync('_output')) fs.mkdirSync('_output');
-    fs.writeFileSync('_output/droptable-regions.yml', YAML.stringify(droptables, 4));
+    fs.writeFileSync('_output/droptable-regions.json', JSON.stringify(droptables, null, 4));
 
   } catch(e) {
     console.error(e);
@@ -45,7 +45,7 @@ const mergeMaps = async () => {
     console.log(`Loading ${droptables.length} maps droptables...`);
 
     if(!fs.existsSync('_output')) fs.mkdirSync('_output');
-    fs.writeFileSync('_output/droptable-maps.yml', YAML.stringify(droptables, 4));
+    fs.writeFileSync('_output/droptable-maps.json', JSON.stringify(droptables, null, 4));
 
   } catch(e) {
     console.error(e);

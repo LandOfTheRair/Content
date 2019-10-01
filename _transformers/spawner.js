@@ -37,7 +37,7 @@ const merge = async () => {
     console.log(`Loading ${spawnerDatas.length} Spawners...`);
 
     if(!fs.existsSync('_output')) fs.mkdirSync('_output');
-    fs.writeFileSync('_output/spawners.yml', YAML.stringify(spawnerDatas, 4));
+    fs.writeFileSync('_output/spawners.json', JSON.stringify(spawnerDatas, null, 4));
 
   } catch(e) {
     console.error(e);

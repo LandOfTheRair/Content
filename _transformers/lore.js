@@ -1,8 +1,4 @@
 
-
-const YAML = require('yamljs');
-const path = require('path');
-const recurse = require('recursive-readdir');
 const fs = require('fs');
 
 const DROP_RATE_MAX = 10000;
@@ -111,17 +107,17 @@ const recipeScrollItems = (itemData, regionDropData, recipeData) => {
 
 const merge = async () => {
   try {
-    const allItemData = YAML.load('_output/items.yml');
-    const allMapDropData = YAML.load('_output/droptable-maps.yml');
-    const allRegionDropData = YAML.load('_output/droptable-regions.yml');
-    const allRecipeData = YAML.load('_output/recipes.yml');
+    const allItemData = JSON.parse(fs.readFileSync('_output/items.json'));
+    const allMapDropData = JSON.parse(fs.readFileSync('_output/droptable-maps.json'));
+    const allRegionDropData = JSON.parse(fs.readFileSync('_output/droptable-regions.json'));
+    const allRecipeData = JSON.parse(fs.readFileSync('_output/recipes.json'));
 
     gemDescItems(allItemData, allMapDropData, allRegionDropData);
     recipeScrollItems(allItemData, allRegionDropData, allRecipeData);
 
-    fs.writeFileSync('_output/items.yml', YAML.stringify(allItemData, 4));
-    fs.writeFileSync('_output/droptable-maps.yml', YAML.stringify(allMapDropData, 4));
-    fs.writeFileSync('_output/droptable-regions.yml', YAML.stringify(allRegionDropData, 4));
+    fs.writeFileSync('_output/items.json', JSON.stringify(allItemData, null, 4));
+    fs.writeFileSync('_output/droptable-maps.json', JSON.stringify(allMapDropData, null, 4));
+    fs.writeFileSync('_output/droptable-regions.json', JSON.stringify(allRegionDropData, null, 4));
 
   } catch(e) {
     console.error(e);
