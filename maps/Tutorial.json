@@ -12132,10 +12132,10 @@
                     "id": 174,
                     "name": "Armor Seller",
                     "properties": {
-                        "script": "tutorial/armor-vendor"
+                        "tag": "Tutorial Armor Vendor"
                     },
                     "propertytypes": {
-                        "script": "string"
+                        "tag": "string"
                     },
                     "rotation": 0,
                     "type": "",
@@ -12150,10 +12150,10 @@
                     "id": 177,
                     "name": "Weapon Seller",
                     "properties": {
-                        "script": "tutorial/weapon-vendor"
+                        "tag": "Tutorial Weapon Vendor"
                     },
                     "propertytypes": {
-                        "script": "string"
+                        "tag": "string"
                     },
                     "rotation": 0,
                     "type": "",
@@ -12168,10 +12168,10 @@
                     "id": 178,
                     "name": "Potion Seller",
                     "properties": {
-                        "script": "tutorial/potion-vendor"
+                        "tag": "Tutorial Potion Vendor"
                     },
                     "propertytypes": {
-                        "script": "string"
+                        "tag": "string"
                     },
                     "rotation": 0,
                     "type": "",
@@ -12186,10 +12186,10 @@
                     "id": 179,
                     "name": "Hermit Bradley",
                     "properties": {
-                        "script": "tutorial/hermit"
+                        "tag": "Tutorial Hermit"
                     },
                     "propertytypes": {
-                        "script": "string"
+                        "tag": "string"
                     },
                     "rotation": 0,
                     "type": "",
@@ -12206,12 +12206,12 @@
                     "properties": {
                         "maxLevelUpLevel": 3,
                         "maxSkillTrain": 3,
-                        "script": "trainer/healer"
+                        "tag": "Trainer Healer"
                     },
                     "propertytypes": {
                         "maxLevelUpLevel": "int",
                         "maxSkillTrain": "int",
-                        "script": "string"
+                        "tag": "string"
                     },
                     "rotation": 0,
                     "type": "",
@@ -12228,12 +12228,12 @@
                     "properties": {
                         "maxLevelUpLevel": 3,
                         "maxSkillTrain": 3,
-                        "script": "trainer/mage"
+                        "tag": "Trainer Mage"
                     },
                     "propertytypes": {
                         "maxLevelUpLevel": "int",
                         "maxSkillTrain": "int",
-                        "script": "string"
+                        "tag": "string"
                     },
                     "rotation": 0,
                     "type": "",
@@ -12250,12 +12250,12 @@
                     "properties": {
                         "maxLevelUpLevel": 3,
                         "maxSkillTrain": 3,
-                        "script": "trainer/warrior"
+                        "tag": "Trainer Warrior"
                     },
                     "propertytypes": {
                         "maxLevelUpLevel": "int",
                         "maxSkillTrain": "int",
-                        "script": "string"
+                        "tag": "string"
                     },
                     "rotation": 0,
                     "type": "",
@@ -12272,12 +12272,12 @@
                     "properties": {
                         "maxLevelUpLevel": 3,
                         "maxSkillTrain": 3,
-                        "script": "trainer/thief"
+                        "tag": "Trainer Thief"
                     },
                     "propertytypes": {
                         "maxLevelUpLevel": "int",
                         "maxSkillTrain": "int",
-                        "script": "string"
+                        "tag": "string"
                     },
                     "rotation": 0,
                     "type": "",
@@ -12292,10 +12292,10 @@
                     "id": 194,
                     "name": "Billy",
                     "properties": {
-                        "script": "tutorial/billy"
+                        "tag": "Tutorial Billy"
                     },
                     "propertytypes": {
-                        "script": "string"
+                        "tag": "string"
                     },
                     "rotation": 0,
                     "type": "",
@@ -12310,10 +12310,10 @@
                     "id": 208,
                     "name": "Crier",
                     "properties": {
-                        "script": "tutorial/crier"
+                        "tag": "Tutorial Crier"
                     },
                     "propertytypes": {
-                        "script": "string"
+                        "tag": "string"
                     },
                     "rotation": 0,
                     "type": "",
@@ -12328,10 +12328,10 @@
                     "id": 211,
                     "name": "Encruster",
                     "properties": {
-                        "script": "tutorial/encruster"
+                        "tag": "Tutorial Encruster"
                     },
                     "propertytypes": {
-                        "script": "string"
+                        "tag": "string"
                     },
                     "rotation": 0,
                     "type": "",
@@ -12346,10 +12346,10 @@
                     "id": 218,
                     "name": "Greeter",
                     "properties": {
-                        "script": "tutorial/greeter"
+                        "tag": "Tutorial Greeter"
                     },
                     "propertytypes": {
-                        "script": "string"
+                        "tag": "string"
                     },
                     "rotation": 0,
                     "type": "",
