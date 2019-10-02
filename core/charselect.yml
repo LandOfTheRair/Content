@@ -13,66 +13,6 @@ baseStats:
   actionSpeed: 1
 
 allegiances:
-  - name: 'Pirates'
-    description: >
-      Yarr. Ye be strong and dextrous, but what ye make up in physical, ye lack in the mental. At least ye get some gold, aye?
-    statMods:
-      str: 5
-      dex: 2
-      int: -2
-      wis: -3
-      wil: -1
-      cha: -1
-      hp: 50
-      gold: 500
-
-    baseItems:
-      rightHand: Antanian Axe
-      body: Antanian Tunic
-
-    baseSkills:
-      axe: 2
-      twohanded: 1
-
-  - name: 'Townsfolk'
-    description: >
-      You happen to be a person of the town. You may not be used to defending your town, but you can dodge a thrown milk can.
-    statMods:
-      str: -1
-      dex: -1
-      agi: 1
-      wil: 1
-      gold: -300
-
-    baseItems:
-      rightHand: Antanian Dagger
-      body: Antanian Ringmail Tunic
-
-    baseSkills:
-      dagger: 2
-      onehanded: 1
-
-  - name: 'Royalty'
-    description: >
-      You may never have picked up a sword in your life, but you are very well read, knowledgable, and wealthy. 
-      You come from a long line of nobles that originates in the East.
-    statMods:
-      str: -2
-      dex: -2
-      agi: -2
-      int: 2
-      wis: 2
-      cha: 2
-      gold: 3500
-
-    baseItems:
-      rightHand: Antanian Mace
-      body: Antanian Tunic
-
-    baseSkills:
-      mace: 2
-      staff: 1
-
   - name: 'Adventurers'
     description: >
       You get around. You have seen a lot in your travels, and it shaped you to be hardy and knowledgable, even if your reflexes suffer.
@@ -94,6 +34,93 @@ allegiances:
     baseSkills:
       onehanded: 2
       dagger: 1
+      
+  - name: 'Pirates'
+    description: >
+      Yarr. Ye be strong and dextrous, but what ye make up in physical, ye lack in the mental. At least ye get some gold, aye?
+      
+      You ally with the Heniz, a society of sly Thieves and Mages.
+    statMods:
+      str: 5
+      dex: 2
+      int: -2
+      wis: -3
+      wil: -1
+      cha: -1
+      hp: 50
+      gold: 500
+
+    baseItems:
+      rightHand: Antanian Axe
+      body: Antanian Tunic
+
+    baseSkills:
+      axe: 2
+      twohanded: 1
+
+  - name: 'Royalty'
+    description: >
+      You may never have picked up a sword in your life, but you are very well read, knowledgable, and wealthy. 
+      You come from a long line of nobles that originates in the East.
+      
+      You ally with the Steffen, a society of noble Warriors and Healers.
+    statMods:
+      str: -2
+      dex: -2
+      agi: -2
+      int: 2
+      wis: 2
+      cha: 2
+      gold: 3500
+
+    baseItems:
+      rightHand: Antanian Mace
+      body: Antanian Tunic
+
+    baseSkills:
+      mace: 2
+      staff: 1
+
+  - name: 'Townsfolk'
+    description: >
+      You happen to be a person of the town. You may not be used to defending your town, but you can dodge a thrown milk can.
+      
+      Most townspeople will be on your side.
+    statMods:
+      str: -1
+      dex: -1
+      agi: 1
+      wil: 1
+      gold: -300
+
+    baseItems:
+      rightHand: Antanian Dagger
+      body: Antanian Ringmail Tunic
+
+    baseSkills:
+      dagger: 2
+      onehanded: 1
+
+  - name: 'Underground'
+    description: >
+      You live underground. You train daily by punching rocks. It is not the smartest choice, but you do it anyway. 
+      You have not seen yourself since you were young, so your appearance is lacking.
+    statMods:
+      str: 3
+      dex: 3
+      agi: 3
+      int: -2
+      wis: -2
+      luk: -1
+      cha: -2
+
+    baseItems:
+      rightHand: Antanian Greatsword
+      body: Antanian Tunic
+
+    baseSkills:
+      twohanded: 2
+      onehanded: 1
 
   - name: 'Wilderness'
     description: >
@@ -116,27 +143,6 @@ allegiances:
     baseSkills:
       staff: 2
       dagger: 1
-
-  - name: 'Underground'
-    description: >
-      You live underground. You train daily by punching rocks. It is not the smartest choice, but you do it anyway. 
-      You have not seen yourself since you were young, so your appearance is lacking.
-    statMods:
-      str: 3
-      dex: 3
-      agi: 3
-      int: -2
-      wis: -2
-      luk: -1
-      cha: -2
-
-    baseItems:
-      rightHand: Antanian Greatsword
-      body: Antanian Tunic
-
-    baseSkills:
-      twohanded: 2
-      onehanded: 1
 
 
 classes:
