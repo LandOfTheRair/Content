@@ -1,0 +1,15 @@
+
+tag: Tutorial Potion Vendor
+hostility: Never
+affiliation: Potion Vendor
+
+items:
+  rightHand: Mend Bottle
+  gear:
+    Armor: Antanian Tunic
+
+behaviors:
+  - type: vendor
+  
+    vendorItems: 
+      - item: Mend Bottle

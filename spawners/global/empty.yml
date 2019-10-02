@@ -1,0 +1,16 @@
+npcIds: []
+respawnRate: 0
+initialSpawn: 0
+maxSpawn: 1
+maxCreatures: 1
+spawnRadius: 0
+randomWalkRadius: 7
+leashRadius: 12
+shouldSerialize: yes
+alwaysSpawn: yes
+requireDeadToRespawn: yes
+shouldStrip: yes
+stripOnSpawner: yes
+canSlowDown: no
+eliteTickCap: 0
+tag: 'Global Empty'

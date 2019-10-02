@@ -1,0 +1,9 @@
+npcIds:
+    - {name: 'Yzalt Rockgolem', chance: 1}
+respawnRate: 30
+initialSpawn: 2
+maxCreatures: 4
+spawnRadius: 1
+randomWalkRadius: 25
+leashRadius: 45
+tag: 'Antania Yzalt Cave-golems'

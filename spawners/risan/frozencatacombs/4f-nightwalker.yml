@@ -1,0 +1,9 @@
+npcIds:
+    - {name: 'Catacombs Nightwalker 4F', chance: 1}
+respawnRate: 40
+initialSpawn: 2
+maxCreatures: 3
+spawnRadius: 1
+randomWalkRadius: 15
+leashRadius: 25
+tag: 'Risan Frozencatacombs 4f-nightwalker'

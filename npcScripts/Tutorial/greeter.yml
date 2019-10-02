@@ -1,0 +1,20 @@
+
+tag: Tutorial Greeter
+hostility: Never
+affiliation: Welcome to Land of the Rair!
+
+items:
+  gear:
+    Armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: chat
+          message: > # unsure of syntax for player name. it would probably be best if the entire player object was available for inspection, though
+            Welcome to Land of the Rair, $player.name!
+
+          options:
+            - text: Thanks!
+              action: noop # would point to dialog/keyword/noop if existed. no-op if it doesn't exist

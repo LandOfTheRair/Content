@@ -1,0 +1,19 @@
+
+isRepeatable: true
+
+objectives:
+  - type: kill
+    kills: 20
+    npcIds:
+      - Rylt Renegade Prisoner
+
+    messages:
+      kill: You have killed $current/$total prisoners.
+      incomplete: By my records, you have to kill $remaining prisoners yet!
+
+rewards:
+  - type: xp
+    xp: 500
+
+  - type: gold
+    gold: 500

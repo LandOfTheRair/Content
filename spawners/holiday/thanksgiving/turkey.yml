@@ -1,0 +1,12 @@
+npcIds:
+    - {name: 'Thanksgiving Weak Turkey', chance: 50}
+    - {name: 'Thanksgiving Strong Turkey', chance: 10}
+    - {name: 'Thanksgiving Secret Turkey', chance: 1}
+respawnRate: 15
+initialSpawn: 1
+maxCreatures: 3
+spawnRadius: 1
+randomWalkRadius: 15
+leashRadius: 25
+doInitialSpawnImmediately: yes
+tag: 'Holiday Thanksgiving Turkey'

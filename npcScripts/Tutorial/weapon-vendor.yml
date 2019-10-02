@@ -1,0 +1,37 @@
+
+tag: Tutorial Weapon Vendor
+hostility: Never
+affiliation: Weapon Vendor
+
+items:
+  rightHand: Antanian Greastword
+  gear:
+    Armor: Antanian Cloak
+
+behaviors:
+  - type: vendor
+  
+    vendorItems: 
+      - item: Antanian Dagger
+        valueSet: 1
+
+      - item: Antanian Shortsword
+        valueSet: 1
+
+      - item: Antanian Longsword
+        valueSet: 1
+
+      - item: Antanian Greatsword
+        valueSet: 1
+
+      - item: Antanian Staff
+        valueSet: 1
+
+      - item: Antanian Crossbow
+        valueSet: 1
+
+      - item: Antanian Shortbow
+        valueSet: 1
+
+      - item: Antanian Wooden Shield
+        valueSet: 1

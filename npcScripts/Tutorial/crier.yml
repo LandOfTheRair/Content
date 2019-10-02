@@ -1,0 +1,21 @@
+
+tag: Tutorial Crier
+hostility: Never
+affiliation: Town Crier
+
+items:
+  gear:
+    Armor: Antanian Tunic
+
+# npc has no dialog because the crier behavior imparts a default dialog tree
+# all of the "default dialogs" should probably just be done in C++ because they're not going to change
+
+behaviors:
+  - type: crier
+    messages:
+      - 'Yetis are the scourge of our town!'
+      - 'Wolves are the natural predator of deer!'
+      - 'The Hermit knows how to bring our people to salvation!'
+      - 'Billy lost his pet moose to the wolves!'
+      - 'You should not go far without armor or weapons!'
+      - 'Potions can be a saving grace!'
