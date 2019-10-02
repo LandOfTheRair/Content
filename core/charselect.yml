@@ -7,6 +7,7 @@ baseStats:
   wil: 10
   cha: 10
   luk: 10
+  con: 10
   hp: 100
   hpregen: 1
   gold: 500
