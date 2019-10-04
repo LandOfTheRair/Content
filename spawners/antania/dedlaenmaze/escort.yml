@@ -9,6 +9,6 @@ randomWalkRadius: 10
 leashRadius: 15
 npcAISettings:
     - dedlaenescort
-canSlowDown: no
-doInitialSpawnImmediately: yes
+canSlowDown: false
+doInitialSpawnImmediately: true
 tag: 'Antania Dedlaenmaze Escort'

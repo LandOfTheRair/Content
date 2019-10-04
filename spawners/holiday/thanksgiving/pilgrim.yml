@@ -6,5 +6,5 @@ maxCreatures: 6
 spawnRadius: 1
 randomWalkRadius: 25
 leashRadius: 35
-doInitialSpawnImmediately: yes
+doInitialSpawnImmediately: true
 tag: 'Holiday Thanksgiving Pilgrim'

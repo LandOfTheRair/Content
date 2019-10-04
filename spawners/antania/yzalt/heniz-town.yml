@@ -13,5 +13,5 @@ maxCreatures: 20
 spawnRadius: 0
 randomWalkRadius: 0
 leashRadius: 35
-doInitialSpawnImmediately: yes
+doInitialSpawnImmediately: true
 tag: 'Antania Yzalt Heniz-town'

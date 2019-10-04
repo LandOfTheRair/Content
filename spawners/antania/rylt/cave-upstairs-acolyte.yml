@@ -6,5 +6,5 @@ maxCreatures: 1
 spawnRadius: 0
 randomWalkRadius: 0
 leashRadius: 0
-shouldBeActive: yes
+shouldBeActive: true
 tag: 'Antania Rylt Cave-upstairs-acolyte'

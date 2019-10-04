@@ -7,5 +7,5 @@ maxCreatures: 7
 spawnRadius: 2
 randomWalkRadius: 20
 leashRadius: 35
-doInitialSpawnImmediately: yes
+doInitialSpawnImmediately: true
 tag: 'Risan Frostlands Town-random'

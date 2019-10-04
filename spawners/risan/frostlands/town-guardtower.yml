@@ -7,5 +7,5 @@ maxCreatures: 4
 spawnRadius: 1
 randomWalkRadius: 7
 leashRadius: 12
-doInitialSpawnImmediately: yes
+doInitialSpawnImmediately: true
 tag: 'Risan Frostlands Town-guardtower'

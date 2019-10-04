@@ -6,5 +6,5 @@ maxCreatures: 3
 spawnRadius: 1
 randomWalkRadius: 15
 leashRadius: 20
-doInitialSpawnImmediately: yes
+doInitialSpawnImmediately: true
 tag: 'Antania Towerofselen Town-guard'

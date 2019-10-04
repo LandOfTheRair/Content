@@ -8,12 +8,12 @@ maxCreatures: 1
 spawnRadius: 0
 randomWalkRadius: 0
 leashRadius: 0
-shouldSerialize: yes
-alwaysSpawn: yes
-requireDeadToRespawn: yes
-canSlowDown: no
+shouldSerialize: true
+alwaysSpawn: true
+requireDeadToRespawn: true
+canSlowDown: false
 eliteTickCap: 0
 npcAISettings:
     - resource
-doInitialSpawnImmediately: yes
+doInitialSpawnImmediately: true
 tag: 'Resource Random-risan-tree'

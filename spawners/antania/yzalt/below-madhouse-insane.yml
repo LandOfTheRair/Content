@@ -9,5 +9,5 @@ maxCreatures: 100
 spawnRadius: 2
 randomWalkRadius: 7
 leashRadius: 50
-shouldBeActive: yes
+shouldBeActive: true
 tag: 'Antania Yzalt Below-madhouse-insane'
