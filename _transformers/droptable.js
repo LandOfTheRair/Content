@@ -6,7 +6,7 @@ const fs = require('fs');
 
 const mergeRegions = async () => {
   try {
-    const globalDroptable = YAML.load(`${__dirname}/../../content/droptables/Global.yml`);
+    const globalDroptable = YAML.load(`${__dirname}/../droptables/Global.yml`);
 
     const files = await recurse(`droptables/regions`);
 
