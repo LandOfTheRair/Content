@@ -9,9 +9,7 @@ baseStats:
   luk: 10
   con: 10
   hp: 100
-  hpregen: 1
   gold: 500
-  actionSpeed: 1
 
 allegiances:
   - name: 'Adventurers'
