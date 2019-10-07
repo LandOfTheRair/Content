@@ -6,5 +6,5 @@ maxCreatures: 5
 spawnRadius: 1
 randomWalkRadius: 10
 leashRadius: 15
-doInitialSpawnImmediately: yes
+doInitialSpawnImmediately: true
 tag: 'Antania Dedlaenmaze Town-guard'

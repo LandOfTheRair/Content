@@ -6,5 +6,5 @@ maxCreatures: 2
 spawnRadius: 1
 randomWalkRadius: 15
 leashRadius: 25
-doInitialSpawnImmediately: yes
+doInitialSpawnImmediately: true
 tag: 'Holiday Thanksgiving Gobbleguard'

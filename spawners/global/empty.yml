@@ -6,11 +6,11 @@ maxCreatures: 1
 spawnRadius: 0
 randomWalkRadius: 7
 leashRadius: 12
-shouldSerialize: yes
-alwaysSpawn: yes
-requireDeadToRespawn: yes
-shouldStrip: yes
-stripOnSpawner: yes
-canSlowDown: no
+shouldSerialize: true
+alwaysSpawn: true
+requireDeadToRespawn: true
+shouldStrip: true
+stripOnSpawner: true
+canSlowDown: false
 eliteTickCap: 0
 tag: 'Global Empty'

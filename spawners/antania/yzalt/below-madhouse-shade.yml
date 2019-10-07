@@ -6,6 +6,6 @@ maxCreatures: 1
 spawnRadius: 1
 randomWalkRadius: 1
 leashRadius: 50
-shouldBeActive: yes
-canSlowDown: no
+shouldBeActive: true
+canSlowDown: false
 tag: 'Antania Yzalt Below-madhouse-shade'

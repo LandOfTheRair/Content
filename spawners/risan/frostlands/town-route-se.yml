@@ -11,5 +11,5 @@ maxCreatures: 7
 spawnRadius: 1
 randomWalkRadius: 0
 leashRadius: 35
-doInitialSpawnImmediately: yes
+doInitialSpawnImmediately: true
 tag: 'Risan Frostlands Town-route-se'
