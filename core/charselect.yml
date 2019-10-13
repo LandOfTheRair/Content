@@ -46,7 +46,7 @@ allegiances:
       wis: -3
       wil: -1
       cha: -1
-      hp: 50
+      hp: 15
       gold: 500
 
     baseItems:
@@ -173,7 +173,8 @@ classes:
     statMods:
       int: 2
       wil: 1
-      mp: 30
+      hp: 10
+      mp: 40
       mpregen: 1
 
   - name: 'Thief'
@@ -192,6 +193,7 @@ classes:
     statMods:
       agi: 2
       dex: 1
+      hp: 30
 
   - name: 'Healer'
     description: >
@@ -209,6 +211,7 @@ classes:
     statMods:
       wis: 2
       wil: 1
+      hp: 20
       mp: 30
       mpregen: 1
 
@@ -228,4 +231,5 @@ classes:
     statMods:
       str: 2
       dex: 1
+      hp: 40
 
