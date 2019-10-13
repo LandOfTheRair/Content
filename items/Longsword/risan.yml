@@ -2,7 +2,7 @@
 - name: Risan Longsword
   desc: "an iron longsword forged in the land of Risan"
   tier: 5
-  type: Onehanded
+  type: Sword
   value: 2500
   sprite: 197
 
@@ -18,7 +18,7 @@
     defense: 3
   tier: 6
   offhand: true
-  type: Onehanded
+  type: Sword
   value: 13500
   sprite: 197
 
@@ -34,7 +34,7 @@
     defense: 4
   tier: 6
   offhand: true
-  type: Onehanded
+  type: Sword
   value: 23500
   sprite: 197
 
@@ -50,7 +50,7 @@
     defense: 5
   tier: 7
   offhand: true
-  type: Onehanded
+  type: Sword
   value: 33500
   sprite: 197
 
@@ -66,7 +66,7 @@
     defense: 6
   tier: 7
   offhand: true
-  type: Onehanded
+  type: Sword
   value: 43500
   sprite: 197
 
@@ -82,7 +82,7 @@
     defense: 7
   tier: 8
   offhand: true
-  type: Onehanded
+  type: Sword
   value: 53500
   sprite: 197
 

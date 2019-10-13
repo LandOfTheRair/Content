@@ -5,7 +5,7 @@
     offense: 3
     defense: 3
   tier: 2
-  type: Onehanded
+  type: Sword
   value: 2500
   sprite: 197
 
@@ -15,7 +15,7 @@
     offense: 5
     defense: 5
   tier: 5
-  type: Onehanded
+  type: Sword
   value: 3500
   sprite: 197
 

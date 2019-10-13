@@ -1,7 +1,7 @@
 - name: Antanian Longsword
   desc: "an iron longsword"
   tier: 1
-  type: Onehanded
+  type: Sword
   value: 115
   sprite: 197
   
@@ -11,7 +11,7 @@
     accuracy: 2
     offense: 1
   tier: 1
-  type: Onehanded
+  type: Sword
   value: 115
   sprite: 197
 
@@ -25,7 +25,7 @@
     name: SwordTricks
     level: 1
   tier: 2
-  type: Onehanded
+  type: Sword
   binds: true
   tellsBind: true
   sprite: 323
@@ -40,7 +40,7 @@
     offense: 2
     defense: 2
   tier: 2
-  type: Onehanded
+  type: Sword
   value: 378
   sprite: 227
   binds: true
@@ -48,7 +48,7 @@
 - name: Maze Longsword
   desc: "an iron longsword"
   tier: 4
-  type: Onehanded
+  type: Sword
   value: 1152
   sprite: 197
 
@@ -61,7 +61,7 @@
     defense: 4
     weaponArmorClass: 3
   tier: 5
-  type: Onehanded
+  type: Sword
   binds: true
   tellsBind: true
   sprite: 425
