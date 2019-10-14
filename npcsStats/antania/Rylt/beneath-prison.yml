@@ -71,11 +71,11 @@
       chance: 10
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
 
   drops:
@@ -171,9 +171,9 @@
     - Blindstrike
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
 
 - npcId: Shadow Terwin
@@ -236,9 +236,9 @@
     - TrueSight
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
 
 - npcId: Shadow Takwin
@@ -304,8 +304,8 @@
     - Daze
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
 

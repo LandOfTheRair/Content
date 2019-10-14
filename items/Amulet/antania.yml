@@ -44,8 +44,7 @@
 
   requirements:
     level: 7
-    profession:
-      - "Healer"
+    baseClass: "Healer"
 
 - name: Yzalt Combat Amulet
   randomStats:

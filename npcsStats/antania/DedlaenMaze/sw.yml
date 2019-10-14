@@ -36,17 +36,17 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 1.5
+      extra:
         damageType: 'fire'
-        potency: 1.5
 
     - name: Attribute
-      effectData:
+      potency: 0.5
+      extra:
         damageType: 'physical'
-        potency: 0.5
 
   copyDrops:
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
 
   drops:
@@ -135,9 +135,9 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'physical'
-        potency: 0
 
   gear:
     Hands: Maze Mummy Claws
@@ -190,14 +190,14 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'physical'
-        potency: 0
 
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'magical'
-        potency: 0
 
   tansFor: Dedlaen Ghost Cloak
 
@@ -211,13 +211,11 @@
 
   baseEffects:
     - name: TrueSight
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
     - name: Invisible
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
   triggers:
     leash:
@@ -272,9 +270,9 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'necrotic'
-        potency: 0
 
   gear:
     Hands: Ghast Claws
@@ -284,19 +282,17 @@
       chance: -1
 
   copyDrops:
-    - drop: 'gear.Hands'
+    - result: 'gear.Hands'
       chance: -1
 
   baseEffects:
     - name: TrueSight
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
     - name: NecroticAura
-      effectData:
-        potency: 8
-        effectInfo:
-          isPermanent: true
+      potency: 8
+      extra:
+        isPermanent: true
 
 - npcId: Dedlaen Revenant
   name: revenant
@@ -337,9 +333,9 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'physical'
-        potency: 0.75
 
   rightHand:
     - Maze Revenant Greatmace
@@ -350,7 +346,7 @@
     Armor: Maze Bone Tunic
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1

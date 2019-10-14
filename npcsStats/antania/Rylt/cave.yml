@@ -55,7 +55,7 @@
       maxChance: 100
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
 
   triggers:
@@ -103,10 +103,11 @@
     min: 300
     max: 425
 
+  rightHand:
+    - Antanian Staff
+    - Antanian Shortsword
+
   gear:
-    rightHand:
-      - Antanian Staff
-      - Antanian Shortsword
     Armor: Antanian Tunic
     Neck:
       - result: none
@@ -134,15 +135,15 @@
     - MagicMissile
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Ring1'
+    - result: 'gear.Ring1'
       chance: -1
-    - drop: 'gear.Neck'
+    - result: 'gear.Neck'
       chance: -1
-    - drop: 'gear.Wrists'
+    - result: 'gear.Wrists'
       chance: -1
 
   drops:
@@ -216,13 +217,13 @@
     - IceMist
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'gear.Ring1'
+    - result: 'gear.Ring1'
       chance: -1
-    - drop: 'gear.Neck'
+    - result: 'gear.Neck'
       chance: -1
 
   drops:
@@ -300,5 +301,5 @@
       chance: -1
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1

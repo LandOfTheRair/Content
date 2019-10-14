@@ -4,8 +4,8 @@ hostility: Never
 affiliation: Potion Vendor
 
 items:
-  rightHand: Mend Bottle
   gear:
+    rightHand: Mend Bottle
     Armor: Antanian Tunic
 
 behaviors:

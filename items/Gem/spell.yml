@@ -4,7 +4,7 @@
   desc: "a small black pearl radiating with magical energy"
   sellValue: 2000
   sprite: 315
-  stats:
+  encrustGive:
     effect:
       name: MagicMissile
       potency: 5
@@ -17,7 +17,7 @@
   desc: "a small black pearl overflowing with magical energy"
   sellValue: 3000
   sprite: 315
-  stats:
+  encrustGive:
     effect:
       name: MagicBolt
       potency: 7
@@ -30,7 +30,7 @@
   desc: "a small black pearl radiating with heat"
   sellValue: 3000
   sprite: 315
-  stats:
+  encrustGive:
     effect:
       name: Combust
       potency: 10
@@ -44,7 +44,7 @@
   sellValue: 3000
   sprite: 315
 
-  stats:
+  encrustGive:
     effect:
       name: Hail
       potency: 10
@@ -63,7 +63,7 @@
     uses: 10
     potency: 20
 
-  stats:
+  encrustGive:
     effect:
       name: Transmute
       chance: 33
@@ -77,7 +77,7 @@
   sellValue: 10000
   sprite: 924
 
-  stats:
+  encrustGive:
     effect:
       name: Dispel
       chance: 50
@@ -91,10 +91,11 @@
   sellValue: 100000
   sprite: 963
 
-  maxEncrusts: 1
+  encrustGive:
+    maxEncrusts: 1
 
-  stats:
-    hp: 200
+    stats:
+      hp: 200
 
     effect:
       name: Dispel

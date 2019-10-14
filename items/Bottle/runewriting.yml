@@ -6,10 +6,11 @@
   value: 500
   effect:
     name: Nourishment
-    tooltip: "-1 CON"
-    message: "Yuck! Ink is not the best choice to drink."
-    stats:
-      con: -1
+    extra:
+      tooltip: "-1 CON"
+      message: "Yuck! Ink is not the best choice to drink."
+      stats:
+        con: -1
     duration: 30
 
 - name: Ink Vial
@@ -18,10 +19,11 @@
   value: 500
   effect:
     name: Nourishment
-    tooltip: "-1 CON"
-    message: "Yuck! Ink is not the best choice to drink."
-    stats:
-      con: -1
+    extra:
+      tooltip: "-1 CON"
+      message: "Yuck! Ink is not the best choice to drink."
+      stats:
+        con: -1
     duration: 30
 
 - name: Ink Vial (15oz)
@@ -31,10 +33,11 @@
   value: 10000
   effect:
     name: Nourishment
-    tooltip: "-1 CON"
-    message: "Yuck! Ink is not the best choice to drink."
-    stats:
-      con: -1
+    extra:
+      tooltip: "-1 CON"
+      message: "Yuck! Ink is not the best choice to drink."
+      stats:
+        con: -1
     duration: 30
 
 - name: Ink Vial (50oz)
@@ -44,9 +47,10 @@
   value: 35000
   effect:
     name: Nourishment
-    tooltip: "-1 CON"
-    message: "Yuck! Ink is not the best choice to drink."
-    stats:
-      con: -1
+    extra:
+      tooltip: "-1 CON"
+      message: "Yuck! Ink is not the best choice to drink."
+      stats:
+        con: -1
     duration: 30
 

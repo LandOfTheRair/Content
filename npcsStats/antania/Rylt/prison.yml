@@ -85,23 +85,23 @@
         chance: 1
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Ring1'
+    - result: 'gear.Ring1'
       chance: -1
-    - drop: 'gear.Head'
+    - result: 'gear.Head'
       chance: -1
-    - drop: 'gear.Hands'
+    - result: 'gear.Hands'
       chance: -1
-    - drop: 'gear.Neck'
+    - result: 'gear.Neck'
       chance: -1
-    - drop: 'gear.Feet'
+    - result: 'gear.Feet'
       chance: -1
 
   drops:
@@ -149,9 +149,9 @@
       - Antanian Breastplate
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
 
   drops:
@@ -237,21 +237,21 @@
         chance: 1
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Head'
+    - result: 'gear.Head'
       chance: -1
-    - drop: 'gear.Hands'
+    - result: 'gear.Hands'
       chance: -1
-    - drop: 'gear.Neck'
+    - result: 'gear.Neck'
       chance: -1
-    - drop: 'gear.Feet'
+    - result: 'gear.Feet'
       chance: -1
 
   drops:
@@ -335,21 +335,21 @@
         chance: 1
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Head'
+    - result: 'gear.Head'
       chance: -1
-    - drop: 'gear.Hands'
+    - result: 'gear.Hands'
       chance: -1
-    - drop: 'gear.Neck'
+    - result: 'gear.Neck'
       chance: -1
-    - drop: 'gear.Feet'
+    - result: 'gear.Feet'
       chance: -1
 
   drops:
@@ -434,19 +434,19 @@
         chance: 1
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Head'
+    - result: 'gear.Head'
       chance: -1
-    - drop: 'gear.Hands'
+    - result: 'gear.Hands'
       chance: -1
-    - drop: 'gear.Neck'
+    - result: 'gear.Neck'
       chance: -1
-    - drop: 'gear.Feet'
+    - result: 'gear.Feet'
       chance: -1
 
   sack:
@@ -513,9 +513,9 @@
     Robe2: Antanian Cloak
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
 
   usableSkills:
@@ -573,9 +573,9 @@
     Armor: Antanian Tunic
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
 
   drops:
@@ -631,13 +631,13 @@
     Waist: Tonwin Sash
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Waist'
+    - result: 'gear.Waist'
       chance: -1
 
   drops:

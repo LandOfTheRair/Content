@@ -49,13 +49,13 @@
       - Antanian Cloak
 
   copyDrops:
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
 
 
@@ -99,7 +99,7 @@
       - Antanian Breastplate
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1

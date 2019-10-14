@@ -4,8 +4,8 @@ hostility: Never
 affiliation: Armor Vendor
 
 items:
-  rightHand: Antanian Longsword
   gear:
+    rightHand: Antanian Longsword
     Armor: Antanian Breastplate
 
 behaviors:

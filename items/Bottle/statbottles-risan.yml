@@ -5,7 +5,8 @@
   sprite: 151
   effect:
     name: PermanentSTR
-    tier: Basic
+    extra:
+      tier: Basic
     potency: 1
   value: 5000
 
@@ -15,7 +16,8 @@
   sprite: 157
   effect:
     name: PermanentAGI
-    tier: Basic
+    extra:
+      tier: Basic
     potency: 1
   value: 2000
 
@@ -25,7 +27,8 @@
   sprite: 150
   effect:
     name: PermanentDEX
-    tier: Basic
+    extra:
+      tier: Basic
     potency: 1
   value: 3500
 
@@ -35,7 +38,8 @@
   sprite: 158
   effect:
     name: PermanentINT
-    tier: Basic
+    extra:
+      tier: Basic
     potency: 1
   value: 5000
 
@@ -45,7 +49,8 @@
   sprite: 156
   effect:
     name: PermanentWIS
-    tier: Basic
+    extra:
+      tier: Basic
     potency: 1
   value: 3000
 
@@ -55,7 +60,8 @@
   sprite: 154
   effect:
     name: PermanentWIL
-    tier: Basic
+    extra:
+      tier: Basic
     potency: 1
   value: 10000
 
@@ -65,7 +71,8 @@
   sprite: 153
   effect:
     name: PermanentCON
-    tier: Basic
+    extra:
+      tier: Basic
     potency: 1
   value: 10000
 
@@ -75,7 +82,8 @@
   sprite: 152
   effect:
     name: PermanentLUK
-    tier: Basic
+    extra:
+      tier: Basic
     potency: 1
   value: 100000
 
@@ -85,7 +93,8 @@
   sprite: 155
   effect:
     name: PermanentCHA
-    tier: Basic
+    extra:
+      tier: Basic
     potency: 1
   value: 200000
 

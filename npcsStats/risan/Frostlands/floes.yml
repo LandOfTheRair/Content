@@ -34,9 +34,9 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'physical'
-        potency: 0.75
 
   traitLevels:
     StunningFist: 5
@@ -83,13 +83,13 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'physical'
-        potency: 0.75
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'ice'
-        potency: 0
 
   traitLevels:
     IceMistWiden: 1

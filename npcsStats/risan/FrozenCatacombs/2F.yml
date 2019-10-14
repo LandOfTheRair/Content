@@ -54,17 +54,17 @@
     Hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: 1
       maxChance: 100
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: 1
       maxChance: 10
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
   drops:
@@ -97,19 +97,18 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 1.25
+      extra:
         damageType: 'fire'
-        potency: 1.25
 
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'sharp'
-        potency: 0.75
 
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
   triggers:
     spawn:
@@ -170,15 +169,15 @@
     Hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: 1
       maxChance: 100
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: 1
       maxChance: 10
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
 
   drops:
@@ -211,19 +210,18 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 1.25
+      extra:
         damageType: 'fire'
-        potency: 1.25
 
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'blunt'
-        potency: 0.75
 
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
 - npcId: Catacombs Ghost 2F
   name: ghost bishop
@@ -269,17 +267,17 @@
         chance: 1
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: 1
       maxChance: 100
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: 1
       maxChance: 10
-    - drop: 'gear.Neck'
+    - result: 'gear.Neck'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
   drops:
@@ -336,19 +334,18 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'physical'
-        potency: 0.75
 
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'magical'
-        potency: 0.75
 
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
   triggers:
     spawn:
@@ -402,17 +399,17 @@
         chance: 1
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: 1
       maxChance: 100
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: 1
       maxChance: 10
-    - drop: 'gear.Waist'
+    - result: 'gear.Waist'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
   drops:
@@ -456,14 +453,13 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'energy'
-        potency: 0.75
 
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
 - npcId: Catacombs Nightwalker 2F
   name: nightwalker goldsash
@@ -516,17 +512,17 @@
         chance: 1
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: 1
       maxChance: 100
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: 1
       maxChance: 10
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'gear.Hands'
+    - result: 'gear.Hands'
       chance: -1
-    - drop: 'gear.leftHand'
+    - result: 'gear.leftHand'
       chance: -1
 
   drops:
@@ -559,19 +555,18 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 1.25
+      extra:
         damageType: 'fire'
-        potency: 1.25
 
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'blunt'
-        potency: 0.75
 
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
 - npcId: Catacombs Qell 2F
   name: qell pickpocket
@@ -631,17 +626,17 @@
     Hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: 1
       maxChance: 100
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: 1
       maxChance: 10
-    - drop: 'gear.Feet'
+    - result: 'gear.Feet'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
   skillOnKill: 70
@@ -708,9 +703,8 @@
 
   baseEffects:
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
 - npcId: Catacombs Spectre 2F
   name: spectre ranger
@@ -766,17 +760,17 @@
     Hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: 1
       maxChance: 100
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: 1
       maxChance: 10
-    - drop: 'gear.Wrists'
+    - result: 'gear.Wrists'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
   skillOnKill: 70
@@ -809,14 +803,13 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'physical'
-        potency: 0.75
 
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
   drops:
     - result: Catacombs Raw Tourmaline

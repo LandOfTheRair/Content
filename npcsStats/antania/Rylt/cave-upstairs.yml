@@ -79,11 +79,11 @@
       chance: 10
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'gear.Ring1'
+    - result: 'gear.Ring1'
       chance: -1
 
   drops:

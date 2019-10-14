@@ -32,14 +32,14 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 1.25
+      extra:
         damageType: 'fire'
-        potency: 1.25
 
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'physical'
-        potency: 0.75
 
   gold:
     min: 150
@@ -106,14 +106,13 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 1.5
+      extra:
         damageType: 'fire'
-        potency: 1.5
-
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'physical'
-        potency: 0.75
 
   gold:
     min: 350
@@ -181,14 +180,13 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 1.5
+      extra:
         damageType: 'fire'
-        potency: 1.5
-
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'physical'
-        potency: 0.75
 
   gold:
     min: 450
@@ -246,14 +244,14 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'magical'
-        potency: 0.75
 
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'physical'
-        potency: 0.75
 
   traitLevels:
     StunningFist: 7
@@ -375,14 +373,14 @@
     max: 28000
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: 1
       maxChance: 100
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
   drops:
@@ -484,14 +482,14 @@
     max: 58000
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: 1
       maxChance: 100
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
 
@@ -575,15 +573,15 @@
     max: 509000
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
   drops:

@@ -5,24 +5,26 @@
   sellValue: 25000
   sprite: 247
 
-  maxEncrusts: 4
+  encrustGive:
+    maxEncrusts: 4
 
-  stats:
-    hp: 10
-    mp: 10
-    perception: 2
-    physicalResist: 3
-    magicalResist: 3
+    stats:
+      hp: 10
+      mp: 10
+      perception: 2
+      physicalResist: 3
+      magicalResist: 3
 
 - name: Risan Emerald Chunk
   desc: "a chunk of raw emerald"
   sellValue: 2500
   sprite: 246
 
-  maxEncrusts: 4
+  encrustGive:
+    maxEncrusts: 4
 
-  stats:
-    physicalResist: 6
+    stats:
+      physicalResist: 6
 
   requirements:
     level: 7
@@ -32,10 +34,11 @@
   sellValue: 1500
   sprite: 310
 
-  maxEncrusts: 3
+  encrustGive:
+    maxEncrusts: 3
 
-  stats:
-    con: 1
+    stats:
+      con: 1
 
   requirements:
     level: 7
@@ -44,8 +47,9 @@
   desc: "a chunk of jade finely-carved into the shape of a scarab"
   sellValue: 1800
   sprite: 311
-  stats:
-    perception: 10
+  encrustGive:
+    stats:
+      perception: 10
 
   requirements:
     level: 7
@@ -54,8 +58,9 @@
   desc: "a well-polished ruby"
   sellValue: 1200
   sprite: 312
-  stats:
-    magicalResist: 3
+  encrustGive:
+    stats:
+      magicalResist: 3
 
   requirements:
     level: 7
@@ -65,10 +70,11 @@
   sellValue: 3000
   sprite: 313
 
-  maxEncrusts: 3
+  encrustGive:
+    maxEncrusts: 3
 
-  stats:
-    hpregen: 5
+    stats:
+      hpregen: 5
 
   requirements:
     level: 7
@@ -78,10 +84,11 @@
   sellValue: 3000
   sprite: 314
 
-  maxEncrusts: 3
+  encrustGive:
+    maxEncrusts: 3
 
-  stats:
-    mpregen: 5
+    stats:
+      mpregen: 5
 
   requirements:
     level: 7
@@ -91,10 +98,11 @@
   sellValue: 3500
   sprite: 315
 
-  maxEncrusts: 3
+  encrustGive:
+    maxEncrusts: 3
 
-  stats:
-    accuracy: 3
+    stats:
+      accuracy: 3
 
   requirements:
     level: 7
@@ -104,70 +112,77 @@
   sellValue: 5000
   sprite: 340
 
-  maxEncrusts: 4
+  encrustGive:
+    maxEncrusts: 4
 
-  stats:
-    fireResist: 50
+    stats:
+      fireResist: 50
 
 - name: Risan Ice Prot Crystal
   desc: "a small crystal encasing a chunk of ice"
   sellValue: 5000
   sprite: 339
 
-  maxEncrusts: 4
+  encrustGive:
+    maxEncrusts: 4
 
-  stats:
-    iceResist: 50
+    stats:
+      iceResist: 50
 
 - name: Risan Necrotic Prot Crystal
   desc: "a small crystal encasing a chunk of earth"
   sellValue: 5000
   sprite: 341
 
-  maxEncrusts: 4
+  encrustGive:
+    maxEncrusts: 4
 
-  stats:
-    necroticResist: 50
+    stats:
+      necroticResist: 50
 
 - name: Risan Energy Prot Crystal
   desc: "a strangely-shaped crystal that has a pervasive energy aura"
   sellValue: 5000
   sprite: 338
 
-  maxEncrusts: 4
+  encrustGive:
+    maxEncrusts: 4
 
-  stats:
-    energyResist: 50
+    stats:
+      energyResist: 50
 
 - name: Risan Poison Prot Crystal
   desc: "an ancient piece of petrified wood"
   sellValue: 6000
   sprite: 912
 
-  maxEncrusts: 4
+  encrustGive:
+    maxEncrusts: 4
 
-  stats:
-    poisonResist: 50
+    stats:
+      poisonResist: 50
 
 - name: Risan Disease Prot Crystal
   desc: "a tiny piece of wood with a well-preserved beetle"
   sellValue: 4000
   sprite: 911
 
-  maxEncrusts: 4
+  encrustGive:
+    maxEncrusts: 4
 
-  stats:
-    diseaseResist: 25
+    stats:
+      diseaseResist: 25
 
 - name: Risan Purple Gem
   desc: "a small purple gem with a small ray of light inside it"
   sellValue: 3300
   sprite: 213
 
-  maxEncrusts: 4
+  encrustGive:
+    maxEncrusts: 4
 
-  stats:
-    armorClass: 4
+    stats:
+      armorClass: 4
 
   requirements:
     level: 20
@@ -177,10 +192,11 @@
   sellValue: 2500
   sprite: 242
 
-  maxEncrusts: 4
+  encrustGive:
+    maxEncrusts: 4
 
-  stats:
-    hp: 50
+    stats:
+      hp: 50
 
   requirements:
     level: 20
@@ -190,10 +206,11 @@
   sellValue: 3500
   sprite: 243
 
-  maxEncrusts: 4
+  encrustGive:
+    maxEncrusts: 4
 
-  stats:
-    defense: 3
+    stats:
+      defense: 3
 
   requirements:
     level: 20
@@ -203,10 +220,11 @@
   sellValue: 2700
   sprite: 244
 
-  maxEncrusts: 4
+  encrustGive:
+    maxEncrusts: 4
 
-  stats:
-    mp: 50
+    stats:
+      mp: 50
 
   requirements:
     level: 20
@@ -216,10 +234,11 @@
   sellValue: 2000
   sprite: 245
 
-  maxEncrusts: 4
+  encrustGive:
+    maxEncrusts: 4
 
-  stats:
-    offense: 3
+    stats:
+      offense: 3
 
   requirements:
     level: 20
@@ -229,11 +248,12 @@
   sellValue: 2000000
   sprite: 245
 
-  maxEncrusts: 1
-
-  stats:
-    hp: 500
-    mp: 500
+  encrustGive:
+    maxEncrusts: 1
+    
+    stats:
+      hp: 500
+      mp: 500
 
   requirements:
     level: 45

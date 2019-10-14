@@ -3,7 +3,7 @@ const YAML = require('yamljs');
 const recurse = require('recursive-readdir');
 const fs = require('fs');
 
-const { isString, isNumber } = require('lodash');
+const { isString, isArray, isNumber } = require('lodash');
 
 const allSkills = [  
   'mace',
@@ -148,6 +148,24 @@ const conditionallyAddInformation = (npc) => {
     if(isString(x)) return { result: x, chance: 1 };
     return x;
   });
+
+  const reworkRollable = (baseData) => {
+    if(isString(baseData)) return [{ result: baseData, chance: 1 }];
+    if(isArray(baseData)) return baseData.map(x => {
+      if(isString(x)) return { result: x, chance: 1 };;
+      return x;
+    });
+  };
+
+  if(npc.leftHand) npc.leftHand = reworkRollable(npc.leftHand);
+  if(npc.rightHand) npc.rightHand = reworkRollable(npc.rightHand);
+  if(npc.sack) npc.sack = reworkRollable(npc.sack);
+
+  if(npc.gear) {
+    Object.keys(npc.gear).forEach(gearSlot => {
+      npc.gear[gearSlot] = reworkRollable(npc.gear[gearSlot]);
+    });
+  }
 };
 
 const validateNPC = (npc) => {

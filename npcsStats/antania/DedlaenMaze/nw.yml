@@ -37,21 +37,21 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 1.5
+      extra:
         damageType: 'fire'
-        potency: 1.5
 
     - name: Attribute
-      effectData:
+      potency: 0.5
+      extra:
         damageType: 'sharp'
-        potency: 0.5
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
 
   drops:
@@ -108,19 +108,19 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 1.5
+      extra:
         damageType: 'fire'
-        potency: 1.5
 
     - name: Attribute
-      effectData:
+      potency: 0.5
+      extra:
         damageType: 'sharp'
-        potency: 0.5
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
 
   drops:
@@ -185,23 +185,23 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'magical'
-        potency: 0
 
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'physical'
-        potency: 0
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
 
   drops:

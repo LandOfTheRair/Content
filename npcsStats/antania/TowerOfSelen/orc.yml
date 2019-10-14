@@ -53,13 +53,13 @@
       chance: 3
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
 
 - npcId: Tower Orc Healer
@@ -131,15 +131,15 @@
       chance: 1
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
 - npcId: Tower Orc Mage
@@ -203,13 +203,13 @@
   rightHand: Tower Spear Weak
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
 
 - npcId: Tower Orc Warlord
@@ -271,9 +271,8 @@
 
   baseEffects:
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
   drops:
     - result: Warlord's Key
@@ -286,15 +285,15 @@
       maxChance: 100
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
   triggers:

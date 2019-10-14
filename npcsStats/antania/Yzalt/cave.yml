@@ -35,7 +35,7 @@
       maxChance: 100
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
 
   triggers:

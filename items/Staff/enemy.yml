@@ -7,4 +7,4 @@
   value: 600
   sprite: 575
   binds: true
-  destroysOnDrop: true
+  destroyOnDrop: true

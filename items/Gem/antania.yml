@@ -3,24 +3,27 @@
   sellValue: 300
   sprite: 213
 
-  maxEncrusts: 7
+  encrustGive:
+    maxEncrusts: 7
 
-  stats:
-    armorClass: 2
+    stats:
+      armorClass: 2
 
 - name: Antanian Small Green Gem
   desc: "a small green gem"
   sellValue: 500
   sprite: 242
-  stats:
-    hp: 15
+  encrustGive:
+    stats:
+      hp: 15
 
 - name: Antanian Big Green Gem
   desc: "a big green gem"
   sellValue: 1500
   sprite: 243
-  stats:
-    defense: 1
+  encrustGive:
+    stats:
+      defense: 1
 
   requirements:
     level: 4
@@ -29,15 +32,17 @@
   desc: "a small red gem"
   sellValue: 700
   sprite: 244
-  stats:
-    mp: 15
+  encrustGive:
+    stats:
+      mp: 15
 
 - name: Antanian Big Red Gem
   desc: "a big red gem"
   sellValue: 2000
   sprite: 245
-  stats:
-    offense: 1
+  encrustGive:
+    stats:
+      offense: 1
 
   requirements:
     level: 4
@@ -47,12 +52,13 @@
   sellValue: 6000
   sprite: 315
 
-  maxEncrusts: 2
+  encrustGive:
+    maxEncrusts: 2
 
-  stats:
-    stealth: 15
-    physicalDamageBoost: 25
-    perception: -5
+    stats:
+      stealth: 15
+      physicalDamageBoost: 25
+      perception: -5
 
   requirements:
     level: 11
@@ -62,12 +68,13 @@
   sellValue: 6000
   sprite: 245
 
-  maxEncrusts: 2
+  encrustGive:
+    maxEncrusts: 2
 
-  stats:
-    offense: 3
-    defense: 3
-    armorClass: -2
+    stats:
+      offense: 3
+      defense: 3
+      armorClass: -2
 
   requirements:
     level: 11
@@ -77,12 +84,13 @@
   sellValue: 6000
   sprite: 243
 
-  maxEncrusts: 2
+  encrustGive:
+    maxEncrusts: 2
 
-  stats:
-    healingBoost: 50
-    defense: 3
-    offense: -3
+    stats:
+      healingBoost: 50
+      defense: 3
+      offense: -3
 
   requirements:
     level: 11
@@ -92,12 +100,13 @@
   sellValue: 6000
   sprite: 213
 
-  maxEncrusts: 2
+  encrustGive:
+    maxEncrusts: 2
 
-  stats:
-    magicalDamageBoost: 50
-    defense: 3
-    offense: -3
+    stats:
+      magicalDamageBoost: 50
+      defense: 3
+      offense: -3
 
   requirements:
     level: 11
@@ -107,13 +116,14 @@
   sellValue: 7500
   sprite: 361
 
-  maxEncrusts: 2
-
   binds: true
   tellsBind: true
 
-  stats:
-    str: 1
+  encrustGive:
+    maxEncrusts: 2
+
+    stats:
+      str: 1
 
   requirements:
     level: 10
@@ -123,13 +133,14 @@
   sellValue: 7500
   sprite: 361
 
-  maxEncrusts: 2
-
   binds: true
   tellsBind: true
 
-  stats:
-    int: 1
+  encrustGive:
+    maxEncrusts: 2
+
+    stats:
+      int: 1
 
   requirements:
     level: 10
@@ -139,13 +150,14 @@
   sellValue: 7500
   sprite: 361
 
-  maxEncrusts: 2
-
   binds: true
   tellsBind: true
 
-  stats:
-    wis: 1
+  encrustGive:
+    maxEncrusts: 2
+
+    stats:
+      wis: 1
 
   requirements:
     level: 10

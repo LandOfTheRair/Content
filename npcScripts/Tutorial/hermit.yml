@@ -5,9 +5,9 @@ hostility: Never
 affiliation: Drakkarian Hermit
 
 items:
-  rightHand: Tutorial Yeti Skull
-  leftHand: Tutorial Key
   gear:
+    rightHand: Tutorial Yeti Skull
+    leftHand: Tutorial Key
     Armor: Antanian Tunic
 
 dialog:

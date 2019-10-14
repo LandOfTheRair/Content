@@ -53,17 +53,17 @@
     Hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: 1
       maxChance: 100
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: 1
       maxChance: 10
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
   drops:
@@ -149,17 +149,17 @@
     Hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: 1
       maxChance: 100
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: 1
       maxChance: 10
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
   drops:
@@ -248,17 +248,17 @@
     Hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: 1
       maxChance: 100
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: 1
       maxChance: 10
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
   drops:
@@ -370,17 +370,17 @@
     Hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: 1
       maxChance: 100
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: 1
       maxChance: 10
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
   drops:
@@ -505,17 +505,17 @@
     Hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: 1
       maxChance: 100
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: 1
       maxChance: 10
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
   drops:
@@ -590,17 +590,17 @@
     Hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: 1
       maxChance: 100
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: 1
       maxChance: 10
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
   traitLevels:

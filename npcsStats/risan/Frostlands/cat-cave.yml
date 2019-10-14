@@ -36,13 +36,13 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 1.25
+      extra:
         damageType: 'fire'
-        potency: 1.25
     - name: Attribute
-      effectData:
+      potency: 0.25
+      extra:
         damageType: 'ice'
-        potency: 0.25
 
   gold:
     min: 1350
@@ -118,13 +118,13 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 1.5
+      extra:
         damageType: 'fire'
-        potency: 1.5
     - name: Attribute
-      effectData:
+      potency: 0.25
+      extra:
         damageType: 'ice'
-        potency: 0.25
 
   gold:
     min: 12350

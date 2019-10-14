@@ -14,7 +14,7 @@
 - name: Tower Thief Earring
   stats:
     offense: 1
-  trait:
+  randomTrait:
     name:
       - DarkerShadows
       - ShadowSheath
@@ -28,13 +28,12 @@
 
   requirements:
     level: 13
-    class:
-      - "Thief"
+    baseClass: "Thief"
 
 - name: Tower Warrior Earring
   stats:
     offense: 1
-  trait:
+  randomTrait:
     name:
       - ForcefulStrike
       - Riposte
@@ -48,13 +47,12 @@
 
   requirements:
     level: 13
-    class:
-      - "Warrior"
+    baseClass: "Warrior"
 
 - name: Tower Mage Earring
   stats:
     defense: 1
-  trait:
+  randomTrait:
     name:
       - ForgedFire
       - FrostedTouch
@@ -68,13 +66,12 @@
 
   requirements:
     level: 13
-    class:
-      - "Mage"
+    baseClass: "Mage"
 
 - name: Tower Healer Earring
   stats:
     defense: 1
-  trait:
+  randomTrait:
     name:
       - HealingFocus
       - NecroticFocus
@@ -88,13 +85,12 @@
 
   requirements:
     level: 13
-    class:
-      - "Healer"
+    baseClass: "Healer"
 
 - name: Maze Thief Earring
   stats:
     offense: 1
-  trait:
+  randomTrait:
     name:
       - DarkerShadows
       - ShadowSheath
@@ -108,13 +104,12 @@
 
   requirements:
     level: 15
-    class:
-      - "Thief"
+    baseClass: "Thief"
 
 - name: Maze Warrior Earring
   stats:
     offense: 1
-  trait:
+  randomTrait:
     name:
       - ForcefulStrike
       - Riposte
@@ -128,13 +123,12 @@
 
   requirements:
     level: 15
-    class:
-      - "Warrior"
+    baseClass: "Warrior"
 
 - name: Maze Mage Earring
   stats:
     defense: 1
-  trait:
+  randomTrait:
     name:
       - ForgedFire
       - FrostedTouch
@@ -148,13 +142,12 @@
 
   requirements:
     level: 15
-    class:
-      - "Mage"
+    baseClass: "Mage"
 
 - name: Maze Healer Earring
   stats:
     defense: 1
-  trait:
+  randomTrait:
     name:
       - HealingFocus
       - NecroticFocus
@@ -168,5 +161,4 @@
 
   requirements:
     level: 15
-    class:
-      - "Healer"
+    baseClass: "Healer"

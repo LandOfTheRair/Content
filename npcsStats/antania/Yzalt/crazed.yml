@@ -78,15 +78,15 @@
         chance: 1
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'gear.Ring1'
+    - result: 'gear.Ring1'
       chance: -1
-    - drop: 'gear.Hands'
+    - result: 'gear.Hands'
       chance: -1
 
 - npcId: Crazed Heniz Thief
@@ -174,17 +174,17 @@
     - Transmute
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Wrists'
+    - result: 'gear.Wrists'
       chance: -1
-    - drop: 'gear.Waist'
+    - result: 'gear.Waist'
       chance: -1
 
 - npcId: Crazed Steffen Warrior
@@ -274,21 +274,21 @@
         chance: 1
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Ring1'
+    - result: 'gear.Ring1'
       chance: -1
-    - drop: 'gear.Ring2'
+    - result: 'gear.Ring2'
       chance: -1
-    - drop: 'gear.Neck'
+    - result: 'gear.Neck'
       chance: -1
-    - drop: 'gear.Hands'
+    - result: 'gear.Hands'
       chance: -1
 
 - npcId: Crazed Steffen Healer
@@ -371,19 +371,19 @@
         chance: 1
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'gear.Ring1'
+    - result: 'gear.Ring1'
       chance: -1
-    - drop: 'gear.Ring2'
+    - result: 'gear.Ring2'
       chance: -1
-    - drop: 'gear.Waist'
+    - result: 'gear.Waist'
       chance: -1
 
 - npcId: Crazed Mummy
@@ -427,14 +427,14 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 1.5
+      extra:
         damageType: 'fire'
-        potency: 1.5
 
     - name: Attribute
-      effectData:
+      potency: 0.5 
+      extra:
         damageType: 'physical'
-        potency: 0.5
 
   rightHand:
     - result: Antanian Greatmace
@@ -479,11 +479,11 @@
         chance: 100
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
 
 - npcId: Insane Heniz Mage
@@ -605,29 +605,29 @@
         chance: 1
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'gear.Ring1'
+    - result: 'gear.Ring1'
       chance: -1
-    - drop: 'gear.Ring2'
+    - result: 'gear.Ring2'
       chance: -1
-    - drop: 'gear.Head'
+    - result: 'gear.Head'
       chance: -1
-    - drop: 'gear.Neck'
+    - result: 'gear.Neck'
       chance: -1
-    - drop: 'gear.Feet'
+    - result: 'gear.Feet'
       chance: -1
-    - drop: 'gear.Hands'
+    - result: 'gear.Hands'
       chance: -1
-    - drop: 'gear.Wrists'
+    - result: 'gear.Wrists'
       chance: -1
-    - drop: 'gear.Waist'
+    - result: 'gear.Waist'
       chance: -1
 
 - npcId: Insane Heniz Thief
@@ -758,29 +758,29 @@
         chance: 1
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Ring1'
+    - result: 'gear.Ring1'
       chance: -1
-    - drop: 'gear.Ring2'
+    - result: 'gear.Ring2'
       chance: -1
-    - drop: 'gear.Head'
+    - result: 'gear.Head'
       chance: -1
-    - drop: 'gear.Neck'
+    - result: 'gear.Neck'
       chance: -1
-    - drop: 'gear.Feet'
+    - result: 'gear.Feet'
       chance: -1
-    - drop: 'gear.Hands'
+    - result: 'gear.Hands'
       chance: -1
-    - drop: 'gear.Wrists'
+    - result: 'gear.Wrists'
       chance: -1
-    - drop: 'gear.Waist'
+    - result: 'gear.Waist'
       chance: -1
 
   sack:
@@ -913,29 +913,29 @@
         chance: 1
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Ring1'
+    - result: 'gear.Ring1'
       chance: -1
-    - drop: 'gear.Ring2'
+    - result: 'gear.Ring2'
       chance: -1
-    - drop: 'gear.Head'
+    - result: 'gear.Head'
       chance: -1
-    - drop: 'gear.Neck'
+    - result: 'gear.Neck'
       chance: -1
-    - drop: 'gear.Feet'
+    - result: 'gear.Feet'
       chance: -1
-    - drop: 'gear.Hands'
+    - result: 'gear.Hands'
       chance: -1
-    - drop: 'gear.Wrists'
+    - result: 'gear.Wrists'
       chance: -1
-    - drop: 'gear.Waist'
+    - result: 'gear.Waist'
       chance: -1
 
 - npcId: Insane Steffen Healer
@@ -1046,29 +1046,29 @@
         chance: 1
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe2'
+    - result: 'gear.Robe2'
       chance: -1
-    - drop: 'gear.Ring1'
+    - result: 'gear.Ring1'
       chance: -1
-    - drop: 'gear.Ring2'
+    - result: 'gear.Ring2'
       chance: -1
-    - drop: 'gear.Head'
+    - result: 'gear.Head'
       chance: -1
-    - drop: 'gear.Neck'
+    - result: 'gear.Neck'
       chance: -1
-    - drop: 'gear.Feet'
+    - result: 'gear.Feet'
       chance: -1
-    - drop: 'gear.Hands'
+    - result: 'gear.Hands'
       chance: -1
-    - drop: 'gear.Wrists'
+    - result: 'gear.Wrists'
       chance: -1
-    - drop: 'gear.Waist'
+    - result: 'gear.Waist'
       chance: -1
 
 - npcId: Ranata
@@ -1131,16 +1131,15 @@
       chance: -1
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
 
   baseEffects:
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
   triggers:
     combat:
@@ -1218,9 +1217,8 @@
 
   baseEffects:
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
   triggers:
     combat:
@@ -1266,7 +1264,7 @@
                 requireLockpick: false
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1

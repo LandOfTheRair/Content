@@ -48,13 +48,13 @@
       - Risan Cloak
 
   copyDrops:
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
 
 - npcId: Frostlands Noble
@@ -94,13 +94,13 @@
     Robe1: Frostlands Noble Robe
 
   copyDrops:
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
 
 - npcId: Frostlands Guard
@@ -139,9 +139,9 @@
     Armor: Risan Breastplate
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
 
 - npcId: Frostlands Slave
@@ -176,7 +176,7 @@
       - Risan Cloak
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1

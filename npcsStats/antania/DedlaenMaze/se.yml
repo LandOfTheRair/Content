@@ -24,16 +24,16 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'magical'
-        potency: 0
 
   gear:
     Hands: Maze Skeleton Claws
     Waist: Dedlaen Crypt Thing Sash
 
   copyDrops:
-    - drop: 'gear.Waist'
+    - result: 'gear.Waist'
       chance: -1
 
   drops:
@@ -106,14 +106,14 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0.5
+      extra:
         damageType: 'fire'
-        potency: 0.5
 
     - name: Attribute
-      effectData:
+      potency: 1.75
+      extra:
         damageType: 'ice'
-        potency: 1.75
 
   usableSkills:
     - IceMist
@@ -235,9 +235,8 @@
 
   baseEffects:
     - name: TrueSight
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
   usableSkills:
     - ShredTwentyPercent

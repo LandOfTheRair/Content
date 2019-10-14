@@ -45,14 +45,13 @@
 
   baseEffects:
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
   copyDrops:
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1

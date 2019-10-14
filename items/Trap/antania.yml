@@ -5,9 +5,11 @@
   effect:
     name: FireMist
     potency: 10
-    levelRequirement: 3
-    skillRequirement: 3
   value: 1500
+
+  requirements:
+    baseClass: Thief
+    level: 3
 
 - name: Antanian IceMist Thief Trap
   sprite: 1027
@@ -16,9 +18,11 @@
   effect:
     name: IceMist
     potency: 10
-    levelRequirement: 3
-    skillRequirement: 3
   value: 1500
+
+  requirements:
+    baseClass: Thief
+    level: 3
 
 - name: Antanian Poison Thief Trap
   sprite: 1028
@@ -27,9 +31,11 @@
   effect:
     name: Poison
     potency: 10
-    levelRequirement: 3
-    skillRequirement: 3
   value: 1000
+
+  requirements:
+    baseClass: Thief
+    level: 3
 
 - name: Antanian Afflict Thief Trap
   sprite: 1025
@@ -38,9 +44,11 @@
   effect:
     name: Afflict
     potency: 10
-    levelRequirement: 3
-    skillRequirement: 3
   value: 1000
+
+  requirements:
+    baseClass: Thief
+    level: 3
 
 - name: Antanian MagicMissile Thief Trap
   sprite: 1025
@@ -49,9 +57,11 @@
   effect:
     name: MagicMissile
     potency: 10
-    levelRequirement: 3
-    skillRequirement: 3
   value: 1000
+
+  requirements:
+    baseClass: Thief
+    level: 3
 
 - name: Antanian Distraction Thief Trap
   sprite: 334
@@ -69,9 +79,11 @@
   effect:
     name: Darkness
     potency: 15
-    levelRequirement: 3
-    skillRequirement: 3
   value: 2000
+
+  requirements:
+    baseClass: Thief
+    level: 3
 
 - name: Antanian Snare Thief Trap
   sprite: 1028
@@ -80,9 +92,11 @@
   effect:
     name: Snare
     potency: 10
-    levelRequirement: 3
-    skillRequirement: 3
   value: 2000
+
+  requirements:
+    baseClass: Thief
+    level: 3
 
 - name: Antanian Stun Thief Trap
   sprite: 1028
@@ -91,9 +105,11 @@
   effect:
     name: Stun
     potency: 10
-    levelRequirement: 3
-    skillRequirement: 3
   value: 2000
+
+  requirements:
+    baseClass: Thief
+    level: 3
 
 - name: Antanian Blind Thief Trap
   sprite: 1028
@@ -102,6 +118,8 @@
   effect:
     name: Blind
     potency: 10
-    levelRequirement: 3
-    skillRequirement: 3
   value: 2000
+
+  requirements:
+    baseClass: Thief
+    level: 3

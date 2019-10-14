@@ -32,13 +32,13 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'fire'
-        potency: 0
     - name: Attribute
-      effectData:
+      potency: 2
+      extra:
         damageType: 'ice'
-        potency: 2
 
 - npcId: Christmas Present Elf
   name: present elf
@@ -90,13 +90,13 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'fire'
-        potency: 0
     - name: Attribute
-      effectData:
+      potency: 2
+      extra:
         damageType: 'ice'
-        potency: 2
 
 - npcId: Christmas Weak Snowman
   name: snowman
@@ -156,13 +156,13 @@
       chance: 1
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Head'
+    - result: 'gear.Head'
       chance: -1
-    - drop: 'gear.Neck'
+    - result: 'gear.Neck'
       chance: -1
 
   drops:
@@ -175,13 +175,13 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 2
+      extra:
         damageType: 'fire'
-        potency: 2
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'ice'
-        potency: 0
 
 - npcId: Christmas Strong Snowman
   name: snowman
@@ -237,13 +237,13 @@
       chance: 1
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Head'
+    - result: 'gear.Head'
       chance: -1
-    - drop: 'gear.Neck'
+    - result: 'gear.Neck'
       chance: -1
 
   drops:
@@ -260,13 +260,13 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 2
+      extra:
         damageType: 'fire'
-        potency: 2
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'ice'
-        potency: 0
 
 - npcId: Christmas King Snowman
   name: Jack Frost
@@ -302,9 +302,9 @@
   leftHand: Christmas Button Shield
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
 
   dropPool:
@@ -360,13 +360,13 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 2
+      extra:
         damageType: 'fire'
-        potency: 2
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'ice'
-        potency: 0
 
 - npcId: Christmas Weak Reindeer
   name: reindeer
@@ -413,13 +413,13 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0.5
+      extra:
         damageType: 'fire'
-        potency: 0.5
     - name: Attribute
-      effectData:
+      potency: 0.5
+      extra:
         damageType: 'ice'
-        potency: 0.5
 
 - npcId: Christmas Strong Reindeer
   name: reindeer
@@ -473,10 +473,10 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0.5
+      extra:
         damageType: 'fire'
-        potency: 0.5
     - name: Attribute
-      effectData:
+      potency: 0.5
+      extra:
         damageType: 'ice'
-        potency: 0.5

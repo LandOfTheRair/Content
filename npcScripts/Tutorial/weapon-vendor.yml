@@ -4,8 +4,8 @@ hostility: Never
 affiliation: Weapon Vendor
 
 items:
-  rightHand: Antanian Greastword
   gear:
+    rightHand: Antanian Greatsword
     Armor: Antanian Cloak
 
 behaviors:

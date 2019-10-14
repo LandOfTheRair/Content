@@ -12,10 +12,11 @@
   value: 50
   effect:
     name: Nourishment
-    tooltip: "+3 HP Regen"
-    message: "The bread is delicious!"
-    stats:
-      hpregen: 3
+    extra:
+      tooltip: "+3 HP Regen"
+      message: "The bread is delicious!"
+      stats:
+        hpregen: 3
     duration: 21600
 
 - name: Antanian Loaf of Bread
@@ -25,10 +26,11 @@
   ounces: 12
   effect:
     name: Nourishment
-    tooltip: "+3 HP Regen"
-    message: "The bread is delicious!"
-    stats:
-      hpregen: 3
+    extra:
+      tooltip: "+3 HP Regen"
+      message: "The bread is delicious!"
+      stats:
+        hpregen: 3
     duration: 21600
 
 - name: Antanian Fungus Bread
@@ -38,11 +40,12 @@
   ounces: 1
   effect:
     name: Nourishment
-    tooltip: "+1 STR, +1 WIL"
-    message: "The bread is unappealing, but filling!"
-    stats:
-      str: 1
-      wil: 1
+    extra:
+      tooltip: "+1 STR, +1 WIL"
+      message: "The bread is unappealing, but filling!"
+      stats:
+        str: 1
+        wil: 1
     duration: 42200
 
 - name: Antanian Fungus Loaf
@@ -52,9 +55,10 @@
   ounces: 12
   effect:
     name: Nourishment
-    tooltip: "+1 STR, +1 WIL"
-    message: "The bread is unappealing, but filling!"
-    stats:
-      str: 1
-      wil: 1
+    extra:
+      tooltip: "+1 STR, +1 WIL"
+      message: "The bread is unappealing, but filling!"
+      stats:
+        str: 1
+        wil: 1
     duration: 42200

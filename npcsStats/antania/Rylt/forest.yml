@@ -80,14 +80,14 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'magical'
-        potency: 0.75
 
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'physical'
-        potency: 0.75
 
   hp:
     min: 1700
@@ -260,14 +260,14 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'magical'
-        potency: 0.75
 
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'physical'
-        potency: 0.75
 
   drops:
     - result: Werebear Claws

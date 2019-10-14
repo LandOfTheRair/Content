@@ -4,9 +4,9 @@ hostility: Never
 affiliation: Encruster's Guild
 
 items:
-  rightHand: Antanian Shortsword
-  leftHand: Antanian Purple Gem
   gear:
+    rightHand: Antanian Shortsword
+    leftHand: Antanian Purple Gem
     Armor: Antanian Tunic
 
 dialog:

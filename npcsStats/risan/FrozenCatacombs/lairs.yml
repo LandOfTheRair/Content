@@ -47,25 +47,22 @@
 
   baseEffects:
     - name: Mood
-      effectData:
-        effectInfo:
-          enrageTimer: 300000
+      extra:
+        enrageTimer: 300000
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'physical'
-        potency: 0.75
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'ice'
-        potency: 0
     - name: TrueSight
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
   gold:
     min: 32350
@@ -151,29 +148,26 @@
 
   baseEffects:
     - name: Mood
-      effectData:
-        effectInfo:
-          enrageTimer: 300000
+      extra:
+        enrageTimer: 300000
 
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
     - name: TrueSight
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'magical'
-        potency: 0.75
 
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'physical'
-        potency: 0.75
 
   traitLevels:
     StunningFist: 10
@@ -275,21 +269,21 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0.5
+      extra:
         damageType: 'magical'
-        potency: 0.5
 
     - name: Attribute
-      effectData:
+      potency: 0.5
+      extra:
         damageType: 'physical'
-        potency: 0.5
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
 
   dropPool:
@@ -381,31 +375,27 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
-        damageType: 'magical'
-        potency: 0.25
-
-    - name: Attribute
-      effectData:
+      potency: 0.25
+      extra:
         damageType: 'physical'
-        potency: 0.25
+    - name: Attribute
+      potency: 0.25
+      extra:
+        damageType: 'magical'
 
     - name: TrueSight
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
-
+      extra:
+        isPermanent: true
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
 
   drops:

@@ -57,8 +57,7 @@
 
   requirements:
     level: 7
-    profession:
-      - "Mage"
+    baseClass: "Mage"
 
 - name: Dedlaen Dexterity Gloves
   tier: 4

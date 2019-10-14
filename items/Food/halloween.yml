@@ -7,18 +7,19 @@
 
   effect:
     name: Nourishment
-    tooltip: "+3 All Stats"
-    message: "Wowza, what a strong sugar rush!"
-    stats:
-      str: 3
-      dex: 3
-      agi: 3
-      int: 3
-      wis: 3
-      wil: 3
-      con: 3
-      luk: 3
-      cha: 3
+    extra:
+      tooltip: "+3 All Stats"
+      message: "Wowza, what a strong sugar rush!"
+      stats:
+        str: 3
+        dex: 3
+        agi: 3
+        int: 3
+        wis: 3
+        wil: 3
+        con: 3
+        luk: 3
+        cha: 3
     duration: 600
 
 - name: Halloween Candy - Lollipops
@@ -29,10 +30,11 @@
 
   effect:
     name: Nourishment
-    tooltip: "+5 AGI"
-    message: "Whew, what a sugar rush!"
-    stats:
-      agi: 5
+    extra:
+      tooltip: "+5 AGI"
+      message: "Whew, what a sugar rush!"
+      stats:
+        agi: 5
     duration: 300
 
 - name: Halloween Candy - Gummies
@@ -43,10 +45,11 @@
 
   effect:
     name: Nourishment
-    tooltip: "+5 STR"
-    message: "Whew, what a sugar rush!"
-    stats:
-      str: 5
+    extra:
+      tooltip: "+5 STR"
+      message: "Whew, what a sugar rush!"
+      stats:
+        str: 5
     duration: 300
 
 - name: Halloween Candy - Wrapped
@@ -57,10 +60,11 @@
 
   effect:
     name: Nourishment
-    tooltip: "+5 INT"
-    message: "Whew, what a sugar rush!"
-    stats:
-      int: 5
+    extra:
+      tooltip: "+5 INT"
+      message: "Whew, what a sugar rush!"
+      stats:
+        int: 5
     duration: 300
 
 - name: Halloween Candy - Jellies
@@ -71,10 +75,11 @@
 
   effect:
     name: Nourishment
-    tooltip: "+5 DEX"
-    message: "Whew, what a sugar rush!"
-    stats:
-      dex: 5
+    extra:
+      tooltip: "+5 DEX"
+      message: "Whew, what a sugar rush!"
+      stats:
+        dex: 5
     duration: 300
 
 - name: Halloween Candy - Mints
@@ -85,10 +90,11 @@
 
   effect:
     name: Nourishment
-    tooltip: "+5 WIS"
-    message: "Whew, what a sugar rush!"
-    stats:
-      wis: 5
+    extra:
+      tooltip: "+5 WIS"
+      message: "Whew, what a sugar rush!"
+      stats:
+        wis: 5
     duration: 300
 
 - name: Halloween Zombie Brain
@@ -99,8 +105,9 @@
 
   effect:
     name: Nourishment
-    tooltip: "-2 INT"
-    message: "Gross! Don't make that mistake twice."
-    stats:
-      int: -2
+    extra:
+      tooltip: "-2 INT"
+      message: "Gross! Don't make that mistake twice."
+      stats:
+        int: -2
     duration: 3600

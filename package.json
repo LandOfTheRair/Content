@@ -12,7 +12,8 @@
     "build:spawners": "node _transformers/spawner.js",
     "build:npc-scripts": "node _transformers/npc-scripts.js",
     "build:charcreate": "node _transformers/charcreate.js",
-    "fix:spawnersandmaps": "node _transformers/convert-spawners-and-maps"
+    "fix:spawnersandmaps": "node _transformers/convert-spawners-and-maps",
+    "dump:props": "node _transformers/dump-props"
   },
   "repository": {
     "type": "git",

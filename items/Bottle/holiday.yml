@@ -60,8 +60,9 @@
   ounces: 10
   effect:
     name: Nourishment
-    tooltip: "+3 WIL"
-    message: "The egg nog is delicious!"
-    stats:
-      wil: 3
+    extra:
+      tooltip: "+3 WIL"
+      message: "The egg nog is delicious!"
+      stats:
+        wil: 3
     duration: 21600

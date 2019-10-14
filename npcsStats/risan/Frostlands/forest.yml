@@ -34,9 +34,9 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0.75
+      extra:
         damageType: 'physical'
-        potency: 0.75
 
   traitLevels:
     StunningFist: 10

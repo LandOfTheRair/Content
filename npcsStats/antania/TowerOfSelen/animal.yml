@@ -34,9 +34,8 @@
 
   baseEffects:
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
   usableSkills:
     - PoisonBiteMedium
@@ -76,9 +75,8 @@
 
   baseEffects:
     - name: DarkVision
-      effectData:
-        effectInfo:
-          isPermanent: true
+      extra:
+        isPermanent: true
 
   drops:
     - result: Tower Spider Egg

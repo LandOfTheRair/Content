@@ -54,9 +54,9 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'turkey'
-        potency: 0
 
 - npcId: Thanksgiving Weak Turkey
   name: turkey
@@ -92,9 +92,9 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'turkey'
-        potency: 0
 
   drops:
     - result: Thanksgiving Turkey Feather
@@ -150,9 +150,9 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'turkey'
-        potency: 0
 
   drops:
     - result: Thanksgiving Turkey Feather
@@ -208,9 +208,9 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'turkey'
-        potency: 0
 
   drops:
     - result: Thanksgiving Turkey Feather
@@ -275,9 +275,9 @@
 
   baseEffects:
     - name: Attribute
-      effectData:
+      potency: 0
+      extra:
         damageType: 'turkey'
-        potency: 0
 
   drops:
     - result: Thanksgiving Turkey Feather

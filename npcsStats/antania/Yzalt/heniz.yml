@@ -123,23 +123,23 @@
         chance: 1
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Ring1'
+    - result: 'gear.Ring1'
       chance: -1
-    - drop: 'gear.Head'
+    - result: 'gear.Head'
       chance: -1
-    - drop: 'gear.Hands'
+    - result: 'gear.Hands'
       chance: -1
-    - drop: 'gear.Neck'
+    - result: 'gear.Neck'
       chance: -1
-    - drop: 'gear.Feet'
+    - result: 'gear.Feet'
       chance: -1
 
 - npcId: Heniz Thief Defender
@@ -236,17 +236,17 @@
         - "The Steffen never learn, do they?"
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Wrists'
+    - result: 'gear.Wrists'
       chance: -1
-    - drop: 'gear.Waist'
+    - result: 'gear.Waist'
       chance: -1
 
 - npcId: Heniz Mage Defender
@@ -339,15 +339,15 @@
         - "The Steffen never learn, do they?"
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Ring1'
+    - result: 'gear.Ring1'
       chance: -1
-    - drop: 'gear.Hands'
+    - result: 'gear.Hands'
       chance: -1
 
 - npcId: Heniz Thief Offender
@@ -443,17 +443,17 @@
         - "The Steffen never learn, do they?"
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'leftHand'
+    - result: 'leftHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Wrists'
+    - result: 'gear.Wrists'
       chance: -1
-    - drop: 'gear.Waist'
+    - result: 'gear.Waist'
       chance: -1
 
 - npcId: Heniz Mage Offender
@@ -546,13 +546,13 @@
         - "The Steffen never learn, do they?"
 
   copyDrops:
-    - drop: 'rightHand'
+    - result: 'rightHand'
       chance: -1
-    - drop: 'gear.Armor'
+    - result: 'gear.Armor'
       chance: -1
-    - drop: 'gear.Robe1'
+    - result: 'gear.Robe1'
       chance: -1
-    - drop: 'gear.Ring1'
+    - result: 'gear.Ring1'
       chance: -1
-    - drop: 'gear.Hands'
+    - result: 'gear.Hands'
       chance: -1
