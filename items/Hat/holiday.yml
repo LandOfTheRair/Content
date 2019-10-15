@@ -6,6 +6,7 @@
     defense: 3
   effect:
     name: TrueSight
+    potency: 1
     autocast: true
   sprite: 568
   desc: "a traditional pilgrim hat"
@@ -25,6 +26,7 @@
     defense: 3
   effect:
     name: DarkVision
+    potency: 1
     autocast: true
   sprite: 578
   desc: "a top hat worn by the snowmen of Winter Wonderland"

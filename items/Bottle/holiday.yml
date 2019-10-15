@@ -7,6 +7,7 @@
   ounces: 16
   effect:
     name: DarkVision
+    potency: 1
     duration: 21600
 
 - name: Thanksgiving Heal Bottle (XS)
@@ -60,6 +61,7 @@
   ounces: 10
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+3 WIL"
       message: "The egg nog is delicious!"

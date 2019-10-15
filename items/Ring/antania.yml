@@ -106,3 +106,4 @@
   sprite: 266
   binds: true
   desc: "a gold ring plated with layers of silver"
+  value: 1000

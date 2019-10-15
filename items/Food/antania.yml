@@ -5,6 +5,7 @@
   value: 100
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+1 STR"
       message: "The beat meat is tender!"
@@ -18,6 +19,7 @@
   value: 100
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+1 INT"
       message: "The apple is delicious!"
@@ -31,6 +33,7 @@
   value: 10
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+1 STR, +1 DEX, +1 AGI"
       message: "The egg innards has a strangely rough texture."
@@ -48,6 +51,7 @@
   binds: true
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+100 Poison Resist, +50 Disease Resist"
       message: "The grub tastes like decaying flesh. At least you lost your appetite."
@@ -62,6 +66,7 @@
   value: 10
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+50 HP/MP, +5 HP/MP Regen, +10 Physical Resist"
       message: "The gourd is sweet and delicious!"
@@ -79,6 +84,7 @@
   value: 10
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+1 All Stats"
       stats:

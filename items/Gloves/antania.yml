@@ -28,6 +28,7 @@
   desc: "a pair of golden knight gauntlets"
   sprite: 362
   binds: true
+  value: 1000
 
   requirements:
     level: 5
@@ -54,6 +55,7 @@
   desc: "a pair of dark gauntlets that emanate magic"
   sprite: 461
   binds: true
+  value: 1000
 
   requirements:
     level: 7

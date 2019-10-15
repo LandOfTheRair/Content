@@ -3,6 +3,7 @@
 - name: Risan Diamond
   desc: "a roughly-cut diamond"
   sellValue: 25000
+  value: 1
   sprite: 247
 
   encrustGive:
@@ -18,6 +19,7 @@
 - name: Risan Emerald Chunk
   desc: "a chunk of raw emerald"
   sellValue: 2500
+  value: 1
   sprite: 246
 
   encrustGive:
@@ -32,6 +34,7 @@
 - name: Risan Raw Jade
   desc: "a chunk of raw jade"
   sellValue: 1500
+  value: 1
   sprite: 310
 
   encrustGive:
@@ -46,6 +49,7 @@
 - name: Risan Carved Jade
   desc: "a chunk of jade finely-carved into the shape of a scarab"
   sellValue: 1800
+  value: 1
   sprite: 311
   encrustGive:
     stats:
@@ -57,6 +61,7 @@
 - name: Risan Polished Ruby
   desc: "a well-polished ruby"
   sellValue: 1200
+  value: 1
   sprite: 312
   encrustGive:
     stats:
@@ -68,6 +73,7 @@
 - name: Risan White Pearl
   desc: "a large white pearl"
   sellValue: 3000
+  value: 1
   sprite: 313
 
   encrustGive:
@@ -82,6 +88,7 @@
 - name: Risan Black Pearl
   desc: "a large black pearl"
   sellValue: 3000
+  value: 1
   sprite: 314
 
   encrustGive:
@@ -96,6 +103,7 @@
 - name: Risan Small Black Pearl
   desc: "a small black pearl"
   sellValue: 3500
+  value: 1
   sprite: 315
 
   encrustGive:
@@ -110,6 +118,7 @@
 - name: Risan Fire Prot Crystal
   desc: "a small crystal encasing a fire frozen in time"
   sellValue: 5000
+  value: 1
   sprite: 340
 
   encrustGive:
@@ -121,6 +130,7 @@
 - name: Risan Ice Prot Crystal
   desc: "a small crystal encasing a chunk of ice"
   sellValue: 5000
+  value: 1
   sprite: 339
 
   encrustGive:
@@ -132,6 +142,7 @@
 - name: Risan Necrotic Prot Crystal
   desc: "a small crystal encasing a chunk of earth"
   sellValue: 5000
+  value: 1
   sprite: 341
 
   encrustGive:
@@ -143,6 +154,7 @@
 - name: Risan Energy Prot Crystal
   desc: "a strangely-shaped crystal that has a pervasive energy aura"
   sellValue: 5000
+  value: 1
   sprite: 338
 
   encrustGive:
@@ -154,6 +166,7 @@
 - name: Risan Poison Prot Crystal
   desc: "an ancient piece of petrified wood"
   sellValue: 6000
+  value: 1
   sprite: 912
 
   encrustGive:
@@ -165,6 +178,7 @@
 - name: Risan Disease Prot Crystal
   desc: "a tiny piece of wood with a well-preserved beetle"
   sellValue: 4000
+  value: 1
   sprite: 911
 
   encrustGive:
@@ -176,6 +190,7 @@
 - name: Risan Purple Gem
   desc: "a small purple gem with a small ray of light inside it"
   sellValue: 3300
+  value: 1
   sprite: 213
 
   encrustGive:
@@ -190,6 +205,7 @@
 - name: Risan Small Green Gem
   desc: "a small green gem with a small ray of light inside it"
   sellValue: 2500
+  value: 1
   sprite: 242
 
   encrustGive:
@@ -204,6 +220,7 @@
 - name: Risan Big Green Gem
   desc: "a big green gem with a small ray of light inside it"
   sellValue: 3500
+  value: 1
   sprite: 243
 
   encrustGive:
@@ -218,6 +235,7 @@
 - name: Risan Small Red Gem
   desc: "a small red gem with a small ray of light inside it"
   sellValue: 2700
+  value: 1
   sprite: 244
 
   encrustGive:
@@ -232,6 +250,7 @@
 - name: Risan Big Red Gem
   desc: "a big red gem with a small ray of light inside it"
   sellValue: 2000
+  value: 1
   sprite: 245
 
   encrustGive:
@@ -245,7 +264,8 @@
 
 - name: Catacombs Lich Phylactery
   desc: "a gooey phylactery filled with the essence of undeath"
-  sellValue: 2000000
+  sellValue: 1000000
+  value: 1
   sprite: 245
 
   encrustGive:

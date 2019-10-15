@@ -7,6 +7,7 @@
   destroyOnDrop: true
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+1 WIS/WIL/CON"
       message: "The holy water revitalizes you."
@@ -22,6 +23,7 @@
   value: 1000
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+2 WIS/WIL/CON, +5 MP Regen"
       message: "The bile water revitalizes you."

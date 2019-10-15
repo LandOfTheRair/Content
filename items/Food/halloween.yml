@@ -7,6 +7,7 @@
 
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+3 All Stats"
       message: "Wowza, what a strong sugar rush!"
@@ -30,6 +31,7 @@
 
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+5 AGI"
       message: "Whew, what a sugar rush!"
@@ -45,6 +47,7 @@
 
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+5 STR"
       message: "Whew, what a sugar rush!"
@@ -60,6 +63,7 @@
 
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+5 INT"
       message: "Whew, what a sugar rush!"
@@ -75,6 +79,7 @@
 
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+5 DEX"
       message: "Whew, what a sugar rush!"
@@ -90,6 +95,7 @@
 
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+5 WIS"
       message: "Whew, what a sugar rush!"
@@ -105,6 +111,7 @@
 
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "-2 INT"
       message: "Gross! Don't make that mistake twice."

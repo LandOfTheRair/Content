@@ -12,6 +12,7 @@
   value: 50
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+3 HP Regen"
       message: "The bread is delicious!"
@@ -26,6 +27,7 @@
   ounces: 12
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+3 HP Regen"
       message: "The bread is delicious!"
@@ -40,6 +42,7 @@
   ounces: 1
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+1 STR, +1 WIL"
       message: "The bread is unappealing, but filling!"
@@ -55,6 +58,7 @@
   ounces: 12
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+1 STR, +1 WIL"
       message: "The bread is unappealing, but filling!"

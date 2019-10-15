@@ -6,6 +6,7 @@
   value: 1500
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+2 STR"
       message: "The beat meat is tender!"
@@ -19,6 +20,7 @@
   value: 1500
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+15 HP Regen"
       message: "The wolf flank is chewy!"
@@ -32,6 +34,7 @@
   value: 2500
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+20 HP/MP Regen"
       message: "The griffon tongue is chewy!"
@@ -46,6 +49,7 @@
   value: 2500
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+300 Perception"
       message: "The heart opens your eyes!"
@@ -59,6 +63,7 @@
   value: 1500
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+2 WIL/CON"
       message: "The bile exercises your constitution!"
@@ -73,6 +78,7 @@
   value: 2500
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+3 WIL/CON, +100 Poison Resist, +70 Disease Resist"
       message: "The bile exercises your constitution!"
@@ -89,6 +95,7 @@
   value: 2500
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+2 INT"
       message: "The egg contents are delicious!"

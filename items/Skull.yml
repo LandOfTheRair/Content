@@ -5,6 +5,7 @@
   effect:
     name: Newbie
     autocast: true
+    potency: 1
   binds: true
   sprite: 359
 

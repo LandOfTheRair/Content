@@ -5,6 +5,7 @@
   sprite: 254
   effect:
     name: TrueSight
+    potency: 1
     duration: 600
   value: 200
 
@@ -15,6 +16,7 @@
   ounces: 10
   effect:
     name: TrueSight
+    potency: 1
     duration: 600
   value: 200
 
@@ -24,6 +26,7 @@
   sprite: 957
   effect:
     name: DarkVision
+    potency: 1
     duration: 1200
   value: 200
 
@@ -34,6 +37,7 @@
   sprite: 957
   effect:
     name: DarkVision
+    potency: 1
     duration: 1200
   value: 200
 

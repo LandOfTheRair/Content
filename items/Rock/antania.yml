@@ -9,10 +9,12 @@
   desc: "a chunk of raw titanium"
   binds: true
   sellValue: 35000
+  value: 1
 
 - name: Dedlaen Minotaur Horn
   sprite: 221
   desc: "an ivory horn taken from a youthful minotaur"
   binds: true
   sellValue: 100000
+  value: 1
 

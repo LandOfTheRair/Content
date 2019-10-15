@@ -7,6 +7,7 @@
   tier: 1
   desc: "a pair of rocky gloves"
   sprite: -1
+  value: 1
 
 - name: Crazed Rockgolem Gloves
   stats:
@@ -15,6 +16,7 @@
   tier: 3
   desc: "a pair of rocky gloves"
   sprite: -1
+  value: 1
 
 - name: Dolphin Gloves
   stats:
@@ -23,6 +25,7 @@
   tier: 1
   desc: "a pair of finny gloves"
   sprite: -1
+  value: 1
 
 - name: Mines Rockman Gloves
   stats:
@@ -31,6 +34,7 @@
   tier: 3
   desc: "a pair of rocky gloves"
   sprite: -1
+  value: 1
 
 - name: Frostlands Frostgolem Gloves
   stats:
@@ -40,3 +44,4 @@
   damageClass: 'ice'
   desc: "a pair of rocky gloves"
   sprite: -1
+  value: 1

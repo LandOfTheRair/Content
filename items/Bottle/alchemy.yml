@@ -12,6 +12,7 @@
   value: 50
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+3 MP Regen"
       message: "The water quenches your thirst."
@@ -26,6 +27,7 @@
   ounces: 16
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+3 MP Regen"
       message: "The water quenches your thirst."

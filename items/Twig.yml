@@ -9,6 +9,7 @@
   sprite: 116
   desc: "a pink feather taken from a renegade"
   sellValue: 500
+  value: 1
   binds: true
   requirements:
     quest: RenegadeFeathers
@@ -17,6 +18,7 @@
   sprite: 553
   desc: "a fan of fine feathers plucked from a turkey"
   sellValue: 500
+  value: 1
 
 - name: Antanian Twig
   sprite: 222

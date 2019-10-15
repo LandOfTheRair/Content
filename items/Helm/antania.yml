@@ -71,6 +71,7 @@
 - name: Heniz DarkVision Helm
   effect:
     name: DarkVision
+    potency: 1
     autocast: true
   sprite: 373
   desc: "a glow in the dark helmet with eyes that let you see in the dark"

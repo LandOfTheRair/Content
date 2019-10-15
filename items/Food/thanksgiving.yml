@@ -7,6 +7,7 @@
 
   effect:
     name: Nourishment
+    potency: 1
     extra:
       tooltip: "+2 CHA"
       message: "The corn is tasty!"
