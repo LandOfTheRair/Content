@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Rylt Renegade Prisoner', chance: 1}
+    - {result: 'Rylt Renegade Prisoner', chance: 1}
 respawnRate: 20
 initialSpawn: 2
 maxCreatures: 4

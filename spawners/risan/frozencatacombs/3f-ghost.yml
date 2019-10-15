@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Catacombs Ghost 3F', chance: 1}
+    - {result: 'Catacombs Ghost 3F', chance: 1}
 respawnRate: 40
 initialSpawn: 2
 maxCreatures: 3

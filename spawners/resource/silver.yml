@@ -1,6 +1,6 @@
 npcIds:
-    - {name: 'Basic Silver Vein', chance: 20}
-    - {name: 'Rich Silver Vein', chance: 1}
+    - {result: 'Basic Silver Vein', chance: 20}
+    - {result: 'Rich Silver Vein', chance: 1}
 respawnRate: 1800
 initialSpawn: 1
 maxSpawn: 1

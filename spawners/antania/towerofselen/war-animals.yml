@@ -1,6 +1,6 @@
 npcIds:
-    - {name: 'Tower Warg', chance: 1}
-    - {name: 'Tower Warspider', chance: 1}
+    - {result: 'Tower Warg', chance: 1}
+    - {result: 'Tower Warspider', chance: 1}
 respawnRate: 30
 initialSpawn: 2
 maxCreatures: 5

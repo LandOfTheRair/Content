@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Thanksgiving Pilgrim', chance: 1}
+    - {result: 'Thanksgiving Pilgrim', chance: 1}
 respawnRate: 30
 initialSpawn: 2
 maxCreatures: 6

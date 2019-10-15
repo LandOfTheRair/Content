@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Steffen LostChild', chance: 1}
+    - {result: 'Steffen LostChild', chance: 1}
 respawnRate: 900
 initialSpawn: 1
 maxCreatures: 1

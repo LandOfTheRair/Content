@@ -7,17 +7,6 @@ const conditionallyAddInformation = (spawner) => {
 };
 
 const validateSpawner = (spawner) => {
-  let hasBad = false;
-
-  if(!spawner.tag) {
-    console.error(`Spawner ${JSON.stringify(spawner)} has no tag!`);
-    hasBad = true;
-  }
-
-  if(hasBad) {
-    throw new Error(`Spawner ${JSON.stringify(spawner)} has failed validation!`);
-  }
-  
   return true;
 };
 

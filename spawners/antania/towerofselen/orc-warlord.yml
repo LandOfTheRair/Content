@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Tower Orc Warlord', chance: 1}
+    - {result: 'Tower Orc Warlord', chance: 1}
 respawnRate: 180
 initialSpawn: 1
 maxCreatures: 1

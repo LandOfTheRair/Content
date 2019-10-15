@@ -1,6 +1,6 @@
 npcIds:
-    - {name: 'Crazed Heniz Thief', chance: 1}
-    - {name: 'Crazed Heniz Mage', chance: 1}
+    - {result: 'Crazed Heniz Thief', chance: 1}
+    - {result: 'Crazed Heniz Mage', chance: 1}
 respawnRate: 30
 initialSpawn: 3
 maxCreatures: 5

@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Risan Crazed Dryad', chance: 1}
+    - {result: 'Risan Crazed Dryad', chance: 1}
 respawnRate: 7
 initialSpawn: 1
 maxCreatures: 7

@@ -1,8 +1,8 @@
 npcIds:
-    - {name: 'Risan Crazed Deer', chance: 1}
-    - {name: 'Risan Crazed Wolf', chance: 1}
-    - {name: 'Risan Crazed Bear', chance: 1}
-    - {name: 'Risan Crazed Moose', chance: 1}
+    - {result: 'Risan Crazed Deer', chance: 1}
+    - {result: 'Risan Crazed Wolf', chance: 1}
+    - {result: 'Risan Crazed Bear', chance: 1}
+    - {result: 'Risan Crazed Moose', chance: 1}
 respawnRate: 7
 initialSpawn: 2
 maxCreatures: 6

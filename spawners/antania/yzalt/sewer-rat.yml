@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Yzalt Sewer Rat', chance: 1}
+    - {result: 'Yzalt Sewer Rat', chance: 1}
 respawnRate: 15
 initialSpawn: 2
 maxCreatures: 4

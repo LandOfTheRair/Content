@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Tutorial Townee', chance: 1}
+    - {result: 'Tutorial Townee', chance: 1}
 paths:
     - '23-E 16-S 23-W 16-N'
     - '16-S 23-E 16-N 23-W'

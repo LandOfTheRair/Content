@@ -1,7 +1,7 @@
 npcIds:
-    - {name: 'Tower Orc', chance: 1}
-    - {name: 'Tower Orc Mage', chance: 1}
-    - {name: 'Tower Orc Healer', chance: 1}
+    - {result: 'Tower Orc', chance: 1}
+    - {result: 'Tower Orc Mage', chance: 1}
+    - {result: 'Tower Orc Healer', chance: 1}
 respawnRate: 60
 initialSpawn: 2
 maxCreatures: 5

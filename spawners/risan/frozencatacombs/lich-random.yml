@@ -1,11 +1,11 @@
 npcIds:
-    - {name: 'Catacombs Ghost 5F', chance: 1}
-    - {name: 'Catacombs Mummy 5F', chance: 1}
-    - {name: 'Catacombs Nightwalker 5F', chance: 1}
-    - {name: 'Catacombs Qell 5F', chance: 1}
-    - {name: 'Catacombs Skeleton 5F', chance: 1}
-    - {name: 'Catacombs Spectre 5F', chance: 1}
-    - {name: 'Catacombs Wight 5F', chance: 1}
+    - {result: 'Catacombs Ghost 5F', chance: 1}
+    - {result: 'Catacombs Mummy 5F', chance: 1}
+    - {result: 'Catacombs Nightwalker 5F', chance: 1}
+    - {result: 'Catacombs Qell 5F', chance: 1}
+    - {result: 'Catacombs Skeleton 5F', chance: 1}
+    - {result: 'Catacombs Spectre 5F', chance: 1}
+    - {result: 'Catacombs Wight 5F', chance: 1}
 respawnRate: 30
 initialSpawn: 1
 maxCreatures: 1

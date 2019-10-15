@@ -1,8 +1,8 @@
 npcIds:
-    - {name: 'Rylt Renegade Rebel', chance: 1}
-    - {name: 'Rylt Renegade Mage Rebel', chance: 1}
-    - {name: 'Rylt Renegade Healer Rebel', chance: 1}
-    - {name: 'Rylt Renegade Rebel Thief', chance: 1}
+    - {result: 'Rylt Renegade Rebel', chance: 1}
+    - {result: 'Rylt Renegade Mage Rebel', chance: 1}
+    - {result: 'Rylt Renegade Healer Rebel', chance: 1}
+    - {result: 'Rylt Renegade Rebel Thief', chance: 1}
 respawnRate: 20
 initialSpawn: 1
 maxCreatures: 5

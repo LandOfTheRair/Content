@@ -1,6 +1,6 @@
 npcIds:
-    - {name: 'Dedlaen Escort Townee', chance: 3}
-    - {name: 'Dedlaen Escort Guard', chance: 1}
+    - {result: 'Dedlaen Escort Townee', chance: 3}
+    - {result: 'Dedlaen Escort Guard', chance: 1}
 respawnRate: 3600
 initialSpawn: 5
 maxCreatures: 5

@@ -1,6 +1,6 @@
 npcIds:
-    - {name: 'Dedlaen Skeleton', chance: 10}
-    - {name: 'Dedlaen Skeleton Knight', chance: 1}
+    - {result: 'Dedlaen Skeleton', chance: 10}
+    - {result: 'Dedlaen Skeleton Knight', chance: 1}
 respawnRate: 3
 initialSpawn: 1
 maxCreatures: 20

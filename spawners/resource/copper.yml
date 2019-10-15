@@ -1,6 +1,6 @@
 npcIds:
-    - {name: 'Basic Copper Vein', chance: 20}
-    - {name: 'Rich Copper Vein', chance: 1}
+    - {result: 'Basic Copper Vein', chance: 20}
+    - {result: 'Rich Copper Vein', chance: 1}
 respawnRate: 1800
 initialSpawn: 1
 maxSpawn: 1

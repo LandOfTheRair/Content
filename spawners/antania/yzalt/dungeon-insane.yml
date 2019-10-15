@@ -1,8 +1,8 @@
 npcIds:
-    - {name: 'Insane Steffen Warrior', chance: 1}
-    - {name: 'Insane Steffen Healer', chance: 1}
-    - {name: 'Insane Heniz Thief', chance: 1}
-    - {name: 'Insane Heniz Mage', chance: 1}
+    - {result: 'Insane Steffen Warrior', chance: 1}
+    - {result: 'Insane Steffen Healer', chance: 1}
+    - {result: 'Insane Heniz Thief', chance: 1}
+    - {result: 'Insane Heniz Mage', chance: 1}
 respawnRate: 30
 initialSpawn: 5
 maxCreatures: 5

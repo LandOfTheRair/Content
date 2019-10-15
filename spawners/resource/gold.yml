@@ -1,6 +1,6 @@
 npcIds:
-    - {name: 'Basic Gold Vein', chance: 20}
-    - {name: 'Rich Gold Vein', chance: 1}
+    - {result: 'Basic Gold Vein', chance: 20}
+    - {result: 'Rich Gold Vein', chance: 1}
 respawnRate: 1800
 initialSpawn: 1
 maxSpawn: 1

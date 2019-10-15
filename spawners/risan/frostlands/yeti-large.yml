@@ -1,6 +1,6 @@
 npcIds:
-    - {name: 'Frostlands Strong Yeti', chance: 5}
-    - {name: 'Frostlands Frostgolem', chance: 1}
+    - {result: 'Frostlands Strong Yeti', chance: 5}
+    - {result: 'Frostlands Frostgolem', chance: 1}
 respawnRate: 7
 initialSpawn: 2
 maxCreatures: 8

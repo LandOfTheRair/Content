@@ -1,8 +1,8 @@
 npcIds:
-    - {name: 'Dedlaen Spider', chance: 5}
-    - {name: 'Dedlaen Leech', chance: 5}
-    - {name: 'Dedlaen Vampire Bat', chance: 1}
-    - {name: 'Dedlaen Skeleton', chance: 1}
+    - {result: 'Dedlaen Spider', chance: 5}
+    - {result: 'Dedlaen Leech', chance: 5}
+    - {result: 'Dedlaen Vampire Bat', chance: 1}
+    - {result: 'Dedlaen Skeleton', chance: 1}
 respawnRate: 3
 initialSpawn: 1
 maxCreatures: 20

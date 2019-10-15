@@ -1,6 +1,6 @@
 npcIds:
-    - {name: 'Rylt Rockgolem', chance: 2}
-    - {name: 'Rylt Cave Apprentice', chance: 1}
+    - {result: 'Rylt Rockgolem', chance: 2}
+    - {result: 'Rylt Cave Apprentice', chance: 1}
 respawnRate: 15
 initialSpawn: 2
 maxCreatures: 8

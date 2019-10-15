@@ -1,7 +1,7 @@
 npcIds:
-    - {name: 'Thanksgiving Weak Turkey', chance: 50}
-    - {name: 'Thanksgiving Strong Turkey', chance: 10}
-    - {name: 'Thanksgiving Secret Turkey', chance: 1}
+    - {result: 'Thanksgiving Weak Turkey', chance: 50}
+    - {result: 'Thanksgiving Strong Turkey', chance: 10}
+    - {result: 'Thanksgiving Secret Turkey', chance: 1}
 respawnRate: 15
 initialSpawn: 1
 maxCreatures: 3

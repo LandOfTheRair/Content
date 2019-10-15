@@ -1,7 +1,7 @@
 npcIds:
-    - {name: 'Frostlands Remorhaz', chance: 5}
-    - {name: 'Frostlands Frostsnake', chance: 5}
-    - {name: 'Frostlands Sabretooth', chance: 1}
+    - {result: 'Frostlands Remorhaz', chance: 5}
+    - {result: 'Frostlands Frostsnake', chance: 5}
+    - {result: 'Frostlands Sabretooth', chance: 1}
 respawnRate: 7
 initialSpawn: 2
 maxCreatures: 6

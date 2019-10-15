@@ -1,6 +1,6 @@
 npcIds:
-    - {name: 'Small Risan Dying Tree', chance: 20}
-    - {name: 'Large Risan Dying Tree', chance: 1}
+    - {result: 'Small Risan Dying Tree', chance: 20}
+    - {result: 'Large Risan Dying Tree', chance: 1}
 respawnRate: 1800
 initialSpawn: 1
 maxSpawn: 1

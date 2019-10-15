@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Thanksgiving Gobbleguard', chance: 1}
+    - {result: 'Thanksgiving Gobbleguard', chance: 1}
 respawnRate: 15
 initialSpawn: 1
 maxCreatures: 2

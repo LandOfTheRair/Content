@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Risan Miner', chance: 1}
+    - {result: 'Risan Miner', chance: 1}
 respawnRate: 10
 initialSpawn: 5
 maxCreatures: 10

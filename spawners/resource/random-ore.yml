@@ -1,10 +1,10 @@
 npcIds:
-    - {name: 'Basic Copper Vein', chance: 20}
-    - {name: 'Rich Copper Vein', chance: 1}
-    - {name: 'Basic Silver Vein', chance: 20}
-    - {name: 'Rich Silver Vein', chance: 1}
-    - {name: 'Basic Gold Vein', chance: 20}
-    - {name: 'Rich Gold Vein', chance: 1}
+    - {result: 'Basic Copper Vein', chance: 20}
+    - {result: 'Rich Copper Vein', chance: 1}
+    - {result: 'Basic Silver Vein', chance: 20}
+    - {result: 'Rich Silver Vein', chance: 1}
+    - {result: 'Basic Gold Vein', chance: 20}
+    - {result: 'Rich Gold Vein', chance: 1}
 respawnRate: 1800
 initialSpawn: 1
 maxSpawn: 1

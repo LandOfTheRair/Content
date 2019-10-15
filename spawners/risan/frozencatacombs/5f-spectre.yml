@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Catacombs Spectre 5F', chance: 1}
+    - {result: 'Catacombs Spectre 5F', chance: 1}
 respawnRate: 40
 initialSpawn: 2
 maxCreatures: 3

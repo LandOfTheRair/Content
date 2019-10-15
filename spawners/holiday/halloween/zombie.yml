@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Halloween Zombie', chance: 1}
+    - {result: 'Halloween Zombie', chance: 1}
 respawnRate: 30
 initialSpawn: 2
 maxCreatures: 2

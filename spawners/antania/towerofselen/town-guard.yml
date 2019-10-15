@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Tower Town Guard', chance: 1}
+    - {result: 'Tower Town Guard', chance: 1}
 respawnRate: 40
 initialSpawn: 1
 maxCreatures: 3

@@ -1,6 +1,6 @@
 npcIds:
-    - {name: 'Steffen Warrior Defender', chance: 1}
-    - {name: 'Steffen Healer Defender', chance: 1}
+    - {result: 'Steffen Warrior Defender', chance: 1}
+    - {result: 'Steffen Healer Defender', chance: 1}
 paths:
     - '20-N 20-S'
 respawnRate: 10

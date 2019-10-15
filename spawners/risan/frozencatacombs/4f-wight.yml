@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Catacombs Wight 4F', chance: 1}
+    - {result: 'Catacombs Wight 4F', chance: 1}
 respawnRate: 40
 initialSpawn: 2
 maxCreatures: 3

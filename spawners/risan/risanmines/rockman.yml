@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Mines Rockman', chance: 1}
+    - {result: 'Mines Rockman', chance: 1}
 respawnRate: 10
 initialSpawn: 3
 maxCreatures: 10

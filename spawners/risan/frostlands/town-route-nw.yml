@@ -1,6 +1,6 @@
 npcIds:
-    - {name: 'Frostlands Guard', chance: 5}
-    - {name: 'Frostlands Townee', chance: 1}
+    - {result: 'Frostlands Guard', chance: 5}
+    - {result: 'Frostlands Townee', chance: 1}
 paths:
     - '10-W 15-N 20-W 20-E 15-S 10-E'
     - '10-W 24-S 10-E 24-N'

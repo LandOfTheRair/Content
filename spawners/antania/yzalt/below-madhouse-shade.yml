@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Ranata Shade', chance: 1}
+    - {result: 'Ranata Shade', chance: 1}
 respawnRate: 0
 initialSpawn: 1
 maxCreatures: 1

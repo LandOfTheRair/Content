@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Rylt Deer', chance: 1}
+    - {result: 'Rylt Deer', chance: 1}
 respawnRate: 10
 initialSpawn: 2
 maxCreatures: 3

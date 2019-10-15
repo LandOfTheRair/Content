@@ -1,5 +1,5 @@
 npcIds:
-    - {name: 'Tower Hobgoblin', chance: 1}
+    - {result: 'Tower Hobgoblin', chance: 1}
 respawnRate: 90
 initialSpawn: 1
 maxCreatures: 3

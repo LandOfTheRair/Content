@@ -1,6 +1,6 @@
 npcIds:
-    - {name: 'Crazed Steffen Warrior', chance: 1}
-    - {name: 'Crazed Steffen Healer', chance: 1}
+    - {result: 'Crazed Steffen Warrior', chance: 1}
+    - {result: 'Crazed Steffen Healer', chance: 1}
 respawnRate: 30
 initialSpawn: 3
 maxCreatures: 5
