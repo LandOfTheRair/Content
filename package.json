@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Content scripts for LotR",
   "scripts": {
-    "build:all": "npm run build:items && npm run build:npcs && npm run build:droptables && npm run build:recipes && npm run build:lores && npm run build:spawners && npm run build:npc-scripts && npm run build:charcreate",
+    "build:all": "npm run build:items && npm run build:npcs && npm run build:droptables && npm run build:recipes && npm run build:lores && npm run build:spawners && npm run build:npc-scripts && npm run build:charcreate && npm run generate:meta",
     "build:items": "node _transformers/item.js",
     "build:npcs": "node _transformers/npc.js",
     "build:droptables": "node _transformers/droptable.js",
@@ -12,13 +12,14 @@
     "build:spawners": "node _transformers/spawner.js",
     "build:npc-scripts": "node _transformers/npc-scripts.js",
     "build:charcreate": "node _transformers/charcreate.js",
-    "fix:spawnersandmaps": "node _tasks/convert-spawners-and-maps",
-    "dump:props": "node _tasks/dump-props",
-    "validate:all": "npm run validate:items && npm run validate:npcs && npm run validate:spawners && npm run validate:npc-scripts",
     "validate:npcs": "node _validators/npc.js",
     "validate:items": "node _validators/item.js",
     "validate:spawners": "node _validators/spawner.js",
     "validate:npc-scripts": "node _validators/npc-scripts.js",
+    "generate:meta": "node _tasks/generate-meta.js",
+    "fix:spawnersandmaps": "node _tasks/convert-spawners-and-maps",
+    "dump:props": "node _tasks/dump-props",
+    "validate:all": "npm run validate:items && npm run validate:npcs && npm run validate:spawners && npm run validate:npc-scripts",
     "test": "npm run build:all && npm run validate:all"
   },
   "repository": {
@@ -26,6 +27,7 @@
     "url": "git+https://github.com/landoftherair/content.git"
   },
   "dependencies": {
+    "git-describe": "^4.0.4",
     "lodash": "^4.17.15",
     "recursive-readdir": "^2.2.2",
     "yamljs": "^0.3.0"
