@@ -1,9 +1,15 @@
 
 const npcs = require('../_output/npcs.json');
+const items = require('../_output/items.json');
+
+const itemHash = items.reduce((prev, cur) => {
+  prev[cur.name] = cur;
+  return prev;
+}, {});
 
 const { validateSchema } = require ('./_validateSchema');
 
-const { isString, isArray, isBoolean, isObject } = require('lodash');
+const { isString, isArray, isBoolean, isObject, get } = require('lodash');
 const { isRollable, isDropPool, isInteger, isRandomNumber } = require('./_validators');
 
 const npcSchema = [
@@ -62,6 +68,19 @@ const validate = () => {
     npcIds[npc.npcId] = true;
 
     validateSchema(npc.npcId, npc, npcSchema);
+
+    const itemValidationKeys = ['dropPool.items', 'drops', ...Object.keys(npc.gear || {}).map(x => `gear.${x}`), 'rightHand', 'leftHand', 'sack', 'belt'];
+
+    itemValidationKeys.forEach(key => {
+      const val = get(npc, key);
+      if(!val) return;
+
+      val.forEach(({ result }) => {
+        if(itemHash[result] || result === 'none') return;
+
+        throw new Error(`Result '${result}' is not a valid item in '${npc.npcId}':'${key}'`);
+      })
+    });
   });
 
 };

@@ -132,6 +132,15 @@
     potency: 30
   value: 3500
 
+- name: Enemy Medium Haste Thief Trap
+  sprite: 334
+  desc: "a trap imbued with the spell Haste"
+  effect:
+    uses: 3
+    name: Haste
+    potency: 30
+  value: 3500
+
 - name: Enemy Medium Darkness Thief Trap
   sprite: 1025
   desc: "a trap imbued with the spell Darkness"
