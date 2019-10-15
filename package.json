@@ -12,8 +12,14 @@
     "build:spawners": "node _transformers/spawner.js",
     "build:npc-scripts": "node _transformers/npc-scripts.js",
     "build:charcreate": "node _transformers/charcreate.js",
-    "fix:spawnersandmaps": "node _transformers/convert-spawners-and-maps",
-    "dump:props": "node _transformers/dump-props"
+    "fix:spawnersandmaps": "node _tasks/convert-spawners-and-maps",
+    "dump:props": "node _tasks/dump-props",
+    "validate:all": "npm run validate:items && npm run validate:npcs && npm run validate:spawners && npm run validate:npc-scripts",
+    "validate:npcs": "node _validators/npc.js",
+    "validate:items": "node _validators/item.js",
+    "validate:spawners": "node _validators/spawner.js",
+    "validate:npc-scripts": "node _validators/npc-scripts.js",
+    "test": "npm run build:all && npm run validate:all"
   },
   "repository": {
     "type": "git",

@@ -21,7 +21,7 @@ const gemDescItems = (itemData, mapDropData, regionDropData) => {
       }
     }
 
-    const bonusText = x.maxEncrusts ? `- be careful, it can only be used ${x.maxEncrusts} times, though` : '';
+    const bonusText = x.encrustGive && x.encrustGive.maxEncrusts ? `- be careful, it can only be used ${x.encrustGive.maxEncrusts} times, though` : '';
 
     return {
       _itemName: x.name,
@@ -84,9 +84,23 @@ const recipeScrollItems = (itemData, regionDropData, recipeData) => {
 
   });
 
+  const allItemNames = {};
+
   allIngScrollDescs.forEach(ingScrollDesc => {
 
-    const itemName = `Lore Scroll - Crafting - ${ingScrollDesc._leader} - ${ingScrollDesc._itemName}`;
+    const checkItemName = ingScrollDesc._itemName;
+    allItemNames[ingScrollDesc._itemName] = true;
+
+    let idx = 0;
+
+    do {
+      idx++;
+    } while(allItemNames[`${checkItemName} (${idx})`]);
+
+    const realItemName = `${checkItemName} (${idx})`;
+    allItemNames[realItemName] = true;
+
+    const itemName = `Lore Scroll - Crafting - ${ingScrollDesc._leader} - ${realItemName}`;
 
     itemData.push({
       name: itemName,
