@@ -1,6 +1,10 @@
 
 const { isNumber } = require('lodash');
 
+module.exports.isInteger = (num) => {
+  return isNumber(num) && Math.floor(num) === num;
+};
+
 module.exports.isCosmetic = (cos) => {
   return cos.name;
 };
@@ -10,7 +14,7 @@ module.exports.isRequirement = (req) => {
 };
 
 module.exports.isSuccor = (suc) => {
-  return suc.map && suc.x && suc.y;
+  return suc.map && module.exports.isInteger(suc.x) && module.exports.isInteger(suc.y);
 };
 
 module.exports.isRollable = (rol) => {
@@ -21,18 +25,22 @@ module.exports.isTrait = (trait) => {
   return trait.name && trait.level;
 };
 
-module.exports.isInteger = (num) => {
-  return isNumber(num) && Math.floor(num) === num;
-}
-
 module.exports.isIntegerBetween = (min, max) => {
-  return (num) => isNumber(num) && num >= min && num <= max && Math.floor(num) === num;
+  return (num) => num >= min && num <= max && module.exports.isInteger(num);
 };
 
 module.exports.isEffect = (eff) => {
   return eff.name && isNumber(eff.potency);
-}
+};
 
 module.exports.isEncrust = (enc) => {
   return enc.stats || enc.effect;
-}
+};
+
+module.exports.isDropPool = (pool) => {
+  return module.exports.isInteger(pool.choose.min) && module.exports.isInteger(pool.choose.max) && module.exports.isRollable(pool.items);
+};
+
+module.exports.isRandomNumber = (num) => {
+  return module.exports.isInteger(num.min) && module.exports.isInteger(num.max);
+};

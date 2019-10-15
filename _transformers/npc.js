@@ -166,6 +166,8 @@ const conditionallyAddInformation = (npc) => {
       npc.gear[gearSlot] = reworkRollable(npc.gear[gearSlot]);
     });
   }
+
+  if(npc.dropPool && npc.dropPool.items) npc.dropPool.items = reworkRollable(npc.dropPool.items);
 };
 
 const validateNPC = (npc) => {
