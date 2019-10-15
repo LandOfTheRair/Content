@@ -1,7 +1,11 @@
 
 const items = require('../_output/items.json');
+const npcs = require('../_output/npcs.json');
+const mapTables = require('../_output/droptable-maps.json');
+const regTables = require('../_output/droptable-regions.json');
+const recipes = require('../_output/recipes.json');
 
-const { isString, isObject, isArray, isBoolean } = require('lodash');
+const { isString, isObject, isArray, isBoolean, get } = require('lodash');
 const { validateSchema } = require('./_validateSchema');
 const { isRequirement, isCosmetic, isSuccor, isRollable, isTrait, isEffect, isEncrust, isIntegerBetween, isInteger } = require('./_validators');
 
@@ -93,15 +97,49 @@ const validate = () => {
   console.log('Validating Items...');
   
   const itemNames = {};
+  const itemsUsed = {};
   
   items.forEach(item => {
     if(itemNames[item.name]) throw new Error(`Item ${item.name} has a duplicate!`);
   
     itemNames[item.name] = true;
+    itemsUsed[item.name] = false;
 
     validateSchema(item.name, item, itemSchema);
   });
 
+  npcs.forEach(npc => {
+
+    const itemValidationKeysNPC = ['dropPool.items', 'drops', ...Object.keys(npc.gear || {}).map(x => `gear.${x}`), 'rightHand', 'leftHand', 'sack', 'belt'];
+
+    itemValidationKeysNPC.forEach(key => {
+      const value = get(npc, key);
+      if(!value) return;
+
+      value.forEach(({ result }) => {
+        if(result === 'none') return;
+        itemsUsed[result] = true;
+      });
+    });
+  });
+
+  mapTables.concat(regTables).forEach(({ drops }) => {
+    drops.forEach(({ result }) => {
+      itemsUsed[result] = true;
+    });
+  });
+
+  recipes.forEach(({ item }) => {
+    itemsUsed[item] = true;
+  });
+
+  const unusedItems = Object.keys(itemsUsed).filter(x => !itemsUsed[x]);
+  if(unusedItems.length > 0) {
+    console.warn(`Unused items in game:`);
+    unusedItems.forEach(item => {
+      console.warn(item);
+    });
+  }
 };
 
 validate();
