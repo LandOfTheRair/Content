@@ -16,6 +16,14 @@ dialog:
             Aw, shucks. Have you seen my pet Moose? It's so lonely in this town, I might have to move. There are just the MERCHANTS, the HERMIT, and me.
 
           options:
+            - text: Yeah, I found him.
+              action: noop
+              
+              # TODO synergize this better with other requirement stuff
+              requirement:
+                - stat: cha
+                  value: 16
+              
             - text: The merchants?
               action: merchants
 
