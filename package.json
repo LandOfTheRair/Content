@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "git-describe": "^4.0.4",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "recursive-readdir": "^2.2.2",
     "yamljs": "^0.3.0"
   },
