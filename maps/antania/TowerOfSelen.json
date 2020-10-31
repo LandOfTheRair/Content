@@ -64791,7 +64791,7 @@
         {
             "columns": 24,
             "firstgid": 1,
-            "image": "../../../client/assets/spritesheets/terrain.png",
+            "image": "../../__assets/spritesheets/terrain.png",
             "imageheight": 2560,
             "imagewidth": 1536,
             "margin": 0,
@@ -67156,7 +67156,7 @@
         {
             "columns": 16,
             "firstgid": 961,
-            "image": "../../../client/assets/spritesheets/walls.png",
+            "image": "../../__assets/spritesheets/walls.png",
             "imageheight": 1472,
             "imagewidth": 1024,
             "margin": 0,
@@ -67169,7 +67169,7 @@
         {
             "columns": 32,
             "firstgid": 1329,
-            "image": "../../../client/assets/spritesheets/decor.png",
+            "image": "../../__assets/spritesheets/decor.png",
             "imageheight": 2496,
             "imagewidth": 2048,
             "margin": 0,
@@ -68250,7 +68250,7 @@
         {
             "columns": 40,
             "firstgid": 2577,
-            "image": "../../../client/assets/spritesheets/creatures.png",
+            "image": "../../__assets/spritesheets/creatures.png",
             "imageheight": 3008,
             "imagewidth": 2560,
             "margin": 0,
