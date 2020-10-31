@@ -14,8 +14,8 @@ dialog:
     hello:
       actions:
         - type: chat
-          message: > # unsure of syntax for player name. it would probably be best if the entire player object was available for inspection, though
-            Hello, $player.name! Welcome to Land of the Rair!
+          message: >
+            Hello, {{ player.name }}! Welcome to Land of the Rair!
             I'm an encruster, and I can do two things for you: make your gear distinguishable from one another, and add stats to your gear!
             If you hold a gem and item in your hand, I can add it's stats to the item! Find my brethren in the world and they'll be able to help you more.
 

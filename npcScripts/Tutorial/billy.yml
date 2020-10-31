@@ -19,10 +19,9 @@ dialog:
             - text: Yeah, I found him.
               action: noop
               
-              # TODO synergize this better with other requirement stuff
               requirement:
                 - stat: cha
-                  value: 16
+                  statValue: 16
               
             - text: The merchants?
               action: merchants

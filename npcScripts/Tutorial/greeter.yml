@@ -12,8 +12,8 @@ dialog:
     hello:
       actions:
         - type: chat
-          message: > # unsure of syntax for player name. it would probably be best if the entire player object was available for inspection, though
-            Welcome to Land of the Rair, $player.name!
+          message: >
+            Welcome to Land of the Rair, {{ player.name }}!
 
           options:
             - text: Thanks!
