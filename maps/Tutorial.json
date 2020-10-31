@@ -691,15 +691,13 @@
                     {
                      "maxLevelUpLevel":3,
                      "maxSkillTrain":3,
-                     "tag":"Trainer",
-                     "trainClass":"Healer"
+                     "tag":"Trainer Healer"
                     },
                  "propertytypes":
                     {
                      "maxLevelUpLevel":"int",
                      "maxSkillTrain":"int",
-                     "tag":"string",
-                     "trainClass":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -717,15 +715,13 @@
                     {
                      "maxLevelUpLevel":3,
                      "maxSkillTrain":3,
-                     "tag":"Trainer",
-                     "trainClass":"Mage"
+                     "tag":"Trainer Mage"
                     },
                  "propertytypes":
                     {
                      "maxLevelUpLevel":"int",
                      "maxSkillTrain":"int",
-                     "tag":"string",
-                     "trainClass":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -743,15 +739,13 @@
                     {
                      "maxLevelUpLevel":3,
                      "maxSkillTrain":3,
-                     "tag":"Trainer",
-                     "trainClass":"Warrior"
+                     "tag":"Trainer Warrior"
                     },
                  "propertytypes":
                     {
                      "maxLevelUpLevel":"int",
                      "maxSkillTrain":"int",
-                     "tag":"string",
-                     "trainClass":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -769,15 +763,13 @@
                     {
                      "maxLevelUpLevel":3,
                      "maxSkillTrain":3,
-                     "tag":"Trainer",
-                     "trainClass":"Thief"
+                     "tag":"Trainer Thief"
                     },
                  "propertytypes":
                     {
                      "maxLevelUpLevel":"int",
                      "maxSkillTrain":"int",
-                     "tag":"string",
-                     "trainClass":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
