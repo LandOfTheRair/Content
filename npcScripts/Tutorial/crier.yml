@@ -5,7 +5,7 @@ hostility: Never
 affiliation: Town Crier
 
 items:
-  gear:
+  equipment:
     armor: Antanian Tunic
 
 # npc has no dialog because the crier behavior imparts a default dialog tree
