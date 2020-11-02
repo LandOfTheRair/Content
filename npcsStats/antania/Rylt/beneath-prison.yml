@@ -25,7 +25,7 @@
 
   skillLevels: 9
 
-  skillOnKill: 1450
+  skillOnKill: 145
 
   sprite: 5
 
@@ -138,7 +138,7 @@
 
   skillLevels: 9
 
-  skillOnKill: 450
+  skillOnKill: 45
 
   sprite: 5
 
@@ -197,7 +197,7 @@
 
   skillLevels: 7
 
-  skillOnKill: 450
+  skillOnKill: 45
 
   sprite: 5
 
@@ -262,7 +262,7 @@
 
   skillLevels: 9
 
-  skillOnKill: 450
+  skillOnKill: 45
 
   sprite: 5
 

@@ -602,7 +602,7 @@
     accuracy: -5
 
   level: 13
-  skillOnKill: 100
+  skillOnKill: 50
 
   gold:
     min: 4000

@@ -21,7 +21,7 @@
 
   skillLevels: 6
 
-  skillOnKill: 250
+  skillOnKill: 50
 
   sprite: 545
 

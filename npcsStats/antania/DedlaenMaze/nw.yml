@@ -150,7 +150,7 @@
   skillLevels: 7
   level: 19
 
-  skillOnKill: 1000
+  skillOnKill: 100
 
   otherStats:
     con: 25
@@ -234,7 +234,7 @@
   skillLevels: 6
   level: 21
 
-  skillOnKill: 1000
+  skillOnKill: 100
 
   otherStats:
     con: 25

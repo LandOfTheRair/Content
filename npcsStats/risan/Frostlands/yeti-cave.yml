@@ -270,7 +270,7 @@
     ShadowSwap: 5
     IceMistWiden: 2
 
-  skillOnKill: 250
+  skillOnKill: 100
 
   usableSkills:
     - Blindstrike

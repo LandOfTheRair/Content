@@ -153,7 +153,7 @@
   skillLevels: 4
   level: 18
 
-  skillOnKill: 750
+  skillOnKill: 75
 
   otherStats:
     con: 18
@@ -241,7 +241,7 @@
   skillLevels: 3
   level: 19
 
-  skillOnKill: 750
+  skillOnKill: 75
 
   otherStats:
     con: 18
@@ -313,7 +313,7 @@
     mpregen: 50
     perception: 350
 
-  skillOnKill: 100
+  skillOnKill: 25
 
   gold:
     min: 9500

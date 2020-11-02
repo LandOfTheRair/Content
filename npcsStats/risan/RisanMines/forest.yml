@@ -231,7 +231,7 @@
     Armor: Mines Griffon Fur
     Hands: Mines Animal Claws
 
-  skillOnKill: 300
+  skillOnKill: 100
 
   usableSkills:
     - PoisonBiteStrong
@@ -526,7 +526,7 @@
 
     Hands: Mines Animal Claws
 
-  skillOnKill: 300
+  skillOnKill: 75
 
   traitLevels:
     OffhandFinesse: 5

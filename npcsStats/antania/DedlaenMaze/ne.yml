@@ -815,7 +815,7 @@
   skillLevels: 6
   level: 21
 
-  skillOnKill: 1000
+  skillOnKill: 100
 
   otherStats:
     con: 30

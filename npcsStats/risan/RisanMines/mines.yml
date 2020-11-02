@@ -243,7 +243,7 @@
   skillLevels: 7
   level: 26
 
-  skillOnKill: 350
+  skillOnKill: 100
 
   otherStats:
     accuracy: 5

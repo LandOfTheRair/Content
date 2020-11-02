@@ -31,7 +31,7 @@
     HolyProtection: 15
     IceMistWiden: 4
 
-  skillOnKill: 500
+  skillOnKill: 50
 
   usableSkills:
     - result: Attack
@@ -127,7 +127,7 @@
     Armor: Catacombs Tomb Guardian Fur
     Hands: Catacombs Lair Claws
 
-  skillOnKill: 500
+  skillOnKill: 50
 
   usableSkills:
     - result: Attack
@@ -213,7 +213,7 @@
   skillLevels: 12
   level: 35
 
-  skillOnKill: 1000
+  skillOnKill: 100
 
   otherStats:
     con: 25
@@ -337,7 +337,7 @@
   skillLevels: 15
   level: 45
 
-  skillOnKill: 2000
+  skillOnKill: 200
 
   otherStats:
     con: 40

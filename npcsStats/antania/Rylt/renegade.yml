@@ -337,7 +337,7 @@
     damageFactor: 0.5
     accuracy: -15
 
-  skillOnKill: 50
+  skillOnKill: 25
 
   gold:
     min: 1500

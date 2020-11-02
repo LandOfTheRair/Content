@@ -277,7 +277,7 @@
 
   level: 23
 
-  skillOnKill: 255
+  skillOnKill: 125
 
   gold:
     min: 23000

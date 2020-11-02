@@ -9,7 +9,7 @@
   skillLevels: 4
   level: 20
 
-  skillOnKill: 1000
+  skillOnKill: 100
 
   otherStats:
     con: 25
@@ -212,7 +212,7 @@
   skillLevels: 8
   level: 20
 
-  skillOnKill: 1500
+  skillOnKill: 150
   aquaticOnly: true
 
   otherStats:
