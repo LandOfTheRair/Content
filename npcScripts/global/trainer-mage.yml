@@ -7,7 +7,7 @@ affiliation: Master Thief
 items:
   gear:
     rightHand: Antanian Staff
-    Armor: Antanian Tunic
+    armor: Antanian Tunic
     
 behaviors:
   - type: trainer

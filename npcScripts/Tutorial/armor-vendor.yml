@@ -7,7 +7,7 @@ affiliation: Armor Vendor
 items:
   gear:
     rightHand: Antanian Longsword
-    Armor: Antanian Breastplate
+    armor: Antanian Breastplate
 
 behaviors:
   - type: vendor

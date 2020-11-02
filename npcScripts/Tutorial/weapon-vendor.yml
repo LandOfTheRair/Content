@@ -7,7 +7,7 @@ affiliation: Weapon Vendor
 items:
   gear:
     rightHand: Antanian Greatsword
-    Armor: Antanian Cloak
+    armor: Antanian Cloak
 
 behaviors:
   - type: vendor

@@ -7,7 +7,7 @@ affiliation: Potion Vendor
 items:
   gear:
     rightHand: Mend Bottle
-    Armor: Antanian Tunic
+    armor: Antanian Tunic
 
 behaviors:
   - type: vendor

@@ -8,7 +8,7 @@ items:
   gear:
     rightHand: Antanian Shortsword
     leftHand: Antanian Purple Gem
-    Armor: Antanian Tunic
+    armor: Antanian Tunic
 
 dialog:
   keyword:

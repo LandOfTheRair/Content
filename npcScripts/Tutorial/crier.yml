@@ -6,7 +6,7 @@ affiliation: Town Crier
 
 items:
   gear:
-    Armor: Antanian Tunic
+    armor: Antanian Tunic
 
 # npc has no dialog because the crier behavior imparts a default dialog tree
 # all of the "default dialogs" should probably just be done in C++ because they're not going to change

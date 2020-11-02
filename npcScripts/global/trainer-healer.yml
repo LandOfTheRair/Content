@@ -7,7 +7,7 @@ affiliation: Master Thief
 items:
   gear:
     rightHand: Antanian Mace
-    Armor: Antanian Breastplate
+    armor: Antanian Breastplate
     
 behaviors:
   - type: trainer

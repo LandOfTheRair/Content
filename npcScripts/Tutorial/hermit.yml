@@ -8,7 +8,7 @@ items:
   gear:
     rightHand: Tutorial Yeti Skull
     leftHand: Tutorial Key
-    Armor: Antanian Tunic
+    armor: Antanian Tunic
 
 dialog:
   keyword:  # may be superfluous, not sure yet
