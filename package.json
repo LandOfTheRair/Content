@@ -20,7 +20,8 @@
     "fix:spawnersandmaps": "node _tasks/convert-spawners-and-maps",
     "dump:props": "node _tasks/dump-props",
     "validate:all": "npm run validate:items && npm run validate:npcs && npm run validate:spawners && npm run validate:npc-scripts",
-    "test": "npm run build:all && npm run validate:all"
+    "test": "npm run build:all && npm run validate:all",
+    "postinstall": "npm run build:all"
   },
   "repository": {
     "type": "git",
