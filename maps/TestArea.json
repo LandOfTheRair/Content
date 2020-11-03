@@ -363,6 +363,54 @@
                  "width":64,
                  "x":2048,
                  "y":2368
+                }, 
+                {
+                 "gid":2399,
+                 "height":64,
+                 "id":224,
+                 "name":"TestDoor",
+                 "rotation":0,
+                 "type":"Door",
+                 "visible":true,
+                 "width":64,
+                 "x":1600,
+                 "y":2304
+                }, 
+                {
+                 "gid":2399,
+                 "height":64,
+                 "id":225,
+                 "name":"TestDoor",
+                 "rotation":0,
+                 "type":"Door",
+                 "visible":true,
+                 "width":64,
+                 "x":1600,
+                 "y":2432
+                }, 
+                {
+                 "gid":2399,
+                 "height":64,
+                 "id":226,
+                 "name":"TestDoor",
+                 "rotation":0,
+                 "type":"Door",
+                 "visible":true,
+                 "width":64,
+                 "x":1600,
+                 "y":2560
+                }, 
+                {
+                 "gid":2399,
+                 "height":64,
+                 "id":227,
+                 "name":"TestDoor",
+                 "rotation":0,
+                 "type":"Door",
+                 "visible":true,
+                 "width":64,
+                 "x":1600,
+                 "y":2688
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -379,14 +427,6 @@
                  "height":64,
                  "id":187,
                  "name":"TesterQuester",
-                 "properties":
-                    {
-                     "script":"testarea\/testquester"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -399,14 +439,6 @@
                  "height":64,
                  "id":196,
                  "name":"Koda",
-                 "properties":
-                    {
-                     "script":"holiday\/thanksgiving\/koda"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -419,14 +451,6 @@
                  "height":64,
                  "id":197,
                  "name":"Sacagawea",
-                 "properties":
-                    {
-                     "script":"holiday\/thanksgiving\/sacagawea"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -439,14 +463,6 @@
                  "height":64,
                  "id":198,
                  "name":"Klarc",
-                 "properties":
-                    {
-                     "script":"holiday\/thanksgiving\/klarc"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -459,14 +475,6 @@
                  "height":64,
                  "id":199,
                  "name":"Welis",
-                 "properties":
-                    {
-                     "script":"holiday\/thanksgiving\/welis"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -479,14 +487,6 @@
                  "height":64,
                  "id":200,
                  "name":"Annalie",
-                 "properties":
-                    {
-                     "script":"holiday\/thanksgiving\/annalie"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -495,318 +495,10 @@
                  "y":2688
                 }, 
                 {
-                 "gid":3057,
-                 "height":64,
-                 "id":201,
-                 "name":"Atma",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/atma"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1024,
-                 "y":1024
-                }, 
-                {
-                 "gid":3057,
-                 "height":64,
-                 "id":202,
-                 "name":"Atma",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/atma"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1152,
-                 "y":1024
-                }, 
-                {
-                 "gid":3057,
-                 "height":64,
-                 "id":203,
-                 "name":"Atma",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/atma"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1088,
-                 "y":1088
-                }, 
-                {
-                 "gid":3057,
-                 "height":64,
-                 "id":204,
-                 "name":"Atma",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/atma"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":960,
-                 "y":1024
-                }, 
-                {
-                 "gid":3057,
-                 "height":64,
-                 "id":205,
-                 "name":"Atma",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/atma"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1088,
-                 "y":896
-                }, 
-                {
-                 "gid":3057,
-                 "height":64,
-                 "id":206,
-                 "name":"Atma",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/atma"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1088,
-                 "y":960
-                }, 
-                {
-                 "gid":3057,
-                 "height":64,
-                 "id":207,
-                 "name":"Atma",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/atma"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1216,
-                 "y":1088
-                }, 
-                {
-                 "gid":3057,
-                 "height":64,
-                 "id":208,
-                 "name":"Atma",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/atma"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1280,
-                 "y":960
-                }, 
-                {
-                 "gid":3057,
-                 "height":64,
-                 "id":209,
-                 "name":"Atma",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/atma"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1088,
-                 "y":832
-                }, 
-                {
-                 "gid":3057,
-                 "height":64,
-                 "id":210,
-                 "name":"Atma",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/atma"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":960,
-                 "y":832
-                }, 
-                {
-                 "gid":3057,
-                 "height":64,
-                 "id":211,
-                 "name":"Atma",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/atma"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":960,
-                 "y":832
-                }, 
-                {
-                 "gid":3057,
-                 "height":64,
-                 "id":212,
-                 "name":"Atma",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/atma"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":960,
-                 "y":896
-                }, 
-                {
-                 "gid":3057,
-                 "height":64,
-                 "id":213,
-                 "name":"Atma",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/atma"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1024,
-                 "y":896
-                }, 
-                {
-                 "gid":3057,
-                 "height":64,
-                 "id":214,
-                 "name":"Atma",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/atma"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1024,
-                 "y":1088
-                }, 
-                {
-                 "gid":3057,
-                 "height":64,
-                 "id":215,
-                 "name":"Atma",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/atma"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1152,
-                 "y":1088
-                }, 
-                {
                  "gid":3247,
                  "height":64,
                  "id":218,
                  "name":"Alterna",
-                 "properties":
-                    {
-                     "script":"subscriber\/castle\/alterna"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -822,14 +514,12 @@
                  "properties":
                     {
                      "maxLevelUpLevel":50,
-                     "maxSkillTrain":27,
-                     "script":"trainer\/mage"
+                     "maxSkillTrain":27
                     },
                  "propertytypes":
                     {
                      "maxLevelUpLevel":"int",
-                     "maxSkillTrain":"int",
-                     "script":"string"
+                     "maxSkillTrain":"int"
                     },
                  "rotation":0,
                  "type":"",
@@ -847,55 +537,7 @@
         {
          "draworder":"topdown",
          "name":"Spawners",
-         "objects":[
-                {
-                 "gid":2399,
-                 "height":64,
-                 "id":220,
-                 "name":"TestDoor",
-                 "rotation":0,
-                 "type":"Door",
-                 "visible":true,
-                 "width":64,
-                 "x":1600,
-                 "y":2304
-                }, 
-                {
-                 "gid":2399,
-                 "height":64,
-                 "id":221,
-                 "name":"TestDoor",
-                 "rotation":0,
-                 "type":"Door",
-                 "visible":true,
-                 "width":64,
-                 "x":1600,
-                 "y":2432
-                }, 
-                {
-                 "gid":2399,
-                 "height":64,
-                 "id":222,
-                 "name":"TestDoor",
-                 "rotation":0,
-                 "type":"Door",
-                 "visible":true,
-                 "width":64,
-                 "x":1600,
-                 "y":2560
-                }, 
-                {
-                 "gid":2399,
-                 "height":64,
-                 "id":223,
-                 "name":"TestDoor",
-                 "rotation":0,
-                 "type":"Door",
-                 "visible":true,
-                 "width":64,
-                 "x":1600,
-                 "y":2688
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -942,7 +584,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":224,
+ "nextobjectid":228,
  "orientation":"orthogonal",
  "properties":
     {
