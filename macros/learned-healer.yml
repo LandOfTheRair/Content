@@ -1,0 +1,17 @@
+
+Afflict:
+  name: 'Afflict'
+  macro: 'cast afflict'
+  icon: 'bolas'
+  color: '#bd5900'
+  mode: 'lockActivation'
+  tooltipDesc: 'Inflict necrotic damage on a single target. Cost: 10 MP'
+  skillTPCost: 1
+
+Cure:
+  name: 'Cure'
+  macro: 'cast cure'
+  icon: 'tentacle-heart'
+  color: '#080'
+  mode: 'clickToTarget'
+  tooltipDesc: 'Heal a single target. Cost: 5 MP'

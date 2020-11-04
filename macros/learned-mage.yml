@@ -1,0 +1,8 @@
+
+MagicMissile:
+  name: 'MagicMissile'
+  macro: 'cast magicmissile'
+  icon: 'missile-swarm'
+  color: '#a0a'
+  mode: 'lockActivation'
+  tooltipDesc: 'Inflict energy damage on a single target. Cost: 5 MP'
