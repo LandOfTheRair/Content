@@ -28,7 +28,7 @@ allegiances:
 
     baseItems:
       rightHand: Antanian Longsword
-      body: Antanian Studded Tunic
+      armor: Antanian Studded Tunic
 
     baseSkills:
       onehanded: 2
@@ -51,7 +51,7 @@ allegiances:
 
     baseItems:
       rightHand: Antanian Axe
-      body: Antanian Tunic
+      armor: Antanian Tunic
 
     baseSkills:
       axe: 2
@@ -74,7 +74,7 @@ allegiances:
 
     baseItems:
       rightHand: Antanian Mace
-      body: Antanian Tunic
+      armor: Antanian Tunic
 
     baseSkills:
       mace: 2
@@ -94,7 +94,7 @@ allegiances:
 
     baseItems:
       rightHand: Antanian Dagger
-      body: Antanian Ringmail Tunic
+      armor: Antanian Ringmail Tunic
 
     baseSkills:
       dagger: 2
@@ -115,7 +115,7 @@ allegiances:
 
     baseItems:
       rightHand: Antanian Greatsword
-      body: Antanian Tunic
+      armor: Antanian Tunic
 
     baseSkills:
       twohanded: 2
@@ -137,7 +137,7 @@ allegiances:
 
     baseItems:
       rightHand: Antanian Staff
-      body: Antanian Studded Tunic
+      armor: Antanian Studded Tunic
 
     baseSkills:
       staff: 2
