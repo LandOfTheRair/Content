@@ -16,7 +16,7 @@ dialog:
       actions:
         - type: chat
           message: >
-            Hello, {{ player.name }}! Welcome to Land of the Rair!
+            Hello, ${ name }! Welcome to Land of the Rair!
             I'm an encruster, and I can do two things for you: make your gear distinguishable from one another, and add stats to your gear!
             If you hold a gem and item in your hand, I can add it's stats to the item! Find my brethren in the world and they'll be able to help you more.
 

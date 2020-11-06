@@ -22,7 +22,7 @@ dialog:
           item: 
             - name: Tutorial Yeti Skull
               amount: 1 # implied
-              owner: "{{ player.name }}" # again, not sure on player name syntax. there will also need to be arbitrary checks for stats and other related item stuff.
+              owner: "${ name }" # again, not sure on player name syntax. there will also need to be arbitrary checks for stats and other related item stuff.
 
           checkPassActions:
             - type: takeItem
@@ -32,7 +32,7 @@ dialog:
               item:
                 - name: Tutorial Yeti Skull
                   amount: 1 # implied
-                  owner: "{{ player.name }}" # will need to make sure it doesn't take unowned ones
+                  owner: "${ name }" # will need to make sure it doesn't take unowned ones
 
             - type: giveItem
               slot:
@@ -44,7 +44,7 @@ dialog:
 
             - type: chat
               message: >
-                Ah, thank you {{ player.name }}! I see you've brought me the skull of the feared yeti. 
+                Ah, thank you ${ name }! I see you've brought me the skull of the feared yeti. 
                 Here, you can have this key. Now go out into the world and do great things!
 
               options:
@@ -54,7 +54,7 @@ dialog:
           checkFailActions:
             - type: chat
               message: >
-                Hello and welcome to The Land of the Rair, {{ player.name }}! It looks like you're stuck in here with me. 
+                Hello and welcome to The Land of the Rair, ${ name }! It looks like you're stuck in here with me. 
                 But fret not, I can HELP you!
 
               options:
@@ -114,7 +114,7 @@ dialog:
 
             - text: Belong to me?
               action: belong
-              
+
             - text: This is pretty weird
               action: noop
 

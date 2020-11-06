@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Content scripts for LotR",
   "scripts": {
-    "build:all": "npm run build:items && npm run build:npcs && npm run build:droptables && npm run build:recipes && npm run build:lores && npm run build:spawners && npm run build:npc-scripts && npm run build:macros && npm run build:charcreate && npm run generate:meta",
+    "build:all": "npm run build:items && npm run build:npcs && npm run build:droptables && npm run build:recipes && npm run build:lores && npm run build:spawners && npm run build:npc-scripts && npm run build:macros && npm run build:effect-icons && npm run build:charcreate && npm run generate:meta",
     "build:items": "node _transformers/item.js",
     "build:npcs": "node _transformers/npc.js",
     "build:droptables": "node _transformers/droptable.js",
@@ -12,6 +12,7 @@
     "build:spawners": "node _transformers/spawner.js",
     "build:npc-scripts": "node _transformers/npc-scripts.js",
     "build:macros": "node _transformers/macros.js",
+    "build:effect-icons": "node _transformers/effect-icons.js",
     "build:charcreate": "node _transformers/charcreate.js",
     "validate:npcs": "node _validators/npc.js",
     "validate:items": "node _validators/item.js",

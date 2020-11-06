@@ -14,7 +14,7 @@ dialog:
       actions:
         - type: chat
           message: >
-            Welcome to Land of the Rair, {{ player.name }}!
+            Welcome to Land of the Rair, ${ name }!
 
           options:
             - text: Thanks!
