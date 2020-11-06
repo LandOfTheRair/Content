@@ -13,6 +13,7 @@ dialog:
     hello:
       actions:
         - type: chat
+          maxDistance: 4
           message: >
             Welcome to Land of the Rair, ${ name }!
 

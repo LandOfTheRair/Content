@@ -43,6 +43,7 @@ dialog:
                   amount: 1 # implied. if we wanted to give more keys, we would have to specify sack, pouch, or belt as a target. 
 
             - type: chat
+              maxDistance: 0
               message: >
                 Ah, thank you ${ name }! I see you've brought me the skull of the feared yeti. 
                 Here, you can have this key. Now go out into the world and do great things!
@@ -53,6 +54,7 @@ dialog:
 
           checkFailActions:
             - type: chat
+              maxDistance: 0
               message: >
                 Hello and welcome to The Land of the Rair, ${ name }! It looks like you're stuck in here with me. 
                 But fret not, I can HELP you!
@@ -67,6 +69,7 @@ dialog:
     help:
       actions:
         - type: chat
+          maxDistance: 0
           message: >
             Yes, I can help you, and you can help me. If you kill the nearby YETI and bring me his SKULL - just hold it in your right hand. 
             If ya do that, I can give you a KEY to let you out of here. I can also help you find the PROFESSION trainers. 
@@ -90,6 +93,7 @@ dialog:
     yeti:
       actions:
         - type: chat
+          maxDistance: 0
           message: >
             Yes, yes. There is a yeti in the forest to the east. He plagues this small town, and no one would miss him if he were to, erm, expire. 
             You may want to dedicate to a PROFESSION before taking him on, though. 
@@ -104,6 +108,7 @@ dialog:
     skull:
       actions:
         - type: chat
+          maxDistance: 0
           message: >
             Yeti skulls happen to be a prized item in these parts. No, I'm not some sort of weirdo! I'll trade you a KEY for his skull. 
             Just hold it in your hand, and greet me again! Note also that the skull must BELONG to you!
@@ -121,6 +126,7 @@ dialog:
     belong:
       actions:
         - type: chat
+          maxDistance: 0
           message: >
             Yes, yes. Some items have a faint warm sensation upon grasping them. 
             It truly is a strange phenomena, but it means that you own that item, and no one else can use it. 
@@ -133,6 +139,7 @@ dialog:
     key:
       actions:
         - type: chat
+          maxDistance: 0
           message: >
             Yes, I'm willing to trade this key for the Yeti's skull. A small price for your freedom, wouldn't you say?
 
@@ -151,6 +158,7 @@ dialog:
           # will need other properties eventually
 
         - type: chat
+          maxDistance: 0
           message: >
             Here you go! Best of luck on finding them. They're holed up right outside here, a bit north. See if you can find them!
 

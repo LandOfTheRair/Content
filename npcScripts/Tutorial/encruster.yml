@@ -15,6 +15,7 @@ dialog:
     hello:
       actions:
         - type: chat
+          maxDistance: 3
           message: >
             Hello, ${ name }! Welcome to Land of the Rair!
             I'm an encruster, and I can do two things for you: make your gear distinguishable from one another, and add stats to your gear!

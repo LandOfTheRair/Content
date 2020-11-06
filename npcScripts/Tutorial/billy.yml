@@ -13,6 +13,7 @@ dialog:
     hello:
       actions:
         - type: chat
+          maxDistance: 2
           message: >
             Aw, shucks. Have you seen my pet Moose? It's so lonely in this town, I might have to move. There are just the MERCHANTS, the HERMIT, and me.
 
@@ -24,15 +25,27 @@ dialog:
               action: hermit
 
             - text: Yeah, I found him.
-              action: noop
+              action: moose
               
               requirement:
-                - stat: cha
-                  statValue: 16
+                stat: cha
+                statValue: 16
+
+    moose:
+      actions:
+        - type: chat
+          maxDistance: 2
+          message: >
+            I might be a kid, but I'm not dumb. Don't lie to me.
+
+          options:
+            - text: Sorry kid, better luck next moose
+              action: noop
 
     merchants:
       actions:
         - type: chat
+          maxDistance: 2
           message: >
             Yeah. The building to the south of here has some merchants. They sell armor, weapons, and potions. Nothin' there for a kid like me, though.
 
@@ -43,6 +56,7 @@ dialog:
     hermit:
       actions:
         - type: chat
+          maxDistance: 2
           message: >
             Old man Hermit is off in the distant house, northwest of here. I hear he has the key to let people out of this forsaken town, whatever that means.
 
