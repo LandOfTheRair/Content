@@ -17,18 +17,18 @@ dialog:
             Aw, shucks. Have you seen my pet Moose? It's so lonely in this town, I might have to move. There are just the MERCHANTS, the HERMIT, and me.
 
           options:
+            - text: The merchants?
+              action: merchants
+
+            - text: The hermit?
+              action: hermit
+
             - text: Yeah, I found him.
               action: noop
               
               requirement:
                 - stat: cha
                   statValue: 16
-              
-            - text: The merchants?
-              action: merchants
-
-            - text: The hermit?
-              action: hermit
 
     merchants:
       actions:

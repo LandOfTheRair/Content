@@ -58,11 +58,11 @@ dialog:
                 But fret not, I can HELP you!
 
               options:
-                - text: No thanks
-                  action: noop
-
                 - text: How can you help?
                   action: help
+
+                - text: No thanks
+                  action: noop
 
     help:
       actions:
@@ -72,9 +72,6 @@ dialog:
             If ya do that, I can give you a KEY to let you out of here. I can also help you find the PROFESSION trainers. 
 
           options:
-            - text: I'm leaving now
-              action: noop
-
             - text: What yeti?
               action: yeti
 
@@ -87,6 +84,9 @@ dialog:
             - text: Profession trainers?
               action: profession
 
+            - text: I'm leaving now
+              action: noop
+
     yeti:
       actions:
         - type: chat
@@ -95,11 +95,11 @@ dialog:
             You may want to dedicate to a PROFESSION before taking him on, though. 
 
           options:
-            - text: I'm not a killer
-              action: noop
-
             - text: A profession?
               action: profession
+
+            - text: I'm not a killer
+              action: noop
 
     skull:
       actions:
@@ -109,14 +109,14 @@ dialog:
             Just hold it in your hand, and greet me again! Note also that the skull must BELONG to you!
 
           options:
-            - text: This is pretty weird
-              action: noop
-
             - text: A key for what?
               action: key
 
             - text: Belong to me?
               action: belong
+              
+            - text: This is pretty weird
+              action: noop
 
     belong:
       actions:
