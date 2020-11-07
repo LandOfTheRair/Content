@@ -27,8 +27,9 @@
     min: 1000
     max: 2000
 
-  gear:
-    Armor: Risan Tunic
+  items:
+    equipment:
+      armor: Risan Tunic
 
   baseEffects:
     - name: Attribute
@@ -85,8 +86,9 @@
     min: 1000
     max: 2000
 
-  gear:
-    Armor: Risan Tunic
+  items:
+    equipment:
+      armor: Risan Tunic
 
   baseEffects:
     - name: Attribute
@@ -130,39 +132,40 @@
     min: 2700
     max: 2925
 
-  gear:
-    Hands: Medium Claws
-    Head:
-      - result: none
-        chance: 500
-      - result: Christmas Top Hat
-        chance: 1
-    Neck:
-      - result: none
-        chance: 500
-      - result: Christmas Scarf
-        chance: 1
+  items:
+    equipment:
+      hands: Medium Claws
+      head:
+        - result: none
+          chance: 500
+        - result: Christmas Top Hat
+          chance: 1
+      neck:
+        - result: none
+          chance: 500
+        - result: Christmas Scarf
+          chance: 1
 
-  rightHand:
-    - result: none
-      chance: 500
-    - result: Christmas Candy Staff
-      chance: 1
+      rightHand:
+        - result: none
+          chance: 500
+        - result: Christmas Candy Staff
+          chance: 1
 
-  leftHand:
-    - result: none
-      chance: 500
-    - result: Christmas Button Shield
-      chance: 1
+      leftHand:
+        - result: none
+          chance: 500
+        - result: Christmas Button Shield
+          chance: 1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Head'
+    - result: 'equipment.head'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
 
   drops:
@@ -211,39 +214,40 @@
     min: 10700
     max: 10925
 
-  gear:
-    Hands: Medium Claws
-    Head:
-      - result: none
-        chance: 500
-      - result: Christmas Top Hat
-        chance: 1
-    Neck:
-      - result: none
-        chance: 500
-      - result: Christmas Scarf
-        chance: 1
+  items:
+    equipment:
+      hands: Medium Claws
+      head:
+        - result: none
+          chance: 500
+        - result: Christmas Top Hat
+          chance: 1
+      neck:
+        - result: none
+          chance: 500
+        - result: Christmas Scarf
+          chance: 1
 
-  rightHand:
-    - result: none
-      chance: 500
-    - result: Christmas Candy Staff
-      chance: 1
+      rightHand:
+        - result: none
+          chance: 500
+        - result: Christmas Candy Staff
+          chance: 1
 
-  leftHand:
-    - result: none
-      chance: 500
-    - result: Christmas Button Shield
-      chance: 1
+      leftHand:
+        - result: none
+          chance: 500
+        - result: Christmas Button Shield
+          chance: 1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Head'
+    - result: 'equipment.head'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
 
   drops:
@@ -295,16 +299,17 @@
     min: 200700
     max: 200925
 
-  gear:
-    Hands: Medium Claws
+  items:
+    equipment:
+      hands: Medium Claws
 
-  rightHand: Christmas Candy Staff
-  leftHand: Christmas Button Shield
+      rightHand: Christmas Candy Staff
+      leftHand: Christmas Button Shield
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   dropPool:
@@ -400,8 +405,9 @@
     min: 2700
     max: 2925
 
-  gear:
-    Hands: Medium Claws
+  items:
+    equipment:
+      hands: Medium Claws
 
   drops:
     - result: Christmas Coal
@@ -453,9 +459,10 @@
     min: 10700
     max: 10925
 
-  gear:
-    Armor: Christmas Reindeer Skin
-    Hands: Medium Claws
+  items:
+    equipment:
+      armor: Christmas Reindeer Skin
+      hands: Medium Claws
 
   drops:
     - result: Christmas Coal

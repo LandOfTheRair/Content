@@ -31,9 +31,10 @@
     min: 14000
     max: 17000
 
-  gear:
-    Armor: Maze Bone Tunic
-    Hands: Maze Skeleton Claws
+  items:
+    equipment:
+      armor: Maze Bone Tunic
+      hands: Maze Skeleton Claws
 
   baseEffects:
     - name: Attribute
@@ -47,11 +48,11 @@
         damageType: 'sharp'
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
 
   drops:
@@ -100,11 +101,11 @@
     min: 24000
     max: 25000
 
-  rightHand: Maze Longsword
-
-  gear:
-    Armor: Maze Bone Tunic
-    Hands: Maze Skeleton Claws
+  items:
+    equipment:
+      armor: Maze Bone Tunic
+      hands: Maze Skeleton Claws
+      rightHand: Maze Longsword
 
   baseEffects:
     - name: Attribute
@@ -118,9 +119,9 @@
         damageType: 'sharp'
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
 
   drops:
@@ -175,13 +176,13 @@
     min: 239000
     max: 245000
 
-  rightHand: Dedlaen Death Knight Sword
-  leftHand: Dedlaen Death Knight Shield
-
-  gear:
-    Armor: Reinforced Maze Bone Tunic
-    Hands: Maze Skeleton Claws
-    Robe1: Dedlaen Death Knight Coat
+  items:
+    equipment:
+      armor: Reinforced Maze Bone Tunic
+      hands: Maze Skeleton Claws
+      robe1: Dedlaen Death Knight Coat
+      rightHand: Dedlaen Death Knight Sword
+      leftHand: Dedlaen Death Knight Shield
 
   baseEffects:
     - name: Attribute
@@ -195,13 +196,13 @@
         damageType: 'physical'
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
 
   drops:
@@ -245,8 +246,9 @@
     stealth: 50
     mpregen: 100
 
-  gear:
-    Hands: Maze Skeleton Claws
+  items:
+    equipment:
+      hands: Maze Skeleton Claws
 
   drops:
     - result: Dedlaen Vampire Heart
@@ -316,5 +318,6 @@
   usableSkills:
     - PoisonBiteMedium
 
-  gear:
-    Hands: Maze Skeleton Claws
+  items:
+    equipment:
+      hands: Maze Skeleton Claws

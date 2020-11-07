@@ -28,36 +28,37 @@
     min: 6500
     max: 7500
 
-  gear:
-    Armor:
-      - result: Tower Trash Tunic
-        chance: 20
-      - result: Tower Bone Tunic
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 100
-      - result: Tower Prot Robe
-        chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Tower Trash Tunic
+          chance: 20
+        - result: Tower Bone Tunic
+          chance: 1
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
+      robe2:
+        - result: none
+          chance: 100
+        - result: Tower Prot Robe
+          chance: 1
 
-  rightHand:
-    - result: Tower Dagger Weak
-      chance: 5
-    - result: Tower Broadsword Weak
-      chance: 10
-    - result: Tower Greatsword Weak
-      chance: 10
+      rightHand:
+        - result: Tower Dagger Weak
+          chance: 5
+        - result: Tower Broadsword Weak
+          chance: 10
+        - result: Tower Greatsword Weak
+          chance: 10
 
-  leftHand:
-    - result: none
-      chance: 5
-    - result: Tower Shield Weak
-      chance: 1
+      leftHand:
+        - result: none
+          chance: 5
+        - result: Tower Shield Weak
+          chance: 1
 
   baseEffects:
     - name: DarkVision
@@ -65,15 +66,15 @@
         isPermanent: true
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   triggers:
@@ -120,53 +121,71 @@
     min: 6000
     max: 6500
 
-  gear:
-    Armor:
-      - result: Tower Trash Tunic
-        chance: 20
-      - result: Tower Bone Tunic
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 100
-      - result: Tower Prot Robe
-        chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Tower Trash Tunic
+          chance: 20
+        - result: Tower Bone Tunic
+          chance: 1
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
+      robe2:
+        - result: none
+          chance: 100
+        - result: Tower Prot Robe
+          chance: 1
 
-  rightHand:
-    - result: Tower Dagger Weak
-      chance: 30
-    - result: Tower Longbow Weak
-      chance: 30
-    - result: Tower Dagger Strong
-      chance: 1
-    - result: Tower Longbow Strong
-      chance: 1
+      rightHand:
+        - result: Tower Dagger Weak
+          chance: 30
+        - result: Tower Longbow Weak
+          chance: 30
+        - result: Tower Dagger Strong
+          chance: 1
+        - result: Tower Longbow Strong
+          chance: 1
 
-  leftHand:
-    - result: none
-      chance: 100
-    - result: Tower Dagger Weak
-      chance: 10
-    - result: Tower Dagger Strong
-      chance: 1
-    - result: Antanian Arrows
-      chance: 1
+      leftHand:
+        - result: none
+          chance: 100
+        - result: Tower Dagger Weak
+          chance: 10
+        - result: Tower Dagger Strong
+          chance: 1
+        - result: Antanian Arrows
+          chance: 1
+
+    sack:
+      - result: Enemy Weak FireMist Thief Trap
+        chance: 10
+        maxChance: 100
+      - result: Enemy Weak IceMist Thief Trap
+        chance: 10
+        maxChance: 100
+      - result: Enemy Weak Poison Thief Trap
+        chance: 10
+        maxChance: 100
+      - result: Enemy Weak MagicMissile Thief Trap
+        chance: 10
+        maxChance: 100
+      - result: Enemy Weak Afflict Thief Trap
+        chance: 10
+        maxChance: 100
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   usableSkills:
@@ -176,23 +195,6 @@
     - DarkVision
     - Identify
     - Transmute
-
-  sack:
-    - result: Enemy Weak FireMist Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak IceMist Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak Poison Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak MagicMissile Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak Afflict Thief Trap
-      chance: 10
-      maxChance: 100
 
   triggers:
     spawn:
@@ -233,34 +235,35 @@
     min: 12500
     max: 14500
 
-  gear:
-    Armor:
-      - result: Tower Trash Tunic
-        chance: 20
-      - result: Tower Bone Tunic
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 100
-      - result: Tower Prot Robe
-        chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Tower Trash Tunic
+          chance: 20
+        - result: Tower Bone Tunic
+          chance: 1
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
+      robe2:
+        - result: none
+          chance: 100
+        - result: Tower Prot Robe
+          chance: 1
 
-  rightHand:
-    - result: Tower Broadsword Strong
-      chance: 10
-    - result: Tower Greatsword Strong
-      chance: 10
+      rightHand:
+        - result: Tower Broadsword Strong
+          chance: 10
+        - result: Tower Greatsword Strong
+          chance: 10
 
-  leftHand:
-    - result: none
-      chance: 5
-    - result: Tower Shield Strong
-      chance: 1
+      leftHand:
+        - result: none
+          chance: 5
+        - result: Tower Shield Strong
+          chance: 1
 
   baseEffects:
     - name: DarkVision
@@ -271,15 +274,15 @@
     - Boost
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   triggers:

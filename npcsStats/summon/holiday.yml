@@ -9,10 +9,11 @@
 
   noCorpseDrop: true
 
-  gear:
-    Armor: Thanksgiving Turkey Skin
-    Hands: Medium Claws
-    Feet: Summon Turkey Boots
+  items:
+    equipment:
+      armor: Thanksgiving Turkey Skin
+      hands: Medium Claws
+      feet: Summon Turkey Boots
 
   usableSkills:
     - PoisonBiteWeak
@@ -54,9 +55,10 @@
   otherStats:
     iceResist: 5000
 
-  rightHand: Christmas Candy Staff (Dummy)
-  gear:
-    Hands: Medium Claws
+  items:
+    equipment:
+      rightHand: Christmas Candy Staff (Dummy)
+      hands: Medium Claws
 
   usableSkills:
     - IceMist

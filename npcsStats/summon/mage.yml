@@ -9,9 +9,10 @@
 
   noCorpseDrop: true
 
-  gear:
-    Armor: Deer Robe
-    Hands: Basic Claws
+  items:
+    equipment:
+      armor: Deer Robe
+      hands: Basic Claws
 
   usableSkills:
     - PoisonBiteWeak
@@ -52,9 +53,10 @@
     min: 0
     max: 0
 
-  gear:
-    Armor: Rylt Fur
-    Hands: Basic Claws
+  items:
+    equipment:
+      armor: Rylt Fur
+      hands: Basic Claws
 
   usableSkills:
     - PoisonBiteWeak
@@ -86,9 +88,10 @@
     min: 0
     max: 0
 
-  gear:
-    Armor: Rylt Bear Fur
-    Hands: Basic Claws
+  items:
+    equipment:
+      armor: Rylt Bear Fur
+      hands: Basic Claws
 
   usableSkills:
     - PoisonBiteWeak
@@ -125,8 +128,9 @@
     min: 0
     max: 0
 
-  gear:
-    Hands: Medium Claws
+  items:
+    equipment:
+      hands: Medium Claws
 
   usableSkills:
     - FireMist
@@ -154,8 +158,9 @@
     min: 0
     max: 0
 
-  gear:
-    Hands: Medium Claws
+  items:
+    equipment:
+      hands: Medium Claws
 
   usableSkills:
     - ChillBiteMedium

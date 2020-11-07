@@ -22,8 +22,9 @@
     min: 1000
     max: 2000
 
-  gear:
-    Armor: Antanian Tunic
+  items:
+    equipment:
+      armor: Antanian Tunic
 
 - npcId: Dedlaen Town Guard
   monsterClass: Humanoid
@@ -49,11 +50,12 @@
     min: 1000
     max: 2000
 
-  gear:
-    Armor: Antanian Tunic
+  items:
+    equipment:
+      armor: Antanian Tunic
 
-  rightHand:
-    - Antanian Greatmace
-    - Antanian Greataxe
-    - Antanian Greatsword
-    - Antanian Halberd
+      rightHand:
+        - Antanian Greatmace
+        - Antanian Greataxe
+        - Antanian Greatsword
+        - Antanian Halberd

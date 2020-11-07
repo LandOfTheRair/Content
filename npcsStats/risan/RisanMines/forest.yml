@@ -16,11 +16,12 @@
     damageFactor: 0.3
     accuracy: 7
 
-  gear:
-    Armor: Crazed Deer Robe
-    Robe1: Crazed Deer Robe
-    Robe2: Crazed Deer Robe
-    Hands: Mines Animal Claws
+  items:
+    equipment:
+      armor: Crazed Deer Robe
+      robe1: Crazed Deer Robe
+      robe2: Crazed Deer Robe
+      hands: Mines Animal Claws
 
   skillOnKill: 35
 
@@ -81,9 +82,10 @@
     damageFactor: 0.3
     accuracy: 7
 
-  gear:
-    Armor: Crazed Beast Fur
-    Hands: Mines Animal Claws
+  items:
+    equipment:
+      armor: Crazed Beast Fur
+      hands: Mines Animal Claws
 
   skillOnKill: 45
 
@@ -155,9 +157,10 @@
     damageFactor: 0.3
     accuracy: 7
 
-  gear:
-    Armor: Crazed Bear Fur
-    Hands: Mines Animal Claws
+  items:
+    equipment:
+      armor: Crazed Bear Fur
+      hands: Mines Animal Claws
 
   skillOnKill: 45
 
@@ -227,9 +230,10 @@
     armorClass: 25
     perception: 300
 
-  gear:
-    Armor: Mines Griffon Fur
-    Hands: Mines Animal Claws
+  items:
+    equipment:
+      armor: Mines Griffon Fur
+      hands: Mines Animal Claws
 
   skillOnKill: 100
 
@@ -302,36 +306,37 @@
     perception: 150
     damageFactor: 0.8
 
-  rightHand:
-    - result: Risan Mines Trash Spirit Shortsword
-      chance: 5000
-    - result: Risan Mines Rare Spirit Shortsword
-      chance: 1
-  leftHand:
-    - result: none
-      chance: 3000
-    - result: Risan Mines Trash Spirit Shortsword
-      chance: 100
-    - result: Risan Mines Rare Spirit Shortsword
-      chance: 1
+  items:
+    equipment:
+      armor: Risan Trash Tunic
+      robe1:
+        - result: none
+          chance: 5000
+        - result: Forest Spirit Mage Cloak
+          chance: 1
+        - result: Forest Spirit Thief Cloak
+          chance: 1
+        - result: Forest Spirit Healer Cloak
+          chance: 1
+        - result: Forest Spirit Warrior Cloak
+          chance: 1
+        - result: Forest Spirit Undecided Cloak
+          chance: 1
 
-  gear:
-    Armor: Risan Trash Tunic
-    Robe1:
-      - result: none
-        chance: 5000
-      - result: Forest Spirit Mage Cloak
-        chance: 1
-      - result: Forest Spirit Thief Cloak
-        chance: 1
-      - result: Forest Spirit Healer Cloak
-        chance: 1
-      - result: Forest Spirit Warrior Cloak
-        chance: 1
-      - result: Forest Spirit Undecided Cloak
-        chance: 1
+      hands: Mines Animal Claws
 
-    Hands: Mines Animal Claws
+      rightHand:
+        - result: Risan Mines Trash Spirit Shortsword
+          chance: 5000
+        - result: Risan Mines Rare Spirit Shortsword
+          chance: 1
+      leftHand:
+        - result: none
+          chance: 3000
+        - result: Risan Mines Trash Spirit Shortsword
+          chance: 100
+        - result: Risan Mines Rare Spirit Shortsword
+          chance: 1
 
   skillOnKill: 35
 
@@ -373,14 +378,14 @@
     max: 28000
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   drops:
@@ -407,34 +412,35 @@
     perception: 150
     damageFactor: 0.7
 
-  rightHand:
-    - result: Risan Mines Trash Spirit Shortsword
-      chance: 5000
-    - result: Risan Mines Rare Spirit Shortsword
-      chance: 1
-  leftHand:
-    - result: none
-      chance: 3000
-    - result: Risan Mines Trash Spirit Shortsword
-      chance: 100
-    - result: Risan Mines Rare Spirit Shortsword
-      chance: 1
+  items:
+    equipment:
+      armor: Risan Trash Tunic
+      robe1:
+        - result: none
+          chance: 500
+        - result: Forest Spirit Mage Cloak
+          chance: 1
+        - result: Forest Spirit Thief Cloak
+          chance: 1
+        - result: Forest Spirit Healer Cloak
+          chance: 1
+        - result: Forest Spirit Warrior Cloak
+          chance: 1
 
-  gear:
-    Armor: Risan Trash Tunic
-    Robe1:
-      - result: none
-        chance: 500
-      - result: Forest Spirit Mage Cloak
-        chance: 1
-      - result: Forest Spirit Thief Cloak
-        chance: 1
-      - result: Forest Spirit Healer Cloak
-        chance: 1
-      - result: Forest Spirit Warrior Cloak
-        chance: 1
+      hands: Mines Animal Claws
 
-    Hands: Mines Animal Claws
+      rightHand:
+        - result: Risan Mines Trash Spirit Shortsword
+          chance: 5000
+        - result: Risan Mines Rare Spirit Shortsword
+          chance: 1
+      leftHand:
+        - result: none
+          chance: 3000
+        - result: Risan Mines Trash Spirit Shortsword
+          chance: 100
+        - result: Risan Mines Rare Spirit Shortsword
+          chance: 1
 
   skillOnKill: 65
 
@@ -482,14 +488,14 @@
     max: 58000
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
 
@@ -509,22 +515,23 @@
     con: 30
     perception: 150
 
-  rightHand: Risan Mines Trash Spirit Shortsword
-  leftHand:
-    - result: Risan Mines Trash Spirit Shortsword
-      chance: 4000
-    - result: Risan Mines Rare Spirit Shortsword
-      chance: 1
+  items:
+    equipment:
+      armor: Risan Trash Tunic
+      robe1:
+        - Forest Spirit Mage Cloak
+        - Forest Spirit Thief Cloak
+        - Forest Spirit Healer Cloak
+        - Forest Spirit Warrior Cloak
 
-  gear:
-    Armor: Risan Trash Tunic
-    Robe1:
-      - Forest Spirit Mage Cloak
-      - Forest Spirit Thief Cloak
-      - Forest Spirit Healer Cloak
-      - Forest Spirit Warrior Cloak
+      hands: Mines Animal Claws
 
-    Hands: Mines Animal Claws
+      rightHand: Risan Mines Trash Spirit Shortsword
+      leftHand:
+        - result: Risan Mines Trash Spirit Shortsword
+          chance: 4000
+        - result: Risan Mines Rare Spirit Shortsword
+          chance: 1
 
   skillOnKill: 75
 
@@ -573,15 +580,15 @@
     max: 509000
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   drops:

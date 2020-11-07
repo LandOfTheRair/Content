@@ -24,7 +24,7 @@
     "validate:all": "npm run validate:items && npm run validate:npcs && npm run validate:spawners && npm run validate:npc-scripts",
     "test": "npm run build:all && npm run validate:all",
     "postinstall": "npm run build:all",
-    "watch": "nodemon --ext yml --watch core --watch droptables --watch items --watch npcScripts --watch npcStats --watch quests --watch recipes --watch spawners --ignore \"node_modules\" --exec \"npm run build:all\""
+    "watch": "nodemon --ext yml --watch core --watch macros --watch effectIcons --watch droptables --watch items --watch npcScripts --watch npcsStats --watch quests --watch recipes --watch spawners --ignore \"node_modules\" --exec \"npm run build:all\""
   },
   "repository": {
     "type": "git",

@@ -29,37 +29,38 @@
     min: 10000
     max: 11000
 
-  gear:
-    Armor:
-      - result: Tower Trash Breastplate
-        chance: 20
-      - result: Tower Breastplate
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 100
-      - result: Tower Prot Robe
-        chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Tower Trash Breastplate
+          chance: 20
+        - result: Tower Breastplate
+          chance: 1
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
+      robe2:
+        - result: none
+          chance: 100
+        - result: Tower Prot Robe
+          chance: 1
 
-  rightHand:
-    - result: Tower Spear Weak
-      chance: 10
-    - result: Tower Halberd Weak
-      chance: 3
+      rightHand:
+        - result: Tower Spear Weak
+          chance: 10
+        - result: Tower Halberd Weak
+          chance: 3
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
 
 - npcId: Tower Orc Healer
@@ -105,41 +106,42 @@
     - BarNecro
     - Antidote
 
-  gear:
-    Armor:
-      - result: Tower Trash Tunic
-        chance: 20
-      - result: Tower Bone Tunic
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 100
-      - result: Tower Prot Robe
-        chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Tower Trash Tunic
+          chance: 20
+        - result: Tower Bone Tunic
+          chance: 1
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
+      robe2:
+        - result: none
+          chance: 100
+        - result: Tower Prot Robe
+          chance: 1
 
-  rightHand: Tower Hammer Weak
+      rightHand: Tower Hammer Weak
 
-  leftHand:
-    - result: none
-      chance: 5
-    - result: Tower Shield Weak
-      chance: 1
+      leftHand:
+        - result: none
+          chance: 5
+        - result: Tower Shield Weak
+          chance: 1
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
 - npcId: Tower Orc Mage
@@ -183,33 +185,34 @@
     - BarFire
     - BarFrost
 
-  gear:
-    Armor:
-      - result: Tower Trash Tunic
-        chance: 20
-      - result: Tower Bone Tunic
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 100
-      - result: Tower Prot Robe
-        chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Tower Trash Tunic
+          chance: 20
+        - result: Tower Bone Tunic
+          chance: 1
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
+      robe2:
+        - result: none
+          chance: 100
+        - result: Tower Prot Robe
+          chance: 1
 
-  rightHand: Tower Spear Weak
+      rightHand: Tower Spear Weak
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
 
 - npcId: Tower Orc Warlord
@@ -240,34 +243,35 @@
     min: 35000
     max: 38000
 
-  gear:
-    Armor:
-      - result: Tower Trash Breastplate
-        chance: 20
-      - result: Tower Breastplate
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 50
-      - result: Tower Prot Robe
-        chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Tower Trash Breastplate
+          chance: 20
+        - result: Tower Breastplate
+          chance: 1
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
+      robe2:
+        - result: none
+          chance: 50
+        - result: Tower Prot Robe
+          chance: 1
 
-  rightHand:
-    - Tower Spear Strong
-    - Tower Hammer Strong
-    - Tower Longbow Strong
-    - Tower Dagger Strong
-    - Tower Broadsword Strong
-    - Tower Halberd Strong
+      rightHand:
+        - Tower Spear Strong
+        - Tower Hammer Strong
+        - Tower Longbow Strong
+        - Tower Dagger Strong
+        - Tower Broadsword Strong
+        - Tower Halberd Strong
 
-  leftHand:
-    - Tower Shield Strong
-    - Antanian Arrows
+      leftHand:
+        - Tower Shield Strong
+        - Antanian Arrows
 
   baseEffects:
     - name: DarkVision
@@ -285,15 +289,15 @@
       maxChance: 100
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   triggers:

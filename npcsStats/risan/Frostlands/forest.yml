@@ -15,9 +15,10 @@
     perception: 100
     damageFactor: 0.5
 
-  gear:
-    Armor: Crazed Beast Fur
-    Hands: Mines Animal Claws
+  items:
+    equipment:
+      armor: Crazed Beast Fur
+      hands: Mines Animal Claws
 
   skillOnKill: 45
 

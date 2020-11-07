@@ -28,36 +28,37 @@
     min: 13500
     max: 14500
 
-  gear:
-    Armor:
-      - result: Tower Trash Tunic
-        chance: 20
-      - result: Tower Bone Tunic
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 100
-      - result: Tower Prot Robe
-        chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Tower Trash Tunic
+          chance: 20
+        - result: Tower Bone Tunic
+          chance: 1
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
+      robe2:
+        - result: none
+          chance: 100
+        - result: Tower Prot Robe
+          chance: 1
 
-  rightHand:
-    - result: Tower Dagger Weak
-      chance: 5
-    - result: Tower Broadsword Weak
-      chance: 10
-    - result: Tower Greatsword Weak
-      chance: 10
+      rightHand:
+        - result: Tower Dagger Weak
+          chance: 5
+        - result: Tower Broadsword Weak
+          chance: 10
+        - result: Tower Greatsword Weak
+          chance: 10
 
-  leftHand:
-    - result: none
-      chance: 5
-    - result: Tower Shield Weak
-      chance: 1
+      leftHand:
+        - result: none
+          chance: 5
+        - result: Tower Shield Weak
+          chance: 1
 
   drops:
     - result: Tower Titanium Chunk
@@ -81,15 +82,15 @@
       maxChance: 3500
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   baseEffects:
@@ -141,42 +142,60 @@
     min: 36000
     max: 36500
 
-  gear:
-    Armor:
-      - result: Tower Trash Tunic
-        chance: 20
-      - result: Tower Bone Tunic
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 100
-      - result: Tower Prot Robe
-        chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Tower Trash Tunic
+          chance: 20
+        - result: Tower Bone Tunic
+          chance: 1
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
+      robe2:
+        - result: none
+          chance: 100
+        - result: Tower Prot Robe
+          chance: 1
 
-  rightHand:
-    - result: Tower Dagger Weak
-      chance: 30
-    - result: Tower Longbow Weak
-      chance: 30
-    - result: Tower Dagger Strong
-      chance: 1
-    - result: Tower Longbow Strong
-      chance: 1
+      rightHand:
+        - result: Tower Dagger Weak
+          chance: 30
+        - result: Tower Longbow Weak
+          chance: 30
+        - result: Tower Dagger Strong
+          chance: 1
+        - result: Tower Longbow Strong
+          chance: 1
 
-  leftHand:
-    - result: none
-      chance: 100
-    - result: Tower Dagger Weak
-      chance: 10
-    - result: Tower Dagger Strong
-      chance: 1
-    - result: Antanian Arrows
-      chance: 1
+      leftHand:
+        - result: none
+          chance: 100
+        - result: Tower Dagger Weak
+          chance: 10
+        - result: Tower Dagger Strong
+          chance: 1
+        - result: Antanian Arrows
+          chance: 1
+
+    sack:
+      - result: Enemy Weak FireMist Thief Trap
+        chance: 10
+        maxChance: 100
+      - result: Enemy Weak IceMist Thief Trap
+        chance: 10
+        maxChance: 100
+      - result: Enemy Weak Poison Thief Trap
+        chance: 10
+        maxChance: 100
+      - result: Enemy Weak MagicMissile Thief Trap
+        chance: 10
+        maxChance: 100
+      - result: Enemy Weak Afflict Thief Trap
+        chance: 10
+        maxChance: 100
 
   drops:
     - result: Tower Titanium Chunk
@@ -200,15 +219,15 @@
       maxChance: 3500
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   usableSkills:
@@ -218,23 +237,6 @@
     - DarkVision
     - Identify
     - Transmute
-
-  sack:
-    - result: Enemy Weak FireMist Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak IceMist Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak Poison Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak MagicMissile Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak Afflict Thief Trap
-      chance: 10
-      maxChance: 100
 
   triggers:
     spawn:
@@ -275,34 +277,35 @@
     min: 69500
     max: 70500
 
-  gear:
-    Armor:
-      - result: Tower Trash Tunic
-        chance: 20
-      - result: Tower Bone Tunic
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 100
-      - result: Tower Prot Robe
-        chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Tower Trash Tunic
+          chance: 20
+        - result: Tower Bone Tunic
+          chance: 1
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
+      robe2:
+        - result: none
+          chance: 100
+        - result: Tower Prot Robe
+          chance: 1
 
-  rightHand:
-    - result: Tower Broadsword Strong
-      chance: 10
-    - result: Tower Greatsword Strong
-      chance: 10
+      rightHand:
+        - result: Tower Broadsword Strong
+          chance: 10
+        - result: Tower Greatsword Strong
+          chance: 10
 
-  leftHand:
-    - result: none
-      chance: 5
-    - result: Tower Shield Strong
-      chance: 1
+      leftHand:
+        - result: none
+          chance: 5
+        - result: Tower Shield Strong
+          chance: 1
 
   drops:
     - result: Tower Titanium Chunk
@@ -334,15 +337,15 @@
     - Boost
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   triggers:
@@ -382,28 +385,29 @@
     min: 27000
     max: 28000
 
-  gear:
-    Armor:
-      - result: Tower Trash Breastplate
-        chance: 20
-      - result: Tower Breastplate
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 100
-      - result: Tower Prot Robe
-        chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Tower Trash Breastplate
+          chance: 20
+        - result: Tower Breastplate
+          chance: 1
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
+      robe2:
+        - result: none
+          chance: 100
+        - result: Tower Prot Robe
+          chance: 1
 
-  rightHand:
-    - result: Tower Spear Weak
-      chance: 10
-    - result: Tower Halberd Weak
-      chance: 3
+      rightHand:
+        - result: Tower Spear Weak
+          chance: 10
+        - result: Tower Halberd Weak
+          chance: 3
 
   drops:
     - result: Tower Titanium Chunk
@@ -430,13 +434,13 @@
     - Boost
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
 
 - npcId: Dedlaen Orc Healer
@@ -482,30 +486,31 @@
     - Antidote
     - Cure
 
-  gear:
-    Armor:
-      - result: Tower Trash Tunic
-        chance: 20
-      - result: Tower Bone Tunic
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 100
-      - result: Tower Prot Robe
-        chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Tower Trash Tunic
+          chance: 20
+        - result: Tower Bone Tunic
+          chance: 1
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
+      robe2:
+        - result: none
+          chance: 100
+        - result: Tower Prot Robe
+          chance: 1
 
-  rightHand: Tower Hammer Weak
+      rightHand: Tower Hammer Weak
 
-  leftHand:
-    - result: none
-      chance: 5
-    - result: Tower Shield Weak
-      chance: 1
+      leftHand:
+        - result: none
+          chance: 5
+        - result: Tower Shield Weak
+          chance: 1
 
   drops:
     - result: Tower Titanium Chunk
@@ -529,15 +534,15 @@
       maxChance: 3500
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
 - npcId: Dedlaen Orc Mage
@@ -580,24 +585,25 @@
     - BarFire
     - BarFrost
 
-  gear:
-    Armor:
-      - result: Tower Trash Tunic
-        chance: 20
-      - result: Tower Bone Tunic
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 100
-      - result: Tower Prot Robe
-        chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Tower Trash Tunic
+          chance: 20
+        - result: Tower Bone Tunic
+          chance: 1
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
+      robe2:
+        - result: none
+          chance: 100
+        - result: Tower Prot Robe
+          chance: 1
 
-  rightHand: Tower Spear Weak
+      rightHand: Tower Spear Weak
 
   drops:
     - result: Tower Titanium Chunk
@@ -621,13 +627,13 @@
       maxChance: 3500
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
 
 - npcId: Dedlaen Troll
@@ -659,29 +665,31 @@
     min: 37000
     max: 38000
 
-  gear:
-    Armor:
-      - result: Tower Trash Tunic
-        chance: 20
-      - result: Tower Bone Tunic
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 100
-      - result: Tower Prot Robe
-        chance: 1
+  items:
+    equipment:
+      hands: Maze Skeleton Claws
+      armor:
+        - result: Tower Trash Tunic
+          chance: 20
+        - result: Tower Bone Tunic
+          chance: 1
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
+      robe2:
+        - result: none
+          chance: 100
+        - result: Tower Prot Robe
+          chance: 1
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
 
   drops:
@@ -704,9 +712,6 @@
     - result: Maze Thief Earring
       chance: 1
       maxChance: 3500
-
-  gear:
-    Hands: Maze Skeleton Claws
 
   usableSkills:
     - ShredTenPercent
@@ -756,24 +761,25 @@
     - DarkVision
     - BarFire
 
-  gear:
-    Armor:
-      - result: Tower Trash Tunic
-        chance: 20
-      - result: Tower Bone Tunic
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 100
-      - result: Tower Prot Robe
-        chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Tower Trash Tunic
+          chance: 20
+        - result: Tower Bone Tunic
+          chance: 1
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
+      robe2:
+        - result: none
+          chance: 100
+        - result: Tower Prot Robe
+          chance: 1
 
-  rightHand: Maze Longsword
+      rightHand: Maze Longsword
 
   drops:
     - result: Tower Titanium Chunk
@@ -797,13 +803,13 @@
       maxChance: 3500
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
 
 - npcId: Dedlaen Minotaur
@@ -838,11 +844,13 @@
     min: 269000
     max: 275000
 
-  rightHand:
-    - Dedlaen Dueling Axe
-    - Dedlaen Minotaur Greataxe
+  items:
+    equipment:
+      rightHand:
+        - Dedlaen Dueling Axe
+        - Dedlaen Minotaur Greataxe
 
-  leftHand: Dedlaen Dueling Axe
+      leftHand: Dedlaen Dueling Axe
 
   usableSkills:
     - Charge
@@ -857,9 +865,9 @@
       chance: -1
 
   copyDrops:
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
 
   baseEffects:
@@ -892,8 +900,9 @@
     min: 1000
     max: 2000
 
-  gear:
-    Armor: Antanian Tunic
+  items:
+    equipment:
+      armor: Antanian Tunic
 
   baseEffects:
     - name: DarkVision
@@ -932,14 +941,15 @@
     min: 1000
     max: 2000
 
-  gear:
-    Armor: Antanian Tunic
+  items:
+    equipment:
+      armor: Antanian Tunic
 
-  rightHand:
-    - Antanian Greatmace
-    - Antanian Greataxe
-    - Antanian Greatsword
-    - Antanian Halberd
+      rightHand:
+        - Antanian Greatmace
+        - Antanian Greataxe
+        - Antanian Greatsword
+        - Antanian Halberd
 
   baseEffects:
     - name: DarkVision

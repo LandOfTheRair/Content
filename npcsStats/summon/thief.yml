@@ -8,8 +8,9 @@
 
   noCorpseDrop: true
 
-  gear:
-    Armor: Antanian Tunic
+  items:
+    equipment:
+      armor: Antanian Tunic
 
   gold:
     min: 0
@@ -32,8 +33,9 @@
 
   noCorpseDrop: true
 
-  gear:
-    Armor: Antanian Tunic
+  items:
+    equipment:
+      armor: Antanian Tunic
 
   usableSkills:
     - Provoke

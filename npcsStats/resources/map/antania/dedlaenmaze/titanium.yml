@@ -24,8 +24,9 @@
     min: 100
     max: 150
 
-  gear:
-    Armor: Tower Titanium Chunk
+  items:
+    equipment:
+      armor: Tower Titanium Chunk
 
   drops:
     - result: Tower Titanium Chunk

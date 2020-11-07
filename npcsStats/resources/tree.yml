@@ -23,8 +23,9 @@
     min: 100
     max: 150
 
-  gear:
-    Armor: Antanian Twig
+  items:
+    equipment:
+      armor: Antanian Twig
 
   drops:
     - result: Thanksgiving Leaf
@@ -92,8 +93,9 @@
     min: 100
     max: 150
 
-  gear:
-    Armor: Antanian Branch
+  items:
+    equipment:
+      armor: Antanian Branch
 
   drops:
     - result: Thanksgiving Leaf
@@ -164,8 +166,9 @@
     min: 100
     max: 150
 
-  gear:
-    Armor: Risan Twig
+  items:
+    equipment:
+      armor: Risan Twig
 
   drops:
     - result: Thanksgiving Leaf
@@ -210,8 +213,9 @@
     min: 100
     max: 150
 
-  gear:
-    Armor: Risan Branch
+  items:
+    equipment:
+      armor: Risan Branch
 
   drops:
     - result: Thanksgiving Leaf

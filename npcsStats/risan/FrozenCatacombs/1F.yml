@@ -20,51 +20,52 @@
     agi: 5
     damageFactor: 0.2
 
-  rightHand:
-    - result: Catacombs Longsword 1F
-      chance: 1000
-    - result: Risan Royal Spear
-      chance: 1
-    - result: Catacombs HolyFire Hammer
-      chance: 1
+  items:
+    equipment:
 
-  leftHand:
-    - result: none
-      chance: 10000
-    - result: Catacombs Shield 1F
-      chance: 1000
-    - result: Frostlands Royal Shield
-      chance: 1
+      rightHand:
+        - result: Catacombs Longsword 1F
+          chance: 1000
+        - result: Risan Royal Spear
+          chance: 1
+        - result: Catacombs HolyFire Hammer
+          chance: 1
 
-  gear:
-    Armor: Frostlands Trash Breastplate
+      leftHand:
+        - result: none
+          chance: 10000
+        - result: Catacombs Shield 1F
+          chance: 1000
+        - result: Frostlands Royal Shield
+          chance: 1
+          armor: Frostlands Trash Breastplate
 
-    Robe1:
-      - result: none
-        chance: 30
-      - result: Risan Trash Cloak
-        chance: 1
+      robe1:
+        - result: none
+          chance: 30
+        - result: Risan Trash Cloak
+          chance: 1
 
-    Robe2:
-      - result: none
-        chance: 300
-      - result: Catacombs Robe 1F
-        chance: 1
+      robe2:
+        - result: none
+          chance: 300
+        - result: Catacombs Robe 1F
+          chance: 1
 
-    Hands: Frostlands Frostgolem Gloves
+      hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: 1
       maxChance: 10
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   drops:
@@ -130,45 +131,46 @@
     agi: 5
     damageFactor: 0.2
 
-  rightHand:
-    - result: Catacombs Greatsword 1F
-      chance: 1000
-    - result: Catacombs Greataxe 1F
-      chance: 1000
-    - result: Catacombs Halberd 1F
-      chance: 1000
-    - result: Catacombs Bat Greatsword
-      chance: 1
-    - result: Frostlands Thermidor Halberd
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Armor: Frostlands Trash Breastplate
+      rightHand:
+        - result: Catacombs Greatsword 1F
+          chance: 1000
+        - result: Catacombs Greataxe 1F
+          chance: 1000
+        - result: Catacombs Halberd 1F
+          chance: 1000
+        - result: Catacombs Bat Greatsword
+          chance: 1
+        - result: Frostlands Thermidor Halberd
+          chance: 1
+      armor: Frostlands Trash Breastplate
 
-    Robe1:
-      - result: none
-        chance: 30
-      - result: Risan Trash Cloak
-        chance: 1
+      robe1:
+        - result: none
+          chance: 30
+        - result: Risan Trash Cloak
+          chance: 1
 
-    Robe2:
-      - result: none
-        chance: 300
-      - result: Catacombs Robe 1F
-        chance: 1
+      robe2:
+        - result: none
+          chance: 300
+        - result: Catacombs Robe 1F
+          chance: 1
 
-    Hands: Frostlands Frostgolem Gloves
+      hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: 1
       maxChance: 10
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
 
   drops:
@@ -222,43 +224,44 @@
     defense: 1
     agi: 5
 
-  rightHand:
-    - result: Catacombs Mace 1F
-      chance: 1000
-    - result: Catacombs HolyFire Hammer
-      chance: 1
-    - result: Risan Royal Spear
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Armor: Risan Trash Tunic
+      rightHand:
+        - result: Catacombs Mace 1F
+          chance: 1000
+        - result: Catacombs HolyFire Hammer
+          chance: 1
+        - result: Risan Royal Spear
+          chance: 1
+      armor: Risan Trash Tunic
 
-    Robe1:
-      - result: none
-        chance: 30
-      - result: Risan Trash Cloak
-        chance: 1
+      robe1:
+        - result: none
+          chance: 30
+        - result: Risan Trash Cloak
+          chance: 1
 
-    Hands: Frostlands Frostgolem Gloves
+      hands: Frostlands Frostgolem Gloves
 
-    Neck:
-      - result: none
-        chance: 1000
-      - result: Catacombs Amulet 1F
-        chance: 1
+      neck:
+        - result: none
+          chance: 1000
+        - result: Catacombs Amulet 1F
+          chance: 1
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: 1
       maxChance: 10
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   drops:
@@ -338,43 +341,44 @@
     defense: 1
     agi: 5
 
-  rightHand:
-    - result: Catacombs Staff 1F
-      chance: 1000
-    - result: Catacombs Rapidpunch Staff
-      chance: 1
-    - result: Risan Royal Spear
-      chance: 1
+  items:
+    equipment:
+      armor: Risan Trash Tunic
 
-  gear:
-    Armor: Risan Trash Tunic
+      rightHand:
+        - result: Catacombs Staff 1F
+          chance: 1000
+        - result: Catacombs Rapidpunch Staff
+          chance: 1
+        - result: Risan Royal Spear
+          chance: 1
 
-    Robe1:
-      - result: none
-        chance: 30
-      - result: Risan Trash Cloak
-        chance: 1
+      robe1:
+        - result: none
+          chance: 30
+        - result: Risan Trash Cloak
+          chance: 1
 
-    Hands: Frostlands Frostgolem Gloves
+      hands: Frostlands Frostgolem Gloves
 
-    Waist:
-      - result: none
-        chance: 1000
-      - result: Catacombs Sash 1F
-        chance: 1
+      waist:
+        - result: none
+          chance: 1000
+        - result: Catacombs Sash 1F
+          chance: 1
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: 1
       maxChance: 10
-    - result: 'gear.Waist'
+    - result: 'equipment.waist'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   drops:
@@ -441,47 +445,48 @@
     agi: 5
     damageFactor: 0.4
 
-  leftHand:
-    - result: none
-      chance: 10000
-    - result: Catacombs Shield 1F
-      chance: 100
-    - result: Frostlands Royal Shield
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Armor: Risan Trash Tunic
+      leftHand:
+        - result: none
+          chance: 10000
+        - result: Catacombs Shield 1F
+          chance: 100
+        - result: Frostlands Royal Shield
+          chance: 1
+      armor: Risan Trash Tunic
 
-    Robe1:
-      - result: none
-        chance: 30
-      - result: Risan Trash Cloak
-        chance: 1
+      robe1:
+        - result: none
+          chance: 30
+        - result: Risan Trash Cloak
+          chance: 1
 
-    Robe2:
-      - result: none
-        chance: 300
-      - result: Catacombs Robe 1F
-        chance: 1
+      robe2:
+        - result: none
+          chance: 300
+        - result: Catacombs Robe 1F
+          chance: 1
 
-    Hands:
-      - result: Mines Animal Claws
-        chance: 1000
-      - result: Catacombs Claws 1F
-        chance: 1
+      hands:
+        - result: Mines Animal Claws
+          chance: 1000
+        - result: Catacombs Claws 1F
+          chance: 1
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: 1
       maxChance: 10
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1
-    - result: 'gear.leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   drops:
@@ -540,53 +545,54 @@
     agi: 5
     damageFactor: 0.2
 
-  rightHand:
-    - result: Catacombs Dagger 1F
-      chance: 1000
-    - result: Catacombs Shortsword 1F
-      chance: 1000
-    - result: Catacombs HolyFire Hammer
-      chance: 1
-    - result: Catacombs Bat Greatsword
-      chance: 1
-    - result: Frost Chakram
-      chance: 1
+  items:
+    equipment:
 
-  leftHand:
-    - result: none
-      chance: 10000
-    - result: Frost Chakram
-      chance: 1
+      rightHand:
+        - result: Catacombs Dagger 1F
+          chance: 1000
+        - result: Catacombs Shortsword 1F
+          chance: 1000
+        - result: Catacombs HolyFire Hammer
+          chance: 1
+        - result: Catacombs Bat Greatsword
+          chance: 1
+        - result: Frost Chakram
+          chance: 1
 
-  gear:
-    Armor: Risan Trash Tunic
+      leftHand:
+        - result: none
+          chance: 10000
+        - result: Frost Chakram
+          chance: 1
+      armor: Risan Trash Tunic
 
-    Robe1:
-      - result: none
-        chance: 30
-      - result: Risan Trash Cloak
-        chance: 1
+      robe1:
+        - result: none
+          chance: 30
+        - result: Risan Trash Cloak
+          chance: 1
 
-    Feet:
-      - result: none
-        chance: 1000
-      - result: Catacombs Boots 1F
-        chance: 1
+      feet:
+        - result: none
+          chance: 1000
+        - result: Catacombs Boots 1F
+          chance: 1
 
-    Hands: Frostlands Frostgolem Gloves
+      hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: 1
       maxChance: 10
-    - result: 'gear.Feet'
+    - result: 'equipment.feet'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   skillOnKill: 65
@@ -645,49 +651,50 @@
     agi: 5
     damageFactor: 0.2
 
-  rightHand:
-    - result: Catacombs Longbow 1F
-      chance: 1000
-    - result: Frost Chakram
-      chance: 1
+  items:
+    equipment:
+      armor: Risan Trash Tunic
 
-  leftHand:
-    - result: none
-      chance: 10000
-    - result: Catacombs Arrows
-      chance: 1000
-    - result: Frost Chakram
-      chance: 1
+      robe1:
+        - result: none
+          chance: 30
+        - result: Risan Trash Cloak
+          chance: 1
 
-  gear:
-    Armor: Risan Trash Tunic
+      wrists:
+        - result: none
+          chance: 1000
+        - result: Catacombs Bracers 1F
+          chance: 1
 
-    Robe1:
-      - result: none
-        chance: 30
-      - result: Risan Trash Cloak
-        chance: 1
+      hands: Frostlands Frostgolem Gloves
 
-    Wrists:
-      - result: none
-        chance: 1000
-      - result: Catacombs Bracers 1F
-        chance: 1
+      rightHand:
+        - result: Catacombs Longbow 1F
+          chance: 1000
+        - result: Frost Chakram
+          chance: 1
 
-    Hands: Frostlands Frostgolem Gloves
+      leftHand:
+        - result: none
+          chance: 10000
+        - result: Catacombs Arrows
+          chance: 1000
+        - result: Frost Chakram
+          chance: 1
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: 1
       maxChance: 10
-    - result: 'gear.Wrists'
+    - result: 'equipment.wrists'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   skillOnKill: 65

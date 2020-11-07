@@ -21,38 +21,39 @@
     min: 300
     max: 500
 
-  leftHand:
-    - none
-    - Antanian Wooden Shield
+  items:
+    equipment:
+      leftHand:
+        - none
+        - Antanian Wooden Shield
 
-  rightHand:
-    - none
-    - Antanian Shortsword
-    - Antanian Longsword
-    - Antanian Staff
-    - Antanian Dagger
-    - Antanian Crossbow
+      rightHand:
+        - none
+        - Antanian Shortsword
+        - Antanian Longsword
+        - Antanian Staff
+        - Antanian Dagger
+        - Antanian Crossbow
 
-  gear:
-    Armor:
-      - Antanian Tunic
-      - Antanian Studded Tunic
-      - Antanian Scalemail Tunic
-      - Antanian Ringmail Tunic
-      - Antanian Breastplate
+      armor:
+        - Antanian Tunic
+        - Antanian Studded Tunic
+        - Antanian Scalemail Tunic
+        - Antanian Ringmail Tunic
+        - Antanian Breastplate
 
-    Robe1:
-      - none
-      - Antanian Cloak
+      robe1:
+        - none
+        - Antanian Cloak
 
   copyDrops:
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
 
 - npcId: Tutorial Deer
@@ -63,9 +64,10 @@
   stats: 1
   level: 1
 
-  gear:
-    Armor: Tutorial Fur
-    Hands: Basic Claws
+  items:
+    equipment:
+      armor: Tutorial Fur
+      hands: Basic Claws
 
   gold:
     min: 0
@@ -99,9 +101,10 @@
     min: 50
     max: 75
 
-  gear:
-    Armor: Tutorial Fur
-    Hands: Basic Claws
+  items:
+    equipment:
+      armor: Tutorial Fur
+      hands: Basic Claws
 
   triggers:
     spawn:
@@ -136,12 +139,13 @@
     min: 100
     max: 150
 
-  rightHand: Tutorial Yeti Club
-  gear:
-    Head: Tutorial Yeti Skull
+  items:
+    equipment:
+      rightHand: Tutorial Yeti Club
+      head: Tutorial Yeti Skull
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
 
   drops:

@@ -21,13 +21,14 @@
     min: 550
     max: 775
 
-  gear:
-    Hands: Rylt Rockgolem Gloves
-    Armor:
-      - none
-      - Antanian Tunic
-      - Antanian Studded Tunic
-      - Antanian Cloak
+  items:
+    equipment:
+      hands: Rylt Rockgolem Gloves
+      armor:
+        - none
+        - Antanian Tunic
+        - Antanian Studded Tunic
+        - Antanian Cloak
 
   drops:
     - result: Copper Ore (Small)
@@ -35,7 +36,7 @@
       maxChance: 100
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
 
   triggers:

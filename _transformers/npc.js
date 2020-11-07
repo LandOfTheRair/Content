@@ -9,7 +9,7 @@ const allSkills = [
   'mace',
   'axe',
   'dagger',
-  'onehanded',
+  'sword',
   'twohanded',
   'shortsword',
   'polearm',
@@ -157,13 +157,13 @@ const conditionallyAddInformation = (npc) => {
     });
   };
 
-  if(npc.leftHand) npc.leftHand = reworkRollable(npc.leftHand);
-  if(npc.rightHand) npc.rightHand = reworkRollable(npc.rightHand);
-  if(npc.sack) npc.sack = reworkRollable(npc.sack);
+  if(npc.items && npc.items.equipment && npc.items.equipment.leftHand) npc.items.equipment.leftHand = reworkRollable(npc.items.equipment.leftHand);
+  if(npc.items && npc.items.equipment && npc.items.equipment.rightHand) npc.items.equipment.rightHand = reworkRollable(npc.items.equipment.rightHand);
+  if(npc.items && npc.items.sack) npc.items.sack = reworkRollable(npc.items.sack);
 
-  if(npc.gear) {
-    Object.keys(npc.gear).forEach(gearSlot => {
-      npc.gear[gearSlot] = reworkRollable(npc.gear[gearSlot]);
+  if(npc.items && npc.items.equipment) {
+    Object.keys(npc.items.equipment).forEach(gearSlot => {
+      npc.items.equipment[gearSlot] = reworkRollable(npc.items.equipment[gearSlot]);
     });
   }
 
@@ -180,15 +180,21 @@ const merge = async () => {
     const files = await recurse(`npcsStats`);
 
     const filePromises = files.map(file => {
-      const npcs = YAML.load(file);
 
-      return npcs.map(npcData => {
-        conditionallyAddInformation(npcData);
-        assignReputations(npcData);
-        if(!validateNPC(npcData)) throw new Error(`${npcData.npcId} failed validation.`);
-        
-        return npcData;
-      }).flat();
+      try {
+        const npcs = YAML.load(file);
+  
+        return npcs.map(npcData => {
+          conditionallyAddInformation(npcData);
+          assignReputations(npcData);
+          if(!validateNPC(npcData)) throw new Error(`${npcData.npcId} failed validation.`);
+          
+          return npcData;
+        }).flat();
+      } catch(e) {
+        console.error(file, e);
+        throw e;
+      }
     }).flat();
 
     const allNPCData = await Promise.all(filePromises);

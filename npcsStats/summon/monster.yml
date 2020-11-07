@@ -36,5 +36,6 @@
   usableSkills:
     - PoisonBiteMedium
 
-  gear:
-    Hands: Maze Skeleton Claws
+  items:
+    equipment:
+      hands: Maze Skeleton Claws

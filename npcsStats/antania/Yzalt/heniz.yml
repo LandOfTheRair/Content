@@ -27,8 +27,9 @@
     - allegiance: Pirates
       delta: -10
 
-  gear:
-    Armor: Antanian Tunic
+  items:
+    equipment:
+      armor: Antanian Tunic
 
 - npcId: Heniz Townee
   name: townee
@@ -65,81 +66,82 @@
     - allegiance: Royalty
       delta: 1
 
-  rightHand:
-    - Antanian Staff
-    - Antanian Dagger
-    - Antanian Longsword
-    - Antanian Axe
-    - Antanian Shortbow
-  leftHand:
-    - result: none
-      chance: 2
-    - result: Antanian Wooden Shield
-      chance: 4
-    - result: Antanian Bubble Shield
-      chance: 1
-    - result: Antanian Arrows
-      chance: 1
+  items:
+    equipment:
+      ring1:
+        - result: none
+          chance: 9
+        - result: Leather Ring
+          chance: 2
+        - result: Antanian Ring
+          chance: 1
+        - result: Identify Ring
+          chance: 1
+      armor:
+        - result: Antanian Tunic
+          chance: 1
+        - result: Antanian Studded Tunic
+          chance: 2
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      head:
+        - result: none
+          chance: 3
+        - result: Antanian Helm
+          chance: 2
+      hands:
+        - result: none
+          chance: 3
+        - result: Antanian Leather Gloves
+          chance: 1
+      feet:
+        - result: none
+          chance: 3
+        - result: Antanian Leather Boots
+          chance: 1
+      neck:
+        - result: none
+          chance: 5
+        - result: Antanian Amulet
+          chance: 1
 
-  gear:
-    Ring1:
-      - result: none
-        chance: 9
-      - result: Leather Ring
-        chance: 2
-      - result: Antanian Ring
-        chance: 1
-      - result: Identify Ring
-        chance: 1
-    Armor:
-      - result: Antanian Tunic
-        chance: 1
-      - result: Antanian Studded Tunic
-        chance: 2
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Head:
-      - result: none
-        chance: 3
-      - result: Antanian Helm
-        chance: 2
-    Hands:
-      - result: none
-        chance: 3
-      - result: Antanian Leather Gloves
-        chance: 1
-    Feet:
-      - result: none
-        chance: 3
-      - result: Antanian Leather Boots
-        chance: 1
-    Neck:
-      - result: none
-        chance: 5
-      - result: Antanian Amulet
-        chance: 1
+      rightHand:
+        - Antanian Staff
+        - Antanian Dagger
+        - Antanian Longsword
+        - Antanian Axe
+        - Antanian Shortbow
+      leftHand:
+        - result: none
+          chance: 2
+        - result: Antanian Wooden Shield
+          chance: 4
+        - result: Antanian Bubble Shield
+          chance: 1
+        - result: Antanian Arrows
+          chance: 1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Head'
+    - result: 'equipment.head'
       chance: -1
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
-    - result: 'gear.Feet'
+    - result: 'equipment.feet'
       chance: -1
 
 - npcId: Heniz Thief Defender
@@ -183,46 +185,47 @@
     - allegiance: Royalty
       delta: 1
 
-  rightHand:
-    - result: Antanian Dagger
-      chance: 30
-    - result: Antanian Returning Dagger
-      chance: 10
-    - result: Antanian Dualwielding Dagger
-      chance: 1
-    - result: Heniz Poison Shortbow
-      chance: 1
-  leftHand:
-    - result: none
-      chance: 30
-    - result: Antanian Dualwielding Dagger
-      chance: 1
-    - result: Antanian Arrows
-      chance: 10
-    - result: Antanian Poisoned Arrows
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Armor:
-      - result: Antanian Tunic
-        chance: 1
-      - result: Antanian Studded Tunic
-        chance: 2
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Wrists:
-      - result: none
-        chance: 500
-      - result: Heniz Dexterity Bracers
-        chance: 1
-    Waist:
-      - result: none
-        chance: 500
-      - result: Heniz Agility Sash
-        chance: 1
+      rightHand:
+        - result: Antanian Dagger
+          chance: 30
+        - result: Antanian Returning Dagger
+          chance: 10
+        - result: Antanian Dualwielding Dagger
+          chance: 1
+        - result: Heniz Poison Shortbow
+          chance: 1
+      leftHand:
+        - result: none
+          chance: 30
+        - result: Antanian Dualwielding Dagger
+          chance: 1
+        - result: Antanian Arrows
+          chance: 10
+        - result: Antanian Poisoned Arrows
+          chance: 1
+      armor:
+        - result: Antanian Tunic
+          chance: 1
+        - result: Antanian Studded Tunic
+          chance: 2
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      wrists:
+        - result: none
+          chance: 500
+        - result: Heniz Dexterity Bracers
+          chance: 1
+      waist:
+        - result: none
+          chance: 500
+        - result: Heniz Agility Sash
+          chance: 1
 
   usableSkills:
     - Identify
@@ -236,17 +239,17 @@
         - "The Steffen never learn, do they?"
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Wrists'
+    - result: 'equipment.wrists'
       chance: -1
-    - result: 'gear.Waist'
+    - result: 'equipment.waist'
       chance: -1
 
 - npcId: Heniz Mage Defender
@@ -299,37 +302,38 @@
     - allegiance: Royalty
       delta: 1
 
-  rightHand:
-    - result: Antanian Staff
-      chance: 30
-    - result: Yzalt Heniz Staff
-      chance: 1
-    - result: Heniz FireMist Wand
-      chance: 1
-    - result: Heniz IceMist Wand
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Armor:
-      - result: Antanian Tunic
-        chance: 1
-      - result: Antanian Studded Tunic
-        chance: 2
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Ring1:
-      - result: none
-        chance: 500
-      - result: Heniz Intelligence Ring
-        chance: 1
-    Hands:
-      - result: none
-        chance: 500
-      - result: Heniz Battlemage Gloves
-        chance: 1
+      rightHand:
+        - result: Antanian Staff
+          chance: 30
+        - result: Yzalt Heniz Staff
+          chance: 1
+        - result: Heniz FireMist Wand
+          chance: 1
+        - result: Heniz IceMist Wand
+          chance: 1
+      armor:
+        - result: Antanian Tunic
+          chance: 1
+        - result: Antanian Studded Tunic
+          chance: 2
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      ring1:
+        - result: none
+          chance: 500
+        - result: Heniz Intelligence Ring
+          chance: 1
+      hands:
+        - result: none
+          chance: 500
+        - result: Heniz Battlemage Gloves
+          chance: 1
 
   triggers:
     combat:
@@ -339,15 +343,15 @@
         - "The Steffen never learn, do they?"
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1
 
 - npcId: Heniz Thief Offender
@@ -390,46 +394,47 @@
     - allegiance: Royalty
       delta: 1
 
-  rightHand:
-    - result: Antanian Dagger
-      chance: 30
-    - result: Antanian Returning Dagger
-      chance: 10
-    - result: Antanian Dualwielding Dagger
-      chance: 1
-    - result: Heniz Poison Shortbow
-      chance: 1
-  leftHand:
-    - result: none
-      chance: 30
-    - result: Antanian Dualwielding Dagger
-      chance: 1
-    - result: Antanian Arrows
-      chance: 10
-    - result: Antanian Poisoned Arrows
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Armor:
-      - result: Antanian Tunic
-        chance: 1
-      - result: Antanian Studded Tunic
-        chance: 2
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Wrists:
-      - result: none
-        chance: 500
-      - result: Heniz Dexterity Bracers
-        chance: 1
-    Waist:
-      - result: none
-        chance: 500
-      - result: Heniz Agility Sash
-        chance: 1
+      rightHand:
+        - result: Antanian Dagger
+          chance: 30
+        - result: Antanian Returning Dagger
+          chance: 10
+        - result: Antanian Dualwielding Dagger
+          chance: 1
+        - result: Heniz Poison Shortbow
+          chance: 1
+      leftHand:
+        - result: none
+          chance: 30
+        - result: Antanian Dualwielding Dagger
+          chance: 1
+        - result: Antanian Arrows
+          chance: 10
+        - result: Antanian Poisoned Arrows
+          chance: 1
+      armor:
+        - result: Antanian Tunic
+          chance: 1
+        - result: Antanian Studded Tunic
+          chance: 2
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      wrists:
+        - result: none
+          chance: 500
+        - result: Heniz Dexterity Bracers
+          chance: 1
+      waist:
+        - result: none
+          chance: 500
+        - result: Heniz Agility Sash
+          chance: 1
 
   usableSkills:
     - Identify
@@ -443,17 +448,17 @@
         - "The Steffen never learn, do they?"
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Wrists'
+    - result: 'equipment.wrists'
       chance: -1
-    - result: 'gear.Waist'
+    - result: 'equipment.waist'
       chance: -1
 
 - npcId: Heniz Mage Offender
@@ -506,37 +511,38 @@
     - allegiance: Royalty
       delta: 1
 
-  rightHand:
-    - result: Antanian Staff
-      chance: 30
-    - result: Yzalt Heniz Staff
-      chance: 1
-    - result: Heniz FireMist Wand
-      chance: 1
-    - result: Heniz IceMist Wand
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Armor:
-      - result: Antanian Tunic
-        chance: 1
-      - result: Antanian Studded Tunic
-        chance: 2
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Ring1:
-      - result: none
-        chance: 500
-      - result: Heniz Intelligence Ring
-        chance: 1
-    Hands:
-      - result: none
-        chance: 500
-      - result: Heniz Battlemage Gloves
-        chance: 1
+      rightHand:
+        - result: Antanian Staff
+          chance: 30
+        - result: Yzalt Heniz Staff
+          chance: 1
+        - result: Heniz FireMist Wand
+          chance: 1
+        - result: Heniz IceMist Wand
+          chance: 1
+      armor:
+        - result: Antanian Tunic
+          chance: 1
+        - result: Antanian Studded Tunic
+          chance: 2
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      ring1:
+        - result: none
+          chance: 500
+        - result: Heniz Intelligence Ring
+          chance: 1
+      hands:
+        - result: none
+          chance: 500
+        - result: Heniz Battlemage Gloves
+          chance: 1
 
   triggers:
     combat:
@@ -546,13 +552,13 @@
         - "The Steffen never learn, do they?"
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1

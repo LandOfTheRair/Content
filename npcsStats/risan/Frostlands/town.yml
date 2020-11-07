@@ -23,38 +23,39 @@
     min: 43000
     max: 45000
 
-  leftHand:
-    - none
-    - Risan Wooden Shield
+  items:
+    equipment:
 
-  rightHand:
-    - none
-    - Risan Shortsword
-    - Risan Longsword
-    - Risan Staff
-    - Risan Dagger
-    - Risan Crossbow
+      leftHand:
+        - none
+        - Risan Wooden Shield
 
-  gear:
-    Armor:
-      - Risan Tunic
-      - Risan Studded Tunic
-      - Risan Scalemail Tunic
-      - Risan Ringmail Tunic
-      - Risan Breastplate
+      rightHand:
+        - none
+        - Risan Shortsword
+        - Risan Longsword
+        - Risan Staff
+        - Risan Dagger
+        - Risan Crossbow
+      armor:
+        - Risan Tunic
+        - Risan Studded Tunic
+        - Risan Scalemail Tunic
+        - Risan Ringmail Tunic
+        - Risan Breastplate
 
-    Robe1:
-      - none
-      - Risan Cloak
+      robe1:
+        - none
+        - Risan Cloak
 
   copyDrops:
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
 
 - npcId: Frostlands Noble
@@ -81,26 +82,27 @@
     min: 43000
     max: 45000
 
-  rightHand: Risan Shortsword
+  items:
+    equipment:
 
-  gear:
-    Armor:
-      - Risan Tunic
-      - Risan Studded Tunic
-      - Risan Scalemail Tunic
-      - Risan Ringmail Tunic
-      - Risan Breastplate
+      rightHand: Risan Shortsword
+      armor:
+        - Risan Tunic
+        - Risan Studded Tunic
+        - Risan Scalemail Tunic
+        - Risan Ringmail Tunic
+        - Risan Breastplate
 
-    Robe1: Frostlands Noble Robe
+      robe1: Frostlands Noble Robe
 
   copyDrops:
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
 
 - npcId: Frostlands Guard
@@ -133,15 +135,16 @@
     min: 75000
     max: 80000
 
-  rightHand: Risan Halberd
 
-  gear:
-    Armor: Risan Breastplate
+  items:
+    equipment:
+      rightHand: Risan Halberd
+      armor: Risan Breastplate
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
 
 - npcId: Frostlands Slave
@@ -168,15 +171,16 @@
     min: 1000
     max: 2000
 
-  gear:
-    Armor: Risan Tunic
+  items:
+    equipment:
+      armor: Risan Tunic
 
-    Robe1:
-      - none
-      - Risan Cloak
+      robe1:
+        - none
+        - Risan Cloak
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1

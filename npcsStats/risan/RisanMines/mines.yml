@@ -35,32 +35,33 @@
     min: 30000
     max: 31000
 
-  gear:
-    Armor: Mines Trash Breastplate
-    Head:
-      - result: none
-        chance: 150
-      - result: Miner Defense Health Helm
-        chance: 1
-      - result: Miner Offense Health Helm
-        chance: 1
-      - result: Miner Defense Mana Helm
-        chance: 1
-      - result: Miner Offense Mana Helm
-        chance: 1
+  items:
+    equipment:
+      armor: Mines Trash Breastplate
+      head:
+        - result: none
+          chance: 150
+        - result: Miner Defense Health Helm
+          chance: 1
+        - result: Miner Offense Health Helm
+          chance: 1
+        - result: Miner Defense Mana Helm
+          chance: 1
+        - result: Miner Offense Mana Helm
+          chance: 1
 
-  rightHand: Mines Trash Hammer
+      rightHand: Mines Trash Hammer
+
+      leftHand:
+        - result: none
+          chance: 5
+        - result: Mines Fire Offense Shield
+          chance: 1
+        - result: Mines Fire Defense Shield
+          chance: 1
 
   usableSkills:
     - Charge
-
-  leftHand:
-    - result: none
-      chance: 5
-    - result: Mines Fire Offense Shield
-      chance: 1
-    - result: Mines Fire Defense Shield
-      chance: 1
 
   drops:
     - result: Risan Mines Key
@@ -72,12 +73,12 @@
       maxChance: 1000
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   baseEffects:
@@ -115,32 +116,33 @@
     min: 45000
     max: 51000
 
-  gear:
-    Armor: Mines Trash Breastplate
-    Head:
-      - result: none
-        chance: 150
-      - result: Miner Defense Health Helm
-        chance: 1
-      - result: Miner Offense Health Helm
-        chance: 1
-      - result: Miner Defense Mana Helm
-        chance: 1
-      - result: Miner Offense Mana Helm
-        chance: 1
+  items:
+    equipment:
+      armor: Mines Trash Breastplate
+      head:
+        - result: none
+          chance: 150
+        - result: Miner Defense Health Helm
+          chance: 1
+        - result: Miner Offense Health Helm
+          chance: 1
+        - result: Miner Defense Mana Helm
+          chance: 1
+        - result: Miner Offense Mana Helm
+          chance: 1
 
-  rightHand: Mines Trash Hammer
+      rightHand: Mines Trash Hammer
+
+      leftHand:
+        - result: none
+          chance: 5
+        - result: Mines Fire Offense Shield
+          chance: 1
+        - result: Mines Fire Defense Shield
+          chance: 1
 
   usableSkills:
     - Charge
-
-  leftHand:
-    - result: none
-      chance: 5
-    - result: Mines Fire Offense Shield
-      chance: 1
-    - result: Mines Fire Defense Shield
-      chance: 1
 
   drops:
     - result: Risan Scorched Mines Key
@@ -152,13 +154,13 @@
       maxChance: 500
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Head'
+    - result: 'equipment.head'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   baseEffects:
@@ -206,13 +208,14 @@
     Punchkick: 1
     StunningFist: 3
 
-  gear:
-    Hands: Mines Rockman Gloves
-    Feet: Mines Rockman Boots
-    Armor:
-      - none
-      - Risan Trash Tunic
-      - Risan Trash Cloak
+  items:
+    equipment:
+      hands: Mines Rockman Gloves
+      feet: Mines Rockman Boots
+      armor:
+        - none
+        - Risan Trash Tunic
+        - Risan Trash Cloak
 
   drops:
     - result: Silver Ore (Small)
@@ -220,7 +223,7 @@
       maxChance: 100
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
 
   triggers:
@@ -268,34 +271,35 @@
     min: 569000
     max: 609000
 
-  gear:
-    Armor: Mines Griffon Fur
-    Robe1:
-      - result: none
-        chance: 3
-      - result: Crazed Deer Robe
-        chance: 1
-    Robe2:
-      - result: none
-        chance: 10
-      - result: Crazed Deer Robe
-        chance: 1
-    Head:
-      - result: none
-        chance: 150
-      - result: Miner Defense Health Helm
-        chance: 1
-      - result: Miner Offense Health Helm
-        chance: 1
-      - result: Miner Defense Mana Helm
-        chance: 1
-      - result: Miner Offense Mana Helm
-        chance: 1
+  items:
+    equipment:
+      armor: Mines Griffon Fur
+      robe1:
+        - result: none
+          chance: 3
+        - result: Crazed Deer Robe
+          chance: 1
+      robe2:
+        - result: none
+          chance: 10
+        - result: Crazed Deer Robe
+          chance: 1
+      head:
+        - result: none
+          chance: 150
+        - result: Miner Defense Health Helm
+          chance: 1
+        - result: Miner Offense Health Helm
+          chance: 1
+        - result: Miner Defense Mana Helm
+          chance: 1
+        - result: Miner Offense Mana Helm
+          chance: 1
 
-  rightHand:
-    - Overseer Jigan Staff
-    - Overseer Jigan Totem
-    - Overseer Jigan Wand
+      rightHand:
+        - Overseer Jigan Staff
+        - Overseer Jigan Totem
+        - Overseer Jigan Wand
 
   usableSkills:
     - Charge
@@ -332,15 +336,15 @@
       chance: -1
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'gear.Head'
+    - result: 'equipment.head'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1

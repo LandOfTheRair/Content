@@ -27,8 +27,9 @@
     - allegiance: Royalty
       delta: -10
 
-  gear:
-    Armor: Antanian Tunic
+  items:
+    equipment:
+      armor: Antanian Tunic
 
 - npcId: Steffen LostChild
   name: lost child
@@ -62,8 +63,9 @@
     - allegiance: Royalty
       delta: -10
 
-  gear:
-    Armor: Antanian Tunic
+  items:
+    equipment:
+      armor: Antanian Tunic
 
 
   triggers:
@@ -106,68 +108,69 @@
     - allegiance: Pirates
       delta: 1
 
-  rightHand:
-    - Antanian Mace
-    - Antanian Greatmace
-    - Antanian Greataxe
-    - Antanian Greatsword
-    - Antanian Halberd
+  items:
+    equipment:
 
-  gear:
-    Ring1:
-      - result: none
-        chance: 9
-      - result: Leather Ring
-        chance: 2
-      - result: Antanian Ring
-        chance: 1
-      - result: Identify Ring
-        chance: 1
-    Armor: Antanian Breastplate
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Head:
-      - result: none
-        chance: 3
-      - result: Antanian Helm
-        chance: 2
-    Hands:
-      - result: none
-        chance: 3
-      - result: Antanian Leather Gloves
-        chance: 1
-    Feet:
-      - result: none
-        chance: 3
-      - result: Antanian Leather Boots
-        chance: 1
-    Neck:
-      - result: none
-        chance: 5
-      - result: Antanian Amulet
-        chance: 1
+      rightHand:
+        - Antanian Mace
+        - Antanian Greatmace
+        - Antanian Greataxe
+        - Antanian Greatsword
+        - Antanian Halberd
+      ring1:
+        - result: none
+          chance: 9
+        - result: Leather Ring
+          chance: 2
+        - result: Antanian Ring
+          chance: 1
+        - result: Identify Ring
+          chance: 1
+      armor: Antanian Breastplate
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      head:
+        - result: none
+          chance: 3
+        - result: Antanian Helm
+          chance: 2
+      hands:
+        - result: none
+          chance: 3
+        - result: Antanian Leather Gloves
+          chance: 1
+      feet:
+        - result: none
+          chance: 3
+        - result: Antanian Leather Boots
+          chance: 1
+      neck:
+        - result: none
+          chance: 5
+        - result: Antanian Amulet
+          chance: 1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Head'
+    - result: 'equipment.head'
       chance: -1
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
-    - result: 'gear.Feet'
+    - result: 'equipment.feet'
       chance: -1
 
 - npcId: Steffen Warrior Defender
@@ -207,40 +210,41 @@
     - allegiance: Pirates
       delta: 1
 
-  rightHand:
-    - result: Antanian Greatmace
-      chance: 30
-    - result: Antanian Greataxe
-      chance: 30
-    - result: Antanian Steffen Flail
-      chance: 1
-    - result: Antanian Steffen Katana
-      chance: 1
-    - result: Antanian Steffen Nodachi
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Armor: Antanian Breastplate
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Ring1:
-      - result: none
-        chance: 500
-      - result: Steffen Mana Ring
-        chance: 1
-    Ring2:
-      - result: none
-        chance: 500
-      - result: Steffen Mana Ring
-        chance: 1
-    Neck:
-      - result: none
-        chance: 500
-      - result: Steffen Wisdom Amulet
-        chance: 1
+      rightHand:
+        - result: Antanian Greatmace
+          chance: 30
+        - result: Antanian Greataxe
+          chance: 30
+        - result: Antanian Steffen Flail
+          chance: 1
+        - result: Antanian Steffen Katana
+          chance: 1
+        - result: Antanian Steffen Nodachi
+          chance: 1
+      armor: Antanian Breastplate
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      ring1:
+        - result: none
+          chance: 500
+        - result: Steffen Mana Ring
+          chance: 1
+      ring2:
+        - result: none
+          chance: 500
+        - result: Steffen Mana Ring
+          chance: 1
+      neck:
+        - result: none
+          chance: 500
+        - result: Steffen Wisdom Amulet
+          chance: 1
 
   usableSkills:
     - Boost
@@ -253,19 +257,19 @@
         - "Come out, you shadow fiends!"
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Ring2'
+    - result: 'equipment.ring2'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
 
 
@@ -312,34 +316,35 @@
     - Afflict
     - Plague
 
-  rightHand:
-    - result: Antanian Mace
-      chance: 30
-    - result: Antanian Steffen Flail
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Armor: Antanian Breastplate
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Ring1:
-      - result: none
-        chance: 500
-      - result: Steffen DamageResist Ring
-        chance: 1
-    Ring2:
-      - result: none
-        chance: 500
-      - result: Steffen DamageResist Ring
-        chance: 1
-    Waist:
-      - result: none
-        chance: 500
-      - result: Steffen Offensive Sash
-        chance: 1
+      rightHand:
+        - result: Antanian Mace
+          chance: 30
+        - result: Antanian Steffen Flail
+          chance: 1
+      armor: Antanian Breastplate
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      ring1:
+        - result: none
+          chance: 500
+        - result: Steffen DamageResist Ring
+          chance: 1
+      ring2:
+        - result: none
+          chance: 500
+        - result: Steffen DamageResist Ring
+          chance: 1
+      waist:
+        - result: none
+          chance: 500
+        - result: Steffen Offensive Sash
+          chance: 1
 
   triggers:
     combat:
@@ -349,19 +354,19 @@
         - "Come out, you shadow fiends!"
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Ring2'
+    - result: 'equipment.ring2'
       chance: -1
-    - result: 'gear.Waist'
+    - result: 'equipment.waist'
       chance: -1
 
 
@@ -402,40 +407,41 @@
     - allegiance: Pirates
       delta: 1
 
-  rightHand:
-    - result: Antanian Greatmace
-      chance: 30
-    - result: Antanian Greataxe
-      chance: 30
-    - result: Antanian Steffen Flail
-      chance: 1
-    - result: Antanian Steffen Katana
-      chance: 1
-    - result: Antanian Steffen Nodachi
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Armor: Antanian Breastplate
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Ring1:
-      - result: none
-        chance: 500
-      - result: Steffen Mana Ring
-        chance: 1
-    Ring2:
-      - result: none
-        chance: 500
-      - result: Steffen Mana Ring
-        chance: 1
-    Neck:
-      - result: none
-        chance: 500
-      - result: Steffen Wisdom Amulet
-        chance: 1
+      rightHand:
+        - result: Antanian Greatmace
+          chance: 30
+        - result: Antanian Greataxe
+          chance: 30
+        - result: Antanian Steffen Flail
+          chance: 1
+        - result: Antanian Steffen Katana
+          chance: 1
+        - result: Antanian Steffen Nodachi
+          chance: 1
+      armor: Antanian Breastplate
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      ring1:
+        - result: none
+          chance: 500
+        - result: Steffen Mana Ring
+          chance: 1
+      ring2:
+        - result: none
+          chance: 500
+        - result: Steffen Mana Ring
+          chance: 1
+      neck:
+        - result: none
+          chance: 500
+        - result: Steffen Wisdom Amulet
+          chance: 1
 
   usableSkills:
     - Boost
@@ -448,19 +454,19 @@
         - "Come out, you shadow fiends!"
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Ring2'
+    - result: 'equipment.ring2'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
 
 
@@ -501,38 +507,39 @@
     - allegiance: Pirates
       delta: 1
 
-  rightHand:
-    - result: Antanian Mace
-      chance: 30
-    - result: Antanian Steffen Flail
-      chance: 1
-
   usableSkills:
     - Afflict
     - Plague
 
-  gear:
-    Armor: Antanian Breastplate
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Ring1:
-      - result: none
-        chance: 500
-      - result: Steffen DamageResist Ring
-        chance: 1
-    Ring2:
-      - result: none
-        chance: 500
-      - result: Steffen DamageResist Ring
-        chance: 1
-    Waist:
-      - result: none
-        chance: 500
-      - result: Steffen Offensive Sash
-        chance: 1
+  items:
+    equipment:
+
+      rightHand:
+        - result: Antanian Mace
+          chance: 30
+        - result: Antanian Steffen Flail
+          chance: 1
+      armor: Antanian Breastplate
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      ring1:
+        - result: none
+          chance: 500
+        - result: Steffen DamageResist Ring
+          chance: 1
+      ring2:
+        - result: none
+          chance: 500
+        - result: Steffen DamageResist Ring
+          chance: 1
+      waist:
+        - result: none
+          chance: 500
+        - result: Steffen Offensive Sash
+          chance: 1
 
   triggers:
     combat:
@@ -542,17 +549,17 @@
         - "Come out, you shadow fiends!"
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Ring2'
+    - result: 'equipment.ring2'
       chance: -1
-    - result: 'gear.Waist'
+    - result: 'equipment.waist'
       chance: -1

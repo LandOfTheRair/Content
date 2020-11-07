@@ -23,39 +23,40 @@
     min: 300
     max: 500
 
-  leftHand:
-    - none
-    - Antanian Wooden Shield
-    - Antanian Arrows
+  items:
+    equipment:
+      armor:
+        - Antanian Tunic
+        - Antanian Studded Tunic
+        - Antanian Scalemail Tunic
+        - Antanian Ringmail Tunic
+        - Antanian Breastplate
 
-  rightHand:
-    - none
-    - Antanian Shortsword
-    - Antanian Longsword
-    - Antanian Staff
-    - Antanian Dagger
-    - Antanian Crossbow
+      robe1:
+        - none
+        - Antanian Cloak
 
-  gear:
-    Armor:
-      - Antanian Tunic
-      - Antanian Studded Tunic
-      - Antanian Scalemail Tunic
-      - Antanian Ringmail Tunic
-      - Antanian Breastplate
+      leftHand:
+        - none
+        - Antanian Wooden Shield
+        - Antanian Arrows
 
-    Robe1:
-      - none
-      - Antanian Cloak
+      rightHand:
+        - none
+        - Antanian Shortsword
+        - Antanian Longsword
+        - Antanian Staff
+        - Antanian Dagger
+        - Antanian Crossbow
 
   copyDrops:
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
 
 
@@ -89,17 +90,18 @@
     min: 3000
     max: 5000
 
-  rightHand:
-    - Antanian Halberd
-    - Antanian Greatsword
-    - Antanian Greatmace
+  items:
+    equipment:
+      armor:
+        - Antanian Breastplate
 
-  gear:
-    Armor:
-      - Antanian Breastplate
+      rightHand:
+        - Antanian Halberd
+        - Antanian Greatsword
+        - Antanian Greatmace
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1

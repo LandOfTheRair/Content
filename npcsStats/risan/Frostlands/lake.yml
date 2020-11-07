@@ -18,11 +18,13 @@
     waterResist: 5000
     damageFactor: 0.5
 
-  rightHand:
-    - result: Risan Halberd
-      chance: 1000
-    - result: Frostlands Thermidor Halberd
-      chance: 1
+  items:
+    equipment:
+      rightHand:
+        - result: Risan Halberd
+          chance: 1000
+        - result: Frostlands Thermidor Halberd
+          chance: 1
 
   gold:
     min: 1410
@@ -51,5 +53,6 @@
   usableSkills:
     - PoisonBiteWeak
 
-  gear:
-    Hands: Dolphin Gloves
+  items:
+    equipment:
+      hands: Dolphin Gloves

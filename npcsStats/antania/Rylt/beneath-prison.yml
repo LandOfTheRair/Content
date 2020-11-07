@@ -45,12 +45,13 @@
     min: 1450000
     max: 1475000
 
-  rightHand: Crazed Tonwin Dagger
 
-  gear:
-    Armor: Crazed Tonwin Breastplate
-    Feet: Crazed Tonwin Boots
-    Head: Crazed Tonwin Helm
+  items:
+    equipment:
+      armor: Crazed Tonwin Breastplate
+      feet: Crazed Tonwin Boots
+      head: Crazed Tonwin Helm
+      rightHand: Crazed Tonwin Dagger
 
   usableSkills:
     - result: Charge
@@ -71,11 +72,11 @@
       chance: 10
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
 
   drops:
@@ -158,12 +159,13 @@
     min: 250000
     max: 275000
 
-  rightHand: Tonwin Sword
 
-  gear:
-    Armor: Tower Breastplate
-    Robe1: FireIce Prot Robe 500
-    Robe2: Antanian Cloak
+  items:
+    equipment:
+      armor: Tower Breastplate
+      robe1: FireIce Prot Robe 500
+      robe2: Antanian Cloak
+      rightHand: Tonwin Sword
 
   usableSkills:
     - Charge
@@ -171,9 +173,9 @@
     - Blindstrike
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
 
 - npcId: Shadow Terwin
@@ -217,16 +219,17 @@
     min: 250000
     max: 275000
 
-  rightHand: Saraxa Wand
 
   traitLevels:
     BladedWands: 1
-    LightenArmor: 1
+    Lightenarmor: 1
 
-  gear:
-    Armor: Tower Breastplate
-    Robe1: FireIce Prot Robe 500
-    Robe2: Antanian Cloak
+  items:
+    equipment:
+      armor: Tower Breastplate
+      robe1: FireIce Prot Robe 500
+      robe2: Antanian Cloak
+      rightHand: Saraxa Wand
 
   usableSkills:
     - Charge
@@ -236,9 +239,9 @@
     - TrueSight
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
 
 - npcId: Shadow Takwin
@@ -282,15 +285,16 @@
     min: 250000
     max: 275000
 
-  rightHand: Ranata Totem
 
   traitLevels:
-    LightenArmor: 1
+    Lightenarmor: 1
 
-  gear:
-    Armor: Tower Breastplate
-    Robe1: FireIce Prot Robe 500
-    Robe2: Antanian Cloak
+  items:
+    equipment:
+      armor: Tower Breastplate
+      robe1: FireIce Prot Robe 500
+      robe2: Antanian Cloak
+      rightHand: Ranata Totem
 
   usableSkills:
     - Charge
@@ -304,8 +308,8 @@
     - Daze
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
 

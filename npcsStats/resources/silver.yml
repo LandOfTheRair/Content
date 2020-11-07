@@ -24,8 +24,9 @@
     min: 100
     max: 150
 
-  gear:
-    Armor: Silver Ore (Small)
+  items:
+    equipment:
+      armor: Silver Ore (Small)
 
   dropPool:
     replace: true
@@ -73,8 +74,9 @@
     min: 100
     max: 150
 
-  gear:
-    Armor: Silver Ore (Large)
+  items:
+    equipment:
+      armor: Silver Ore (Large)
 
   dropPool:
     replace: true

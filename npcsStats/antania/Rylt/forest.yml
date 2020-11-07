@@ -15,9 +15,10 @@
     damageFactor: 0.7
     accuracy: -5
 
-  gear:
-    Armor: Deer Robe
-    Hands: Basic Claws
+  items:
+    equipment:
+      armor: Deer Robe
+      hands: Basic Claws
 
   skillOnKill: 3
 
@@ -63,9 +64,10 @@
 
   skillOnKill: 25
 
-  gear:
-    Armor: Weredeer Robe
-    Hands: Werebear Claws
+  items:
+    equipment:
+      armor: Weredeer Robe
+      hands: Werebear Claws
 
   usableSkills:
     - PoisonBiteWeak
@@ -134,9 +136,10 @@
     min: 100
     max: 125
 
-  gear:
-    Armor: Rylt Fur
-    Hands: Basic Claws
+  items:
+    equipment:
+      armor: Rylt Fur
+      hands: Basic Claws
 
   usableSkills:
     - PoisonBiteWeak
@@ -189,9 +192,10 @@
     min: 200
     max: 325
 
-  gear:
-    Armor: Rylt Bear Fur
-    Hands: Basic Claws
+  items:
+    equipment:
+      armor: Rylt Bear Fur
+      hands: Basic Claws
 
   tansFor: Rylt Bear Fur
 
@@ -236,9 +240,10 @@
 
   skillOnKill: 25
 
-  gear:
-    Armor: Rylt Werebear Fur
-    Hands: Werebear Claws
+  items:
+    equipment:
+      armor: Rylt Werebear Fur
+      hands: Werebear Claws
 
   hp:
     min: 4000

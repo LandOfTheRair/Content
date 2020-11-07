@@ -22,12 +22,13 @@
     agi: 15
     perception: 250
 
-  gear:
-    Armor: Catacombs Silver Dragon Scale Tunic
-    Hands: Catacombs Lair Claws
+  items:
+    equipment:
+      armor: Catacombs Silver Dragon Scale Tunic
+      hands: Catacombs Lair Claws
 
   traitLevels:
-    SterlingArmor: 15
+    Sterlingarmor: 15
     HolyProtection: 15
     IceMistWiden: 4
 
@@ -123,9 +124,10 @@
     agi: 20
     perception: 300
 
-  gear:
-    Armor: Catacombs Tomb Guardian Fur
-    Hands: Catacombs Lair Claws
+  items:
+    equipment:
+      armor: Catacombs Tomb Guardian Fur
+      hands: Catacombs Lair Claws
 
   skillOnKill: 50
 
@@ -239,33 +241,34 @@
     min: 939000
     max: 995000
 
-  rightHand:
-    - result: Catacombs Longsword 3F
-      chance: 50
-    - result: Risan Royal Spear
-      chance: 1
-    - result: Catacombs HolyFire Hammer
-      chance: 1
-    - result: Catacombs Bat Greatsword
-      chance: 1
-    - result: Frostlands Thermidor Halberd
-      chance: 1
+  items:
+    equipment:
+      armor: Catacombs Bone Tunic
+      hands: Catacombs Lair Claws
 
-  leftHand:
-    - result: Catacombs Longsword 5F
-      chance: 50
-    - result: Catacombs Dagger 5F
-      chance: 50
-    - result: Catacombs Shortsword 5F
-      chance: 50
-    - result: Catacombs Shield 5F
-      chance: 50
-    - result: Frostlands Royal Shield
-      chance: 1
+      rightHand:
+        - result: Catacombs Longsword 3F
+          chance: 50
+        - result: Risan Royal Spear
+          chance: 1
+        - result: Catacombs HolyFire Hammer
+          chance: 1
+        - result: Catacombs Bat Greatsword
+          chance: 1
+        - result: Frostlands Thermidor Halberd
+          chance: 1
 
-  gear:
-    Armor: Catacombs Bone Tunic
-    Hands: Catacombs Lair Claws
+      leftHand:
+        - result: Catacombs Longsword 5F
+          chance: 50
+        - result: Catacombs Dagger 5F
+          chance: 50
+        - result: Catacombs Shortsword 5F
+          chance: 50
+        - result: Catacombs Shield 5F
+          chance: 50
+        - result: Frostlands Royal Shield
+          chance: 1
 
   baseEffects:
     - name: Attribute
@@ -279,11 +282,11 @@
         damageType: 'physical'
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
 
   dropPool:
@@ -317,7 +320,7 @@
 
   traitLevels:
     ForcefulStrike: 2
-    SterlingArmor: 2
+    Sterlingarmor: 2
     OffhandFinesse: 5
     BoostedBoost: 1
     Riposte: 3
@@ -366,12 +369,13 @@
     min: 10939000
     max: 10995000
 
-  rightHand: Risan Royal Spear
+  items:
+    equipment:
 
-  gear:
-    Armor: Catacombs Bone Tunic
-    Hands: Catacombs Lair Claws
-    Robe1: Catacombs Lich Cloak
+      rightHand: Risan Royal Spear
+      armor: Catacombs Bone Tunic
+      hands: Catacombs Lair Claws
+      robe1: Catacombs Lich Cloak
 
   baseEffects:
     - name: Attribute
@@ -391,11 +395,11 @@
       extra:
         isPermanent: true
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
 
   drops:
@@ -468,7 +472,7 @@
       chance: 10
 
   traitLevels:
-    SterlingArmor: 2
+    Sterlingarmor: 2
     OffhandFinesse: 5
     BoostedBoost: 1
     Riposte: 3

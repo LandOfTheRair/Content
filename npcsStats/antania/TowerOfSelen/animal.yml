@@ -28,9 +28,10 @@
     min: 2000
     max: 3000
 
-  gear:
-    Armor: Tower Warg Leather
-    Hands: Medium Claws
+  items:
+    equipment:
+      armor: Tower Warg Leather
+      hands: Medium Claws
 
   baseEffects:
     - name: DarkVision
@@ -70,8 +71,9 @@
     min: 2300
     max: 3300
 
-  gear:
-    Hands: Medium Claws
+  items:
+    equipment:
+      hands: Medium Claws
 
   baseEffects:
     - name: DarkVision

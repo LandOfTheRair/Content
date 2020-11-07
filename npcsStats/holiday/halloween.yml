@@ -35,8 +35,9 @@
     min: 500
     max: 1000
 
-  gear:
-    Hands: Medium Claws
+  items:
+    equipment:
+      hands: Medium Claws
 
   drops:
     - result: Halloween Zombie Brain

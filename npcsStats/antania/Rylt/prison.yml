@@ -30,78 +30,79 @@
     min: 75
     max: 125
 
-  rightHand:
-    - Antanian Staff
-    - Antanian Dagger
-    - Antanian Longsword
-    - Antanian Mace
-    - Antanian Axe
-    - Antanian Shortsword
-  leftHand:
-    - result: none
-      chance: 4
-    - result: Antanian Wooden Shield
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Ring1:
-      - result: none
-        chance: 9
-      - result: Leather Ring
-        chance: 2
-      - result: Antanian Ring
-        chance: 1
-      - result: Identify Ring
-        chance: 1
-    Armor:
-      - result: Antanian Tunic
-        chance: 9
-      - result: Antanian Studded Tunic
-        chance: 4
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Head:
-      - result: none
-        chance: 10
-      - result: Antanian Helm
-        chance: 2
-    Hands:
-      - result: none
-        chance: 8
-      - result: Antanian Leather Gloves
-        chance: 1
-    Feet:
-      - result: none
-        chance: 7
-      - result: Antanian Leather Boots
-        chance: 1
-    Neck:
-      - result: none
-        chance: 10
-      - result: Antanian Amulet
-        chance: 1
+      rightHand:
+        - Antanian Staff
+        - Antanian Dagger
+        - Antanian Longsword
+        - Antanian Mace
+        - Antanian Axe
+        - Antanian Shortsword
+      leftHand:
+        - result: none
+          chance: 4
+        - result: Antanian Wooden Shield
+          chance: 1
+      ring1:
+        - result: none
+          chance: 9
+        - result: Leather Ring
+          chance: 2
+        - result: Antanian Ring
+          chance: 1
+        - result: Identify Ring
+          chance: 1
+      armor:
+        - result: Antanian Tunic
+          chance: 9
+        - result: Antanian Studded Tunic
+          chance: 4
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      head:
+        - result: none
+          chance: 10
+        - result: Antanian Helm
+          chance: 2
+      hands:
+        - result: none
+          chance: 8
+        - result: Antanian Leather Gloves
+          chance: 1
+      feet:
+        - result: none
+          chance: 7
+        - result: Antanian Leather Boots
+          chance: 1
+      neck:
+        - result: none
+          chance: 10
+        - result: Antanian Amulet
+          chance: 1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Head'
+    - result: 'equipment.head'
       chance: -1
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
-    - result: 'gear.Feet'
+    - result: 'equipment.feet'
       chance: -1
 
   drops:
@@ -141,17 +142,18 @@
     min: 1000
     max: 2000
 
-  rightHand:
-    - Antanian Halberd
+  items:
+    equipment:
+      armor:
+        - Antanian Breastplate
 
-  gear:
-    Armor:
-      - Antanian Breastplate
+      rightHand:
+        - Antanian Halberd
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
 
   drops:
@@ -188,70 +190,71 @@
     min: 350
     max: 500
 
-  rightHand:
-    - Rylt Renegade Longsword
-    - Rylt Renegade Axe
-    - Rylt Renegade Staff
-    - Rylt Renegade Shortsword
-    - Rylt Renegade Mace
-  leftHand:
-    - result: none
-      chance: 8
-    - result: Antanian Wooden Shield
-      chance: 4
-    - result: Rylt Renegade Iron Shield
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Armor:
-      - result: Antanian Tunic
-        chance: 9
-      - result: Antanian Studded Tunic
-        chance: 4
-      - result: Rylt Renegade Breastplate
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Head:
-      - result: none
-        chance: 10
-      - result: Antanian Helm
-        chance: 2
-    Hands:
-      - result: none
-        chance: 8
-      - result: Antanian Leather Gloves
-        chance: 1
-    Feet:
-      - result: none
-        chance: 7
-      - result: Antanian Leather Boots
-        chance: 1
-    Neck:
-      - result: none
-        chance: 10
-      - result: Antanian Amulet
-        chance: 1
+      rightHand:
+        - Rylt Renegade Longsword
+        - Rylt Renegade Axe
+        - Rylt Renegade Staff
+        - Rylt Renegade Shortsword
+        - Rylt Renegade Mace
+      leftHand:
+        - result: none
+          chance: 8
+        - result: Antanian Wooden Shield
+          chance: 4
+        - result: Rylt Renegade Iron Shield
+          chance: 1
+      armor:
+        - result: Antanian Tunic
+          chance: 9
+        - result: Antanian Studded Tunic
+          chance: 4
+        - result: Rylt Renegade Breastplate
+          chance: 1
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      head:
+        - result: none
+          chance: 10
+        - result: Antanian Helm
+          chance: 2
+      hands:
+        - result: none
+          chance: 8
+        - result: Antanian Leather Gloves
+          chance: 1
+      feet:
+        - result: none
+          chance: 7
+        - result: Antanian Leather Boots
+          chance: 1
+      neck:
+        - result: none
+          chance: 10
+        - result: Antanian Amulet
+          chance: 1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Head'
+    - result: 'equipment.head'
       chance: -1
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
-    - result: 'gear.Feet'
+    - result: 'equipment.feet'
       chance: -1
 
   drops:
@@ -288,68 +291,69 @@
     min: 500
     max: 700
 
-  rightHand:
-    - Rylt Renegade Longsword
-    - Rylt Renegade Axe
-    - Rylt Renegade Staff
-  leftHand:
-    - result: none
-      chance: 8
-    - result: Antanian Wooden Shield
-      chance: 4
-    - result: Rylt Renegade Iron Shield
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Armor:
-      - result: Antanian Tunic
-        chance: 9
-      - result: Antanian Studded Tunic
-        chance: 4
-      - result: Rylt Renegade Breastplate
-        chance: 1
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Head:
-      - result: none
-        chance: 10
-      - result: Antanian Helm
-        chance: 2
-    Hands:
-      - result: none
-        chance: 8
-      - result: Antanian Leather Gloves
-        chance: 1
-    Feet:
-      - result: none
-        chance: 7
-      - result: Antanian Leather Boots
-        chance: 1
-    Neck:
-      - result: none
-        chance: 10
-      - result: Antanian Amulet
-        chance: 1
+      rightHand:
+        - Rylt Renegade Longsword
+        - Rylt Renegade Axe
+        - Rylt Renegade Staff
+      leftHand:
+        - result: none
+          chance: 8
+        - result: Antanian Wooden Shield
+          chance: 4
+        - result: Rylt Renegade Iron Shield
+          chance: 1
+      armor:
+        - result: Antanian Tunic
+          chance: 9
+        - result: Antanian Studded Tunic
+          chance: 4
+        - result: Rylt Renegade Breastplate
+          chance: 1
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      head:
+        - result: none
+          chance: 10
+        - result: Antanian Helm
+          chance: 2
+      hands:
+        - result: none
+          chance: 8
+        - result: Antanian Leather Gloves
+          chance: 1
+      feet:
+        - result: none
+          chance: 7
+        - result: Antanian Leather Boots
+          chance: 1
+      neck:
+        - result: none
+          chance: 10
+        - result: Antanian Amulet
+          chance: 1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Head'
+    - result: 'equipment.head'
       chance: -1
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
-    - result: 'gear.Feet'
+    - result: 'equipment.feet'
       chance: -1
 
   drops:
@@ -397,74 +401,75 @@
     min: 600
     max: 800
 
-  rightHand:
-    - Antanian Returning Dagger
-    - Rylt Renegade Shortbow
+  items:
+    equipment:
 
-  leftHand:
-    - none
-    - Antanian Arrows
+      rightHand:
+        - Antanian Returning Dagger
+        - Rylt Renegade Shortbow
 
-  gear:
-    Armor: Antanian Tunic
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Head:
-      - result: none
+      leftHand:
+        - none
+        - Antanian Arrows
+      armor: Antanian Tunic
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      head:
+        - result: none
+          chance: 10
+        - result: Antanian Helm
+          chance: 2
+      hands:
+        - result: none
+          chance: 8
+        - result: Antanian Leather Gloves
+          chance: 1
+      feet:
+        - result: none
+          chance: 7
+        - result: Antanian Leather Boots
+          chance: 1
+      neck:
+        - result: none
+          chance: 10
+        - result: Antanian Amulet
+          chance: 1
+
+    sack:
+      - result: Enemy Weak FireMist Thief Trap
         chance: 10
-      - result: Antanian Helm
-        chance: 2
-    Hands:
-      - result: none
-        chance: 8
-      - result: Antanian Leather Gloves
-        chance: 1
-    Feet:
-      - result: none
-        chance: 7
-      - result: Antanian Leather Boots
-        chance: 1
-    Neck:
-      - result: none
+        maxChance: 100
+      - result: Enemy Weak IceMist Thief Trap
         chance: 10
-      - result: Antanian Amulet
-        chance: 1
+        maxChance: 100
+      - result: Enemy Weak Poison Thief Trap
+        chance: 10
+        maxChance: 100
+      - result: Enemy Weak MagicMissile Thief Trap
+        chance: 10
+        maxChance: 100
+      - result: Enemy Weak Afflict Thief Trap
+        chance: 10
+        maxChance: 100
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Head'
+    - result: 'equipment.head'
       chance: -1
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
-    - result: 'gear.Feet'
+    - result: 'equipment.feet'
       chance: -1
-
-  sack:
-    - result: Enemy Weak FireMist Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak IceMist Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak Poison Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak MagicMissile Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak Afflict Thief Trap
-      chance: 10
-      maxChance: 100
 
   drops:
     - result: Rylt Renegade Book
@@ -505,17 +510,18 @@
     min: 600
     max: 1100
 
-  rightHand: Rylt Renegade Shortsword
 
-  gear:
-    Armor: Antanian Tunic
-    Robe1: FireIce Prot Robe 100
-    Robe2: Antanian Cloak
+  items:
+    equipment:
+      rightHand: Rylt Renegade Shortsword
+      armor: Antanian Tunic
+      robe1: FireIce Prot Robe 100
+      robe2: Antanian Cloak
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
 
   usableSkills:
@@ -563,19 +569,20 @@
     min: 600
     max: 1100
 
-  rightHand: Rylt Renegade Mace
 
   usableSkills:
     - Afflict
     - Plague
 
-  gear:
-    Armor: Antanian Tunic
+  items:
+    equipment:
+      armor: Antanian Tunic
+      rightHand: Rylt Renegade Mace
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
 
   drops:
@@ -623,21 +630,22 @@
         - "Turn around now before it's too late!"
         - "You will be slain for your insolence!"
 
-  rightHand: Tonwin Sword
-  leftHand: Rylt Renegade Iron Shield
 
-  gear:
-    Armor: Rylt Renegade Breastplate
-    Waist: Tonwin Sash
+  items:
+    equipment:
+      armor: Rylt Renegade Breastplate
+      waist: Tonwin Sash
+      rightHand: Tonwin Sword
+      leftHand: Rylt Renegade Iron Shield
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Waist'
+    - result: 'equipment.waist'
       chance: -1
 
   drops:

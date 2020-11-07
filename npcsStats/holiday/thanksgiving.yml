@@ -22,10 +22,11 @@
     min: 1000
     max: 2000
 
-  rightHand: Thanksgiving Blunderbuss
 
-  gear:
-    Armor: Risan Tunic
+  items:
+    equipment:
+      rightHand: Thanksgiving Blunderbuss
+      armor: Risan Tunic
 
 - npcId: Thanksgiving Turkey Target
   name: target
@@ -84,8 +85,9 @@
     min: 2700
     max: 2925
 
-  gear:
-    Hands: Medium Claws
+  items:
+    equipment:
+      hands: Medium Claws
 
   usableSkills:
     - PoisonBiteMedium
@@ -138,9 +140,10 @@
     min: 10700
     max: 10925
 
-  gear:
-    Armor: Thanksgiving Turkey Skin
-    Hands: Medium Claws
+  items:
+    equipment:
+      armor: Thanksgiving Turkey Skin
+      hands: Medium Claws
 
   tansFor: Thanksgiving Turkey Skin
   tanSkillRequired: 10
@@ -196,9 +199,10 @@
     min: 10700
     max: 10925
 
-  gear:
-    Armor: Thanksgiving Turkey Skin
-    Hands: Medium Claws
+  items:
+    equipment:
+      armor: Thanksgiving Turkey Skin
+      hands: Medium Claws
 
   tansFor: Thanksgiving Turkey Skin
   tanSkillRequired: 10
@@ -260,9 +264,10 @@
     min: 30700
     max: 30925
 
-  gear:
-    Armor: Thanksgiving Turkey Skin
-    Hands: Medium Claws
+  items:
+    equipment:
+      armor: Thanksgiving Turkey Skin
+      hands: Medium Claws
 
   tansFor: Thanksgiving Turkey Skin
   tanSkillRequired: 10
@@ -323,9 +328,10 @@
     min: 200700
     max: 200925
 
-  gear:
-    Armor: Thanksgiving King Gobbler Skin
-    Hands: Medium Claws
+  items:
+    equipment:
+      armor: Thanksgiving King Gobbler Skin
+      hands: Medium Claws
 
   tansFor: Thanksgiving King Gobbler Skin
   tanSkillRequired: 15

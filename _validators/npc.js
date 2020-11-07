@@ -32,11 +32,9 @@ const npcSchema = [
   ['copyDrops', false, isRollable],
   ['dropPool', false, isDropPool],
   ['drops', false, isRollable],
-  ['gear', false, isObject],
-  ['leftHand', false, isRollable],
-  ['rightHand', false, isRollable],
-  ['sack', false, isRollable],
-  ['belt', false, isRollable],
+  ['items', false, isObject],
+  ['items.equipment', false, isObject],
+  ['items.sack', false, isRollable],
 
   ['level', true, isInteger],
 
@@ -57,6 +55,12 @@ const npcSchema = [
   ['usableSkills', false, isRollable]
 ];
 
+const forbiddenKeys = [
+  'gear',
+  'rightHand',
+  'leftHand'
+];
+
 const validate = () => {
   console.log('Validating NPCs...');
   
@@ -64,22 +68,29 @@ const validate = () => {
   
   npcs.forEach(npc => {
     if(npcIds[npc.npcId]) throw new Error(`NPC ${npc.npcId} has a duplicate!`);
+
+    forbiddenKeys.forEach(key => {
+      const val = get(npc, key);
+      if(val) console.error(`${npc.npcId} is using forbidden key ${key}!`);
+    });
   
     npcIds[npc.npcId] = true;
 
     validateSchema(npc.npcId, npc, npcSchema);
 
-    const itemValidationKeys = ['dropPool.items', 'drops', ...Object.keys(npc.gear || {}).map(x => `gear.${x}`), 'rightHand', 'leftHand', 'sack', 'belt'];
+    const itemValidationKeys = ['dropPool.items', 'drops', ...Object.keys(get(npc, 'items.equipment', {})).map(x => `items.equipment.${x}`), 'items.sack'];
 
     itemValidationKeys.forEach(key => {
       const val = get(npc, key);
       if(!val) return;
+      
+      val.forEach(valOrObject => {
 
-      val.forEach(({ result }) => {
-        if(itemHash[result] || result === 'none') return;
+        const checkString = valOrObject.result || valOrObject;
+        if(itemHash[checkString] || checkString === 'none') return;
 
         throw new Error(`Result '${result}' is not a valid item in '${npc.npcId}':'${key}'`);
-      })
+      });
     });
   });
 

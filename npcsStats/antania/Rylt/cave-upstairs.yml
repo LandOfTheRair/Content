@@ -41,14 +41,15 @@
     min: 450000
     max: 475000
 
-  rightHand: Crazed Saraxa Wand
+  items:
+    equipment:
+      armor: Antanian Tunic
+      neck: Crazed Saraxa Amulet
 
-  gear:
-    Armor: Antanian Tunic
-    Neck: Crazed Saraxa Amulet
+      robe1: FireIce Prot Robe 500
+      robe2: Crazed Saraxa Robe
+      rightHand: Crazed Saraxa Wand
 
-    Robe1: FireIce Prot Robe 500
-    Robe2: Crazed Saraxa Robe
 
   usableSkills:
     - result: Charge
@@ -79,11 +80,11 @@
       chance: 10
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
 
   drops:
@@ -153,13 +154,14 @@
     min: 50000
     max: 75000
 
-  gear:
-    Hands: Crazed Rockgolem Gloves
-    Armor:
-      - none
-      - Antanian Tunic
-      - Antanian Studded Tunic
-      - Antanian Cloak
+  items:
+    equipment:
+      hands: Crazed Rockgolem Gloves
+      armor:
+        - none
+        - Antanian Tunic
+        - Antanian Studded Tunic
+        - Antanian Cloak
 
 - npcId: Crazed Saraxa Acolyte
   name: crazed acolyte
@@ -197,11 +199,10 @@
     min: 0
     max: 0
 
-  rightHand: Tower Longbow Strong
-
-  leftHand:
-    - none
-    - Antanian Arrows
-
-  gear:
-    Armor: Antanian Tunic
+  items:
+    equipment:
+      armor: Antanian Tunic
+      rightHand: Tower Longbow Strong
+      leftHand:
+        - none
+        - Antanian Arrows

@@ -30,9 +30,10 @@
     min: 10000
     max: 15000
 
-  gear:
-    Hands: Maze Mummy Claws
-    Robe1: Yzalt Mummy Cloak
+  items:
+    equipment:
+      hands: Maze Mummy Claws
+      robe1: Yzalt Mummy Cloak
 
   baseEffects:
     - name: Attribute
@@ -46,7 +47,7 @@
         damageType: 'physical'
 
   copyDrops:
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
 
   drops:
@@ -88,8 +89,9 @@
     min: 19000
     max: 22000
 
-  gear:
-    Hands: Maze Ghoul Claws
+  items:
+    equipment:
+      hands: Maze Ghoul Claws
 
 - npcId: Dedlaen Spectre
   name: spectre
@@ -139,8 +141,9 @@
       extra:
         damageType: 'physical'
 
-  gear:
-    Hands: Maze Mummy Claws
+  items:
+    equipment:
+      hands: Maze Mummy Claws
 
 - npcId: Dedlaen Ghost
   name: ghost
@@ -201,9 +204,10 @@
 
   tansFor: Dedlaen Ghost Cloak
 
-  gear:
-    Hands: Maze Ghoul Claws
-    Robe1: Dedlaen Ghost Cloak
+  items:
+    equipment:
+      hands: Maze Ghoul Claws
+      robe1: Dedlaen Ghost Cloak
 
   drops:
     - result: Dedlaen Transmute Pearl
@@ -274,15 +278,16 @@
       extra:
         damageType: 'necrotic'
 
-  gear:
-    Hands: Ghast Claws
+  items:
+    equipment:
+      hands: Ghast Claws
 
   drops:
     - result: Dedlaen Ghast Heart
       chance: -1
 
   copyDrops:
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1
 
   baseEffects:
@@ -337,16 +342,17 @@
       extra:
         damageType: 'physical'
 
-  rightHand:
-    - Maze Revenant Greatmace
-    - Maze Revenant Greatsword
-    - Maze Revenant Halberd
+  items:
+    equipment:
+      armor: Maze Bone Tunic
 
-  gear:
-    Armor: Maze Bone Tunic
+      rightHand:
+        - Maze Revenant Greatmace
+        - Maze Revenant Greatsword
+        - Maze Revenant Halberd
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1

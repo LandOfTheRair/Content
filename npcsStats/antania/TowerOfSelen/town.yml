@@ -33,15 +33,16 @@
     min: 7000
     max: 8000
 
-  gear:
-    Armor: Tower Trash Breastplate
-    Robe1:
-      - result: none
-        chance: 5
-      - result: Tower Trash Cloak
-        chance: 1
+  items:
+    equipment:
+      armor: Tower Trash Breastplate
+      robe1:
+        - result: none
+          chance: 5
+        - result: Tower Trash Cloak
+          chance: 1
 
-  rightHand: Tower Halberd Weak
+      rightHand: Tower Halberd Weak
 
   baseEffects:
     - name: DarkVision
@@ -49,9 +50,9 @@
         isPermanent: true
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1

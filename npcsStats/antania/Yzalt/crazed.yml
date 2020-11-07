@@ -48,45 +48,46 @@
     - allegiance: Pirates
       delta: -1
 
-  rightHand:
-    - result: Antanian Staff
-      chance: 30
-    - result: Yzalt Heniz Staff
-      chance: 1
-    - result: Heniz FireMist Wand
-      chance: 1
-    - result: Heniz IceMist Wand
-      chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Antanian Tunic
+          chance: 1
+        - result: Antanian Studded Tunic
+          chance: 2
+      robe1: FireIce Prot Robe 100
+      robe2: Antanian Cloak
+      ring1:
+        - result: none
+          chance: 500
+        - result: Heniz Intelligence Ring
+          chance: 1
+      hands:
+        - result: none
+          chance: 500
+        - result: Heniz Battlemage Gloves
+          chance: 1
 
-  gear:
-    Armor:
-      - result: Antanian Tunic
-        chance: 1
-      - result: Antanian Studded Tunic
-        chance: 2
-    Robe1: FireIce Prot Robe 100
-    Robe2: Antanian Cloak
-    Ring1:
-      - result: none
-        chance: 500
-      - result: Heniz Intelligence Ring
-        chance: 1
-    Hands:
-      - result: none
-        chance: 500
-      - result: Heniz Battlemage Gloves
-        chance: 1
+      rightHand:
+        - result: Antanian Staff
+          chance: 30
+        - result: Yzalt Heniz Staff
+          chance: 1
+        - result: Heniz FireMist Wand
+          chance: 1
+        - result: Heniz IceMist Wand
+          chance: 1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1
 
 - npcId: Crazed Heniz Thief
@@ -128,63 +129,64 @@
     - allegiance: Pirates
       delta: -1
 
-  rightHand:
-    - result: Antanian Dagger
-      chance: 30
-    - result: Antanian Returning Dagger
-      chance: 10
-    - result: Antanian Dualwielding Dagger
-      chance: 1
-    - result: Heniz Poison Shortbow
-      chance: 1
-  leftHand:
-    - result: none
-      chance: 30
-    - result: Antanian Dualwielding Dagger
-      chance: 1
-    - result: Antanian Arrows
-      chance: 10
-    - result: Antanian Poisoned Arrows
-      chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Antanian Tunic
+          chance: 1
+        - result: Antanian Studded Tunic
+          chance: 2
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      wrists:
+        - result: none
+          chance: 500
+        - result: Heniz Dexterity Bracers
+          chance: 1
+      waist:
+        - result: none
+          chance: 500
+        - result: Heniz Agility Sash
+          chance: 1
 
-  gear:
-    Armor:
-      - result: Antanian Tunic
-        chance: 1
-      - result: Antanian Studded Tunic
-        chance: 2
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Wrists:
-      - result: none
-        chance: 500
-      - result: Heniz Dexterity Bracers
-        chance: 1
-    Waist:
-      - result: none
-        chance: 500
-      - result: Heniz Agility Sash
-        chance: 1
+      rightHand:
+        - result: Antanian Dagger
+          chance: 30
+        - result: Antanian Returning Dagger
+          chance: 10
+        - result: Antanian Dualwielding Dagger
+          chance: 1
+        - result: Heniz Poison Shortbow
+          chance: 1
+      leftHand:
+        - result: none
+          chance: 30
+        - result: Antanian Dualwielding Dagger
+          chance: 1
+        - result: Antanian Arrows
+          chance: 10
+        - result: Antanian Poisoned Arrows
+          chance: 1
 
   usableSkills:
     - Identify
     - Transmute
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Wrists'
+    - result: 'equipment.wrists'
       chance: -1
-    - result: 'gear.Waist'
+    - result: 'equipment.waist'
       chance: -1
 
 - npcId: Crazed Steffen Warrior
@@ -201,7 +203,7 @@
     damageFactor: 0.7
   skillLevels:
     Mace: 2
-    Onehanded: 2
+    Sword: 2
     Twohanded: 1
 
   level: 7
@@ -233,62 +235,63 @@
     - allegiance: Royalty
       delta: -1
 
-  rightHand:
-    - result: Antanian Greatmace
-      chance: 30
-    - result: Antanian Greataxe
-      chance: 30
-    - result: Antanian Steffen Flail
-      chance: 1
-    - result: Antanian Steffen Katana
-      chance: 1
-    - result: Antanian Steffen Nodachi
-      chance: 1
+  items:
+    equipment:
+      armor: Antanian Breastplate
+      robe1:
+        - result: none
+          chance: 2
+        - result: Antanian Cloak
+          chance: 4
+      ring1:
+        - result: none
+          chance: 500
+        - result: Steffen Mana Ring
+          chance: 1
+      ring2:
+        - result: none
+          chance: 500
+        - result: Steffen Mana Ring
+          chance: 1
+      neck:
+        - result: none
+          chance: 500
+        - result: Steffen Wisdom Amulet
+          chance: 1
+      hands:
+        - result: none
+          chance: 500
+        - result: Steffen Strength Gloves
+          chance: 1
 
-  gear:
-    Armor: Antanian Breastplate
-    Robe1:
-      - result: none
-        chance: 2
-      - result: Antanian Cloak
-        chance: 4
-    Ring1:
-      - result: none
-        chance: 500
-      - result: Steffen Mana Ring
-        chance: 1
-    Ring2:
-      - result: none
-        chance: 500
-      - result: Steffen Mana Ring
-        chance: 1
-    Neck:
-      - result: none
-        chance: 500
-      - result: Steffen Wisdom Amulet
-        chance: 1
-    Hands:
-      - result: none
-        chance: 500
-      - result: Steffen Strength Gloves
-        chance: 1
+      rightHand:
+        - result: Antanian Greatmace
+          chance: 30
+        - result: Antanian Greataxe
+          chance: 30
+        - result: Antanian Steffen Flail
+          chance: 1
+        - result: Antanian Steffen Katana
+          chance: 1
+        - result: Antanian Steffen Nodachi
+          chance: 1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Ring2'
+    - result: 'equipment.ring2'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1
 
 - npcId: Crazed Steffen Healer
@@ -335,12 +338,6 @@
     - allegiance: Royalty
       delta: -1
 
-  rightHand:
-    - result: Antanian Mace
-      chance: 30
-    - result: Antanian Steffen Flail
-      chance: 1
-
   usableSkills:
     - Afflict
     - Plague
@@ -350,40 +347,47 @@
     - BarNecro
     - Cure
 
-  gear:
-    Armor: Antanian Breastplate
-    Robe1: FireIce Prot Robe 100
-    Robe2: Antanian Cloak
-    Ring1:
-      - result: none
-        chance: 500
-      - result: Steffen DamageResist Ring
-        chance: 1
-    Ring2:
-      - result: none
-        chance: 500
-      - result: Steffen DamageResist Ring
-        chance: 1
-    Waist:
-      - result: none
-        chance: 500
-      - result: Steffen Offensive Sash
-        chance: 1
+  items:
+    equipment:
+      armor: Antanian Breastplate
+      robe1: FireIce Prot Robe 100
+      robe2: Antanian Cloak
+      ring1:
+        - result: none
+          chance: 500
+        - result: Steffen DamageResist Ring
+          chance: 1
+      ring2:
+        - result: none
+          chance: 500
+        - result: Steffen DamageResist Ring
+          chance: 1
+      waist:
+        - result: none
+          chance: 500
+        - result: Steffen Offensive Sash
+          chance: 1
+
+      rightHand:
+        - result: Antanian Mace
+          chance: 30
+        - result: Antanian Steffen Flail
+          chance: 1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Ring2'
+    - result: 'equipment.ring2'
       chance: -1
-    - result: 'gear.Waist'
+    - result: 'equipment.waist'
       chance: -1
 
 - npcId: Crazed Mummy
@@ -436,54 +440,55 @@
       extra:
         damageType: 'physical'
 
-  rightHand:
-    - result: Antanian Greatmace
-      chance: 30
-    - result: Antanian Greataxe
-      chance: 30
-    - result: Antanian Dagger
-      chance: 30
-    - result: Antanian Staff
-      chance: 30
-    - result: Antanian Returning Dagger
-      chance: 10
-    - result: Antanian Steffen Flail
-      chance: 1
-    - result: Antanian Steffen Katana
-      chance: 1
-    - result: Antanian Steffen Nodachi
-      chance: 1
-    - result: Yzalt Heniz Staff
-      chance: 1
-    - result: Heniz FireMist Wand
-      chance: 1
-    - result: Heniz IceMist Wand
-      chance: 1
-    - result: Antanian Dualwielding Dagger
-      chance: 1
-    - result: Heniz Poison Shortbow
-      chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Yzalt Fungus Ringmail Tunic
+          chance: 1
+        - result: none
+          chance: 100
+      robe1:
+        - result: Yzalt Fungus Cloak
+          chance: 1
+        - result: Yzalt Mummy Cloak
+          chance: 20
+        - result: Antanian Cloak
+          chance: 100
 
-  gear:
-    Armor:
-      - result: Yzalt Fungus Ringmail Tunic
-        chance: 1
-      - result: none
-        chance: 100
-    Robe1:
-      - result: Yzalt Fungus Cloak
-        chance: 1
-      - result: Yzalt Mummy Cloak
-        chance: 20
-      - result: Antanian Cloak
-        chance: 100
+      rightHand:
+        - result: Antanian Greatmace
+          chance: 30
+        - result: Antanian Greataxe
+          chance: 30
+        - result: Antanian Dagger
+          chance: 30
+        - result: Antanian Staff
+          chance: 30
+        - result: Antanian Returning Dagger
+          chance: 10
+        - result: Antanian Steffen Flail
+          chance: 1
+        - result: Antanian Steffen Katana
+          chance: 1
+        - result: Antanian Steffen Nodachi
+          chance: 1
+        - result: Yzalt Heniz Staff
+          chance: 1
+        - result: Heniz FireMist Wand
+          chance: 1
+        - result: Heniz IceMist Wand
+          chance: 1
+        - result: Antanian Dualwielding Dagger
+          chance: 1
+        - result: Heniz Poison Shortbow
+          chance: 1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
 
 - npcId: Insane Heniz Mage
@@ -529,105 +534,106 @@
     min: 3950
     max: 4150
 
-  rightHand:
-    - result: Antanian Staff
-      chance: 30
-    - result: Yzalt Heniz Staff
-      chance: 1
-    - result: Heniz FireMist Wand
-      chance: 1
-    - result: Heniz IceMist Wand
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Armor:
-      - result: Yzalt Fungus Ringmail Tunic
-        chance: 1
-      - result: Antanian Tunic
-        chance: 20
-      - result: Antanian Studded Tunic
-        chance: 30
-    Robe1: FireIce Prot Robe 100
-    Robe2:
-      - result: Yzalt Fungus Cloak
-        chance: 1
-      - result: Antanian Cloak
-        chance: 40
-    Ring1:
-      - result: none
-        chance: 200
-      - result: Heniz Intelligence Ring
-        chance: 1
-    Ring2:
-      - result: none
-        chance: 200
-      - result: Yzalt Armor Ring
-        chance: 1
-    Head:
-      - result: none
-        chance: 200
-      - result: Yzalt Combat Helm
-        chance: 1
-      - result: Yzalt Mana Helm
-        chance: 1
-      - result: Yzalt Health Helm
-        chance: 1
-    Neck:
-      - result: none
-        chance: 200
-      - result: Yzalt Combat Amulet
-        chance: 1
-    Feet:
-      - result: none
-        chance: 200
-      - result: Yzalt Combat Boots
-        chance: 1
-    Hands:
-      - result: none
-        chance: 200
-      - result: Yzalt Defensive Claws
-        chance: 1
-      - result: Heniz Battlemage Gloves
-        chance: 1
-    Wrists:
-      - result: none
-        chance: 200
-      - result: Yzalt MagicResist Bracers
-        chance: 1
-      - result: Heniz Dexterity Bracers
-        chance: 1
-    Waist:
-      - result: none
-        chance: 500
-      - result: Yzalt Basic Sash
-        chance: 20
-      - result: Heniz Agility Sash
-        chance: 1
+      rightHand:
+        - result: Antanian Staff
+          chance: 30
+        - result: Yzalt Heniz Staff
+          chance: 1
+        - result: Heniz FireMist Wand
+          chance: 1
+        - result: Heniz IceMist Wand
+          chance: 1
+      armor:
+        - result: Yzalt Fungus Ringmail Tunic
+          chance: 1
+        - result: Antanian Tunic
+          chance: 20
+        - result: Antanian Studded Tunic
+          chance: 30
+      robe1: FireIce Prot Robe 100
+      robe2:
+        - result: Yzalt Fungus Cloak
+          chance: 1
+        - result: Antanian Cloak
+          chance: 40
+      ring1:
+        - result: none
+          chance: 200
+        - result: Heniz Intelligence Ring
+          chance: 1
+      ring2:
+        - result: none
+          chance: 200
+        - result: Yzalt Armor Ring
+          chance: 1
+      head:
+        - result: none
+          chance: 200
+        - result: Yzalt Combat Helm
+          chance: 1
+        - result: Yzalt Mana Helm
+          chance: 1
+        - result: Yzalt Health Helm
+          chance: 1
+      neck:
+        - result: none
+          chance: 200
+        - result: Yzalt Combat Amulet
+          chance: 1
+      feet:
+        - result: none
+          chance: 200
+        - result: Yzalt Combat Boots
+          chance: 1
+      hands:
+        - result: none
+          chance: 200
+        - result: Yzalt Defensive Claws
+          chance: 1
+        - result: Heniz Battlemage Gloves
+          chance: 1
+      wrists:
+        - result: none
+          chance: 200
+        - result: Yzalt MagicResist Bracers
+          chance: 1
+        - result: Heniz Dexterity Bracers
+          chance: 1
+      waist:
+        - result: none
+          chance: 500
+        - result: Yzalt Basic Sash
+          chance: 20
+        - result: Heniz Agility Sash
+          chance: 1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Ring2'
+    - result: 'equipment.ring2'
       chance: -1
-    - result: 'gear.Head'
+    - result: 'equipment.head'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
-    - result: 'gear.Feet'
+    - result: 'equipment.feet'
       chance: -1
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1
-    - result: 'gear.Wrists'
+    - result: 'equipment.wrists'
       chance: -1
-    - result: 'gear.Waist'
+    - result: 'equipment.waist'
       chance: -1
 
 - npcId: Insane Heniz Thief
@@ -674,131 +680,132 @@
     - allegiance: Royalty
       delta: 1
 
-  rightHand:
-    - result: Antanian Dagger
-      chance: 30
-    - result: Antanian Returning Dagger
-      chance: 10
-    - result: Antanian Dualwielding Dagger
-      chance: 1
-    - result: Heniz Poison Shortbow
-      chance: 1
-  leftHand:
-    - result: none
-      chance: 30
-    - result: Antanian Dualwielding Dagger
-      chance: 1
-    - result: Antanian Arrows
-      chance: 10
-    - result: Antanian Poisoned Arrows
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Armor:
-      - result: Yzalt Fungus Ringmail Tunic
-        chance: 1
-      - result: Antanian Tunic
-        chance: 20
-      - result: Antanian Studded Tunic
-        chance: 30
-    Robe1:
-      - result: Yzalt Fungus Cloak
-        chance: 1
-      - result: none
-        chance: 20
-      - result: Antanian Cloak
-        chance: 40
-    Ring1:
-      - result: none
-        chance: 200
-      - result: Yzalt Armor Ring
-        chance: 1
-    Ring2:
-      - result: none
-        chance: 200
-      - result: Yzalt Armor Ring
-        chance: 1
-    Head:
-      - result: none
-        chance: 200
-      - result: Yzalt Combat Helm
-        chance: 1
-      - result: Yzalt Mana Helm
-        chance: 1
-      - result: Yzalt Health Helm
-        chance: 1
-    Neck:
-      - result: none
-        chance: 200
-      - result: Yzalt Combat Amulet
-        chance: 1
-    Feet:
-      - result: none
-        chance: 200
-      - result: Yzalt Combat Boots
-        chance: 1
-    Hands:
-      - result: none
-        chance: 200
-      - result: Yzalt Defensive Claws
-        chance: 1
-    Wrists:
-      - result: none
-        chance: 200
-      - result: Yzalt MagicResist Bracers
-        chance: 1
-      - result: Heniz Dexterity Bracers
-        chance: 1
-    Waist:
-      - result: none
-        chance: 500
-      - result: Yzalt Basic Sash
-        chance: 20
-      - result: Heniz Agility Sash
-        chance: 1
+      rightHand:
+        - result: Antanian Dagger
+          chance: 30
+        - result: Antanian Returning Dagger
+          chance: 10
+        - result: Antanian Dualwielding Dagger
+          chance: 1
+        - result: Heniz Poison Shortbow
+          chance: 1
+      leftHand:
+        - result: none
+          chance: 30
+        - result: Antanian Dualwielding Dagger
+          chance: 1
+        - result: Antanian Arrows
+          chance: 10
+        - result: Antanian Poisoned Arrows
+          chance: 1
+      armor:
+        - result: Yzalt Fungus Ringmail Tunic
+          chance: 1
+        - result: Antanian Tunic
+          chance: 20
+        - result: Antanian Studded Tunic
+          chance: 30
+      robe1:
+        - result: Yzalt Fungus Cloak
+          chance: 1
+        - result: none
+          chance: 20
+        - result: Antanian Cloak
+          chance: 40
+      ring1:
+        - result: none
+          chance: 200
+        - result: Yzalt Armor Ring
+          chance: 1
+      ring2:
+        - result: none
+          chance: 200
+        - result: Yzalt Armor Ring
+          chance: 1
+      head:
+        - result: none
+          chance: 200
+        - result: Yzalt Combat Helm
+          chance: 1
+        - result: Yzalt Mana Helm
+          chance: 1
+        - result: Yzalt Health Helm
+          chance: 1
+      neck:
+        - result: none
+          chance: 200
+        - result: Yzalt Combat Amulet
+          chance: 1
+      feet:
+        - result: none
+          chance: 200
+        - result: Yzalt Combat Boots
+          chance: 1
+      hands:
+        - result: none
+          chance: 200
+        - result: Yzalt Defensive Claws
+          chance: 1
+      wrists:
+        - result: none
+          chance: 200
+        - result: Yzalt MagicResist Bracers
+          chance: 1
+        - result: Heniz Dexterity Bracers
+          chance: 1
+      waist:
+        - result: none
+          chance: 500
+        - result: Yzalt Basic Sash
+          chance: 20
+        - result: Heniz Agility Sash
+          chance: 1
+
+    sack:
+      - result: Enemy Weak FireMist Thief Trap
+        chance: 10
+        maxChance: 100
+      - result: Enemy Weak IceMist Thief Trap
+        chance: 10
+        maxChance: 100
+      - result: Enemy Weak Poison Thief Trap
+        chance: 10
+        maxChance: 100
+      - result: Enemy Weak MagicMissile Thief Trap
+        chance: 10
+        maxChance: 100
+      - result: Enemy Weak Afflict Thief Trap
+        chance: 10
+        maxChance: 100
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Ring2'
+    - result: 'equipment.ring2'
       chance: -1
-    - result: 'gear.Head'
+    - result: 'equipment.head'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
-    - result: 'gear.Feet'
+    - result: 'equipment.feet'
       chance: -1
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1
-    - result: 'gear.Wrists'
+    - result: 'equipment.wrists'
       chance: -1
-    - result: 'gear.Waist'
+    - result: 'equipment.waist'
       chance: -1
-
-  sack:
-    - result: Enemy Weak FireMist Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak IceMist Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak Poison Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak MagicMissile Thief Trap
-      chance: 10
-      maxChance: 100
-    - result: Enemy Weak Afflict Thief Trap
-      chance: 10
-      maxChance: 100
 
 - npcId: Insane Steffen Warrior
   name: insane warrior
@@ -813,7 +820,7 @@
     damageFactor: 0.5
   skillLevels:
     Mace: 2
-    Onehanded: 2
+    Sword: 2
     Twohanded: 1
 
   level: 8
@@ -836,106 +843,107 @@
     - Boost
     - Charge
 
-  rightHand:
-    - result: Antanian Greatmace
-      chance: 30
-    - result: Antanian Greataxe
-      chance: 30
-    - result: Antanian Steffen Flail
-      chance: 1
-    - result: Antanian Steffen Katana
-      chance: 1
-    - result: Antanian Steffen Nodachi
-      chance: 1
+  items:
+    equipment:
 
-  gear:
-    Armor:
-      - result: Yzalt Fungus Ringmail Tunic
-        chance: 1
-      - result: Antanian Breastplate
-        chance: 20
-    Robe1:
-      - result: Yzalt Fungus Cloak
-        chance: 1
-      - result: none
-        chance: 20
-      - result: Antanian Cloak
-        chance: 40
-    Ring1:
-      - result: none
-        chance: 200
-      - result: Steffen Mana Ring
-        chance: 1
-    Ring2:
-      - result: none
-        chance: 200
-      - result: Yzalt Armor Ring
-        chance: 1
-    Head:
-      - result: none
-        chance: 200
-      - result: Yzalt Combat Helm
-        chance: 1
-      - result: Yzalt Mana Helm
-        chance: 1
-      - result: Yzalt Health Helm
-        chance: 1
-    Neck:
-      - result: none
-        chance: 200
-      - result: Yzalt Combat Amulet
-        chance: 1
-      - result: Steffen Wisdom Amulet
-        chance: 1
-    Feet:
-      - result: none
-        chance: 200
-      - result: Yzalt Combat Boots
-        chance: 1
-    Hands:
-      - result: none
-        chance: 200
-      - result: Steffen Strength Gloves
-        chance: 1
-      - result: Yzalt Defensive Claws
-        chance: 1
-    Wrists:
-      - result: none
-        chance: 200
-      - result: Yzalt MagicResist Bracers
-        chance: 1
-    Waist:
-      - result: none
-        chance: 500
-      - result: Yzalt Basic Sash
-        chance: 20
-      - result: Steffen Offensive Sash
-        chance: 1
+      rightHand:
+        - result: Antanian Greatmace
+          chance: 30
+        - result: Antanian Greataxe
+          chance: 30
+        - result: Antanian Steffen Flail
+          chance: 1
+        - result: Antanian Steffen Katana
+          chance: 1
+        - result: Antanian Steffen Nodachi
+          chance: 1
+      armor:
+        - result: Yzalt Fungus Ringmail Tunic
+          chance: 1
+        - result: Antanian Breastplate
+          chance: 20
+      robe1:
+        - result: Yzalt Fungus Cloak
+          chance: 1
+        - result: none
+          chance: 20
+        - result: Antanian Cloak
+          chance: 40
+      ring1:
+        - result: none
+          chance: 200
+        - result: Steffen Mana Ring
+          chance: 1
+      ring2:
+        - result: none
+          chance: 200
+        - result: Yzalt Armor Ring
+          chance: 1
+      head:
+        - result: none
+          chance: 200
+        - result: Yzalt Combat Helm
+          chance: 1
+        - result: Yzalt Mana Helm
+          chance: 1
+        - result: Yzalt Health Helm
+          chance: 1
+      neck:
+        - result: none
+          chance: 200
+        - result: Yzalt Combat Amulet
+          chance: 1
+        - result: Steffen Wisdom Amulet
+          chance: 1
+      feet:
+        - result: none
+          chance: 200
+        - result: Yzalt Combat Boots
+          chance: 1
+      hands:
+        - result: none
+          chance: 200
+        - result: Steffen Strength Gloves
+          chance: 1
+        - result: Yzalt Defensive Claws
+          chance: 1
+      wrists:
+        - result: none
+          chance: 200
+        - result: Yzalt MagicResist Bracers
+          chance: 1
+      waist:
+        - result: none
+          chance: 500
+        - result: Yzalt Basic Sash
+          chance: 20
+        - result: Steffen Offensive Sash
+          chance: 1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Ring2'
+    - result: 'equipment.ring2'
       chance: -1
-    - result: 'gear.Head'
+    - result: 'equipment.head'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
-    - result: 'gear.Feet'
+    - result: 'equipment.feet'
       chance: -1
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1
-    - result: 'gear.Wrists'
+    - result: 'equipment.wrists'
       chance: -1
-    - result: 'gear.Waist'
+    - result: 'equipment.waist'
       chance: -1
 
 - npcId: Insane Steffen Healer
@@ -971,12 +979,6 @@
     min: 3950
     max: 4150
 
-  rightHand:
-    - result: Antanian Mace
-      chance: 30
-    - result: Antanian Steffen Flail
-      chance: 1
-
   usableSkills:
     - Afflict
     - Plague
@@ -986,89 +988,96 @@
     - BarNecro
     - Cure
 
-  gear:
-    Armor:
-      - result: Yzalt Fungus Ringmail Tunic
-        chance: 1
-      - result: Antanian Breastplate
-        chance: 20
-    Robe1: FireIce Prot Robe 100
-    Robe2:
-      - result: Yzalt Fungus Cloak
-        chance: 1
-      - result: Antanian Cloak
-        chance: 40
-    Ring1:
-      - result: none
-        chance: 200
-      - result: Steffen DamageResist Ring
-        chance: 1
-    Ring2:
-      - result: none
-        chance: 200
-      - result: Yzalt Armor Ring
-        chance: 1
-    Head:
-      - result: none
-        chance: 200
-      - result: Yzalt Combat Helm
-        chance: 1
-      - result: Yzalt Mana Helm
-        chance: 1
-      - result: Yzalt Health Helm
-        chance: 1
-    Neck:
-      - result: none
-        chance: 200
-      - result: Yzalt Combat Amulet
-        chance: 1
-    Feet:
-      - result: none
-        chance: 200
-      - result: Yzalt Combat Boots
-        chance: 1
-    Hands:
-      - result: none
-        chance: 200
-      - result: Yzalt Defensive Claws
-        chance: 1
-    Wrists:
-      - result: none
-        chance: 200
-      - result: Yzalt MagicResist Bracers
-        chance: 1
-    Waist:
-      - result: none
-        chance: 500
-      - result: Yzalt Basic Sash
-        chance: 20
-      - result: Steffen Offensive Sash
-        chance: 1
+  items:
+    equipment:
+
+      rightHand:
+        - result: Antanian Mace
+          chance: 30
+        - result: Antanian Steffen Flail
+          chance: 1
+      armor:
+        - result: Yzalt Fungus Ringmail Tunic
+          chance: 1
+        - result: Antanian Breastplate
+          chance: 20
+      robe1: FireIce Prot Robe 100
+      robe2:
+        - result: Yzalt Fungus Cloak
+          chance: 1
+        - result: Antanian Cloak
+          chance: 40
+      ring1:
+        - result: none
+          chance: 200
+        - result: Steffen DamageResist Ring
+          chance: 1
+      ring2:
+        - result: none
+          chance: 200
+        - result: Yzalt Armor Ring
+          chance: 1
+      head:
+        - result: none
+          chance: 200
+        - result: Yzalt Combat Helm
+          chance: 1
+        - result: Yzalt Mana Helm
+          chance: 1
+        - result: Yzalt Health Helm
+          chance: 1
+      neck:
+        - result: none
+          chance: 200
+        - result: Yzalt Combat Amulet
+          chance: 1
+      feet:
+        - result: none
+          chance: 200
+        - result: Yzalt Combat Boots
+          chance: 1
+      hands:
+        - result: none
+          chance: 200
+        - result: Yzalt Defensive Claws
+          chance: 1
+      wrists:
+        - result: none
+          chance: 200
+        - result: Yzalt MagicResist Bracers
+          chance: 1
+      waist:
+        - result: none
+          chance: 500
+        - result: Yzalt Basic Sash
+          chance: 20
+        - result: Steffen Offensive Sash
+          chance: 1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Ring2'
+    - result: 'equipment.ring2'
       chance: -1
-    - result: 'gear.Head'
+    - result: 'equipment.head'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
-    - result: 'gear.Feet'
+    - result: 'equipment.feet'
       chance: -1
-    - result: 'gear.Hands'
+    - result: 'equipment.hands'
       chance: -1
-    - result: 'gear.Wrists'
+    - result: 'equipment.wrists'
       chance: -1
-    - result: 'gear.Waist'
+    - result: 'equipment.waist'
       chance: -1
 
 - npcId: Ranata
@@ -1103,12 +1112,6 @@
     min: 50000
     max: 55000
 
-  rightHand: Ranata Longbow
-
-  leftHand:
-    - none
-    - Antanian Darkness Arrows
-
   usableSkills:
     - Afflict
     - Plague
@@ -1120,9 +1123,16 @@
     - BarNecro
     - Cure
 
-  gear:
-    Armor: Yzalt Fungus Ringmail Tunic
-    Robe1: Ranata Robe
+  items:
+    equipment:
+      armor: Yzalt Fungus Ringmail Tunic
+      robe1: Ranata Robe
+
+      rightHand: Ranata Longbow
+
+      leftHand:
+        - none
+        - Antanian Darkness Arrows
 
   drops:
     - result: Ranata Totem
@@ -1131,9 +1141,9 @@
       chance: -1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
 
   baseEffects:
@@ -1181,17 +1191,18 @@
     min: 70000
     max: 75000
 
-  rightHand: Sedgwick's Greataxe
-
   usableSkills:
     - result: Charge
       chance: 200
     - result: Leash
       chance: 10
 
-  gear:
-    Armor: Yzalt Fungus Ringmail Tunic
-    Robe1: Ranata Robe
+  items:
+    equipment:
+      armor: Yzalt Fungus Ringmail Tunic
+      robe1: Ranata Robe
+
+      rightHand: Sedgwick's Greataxe
 
   dropPool:
     choose:
@@ -1264,7 +1275,7 @@
                 requireLockpick: false
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1

@@ -15,55 +15,56 @@
     perception: 200
     damageFactor: 0.7
 
-  rightHand:
-    - Frostlands Brigand Axe
-    - Frostlands Brigand Broadsword
-    - Frostlands Brigand Flail
-    - Frostlands Brigand Greatsword
+  items:
+    equipment:
 
-  leftHand:
-    - result: none
-      chance: 10000
-    - result: Frostlands Shield
-      chance: 1000
-    - result: Frostlands Royal Shield
-      chance: 1
+      rightHand:
+        - Frostlands Brigand Axe
+        - Frostlands Brigand Broadsword
+        - Frostlands Brigand Flail
+        - Frostlands Brigand Greatsword
 
-  gear:
-    Armor:
-      - result: Frostlands Trash Breastplate
-        chance: 50
-      - result: Frostlands Yeti Fur
-        chance: 10
-      - result: Frostlands Strong Yeti Fur
-        chance: 1
+      leftHand:
+        - result: none
+          chance: 10000
+        - result: Frostlands Shield
+          chance: 1000
+        - result: Frostlands Royal Shield
+          chance: 1
+      armor:
+        - result: Frostlands Trash Breastplate
+          chance: 50
+        - result: Frostlands Yeti Fur
+          chance: 10
+        - result: Frostlands Strong Yeti Fur
+          chance: 1
 
-    Robe1:
-      - result: none
-        chance: 30
-      - result: Risan Trash Cloak
-        chance: 1
+      robe1:
+        - result: none
+          chance: 30
+        - result: Risan Trash Cloak
+          chance: 1
 
-    Robe2:
-      - result: none
-        chance: 300
-      - result: Frostlands Brigand Combat Robe
-        chance: 1
+      robe2:
+        - result: none
+          chance: 300
+        - result: Frostlands Brigand Combat Robe
+          chance: 1
 
-    Hands: Frostlands Frostgolem Gloves
+      hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: 1
       maxChance: 10
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   drops:
@@ -115,51 +116,52 @@
     perception: 200
     damageFactor: 0.7
 
-  rightHand: Frostlands Brigand Staff
+  items:
+    equipment:
+      armor:
+        - result: Risan Trash Tunic
+          chance: 50
+        - result: Frostlands Yeti Fur
+          chance: 10
+        - result: Frostlands Strong Yeti Fur
+          chance: 1
 
-  leftHand:
-    - result: none
-      chance: 10000
-    - result: Frostlands Shield
-      chance: 1000
-    - result: Frostlands Royal Shield
-      chance: 1
+      robe1:
+        - result: none
+          chance: 30
+        - result: Risan Trash Cloak
+          chance: 1
 
-  gear:
-    Armor:
-      - result: Risan Trash Tunic
-        chance: 50
-      - result: Frostlands Yeti Fur
-        chance: 10
-      - result: Frostlands Strong Yeti Fur
-        chance: 1
+      robe2:
+        - result: none
+          chance: 300
+        - result: Frostlands Brigand Combat Robe
+          chance: 1
 
-    Robe1:
-      - result: none
-        chance: 30
-      - result: Risan Trash Cloak
-        chance: 1
+      hands: Frostlands Frostgolem Gloves
 
-    Robe2:
-      - result: none
-        chance: 300
-      - result: Frostlands Brigand Combat Robe
-        chance: 1
+      rightHand: Frostlands Brigand Staff
 
-    Hands: Frostlands Frostgolem Gloves
+      leftHand:
+        - result: none
+          chance: 10000
+        - result: Frostlands Shield
+          chance: 1000
+        - result: Frostlands Royal Shield
+          chance: 1
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: 1
       maxChance: 10
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   drops:
@@ -214,51 +216,52 @@
     perception: 200
     damageFactor: 0.7
 
-  rightHand: Frostlands Brigand Flail
+  items:
+    equipment:
+      armor:
+        - result: Risan Trash Tunic
+          chance: 50
+        - result: Frostlands Yeti Fur
+          chance: 10
+        - result: Frostlands Strong Yeti Fur
+          chance: 1
 
-  leftHand:
-    - result: none
-      chance: 10000
-    - result: Frostlands Shield
-      chance: 1000
-    - result: Frostlands Royal Shield
-      chance: 1
+      robe1:
+        - result: none
+          chance: 30
+        - result: Risan Trash Cloak
+          chance: 1
 
-  gear:
-    Armor:
-      - result: Risan Trash Tunic
-        chance: 50
-      - result: Frostlands Yeti Fur
-        chance: 10
-      - result: Frostlands Strong Yeti Fur
-        chance: 1
+      robe2:
+        - result: none
+          chance: 300
+        - result: Frostlands Brigand Combat Robe
+          chance: 1
 
-    Robe1:
+      hands: Frostlands Frostgolem Gloves
+
+    rightHand: Frostlands Brigand Flail
+
+    leftHand:
       - result: none
-        chance: 30
-      - result: Risan Trash Cloak
+        chance: 10000
+      - result: Frostlands Shield
+        chance: 1000
+      - result: Frostlands Royal Shield
         chance: 1
-
-    Robe2:
-      - result: none
-        chance: 300
-      - result: Frostlands Brigand Combat Robe
-        chance: 1
-
-    Hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: 1
       maxChance: 10
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   drops:
@@ -328,59 +331,86 @@
     perception: 200
     damageFactor: 0.5
 
-  rightHand:
-    - result: Frostlands Brigand Dagger
-      chance: 9000
-    - result: Frostlands Brigand Crossbow
-      chance: 9000
-    - result: Frost Chakram
-      chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Risan Trash Tunic
+          chance: 50
+        - result: Frostlands Yeti Fur
+          chance: 10
+        - result: Frostlands Strong Yeti Fur
+          chance: 1
 
-  leftHand:
-    - result: none
-      chance: 10000
-    - result: Frostlands Brigand Dagger
-      chance: 9000
-    - result: Frostlands Brigand Crossbow
-      chance: 9000
-    - result: Frost Chakram
-      chance: 1
+      robe1:
+        - result: none
+          chance: 30
+        - result: Risan Trash Cloak
+          chance: 1
 
-  gear:
-    Armor:
-      - result: Risan Trash Tunic
-        chance: 50
-      - result: Frostlands Yeti Fur
-        chance: 10
-      - result: Frostlands Strong Yeti Fur
-        chance: 1
+      robe2:
+        - result: none
+          chance: 300
+        - result: Frostlands Brigand Combat Robe
+          chance: 1
 
-    Robe1:
-      - result: none
-        chance: 30
-      - result: Risan Trash Cloak
-        chance: 1
+      hands: Frostlands Frostgolem Gloves
 
-    Robe2:
-      - result: none
-        chance: 300
-      - result: Frostlands Brigand Combat Robe
-        chance: 1
+      rightHand:
+        - result: Frostlands Brigand Dagger
+          chance: 9000
+        - result: Frostlands Brigand Crossbow
+          chance: 9000
+        - result: Frost Chakram
+          chance: 1
 
-    Hands: Frostlands Frostgolem Gloves
+      leftHand:
+        - result: none
+          chance: 10000
+        - result: Frostlands Brigand Dagger
+          chance: 9000
+        - result: Frostlands Brigand Crossbow
+          chance: 9000
+        - result: Frost Chakram
+          chance: 1
+
+    sack:
+      - result: Enemy Medium FireMist Thief Trap
+        chance: 5
+        maxChance: 100
+      - result: Enemy Medium IceMist Thief Trap
+        chance: 5
+        maxChance: 100
+      - result: Enemy Medium Poison Thief Trap
+        chance: 5
+        maxChance: 100
+      - result: Enemy Medium MagicBolt Thief Trap
+        chance: 5
+        maxChance: 100
+      - result: Enemy Medium HolyFire Thief Trap
+        chance: 5
+        maxChance: 100
+      - result: Enemy Medium Snare Thief Trap
+        chance: 5
+        maxChance: 100
+      - result: Enemy Medium Stun Thief Trap
+        chance: 5
+        maxChance: 100
+      - result: Enemy Medium Blind Thief Trap
+        chance: 5
+        maxChance: 100
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: 1
       maxChance: 10
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   drops:
@@ -410,32 +440,6 @@
     - DarkVision
     - Identify
     - Transmute
-
-  sack:
-    - result: Enemy Medium FireMist Thief Trap
-      chance: 5
-      maxChance: 100
-    - result: Enemy Medium IceMist Thief Trap
-      chance: 5
-      maxChance: 100
-    - result: Enemy Medium Poison Thief Trap
-      chance: 5
-      maxChance: 100
-    - result: Enemy Medium MagicBolt Thief Trap
-      chance: 5
-      maxChance: 100
-    - result: Enemy Medium HolyFire Thief Trap
-      chance: 5
-      maxChance: 100
-    - result: Enemy Medium Snare Thief Trap
-      chance: 5
-      maxChance: 100
-    - result: Enemy Medium Stun Thief Trap
-      chance: 5
-      maxChance: 100
-    - result: Enemy Medium Blind Thief Trap
-      chance: 5
-      maxChance: 100
 
   gold:
     min: 4550
@@ -469,53 +473,54 @@
     perception: 200
     damageFactor: 0.7
 
-  rightHand:
-    - result: Frostlands Shield
-      chance: 4500
-    - result: Frostlands Royal Shield
-      chance: 1
+  items:
+    equipment:
+      armor:
+        - result: Frostlands Trash Breastplate
+          chance: 50
+        - result: Frostlands Yeti Fur
+          chance: 10
+        - result: Frostlands Strong Yeti Fur
+          chance: 1
 
-  leftHand:
-    - result: Frostlands Shield
-      chance: 4500
-    - result: Frostlands Royal Shield
-      chance: 1
+      robe1:
+        - result: none
+          chance: 30
+        - result: Risan Trash Cloak
+          chance: 1
 
-  gear:
-    Armor:
-      - result: Frostlands Trash Breastplate
-        chance: 50
-      - result: Frostlands Yeti Fur
-        chance: 10
-      - result: Frostlands Strong Yeti Fur
-        chance: 1
+      robe2:
+        - result: none
+          chance: 300
+        - result: Frostlands Brigand Combat Robe
+          chance: 1
 
-    Robe1:
-      - result: none
-        chance: 30
-      - result: Risan Trash Cloak
-        chance: 1
+      hands: Frostlands Frostgolem Gloves
 
-    Robe2:
-      - result: none
-        chance: 300
-      - result: Frostlands Brigand Combat Robe
-        chance: 1
+      rightHand:
+        - result: Frostlands Shield
+          chance: 4500
+        - result: Frostlands Royal Shield
+          chance: 1
 
-    Hands: Frostlands Frostgolem Gloves
+      leftHand:
+        - result: Frostlands Shield
+          chance: 4500
+        - result: Frostlands Royal Shield
+          chance: 1
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: 1
       maxChance: 10
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   drops:
@@ -564,43 +569,44 @@
     perception: 200
     damageFactor: 0.7
 
-  leftHand:
-    - result: none
-      chance: 10000
-    - result: Frostlands Shield
-      chance: 1000
-    - result: Frostlands Royal Shield
-      chance: 1
+  items:
+    equipment:
+      armor: Risan Trash Cloak
 
-  gear:
-    Armor: Risan Trash Cloak
+      robe1:
+        - result: none
+          chance: 30
+        - result: Risan Trash Cloak
+          chance: 1
 
-    Robe1:
-      - result: none
-        chance: 30
-      - result: Risan Trash Cloak
-        chance: 1
+      robe2:
+        - result: none
+          chance: 300
+        - result: Frostlands Brigand Combat Robe
+          chance: 1
 
-    Robe2:
-      - result: none
-        chance: 300
-      - result: Frostlands Brigand Combat Robe
-        chance: 1
+      hands: Frostlands Frostgolem Gloves
 
-    Hands: Frostlands Frostgolem Gloves
+      leftHand:
+        - result: none
+          chance: 10000
+        - result: Frostlands Shield
+          chance: 1000
+        - result: Frostlands Royal Shield
+          chance: 1
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: 1
       maxChance: 100
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: 1
       maxChance: 10
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'leftHand'
+    - result: 'equipment.leftHand'
       chance: -1
 
   traitLevels:

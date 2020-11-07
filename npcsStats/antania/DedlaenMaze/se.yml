@@ -28,12 +28,13 @@
       extra:
         damageType: 'magical'
 
-  gear:
-    Hands: Maze Skeleton Claws
-    Waist: Dedlaen Crypt Thing Sash
+  items:
+    equipment:
+      hands: Maze Skeleton Claws
+      waist: Dedlaen Crypt Thing Sash
 
   copyDrops:
-    - result: 'gear.Waist'
+    - result: 'equipment.waist'
       chance: -1
 
   drops:
@@ -156,8 +157,9 @@
     min: 23000
     max: 25000
 
-  gear:
-    Hands: Medium Claws
+  items:
+    equipment:
+      hands: Medium Claws
 
   usableSkills:
     - PoisonBiteStrong
@@ -196,8 +198,9 @@
     min: 23000
     max: 27000
 
-  gear:
-    Hands: Medium Claws
+  items:
+    equipment:
+      hands: Medium Claws
 
   usableSkills:
     - Drain
@@ -230,8 +233,9 @@
     min: 27050
     max: 27700
 
-  gear:
-    Hands: Maze Skeleton Claws
+  items:
+    equipment:
+      hands: Maze Skeleton Claws
 
   baseEffects:
     - name: TrueSight

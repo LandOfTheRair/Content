@@ -17,8 +17,9 @@
     perception: 100
     damageFactor: 0.5
 
-  gear:
-    Hands: Mines Animal Claws
+  items:
+    equipment:
+      hands: Mines Animal Claws
 
   skillOnKill: 45
 
@@ -70,9 +71,10 @@
     armorClass: 20
     perception: 100
 
-  gear:
-    Armor: Remorhaz Scales Tunic
-    Hands: Mines Animal Claws
+  items:
+    equipment:
+      armor: Remorhaz Scales Tunic
+      hands: Mines Animal Claws
 
   skillOnKill: 45
 

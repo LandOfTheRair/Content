@@ -31,7 +31,7 @@ allegiances:
       armor: Antanian Studded Tunic
 
     baseSkills:
-      onehanded: 2
+      sword: 2
       dagger: 1
       
   - name: 'Pirates'
@@ -98,7 +98,7 @@ allegiances:
 
     baseSkills:
       dagger: 2
-      onehanded: 1
+      sword: 1
 
   - name: 'Underground'
     description: >
@@ -119,7 +119,7 @@ allegiances:
 
     baseSkills:
       twohanded: 2
-      onehanded: 1
+      sword: 1
 
   - name: 'Wilderness'
     description: >

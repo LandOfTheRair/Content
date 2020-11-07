@@ -31,17 +31,18 @@
     min: 700
     max: 925
 
-  gear:
-    Armor: Yzalt SewerRat Fur
-    Hands: Basic Claws
+  items:
+    equipment:
+      armor: Yzalt SewerRat Fur
+      hands: Basic Claws
 
-    Robe1:
-      - result: Yzalt Straw Robe
-        chance: 1
-        maxChance: 20
+      robe1:
+        - result: Yzalt Straw Robe
+          chance: 1
+          maxChance: 20
 
   copyDrops:
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
 
   tansFor: Yzalt SewerRat Fur
@@ -91,13 +92,14 @@
     min: 3000
     max: 3425
 
-  rightHand: Yzalt RatGuard Axe
+  items:
+    equipment:
+      armor: Yzalt RatGuard Fur
+      hands: Basic Claws
 
-  gear:
-    Armor: Yzalt RatGuard Fur
-    Hands: Basic Claws
+      rightHand: Yzalt RatGuard Axe
 
-    Robe1:
+    robe1:
       - result: none
         chance: 20
       - result: Yzalt Straw Robe
@@ -106,9 +108,9 @@
         chance: 1
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
 
   drops:

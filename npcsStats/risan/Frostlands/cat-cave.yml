@@ -16,13 +16,14 @@
     perception: 150
     damageFactor: 0.5
 
-  gear:
-    Armor: Frostlands Sabretooth Robe
-    Hands: Mines Animal Claws
+  items:
+    equipment:
+      armor: Frostlands Sabretooth Robe
+      hands: Mines Animal Claws
 
   traitLevels:
     Riposte: 5
-    SterlingArmor: 5
+    Sterlingarmor: 5
     BrassKnuckles: 2
     MartialAgility: 5
 
@@ -95,13 +96,14 @@
     perception: 150
     damageFactor: 0.5
 
-  gear:
-    Armor: Frostlands Frostfang Robe
-    Hands: Mines Animal Claws
+  items:
+    equipment:
+      armor: Frostlands Frostfang Robe
+      hands: Mines Animal Claws
 
   traitLevels:
     Riposte: 5
-    SterlingArmor: 5
+    Sterlingarmor: 5
     BrassKnuckles: 3
     MartialAgility: 10
 

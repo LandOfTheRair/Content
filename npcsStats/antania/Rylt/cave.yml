@@ -29,13 +29,14 @@
     min: 500
     max: 725
 
-  gear:
-    Hands: Rylt Rockgolem Gloves
-    Armor:
-      - none
-      - Antanian Tunic
-      - Antanian Studded Tunic
-      - Antanian Cloak
+  items:
+    equipment:
+      hands: Rylt Rockgolem Gloves
+      armor:
+        - none
+        - Antanian Tunic
+        - Antanian Studded Tunic
+        - Antanian Cloak
 
   drops:
     - result: Copper Ore (Small)
@@ -55,7 +56,7 @@
       maxChance: 100
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
 
   triggers:
@@ -103,47 +104,48 @@
     min: 300
     max: 425
 
-  rightHand:
-    - Antanian Staff
-    - Antanian Shortsword
+  items:
+    equipment:
+      armor: Antanian Tunic
+      neck:
+        - result: none
+          chance: 4
+        - result: Rylt Apprentice Regen Amulet
+          chance: 1
+      ring1:
+        - none
+        - Antanian Ring
+        - Identify Ring
+      robe1:
+        - result: none
+          chance: 14
+        - result: Antanian Cloak
+          chance: 14
+        - result: Cave Apprentice Robe
+          chance: 2
+      wrists:
+        - result: none
+          chance: 5
+        - result: Antanian Bracers
+          chance: 1
 
-  gear:
-    Armor: Antanian Tunic
-    Neck:
-      - result: none
-        chance: 4
-      - result: Rylt Apprentice Regen Amulet
-        chance: 1
-    Ring1:
-      - none
-      - Antanian Ring
-      - Identify Ring
-    Robe1:
-      - result: none
-        chance: 14
-      - result: Antanian Cloak
-        chance: 14
-      - result: Cave Apprentice Robe
-        chance: 2
-    Wrists:
-      - result: none
-        chance: 5
-      - result: Antanian Bracers
-        chance: 1
+      rightHand:
+        - Antanian Staff
+        - Antanian Shortsword
 
   usableSkills:
     - MagicMissile
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Robe1'
+    - result: 'equipment.robe1'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
-    - result: 'gear.Wrists'
+    - result: 'equipment.wrists'
       chance: -1
 
   drops:
@@ -197,19 +199,19 @@
     min: 10000
     max: 20000
 
-  rightHand:
-    - Saraxa Wand
+  items:
+    equipment:
+      armor: Antanian Tunic
+      neck: Saraxa Regen Amulet
+      ring1:
+        - none
+        - Antanian Ring
+        - Identify Ring
 
-  gear:
-    Armor: Antanian Tunic
-    Neck: Saraxa Regen Amulet
-    Ring1:
-      - none
-      - Antanian Ring
-      - Identify Ring
-
-    Robe1: FireIce Prot Robe 100
-    Robe2: Saraxa Robe
+      robe1: FireIce Prot Robe 100
+      robe2: Saraxa Robe
+      rightHand:
+        - Saraxa Wand
 
   usableSkills:
     - MagicMissile
@@ -217,13 +219,13 @@
     - IceMist
 
   copyDrops:
-    - result: 'rightHand'
+    - result: 'equipment.rightHand'
       chance: -1
-    - result: 'gear.Robe2'
+    - result: 'equipment.robe2'
       chance: -1
-    - result: 'gear.Ring1'
+    - result: 'equipment.ring1'
       chance: -1
-    - result: 'gear.Neck'
+    - result: 'equipment.neck'
       chance: -1
 
   drops:
@@ -268,13 +270,14 @@
     min: 2500
     max: 2725
 
-  gear:
-    Hands: Rylt Rockgolem Gloves
-    Armor:
-      - none
-      - Antanian Tunic
-      - Antanian Studded Tunic
-      - Antanian Cloak
+  items:
+    equipment:
+      hands: Rylt Rockgolem Gloves
+      armor:
+        - none
+        - Antanian Tunic
+        - Antanian Studded Tunic
+        - Antanian Cloak
 
   drops:
     - result: Antanian Leather Gloves
@@ -301,5 +304,5 @@
       chance: -1
 
   copyDrops:
-    - result: 'gear.Armor'
+    - result: 'equipment.armor'
       chance: -1
