@@ -1,3 +1,4 @@
 node_modules
 _output
 __assets
+.vscode
