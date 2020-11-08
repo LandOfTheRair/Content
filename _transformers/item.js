@@ -89,6 +89,8 @@ const isWeapon = (item) => WeaponClasses.includes(item.itemClass);
 const isArmor = (item) => ArmorClasses.includes(item.itemClass);
 
 const conditionallyAddInformation = (item) => {
+  item.isSackable = true;
+  
   if(isWeapon(item)) {
     if(isUndefined(item.isBeltable))  item.isBeltable = true;
     if(isUndefined(item.isSackable))  item.isSackable = false;
