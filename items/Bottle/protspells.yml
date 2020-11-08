@@ -3,7 +3,7 @@
   desc: "a small red bottle covered with eyes"
   extendedDesc: "a potion of TrueSight"
   sprite: 254
-  effect:
+  useEffect:
     name: TrueSight
     potency: 1
     duration: 600
@@ -14,7 +14,7 @@
   extendedDesc: "a potion of TrueSight"
   sprite: 254
   ounces: 10
-  effect:
+  useEffect:
     name: TrueSight
     potency: 1
     duration: 600
@@ -24,7 +24,7 @@
   desc: "a small dark bottle covered with glow-in-the-dark eyes"
   extendedDesc: "a potion of DarkVision"
   sprite: 957
-  effect:
+  useEffect:
     name: DarkVision
     potency: 1
     duration: 1200
@@ -35,7 +35,7 @@
   extendedDesc: "a potion of DarkVision"
   ounces: 10
   sprite: 957
-  effect:
+  useEffect:
     name: DarkVision
     potency: 1
     duration: 1200
@@ -45,7 +45,7 @@
   desc: "a small flask filled with liquid made of bear meat"
   extendedDesc: "a flask of Antidote"
   sprite: 142
-  effect:
+  useEffect:
     name: Antidote
     potency: 10
   value: 1000
@@ -55,7 +55,7 @@
   extendedDesc: "a flask of Antidote"
   sprite: 142
   ounces: 10
-  effect:
+  useEffect:
     name: Antidote
     potency: 10
   value: 2000
@@ -64,7 +64,7 @@
   desc: "a small flask filled with liquid made from a distilled minotaur horn"
   extendedDesc: "a flask of VitalEssence"
   sprite: 140
-  effect:
+  useEffect:
     name: VitalEssence
     potency: 7
   value: 1000
@@ -74,7 +74,7 @@
   extendedDesc: "a bottle of Ether Fire"
   sprite: 889
   ounces: 1
-  effect:
+  useEffect:
     name: EtherFire
     potency: 2
   value: 2000
@@ -84,7 +84,7 @@
   extendedDesc: "a bottle of Ether Fire"
   sprite: 889
   ounces: 5
-  effect:
+  useEffect:
     name: EtherFire
     potency: 2
   value: 10000
@@ -94,7 +94,7 @@
   extendedDesc: "a bottle of Beast Ripper"
   sprite: 890
   ounces: 1
-  effect:
+  useEffect:
     name: BeastRipper
     potency: 2
   value: 2000
@@ -104,7 +104,7 @@
   extendedDesc: "a bottle of Beast Ripper"
   sprite: 890
   ounces: 5
-  effect:
+  useEffect:
     name: BeastRipper
     potency: 2
   value: 10000
@@ -114,7 +114,7 @@
   extendedDesc: "a bottle of Scale Shredder"
   sprite: 891
   ounces: 1
-  effect:
+  useEffect:
     name: ScaleShredder
     potency: 2
   value: 2000
@@ -124,7 +124,7 @@
   extendedDesc: "a bottle of Scale Shredder"
   sprite: 891
   ounces: 5
-  effect:
+  useEffect:
     name: ScaleShredder
     potency: 2
   value: 10000

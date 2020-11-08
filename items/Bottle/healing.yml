@@ -3,7 +3,7 @@
   desc: "a small bottle filled with fizzy purple liquid"
   extendedDesc: "a mending potion"
   sprite: 107
-  effect:
+  useEffect:
     name: ExactHeal
     potency: 200
   value: 5
@@ -13,7 +13,7 @@
   extendedDesc: "a mending potion"
   sprite: 107
   ounces: 5
-  effect:
+  useEffect:
     name: ExactHeal
     potency: 200
   value: 30
@@ -22,7 +22,7 @@
   desc: "a small bottle labeled Instant Heal"
   extendedDesc: "a healing potion"
   sprite: 260
-  effect:
+  useEffect:
     name: ExactHeal
     potency: 1000
   value: 500
@@ -32,7 +32,7 @@
   extendedDesc: "a healing potion"
   sprite: 260
   ounces: 5
-  effect:
+  useEffect:
     name: ExactHeal
     potency: 1000
   value: 3000
@@ -42,7 +42,7 @@
   extendedDesc: "a healing potion"
   sprite: 260
   ounces: 50
-  effect:
+  useEffect:
     name: ExactHeal
     potency: 1000
   value: 35000
@@ -51,7 +51,7 @@
   desc: "a small bottle labeled Instant Heal, filled with purple liquid"
   extendedDesc: "a potion of Regen"
   sprite: 959
-  effect:
+  useEffect:
     name: Regen
     duration: 10
     potency: 50
@@ -62,7 +62,7 @@
   extendedDesc: "a potion of Regen"
   sprite: 959
   ounces: 5
-  effect:
+  useEffect:
     name: Regen
     duration: 10
     potency: 50

@@ -1,7 +1,7 @@
 - name: Broom
   desc: "a simple broom"
   tier: 5
-  effect:
+  useEffect:
     name: Vortex
     potency: 3
     uses: -1

@@ -15,7 +15,7 @@
   sprite: -1
   desc: "a pair of sharp claws"
   value: 0
-  effect:
+  strikeEffect:
     name: Disease
     potency: 5
     chance: 10
@@ -25,7 +25,7 @@
   sprite: -1
   desc: "a pair of sharp claws"
   value: 0
-  effect:
+  strikeEffect:
     name: Stun
     potency: 10
     chance: 10

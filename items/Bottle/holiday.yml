@@ -5,7 +5,7 @@
   desc: "a pint of spooky halloween brew"
   value: 1500
   ounces: 16
-  effect:
+  useEffect:
     name: DarkVision
     potency: 1
     duration: 21600
@@ -15,7 +15,7 @@
   extendedDesc: "a healing potion"
   sprite: 561
   ounces: 25
-  effect:
+  useEffect:
     name: ExactHeal
     potency: 1000
   value: 25
@@ -26,7 +26,7 @@
   extendedDesc: "a healing potion"
   sprite: 561
   ounces: 100
-  effect:
+  useEffect:
     name: ExactHeal
     potency: 1000
   value: 100
@@ -37,7 +37,7 @@
   extendedDesc: "a healing potion"
   sprite: 561
   ounces: 250
-  effect:
+  useEffect:
     name: ExactHeal
     potency: 1000
   value: 250
@@ -48,7 +48,7 @@
   extendedDesc: "a healing potion"
   sprite: 561
   ounces: 500
-  effect:
+  useEffect:
     name: ExactHeal
     potency: 1000
   value: 500
@@ -59,7 +59,7 @@
   desc: "a warm glass of egg nog"
   value: 50
   ounces: 10
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:

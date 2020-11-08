@@ -58,7 +58,7 @@
     defense: -2
     accuracy: -2
   desc: "an iron greatsword that smells of death"
-  effect:
+  equipEffect:
     name: NecroticAura
     potency: 2
     autocast: true

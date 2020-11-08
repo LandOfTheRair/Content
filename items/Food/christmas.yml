@@ -5,6 +5,6 @@
   sprite: 570
   ounces: 1
 
-  effect:
+  useEffect:
     name: ChristmasCarrot
     potency: 1

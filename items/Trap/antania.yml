@@ -2,7 +2,7 @@
   sprite: 1024
   desc: "a trap imbued with the spell Fire Mist"
   trapUses: 5
-  effect:
+  trapEffect:
     name: FireMist
     potency: 10
   value: 1500
@@ -15,7 +15,7 @@
   sprite: 1027
   desc: "a trap imbued with the spell Ice Mist"
   trapUses: 5
-  effect:
+  trapEffect:
     name: IceMist
     potency: 10
   value: 1500
@@ -28,7 +28,7 @@
   sprite: 1028
   desc: "a trap imbued with the spell Poison"
   trapUses: 5
-  effect:
+  trapEffect:
     name: Poison
     potency: 10
   value: 1000
@@ -41,7 +41,7 @@
   sprite: 1025
   desc: "a trap imbued with the spell Afflict"
   trapUses: 5
-  effect:
+  trapEffect:
     name: Afflict
     potency: 10
   value: 1000
@@ -54,7 +54,7 @@
   sprite: 1025
   desc: "a trap imbued with the spell Magic Missile"
   trapUses: 5
-  effect:
+  trapEffect:
     name: MagicMissile
     potency: 10
   value: 1000
@@ -67,7 +67,7 @@
   sprite: 334
   desc: "a trap imbued with the spell Distraction"
   trapUses: 5
-  effect:
+  trapEffect:
     name: Distraction
     potency: 10
   value: 1500
@@ -76,7 +76,7 @@
   sprite: 1025
   desc: "a trap imbued with the spell Darkness"
   trapUses: 5
-  effect:
+  trapEffect:
     name: Darkness
     potency: 15
   value: 2000
@@ -89,7 +89,7 @@
   sprite: 1028
   desc: "a trap imbued with the spell Snare"
   trapUses: 5
-  effect:
+  trapEffect:
     name: Snare
     potency: 10
   value: 2000
@@ -102,7 +102,7 @@
   sprite: 1028
   desc: "a trap imbued with the spell Stun"
   trapUses: 5
-  effect:
+  trapEffect:
     name: Stun
     potency: 10
   value: 2000
@@ -115,7 +115,7 @@
   sprite: 1028
   desc: "a trap imbued with the spell Blind"
   trapUses: 5
-  effect:
+  trapEffect:
     name: Blind
     potency: 10
   value: 2000

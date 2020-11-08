@@ -4,7 +4,7 @@
   tier: 1
   stats:
     conjurationBonus: 3
-  effect:
+  strikeEffect:
     name: MagicMissile
     potency: 5
     chance: 33
@@ -23,7 +23,7 @@
   tier: 1
   stats:
     conjurationBonus: 3
-  effect:
+  strikeEffect:
     name: Combust
     potency: 8
     chance: 10
@@ -44,7 +44,7 @@
   tier: 1
   stats:
     conjurationBonus: 3
-  effect:
+  strikeEffect:
     name: Hail
     potency: 8
     chance: 10
@@ -66,7 +66,7 @@
   tier: 3
   stats:
     conjurationBonus: 5
-  effect:
+  strikeEffect:
     name: MagicBolt
     potency: 5
     chance: 33
@@ -93,7 +93,7 @@
   tier: 2
   stats:
     conjurationBonus: 4
-  effect:
+  strikeEffect:
     name: Asper
     potency: 10
     chance: 33

@@ -4,7 +4,7 @@
   stats:
     offense: 3
     defense: 3
-  effect:
+  equipEffect:
     name: TrueSight
     potency: 1
     autocast: true
@@ -24,7 +24,7 @@
   stats:
     offense: 3
     defense: 3
-  effect:
+  equipEffect:
     name: DarkVision
     potency: 1
     autocast: true

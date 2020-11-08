@@ -21,7 +21,7 @@
     accuracy: 6
     defense: -2
   desc: "an iron greatmace that smells of death"
-  effect:
+  equipEffect:
     name: NecroticAura
     potency: 2
     autocast: true

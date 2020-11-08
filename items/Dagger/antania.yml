@@ -83,7 +83,7 @@
     accuracy: 7
     offense: 3
     fireResist: 200
-  effect:
+  equipEffect:
     name: ImbueFlame
     potency: 10
     autocast: true

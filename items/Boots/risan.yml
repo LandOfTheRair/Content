@@ -5,7 +5,7 @@
   stats:
     offense: 3
     defense: 3
-  effect:
+  equipEffect:
     name: FleetOfFoot
     autocast: true
     potency: 1

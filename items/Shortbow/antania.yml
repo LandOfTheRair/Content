@@ -19,7 +19,7 @@
 - name: Heniz Poison Shortbow
   desc: "a crudely-carved shortbow with poison tipped arrows"
   tier: 2
-  effect:
+  strikeEffect:
     name: Poison
     potency: 7
     chance: 75

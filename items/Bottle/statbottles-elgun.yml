@@ -3,7 +3,7 @@
   desc: "a small bottle filled with brown fluid that smells like a jungle"
   extendedDesc: "a potion of greater strength"
   sprite: 151
-  effect:
+  useEffect:
     name: PermanentSTR
     extra:
       tier: Greater
@@ -14,7 +14,7 @@
   desc: "a small bottle filled with dark-yellow fluid that smells like a jungle bird"
   extendedDesc: "a potion of greater agility"
   sprite: 157
-  effect:
+  useEffect:
     name: PermanentAGI
     extra:
       tier: Greater
@@ -25,7 +25,7 @@
   desc: "a small bottle filled with yellow fluid that smells like jungle apples"
   extendedDesc: "a potion of greater dexterity"
   sprite: 150
-  effect:
+  useEffect:
     name: PermanentDEX
     extra:
       tier: Greater
@@ -36,7 +36,7 @@
   desc: "a small bottle filled with puce liquid that smells like a jungle root"
   extendedDesc: "a potion of greater intelligence"
   sprite: 158
-  effect:
+  useEffect:
     name: PermanentINT
     extra:
       tier: Greater
@@ -47,7 +47,7 @@
   desc: "a small bottle filled with teal that smells like jungle herbs"
   extendedDesc: "a potion of greater wisdom"
   sprite: 156
-  effect:
+  useEffect:
     name: PermanentWIS
     extra:
       tier: Greater
@@ -58,7 +58,7 @@
   desc: "a small bottle filled with orange fluid that smells like jungle mushrooms"
   extendedDesc: "a potion of greater willpower"
   sprite: 154
-  effect:
+  useEffect:
     name: PermanentWIL
     extra:
       tier: Greater
@@ -69,7 +69,7 @@
   desc: "a small bottle filled with crimson fluid that smells like jungle fruit"
   extendedDesc: "a potion of greater constitution"
   sprite: 153
-  effect:
+  useEffect:
     name: PermanentCON
     extra:
       tier: Greater
@@ -80,7 +80,7 @@
   desc: "a small bottle filled with green fluid that smells like jungle clovers"
   extendedDesc: "a potion of greater luck"
   sprite: 152
-  effect:
+  useEffect:
     name: PermanentLUK
     extra:
       tier: Greater
@@ -91,7 +91,7 @@
   desc: "a small bottle filled with purple fluid that smells like jungle flowers"
   extendedDesc: "a potion of greater charisma"
   sprite: 155
-  effect:
+  useEffect:
     name: PermanentCHA
     extra:
       tier: Greater

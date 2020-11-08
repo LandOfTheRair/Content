@@ -4,7 +4,7 @@
   desc: "a small bottle filled with brown fluid that smells faintly like a tree"
   extendedDesc: "a potion of minor strength"
   sprite: 151
-  effect:
+  useEffect:
     name: PermanentSTR
     extra:
       tier: Minor
@@ -15,7 +15,7 @@
   desc: "a small bottle filled with dark-yellow fluid that smells faintly like feathers"
   extendedDesc: "a potion of minor agility"
   sprite: 157
-  effect:
+  useEffect:
     name: PermanentAGI
     extra:
       tier: Minor
@@ -26,7 +26,7 @@
   desc: "a small bottle filled with yellow fluid that smells faintly like apples"
   extendedDesc: "a potion of minor dexterity"
   sprite: 150
-  effect:
+  useEffect:
     name: PermanentDEX
     extra:
       tier: Minor
@@ -37,7 +37,7 @@
   desc: "a small bottle filled with puce liquid that smells faintly like a root"
   extendedDesc: "a potion of minor intelligence"
   sprite: 158
-  effect:
+  useEffect:
     name: PermanentINT
     extra:
       tier: Minor
@@ -48,7 +48,7 @@
   desc: "a small bottle filled with teal that smells faintly like herbs"
   extendedDesc: "a potion of minor wisdom"
   sprite: 156
-  effect:
+  useEffect:
     name: PermanentWIS
     extra:
       tier: Minor
@@ -59,7 +59,7 @@
   desc: "a small bottle filled with orange fluid that smells faintly like mushrooms"
   extendedDesc: "a potion of minor willpower"
   sprite: 154
-  effect:
+  useEffect:
     name: PermanentWIL
     extra:
       tier: Minor
@@ -70,7 +70,7 @@
   desc: "a small bottle filled with crimson fluid that smells faintly like cherries"
   extendedDesc: "a potion of minor constitution"
   sprite: 153
-  effect:
+  useEffect:
     name: PermanentCON
     extra:
       tier: Minor
@@ -81,7 +81,7 @@
   desc: "a small bottle filled with green fluid that smells faintly like clovers"
   extendedDesc: "a potion of minor luck"
   sprite: 152
-  effect:
+  useEffect:
     name: PermanentLUK
     extra:
       tier: Minor
@@ -92,7 +92,7 @@
   desc: "a small bottle filled with purple fluid that smells faintly like flowers"
   extendedDesc: "a potion of minor charisma"
   sprite: 155
-  effect:
+  useEffect:
     name: PermanentCHA
     extra:
       tier: Minor
@@ -103,7 +103,7 @@
   desc: "a small bottle filled with clear, odorless fluid"
   extendedDesc: "a potion of minor health"
   sprite: 141
-  effect:
+  useEffect:
     name: MinorHP
     potency: 2
   value: 50000
@@ -112,7 +112,7 @@
   desc: "a small bottle filled with clear, odorless fluid"
   extendedDesc: "a potion of minor magic"
   sprite: 142
-  effect:
+  useEffect:
     name: MinorMP
     potency: 5
   value: 150000
@@ -121,7 +121,7 @@
   desc: "a small bottle filled with clear, odorless fluid"
   extendedDesc: "a potion of minor experience"
   sprite: 149
-  effect:
+  useEffect:
     name: PermanentExperience
     potency: 50000
   value: 100000
@@ -130,7 +130,7 @@
   desc: "a small bottle filled with clear, odorless fluid"
   extendedDesc: "a potion of minor skill"
   sprite: 149
-  effect:
+  useEffect:
     name: PermanentSkill
     potency: 500
   value: 100000
@@ -139,7 +139,7 @@
   desc: "a small bottle filled with crimson fluid, etched with the number II that smells like cherries"
   extendedDesc: "a potion of constitution"
   sprite: 153
-  effect:
+  useEffect:
     name: PermanentCON
     extra:
       tier: Bradley

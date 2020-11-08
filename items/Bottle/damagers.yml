@@ -4,7 +4,7 @@
   extendedDesc: "a bottle of Disease"
   sprite: 261
   ounces: 5
-  effect:
+  useEffect:
     name: Disease
     duration: 30
     potency: 10
@@ -16,7 +16,7 @@
   extendedDesc: "a bottle of Blind"
   sprite: 261
   ounces: 5
-  effect:
+  useEffect:
     name: Blind
     duration: 30
     potency: 10
@@ -28,7 +28,7 @@
   extendedDesc: "a bottle of Blurred Vision"
   sprite: 261
   ounces: 5
-  effect:
+  useEffect:
     name: BlurredVision
     duration: 30
     potency: 30
@@ -40,7 +40,7 @@
   extendedDesc: "a bottle of Venom"
   sprite: 261
   ounces: 5
-  effect:
+  useEffect:
     name: Venom
     duration: 60
     potency: 20
@@ -52,7 +52,7 @@
   extendedDesc: "a bottle of Blind"
   sprite: 261
   ounces: 5
-  effect:
+  useEffect:
     name: Blind
     duration: 60
     potency: 20
@@ -64,7 +64,7 @@
   extendedDesc: "a bottle of Blurred Vision"
   sprite: 261
   ounces: 5
-  effect:
+  useEffect:
     name: BlurredVision
     duration: 60
     potency: 60

@@ -69,7 +69,7 @@
     alignment: Good
 
 - name: Heniz DarkVision Helm
-  effect:
+  equipEffect:
     name: DarkVision
     potency: 1
     autocast: true

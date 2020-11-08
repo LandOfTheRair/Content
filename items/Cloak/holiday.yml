@@ -4,7 +4,7 @@
     offense: 3
     defense: 3
     magicalResist: 25
-  effect:
+  useEffect:
     name: Succor
     potency: 15
     uses: -1

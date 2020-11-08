@@ -10,7 +10,7 @@
   sprite: 38
   desc: "a bottle of water"
   value: 50
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -25,7 +25,7 @@
   desc: "a pint of water"
   value: 500
   ounces: 16
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:

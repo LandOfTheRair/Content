@@ -4,7 +4,7 @@
   desc: "a small white bottle that chills your hand"
   extendedDesc: "a potion of BarFrost"
   sprite: 251
-  effect:
+  useEffect:
     name: BarFrost
     duration: 900
     potency: 20
@@ -15,7 +15,7 @@
   extendedDesc: "a potion of BarFrost"
   sprite: 251
   ounces: 10
-  effect:
+  useEffect:
     name: BarFrost
     duration: 900
     potency: 20
@@ -25,7 +25,7 @@
   desc: "a small white bottle that feels hot to the touch"
   extendedDesc: "a potion of BarFire"
   sprite: 251
-  effect:
+  useEffect:
     name: BarFire
     duration: 900
     potency: 20
@@ -36,7 +36,7 @@
   extendedDesc: "a potion of BarFire"
   sprite: 251
   ounces: 10
-  effect:
+  useEffect:
     name: BarFire
     duration: 900
     potency: 20
@@ -46,7 +46,7 @@
   desc: "a small white bottle whose stench makes you want to vomit"
   extendedDesc: "a potion of BarNecro"
   sprite: 251
-  effect:
+  useEffect:
     name: BarNecro
     duration: 900
     potency: 20
@@ -57,7 +57,7 @@
   extendedDesc: "a potion of BarNecro"
   sprite: 251
   ounces: 10
-  effect:
+  useEffect:
     name: BarNecro
     duration: 900
     potency: 20

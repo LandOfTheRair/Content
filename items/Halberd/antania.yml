@@ -55,7 +55,7 @@
     weaponArmorClass: 3
     offense: 2
     defense: -2
-  effect:
+  equipEffect:
     name: NecroticAura
     potency: 2
     autocast: true

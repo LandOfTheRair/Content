@@ -3,7 +3,7 @@
   sprite: 932
   desc: "a fresh chunk of bear meat from an Antanian bear"
   value: 100
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -17,7 +17,7 @@
   sprite: 560
   desc: "a ripe apple"
   value: 100
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -31,7 +31,7 @@
   sprite: 72
   desc: "a broken spider egg from a war torn spider"
   value: 10
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -49,7 +49,7 @@
   desc: "a grub feasting on the remains of its former host"
   value: 1
   binds: true
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -64,7 +64,7 @@
   sprite: 115
   desc: "a gourd harvested from an underground garden"
   value: 10
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -82,7 +82,7 @@
   sprite: 381
   desc: "an ivory egg taken from a young turtle dragon"
   value: 10
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:

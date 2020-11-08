@@ -12,7 +12,7 @@
   stats:
     offense: 3
 
-  effect:
+  strikeEffect:
     name: Darkness
     potency: 20
     chance: 100

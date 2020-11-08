@@ -48,7 +48,7 @@
       min: 10
       max: 30
   tier: 2
-  effect:
+  strikeEffect:
     name: MagicMissile
     potency: 10
     chance: 5

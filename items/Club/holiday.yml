@@ -19,7 +19,7 @@
     offense: 3
     defense: 3
     weaponArmorClass: 15
-  effect:
+  strikeEffect:
     name: Combust
     potency: 15
     chance: 25

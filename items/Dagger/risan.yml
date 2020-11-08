@@ -34,7 +34,7 @@
     accuracy: 3
     defense: 4
     iceResist: 200
-  effect:
+  equipEffect:
     name: ImbueFrost
     potency: 10
     autocast: true

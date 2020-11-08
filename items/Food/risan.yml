@@ -4,7 +4,7 @@
   sprite: 932
   desc: "a fresh chunk of bear meat from a Risan bear"
   value: 1500
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -18,7 +18,7 @@
   sprite: 933
   desc: "a fresh flank of wolf meat from a Risan wolf"
   value: 1500
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -32,7 +32,7 @@
   sprite: 928
   desc: "a tongue ripped from a Risan griffon"
   value: 2500
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -47,7 +47,7 @@
   sprite: 611
   desc: "the still-beating heart of the forest queen"
   value: 2500
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -61,7 +61,7 @@
   sprite: 679
   desc: "a small chunk of bile from a yeti"
   value: 1500
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -76,7 +76,7 @@
   sprite: 678
   desc: "a large pile of bile from a yeti"
   value: 2500
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -93,7 +93,7 @@
   sprite: 72
   desc: "a slightly-broken egg filled with glowing viscous liquid"
   value: 2500
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:

@@ -12,7 +12,7 @@
     accuracy: 1
   tier: 1
   shots: 1000
-  effect:
+  strikeEffect:
     name: Poison
     potency: 10
     chance: 33
@@ -25,7 +25,7 @@
     accuracy: 1
   tier: 1
   shots: 1000
-  effect:
+  strikeEffect:
     name: Darkness
     potency: 10
     chance: 100

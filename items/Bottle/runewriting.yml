@@ -4,7 +4,7 @@
   sprite: 899
   ounces: -1
   value: 500
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -18,7 +18,7 @@
   desc: "a small vial filled with ink"
   sprite: 899
   value: 500
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -33,7 +33,7 @@
   ounces: 15
   sprite: 899
   value: 10000
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -48,7 +48,7 @@
   ounces: 50
   sprite: 899
   value: 35000
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:

@@ -3,7 +3,7 @@
   desc: "a small bottle filled with brown fluid that smells like a tree"
   extendedDesc: "a potion of basic strength"
   sprite: 151
-  effect:
+  useEffect:
     name: PermanentSTR
     extra:
       tier: Basic
@@ -14,7 +14,7 @@
   desc: "a small bottle filled with dark-yellow fluid that smells like feathers"
   extendedDesc: "a potion of basic agility"
   sprite: 157
-  effect:
+  useEffect:
     name: PermanentAGI
     extra:
       tier: Basic
@@ -25,7 +25,7 @@
   desc: "a small bottle filled with yellow fluid that smells like apples"
   extendedDesc: "a potion of basic dexterity"
   sprite: 150
-  effect:
+  useEffect:
     name: PermanentDEX
     extra:
       tier: Basic
@@ -36,7 +36,7 @@
   desc: "a small bottle filled with puce liquid that smells like a root"
   extendedDesc: "a potion of basic intelligence"
   sprite: 158
-  effect:
+  useEffect:
     name: PermanentINT
     extra:
       tier: Basic
@@ -47,7 +47,7 @@
   desc: "a small bottle filled with teal that smells like a herbs"
   extendedDesc: "a potion of basic wisdom"
   sprite: 156
-  effect:
+  useEffect:
     name: PermanentWIS
     extra:
       tier: Basic
@@ -58,7 +58,7 @@
   desc: "a small bottle filled with orange fluid that smells like mushrooms"
   extendedDesc: "a potion of basic willpower"
   sprite: 154
-  effect:
+  useEffect:
     name: PermanentWIL
     extra:
       tier: Basic
@@ -69,7 +69,7 @@
   desc: "a small bottle filled with crimson fluid that smells like cherries"
   extendedDesc: "a potion of basic constitution"
   sprite: 153
-  effect:
+  useEffect:
     name: PermanentCON
     extra:
       tier: Basic
@@ -80,7 +80,7 @@
   desc: "a small bottle filled with green fluid that smells like clovers"
   extendedDesc: "a potion of basic luck"
   sprite: 152
-  effect:
+  useEffect:
     name: PermanentLUK
     extra:
       tier: Basic
@@ -91,7 +91,7 @@
   desc: "a small bottle filled with purple fluid that smells like flowers"
   extendedDesc: "a potion of basic charisma"
   sprite: 155
-  effect:
+  useEffect:
     name: PermanentCHA
     extra:
       tier: Basic
@@ -102,7 +102,7 @@
   desc: "a small bottle filled with clear, odorless fluid"
   extendedDesc: "a potion of basic experience"
   sprite: 149
-  effect:
+  useEffect:
     name: PermanentExperience
     potency: 5000000
   value: 500000
@@ -114,7 +114,7 @@
   desc: "a small bottle filled with clear, odorless fluid"
   extendedDesc: "a potion of basic skill"
   sprite: 149
-  effect:
+  useEffect:
     name: PermanentSkill
     potency: 5000
   value: 200000

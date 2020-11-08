@@ -34,7 +34,7 @@ module.exports.isEffect = (eff) => {
 };
 
 module.exports.isEncrust = (enc) => {
-  return enc.stats || enc.effect;
+  return enc.stats || enc.equipEffect || enc.strikeEffect;
 };
 
 module.exports.isDropPool = (pool) => {

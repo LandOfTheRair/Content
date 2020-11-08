@@ -5,7 +5,7 @@
   sprite: 546
   ounces: 1
 
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -29,7 +29,7 @@
   sprite: 547
   ounces: 1
 
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -45,7 +45,7 @@
   sprite: 548
   ounces: 1
 
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -61,7 +61,7 @@
   sprite: 549
   ounces: 1
 
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -77,7 +77,7 @@
   sprite: 550
   ounces: 1
 
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -93,7 +93,7 @@
   sprite: 551
   ounces: 1
 
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:
@@ -109,7 +109,7 @@
   sprite: 64
   ounces: 1
 
-  effect:
+  useEffect:
     name: Nourishment
     potency: 1
     extra:

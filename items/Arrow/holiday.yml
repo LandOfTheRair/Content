@@ -12,7 +12,7 @@
 - name: Christmas Snowball
   stats:
     offense: 3
-  effect:
+  strikeEffect:
     name: IceMist
     potency: 10
     chance: 100

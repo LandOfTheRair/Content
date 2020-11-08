@@ -4,7 +4,7 @@
   tier: 1
   stats:
     restorationBonus: 3
-  effect:
+  strikeEffect:
     name: Afflict
     potency: 5
     chance: 33
@@ -23,7 +23,7 @@
   tier: 2
   stats:
     restorationBonus: 4
-  effect:
+  strikeEffect:
     name: HolyFire
     potency: 15
     chance: 33
@@ -45,7 +45,7 @@
   tier: 3
   stats:
     restorationBonus: 5
-  effect:
+  strikeEffect:
     name: Afflict
     potency: 20
     chance: 20

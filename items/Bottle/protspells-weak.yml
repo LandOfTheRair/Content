@@ -4,7 +4,7 @@
   desc: "a small white bottle that cools your hand"
   extendedDesc: "a potion of BarFrost"
   sprite: 251
-  effect:
+  useEffect:
     name: BarFrost
     duration: 900
     potency: 10
@@ -15,7 +15,7 @@
   extendedDesc: "a potion of BarFrost"
   sprite: 251
   ounces: 10
-  effect:
+  useEffect:
     name: BarFrost
     duration: 900
     potency: 10
@@ -25,7 +25,7 @@
   desc: "a small white bottle whose liquid seems unnaturally buoyant"
   extendedDesc: "a potion of BarWater"
   sprite: 251
-  effect:
+  useEffect:
     name: BarWater
     duration: 900
     potency: 10
@@ -36,7 +36,7 @@
   extendedDesc: "a potion of BarWater"
   sprite: 251
   ounces: 10
-  effect:
+  useEffect:
     name: BarWater
     duration: 900
     potency: 10
@@ -46,7 +46,7 @@
   desc: "a small white bottle which smells putrid"
   extendedDesc: "a potion of BarNecro"
   sprite: 251
-  effect:
+  useEffect:
     name: BarNecro
     duration: 900
     potency: 10
@@ -57,7 +57,7 @@
   extendedDesc: "a potion of BarNecro"
   sprite: 251
   ounces: 10
-  effect:
+  useEffect:
     name: BarNecro
     duration: 900
     potency: 10
@@ -67,7 +67,7 @@
   desc: "a small white bottle that feels warm to the touch"
   extendedDesc: "a potion of BarFire"
   sprite: 251
-  effect:
+  useEffect:
     name: BarFire
     duration: 900
     potency: 10
@@ -78,7 +78,7 @@
   extendedDesc: "a potion of BarFire"
   sprite: 251
   ounces: 10
-  effect:
+  useEffect:
     name: BarFire
     duration: 900
     potency: 10
@@ -88,7 +88,7 @@
   desc: "a translucent blue bottle filled with a viscous liquid"
   extendedDesc: "a flask of Absorption"
   sprite: 250
-  effect:
+  useEffect:
     name: Absorption
     potency: 15
   value: 1500
@@ -98,7 +98,7 @@
   extendedDesc: "a flask of Absorption"
   sprite: 250
   ounces: 10
-  effect:
+  useEffect:
     name: Absorption
     potency: 15
   value: 2500
@@ -107,7 +107,7 @@
   desc: "a small white bottle covered in animalistic eyes"
   extendedDesc: "a flask of EagleEye"
   sprite: 250
-  effect:
+  useEffect:
     name: EagleEye
     potency: 15
   value: 1500
@@ -117,7 +117,7 @@
   extendedDesc: "a flask of EagleEye"
   sprite: 250
   ounces: 10
-  effect:
+  useEffect:
     name: EagleEye
     potency: 15
   value: 2500

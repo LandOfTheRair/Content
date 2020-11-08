@@ -57,7 +57,7 @@
     defense: 3
     mpregen: 10
     energyResist: 150
-  effect:
+  useEffect:
     name: Transmute
     uses: 100
     potency: 20

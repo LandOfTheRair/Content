@@ -2,7 +2,7 @@
 - name: Tutorial Yeti Skull
   desc: "a skull taken from an inexperienced yeti"
   value: 1
-  effect:
+  equipEffect:
     name: Newbie
     autocast: true
     potency: 1
