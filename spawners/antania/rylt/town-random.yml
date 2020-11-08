@@ -6,5 +6,6 @@ maxCreatures: 3
 spawnRadius: 1
 randomWalkRadius: 20
 leashRadius: 35
+respectKnowledge: false
 doInitialSpawnImmediately: true
 tag: 'Antania Rylt Town-random'

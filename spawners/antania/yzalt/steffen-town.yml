@@ -8,4 +8,5 @@ spawnRadius: 0
 randomWalkRadius: 35
 leashRadius: 45
 doInitialSpawnImmediately: true
+respectKnowledge: false
 tag: 'Antania Yzalt Steffen-town'

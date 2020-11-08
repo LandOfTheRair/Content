@@ -8,4 +8,5 @@ spawnRadius: 1
 randomWalkRadius: 7
 leashRadius: 12
 doInitialSpawnImmediately: true
+respectKnowledge: false
 tag: 'Risan Frostlands Town-guardtower'

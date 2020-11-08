@@ -8,4 +8,5 @@ spawnRadius: 2
 randomWalkRadius: 20
 leashRadius: 35
 doInitialSpawnImmediately: true
+respectKnowledge: false
 tag: 'Risan Frostlands Town-random'
