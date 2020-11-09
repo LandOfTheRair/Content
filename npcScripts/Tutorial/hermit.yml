@@ -20,9 +20,9 @@ dialog:
             - rightHand
             - leftHand
           item: 
-            - name: Tutorial Yeti Skull
-              amount: 1 # implied
-              owner: "${ name }" # again, not sure on player name syntax. there will also need to be arbitrary checks for stats and other related item stuff.
+            name: Tutorial Yeti Skull
+            amount: 1 # implied
+            owner: "${ name }" # again, not sure on player name syntax. there will also need to be arbitrary checks for stats and other related item stuff.
 
           checkPassActions:
             - type: takeItem
