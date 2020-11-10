@@ -4,6 +4,10 @@ name: Hermit
 hostility: Never
 affiliation: Drakkarian Hermit
 
+baseEffects:
+  - name: TrueSight
+    endsAt: -1
+
 items:
   equipment:
     rightHand: Tutorial Yeti Skull
