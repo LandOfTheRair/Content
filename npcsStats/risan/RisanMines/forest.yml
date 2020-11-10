@@ -33,13 +33,13 @@
 
   baseEffects:
     - name: Attribute
-      potency: 1.25
       extra:
+        potency: 1.25
         damageType: 'fire'
 
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'physical'
 
   gold:
@@ -108,12 +108,12 @@
 
   baseEffects:
     - name: Attribute
-      potency: 1.5
       extra:
+        potency: 1.5
         damageType: 'fire'
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'physical'
 
   gold:
@@ -183,12 +183,12 @@
 
   baseEffects:
     - name: Attribute
-      potency: 1.5
       extra:
+        potency: 1.5
         damageType: 'fire'
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'physical'
 
   gold:
@@ -248,13 +248,13 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'magical'
 
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'physical'
 
   traitLevels:

@@ -95,8 +95,7 @@
 
   baseEffects:
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
   triggers:
     spawn:
@@ -330,8 +329,7 @@
 
   baseEffects:
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
   usableSkills:
     - Boost
@@ -718,8 +716,8 @@
 
   baseEffects:
     - name: Attribute
-      potency: 1.5
       extra:
+        potency: 1.5
         damageType: 'fire'
 
 - npcId: Dedlaen Lizardman
@@ -872,8 +870,7 @@
 
   baseEffects:
     - name: TrueSight
-      extra:
-        isPermanent: true
+      endsAt: -1
 
 - npcId: Dedlaen Escort Townee
   name: townee
@@ -906,8 +903,7 @@
 
   baseEffects:
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
 
   triggers:
@@ -953,8 +949,7 @@
 
   baseEffects:
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
   triggers:
     leash:

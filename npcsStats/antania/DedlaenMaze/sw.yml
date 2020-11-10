@@ -37,13 +37,13 @@
 
   baseEffects:
     - name: Attribute
-      potency: 1.5
       extra:
+        potency: 1.5
         damageType: 'fire'
 
     - name: Attribute
-      potency: 0.5
       extra:
+        potency: 0.5
         damageType: 'physical'
 
   copyDrops:
@@ -137,8 +137,8 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0
       extra:
+        potency: 0
         damageType: 'physical'
 
   items:
@@ -193,13 +193,13 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0
       extra:
+        potency: 0
         damageType: 'physical'
 
     - name: Attribute
-      potency: 0
       extra:
+        potency: 0
         damageType: 'magical'
 
   tansFor: Dedlaen Ghost Cloak
@@ -215,11 +215,9 @@
 
   baseEffects:
     - name: TrueSight
-      extra:
-        isPermanent: true
+      endsAt: -1
     - name: Invisible
-      extra:
-        isPermanent: true
+      endsAt: -1
 
   triggers:
     leash:
@@ -274,8 +272,8 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0
       extra:
+        potency: 0
         damageType: 'necrotic'
 
   items:
@@ -292,12 +290,11 @@
 
   baseEffects:
     - name: TrueSight
-      extra:
-        isPermanent: true
+      endsAt: -1
     - name: NecroticAura
-      potency: 8
+      endsAt: -1
       extra:
-        isPermanent: true
+        potency: 8
 
 - npcId: Dedlaen Revenant
   name: revenant
@@ -338,8 +335,8 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'physical'
 
   items:

@@ -83,8 +83,7 @@
 
   baseEffects:
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
 - npcId: Risan Crazed Miner
   name: crazed miner
@@ -165,8 +164,7 @@
 
   baseEffects:
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
 - npcId: Mines Rockman
   name: rockman

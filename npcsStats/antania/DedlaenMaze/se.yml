@@ -24,8 +24,8 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0
       extra:
+        potency: 0
         damageType: 'magical'
 
   items:
@@ -107,13 +107,13 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.5
       extra:
+        potency: 0.5
         damageType: 'fire'
 
     - name: Attribute
-      potency: 1.75
       extra:
+        potency: 1.75
         damageType: 'ice'
 
   usableSkills:
@@ -239,8 +239,7 @@
 
   baseEffects:
     - name: TrueSight
-      extra:
-        isPermanent: true
+      endsAt: -1
 
   usableSkills:
     - ShredTwentyPercent

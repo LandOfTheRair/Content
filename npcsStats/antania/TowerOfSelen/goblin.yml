@@ -62,8 +62,7 @@
 
   baseEffects:
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
   copyDrops:
     - result: 'equipment.armor'
@@ -267,8 +266,7 @@
 
   baseEffects:
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
   usableSkills:
     - Boost

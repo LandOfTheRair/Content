@@ -37,12 +37,12 @@
 
   baseEffects:
     - name: Attribute
-      potency: 1.25
       extra:
+        potency: 1.25
         damageType: 'fire'
     - name: Attribute
-      potency: 0.25
       extra:
+        potency: 0.25
         damageType: 'ice'
 
   gold:
@@ -120,12 +120,12 @@
 
   baseEffects:
     - name: Attribute
-      potency: 1.5
       extra:
+        potency: 1.5
         damageType: 'fire'
     - name: Attribute
-      potency: 0.25
       extra:
+        potency: 0.25
         damageType: 'ice'
 
   gold:

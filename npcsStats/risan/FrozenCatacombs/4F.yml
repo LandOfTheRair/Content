@@ -112,18 +112,17 @@
 
   baseEffects:
     - name: Attribute
-      potency: 1.25
       extra:
+        potency: 1.25
         damageType: 'fire'
 
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'sharp'
 
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
   triggers:
     spawn:
@@ -229,18 +228,17 @@
 
   baseEffects:
     - name: Attribute
-      potency: 1.25
       extra:
+        potency: 1.25
         damageType: 'fire'
 
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'blunt'
 
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
 - npcId: Catacombs Ghost 4F
   name: ghost patriarch
@@ -362,18 +360,17 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'physical'
 
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'magical'
 
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
   triggers:
     spawn:
@@ -494,13 +491,12 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'energy'
 
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
 - npcId: Catacombs Nightwalker 4F
   name: nightwalker bloodbelt
@@ -598,18 +594,17 @@
 
   baseEffects:
     - name: Attribute
-      potency: 1.25
       extra:
+        potency: 1.25
         damageType: 'fire'
 
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'blunt'
 
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
 - npcId: Catacombs Qell 4F
   name: qell thief
@@ -758,8 +753,7 @@
 
   baseEffects:
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
 - npcId: Catacombs Spectre 4F
   name: spectre composite
@@ -864,13 +858,12 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'physical'
 
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
   drops:
     - result: Catacombs Raw Tourmaline

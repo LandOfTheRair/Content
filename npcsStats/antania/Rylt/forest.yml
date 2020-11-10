@@ -82,13 +82,13 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'magical'
 
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'physical'
 
   hp:
@@ -265,13 +265,13 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'magical'
 
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'physical'
 
   drops:

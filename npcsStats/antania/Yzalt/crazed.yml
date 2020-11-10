@@ -431,13 +431,13 @@
 
   baseEffects:
     - name: Attribute
-      potency: 1.5
       extra:
+        potency: 1.5
         damageType: 'fire'
 
     - name: Attribute
-      potency: 0.5 
       extra:
+        potency: 0.5 
         damageType: 'physical'
 
   items:
@@ -1148,8 +1148,7 @@
 
   baseEffects:
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
   triggers:
     combat:
@@ -1228,8 +1227,7 @@
 
   baseEffects:
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
   triggers:
     combat:

@@ -38,13 +38,13 @@
 
   baseEffects:
     - name: Attribute
-      potency: 1.5
       extra:
+        potency: 1.5
         damageType: 'fire'
 
     - name: Attribute
-      potency: 0.5
       extra:
+        potency: 0.5
         damageType: 'sharp'
 
   copyDrops:
@@ -109,13 +109,13 @@
 
   baseEffects:
     - name: Attribute
-      potency: 1.5
       extra:
+        potency: 1.5
         damageType: 'fire'
 
     - name: Attribute
-      potency: 0.5
       extra:
+        potency: 0.5
         damageType: 'sharp'
 
   copyDrops:
@@ -186,13 +186,13 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0
       extra:
+        potency: 0
         damageType: 'magical'
 
     - name: Attribute
-      potency: 0
       extra:
+        potency: 0
         damageType: 'physical'
 
   copyDrops:

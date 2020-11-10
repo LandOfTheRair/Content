@@ -33,12 +33,12 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0
       extra:
+        potency: 0
         damageType: 'fire'
     - name: Attribute
-      potency: 2
       extra:
+        potency: 2
         damageType: 'ice'
 
 - npcId: Christmas Present Elf
@@ -92,12 +92,12 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0
       extra:
+        potency: 0
         damageType: 'fire'
     - name: Attribute
-      potency: 2
       extra:
+        potency: 2
         damageType: 'ice'
 
 - npcId: Christmas Weak Snowman
@@ -178,12 +178,12 @@
 
   baseEffects:
     - name: Attribute
-      potency: 2
       extra:
+        potency: 2
         damageType: 'fire'
     - name: Attribute
-      potency: 0
       extra:
+        potency: 0
         damageType: 'ice'
 
 - npcId: Christmas Strong Snowman
@@ -264,12 +264,12 @@
 
   baseEffects:
     - name: Attribute
-      potency: 2
       extra:
+        potency: 2
         damageType: 'fire'
     - name: Attribute
-      potency: 0
       extra:
+        potency: 0
         damageType: 'ice'
 
 - npcId: Christmas King Snowman
@@ -365,12 +365,12 @@
 
   baseEffects:
     - name: Attribute
-      potency: 2
       extra:
+        potency: 2
         damageType: 'fire'
     - name: Attribute
-      potency: 0
       extra:
+        potency: 0
         damageType: 'ice'
 
 - npcId: Christmas Weak Reindeer
@@ -419,12 +419,12 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.5
       extra:
+        potency: 0.5
         damageType: 'fire'
     - name: Attribute
-      potency: 0.5
       extra:
+        potency: 0.5
         damageType: 'ice'
 
 - npcId: Christmas Strong Reindeer
@@ -480,10 +480,10 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.5
       extra:
+        potency: 0.5
         damageType: 'fire'
     - name: Attribute
-      potency: 0.5
       extra:
+        potency: 0.5
         damageType: 'ice'

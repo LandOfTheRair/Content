@@ -8,8 +8,7 @@
   baseEffects:
     - name: Unshakeable
     - name: Secondwind
-      extra:
-        isPermanent: true
+      endsAt: -1
 
   gold:
     min: 0

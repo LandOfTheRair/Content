@@ -51,19 +51,17 @@
       extra:
         enrageTimer: 300000
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'physical'
     - name: Attribute
-      potency: 0
       extra:
+        potency: 0
         damageType: 'ice'
     - name: TrueSight
-      extra:
-        isPermanent: true
+      endsAt: -1
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
   gold:
     min: 32350
@@ -154,21 +152,19 @@
         enrageTimer: 300000
 
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
 
     - name: TrueSight
-      extra:
-        isPermanent: true
+      endsAt: -1
 
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'magical'
 
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'physical'
 
   traitLevels:
@@ -272,13 +268,13 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.5
       extra:
+        potency: 0.5
         damageType: 'magical'
 
     - name: Attribute
-      potency: 0.5
       extra:
+        potency: 0.5
         damageType: 'physical'
 
   copyDrops:
@@ -379,21 +375,19 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.25
       extra:
+        potency: 0.25
         damageType: 'physical'
     - name: Attribute
-      potency: 0.25
       extra:
+        potency: 0.25
         damageType: 'magical'
 
     - name: TrueSight
-      extra:
-        isPermanent: true
+      endsAt: -1
 
     - name: DarkVision
-      extra:
-        isPermanent: true
+      endsAt: -1
   copyDrops:
     - result: 'equipment.rightHand'
       chance: -1

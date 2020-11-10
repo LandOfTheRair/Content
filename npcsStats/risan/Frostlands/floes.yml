@@ -35,8 +35,8 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'physical'
 
   traitLevels:
@@ -85,12 +85,12 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'physical'
     - name: Attribute
-      potency: 0
       extra:
+        potency: 0
         damageType: 'ice'
 
   traitLevels:

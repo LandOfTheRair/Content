@@ -53,16 +53,16 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'physical'
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'fire'
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'ice'
 
   gold:
@@ -140,16 +140,16 @@
 
   baseEffects:
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'physical'
     - name: Attribute
-      potency: 0.75
       extra:
+        potency: 0.75
         damageType: 'fire'
     - name: Attribute
-      potency: 0.25
       extra:
+        potency: 0.75
         damageType: 'ice'
 
   gold:
@@ -285,12 +285,12 @@
 
   baseEffects:
     - name: Attribute
-      potency: 1.75
       extra:
+        potency: 1.75
         damageType: 'fire'
     - name: Attribute
-      potency: 0
       extra:
+        potency: 0
         damageType: 'ice'
 
   copyDrops:
