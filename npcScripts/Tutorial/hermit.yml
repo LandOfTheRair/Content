@@ -154,7 +154,7 @@ dialog:
       actions:
         - type: giveEffect
           effect: TrueSight
-          duration: 100
+          duration: 500
           # will need other properties eventually
 
         - type: chat
