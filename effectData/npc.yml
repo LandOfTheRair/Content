@@ -1,9 +1,9 @@
 
 Unshakeable:
   tooltip:
-    name: 'uncertainty'
+    icon: 'uncertainty'
     color: '#000'
-    tooltipDesc: '???'
+    desc: '???'
   effect:
     type: buff
     extra:
@@ -11,9 +11,9 @@ Unshakeable:
       
 Attribute:
   tooltip:
-    name: 'uncertainty'
+    icon: 'uncertainty'
     color: '#000'
-    tooltipDesc: '???'
+    desc: '???'
   effect:
     type: buff
     extra:
@@ -21,9 +21,9 @@ Attribute:
       
 Mood:
   tooltip:
-    name: 'uncertainty'
+    icon: 'uncertainty'
     color: '#000'
-    tooltipDesc: '???'
+    desc: '???'
   effect:
     type: buff
     extra:
