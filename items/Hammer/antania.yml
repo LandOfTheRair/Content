@@ -2,7 +2,7 @@
   desc: "a hammer used for repairing gear"
   tier: 1
   type: Mace
-  value: 0
+  value: 100
   sprite: 226
 
 - name: Antanian Hammer
