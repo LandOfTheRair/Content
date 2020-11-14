@@ -6,6 +6,7 @@ Chase:
   color: '#000000'
   mode: 'lockActivation'
   tooltipDesc: 'Move towards a target.'
+  isDefault: true
 
 Climb:
   name: 'Climb'
@@ -14,6 +15,7 @@ Climb:
   color: '#D2691E'
   mode: 'autoActivate'
   tooltipDesc: 'Climb up or down on this tile.'
+  isDefault: true
 
 Look At:
   name: 'Look At'
@@ -22,6 +24,7 @@ Look At:
   color: '#8A6948'
   mode: 'clickToTarget'
   tooltipDesc: 'Look at a target, getting a full description of them and their gear.'
+  isDefault: true
 
 Show Skills:
   name: 'Show Skills'
@@ -30,6 +33,7 @@ Show Skills:
   color: '#000000'
   mode: 'autoActivate'
   tooltipDesc: 'See all of your skills and skill levels in text form.'
+  isDefault: true
 
 Show Stats:
   name: 'Show Stats'
@@ -38,6 +42,7 @@ Show Stats:
   color: '#000000'
   mode: 'autoActivate'
   tooltipDesc: 'See all of your stats and their base level in text form.'
+  isDefault: true
 
 Stairs:
   name: 'Stairs'
@@ -46,6 +51,7 @@ Stairs:
   color: '#404040'
   mode: 'autoActivate'
   tooltipDesc: 'Go up or down stairs on this tile.'
+  isDefault: true
 
 Clear Buffer:
   name: 'Clear Buffer'
@@ -55,6 +61,7 @@ Clear Buffer:
   mode: 'autoActivate'
   key: 'ESCAPE'
   tooltipDesc: 'Clear the command buffer, negating all future commands.'
+  isDefault: true
 
 Drink:
   name: 'Drink'
@@ -63,6 +70,7 @@ Drink:
   color: '#2020B2'
   mode: 'autoActivate'
   tooltipDesc: 'Drink a potion from your potion slot.'
+  isDefault: true
 
 Look:
   name: 'Look At Ground'
@@ -71,6 +79,7 @@ Look:
   color: '#665600'
   mode: 'autoActivate'
   tooltipDesc: 'Look at the ground without searching containers.'
+  isDefault: true
 
 Restore:
   name: 'Restore'
@@ -79,6 +88,7 @@ Restore:
   color: '#8A6948'
   mode: 'autoActivate'
   tooltipDesc: 'Revive and go back to a respawn point.'
+  isDefault: true
 
 Search:
   name: 'Search'
@@ -87,6 +97,7 @@ Search:
   color: '#665600'
   mode: 'autoActivate'
   tooltipDesc: 'Look at the ground and search containers for items.'
+  isDefault: true
 
 Attack:
   name: 'Attack'
@@ -95,6 +106,7 @@ Attack:
   color: '#530000'
   mode: 'lockActivation'
   tooltipDesc: 'Physically attack a target with the item in your right hand.'
+  isDefault: true
 
 Hide:
   name: 'Hide'
@@ -104,6 +116,7 @@ Hide:
   bgColor: '#000000'
   mode: 'autoActivate'
   tooltipDesc: 'Hide in the shadows.'
+  isDefault: true
 
 Kick:
   name: 'Kick'
@@ -112,6 +125,7 @@ Kick:
   color: '#530000'
   mode: 'lockActivation'
   tooltipDesc: 'Physically attack a target with your boots.'
+  isDefault: true
 
 Steal:
   name: 'Steal'
@@ -120,6 +134,7 @@ Steal:
   color: '#7F6B00'
   mode: 'lockActivation'
   tooltipDesc: 'Steal gold and items from your target.'
+  isDefault: true
 
 Throw:
   name: 'Throw'
@@ -128,3 +143,4 @@ Throw:
   color: '#530000'
   mode: 'lockActivation'
   tooltipDesc: 'Throw an item at a target.'
+  isDefault: true
