@@ -70,6 +70,14 @@ const EarClasses = [
   'Earring'
 ];
 
+const SackableWeaponClasses = [
+  'Axe', 'Dagger', 'Hammer', 'Saucer'
+];
+
+const SackableArmorClasses = [
+  'Tunic', 'Fur'
+];
+
 const EquippableItemClasses = HeadClasses
   .concat(NeckClasses)
   .concat(WaistClasses)
@@ -88,17 +96,21 @@ const EquippableItemClassesWithWeapons = EquippableItemClasses
 const isWeapon = (item) => WeaponClasses.includes(item.itemClass);
 const isArmor = (item) => ArmorClasses.includes(item.itemClass);
 
-const conditionallyAddInformation = (item) => {
-  item.isSackable = true;
-  
+const conditionallyAddInformation = (item) => {  
   if(isWeapon(item)) {
     if(isUndefined(item.isBeltable))  item.isBeltable = true;
     if(isUndefined(item.isSackable))  item.isSackable = false;
+
+    if(SackableWeaponClasses.includes(item.itemClass) && !item.twoHanded) item.isSackable = true;
   }
 
   if(isArmor(item)) {
     if(isUndefined(item.isBeltable))  item.isBeltable = false;
     if(isUndefined(item.isSackable))  item.isSackable = false;
+
+    if(SackableArmorClasses.includes(item.itemClass)) {
+      if(isUndefined(item.isSackable)) item.isSackable = true;
+    }
 
     if(['Tunic', 'Fur', 'Scaleplate'].includes(item.itemClass)) {
       if(!item.stats.mitigation) item.stats.mitigation = 10;
@@ -107,6 +119,10 @@ const conditionallyAddInformation = (item) => {
     if(['Breastplate', 'Fullplate'].includes(item.itemClass)) {
       if(!item.stats.mitigation) item.stats.mitigation = 25;
     }
+  }
+
+  if(isUndefined(item.isSackable)) {
+    item.isSackable = true;
   }
 
   if(item.itemClass === 'Twig') {
