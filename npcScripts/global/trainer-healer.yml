@@ -11,4 +11,4 @@ items:
     
 behaviors:
   - type: trainer
-    trainClass: Healer
+    trainClass: [Healer]

@@ -12,4 +12,4 @@ items:
     
 behaviors:
   - type: trainer
-    trainClass: Warrior
+    trainClass: [Warrior]
