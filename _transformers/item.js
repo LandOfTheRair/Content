@@ -4,7 +4,7 @@ const path = require('path');
 const recurse = require('recursive-readdir');
 const fs = require('fs');
 
-const { capitalize, isUndefined, isNumber } = require('lodash');
+const { capitalize, isUndefined, isNumber, isString } = require('lodash');
 
 const ValidItemTypes = [
   'Mace', 'Axe', 'Dagger', 'Wand', 'Onehanded', 'Twohanded', 'Polearm', 'Ranged',
@@ -186,6 +186,11 @@ const conditionallyAddInformation = (item) => {
 
   item.type = capitalize(item.type);
   if(item.secondaryType) item.secondaryType = capitalize(item.secondaryType);
+
+  if(item.randomTrait) {
+    if(isString(item.randomTrait.name)) item.randomTrait.name = [item.randomTrait.name];
+    if(isNumber(item.randomTrait.level)) item.randomTrait.level = { min: item.randomTrait.level, max: item.randomTrait.level };
+  }
 };
 
 const validateItem = (item) => {
