@@ -2,7 +2,7 @@
 tag: Trainer Healer
 name: Healer Trainer
 hostility: Never
-affiliation: Master Thief
+affiliation: Adept Healer
 
 items:
   equipment:
@@ -11,3 +11,4 @@ items:
     
 behaviors:
   - type: trainer
+    trainClass: Healer

@@ -2,7 +2,7 @@
 tag: Trainer Warrior
 name: Warrior Trainer
 hostility: Never
-affiliation: Master Thief
+affiliation: Adept Warrior
 
 items:
   equipment:
@@ -12,3 +12,4 @@ items:
     
 behaviors:
   - type: trainer
+    trainClass: Warrior

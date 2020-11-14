@@ -2,7 +2,7 @@
 tag: Trainer Mage
 name: Mage Trainer
 hostility: Never
-affiliation: Master Thief
+affiliation: Adept Mage
 
 items:
   equipment:
@@ -11,3 +11,4 @@ items:
     
 behaviors:
   - type: trainer
+    trainClass: Mage
