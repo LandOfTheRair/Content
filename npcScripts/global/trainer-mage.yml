@@ -12,3 +12,4 @@ items:
 behaviors:
   - type: trainer
     trainClass: [Mage]
+    joinClass: Mage

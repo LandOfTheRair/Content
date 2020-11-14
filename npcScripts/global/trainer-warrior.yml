@@ -13,3 +13,4 @@ items:
 behaviors:
   - type: trainer
     trainClass: [Warrior]
+    joinClass: Warrior

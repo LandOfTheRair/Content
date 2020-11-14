@@ -12,3 +12,4 @@ items:
 behaviors:
   - type: trainer
     trainClass: [Thief]
+    joinClass: Thief
