@@ -184,13 +184,13 @@ const conditionallyAddInformation = (item) => {
     item.trapUses = item.trapUses || 1;
   }
 
-  item.type = capitalize(item.type);
-  if(item.secondaryType) item.secondaryType = capitalize(item.secondaryType);
-
   if(item.randomTrait) {
     if(isString(item.randomTrait.name)) item.randomTrait.name = [item.randomTrait.name];
     if(isNumber(item.randomTrait.level)) item.randomTrait.level = { min: item.randomTrait.level, max: item.randomTrait.level };
   }
+
+  item.type = item.type.toLowerCase();
+  if(item.secondaryType) item.secondaryType = item.secondaryType.toLowerCase();
 };
 
 const validateItem = (item) => {
