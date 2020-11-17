@@ -8,6 +8,17 @@ Unshakeable:
     type: buff
     extra:
       unique: true
+
+Dangerous:
+  tooltip:
+    icon: 'crowned-skull'
+    bgColor: '#000'
+    color: '#fff'
+    desc: 'This creature is dangerous! It has above average stats and may strip your gear on death.'
+  effect:
+    type: buff
+    extra:
+      unique: true
       
 Attribute:
   tooltip:
