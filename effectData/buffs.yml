@@ -6,8 +6,9 @@ TrueSight:
     desc: 'Seeing other planes of existence.'
   effect:
     type: buff
-    canRemove: true
+    duration: 600
     extra:
+      canRemove: true
       unique: true
       
 DarkVision:
@@ -17,8 +18,9 @@ DarkVision:
     desc: '???'
   effect:
     type: buff
-    canRemove: true
+    duration: 600
     extra:
+      canRemove: true
       unique: true
       
 Secondwind:
@@ -28,6 +30,7 @@ Secondwind:
     desc: '???'
   effect:
     type: buff
-    canRemove: true
+    duration: 600
     extra:
+      canRemove: true
       unique: true

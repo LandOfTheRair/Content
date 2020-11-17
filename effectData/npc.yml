@@ -6,6 +6,7 @@ Unshakeable:
     desc: '???'
   effect:
     type: buff
+    duration: -1
     extra:
       unique: true
 
@@ -17,6 +18,7 @@ Dangerous:
     desc: 'This creature is dangerous! It has above average stats and may strip your gear on death.'
   effect:
     type: buff
+    duration: -1
     extra:
       unique: true
       
@@ -27,6 +29,7 @@ Attribute:
     desc: '???'
   effect:
     type: buff
+    duration: -1
     extra:
       unique: true
       
@@ -37,5 +40,6 @@ Mood:
     desc: '???'
   effect:
     type: buff
+    duration: -1
     extra:
       unique: true

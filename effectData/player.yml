@@ -6,6 +6,7 @@ Swimming:
     desc: You are swimming. Find land soon or you'll start drowning!
   effect:
     type: debuff
+    duration: 15
     extra:
       unique: true
 
@@ -16,6 +17,7 @@ Drowning:
     desc: You are drowning. Find land soon or you'll die!
   effect:
     type: debuff
+    duration: -1
     extra:
       unique: true
 
@@ -26,9 +28,11 @@ Sated:
     desc: 'You feel fine.'
   effect:
     type: debuff
+    duration: 600
     extra:
       hidden: true
       unique: true
+      removeOnDeath: false
 
 Nourished:
   tooltip:
@@ -37,9 +41,11 @@ Nourished:
     desc: 'You feel great.'
   effect:
     type: buff
-    canRemove: true
+    duration: 21600
     extra:
+      canRemove: true
       unique: true
+      removeOnDeath: false
 
 Malnourished:
   tooltip:
@@ -48,8 +54,10 @@ Malnourished:
     desc: 'Seek food or drink.'
   effect:
     type: debuff
+    duration: -1
     extra:
       unique: true
+      removeOnDeath: false
 
 Dead:
   tooltip:
@@ -58,8 +66,10 @@ Dead:
     desc: 'You are dead. Use the restore macro to come back to life. If you wait too long, your body will rot, risking stat loss!'
   effect:
     type: debuff
+    duration: 500
     extra:
       unique: true
+      removeOnDeath: false
 
 Encumbered:
   tooltip:
@@ -68,8 +78,10 @@ Encumbered:
     desc: 'You are encumbered, which inhibits spellcasting.'
   effect:
     type: debuff
+    duration: -1
     extra:
       unique: true
+      removeOnDeath: false
 
 LowCON:
   tooltip:
@@ -78,8 +90,10 @@ LowCON:
     desc: 'Your CON is dangerously low - drink a CON pot or risk getting stripped and losing permanent health.'
   effect:
     type: debuff
+    duration: -1
     extra:
       unique: true
+      removeOnDeath: false
 
 Newbie:
   tooltip:
@@ -89,5 +103,7 @@ Newbie:
     desc: 'This player is new! Gain +10% XP to all kills.'
   effect:
     type: debuff
+    duration: -1
     extra:
       unique: true
+      removeOnDeath: false
