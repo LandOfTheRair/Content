@@ -32,7 +32,7 @@ Sated:
     extra:
       hidden: true
       unique: true
-      removeOnDeath: false
+      persistThroughDeath: false
 
 Nourished:
   tooltip:
@@ -45,7 +45,7 @@ Nourished:
     extra:
       canRemove: true
       unique: true
-      removeOnDeath: false
+      persistThroughDeath: false
 
 Malnourished:
   tooltip:
@@ -57,7 +57,7 @@ Malnourished:
     duration: -1
     extra:
       unique: true
-      removeOnDeath: false
+      persistThroughDeath: false
 
 Dead:
   tooltip:
@@ -69,7 +69,7 @@ Dead:
     duration: 500
     extra:
       unique: true
-      removeOnDeath: false
+      persistThroughDeath: false
 
 Encumbered:
   tooltip:
@@ -81,7 +81,7 @@ Encumbered:
     duration: -1
     extra:
       unique: true
-      removeOnDeath: false
+      persistThroughDeath: false
 
 LowCON:
   tooltip:
@@ -93,7 +93,7 @@ LowCON:
     duration: -1
     extra:
       unique: true
-      removeOnDeath: false
+      persistThroughDeath: false
 
 Newbie:
   tooltip:
@@ -106,4 +106,4 @@ Newbie:
     duration: -1
     extra:
       unique: true
-      removeOnDeath: false
+      persistThroughDeath: false
