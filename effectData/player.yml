@@ -9,6 +9,8 @@ Swimming:
     duration: 15
     extra:
       unique: true
+  meta:
+    effectRef: Swimming
 
 Drowning:
   tooltip:
@@ -20,6 +22,8 @@ Drowning:
     duration: -1
     extra:
       unique: true
+  meta:
+    effectRef: Drowning
 
 Sated:
   tooltip:
@@ -32,7 +36,7 @@ Sated:
     extra:
       hidden: true
       unique: true
-      persistThroughDeath: false
+      persistThroughDeath: true
 
 Nourished:
   tooltip:
@@ -45,7 +49,7 @@ Nourished:
     extra:
       canRemove: true
       unique: true
-      persistThroughDeath: false
+      persistThroughDeath: true
 
 Malnourished:
   tooltip:
@@ -57,7 +61,16 @@ Malnourished:
     duration: -1
     extra:
       unique: true
-      persistThroughDeath: false
+      persistThroughDeath: true
+      statChanges:
+        hpregen: -1
+        mpregen: -1
+        str: -1
+        dex: -1
+        agi: -1
+        int: -1
+        wis: -1
+        wil: -1
 
 Dead:
   tooltip:
@@ -69,7 +82,7 @@ Dead:
     duration: 500
     extra:
       unique: true
-      persistThroughDeath: false
+      persistThroughDeath: true
 
 Encumbered:
   tooltip:
@@ -81,7 +94,7 @@ Encumbered:
     duration: -1
     extra:
       unique: true
-      persistThroughDeath: false
+      persistThroughDeath: true
 
 LowCON:
   tooltip:
@@ -93,7 +106,10 @@ LowCON:
     duration: -1
     extra:
       unique: true
-      persistThroughDeath: false
+      persistThroughDeath: true
+  meta:
+    applyMessage: 'Your consitition is dangerously low.'
+    unapplyMessage: 'You are no longer in danger of losing health or getting stripped.'
 
 Newbie:
   tooltip:
@@ -103,7 +119,8 @@ Newbie:
     desc: 'This player is new! Gain +10% XP to all kills.'
   effect:
     type: debuff
-    duration: -1
+    duration: 99999
     extra:
       unique: true
-      persistThroughDeath: false
+      statChanges:
+        xpBonusPercent: 10
