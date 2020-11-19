@@ -36,7 +36,7 @@ const coreStats = {
 };
 
 const otherStats = {
-  move: 3,
+  move: 2,
   hpregen: 1,
   mpregen: 1,
   hp: 100,
