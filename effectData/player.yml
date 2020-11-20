@@ -27,7 +27,7 @@ Drowning:
 
 Sated:
   tooltip:
-    name: 'meal'
+    icon: 'meal'
     color: '#000'
     desc: 'You feel fine.'
   effect:
@@ -40,7 +40,7 @@ Sated:
 
 Nourished:
   tooltip:
-    name: 'meal'
+    icon: 'meal'
     color: '#000'
     desc: 'You feel great.'
   effect:
@@ -53,7 +53,7 @@ Nourished:
 
 Malnourished:
   tooltip:
-    name: 'meal'
+    icon: 'meal'
     color: '#f00'
     desc: 'Seek food or drink.'
   effect:
@@ -74,7 +74,7 @@ Malnourished:
 
 Dead:
   tooltip:
-    name: 'broken-skull'
+    icon: 'broken-skull'
     color: '#f00'
     desc: 'You are dead. Use the restore macro to come back to life. If you wait too long, your body will rot, risking stat loss!'
   effect:
@@ -83,10 +83,12 @@ Dead:
     extra:
       unique: true
       persistThroughDeath: true
+  meta:
+    effectRef: Dead
 
 Encumbered:
   tooltip:
-    name: 'armor-vest'
+    icon: 'armor-vest'
     color: '#f00'
     desc: 'You are encumbered, which inhibits spellcasting.'
   effect:
@@ -98,7 +100,7 @@ Encumbered:
 
 LowCON:
   tooltip:
-    name: 'glass-heart'
+    icon: 'glass-heart'
     color: '#f00'
     desc: 'Your CON is dangerously low - drink a CON pot or risk getting stripped and losing permanent health.'
   effect:
@@ -110,10 +112,11 @@ LowCON:
   meta:
     applyMessage: 'Your consitition is dangerously low.'
     unapplyMessage: 'You are no longer in danger of losing health or getting stripped.'
+    effectRef: LowCON
 
 Newbie:
   tooltip:
-    name: 'person'
+    icon: 'person'
     bgColor: '#000'
     color: '#0a0'
     desc: 'This player is new! Gain +10% XP to all kills.'
