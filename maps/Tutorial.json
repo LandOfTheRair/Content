@@ -1150,6 +1150,7 @@
  "properties":
     {
      "itemExpirationHours":1,
+     "maxLevel":5,
      "maxSkill":3,
      "region":"Tutorial",
      "respawnX":14,
@@ -1158,6 +1159,7 @@
  "propertytypes":
     {
      "itemExpirationHours":"int",
+     "maxLevel":"int",
      "maxSkill":"int",
      "region":"string",
      "respawnX":"int",
