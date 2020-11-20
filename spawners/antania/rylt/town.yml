@@ -2,8 +2,10 @@ npcIds:
     - {result: 'Rylt Townee', chance: 1}
     - {result: 'Rylt Guard', chance: 1}
 paths:
-    - '34-E 6-S 34-W 6-N'
-    - '6-S 34-E 6-N 34-W'
+    - '34-E 6-N 17-W 3-N 17-W 9-S'
+    - '9-N 17-E 3-S 17-E 6-S 34-W'
+    - '9-N 17-E 9-S 17-W'
+    - '34-E 6-N 17-W 6-S 17-W'
 respawnRate: 15
 initialSpawn: 3
 maxCreatures: 15
