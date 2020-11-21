@@ -16,7 +16,7 @@
     extra:
       tooltip: "+3 HP Regen"
       message: "The bread is delicious!"
-      stats:
+      statChanges:
         hpregen: 3
     duration: 21600
 
@@ -31,7 +31,7 @@
     extra:
       tooltip: "+3 HP Regen"
       message: "The bread is delicious!"
-      stats:
+      statChanges:
         hpregen: 3
     duration: 21600
 
@@ -46,7 +46,7 @@
     extra:
       tooltip: "+1 STR, +1 WIL"
       message: "The bread is unappealing, but filling!"
-      stats:
+      statChanges:
         str: 1
         wil: 1
     duration: 42200
@@ -62,7 +62,7 @@
     extra:
       tooltip: "+1 STR, +1 WIL"
       message: "The bread is unappealing, but filling!"
-      stats:
+      statChanges:
         str: 1
         wil: 1
     duration: 42200

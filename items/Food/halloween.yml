@@ -11,7 +11,7 @@
     extra:
       tooltip: "+3 All Stats"
       message: "Wowza, what a strong sugar rush!"
-      stats:
+      statChanges:
         str: 3
         dex: 3
         agi: 3
@@ -35,7 +35,7 @@
     extra:
       tooltip: "+5 AGI"
       message: "Whew, what a sugar rush!"
-      stats:
+      statChanges:
         agi: 5
     duration: 300
 
@@ -51,7 +51,7 @@
     extra:
       tooltip: "+5 STR"
       message: "Whew, what a sugar rush!"
-      stats:
+      statChanges:
         str: 5
     duration: 300
 
@@ -67,7 +67,7 @@
     extra:
       tooltip: "+5 INT"
       message: "Whew, what a sugar rush!"
-      stats:
+      statChanges:
         int: 5
     duration: 300
 
@@ -83,7 +83,7 @@
     extra:
       tooltip: "+5 DEX"
       message: "Whew, what a sugar rush!"
-      stats:
+      statChanges:
         dex: 5
     duration: 300
 
@@ -99,7 +99,7 @@
     extra:
       tooltip: "+5 WIS"
       message: "Whew, what a sugar rush!"
-      stats:
+      statChanges:
         wis: 5
     duration: 300
 
@@ -115,6 +115,6 @@
     extra:
       tooltip: "-2 INT"
       message: "Gross! Don't make that mistake twice."
-      stats:
+      statChanges:
         int: -2
     duration: 3600

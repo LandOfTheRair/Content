@@ -10,7 +10,7 @@
     extra:
       tooltip: "-1 CON"
       message: "Yuck! Ink is not the best choice to drink."
-      stats:
+      statChanges:
         con: -1
     duration: 30
 
@@ -24,7 +24,7 @@
     extra:
       tooltip: "-1 CON"
       message: "Yuck! Ink is not the best choice to drink."
-      stats:
+      statChanges:
         con: -1
     duration: 30
 
@@ -39,7 +39,7 @@
     extra:
       tooltip: "-1 CON"
       message: "Yuck! Ink is not the best choice to drink."
-      stats:
+      statChanges:
         con: -1
     duration: 30
 
@@ -54,7 +54,7 @@
     extra:
       tooltip: "-1 CON"
       message: "Yuck! Ink is not the best choice to drink."
-      stats:
+      statChanges:
         con: -1
     duration: 30
 

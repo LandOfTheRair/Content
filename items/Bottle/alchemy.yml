@@ -16,7 +16,7 @@
     extra:
       tooltip: "+3 MP Regen"
       message: "The water quenches your thirst."
-      stats:
+      statChanges:
         mpregen: 3
     duration: 10800
 
@@ -31,6 +31,6 @@
     extra:
       tooltip: "+3 MP Regen"
       message: "The water quenches your thirst."
-      stats:
+      statChanges:
         mpregen: 3
     duration: 10800

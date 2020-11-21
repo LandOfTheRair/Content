@@ -9,7 +9,7 @@
     extra:
       tooltip: "+1 STR"
       message: "The beat meat is tender!"
-      stats:
+      statChanges:
         str: 1
     duration: 10800
 
@@ -23,7 +23,7 @@
     extra:
       tooltip: "+1 INT"
       message: "The apple is delicious!"
-      stats:
+      statChanges:
         int: 1
     duration: 3600
 
@@ -37,7 +37,7 @@
     extra:
       tooltip: "+1 STR, +1 DEX, +1 AGI"
       message: "The egg innards has a strangely rough texture."
-      stats:
+      statChanges:
         str: 1
         dex: 1
         agi: 1
@@ -55,7 +55,7 @@
     extra:
       tooltip: "+100 Poison Resist, +50 Disease Resist"
       message: "The grub tastes like decaying flesh. At least you lost your appetite."
-      stats:
+      statChanges:
         poisonResist: 100
         diseaseResist: 50
     duration: 21600
@@ -70,7 +70,7 @@
     extra:
       tooltip: "+50 HP/MP, +5 HP/MP Regen, +10 Physical Resist"
       message: "The gourd is sweet and delicious!"
-      stats:
+      statChanges:
         hp: 50
         mp: 50
         hpregen: 5
@@ -87,7 +87,7 @@
     potency: 1
     extra:
       tooltip: "+1 All Stats"
-      stats:
+      statChanges:
         str: 1
         dex: 1
         agi: 1

@@ -11,7 +11,7 @@
     extra:
       tooltip: "+2 CHA"
       message: "The corn is tasty!"
-      stats:
+      statChanges:
         cha: 2
     duration: 1800
 

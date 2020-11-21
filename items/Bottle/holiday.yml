@@ -65,6 +65,6 @@
     extra:
       tooltip: "+3 WIL"
       message: "The egg nog is delicious!"
-      stats:
+      statChanges:
         wil: 3
     duration: 21600

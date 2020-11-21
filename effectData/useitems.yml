@@ -1,0 +1,8 @@
+
+ExactHeal:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  meta:
+    effectRef: ExactHeal
