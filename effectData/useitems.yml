@@ -6,3 +6,91 @@ ExactHeal:
       potency: 1
   meta:
     effectRef: ExactHeal
+
+PermanentSTR:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  meta:
+    effectRef: PermanentSTR
+
+PermanentAGI:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  meta:
+    effectRef: PermanentAGI
+
+PermanentDEX:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  meta:
+    effectRef: PermanentDEX
+
+PermanentINT:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  meta:
+    effectRef: PermanentINT
+
+PermanentWIS:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  meta:
+    effectRef: PermanentWIS
+
+PermanentWIL:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  meta:
+    effectRef: PermanentWIL
+
+PermanentCON:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  meta:
+    effectRef: PermanentCON
+
+PermanentCHA:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  meta:
+    effectRef: PermanentCHA
+
+PermanentLUK:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  meta:
+    effectRef: PermanentLUK
+
+MinorHP:
+  effect:
+    type: useonly
+    extra:
+      potency: 2
+  meta:
+    effectRef: MinorHP
+
+MinorMP:
+  effect:
+    type: useonly
+    extra:
+      potency: 2
+  meta:
+    effectRef: MinorMP
