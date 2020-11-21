@@ -37,8 +37,10 @@ Sated:
       hidden: true
       unique: true
       persistThroughDeath: true
+  meta:
+    effectRef: Sated
 
-Nourished:
+Nourishment:
   tooltip:
     icon: 'meal'
     color: '#000'
@@ -50,12 +52,15 @@ Nourished:
       canRemove: true
       unique: true
       persistThroughDeath: true
+  meta:
+    effectRef: Nourishment
+    unapplyMessage: 'Your nourishment fades.'
 
 Malnourished:
   tooltip:
     icon: 'meal'
     color: '#f00'
-    desc: 'Seek food or drink.'
+    desc: 'Seek food or drink. -1 STR/DEX/AGI/INT/WIS/WIL/HPREGEN/MPREGEN.'
   effect:
     type: debuff
     duration: -1
@@ -71,6 +76,9 @@ Malnourished:
         int: -1
         wis: -1
         wil: -1
+  meta:
+    effectRef: Malnourished
+    applyMessage: 'You are starving!'
 
 Dead:
   tooltip:
