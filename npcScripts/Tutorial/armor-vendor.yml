@@ -4,6 +4,10 @@ name: Armor Vendor
 hostility: Never
 affiliation: Armor Vendor
 
+hp:
+  min: 100000
+  max: 100000
+
 items:
   equipment:
     rightHand: Antanian Longsword

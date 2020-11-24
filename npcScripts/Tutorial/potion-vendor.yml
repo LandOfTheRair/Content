@@ -4,6 +4,10 @@ name: Potion Vendor
 hostility: Never
 affiliation: Potion Vendor
 
+hp:
+  min: 100000
+  max: 100000
+
 items:
   equipment:
     rightHand: Mend Bottle

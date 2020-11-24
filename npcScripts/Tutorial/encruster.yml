@@ -4,6 +4,10 @@ name: Encruster
 hostility: Never
 affiliation: Encruster's Guild
 
+hp:
+  min: 100000
+  max: 100000
+
 items:
   equipment:
     rightHand: Antanian Shortsword

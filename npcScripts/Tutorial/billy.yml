@@ -4,6 +4,10 @@ name: Billy
 hostility: Never
 affiliation: Lost Child
 
+hp:
+  min: 100000
+  max: 100000
+
 items:
   equipment:
     armor: Antanian Tunic

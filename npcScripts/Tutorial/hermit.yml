@@ -4,6 +4,10 @@ name: Hermit
 hostility: Never
 affiliation: Drakkarian Hermit
 
+hp:
+  min: 100000
+  max: 100000
+
 baseEffects:
   - name: TrueSight
     endsAt: -1

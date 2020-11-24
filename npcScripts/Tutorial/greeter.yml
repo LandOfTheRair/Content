@@ -4,6 +4,10 @@ name: Greeter
 hostility: Never
 affiliation: Welcome to Land of the Rair!
 
+hp:
+  min: 100000
+  max: 100000
+
 items:
   equipment:
     armor: Antanian Tunic

@@ -4,6 +4,10 @@ name: Mage Trainer
 hostility: Never
 affiliation: Adept Mage
 
+hp:
+  min: 100000
+  max: 100000
+
 items:
   equipment:
     rightHand: Antanian Staff

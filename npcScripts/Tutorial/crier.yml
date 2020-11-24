@@ -4,6 +4,10 @@ name: Crier
 hostility: Never
 affiliation: Town Crier
 
+hp:
+  min: 100000
+  max: 100000
+
 items:
   equipment:
     armor: Antanian Tunic
