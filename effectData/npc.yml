@@ -43,3 +43,19 @@ Mood:
     duration: -1
     extra:
       unique: true
+      
+Dangerous:
+  tooltip:
+    icon: 'crowned-skull'
+    color: '#fff'
+    bgColor: '#000'
+    desc: This creature is dangerous! IT has above average stats and may strip your gear on death.'
+  effect:
+    type: buff
+    duration: -1
+    extra:
+      unique: true
+      statChanges:
+        hpregen: 100
+  meta:
+    effectRef: Dangerous
