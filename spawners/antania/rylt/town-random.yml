@@ -1,5 +1,6 @@
 npcIds:
-    - {result: 'Rylt Townee', chance: 1}
+    - {result: 'Rylt Townee', chance: 5}
+    - {result: 'Dog', chance: 1}
 respawnRate: 15
 initialSpawn: 1
 maxCreatures: 3

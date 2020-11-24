@@ -97,6 +97,8 @@ const assignReputations = (npc) => {
 }
 
 const conditionallyAddInformation = (npc) => {
+  if(isString(npc.name)) npc.name = [npc.name];
+  
   if(!npc.allegiance) npc.allegiance = 'Enemy';
 
   if(!npc.skillOnKill) npc.skillOnKill = 1;

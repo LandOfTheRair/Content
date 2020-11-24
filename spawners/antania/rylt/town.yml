@@ -1,6 +1,7 @@
 npcIds:
-    - {result: 'Rylt Townee', chance: 1}
-    - {result: 'Rylt Guard', chance: 1}
+    - {result: 'Rylt Townee', chance: 5}
+    - {result: 'Rylt Guard', chance: 4}
+    - {result: 'Dog', chance: 1}
 paths:
     - '34-E 6-N 17-W 3-N 17-W 9-S'
     - '9-N 17-E 3-S 17-E 6-S 34-W'

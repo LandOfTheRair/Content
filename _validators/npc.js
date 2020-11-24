@@ -21,7 +21,7 @@ const npcSchema = [
   ['gold', true, isRandomNumber],
   ['skillOnKill', true, isInteger],
 
-  ['name', false, isString],
+  ['name', false, isArray],
   ['alignment', false, isString],
   ['affiliation', false, isString],
   ['allegiance', false, isString],

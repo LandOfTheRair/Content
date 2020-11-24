@@ -21,3 +21,35 @@
   giveXp:
     min: 0
     max: 0
+
+- npcId: Dog
+  name: 
+    - dog
+    - Ein
+    - Dew
+    - Borks
+    - Teddy
+    - Grumble
+    - Riley
+
+  allegiance: None
+  monsterClass: Beast
+  stats: 15
+  skillLevels: 5
+  level: 10
+
+  skillOnKill: 1
+
+  sprite: 65
+
+  hp:
+    min: 500
+    max: 700
+
+  gold:
+    min: 0
+    max: 0
+
+  giveXp:
+    min: 1
+    max: 2

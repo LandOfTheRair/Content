@@ -1,6 +1,7 @@
 npcIds:
-    - {result: 'Heniz Townee', chance: 5}
-    - {result: 'Heniz Child', chance: 1}
+    - {result: 'Heniz Townee', chance: 10}
+    - {result: 'Heniz Child', chance: 5}
+    - {result: 'Dog', chance: 1}
 paths:
     - '18-W 8-N 1-NW 3-N 1-NE 5-N 2-E 3-S 2-W 2-S 1-SW 6-S 1-SE 6-S 18-E'
     - '17-N 4-W 2-S 4-E 15-S'
