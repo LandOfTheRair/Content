@@ -51,7 +51,7 @@
     max: 29350
 
   giveXp:
-    min: 32000
-    max: 35000
+    min: 3200
+    max: 3500
 
   tansFor: Crazed Beast Fur

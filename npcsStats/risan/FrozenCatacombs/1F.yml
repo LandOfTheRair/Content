@@ -84,8 +84,8 @@
     max: 59350
 
   giveXp:
-    min: 47000
-    max: 49000
+    min: 4700
+    max: 4900
 
   baseEffects:
     - name: Attribute
@@ -188,8 +188,8 @@
     max: 59350
 
   giveXp:
-    min: 47000
-    max: 49000
+    min: 4700
+    max: 4900
 
   baseEffects:
     - name: Attribute
@@ -292,8 +292,8 @@
     max: 59350
 
   giveXp:
-    min: 47000
-    max: 49000
+    min: 4700
+    max: 4900
 
   mp:
     min: 10000
@@ -404,8 +404,8 @@
     max: 59350
 
   giveXp:
-    min: 47000
-    max: 49000
+    min: 4700
+    max: 4900
 
   mp:
     min: 10000
@@ -501,8 +501,8 @@
     max: 59350
 
   giveXp:
-    min: 47000
-    max: 49000
+    min: 4700
+    max: 4900
 
   baseEffects:
     - name: Attribute
@@ -607,8 +607,8 @@
     max: 59350
 
   giveXp:
-    min: 47000
-    max: 49000
+    min: 4700
+    max: 4900
 
   mp:
     min: 1000
@@ -707,8 +707,8 @@
     max: 59350
 
   giveXp:
-    min: 47000
-    max: 49000
+    min: 4700
+    max: 4900
 
   mp:
     min: 1000

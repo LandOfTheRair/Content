@@ -27,8 +27,8 @@
     max: 8470
 
   giveXp:
-    min: 10000
-    max: 15000
+    min: 1000
+    max: 1500
 
   items:
     equipment:
@@ -86,8 +86,8 @@
     max: 12350
 
   giveXp:
-    min: 19000
-    max: 22000
+    min: 1900
+    max: 2200
 
   items:
     equipment:
@@ -132,8 +132,8 @@
     max: 1000
 
   giveXp:
-    min: 11000
-    max: 15000
+    min: 1100
+    max: 1500
 
   baseEffects:
     - name: Attribute
@@ -188,8 +188,8 @@
     max: 10000
 
   giveXp:
-    min: 141000
-    max: 145000
+    min: 14100
+    max: 14500
 
   baseEffects:
     - name: Attribute
@@ -267,8 +267,8 @@
     max: 259350
 
   giveXp:
-    min: 199000
-    max: 202000
+    min: 19900
+    max: 20200
 
   baseEffects:
     - name: Attribute

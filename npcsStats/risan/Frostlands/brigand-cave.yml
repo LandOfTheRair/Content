@@ -97,8 +97,8 @@
     max: 5000
 
   giveXp:
-    min: 87000
-    max: 90000
+    min: 8700
+    max: 9000
 
 - npcId: Frostlands Brigand Mage
   name: brigand
@@ -197,8 +197,8 @@
     max: 5000
 
   giveXp:
-    min: 91000
-    max: 97000
+    min: 9100
+    max: 9700
 
 - npcId: Frostlands Brigand Healer
   name: brigand
@@ -311,8 +311,8 @@
     max: 5000
 
   giveXp:
-    min: 91000
-    max: 97000
+    min: 9100
+    max: 9700
 
 - npcId: Frostlands Brigand Thief
   name: brigand
@@ -454,8 +454,8 @@
     max: 5000
 
   giveXp:
-    min: 91000
-    max: 97000
+    min: 9100
+    max: 9700
 
 - npcId: Frostlands Brigand Shieldbearer
   name: brigand
@@ -550,8 +550,8 @@
     max: 5000
 
   giveXp:
-    min: 92000
-    max: 95000
+    min: 9200
+    max: 9500
 
 - npcId: Frostlands Brigand Monk
   name: brigand
@@ -636,5 +636,5 @@
     max: 5000
 
   giveXp:
-    min: 92000
-    max: 95000
+    min: 9200
+    max: 9500

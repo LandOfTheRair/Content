@@ -51,8 +51,8 @@
     max: 49350
 
   giveXp:
-    min: 62000
-    max: 65000
+    min: 6200
+    max: 6500
 
 - npcId: Frostlands Remorhaz
   name: remorhaz
@@ -106,7 +106,7 @@
     max: 53350
 
   giveXp:
-    min: 52000
-    max: 69000
+    min: 5200
+    max: 6900
 
   tansFor: Remorhaz Scales Tunic

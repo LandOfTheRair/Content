@@ -76,8 +76,8 @@
     max: 105000
 
   giveXp:
-    min: 2362000
-    max: 2365000
+    min: 1362000
+    max: 1365000
 
   drops:
     - result: Risan Frost Larimar
@@ -180,8 +180,8 @@
     max: 3000000
 
   giveXp:
-    min: 1299000
-    max: 1409000
+    min: 899000
+    max: 909000
 
   tansFor: Catacombs Tomb Guardian Fur
   tanSkillRequired: 16
@@ -234,8 +234,8 @@
     max: 10000
 
   giveXp:
-    min: 939000
-    max: 995000
+    min: 439000
+    max: 495000
 
   items:
     equipment:
@@ -362,8 +362,8 @@
     max: 100000
 
   giveXp:
-    min: 10939000
-    max: 10995000
+    min: 8939000
+    max: 9995000
 
   items:
     equipment:

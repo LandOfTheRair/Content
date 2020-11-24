@@ -28,8 +28,8 @@
     max: 13350
 
   giveXp:
-    min: 14000
-    max: 17000
+    min: 1400
+    max: 1700
 
   items:
     equipment:
@@ -98,8 +98,8 @@
     max: 20350
 
   giveXp:
-    min: 24000
-    max: 25000
+    min: 2400
+    max: 2500
 
   items:
     equipment:
@@ -312,8 +312,8 @@
     max: 21350
 
   giveXp:
-    min: 23000
-    max: 25000
+    min: 2300
+    max: 2500
 
   usableSkills:
     - PoisonBiteMedium

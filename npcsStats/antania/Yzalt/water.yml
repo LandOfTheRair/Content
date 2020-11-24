@@ -22,8 +22,8 @@
     max: 150
 
   giveXp:
-    min: 50
-    max: 150
+    min: 5
+    max: 15
 
   usableSkills:
     - PoisonBiteWeak
@@ -55,8 +55,8 @@
     max: 750
 
   giveXp:
-    min: 250
-    max: 350
+    min: 25
+    max: 35
 
   usableSkills:
     - PoisonBiteWeak

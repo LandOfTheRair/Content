@@ -37,8 +37,8 @@
     max: 5000
 
   giveXp:
-    min: 41000
-    max: 57000
+    min: 4100
+    max: 5700
 
   noCorpseDrop: true
 
@@ -85,8 +85,8 @@
     max: 40000
 
   giveXp:
-    min: 1950000
-    max: 1975000
+    min: 350000
+    max: 375000
 
 
   items:
@@ -201,8 +201,8 @@
     max: 12400
 
   giveXp:
-    min: 23950
-    max: 24150
+    min: 2395
+    max: 2415
 
   usableSkills:
     - Afflict
@@ -333,8 +333,8 @@
     max: 12400
 
   giveXp:
-    min: 23950
-    max: 24150
+    min: 2395
+    max: 2415
 
   usableSkills:
     - MagicMissile
@@ -474,8 +474,8 @@
     max: 12400
 
   giveXp:
-    min: 23950
-    max: 24150
+    min: 2395
+    max: 2415
 
   usableSkills:
     - SetTrap
@@ -637,8 +637,8 @@
     max: 12400
 
   giveXp:
-    min: 23950
-    max: 24150
+    min: 2395
+    max: 2415
 
   usableSkills:
     - Charge

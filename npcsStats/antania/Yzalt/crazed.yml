@@ -39,8 +39,8 @@
     - DarkVision
 
   giveXp:
-    min: 2350
-    max: 2650
+    min: 235
+    max: 265
 
   repMod:
     - allegiance: Royalty
@@ -120,8 +120,8 @@
     max: 4300
 
   giveXp:
-    min: 2350
-    max: 2550
+    min: 235
+    max: 255
 
   repMod:
     - allegiance: Royalty
@@ -222,8 +222,8 @@
     max: 2800
 
   giveXp:
-    min: 1950
-    max: 2250
+    min: 195
+    max: 225
 
   usableSkills:
     - Boost
@@ -329,8 +329,8 @@
     max: 1400
 
   giveXp:
-    min: 2150
-    max: 2450
+    min: 215
+    max: 245
 
   repMod:
     - allegiance: Pirates
@@ -419,8 +419,8 @@
     max: 1800
 
   giveXp:
-    min: 1950
-    max: 2250
+    min: 195
+    max: 225
 
   repMod:
     - allegiance: Pirates
@@ -531,8 +531,8 @@
     - DarkVision
 
   giveXp:
-    min: 3950
-    max: 4150
+    min: 395
+    max: 415
 
   items:
     equipment:
@@ -673,8 +673,8 @@
     max: 4800
 
   giveXp:
-    min: 3950
-    max: 4150
+    min: 395
+    max: 415
 
   repMod:
     - allegiance: Royalty
@@ -836,8 +836,8 @@
     max: 3800
 
   giveXp:
-    min: 3950
-    max: 4150
+    min: 395
+    max: 415
 
   usableSkills:
     - Boost
@@ -976,8 +976,8 @@
     max: 2400
 
   giveXp:
-    min: 3950
-    max: 4150
+    min: 395
+    max: 415
 
   usableSkills:
     - Afflict
@@ -1109,8 +1109,8 @@
     max: 1000
 
   giveXp:
-    min: 50000
-    max: 55000
+    min: 15000
+    max: 25000
 
   usableSkills:
     - Afflict
@@ -1187,8 +1187,8 @@
     max: 1000
 
   giveXp:
-    min: 70000
-    max: 75000
+    min: 30000
+    max: 35000
 
   usableSkills:
     - result: Charge

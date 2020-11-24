@@ -26,8 +26,8 @@
     max: 6350
 
   giveXp:
-    min: 10000
-    max: 11000
+    min: 1000
+    max: 1100
 
   items:
     equipment:
@@ -94,8 +94,8 @@
     max: 700
 
   giveXp:
-    min: 7000
-    max: 8000
+    min: 700
+    max: 800
 
   usableSkills:
     - Afflict
@@ -175,8 +175,8 @@
     max: 700
 
   giveXp:
-    min: 7000
-    max: 8000
+    min: 700
+    max: 800
 
   usableSkills:
     - MagicMissile
@@ -240,8 +240,8 @@
     max: 50000
 
   giveXp:
-    min: 35000
-    max: 38000
+    min: 15000
+    max: 18000
 
   items:
     equipment:

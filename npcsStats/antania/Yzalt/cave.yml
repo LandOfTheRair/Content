@@ -18,8 +18,8 @@
     max: 950
 
   giveXp:
-    min: 550
-    max: 775
+    min: 55
+    max: 77
 
   items:
     equipment:

@@ -156,8 +156,8 @@
     max: 10000
 
   giveXp:
-    min: 250000
-    max: 275000
+    min: 25000
+    max: 27500
 
 
   items:
@@ -216,8 +216,8 @@
     max: 10000
 
   giveXp:
-    min: 250000
-    max: 275000
+    min: 25000
+    max: 27500
 
 
   traitLevels:
@@ -282,8 +282,8 @@
     max: 10000
 
   giveXp:
-    min: 250000
-    max: 275000
+    min: 25000
+    max: 27500
 
 
   traitLevels:

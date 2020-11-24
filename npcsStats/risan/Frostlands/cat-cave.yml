@@ -58,8 +58,8 @@
     max: 1000
 
   giveXp:
-    min: 42000
-    max: 45000
+    min: 4200
+    max: 4500
 
   drops:
     - result: Frostlands Mage Earring
@@ -141,8 +141,8 @@
     max: 15000
 
   giveXp:
-    min: 362000
-    max: 365000
+    min: 162000
+    max: 165000
 
   drops:
     - result: Frostlands Mage Earring

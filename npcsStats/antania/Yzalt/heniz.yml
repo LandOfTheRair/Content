@@ -59,8 +59,8 @@
     max: 2000
 
   giveXp:
-    min: 750
-    max: 850
+    min: 75
+    max: 85
 
   repMod:
     - allegiance: Royalty
@@ -178,8 +178,8 @@
     max: 3000
 
   giveXp:
-    min: 1750
-    max: 1850
+    min: 175
+    max: 185
 
   repMod:
     - allegiance: Royalty
@@ -295,8 +295,8 @@
     - EnergyMissile
 
   giveXp:
-    min: 1750
-    max: 1850
+    min: 175
+    max: 185
 
   repMod:
     - allegiance: Royalty
@@ -387,8 +387,8 @@
     max: 4000
 
   giveXp:
-    min: 1950
-    max: 2150
+    min: 195
+    max: 215
 
   repMod:
     - allegiance: Royalty
@@ -504,8 +504,8 @@
     - MagicMissile
 
   giveXp:
-    min: 1950
-    max: 2150
+    min: 195
+    max: 215
 
   repMod:
     - allegiance: Royalty
