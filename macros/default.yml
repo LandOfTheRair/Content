@@ -72,7 +72,7 @@ Drink:
   tooltipDesc: 'Drink a potion from your potion slot.'
   isDefault: true
 
-Look:
+Look At Ground:
   name: 'Look At Ground'
   macro: '~look'
   icon: 'semi-closed-eye'
