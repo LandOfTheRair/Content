@@ -1,0 +1,22 @@
+
+tag: Rylt Gemmos
+name: Gemmos
+hostility: Never
+affiliation: Mystery Box Vendor
+
+hp:
+  min: 100000
+  max: 100000
+
+items:
+  equipment:
+    rightHand: Antanian Gem RNG Box
+    armor: Antanian Tunic
+
+behaviors:
+  - type: vendor
+  
+    vendorCurrency: gold # default gold, but can be any currency - currencies should be tracked in a "wallet" of sorts
+
+    dailyVendorItems: # these items can only be purchased once per character per day
+      - item: Antanian Gem RNG Box

@@ -35,3 +35,6 @@ behaviors:
 
     dailyVendorItems: # these items can only be purchased once per character per day
       - item: Antanian Gem RNG Box
+      - item: Antanian Gem RNG Box
+      - item: Antanian Gem RNG Box
+      - item: Antanian Gem RNG Box
