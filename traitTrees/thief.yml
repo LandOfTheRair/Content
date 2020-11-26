@@ -1,0 +1,95 @@
+
+Thief:
+
+  treeOrder: ['Thief', 'Rogue', 'Ninja', 'Assassin']
+
+  trees:
+    Thief:
+      desc: The Thief tree
+
+      tree: 
+        - traits: 
+          - name: ImprovedSteal
+            maxLevel: 1
+
+          - name: Mug
+            maxLevel: 1
+            requires: ImprovedSteal
+
+          - name: ''
+
+          - name: ''
+
+          - name: ''
+
+        - traits:
+          - name: NimbleFingers
+            maxLevel: 5
+            requires: ImprovedSteal
+
+          - name: ''
+
+          - name: ''
+
+          - name: ''
+
+          - name: ''
+
+    Ninja:
+      desc: The Ninja tree
+
+      tree: 
+        - traits: 
+          - name: ImprovedHide
+            maxLevel: 1
+
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+
+        - traits: 
+          - name: DarkerShadows
+            maxLevel: 5
+            requires: ImprovedHide
+            
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+
+    Rogue:
+      desc: The Rogue tree
+
+      tree: 
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+
+    Assassin:
+      desc: The Assassin tree
+
+      tree: 
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''

@@ -1,0 +1,21 @@
+
+Core:
+
+  trees:
+    Core:
+      desc: The Core tree
+
+      tree: 
+        - traits: 
+          - name: DeathGrip
+            maxLevel: 5
+
+          - name: NaturalArmor
+            maxLevel: 5
+
+          - name: CarefulTouch
+            maxLevel: 5
+
+          - name: ''
+
+          - name: ''

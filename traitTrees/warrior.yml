@@ -1,0 +1,91 @@
+
+Warrior:
+
+  treeOrder: ['Warrior', 'Paladin', 'Duelist', 'Monk']
+
+  trees:
+    Warrior:
+      desc: The Warrior tree
+
+      tree: 
+        - traits: 
+          - name: EagleEye
+            maxLevel: 5
+
+          - name: SwordTricks
+            maxLevel: 5
+
+          - name: FunkyMoves
+            maxLevel: 5
+
+          - name: NaturalArmor
+            maxLevel: 5
+
+          - name: ''
+
+        - traits:
+          - name: Swashbuckler
+            maxLevel: 5
+            requires: SwordTricks
+
+          - name: ''
+
+          - name: ''
+
+          - name: ''
+
+          - name: ''
+
+    Paladin:
+      desc: The Paladin tree
+
+      tree: 
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+
+    Duelist:
+      desc: The Duelist tree
+
+      tree: 
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+
+    Monk:
+      desc: The Monk tree
+
+      tree: 
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''

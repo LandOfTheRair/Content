@@ -1,0 +1,93 @@
+
+Healer:
+
+  treeOrder: ['Healer', 'Diviner', 'Druid', 'Bard']
+
+  trees:
+    Healer:
+      desc: The Healer tree
+
+      tree: 
+        - traits: 
+          - name: Cure
+            maxLevel: 1
+
+          - name: ''
+
+          - name: CalmMind
+            maxLevel: 5
+
+          - name: ManaPool
+            maxLevel: 5
+
+          - name: ''
+
+        - traits:
+          - name: HealingFocus
+            maxLevel: 5
+            requires: Cure
+
+          - name: ''
+
+          - name: Clearcasting
+            maxLevel: 1
+
+          - name: ''
+
+          - name: ''
+
+    Diviner:
+      desc: The Diviner tree
+
+      tree: 
+        - traits: 
+          - name: Afflict
+            maxLevel: 1
+
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+
+    Druid:
+      desc: The Druid tree
+
+      tree: 
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+
+    Bard:
+      desc: The Bard tree
+
+      tree: 
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
