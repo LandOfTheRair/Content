@@ -1,6 +1,6 @@
 
 MagicMissile:
-  name: MagicMissile
+  name: Magic Missile
   desc: "Inflict energy damage on a single target. Cost: 5 MP."
   icon: missile-swarm
   iconColor: "#a0a"
