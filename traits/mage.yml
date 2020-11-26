@@ -8,5 +8,5 @@ MagicMissile:
 
 EnergyFocus:
   name: Energy Focus
-  desc: Deal $10$% more energy damage.
+  desc: Deal +$10$% more energy damage.
   icon: plasma-bolt
