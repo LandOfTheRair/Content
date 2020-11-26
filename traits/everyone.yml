@@ -1,7 +1,7 @@
 
 
 DeathGrip:
-  name: DeathGrip
+  name: Death Grip
   desc: Decrease your chance of dropping items on death by +$10$.
   icon: drop-weapon
   
