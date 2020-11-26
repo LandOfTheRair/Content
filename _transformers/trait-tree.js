@@ -15,6 +15,13 @@ const merge = async () => {
 
       file[treeName].trees.Core = coreTree.trees.Core;
       file[treeName].treeOrder.unshift('Core');
+
+      Object.values(file[treeName].trees).forEach(treeData => {
+        console.log(treeData)
+        treeData.tree.forEach((treeLevel, i) => {
+          treeLevel.requiredLevel = i * 10;
+        })
+      });
     });
 
     if(!fs.existsSync('_output')) fs.mkdirSync('_output');
