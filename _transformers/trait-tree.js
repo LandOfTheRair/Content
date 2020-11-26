@@ -17,7 +17,6 @@ const merge = async () => {
       file[treeName].treeOrder.unshift('Core');
 
       Object.values(file[treeName].trees).forEach(treeData => {
-        console.log(treeData)
         treeData.tree.forEach((treeLevel, i) => {
           treeLevel.requiredLevel = i * 10;
         })
