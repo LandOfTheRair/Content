@@ -1,0 +1,16 @@
+
+
+DeathGrip:
+  name: DeathGrip
+  desc: Decrease your chance of dropping items on death by +$10$.
+  icon: drop-weapon
+  
+NaturalArmor:
+  name: Natural Armor
+  desc: Increases your natural Armor Class by +$2$.
+  icon: internal-injury
+  
+CarefulTouch:
+  name: Careful Touch
+  desc: Decrease the damage your items take by +$10$%.
+  icon: blacksmith

@@ -1,0 +1,20 @@
+
+SharpVision:
+  name: Sharp Vision
+  desc: Increases your Accuracy stat by +$1$.
+  icon: bullseye
+
+SwordTricks:
+  name: Sword Tricks
+  desc: Increases your Offense stat by +$1$.
+  icon: sword-clash
+
+FunkyMoves:
+  name: Funky Moves
+  desc: Increases your Defense stat by +$1$.
+  icon: wingfoot
+
+Swashbuckler:
+  name: Swashbuckler
+  desc: Reduce your chance of an outgoing glancing blow by +$12.5$.
+  icon: spiral-thrust

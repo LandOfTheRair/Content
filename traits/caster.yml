@@ -1,0 +1,15 @@
+
+Clearcasting:
+  name: Clearcasting
+  desc: Increase the chance of not consuming mana when casting a spell by $3$%.
+  icon: magic-swirl
+
+CalmMind:
+  name: Calm Mind
+  desc: Gain +$2$ to your mana regeneration.
+  icon: psychic-waves
+
+ManaPool:
+  name: Mana Pool
+  desc: Gain +$10$ additional mana.
+  icon: drink-me

@@ -1,0 +1,20 @@
+
+
+HealingFocus:
+  name: Healing Focus
+  desc: Gain $10$% more health when you use Restoration magic.
+  icon: drink-me
+
+Cure:
+  name: Cure
+  desc: "Heal a single target. Cost: 5 MP."
+  icon: tentacle-heart
+  iconColor: "#080"
+  borderColor: "#0a0"
+
+Afflict:
+  name: Afflict
+  desc: "Inflict necrotic damage on a single target. Cost: 10 MP."
+  icon: bolas
+  iconColor: "#bd5900"
+  borderColor: "#0a0"

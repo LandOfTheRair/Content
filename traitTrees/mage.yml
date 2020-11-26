@@ -1,0 +1,91 @@
+
+Mage:
+
+  treeOrder: ['Mage', 'Elementalist', 'Protector', 'Battlemage']
+
+  trees:
+    Mage:
+      desc: The Mage tree
+
+      tree: 
+        - traits: 
+          - name: MagicMissile
+            maxLevel: 1
+
+          - name: ''
+
+          - name: CalmMind
+            maxLevel: 5
+
+          - name: ManaPool
+            maxLevel: 5
+
+          - name: ''
+
+        - traits:
+          - name: EnergyFocus
+            maxLevel: 5
+            requires: MagicMissile
+
+          - name: ''
+
+          - name: Clearcasting
+            maxLevel: 1
+
+          - name: ''
+
+          - name: ''
+
+    Protector:
+      desc: The Protector tree
+
+      tree: 
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+
+    Elementalist:
+      desc: The Elementalist tree
+
+      tree: 
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+
+    Battlemage:
+      desc: The Battlemage tree
+
+      tree: 
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''

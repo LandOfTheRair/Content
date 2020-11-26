@@ -1,0 +1,26 @@
+
+ImprovedSteal:
+  name: Improved Steal
+  desc: Increase the chance of a successful steal by +$20$%.
+  icon: take-my-money
+
+ImprovedHide:
+  name: Improved Hide
+  desc: Hide now consumes your stealth meter, but can be boosted by the Stealth stat.
+  icon: hidden
+
+NimbleFingers:
+  name: Nimble Fingers
+  desc: Increase the chance of a successful steal by +$5$%, and increases the amount of gold you take per steal.
+  icon: take-my-money
+
+Mug:
+  name: Mug
+  desc: You can now mug marks, dealing damage and stealing from them.
+  icon: hooded-assassin
+  borderColor: "#f00"
+
+DarkerShadows:
+  name: Darker Shadows
+  desc: Increases your Stealth stat by +$2$.
+  icon: hidden
