@@ -9,6 +9,8 @@ NaturalArmor:
   name: Natural Armor
   desc: Increases your natural Armor Class by +$2$.
   icon: internal-injury
+  statsGiven:
+    armorClass: 2
   
 CarefulTouch:
   name: Careful Touch
