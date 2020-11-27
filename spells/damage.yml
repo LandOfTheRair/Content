@@ -1,0 +1,44 @@
+
+MagicMissile:
+  damageClass: energy
+  mpCost: 5
+  maxSkillForGain: 30
+  potencyMultiplier: 0.5
+  skillMultiplierChanges:
+    - [0,  1]
+    - [6,  1.75]
+    - [11, 2.5]
+    - [16, 3.25]
+    - [21, 4]
+    - [26, 4.75]
+    - [31, 6]
+    - [36, 8]
+
+  meta:
+    casterMessage: 'You fling magic missiles at %target!'
+    casterSfx: ''
+    targetMessage: '%caster hit you with magic missiles!'
+    targetSfx: ''
+    spellRef: MagicMissile
+
+Afflict:
+  damageClass: necrotic
+  mpCost: 5
+  maxSkillForGain: 30
+  potencyMultiplier: 0.5
+  skillMultiplierChanges:
+    - [0,  1]
+    - [6,  1.75]
+    - [11, 2.5]
+    - [16, 3.25]
+    - [21, 4]
+    - [26, 4.75]
+    - [31, 6]
+    - [36, 8]
+
+  meta:
+    casterMessage: ''
+    casterSfx: ''
+    targetMessage: ''
+    targetSfx: ''
+    spellRef: Afflict
