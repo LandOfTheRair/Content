@@ -8,8 +8,13 @@
   encrustGive:
     strikeEffect:
       name: MagicMissile
-      potency: 5
+      potency: 50
       chance: 10
+
+  useEffect:
+    name: MagicMissile
+    potency: 50
+    uses: 50
 
   requirements:
     level: 5
@@ -22,7 +27,7 @@
   encrustGive:
     strikeEffect:
       name: MagicBolt
-      potency: 7
+      potency: 150
       chance: 10
 
   requirements:
@@ -36,7 +41,7 @@
   encrustGive:
     strikeEffect:
       name: Combust
-      potency: 10
+      potency: 100
       chance: 10
 
   requirements:
@@ -51,7 +56,7 @@
   encrustGive:
     strikeEffect:
       name: Hail
-      potency: 10
+      potency: 100
       chance: 10
 
   requirements:

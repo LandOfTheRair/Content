@@ -7,7 +7,7 @@
   useEffect:
     name: BarFrost
     duration: 900
-    potency: 10
+    potency: 100
   value: 500
 
 - name: Weak BarFrost Potion (10oz)
@@ -18,7 +18,7 @@
   useEffect:
     name: BarFrost
     duration: 900
-    potency: 10
+    potency: 100
   value: 500
 
 - name: Weak BarWater Potion
@@ -28,7 +28,7 @@
   useEffect:
     name: BarWater
     duration: 900
-    potency: 10
+    potency: 100
   value: 500
 
 - name: Weak BarWater Potion (10oz)
@@ -39,7 +39,7 @@
   useEffect:
     name: BarWater
     duration: 900
-    potency: 10
+    potency: 100
   value: 500
 
 - name: Weak BarNecro Potion
@@ -49,7 +49,7 @@
   useEffect:
     name: BarNecro
     duration: 900
-    potency: 10
+    potency: 100
   value: 500
 
 - name: Weak BarNecro Potion (10oz)
@@ -60,7 +60,7 @@
   useEffect:
     name: BarNecro
     duration: 900
-    potency: 10
+    potency: 100
   value: 500
 
 - name: Weak BarFire Potion
@@ -70,7 +70,7 @@
   useEffect:
     name: BarFire
     duration: 900
-    potency: 10
+    potency: 100
   value: 500
 
 - name: Weak BarFire Potion (10oz)
@@ -81,7 +81,7 @@
   useEffect:
     name: BarFire
     duration: 900
-    potency: 10
+    potency: 100
   value: 500
 
 - name: Weak Absorption Potion
@@ -90,7 +90,7 @@
   sprite: 250
   useEffect:
     name: Absorption
-    potency: 15
+    potency: 150
   value: 1500
 
 - name: Weak Absorption Potion (10oz)
@@ -100,7 +100,7 @@
   ounces: 10
   useEffect:
     name: Absorption
-    potency: 15
+    potency: 150
   value: 2500
 
 - name: Weak EagleEye Potion
@@ -109,7 +109,8 @@
   sprite: 250
   useEffect:
     name: EagleEye
-    potency: 15
+    potency: 1
+    duration: 600
   value: 1500
 
 - name: Weak EagleEye Potion (10oz)
@@ -119,5 +120,6 @@
   ounces: 10
   useEffect:
     name: EagleEye
-    potency: 15
+    potency: 1
+    duration: 600
   value: 2500

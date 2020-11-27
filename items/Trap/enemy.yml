@@ -3,7 +3,7 @@
   desc: "a trap imbued with the spell Fire Mist"
   trapEffect:
     name: FireMist
-    potency: 5
+    potency: 15
   value: 1500
 
 - name: Enemy Weak IceMist Thief Trap
@@ -11,7 +11,7 @@
   desc: "a trap imbued with the spell Ice Mist"
   trapEffect:
     name: IceMist
-    potency: 5
+    potency: 15
   value: 1500
 
 - name: Enemy Weak Poison Thief Trap
@@ -27,7 +27,7 @@
   desc: "a trap imbued with the spell Afflict"
   trapEffect:
     name: Afflict
-    potency: 5
+    potency: 15
   value: 1000
 
 - name: Enemy Weak MagicMissile Thief Trap
@@ -35,7 +35,7 @@
   desc: "a trap imbued with the spell Magic Missile"
   trapEffect:
     name: MagicMissile
-    potency: 5
+    potency: 15
   value: 1000
 
 - name: Enemy Weak Distraction Thief Trap
@@ -84,7 +84,7 @@
   trapEffect:
     uses: 3
     name: FireMist
-    potency: 10
+    potency: 35
   value: 3500
 
 - name: Enemy Medium IceMist Thief Trap
@@ -93,7 +93,7 @@
   trapEffect:
     uses: 3
     name: IceMist
-    potency: 10
+    potency: 35
   value: 3500
 
 - name: Enemy Medium Poison Thief Trap
@@ -111,7 +111,7 @@
   trapEffect:
     uses: 3
     name: HolyFire
-    potency: 10
+    potency: 35
   value: 3000
 
 - name: Enemy Medium MagicBolt Thief Trap
@@ -120,7 +120,7 @@
   trapEffect:
     uses: 3
     name: MagicBolt
-    potency: 10
+    potency: 35
   value: 3000
 
 - name: Enemy Medium Distraction Thief Trap

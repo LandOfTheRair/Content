@@ -21,7 +21,7 @@
     weaponArmorClass: 15
   strikeEffect:
     name: Combust
-    potency: 15
+    potency: 150
     chance: 25
   desc: "a pipe used to stay warm in the cold months"
   binds: true

@@ -17,7 +17,7 @@
 
   useEffect:
     name: ImbueFrost
-    potency: 50
+    potency: 250
     duration: 7200
     uses: -1
 

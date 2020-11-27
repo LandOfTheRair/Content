@@ -9,7 +9,7 @@
     armorClass: 1
   strikeEffect:
     name: Poison
-    potency: 10
+    potency: 25
     chance: 20
 
   binds: true

@@ -14,7 +14,7 @@
 
   strikeEffect:
     name: Darkness
-    potency: 20
+    potency: 600
     chance: 100
 
   trait:

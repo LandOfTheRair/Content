@@ -6,7 +6,7 @@
     restorationBonus: 3
   strikeEffect:
     name: Afflict
-    potency: 5
+    potency: 50
     chance: 33
   trait:
     name: TotemSpecialty
@@ -25,7 +25,7 @@
     restorationBonus: 4
   strikeEffect:
     name: HolyFire
-    potency: 15
+    potency: 150
     chance: 33
   trait:
     name: NecroticFocus
@@ -47,7 +47,7 @@
     restorationBonus: 5
   strikeEffect:
     name: Afflict
-    potency: 20
+    potency: 200
     chance: 20
   trait:
     name: TotemSpecialty

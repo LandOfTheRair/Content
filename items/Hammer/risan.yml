@@ -6,7 +6,7 @@
     fireResist: 50
   strikeEffect:
     name: Combust
-    potency: 5
+    potency: 75
     chance: 10
     range: 0
   desc: "an excavating hammer forged in the mines of Risan that emanates heat"
@@ -25,7 +25,7 @@
     offense: 7
   strikeEffect:
     name: HolyFire
-    potency: 20
+    potency: 250
     chance: 100
     range: 0
 

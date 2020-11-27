@@ -14,7 +14,7 @@
     offense: 3
   strikeEffect:
     name: IceMist
-    potency: 10
+    potency: 250
     chance: 100
   tier: 2
   shots: 50000

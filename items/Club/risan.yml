@@ -43,7 +43,7 @@
     level: 5
   strikeEffect:
     name: Hail
-    potency: 15
+    potency: 150
     chance: 25
   desc: "a club forged from the bones of a yeti frozen solid by the bitter Frostlands wind"
   binds: true

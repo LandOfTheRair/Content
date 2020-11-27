@@ -85,7 +85,7 @@
     fireResist: 200
   equipEffect:
     name: ImbueFlame
-    potency: 10
+    potency: 100
     autocast: true
   trait:
     name: BetterBackstab

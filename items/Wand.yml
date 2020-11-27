@@ -6,7 +6,7 @@
     conjurationBonus: 3
   strikeEffect:
     name: MagicMissile
-    potency: 5
+    potency: 50
     chance: 33
   trait:
     name: WandSpecialty
@@ -25,7 +25,7 @@
     conjurationBonus: 3
   strikeEffect:
     name: Combust
-    potency: 8
+    potency: 80
     chance: 10
   trait:
     name: WandSpecialty
@@ -46,7 +46,7 @@
     conjurationBonus: 3
   strikeEffect:
     name: Hail
-    potency: 8
+    potency: 80
     chance: 10
   trait:
     name: WandSpecialty
@@ -68,7 +68,7 @@
     conjurationBonus: 5
   strikeEffect:
     name: MagicBolt
-    potency: 5
+    potency: 150
     chance: 33
   trait:
     name: WandSpecialty
@@ -95,7 +95,7 @@
     conjurationBonus: 4
   strikeEffect:
     name: Asper
-    potency: 10
+    potency: 25
     chance: 33
   trait:
     name: MagicFocus

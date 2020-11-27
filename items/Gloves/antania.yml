@@ -50,7 +50,7 @@
   tier: 2
   strikeEffect:
     name: MagicMissile
-    potency: 10
+    potency: 35
     chance: 5
   desc: "a pair of dark gauntlets that emanate magic"
   sprite: 461

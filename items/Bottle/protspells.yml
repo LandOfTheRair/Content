@@ -47,7 +47,7 @@
   sprite: 142
   useEffect:
     name: Antidote
-    potency: 10
+    potency: 50
   value: 1000
 
 - name: Bear Meat Antidote (10oz)
@@ -57,7 +57,7 @@
   ounces: 10
   useEffect:
     name: Antidote
-    potency: 10
+    potency: 50
   value: 2000
 
 - name: Minotaur Horn Flask

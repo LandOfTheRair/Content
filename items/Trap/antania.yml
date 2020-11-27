@@ -4,7 +4,7 @@
   trapUses: 5
   trapEffect:
     name: FireMist
-    potency: 10
+    potency: 300
   value: 1500
 
   requirements:
@@ -17,7 +17,7 @@
   trapUses: 5
   trapEffect:
     name: IceMist
-    potency: 10
+    potency: 300
   value: 1500
 
   requirements:
@@ -30,7 +30,7 @@
   trapUses: 5
   trapEffect:
     name: Poison
-    potency: 10
+    potency: 125
   value: 1000
 
   requirements:
@@ -43,7 +43,7 @@
   trapUses: 5
   trapEffect:
     name: Afflict
-    potency: 10
+    potency: 300
   value: 1000
 
   requirements:
@@ -56,7 +56,7 @@
   trapUses: 5
   trapEffect:
     name: MagicMissile
-    potency: 10
+    potency: 300
   value: 1000
 
   requirements:
@@ -78,7 +78,7 @@
   trapUses: 5
   trapEffect:
     name: Darkness
-    potency: 15
+    potency: 150
   value: 2000
 
   requirements:

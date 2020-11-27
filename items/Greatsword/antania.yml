@@ -60,7 +60,7 @@
   desc: "an iron greatsword that smells of death"
   equipEffect:
     name: NecroticAura
-    potency: 2
+    potency: 25
     autocast: true
   tier: 4
   type: Twohanded

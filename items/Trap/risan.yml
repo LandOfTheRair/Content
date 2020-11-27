@@ -5,7 +5,7 @@
   trapEffect:
     uses: 3
     name: FireMist
-    potency: 30
+    potency: 300
   value: 3500
 
   requirements:
@@ -19,7 +19,7 @@
   trapEffect:
     uses: 3
     name: IceMist
-    potency: 30
+    potency: 600
   value: 3500
 
   requirements:
@@ -33,7 +33,7 @@
   trapEffect:
     uses: 3
     name: Poison
-    potency: 30
+    potency: 300
   value: 3000
 
   requirements:
@@ -47,7 +47,7 @@
   trapEffect:
     uses: 3
     name: HolyFire
-    potency: 30
+    potency: 600
   value: 3000
 
   requirements:
@@ -61,7 +61,7 @@
   trapEffect:
     uses: 3
     name: MagicBolt
-    potency: 30
+    potency: 600
   value: 3000
 
   requirements:
@@ -145,7 +145,7 @@
   trapEffect:
     uses: 5
     name: Cure
-    potency: 30
+    potency: 1000
   value: 1000
 
   requirements:
@@ -172,7 +172,7 @@
   trapUses: 5
   trapEffect:
     name: Haste
-    potency: 20
+    potency: 200
   value: 10000
 
   requirements:
