@@ -68,8 +68,8 @@
     int: 1
     wis: 1
     defense: 3
-    magicalDamageBoost: 40
-    healingBoost: 65
+    magicalDamageBoostPercent: 10
+    healingBoostPercent: 15
     mp: 50
   binds: true
   tellsBind: true

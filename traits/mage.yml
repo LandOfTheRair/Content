@@ -5,8 +5,11 @@ MagicMissile:
   icon: missile-swarm
   iconColor: "#a0a"
   borderColor: "#00a"
+  spellGiven: MagicMissile
 
 EnergyFocus:
   name: Energy Focus
   desc: Deal +$10$% more energy damage.
   icon: plasma-bolt
+  statsGiven:
+    energyBoostPercent: 10

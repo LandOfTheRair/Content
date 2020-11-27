@@ -7,7 +7,7 @@
     armorClass: 5
     defense: 5
     mp: 150
-    magicalDamageBoost: 350
+    magicalDamageBoostPercent: 10
 
   binds: true
   tellsBind: true
@@ -25,7 +25,7 @@
     armorClass: 5
     defense: 5
     mp: 150
-    healingBoost: 350
+    healingBoostPercent: 25
 
   binds: true
   tellsBind: true

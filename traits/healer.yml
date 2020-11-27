@@ -2,8 +2,10 @@
 
 HealingFocus:
   name: Healing Focus
-  desc: Gain $10$% more health when you use Restoration magic.
+  desc: Heal $10$% more health when you use Restoration magic.
   icon: drink-me
+  statsGiven:
+    healingBoostPercent: 10
 
 Cure:
   name: Cure
@@ -11,6 +13,7 @@ Cure:
   icon: tentacle-heart
   iconColor: "#080"
   borderColor: "#0a0"
+  spellGiven: Cure
 
 Afflict:
   name: Afflict
@@ -18,3 +21,4 @@ Afflict:
   icon: bolas
   iconColor: "#bd5900"
   borderColor: "#0a0"
+  spellGiven: Afflict

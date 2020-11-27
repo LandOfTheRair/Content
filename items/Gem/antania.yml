@@ -63,7 +63,7 @@
 
     stats:
       stealth: 15
-      physicalDamageBoost: 25
+      physicalDamageBoost: 5
       perception: -5
 
   requirements:
@@ -96,7 +96,7 @@
     maxEncrusts: 2
 
     stats:
-      healingBoost: 50
+      healingBoostPercent: 5
       defense: 3
       offense: -3
 
@@ -113,7 +113,7 @@
     maxEncrusts: 2
 
     stats:
-      magicalDamageBoost: 50
+      magicalDamageBoostPercent: 5
       defense: 3
       offense: -3
 

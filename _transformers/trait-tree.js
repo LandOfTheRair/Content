@@ -19,7 +19,18 @@ const merge = async () => {
       Object.values(file[treeName].trees).forEach(treeData => {
         treeData.tree.forEach((treeLevel, i) => {
           treeLevel.requiredLevel = i * 10;
-        })
+        });
+      });
+
+      file[treeName].allTreeTraits = {};
+      Object.values(file[treeName].trees).forEach(treeData => {
+        treeData.tree.forEach((treeLevel) => {
+          treeLevel.traits.forEach(trait => {
+            if(!trait.name) return;
+            trait.maxLevel = trait.maxLevel || 1;
+            file[treeName].allTreeTraits[trait.name] = Object.assign({}, trait, { requiredLevel: treeLevel.requiredLevel });
+          });
+        });
       });
     });
 

@@ -24,3 +24,5 @@ DarkerShadows:
   name: Darker Shadows
   desc: Increases your Stealth stat by +$2$.
   icon: hidden
+  statsGiven:
+    stealth: 2

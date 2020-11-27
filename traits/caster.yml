@@ -8,8 +8,12 @@ CalmMind:
   name: Calm Mind
   desc: Gain +$2$ to your mana regeneration.
   icon: psychic-waves
+  statsGiven:
+    mpregen: 2
 
 ManaPool:
   name: Mana Pool
   desc: Gain +$10$ additional mana.
   icon: drink-me
+  statsGiven:
+    mp: 10
