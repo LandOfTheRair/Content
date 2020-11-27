@@ -27,6 +27,7 @@ const merge = async () => {
         treeData.tree.forEach((treeLevel) => {
           treeLevel.traits.forEach(trait => {
             if(!trait.name) return;
+            trait.treeName = treeName;
             trait.maxLevel = trait.maxLevel || 1;
             file[treeName].allTreeTraits[trait.name] = Object.assign({}, trait, { requiredLevel: treeLevel.requiredLevel });
           });
