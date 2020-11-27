@@ -4,6 +4,8 @@ MagicMissile:
   mpCost: 5
   maxSkillForGain: 30
   potencyMultiplier: 0.5
+  willSaveThreshold: 1
+  willSavePercent: 50
   skillMultiplierChanges:
     - [0,  1]
     - [6,  1.75]
@@ -15,10 +17,10 @@ MagicMissile:
     - [36, 8]
 
   meta:
-    casterMessage: 'You fling magic missiles at %target!'
+    doesAttack: true
+    casterAttackMessage: 'You fling magic missiles at %0!'
     casterSfx: ''
-    targetMessage: '%caster hit you with magic missiles!'
-    targetSfx: ''
+    targetAttackMessage: '%0 hit you with magic missiles!'
     spellRef: MagicMissile
 
 Afflict:
@@ -26,6 +28,8 @@ Afflict:
   mpCost: 5
   maxSkillForGain: 30
   potencyMultiplier: 0.5
+  willSaveThreshold: 20
+  willSavePercent: 50
   skillMultiplierChanges:
     - [0,  1]
     - [6,  1.75]
@@ -37,8 +41,8 @@ Afflict:
     - [36, 8]
 
   meta:
-    casterMessage: ''
+    doesAttack: true
+    casterAttackMessage: ''
     casterSfx: ''
-    targetMessage: ''
-    targetSfx: ''
+    targetAttackMessage: ''
     spellRef: Afflict
