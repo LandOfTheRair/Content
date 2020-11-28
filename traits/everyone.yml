@@ -4,6 +4,7 @@ DeathGrip:
   name: Death Grip
   desc: Decrease your chance of dropping items on death by +$10$.
   icon: drop-weapon
+  valuePerTier: 10
   
 NaturalArmor:
   name: Natural Armor
@@ -16,3 +17,4 @@ CarefulTouch:
   name: Careful Touch
   desc: Decrease the damage your items take by +$10$%.
   icon: blacksmith
+  valuePerTier: 10
