@@ -6,3 +6,11 @@ MagicMissile:
   color: '#a0a'
   mode: 'lockActivation'
   tooltipDesc: 'Inflict energy damage on a single target. Cost: 5 MP'
+
+ImbueFrost:
+  name: 'ImbueFrost'
+  macro: 'cast imbuefrost'
+  icon: 'magic-palm'
+  color: '#00b'
+  mode: 'clickToTarget'
+  tooltipDesc: 'Augment physical attacks to do bonus ice damage. Cost: 100 MP'

@@ -67,12 +67,18 @@ NecroticAura:
       
 ImbueFrost:
   tooltip:
-    icon: 'uncertainty'
-    color: '#000'
-    desc: '???'
+    icon: 'magic-palm'
+    color: '#00b'
+    desc: 'Your attacks sometimes do additional frost damage.'
   effect:
     type: buff
     duration: 600
     extra:
       canRemove: true
       unique: true
+  meta:
+    castSfx: 'spell-buff-physical'
+    applySfx: 'spell-buff-physical'
+    castMessage: 'You cast Imbue Frost on %target.'
+    applyMessage: 'A whirling blue aura envelops your hands.'
+    unapplyMessage: 'The blue aura surrounding your hands fades.'
