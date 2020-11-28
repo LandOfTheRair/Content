@@ -1,8 +1,8 @@
 
 Identify:
-  mpCost: 10
+  mpCost: 15
   maxSkillForGain: 5
-  
+
   meta:
     casterMessage: 'You begin to identify the item in your right hand...'
     casterSfx: 'spell-buff-magical'
