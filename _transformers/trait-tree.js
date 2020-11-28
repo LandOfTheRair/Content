@@ -10,13 +10,18 @@ const merge = async () => {
 
     const coreTree = file.Core;
 
+    coreTree.trees.Core.tree[0].traits.forEach(t => t.treeName = 'Core');
+
     Object.keys(file).forEach(treeName => {
       if(treeName === 'Core') return;
 
-      file[treeName].trees.Core = coreTree.trees.Core;
+      file[treeName].trees.Core = JSON.parse(JSON.stringify(coreTree.trees.Core));
       file[treeName].treeOrder.unshift('Core');
 
-      Object.values(file[treeName].trees).forEach(treeData => {
+      Object.keys(file[treeName].trees).forEach(subtreeName => {
+        const treeData = file[treeName].trees[subtreeName];
+        treeData.name = subtreeName;
+
         treeData.tree.forEach((treeLevel, i) => {
           treeLevel.requiredLevel = i * 10;
         });
@@ -27,7 +32,7 @@ const merge = async () => {
         treeData.tree.forEach((treeLevel) => {
           treeLevel.traits.forEach(trait => {
             if(!trait.name) return;
-            trait.treeName = treeName;
+            trait.treeName = treeData.name;
             trait.maxLevel = trait.maxLevel || 1;
             file[treeName].allTreeTraits[trait.name] = Object.assign({}, trait, { requiredLevel: treeLevel.requiredLevel });
           });
