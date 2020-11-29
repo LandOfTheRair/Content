@@ -1,0 +1,16 @@
+
+      
+Channeling:
+  tooltip:
+    icon: 'vortex'
+    color: '#a0a'
+    desc: 'Channeling a spell.'
+  effect:
+    type: buff
+    duration: 600
+    extra:
+      canRemove: true
+      unique: true
+  meta:
+    castMessage: 'You begin channeling a spell...'
+    unapplyMessage: 'You stop channeling your spell.'

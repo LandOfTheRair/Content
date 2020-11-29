@@ -30,6 +30,11 @@
       potency: 150
       chance: 10
 
+  useEffect:
+    name: MagicBolt
+    potency: 150
+    uses: 50
+
   requirements:
     level: 15
 

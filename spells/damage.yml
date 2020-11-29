@@ -4,7 +4,7 @@ MagicMissile:
   mpCost: 5
   maxSkillForGain: 30
   potencyMultiplier: 0.5
-  willSaveThreshold: 1
+  willSaveThreshold: 15
   willSavePercent: 50
   skillMultiplierChanges:
     - [0,  1]
@@ -22,6 +22,30 @@ MagicMissile:
     casterSfx: ''
     targetAttackMessage: '%0 hit you with magic missiles!'
     spellRef: MagicMissile
+
+MagicBolt:
+  damageClass: energy
+  mpCost: 20
+  maxSkillForGain: 40
+  potencyMultiplier: 2
+  willSaveThreshold: 25
+  willSavePercent: 30
+  skillMultiplierChanges:
+    - [0,  4]
+    - [6,  5]
+    - [11, 6]
+    - [16, 7]
+    - [21, 8]
+    - [26, 9]
+    - [31, 11]
+    - [36, 14]
+
+  meta:
+    doesAttack: true
+    casterAttackMessage: 'You fire a bolt of energy at %0!'
+    casterSfx: ''
+    targetAttackMessage: '%0 hit you with a bolt of energy!'
+    spellRef: MagicBolt
 
 Afflict:
   damageClass: necrotic

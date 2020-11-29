@@ -1,7 +1,6 @@
 
 Backstab:
   name: 'Backstab'
-  for: Backstab
   macro: 'backstab'
   icon: 'backstab'
   color: '#530000'
@@ -10,7 +9,6 @@ Backstab:
 
 Charge:
   name: 'Charge'
-  for: Charge
   macro: 'charge'
   icon: 'running-ninja'
   color: '#530000'
@@ -19,7 +17,6 @@ Charge:
 
 Jumpkick:
   name: 'Jumpkick'
-  for: Jumpkick
   macro: 'jumpkick'
   icon: 'high-kick'
   color: '#530000'
@@ -28,7 +25,6 @@ Jumpkick:
 
 Mug:
   name: 'Mug'
-  for: Mug
   macro: 'mug'
   icon: 'hooded-assassin'
   color: '#530000'
