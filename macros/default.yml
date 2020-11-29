@@ -65,6 +65,7 @@ Clear Buffer:
 
 Drink:
   name: 'Drink'
+  for: Drink
   macro: '!drink'
   icon: 'potion-ball'
   color: '#2020B2'
@@ -101,6 +102,7 @@ Search:
 
 Attack:
   name: 'Attack'
+  for: Attack
   macro: 'attack'
   icon: 'blade-drag'
   color: '#530000'
@@ -110,6 +112,7 @@ Attack:
 
 Hide:
   name: 'Hide'
+  for: Hide
   macro: 'hide'
   icon: 'hidden'
   color: '#cccccc'
@@ -120,6 +123,7 @@ Hide:
 
 Kick:
   name: 'Kick'
+  for: Kick
   macro: 'kick'
   icon: 'barefoot'
   color: '#530000'
@@ -129,6 +133,7 @@ Kick:
 
 Steal:
   name: 'Steal'
+  for: Steal
   macro: 'steal'
   icon: 'take-my-money'
   color: '#7F6B00'
@@ -138,6 +143,7 @@ Steal:
 
 Throw:
   name: 'Throw'
+  for: Throw
   macro: 'throw right'
   icon: 'thrown-spear'
   color: '#530000'

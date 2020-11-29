@@ -1,6 +1,7 @@
 
 Afflict:
   name: 'Afflict'
+  for: Afflict
   macro: 'cast afflict'
   icon: 'bolas'
   color: '#bd5900'
@@ -10,6 +11,7 @@ Afflict:
 
 Cure:
   name: 'Cure'
+  for: Cure
   macro: 'cast cure'
   icon: 'tentacle-heart'
   color: '#080'

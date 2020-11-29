@@ -1,6 +1,7 @@
 
 Identify:
   name: 'Identify'
+  for: Identify
   macro: 'cast identify'
   icon: 'uncertainty'
   color: '#665600'
