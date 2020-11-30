@@ -17,3 +17,13 @@ Cure:
   color: '#080'
   mode: 'clickToTarget'
   tooltipDesc: 'Heal a single target. Cost: 5 MP'
+  skillTPCost: 1
+
+Revive:
+  name: 'Revive'
+  for: Revive
+  macro: 'cast revive'
+  icon: 'quicksand'
+  color: '#080'
+  mode: 'clickToTarget'
+  tooltipDesc: 'Revive a player on the ground on your tile. Cost: 50 MP'

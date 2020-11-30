@@ -1,0 +1,12 @@
+
+Revealed:
+  tooltip:
+    icon: 'eye-target'
+    color: '#ccc'
+    bgColor: '#000'
+    desc: 'Revealed and cannot hide.'
+  effect:
+    type: debuff
+    duration: 5
+    extra:
+      unique: true
