@@ -126,7 +126,7 @@
 - name: Catacombs Bat Shortsword
   desc: "a shortsword with a hilt shaped like a bat, the wings made of pure darkness"
   stats:
-    stealth: 25
+    stealth: 35
     offense: 7
     defense: 7
   offhand: true

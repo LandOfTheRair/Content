@@ -90,7 +90,7 @@
   skillOnKill: 5
 
   otherStats:
-    perception: 90
+    perception: 15
 
   gold:
     min: 50
@@ -183,7 +183,7 @@
   baseClass: Warrior
   stats: 9
   otherStats:
-    perception: 90
+    perception: 15
     damageFactor: 0.5
   skillLevels: 2
 
@@ -283,7 +283,7 @@
   baseClass: Healer
   stats: 9
   otherStats:
-    perception: 90
+    perception: 15
     damageFactor: 0.5
   skillLevels:
     Mace: 2
@@ -380,7 +380,7 @@
   baseClass: Warrior
   stats: 13
   otherStats:
-    perception: 90
+    perception: 15
     damageFactor: 0.5
   skillLevels: 3
 
@@ -480,7 +480,7 @@
   baseClass: Healer
   stats: 15
   otherStats:
-    perception: 90
+    perception: 15
     damageFactor: 0.5
   skillLevels: 3
 

@@ -118,7 +118,7 @@
   level: 3
 
   otherStats:
-    perception: 15
+    perception: 10
     damageFactor: 0.5
     accuracy: -5
 
@@ -174,7 +174,7 @@
   level: 4
 
   otherStats:
-    perception: 15
+    perception: 10
     damageFactor: 0.5
     accuracy: -5
 
@@ -234,7 +234,7 @@
   level: 7
 
   otherStats:
-    perception: 75
+    perception: 35
     damageFactor: 0.5
     accuracy: -15
 

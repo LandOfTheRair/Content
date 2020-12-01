@@ -12,7 +12,7 @@
   level: 27
 
   otherStats:
-    perception: 200
+    perception: 75
     damageFactor: 0.7
 
   items:
@@ -113,7 +113,7 @@
   level: 27
 
   otherStats:
-    perception: 200
+    perception: 75
     damageFactor: 0.7
 
   items:
@@ -213,7 +213,7 @@
   level: 27
 
   otherStats:
-    perception: 200
+    perception: 75
     damageFactor: 0.7
 
   items:
@@ -327,8 +327,8 @@
   level: 27
 
   otherStats:
-    stealth: 50
-    perception: 200
+    stealth: 25
+    perception: 75
     damageFactor: 0.5
 
   items:
@@ -470,7 +470,7 @@
   level: 29
 
   otherStats:
-    perception: 200
+    perception: 75
     damageFactor: 0.7
 
   items:
@@ -566,7 +566,7 @@
   level: 29
 
   otherStats:
-    perception: 200
+    perception: 75
     damageFactor: 0.7
 
   items:

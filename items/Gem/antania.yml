@@ -62,9 +62,8 @@
     maxEncrusts: 2
 
     stats:
-      stealth: 15
-      physicalDamageBoost: 5
-      perception: -5
+      stealth: 5
+      physicalDamageBoostPercent: 5
 
   requirements:
     level: 11

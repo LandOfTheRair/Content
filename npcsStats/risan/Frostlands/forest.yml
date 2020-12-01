@@ -12,7 +12,7 @@
   level: 25
 
   otherStats:
-    perception: 100
+    perception: 65
     damageFactor: 0.5
 
   items:

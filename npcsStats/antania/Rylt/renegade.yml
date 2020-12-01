@@ -14,7 +14,7 @@
 
   otherStats:
     fireResist: 70
-    perception: 80
+    perception: 15
     damageFactor: 0.5
     accuracy: -5
 
@@ -136,7 +136,7 @@
 
   otherStats:
     fireResist: 70
-    perception: 80
+    perception: 15
     damageFactor: 0.5
     accuracy: -5
 
@@ -195,7 +195,7 @@
 
   otherStats:
     fireResist: 70
-    perception: 80
+    perception: 15
     damageFactor: 0.5
     accuracy: -5
 
@@ -254,7 +254,7 @@
 
   otherStats:
     fireResist: 70
-    perception: 100
+    perception: 20
     damageFactor: 0.5
     accuracy: -5
 
@@ -337,7 +337,7 @@
   otherStats:
     con: 20
     fireResist: 70
-    perception: 150
+    perception: 25
     damageFactor: 0.5
     accuracy: -15
 

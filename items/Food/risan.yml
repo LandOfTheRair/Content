@@ -54,7 +54,7 @@
       tooltip: "+300 Perception"
       message: "The heart opens your eyes!"
       statChanges:
-        perception: 300
+        perception: 30
     duration: 36000
 
 - name: Yeti Bile (Small)

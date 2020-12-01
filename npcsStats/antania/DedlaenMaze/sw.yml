@@ -15,7 +15,7 @@
     con: 15
     accuracy: 4
     offense: 4
-    perception: 245
+    perception: 35
     damageFactor: 0.5
 
   gold:
@@ -71,7 +71,7 @@
     con: 15
     accuracy: 2
     offense: 2
-    perception: 265
+    perception: 55
     damageFactor: 0.5
 
   usableSkills:
@@ -110,7 +110,7 @@
     con: 15
     accuracy: 2
     offense: 2
-    perception: 265
+    perception: 55
     mpregen: 0
 
   usableSkills:
@@ -165,7 +165,7 @@
     offense: 7
     defense: 3
     mpregen: 50
-    perception: 300
+    perception: 35
 
   usableSkills:
     - Push
@@ -252,7 +252,7 @@
     offense: 10
     defense: 3
     mpregen: 50
-    perception: 300
+    perception: 35
     damageFactor: 0.5
 
   usableSkills:
@@ -313,7 +313,7 @@
     offense: 7
     defense: 3
     mpregen: 50
-    perception: 350
+    perception: 45
 
   skillOnKill: 25
 

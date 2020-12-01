@@ -88,7 +88,7 @@
     defense: 2
     armorClass: 1
     physicalResist: 50
-    perception: 30
+    perception: 5
   desc: "a white and blue robe with splotches of bloody flowers scattered around it"
   value: 13000
   sprite: 400
@@ -103,7 +103,7 @@
     defense: 4
     armorClass: 2
     physicalResist: 100
-    perception: 60
+    perception: 10
   desc: "a white and blue robe with splotches of bloody flowers scattered around it"
   value: 26000
   sprite: 400
@@ -118,7 +118,7 @@
     defense: 6
     armorClass: 3
     physicalResist: 150
-    perception: 90
+    perception: 15
   desc: "a white and blue robe with splotches of bloody flowers scattered around it"
   value: 39000
   sprite: 400
@@ -133,7 +133,7 @@
     defense: 8
     armorClass: 4
     physicalResist: 200
-    perception: 120
+    perception: 20
   desc: "a white and blue robe with splotches of bloody flowers scattered around it"
   value: 13000
   sprite: 400
@@ -148,7 +148,7 @@
     defense: 10
     armorClass: 5
     physicalResist: 250
-    perception: 150
+    perception: 30
   desc: "a white and blue robe with splotches of bloody flowers scattered around it"
   value: 13000
   sprite: 400

@@ -19,7 +19,7 @@
   stats:
     defense: 3
     wis: 1
-    perception: 30
+    perception: 15
     poisonResist: 20
     diseaseResist: 20
 
@@ -39,7 +39,7 @@
   stats:
     defense: 3
     int: 1
-    perception: 30
+    perception: 15
     poisonResist: 20
     diseaseResist: 20
 
@@ -59,7 +59,7 @@
   stats:
     offense: 3
     str: 1
-    perception: 30
+    perception: 15
     poisonResist: 20
     diseaseResist: 20
 
@@ -79,7 +79,7 @@
   stats:
     offense: 3
     agi: 1
-    perception: 30
+    perception: 15
     poisonResist: 20
     diseaseResist: 20
 
@@ -99,7 +99,7 @@
   stats:
     offense: 5
     defense: 5
-    perception: 30
+    perception: 15
     poisonResist: 20
     diseaseResist: 20
 

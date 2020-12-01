@@ -13,8 +13,8 @@
 
   otherStats:
     accuracy: 15
-    stealth: 50
-    perception: 350
+    stealth: 20
+    perception: 80
     int: 30
     dex: 30
     str: 23
@@ -128,7 +128,7 @@
 
   otherStats:
     accuracy: 10
-    perception: 350
+    perception: 80
     int: 20
     dex: 20
     str: 20
@@ -188,7 +188,7 @@
 
   otherStats:
     accuracy: 10
-    perception: 350
+    perception: 80
     int: 20
     dex: 20
     str: 20
@@ -254,7 +254,7 @@
 
   otherStats:
     accuracy: 10
-    perception: 350
+    perception: 80
     int: 20
     dex: 20
     str: 20

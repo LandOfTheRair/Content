@@ -11,7 +11,7 @@
   level: 27
 
   otherStats:
-    perception: 200
+    perception: 50
 
   items:
     equipment:
@@ -55,8 +55,8 @@
 
   otherStats:
     accuracy: 15
-    stealth: 50
-    perception: 350
+    stealth: 15
+    perception: 75
     int: 30
     dex: 30
     str: 23

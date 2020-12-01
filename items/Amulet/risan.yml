@@ -43,7 +43,7 @@
 - name: Librarian Thief Amulet
   stats:
     agi: 2
-    stealth: 50
+    stealth: 15
   binds: true
   sprite: 1
   desc: "an amulet set with a purple gem that reflects the night of the moon"

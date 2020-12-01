@@ -342,7 +342,7 @@
     con: 40
     accuracy: 10
     offense: 10
-    perception: 500
+    perception: 350
     mpregen: 100
     defense: 50
     offense: 50

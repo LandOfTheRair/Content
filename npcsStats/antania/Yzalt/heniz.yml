@@ -48,7 +48,7 @@
   skillOnKill: 5
 
   otherStats:
-    perception: 80
+    perception: 20
 
   gold:
     min: 100
@@ -165,8 +165,8 @@
   otherStats:
     fireResist: 100
     iceResist: 100
-    perception: 90
-    stealth: 40
+    perception: 20
+    stealth: 15
     damageFactor: 0.5
 
   gold:
@@ -266,7 +266,7 @@
   otherStats:
     fireResist: 100
     iceResist: 100
-    perception: 90
+    perception: 20
     damageFactor: 0.5
 
   level: 10
@@ -277,7 +277,7 @@
   skillOnKill: 8
 
   otherStats:
-    perception: 45
+    perception: 20
 
   gold:
     min: 50
@@ -375,7 +375,7 @@
   otherStats:
     fireResist: 100
     iceResist: 100
-    perception: 90
+    perception: 20
     damageFactor: 0.5
 
   gold:
@@ -478,7 +478,7 @@
   otherStats:
     fireResist: 100
     iceResist: 100
-    perception: 90
+    perception: 20
     damageFactor: 0.5
 
   level: 13

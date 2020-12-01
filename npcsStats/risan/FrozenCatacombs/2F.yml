@@ -14,7 +14,7 @@
   otherStats:
     offense: 20
     accuracy: 20
-    perception: 225
+    perception: 100
     armorClass: 4
     defense: 4
     agi: 7
@@ -133,7 +133,7 @@
   otherStats:
     offense: 20
     accuracy: 20
-    perception: 225
+    perception: 100
     armorClass: 4
     defense: 4
     agi: 7
@@ -236,7 +236,7 @@
   level: 30
 
   otherStats:
-    perception: 225
+    perception: 100
     armorClass: 4
     defense: 4
     agi: 7
@@ -368,7 +368,7 @@
   level: 30
 
   otherStats:
-    perception: 225
+    perception: 100
     armorClass: 4
     defense: 4
     agi: 7
@@ -476,7 +476,7 @@
   otherStats:
     offense: 20
     accuracy: 20
-    perception: 225
+    perception: 100
     armorClass: 10
     defense: 10
     agi: 7
@@ -581,10 +581,10 @@
   level: 30
 
   otherStats:
-    stealth: 75
+    stealth: 35
     offense: 20
     accuracy: 20
-    perception: 175
+    perception: 80
     armorClass: 4
     defense: 4
     agi: 7
@@ -719,10 +719,10 @@
   level: 30
 
   otherStats:
-    stealth: 75
+    stealth: 35
     offense: 20
     accuracy: 20
-    perception: 150
+    perception: 90
     armorClass: 4
     defense: 4
     agi: 7

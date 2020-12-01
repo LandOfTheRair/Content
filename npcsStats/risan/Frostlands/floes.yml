@@ -14,7 +14,7 @@
   otherStats:
     defense: 50
     armorClass: 40
-    perception: 100
+    perception: 65
     damageFactor: 0.5
 
   items:
@@ -69,7 +69,7 @@
   otherStats:
     defense: 30
     armorClass: 20
-    perception: 100
+    perception: 65
 
   items:
     equipment:

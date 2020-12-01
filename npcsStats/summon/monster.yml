@@ -19,7 +19,7 @@
     dex: 25
     agi: 30
     defense: 10
-    perception: 245
+    perception: 25
 
   gold:
     min: 0

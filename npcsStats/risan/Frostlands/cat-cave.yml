@@ -13,7 +13,7 @@
   otherStats:
     armorClass: 5
     defense: 5
-    perception: 150
+    perception: 80
     damageFactor: 0.5
 
   items:
@@ -93,7 +93,7 @@
     armorClass: 25
     offense: 10
     defense: 15
-    perception: 150
+    perception: 80
     damageFactor: 0.5
 
   items:

@@ -10,7 +10,7 @@
 
   otherStats:
     accuracy: 10
-    perception: 250
+    perception: 55
     int: 25
     dex: 25
     str: 25
@@ -136,7 +136,7 @@
 
   otherStats:
     con: 33
-    perception: 170
+    perception: 55
     accuracy: 10
     wil: 13
 
@@ -173,7 +173,7 @@
 
   otherStats:
     accuracy: 10
-    perception: 50
+    perception: 55
 
   skillLevels: 4
   skillOnKill: 5

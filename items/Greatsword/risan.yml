@@ -103,7 +103,7 @@
   desc: "a huge greatsword with a hilt shaped like a bat, the wings made of pure darkness"
   stats:
     weaponArmorClass: 10
-    stealth: 25
+    stealth: 35
     offense: 7
     defense: 7
   returnsOnThrow: true

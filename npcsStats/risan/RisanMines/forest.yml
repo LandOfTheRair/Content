@@ -12,7 +12,7 @@
   level: 16
 
   otherStats:
-    perception: 100
+    perception: 25
     damageFactor: 0.3
     accuracy: 7
 
@@ -78,7 +78,7 @@
   level: 19
 
   otherStats:
-    perception: 100
+    perception: 25
     damageFactor: 0.3
     accuracy: 7
 
@@ -153,7 +153,7 @@
 
   otherStats:
     armorClass: 10
-    perception: 100
+    perception: 25
     damageFactor: 0.3
     accuracy: 7
 
@@ -228,7 +228,7 @@
 
   otherStats:
     armorClass: 25
-    perception: 300
+    perception: 65
 
   items:
     equipment:
@@ -303,7 +303,7 @@
 
   otherStats:
     dex: 8
-    perception: 150
+    perception: 25
     damageFactor: 0.8
 
   items:
@@ -409,7 +409,7 @@
   otherStats:
     dex: 8
     accuracy: 5
-    perception: 150
+    perception: 25
     damageFactor: 0.7
 
   items:
@@ -513,7 +513,7 @@
   otherStats:
     wil: 30
     con: 30
-    perception: 150
+    perception: 45
 
   items:
     equipment:
