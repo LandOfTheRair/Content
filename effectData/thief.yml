@@ -9,6 +9,7 @@ Hidden:
     type: buff
     duration: -1
     extra:
+      canRemove: true
       unique: true
   meta:
     effectRef: Hidden
@@ -25,6 +26,7 @@ Shadowmeld:
     type: buff
     duration: -1
     extra:
+      canRemove: true
       unique: true
   meta:
     applyMessage: 'You become one with the shadows.'
