@@ -22,11 +22,3 @@ Jumpkick:
   color: '#530000'
   mode: 'lockActivation'
   tooltipDesc: 'Jump and kick an enemy. Requires Martial skill 5.'
-
-Mug:
-  name: 'Mug'
-  macro: 'mug'
-  icon: 'hooded-assassin'
-  color: '#530000'
-  mode: 'lockActivation'
-  tooltipDesc: 'Mug your target, dealing damage and stealing from them. Requires Thievery skill 7.'
