@@ -1,0 +1,18 @@
+
+
+Mug:
+  damageClass: physical
+  maxSkillForGain: 20
+  potencyMultiplier: 1
+  skillMultiplierChanges:
+    - [0,  4]
+    - [6,  5]
+    - [11, 6]
+    - [16, 7]
+    - [21, 8]
+    - [26, 9]
+    - [31, 11]
+    - [36, 14]
+
+  meta:
+    spellRef: Mug
