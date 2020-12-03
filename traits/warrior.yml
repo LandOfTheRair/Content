@@ -22,5 +22,13 @@ FunkyMoves:
 
 Swashbuckler:
   name: Swashbuckler
-  desc: Reduce your chance of an outgoing glancing blow by +$12.5$.
+  desc: Reduce your chance of an outgoing glancing blow by +$10$.
   icon: spiral-thrust
+  valuePerTier: 10
+
+Cleave:
+  name: Cleave
+  desc: Cleave a target, consuming 10 Rage.
+  icon: blade-fall
+  borderColor: "#f00"
+  spellGiven: Cleave

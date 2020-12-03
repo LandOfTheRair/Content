@@ -9,7 +9,10 @@ Warrior:
 
       tree: 
         - traits: 
-          - name: EagleEye
+          - name: Cleave
+            maxLevel: 1
+
+          - name: SharpVision
             maxLevel: 5
 
           - name: SwordTricks
@@ -20,8 +23,6 @@ Warrior:
 
           - name: NaturalArmor
             maxLevel: 5
-
-          - name: ''
 
         - traits:
           - name: Swashbuckler

@@ -22,7 +22,7 @@ Mug:
   desc: You can now mug marks, dealing damage and stealing from them.
   icon: hooded-assassin
   borderColor: "#f00"
-  skillGiven: Mug
+  spellGiven: Mug
 
 DarkerShadows:
   name: Darker Shadows

@@ -1,0 +1,9 @@
+
+Cleave:
+  name: 'Cleave'
+  for: Cleave
+  macro: 'art cleave'
+  icon: 'blade-fall'
+  color: '#f00'
+  mode: 'autoTarget'
+  tooltipDesc: 'Cleave your current target. Cost: 10 Rage'
