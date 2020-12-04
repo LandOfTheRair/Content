@@ -1,0 +1,18 @@
+
+Cure:
+  damageClass: heal
+  mpCost: 5
+  maxSkillForGain: 30
+  potencyMultiplier: 1
+  skillMultiplierChanges:
+    - [0,  4]
+    - [11, 6]
+    - [21, 10]
+    - [31, 15]
+
+  meta:
+    doesHeal: true
+    casterAttackMessage: 'You heal %0!'
+    casterSfx: 'spell-heal'
+    targetAttackMessage: '%0 healed you!'
+    spellRef: MagicMissile
