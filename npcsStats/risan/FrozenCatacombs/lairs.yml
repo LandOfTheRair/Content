@@ -94,13 +94,13 @@
       messages:
         - "a billowing gust of wind displaced by a strong crunching sound"
       sfx: 
-        name: "dragon"
+        name: "monster-dragon"
         maxChance: 1
     spawn:
       messages:
         - "a billowing gust of wind displaced by a strong crunching sound"
       sfx: 
-        name: "dragon"
+        name: "monster-dragon"
         maxChance: 1
 
 
@@ -191,13 +191,13 @@
       messages:
         - "the screeching of an enormous bird"
       sfx: 
-        name: "bird"
+        name: "monster-bird"
         maxChance: 1
     spawn:
       messages:
         - "the screeching of an enormous bird"
       sfx: 
-        name: "bird"
+        name: "monster-bird"
         maxChance: 1
 
 - npcId: Catacombs Frost Knight

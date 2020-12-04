@@ -111,7 +111,8 @@
       messages:
         - "the howling of a wolf"
       sfx: 
-        name: "wolf"
+        radius: 4
+        name: "monster-wolf"
         maxChance: 20
 
 - npcId: Tutorial Yeti

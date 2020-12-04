@@ -8,6 +8,11 @@ hp:
   min: 100000
   max: 100000
 
+level: 50
+
+usableSkills:
+  - Afflict
+
 items:
   equipment:
     rightHand: Antanian Mace

@@ -81,7 +81,7 @@
       messages:
         - "the indecipherable blabbering of goblins"
       sfx: 
-        name: "goblin"
+        name: "monster-goblin"
         maxChance: 20
 
 
@@ -200,7 +200,7 @@
       messages:
         - "the indecipherable blabbering of goblins"
       sfx: 
-        name: "goblin"
+        name: "monster-goblin"
         maxChance: 20
 
 
@@ -288,5 +288,5 @@
       messages:
         - "the indecipherable blabbering of goblins"
       sfx: 
-        name: "goblin"
+        name: "monster-goblin"
         maxChance: 20

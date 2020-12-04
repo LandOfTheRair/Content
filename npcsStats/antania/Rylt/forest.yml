@@ -159,7 +159,7 @@
       messages:
         - "the howling of a wolf"
       sfx: 
-        name: "wolf"
+        name: "monster-wolf"
         maxChance: 20
 
 - npcId: Rylt Bear
@@ -218,7 +218,7 @@
       messages:
         - "a deep roar"
       sfx: 
-        name: "bear"
+        name: "monster-bear"
         maxChance: 20
 
   tanSkillRequired: 1
@@ -299,11 +299,11 @@
       messages:
         - "a guttural roar"
       sfx: 
-        name: "bear"
+        name: "monster-bear"
         maxChance: 1
     spawn:
       messages:
         - "a guttural roar"
       sfx: 
-        name: "bear"
+        name: "monster-bear"
         maxChance: 1

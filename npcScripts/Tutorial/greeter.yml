@@ -4,9 +4,18 @@ name: Greeter
 hostility: Never
 affiliation: Welcome to Land of the Rair!
 
+level: 10
+
 hp:
   min: 100000
   max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
 
 items:
   equipment:

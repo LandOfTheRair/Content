@@ -136,7 +136,7 @@
       messages:
         - "the howling of a wolf"
       sfx: 
-        name: "wolf"
+        name: "monster-wolf"
         maxChance: 20
 
 - npcId: Risan Crazed Bear
@@ -211,7 +211,7 @@
       messages:
         - "a deep roar"
       sfx: 
-        name: "bear"
+        name: "monster-bear"
         maxChance: 20
 
 - npcId: Mines Griffon
@@ -281,13 +281,13 @@
       messages:
         - "the screeching of an crazed griffon"
       sfx: 
-        name: "bird"
+        name: "monster-bird"
         maxChance: 1
     spawn:
       messages:
         - "the screeching of an crazed griffon"
       sfx: 
-        name: "bird"
+        name: "monster-bird"
         maxChance: 1
 
 - npcId: Risan Dryad

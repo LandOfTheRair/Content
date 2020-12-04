@@ -4,6 +4,8 @@ name: Crier
 hostility: Never
 affiliation: Town Crier
 
+level: 10
+
 hp:
   min: 100000
   max: 100000
@@ -12,8 +14,7 @@ items:
   equipment:
     armor: Antanian Tunic
 
-# npc has no dialog because the crier behavior imparts a default dialog tree
-# all of the "default dialogs" should probably just be done in C++ because they're not going to change
+maxWanderRandomlyDistance: 10
 
 behaviors:
   - type: crier

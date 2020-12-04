@@ -8,6 +8,11 @@ hp:
   min: 100000
   max: 100000
 
+level: 10
+
+usableSkills:
+  - MagicMissile
+
 items:
   equipment:
     armor: Antanian Tunic

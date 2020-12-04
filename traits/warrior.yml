@@ -24,7 +24,7 @@ Swashbuckler:
   name: Swashbuckler
   desc: Reduce your chance of an outgoing glancing blow by +$10$.
   icon: spiral-thrust
-  valuePerTier: 10
+  valuePerTier: .1
 
 Cleave:
   name: Cleave

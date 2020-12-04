@@ -3,6 +3,7 @@ Clearcasting:
   name: Clearcasting
   desc: Increase the chance of not consuming mana when casting a spell by $3$%.
   icon: magic-swirl
+  valuePerTier: 3
 
 CalmMind:
   name: Calm Mind

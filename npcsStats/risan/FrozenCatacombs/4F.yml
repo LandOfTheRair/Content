@@ -129,7 +129,7 @@
       messages:
         - "the clattering of bones"
       sfx: 
-        name: "skeleton"
+        name: "monster-skeleton"
         maxChance: 20
 
 - npcId: Catacombs Mummy 4F
@@ -377,7 +377,7 @@
       messages:
         - "the screeching of an ancient banshee"
       sfx: 
-        name: "ghost"
+        name: "monster-ghost"
         maxChance: 20
 
 - npcId: Catacombs Wight 4F

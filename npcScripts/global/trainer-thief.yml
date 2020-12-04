@@ -8,9 +8,11 @@ hp:
   min: 100000
   max: 100000
 
+level: 50
+
 items:
   equipment:
-    rightHand: Antanian Dagger
+    rightHand: Antanian Returning Dagger
     armor: Antanian Studded Tunic
     
 behaviors:

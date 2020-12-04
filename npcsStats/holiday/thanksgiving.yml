@@ -111,7 +111,7 @@
       messages:
         - "the gobbling of a young turkey"
       sfx:
-        name: "turkey"
+        name: "monster-turkey"
         maxChance: 20
 
 - npcId: Thanksgiving Strong Turkey
@@ -170,7 +170,7 @@
       messages:
         - "the gobbling of a turkey"
       sfx:
-        name: "turkey"
+        name: "monster-turkey"
         maxChance: 20
 
 - npcId: Thanksgiving Secret Turkey
@@ -232,7 +232,7 @@
       messages:
         - "the guttural gobbling of a turkey"
       sfx:
-        name: "turkey"
+        name: "monster-turkey"
         maxChance: 20
 
 - npcId: Thanksgiving Gobbleguard
@@ -297,7 +297,7 @@
       messages:
         - "the gobbling of a turkey"
       sfx:
-        name: "turkey"
+        name: "monster-turkey"
         maxChance: 20
 
 - npcId: Thanksgiving King Gobbler
@@ -401,12 +401,12 @@
       messages:
         - "the deep gobble-roar"
       sfx:
-        name: "turkey"
+        name: "monster-turkey"
         maxChance: 20
     leash:
       messages:
         - "the deep gobble-roar"
       sfx:
-        name: "turkey"
+        name: "monster-turkey"
         maxChance: 20
 

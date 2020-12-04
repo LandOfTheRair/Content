@@ -269,12 +269,12 @@
       messages:
         - "the splashing and crunching of a giant sea creature"
       sfx: 
-        name: "dragon"
+        name: "monster-dragon"
         maxChance: 1
     spawn:
       messages:
         - "the splashing and crunching of a giant sea creature"
       sfx: 
-        name: "dragon"
+        name: "monster-dragon"
         maxChance: 1
 

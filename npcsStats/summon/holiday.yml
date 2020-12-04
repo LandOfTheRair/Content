@@ -40,7 +40,7 @@
       messages:
         - "the gobbling of a turkey"
       sfx: 
-        name: "turkey"
+        name: "monster-turkey"
         maxChance: 1
 
 - npcId: Holiday Summon Snowman

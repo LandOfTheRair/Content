@@ -8,9 +8,11 @@ hp:
   min: 100000
   max: 100000
 
+level: 50
+
 items:
   equipment:
-    rightHand: Antanian Longsword
+    rightHand: Antanian Returning Longsword
     leftHand: Antanian Wooden Shield
     armor: Antanian Breastplate
     

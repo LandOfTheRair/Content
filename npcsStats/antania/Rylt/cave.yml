@@ -64,7 +64,7 @@
       messages:
         - "the sound of rocks grinding together"
       sfx: 
-        name: "rocks"
+        name: "monster-rocks"
         maxChance: 20
 
 - npcId: Rylt Cave Apprentice

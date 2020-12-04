@@ -4,6 +4,14 @@
   type: Sword
   value: 115
   sprite: 197
+
+- name: Antanian Returning Longsword
+  desc: "an iron longsword"
+  tier: 1
+  returnsOnThrow: true
+  type: Sword
+  value: 115
+  sprite: 197
   
 - name: Rylt Renegade Longsword
   desc: "an iron longsword engraved with PROPERTY OF RENEGADES, PLEASE RETURN IF FOUND"

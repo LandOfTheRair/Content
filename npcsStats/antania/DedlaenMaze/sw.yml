@@ -224,13 +224,13 @@
       messages:
         - "the cry of a spectral horror"
       sfx: 
-        name: "ghost"
+        name: "monster-ghost"
         maxChance: 1
     spawn:
       messages:
         - "the cry of a spectral horror"
       sfx: 
-        name: "ghost"
+        name: "monster-ghost"
         maxChance: 1
 
 - npcId: Dedlaen Ghast
