@@ -12,6 +12,7 @@ Cure:
 
   meta:
     doesHeal: true
+    noHostileTarget: true
     casterAttackMessage: 'You heal %0!'
     casterSfx: 'spell-heal'
     targetAttackMessage: '%0 healed you!'
