@@ -1,0 +1,18 @@
+
+tag: Rylt Dekar
+name: Dekar
+hostility: Never
+affiliation: Town Drunk
+
+level: 10
+
+hp:
+  min: 10000
+  max: 10000
+
+items:
+  equipment:
+    rightHand: Antanian Longbow
+    armor: Antanian Breastplate
+
+maxWanderRandomlyDistance: 100
