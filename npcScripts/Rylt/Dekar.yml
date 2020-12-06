@@ -16,3 +16,16 @@ items:
     armor: Antanian Breastplate
 
 maxWanderRandomlyDistance: 100
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: chat
+          maxDistance: 4
+          message: >
+            Hail, ${ name }, and farewell. I would not have you tarry with a drunkard like me.
+
+          options:
+            - text: Hello!
+              action: noop
