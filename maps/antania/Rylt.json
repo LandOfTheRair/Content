@@ -1071,6 +1071,14 @@
                  "height":64,
                  "id":502,
                  "name":"",
+                 "properties":
+                    {
+                     "tag":"Rylt Readegade"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -5879,13 +5887,13 @@
                     {
                      "alchCost":50,
                      "alchOz":10,
-                     "script":"global\/alchemist"
+                     "tag":"Alchemist"
                     },
                  "propertytypes":
                     {
                      "alchCost":"int",
                      "alchOz":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -5901,11 +5909,11 @@
                  "name":"Crier",
                  "properties":
                     {
-                     "script":"antania\/rylt\/crier"
+                     "tag":"Rylt Crier"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -5923,13 +5931,13 @@
                     {
                      "maxLevelUpLevel":50,
                      "maxSkillTrain":7,
-                     "script":"trainer\/mage"
+                     "tag":"Trainer Mage"
                     },
                  "propertytypes":
                     {
                      "maxLevelUpLevel":"int",
                      "maxSkillTrain":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -5947,13 +5955,13 @@
                     {
                      "maxLevelUpLevel":50,
                      "maxSkillTrain":7,
-                     "script":"trainer\/healer"
+                     "tag":"Trainer Healer"
                     },
                  "propertytypes":
                     {
                      "maxLevelUpLevel":"int",
                      "maxSkillTrain":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -5971,13 +5979,13 @@
                     {
                      "maxLevelUpLevel":50,
                      "maxSkillTrain":7,
-                     "script":"trainer\/warrior"
+                     "tag":"Trainer Warrior"
                     },
                  "propertytypes":
                     {
                      "maxLevelUpLevel":"int",
                      "maxSkillTrain":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -5993,11 +6001,11 @@
                  "name":"",
                  "properties":
                     {
-                     "script":"global\/tanner"
+                     "tag":"Tanner"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6013,11 +6021,11 @@
                  "name":"",
                  "properties":
                     {
-                     "script":"antania\/rylt\/potion-vendor"
+                     "tag":"Rylt Potion Vendor"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6033,11 +6041,11 @@
                  "name":"Bear",
                  "properties":
                     {
-                     "script":"antania\/rylt\/ranger"
+                     "tag":"Rylt Ranger Bear"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6053,11 +6061,11 @@
                  "name":"Rocky",
                  "properties":
                     {
-                     "script":"antania\/rylt\/rocky"
+                     "tag":"Rylt Rocky"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6173,11 +6181,11 @@
                  "name":"Rylt Botanist",
                  "properties":
                     {
-                     "script":"antania\/rylt\/botanist"
+                     "tag":"Rylt Botanist"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6193,11 +6201,11 @@
                  "name":"Ralteun",
                  "properties":
                     {
-                     "script":"antania\/rylt\/ralteun"
+                     "tag":"Ralteun"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6213,11 +6221,11 @@
                  "name":"Darwin",
                  "properties":
                     {
-                     "script":"antania\/rylt\/bradley"
+                     "tag":"Rylt Bradley"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6233,11 +6241,11 @@
                  "name":"",
                  "properties":
                     {
-                     "script":"antania\/rylt\/thief-vendor"
+                     "tag":"Rylt Thief Vendor"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6255,13 +6263,13 @@
                     {
                      "costPerThousand":1,
                      "repairsUpToCondition":20000,
-                     "script":"global\/smith"
+                     "tag":"Smith"
                     },
                  "propertytypes":
                     {
                      "costPerThousand":"int",
                      "repairsUpToCondition":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6279,13 +6287,13 @@
                     {
                      "bankId":"Antania",
                      "branchId":"Rylt",
-                     "script":"global\/banker"
+                     "tag":"Banker"
                     },
                  "propertytypes":
                     {
                      "bankId":"string",
                      "branchId":"string",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6301,11 +6309,11 @@
                  "name":"Jarek",
                  "properties":
                     {
-                     "script":"antania\/rylt\/guard-jarek"
+                     "tag":"Rylt Jarek"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6323,13 +6331,13 @@
                     {
                      "maxLevelUpLevel":50,
                      "maxSkillTrain":7,
-                     "script":"trainer\/thief"
+                     "tag":"Trainer Thief"
                     },
                  "propertytypes":
                     {
                      "maxLevelUpLevel":"int",
                      "maxSkillTrain":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6345,11 +6353,11 @@
                  "name":"",
                  "properties":
                     {
-                     "script":"antania\/rylt\/weapon-vendor"
+                     "tag":"Rylt Weapon Vendor"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6368,14 +6376,14 @@
                      "peddleCost":1000,
                      "peddleDesc":"A Succor Ring will allow you to come back to a place you have previously visited!",
                      "peddleItem":"Succor Ring",
-                     "script":"global\/peddler"
+                     "tag":"Peddler"
                     },
                  "propertytypes":
                     {
                      "peddleCost":"int",
                      "peddleDesc":"string",
                      "peddleItem":"string",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6411,11 +6419,11 @@
                  "name":"",
                  "properties":
                     {
-                     "script":"antania\/rylt\/armor-vendor"
+                     "tag":"Rylt Armor Vendor"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6434,14 +6442,14 @@
                      "peddleCost":1000,
                      "peddleDesc":"An Identify Ring will allow you to identify items and see their hidden properties!",
                      "peddleItem":"Identify Ring",
-                     "script":"global\/peddler"
+                     "tag":"Peddler"
                     },
                  "propertytypes":
                     {
                      "peddleCost":"int",
                      "peddleDesc":"string",
                      "peddleItem":"string",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6457,11 +6465,11 @@
                  "name":"Twean",
                  "properties":
                     {
-                     "script":"antania\/rylt\/mayor"
+                     "tag":"Rylt Twean"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6477,11 +6485,11 @@
                  "name":"Encruster",
                  "properties":
                     {
-                     "script":"global\/encruster"
+                     "tag":"Encruster"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6497,11 +6505,11 @@
                  "name":"Steelrose Agent",
                  "properties":
                     {
-                     "script":"global\/trader"
+                     "tag":"Steelrose"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6517,11 +6525,11 @@
                  "name":"Jona",
                  "properties":
                     {
-                     "script":"antania\/rylt\/jona"
+                     "tag":"Rylt Jona"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6537,11 +6545,11 @@
                  "name":"Tenur",
                  "properties":
                     {
-                     "script":"antania\/rylt\/apprentice-tenur"
+                     "tag":"Rylt Tenur"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6557,11 +6565,11 @@
                  "name":"Rengi",
                  "properties":
                     {
-                     "script":"antania\/rylt\/guard-rengi"
+                     "tag":"Rylt Rengi"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6577,11 +6585,11 @@
                  "name":"Roma",
                  "properties":
                     {
-                     "script":"antania\/rylt\/roma"
+                     "tag":"Rylt Roma"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -6591,41 +6599,17 @@
                  "y":1152
                 }, 
                 {
-                 "gid":3082,
-                 "height":64,
-                 "id":1288,
-                 "name":"Anjen",
-                 "properties":
-                    {
-                     "maxLevelUpLevel":50,
-                     "maxSkillTrain":30,
-                     "script":"trainer\/tradeskill"
-                    },
-                 "propertytypes":
-                    {
-                     "maxLevelUpLevel":"int",
-                     "maxSkillTrain":"int",
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":4288,
-                 "y":3456
-                }, 
-                {
                  "gid":3147,
                  "height":64,
                  "id":1329,
                  "name":"Jeeves",
                  "properties":
                     {
-                     "script":"antania\/rylt\/jeeves"
+                     "tag":"Rylt Jeeves"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
