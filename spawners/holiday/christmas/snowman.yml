@@ -7,4 +7,5 @@ maxCreatures: 3
 spawnRadius: 1
 randomWalkRadius: 25
 leashRadius: 35
+requireHoliday: Christmas
 tag: 'Holiday Christmas Snowman'

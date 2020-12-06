@@ -7,4 +7,5 @@ spawnRadius: 1
 randomWalkRadius: 25
 leashRadius: 35
 doInitialSpawnImmediately: true
+requireHoliday: Thanksgiving
 tag: 'Holiday Thanksgiving Pilgrim'

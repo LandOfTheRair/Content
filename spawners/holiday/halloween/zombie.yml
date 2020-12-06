@@ -5,5 +5,6 @@ initialSpawn: 2
 maxCreatures: 2
 spawnRadius: 0
 randomWalkRadius: 15
+requireHoliday: Halloween
 leashRadius: 35
 tag: 'Holiday Halloween Zombie'

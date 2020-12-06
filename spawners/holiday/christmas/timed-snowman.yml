@@ -7,4 +7,6 @@ maxCreatures: 3
 spawnRadius: 1
 randomWalkRadius: 25
 leashRadius: 35
+requireHoliday: Christmas
+# TODO: ((minute % 3) === 0 || (minute % 4) === 0)
 tag: 'Holiday Christmas Timed-snowman'
