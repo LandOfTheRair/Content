@@ -1,0 +1,25 @@
+
+tag: Rylt Bradley
+name: Darwin
+hostility: Never
+affiliation: Tavernkeep
+
+hp:
+  min: 1000000
+  max: 1000000
+
+level: 50
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Bradley Constitution Potion
+    armor: Antanian Tunic
+
+behaviors:
+  - type: vendor
+  
+    vendorItems: 
+      - item: Bradley Constitution Potion

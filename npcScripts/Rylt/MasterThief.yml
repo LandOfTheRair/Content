@@ -1,0 +1,35 @@
+
+tag: Rylt Master Thief
+name: Master Thief
+affiliation: Contact GM For Prize
+hostility: Never
+
+level: 50
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 10000
+  max: 10000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: chat
+          maxDistance: 4
+          message: >
+            Congratulations on getting this far, ${ name }!
+
+          options:
+            - text: Hello!
+              action: noop

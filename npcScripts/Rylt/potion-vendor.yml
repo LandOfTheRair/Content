@@ -1,0 +1,32 @@
+
+tag: Rylt Potion Vendor
+hostility: Never
+affiliation: Potion Vendor
+
+hp:
+  min: 10000
+  max: 10000
+
+level: 10
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Mend Bottle
+    armor: Antanian Tunic
+
+behaviors:
+  - type: vendor
+  
+    vendorItems: 
+      - item: Mend Bottle
+      - item: Mend Bottle (5oz)
+      - item: Instant Heal Bottle
+      - item: Instant Heal Bottle (5oz)
+      - item: Antanian Slice of Bread
+      - item: Antanian Loaf of Bread
+      - item: Antanian Bottle of Water
+      - item: Antanian Pint of Water
+      - item: Empty Bottle
