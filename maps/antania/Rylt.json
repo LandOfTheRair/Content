@@ -10805,7 +10805,7 @@
                  "y":2112
                 }, 
                 {
-                 "height":704,
+                 "height":320,
                  "id":598,
                  "name":"",
                  "properties":
@@ -11050,10 +11050,29 @@
                  "width":320,
                  "x":3072,
                  "y":512
+                }, 
+                {
+                 "height":320,
+                 "id":1345,
+                 "name":"",
+                 "properties":
+                    {
+                     "desc":"You climb down the ladder and see that there are what appear to be shops down here."
+                    },
+                 "propertytypes":
+                    {
+                     "desc":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":576,
+                 "x":320,
+                 "y":704
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -11611,7 +11630,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1345,
+ "nextobjectid":1346,
  "orientation":"orthogonal",
  "properties":
     {
