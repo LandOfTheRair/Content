@@ -6258,7 +6258,7 @@
                  "gid":2607,
                  "height":64,
                  "id":914,
-                 "name":"Smith",
+                 "name":"",
                  "properties":
                     {
                      "costPerThousand":1,
@@ -6282,7 +6282,7 @@
                  "gid":3147,
                  "height":64,
                  "id":915,
-                 "name":"Banker",
+                 "name":"",
                  "properties":
                     {
                      "bankId":"Antania",
@@ -6482,7 +6482,7 @@
                  "gid":3147,
                  "height":64,
                  "id":1228,
-                 "name":"Encruster",
+                 "name":"",
                  "properties":
                     {
                      "tag":"Encruster"

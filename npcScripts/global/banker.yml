@@ -18,6 +18,7 @@ usableSkills:
 
 items:
   equipment:
+    rightHand: Gold Coin
     armor: Antanian Tunic
 
 dialog:

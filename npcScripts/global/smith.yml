@@ -18,6 +18,7 @@ usableSkills:
 
 items:
   equipment:
+    rightHand: Smith Hammer
     armor: Antanian Tunic
 
 dialog:
