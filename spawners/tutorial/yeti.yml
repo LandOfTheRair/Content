@@ -5,5 +5,6 @@ initialSpawn: 1
 maxCreatures: 1
 spawnRadius: 1
 randomWalkRadius: 5
+requireDeadToRespawn: true
 leashRadius: 10
 tag: 'Tutorial Yeti'
