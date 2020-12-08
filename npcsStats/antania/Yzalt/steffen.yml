@@ -123,7 +123,7 @@
           chance: 2
         - result: Antanian Ring
           chance: 1
-        - result: Identify Ring
+        - result: Cure Ring
           chance: 1
       armor: Antanian Breastplate
       robe1:

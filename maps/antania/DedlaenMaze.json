@@ -22232,7 +22232,7 @@
                  "properties":
                     {
                      "peddleCost":1000,
-                     "peddleItem":"Identify Ring",
+                     "peddleItem":"Cure Ring",
                      "script":"global\/peddler"
                     },
                  "propertytypes":

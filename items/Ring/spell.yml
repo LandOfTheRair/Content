@@ -1,4 +1,13 @@
 
+- name: Cure Ring
+  sprite: 239
+  desc: "a silver ring set with a crystallized blue eye"
+  value: 100
+  useEffect:
+    name: Cure
+    uses: 10
+    potency: 100
+
 - name: Identify Ring
   sprite: 239
   desc: "a silver ring set with a crystallized blue eye"

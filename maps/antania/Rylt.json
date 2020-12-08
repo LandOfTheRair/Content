@@ -6439,32 +6439,6 @@
                  "y":2752
                 }, 
                 {
-                 "gid":3182,
-                 "height":64,
-                 "id":920,
-                 "name":"",
-                 "properties":
-                    {
-                     "peddleCost":1000,
-                     "peddleDesc":"A Succor Ring will allow you to come back to a place you have previously visited!",
-                     "peddleItem":"Succor Ring",
-                     "tag":"Peddler"
-                    },
-                 "propertytypes":
-                    {
-                     "peddleCost":"int",
-                     "peddleDesc":"string",
-                     "peddleItem":"string",
-                     "tag":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":4608,
-                 "y":2944
-                }, 
-                {
                  "gid":3137,
                  "height":64,
                  "id":921,
@@ -6512,8 +6486,8 @@
                  "properties":
                     {
                      "peddleCost":1000,
-                     "peddleDesc":"An Identify Ring will allow you to identify items and see their hidden properties!",
-                     "peddleItem":"Identify Ring",
+                     "peddleDesc":"A Cure Ring will allow you to heal yourself!",
+                     "peddleItem":"Cure Ring",
                      "tag":"Peddler"
                     },
                  "propertytypes":
@@ -6709,6 +6683,30 @@
                  "width":64,
                  "x":3456,
                  "y":2112
+                }, 
+                {
+                 "gid":3122,
+                 "height":64,
+                 "id":1346,
+                 "name":"",
+                 "properties":
+                    {
+                     "identifyCost":1000,
+                     "identifyTier":0,
+                     "tag":"Identifier"
+                    },
+                 "propertytypes":
+                    {
+                     "identifyCost":"int",
+                     "identifyTier":"int",
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":4672,
+                 "y":2944
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -11072,7 +11070,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -11630,7 +11628,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1346,
+ "nextobjectid":1347,
  "orientation":"orthogonal",
  "properties":
     {

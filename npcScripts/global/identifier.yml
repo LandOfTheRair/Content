@@ -1,5 +1,5 @@
 
-tag: Peddler
+tag: Identifier
 hostility: Never
 
 level: 10
@@ -17,9 +17,9 @@ usableSkills:
 
 items:
   equipment:
-    armor: Antanian Tunic
+    armor: Forest Spirit Mage Cloak
 
 maxWanderRandomlyDistance: 1
 
 behaviors:
-  - type: peddler
+  - type: identifier

@@ -115,7 +115,7 @@
       ring1:
         - none
         - Antanian Ring
-        - Identify Ring
+        - Cure Ring
       robe1:
         - result: none
           chance: 14
@@ -206,7 +206,7 @@
       ring1:
         - none
         - Antanian Ring
-        - Identify Ring
+        - Cure Ring
 
       robe1: FireIce Prot Robe 100
       robe2: Saraxa Robe

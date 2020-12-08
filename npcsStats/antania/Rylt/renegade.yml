@@ -53,7 +53,7 @@
           chance: 2
         - result: Antanian Ring
           chance: 1
-        - result: Identify Ring
+        - result: Cure Ring
           chance: 1
       armor:
         - result: Antanian Tunic
@@ -280,7 +280,7 @@
         - Rylt Renegade Mace
         - Rylt Renegade Axe
       leftHand: Rylt Renegade Iron Shield
-      ring1: Identify Ring
+      ring1: Cure Ring
       armor: Rylt Renegade Breastplate
       robe1:
         - result: none
@@ -363,7 +363,7 @@
         - Rylt Renegade Greatmace
         - Rylt Renegade Greatsword
         - Rylt Renegade Halberd
-      ring1: Identify Ring
+      ring1: Cure Ring
       armor: Rylt Renegade Breastplate
       robe1:
         - result: none
