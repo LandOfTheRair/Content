@@ -9,7 +9,7 @@ baseStats:
   luk: 10
   con: 10
   hp: 100
-  gold: 500
+  gold: 100
 
 allegiances:
   - name: 'Adventurers'
@@ -47,7 +47,7 @@ allegiances:
       wil: -1
       cha: -1
       hp: 15
-      gold: 500
+      gold: 400
 
     baseItems:
       rightHand: Antanian Axe
@@ -70,7 +70,7 @@ allegiances:
       int: 2
       wis: 2
       cha: 2
-      gold: 3500
+      gold: 900
 
     baseItems:
       rightHand: Antanian Mace
@@ -90,7 +90,7 @@ allegiances:
       dex: -1
       agi: 1
       wil: 1
-      gold: -300
+      gold: -75
 
     baseItems:
       rightHand: Antanian Dagger
@@ -151,9 +151,7 @@ classes:
       
       This is an advanced selection! This class has no skill tree, low HP maxes, and below average combat ability.
       If you choose to enter the world Undecided, you can change your class a single time at any class trainer.
-    statMods:
-      luk: 1
-      cha: 1
+    statMods: {}
 
   - name: 'Mage'
     description: >
@@ -175,7 +173,6 @@ classes:
       wil: 1
       hp: 10
       mp: 40
-      mpregen: 1
 
   - name: 'Thief'
     description: >
@@ -213,7 +210,6 @@ classes:
       wil: 1
       hp: 20
       mp: 30
-      mpregen: 1
 
   - name: 'Warrior'
     description: >
