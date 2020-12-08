@@ -38,28 +38,28 @@ dialog:
             owner: "${ name }" # again, not sure on player name syntax. there will also need to be arbitrary checks for stats and other related item stuff.
 
           checkPassActions:
-            - type: takeItem
-              slot:
-                - rightHand
-                - leftHand
-              item:
-                name: Tutorial Yeti Skull
-                amount: 1 # implied
-                owner: "${ name }" # will need to make sure it doesn't take unowned ones
+            # - type: takeItem
+            #   slot:
+            #     - rightHand
+            #     - leftHand
+            #   item:
+            #     name: Tutorial Yeti Skull
+            #     amount: 1 # implied
+            #     owner: "${ name }" # will need to make sure it doesn't take unowned ones
 
-            - type: giveItem
-              slot:
-                - rightHand
-                - leftHand
-              item:
-                name: Tutorial Key
-                amount: 1 # implied. if we wanted to give more keys, we would have to specify sack, pouch, or belt as a target. 
+            # - type: giveItem
+            #   slot:
+            #     - rightHand
+            #     - leftHand
+            #   item:
+            #     name: Tutorial Key
+             #    amount: 1 # implied. if we wanted to give more keys, we would have to specify sack, pouch, or belt as a target. 
 
             - type: chat
               maxDistance: 0
               message: >
                 Ah, thank you ${ name }! I see you've brought me the skull of the feared yeti. 
-                Here, you can have this key. Now go out into the world and do great things!
+                Now go out into the world and do great things! The exit is to the north, through a winding cave.
 
               options:
                 - text: Thanks, old man
