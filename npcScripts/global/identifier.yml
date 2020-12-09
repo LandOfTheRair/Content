@@ -17,6 +17,7 @@ usableSkills:
 
 items:
   equipment:
+    rightHand: Saraxa Wand
     armor: Forest Spirit Mage Cloak
 
 maxWanderRandomlyDistance: 1

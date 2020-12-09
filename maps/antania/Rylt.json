@@ -6333,7 +6333,7 @@
                  "name":"Smith",
                  "properties":
                     {
-                     "costPerThousand":1,
+                     "costPerThousand":10,
                      "repairsUpToCondition":20000,
                      "tag":"Smith"
                     },
