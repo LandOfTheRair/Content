@@ -18,18 +18,8 @@ usableSkills:
 
 items:
   equipment:
-    rightHand: Deer Robe
-    armor: Antanian Tunic
+    rightHand: Antanian Dagger
+    armor: Deer Robe
 
-dialog:
-  keyword:
-    hello:
-      actions:
-        - type: chat
-          maxDistance: 4
-          message: >
-            Hello, ${ name }!
-
-          options:
-            - text: Hello!
-              action: noop
+behaviors:
+  - type: tanner

@@ -20,15 +20,5 @@ items:
   equipment:
     armor: Antanian Tunic
 
-dialog:
-  keyword:
-    hello:
-      actions:
-        - type: chat
-          maxDistance: 4
-          message: >
-            Hello, ${ name }!
-
-          options:
-            - text: Hello!
-              action: noop
+behaviors:
+  - type: alchemist
