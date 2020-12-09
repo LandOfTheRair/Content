@@ -6707,6 +6707,28 @@
                  "width":64,
                  "x":4672,
                  "y":2944
+                }, 
+                {
+                 "gid":4452,
+                 "height":64,
+                 "id":1347,
+                 "name":"",
+                 "properties":
+                    {
+                     "succorOz":3,
+                     "tag":"Succor Tree"
+                    },
+                 "propertytypes":
+                    {
+                     "succorOz":"int",
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":3392,
+                 "y":1984
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -11628,7 +11650,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1347,
+ "nextobjectid":1348,
  "orientation":"orthogonal",
  "properties":
     {

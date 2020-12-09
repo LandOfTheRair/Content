@@ -19,3 +19,4 @@ behaviors:
   - type: trainer
     trainClass: [Warrior]
     joinClass: Warrior
+    props: ['maxLevelUpLevel', 'maxSkillTrain']

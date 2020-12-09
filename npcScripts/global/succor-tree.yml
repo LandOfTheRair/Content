@@ -1,0 +1,22 @@
+
+tag: Succor Tree
+name: Ether Tree
+hostility: Never
+
+level: 10
+
+hp:
+  min: 10000
+  max: 10000
+
+mp:
+  min: 10000
+  max: 10000
+
+items:
+  equipment:
+    armor: Succor Blob
+
+behaviors:
+  - type: succorer
+    props: ['succorOz']

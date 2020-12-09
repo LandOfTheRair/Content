@@ -21,3 +21,4 @@ behaviors:
   - type: trainer
     trainClass: [Healer]
     joinClass: Healer
+    props: ['maxLevelUpLevel', 'maxSkillTrain']

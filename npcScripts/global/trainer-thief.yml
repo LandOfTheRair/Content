@@ -18,3 +18,4 @@ behaviors:
   - type: trainer
     trainClass: [Thief]
     joinClass: Thief
+    props: ['maxLevelUpLevel', 'maxSkillTrain']

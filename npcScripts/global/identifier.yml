@@ -24,3 +24,4 @@ maxWanderRandomlyDistance: 1
 
 behaviors:
   - type: identifier
+    props: ['identifyCost', 'identifyTier']

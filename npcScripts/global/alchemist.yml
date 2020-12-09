@@ -18,7 +18,8 @@ usableSkills:
 
 items:
   equipment:
-    armor: Antanian Tunic
+    armor: Yzalt Fungus Ringmail Tunic
 
 behaviors:
   - type: alchemist
+    props: ['alchCost', 'alchOz']

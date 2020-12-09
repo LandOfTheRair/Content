@@ -21,3 +21,4 @@ behaviors:
   - type: trainer
     trainClass: [Mage]
     joinClass: Mage
+    props: ['maxLevelUpLevel', 'maxSkillTrain']

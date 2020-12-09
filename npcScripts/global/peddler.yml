@@ -23,3 +23,4 @@ maxWanderRandomlyDistance: 1
 
 behaviors:
   - type: peddler
+    props: ['peddleCost', 'peddleDesc', 'peddleItem']
