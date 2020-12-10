@@ -19,7 +19,7 @@ usableSkills:
 items:
   equipment:
     rightHand: Antanian Purple Gem
-    armor: Antanian Tunic
+    armor: Rylt Werebear Fur
 
 behaviors:
   - type: encruster

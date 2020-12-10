@@ -19,7 +19,7 @@ usableSkills:
 items:
   equipment:
     rightHand: Gold Coin
-    armor: Antanian Tunic
+    armor: Deer Robe
 
 behaviors:
   - type: banker
