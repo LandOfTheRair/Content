@@ -7,7 +7,7 @@
   sprite: 247
 
   encrustGive:
-    maxEncrusts: 4
+    slots: ['wrists', 'waist', 'head', 'shield']
 
     stats:
       hp: 10
@@ -23,7 +23,7 @@
   sprite: 246
 
   encrustGive:
-    maxEncrusts: 4
+    slots: ['robe', 'head', 'shield']
 
     stats:
       physicalResist: 6
@@ -38,10 +38,10 @@
   sprite: 310
 
   encrustGive:
-    maxEncrusts: 3
+    slots: ['ear']
 
     stats:
-      con: 1
+      con: 3
 
   requirements:
     level: 7
@@ -52,8 +52,10 @@
   value: 1
   sprite: 311
   encrustGive:
+    slots: ['head']
+
     stats:
-      perception: 10
+      perception: 15
 
   requirements:
     level: 7
@@ -64,6 +66,8 @@
   value: 1
   sprite: 312
   encrustGive:
+    slots: ['robe', 'head', 'shield']
+
     stats:
       magicalResist: 3
 
@@ -77,7 +81,7 @@
   sprite: 313
 
   encrustGive:
-    maxEncrusts: 3
+    slots: ['wrists', 'ring']
 
     stats:
       hpregen: 5
@@ -92,7 +96,7 @@
   sprite: 314
 
   encrustGive:
-    maxEncrusts: 3
+    slots: ['wrists', 'ring']
 
     stats:
       mpregen: 5
@@ -107,7 +111,7 @@
   sprite: 315
 
   encrustGive:
-    maxEncrusts: 3
+    slots: ['weapon', 'gloves']
 
     stats:
       accuracy: 3
@@ -122,7 +126,7 @@
   sprite: 340
 
   encrustGive:
-    maxEncrusts: 4
+    slots: ['robe', 'helm', 'shield']
 
     stats:
       fireResist: 50
@@ -134,7 +138,7 @@
   sprite: 339
 
   encrustGive:
-    maxEncrusts: 4
+    slots: ['robe', 'helm', 'shield']
 
     stats:
       iceResist: 50
@@ -146,7 +150,7 @@
   sprite: 341
 
   encrustGive:
-    maxEncrusts: 4
+    slots: ['robe', 'helm', 'shield']
 
     stats:
       necroticResist: 50
@@ -158,7 +162,7 @@
   sprite: 338
 
   encrustGive:
-    maxEncrusts: 4
+    slots: ['robe', 'helm', 'shield']
 
     stats:
       energyResist: 50
@@ -170,7 +174,7 @@
   sprite: 912
 
   encrustGive:
-    maxEncrusts: 4
+    slots: ['robe', 'helm', 'shield']
 
     stats:
       poisonResist: 50
@@ -182,7 +186,7 @@
   sprite: 911
 
   encrustGive:
-    maxEncrusts: 4
+    slots: ['robe', 'helm', 'shield']
 
     stats:
       diseaseResist: 25
@@ -194,10 +198,10 @@
   sprite: 213
 
   encrustGive:
-    maxEncrusts: 4
+    slots: ['armor', 'shield']
 
     stats:
-      armorClass: 4
+      armorClass: 6
 
   requirements:
     level: 20
@@ -209,7 +213,7 @@
   sprite: 242
 
   encrustGive:
-    maxEncrusts: 4
+    slots: ['wrists', 'waist']
 
     stats:
       hp: 50
@@ -224,7 +228,7 @@
   sprite: 243
 
   encrustGive:
-    maxEncrusts: 4
+    slots: ['robe', 'ring']
 
     stats:
       defense: 3
@@ -239,7 +243,7 @@
   sprite: 244
 
   encrustGive:
-    maxEncrusts: 4
+    slots: ['wrists', 'waist']
 
     stats:
       mp: 50
@@ -254,7 +258,7 @@
   sprite: 245
 
   encrustGive:
-    maxEncrusts: 4
+    slots: ['robe', 'ring']
 
     stats:
       offense: 3
@@ -269,7 +273,7 @@
   sprite: 245
 
   encrustGive:
-    maxEncrusts: 1
+    slots: ['wrists']
     
     stats:
       hp: 500

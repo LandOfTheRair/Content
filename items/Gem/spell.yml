@@ -6,6 +6,8 @@
   value: 1
   sprite: 315
   encrustGive:
+    slots: ['weapon']
+
     strikeEffect:
       name: MagicMissile
       potency: 50
@@ -25,6 +27,8 @@
   value: 1
   sprite: 315
   encrustGive:
+    slots: ['weapon']
+
     strikeEffect:
       name: MagicBolt
       potency: 150
@@ -44,6 +48,8 @@
   value: 1
   sprite: 315
   encrustGive:
+    slots: ['weapon']
+
     strikeEffect:
       name: Combust
       potency: 100
@@ -59,6 +65,8 @@
   sprite: 315
 
   encrustGive:
+    slots: ['weapon']
+
     strikeEffect:
       name: Hail
       potency: 100
@@ -79,6 +87,8 @@
     potency: 20
 
   encrustGive:
+    slots: ['weapon']
+
     strikeEffect:
       name: Transmute
       chance: 33
@@ -94,6 +104,8 @@
   sprite: 924
 
   encrustGive:
+    slots: ['weapon']
+
     strikeEffect:
       name: Dispel
       chance: 50
@@ -109,7 +121,7 @@
   sprite: 963
 
   encrustGive:
-    maxEncrusts: 1
+    slots: ['weapon']
 
     stats:
       hp: 200

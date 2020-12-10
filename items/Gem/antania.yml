@@ -5,10 +5,10 @@
   sprite: 213
 
   encrustGive:
-    maxEncrusts: 7
+    slots: ['armor', 'shield']
 
     stats:
-      armorClass: 2
+      armorClass: 3
 
 - name: Antanian Small Green Gem
   desc: "a small green gem"
@@ -16,8 +16,10 @@
   value: 1
   sprite: 242
   encrustGive:
+    slots: ['wrists', 'waist']
+
     stats:
-      hp: 15
+      hp: 25
 
 - name: Antanian Big Green Gem
   desc: "a big green gem"
@@ -25,6 +27,8 @@
   value: 1
   sprite: 243
   encrustGive:
+    slots: ['robe', 'ring']
+
     stats:
       defense: 1
 
@@ -37,8 +41,10 @@
   value: 1
   sprite: 244
   encrustGive:
+    slots: ['wrists', 'waist']
+
     stats:
-      mp: 15
+      mp: 25
 
 - name: Antanian Big Red Gem
   desc: "a big red gem"
@@ -46,8 +52,10 @@
   value: 1
   sprite: 245
   encrustGive:
+    slots: ['robe', 'ring']
+
     stats:
-      offense: 1
+      offense: 3
 
   requirements:
     level: 4
@@ -59,7 +67,7 @@
   sprite: 315
 
   encrustGive:
-    maxEncrusts: 2
+    slots: ['robe']
 
     stats:
       stealth: 5
@@ -75,12 +83,11 @@
   sprite: 245
 
   encrustGive:
-    maxEncrusts: 2
+    slots: ['robe']
 
     stats:
-      offense: 3
-      defense: 3
-      armorClass: -2
+      offense: 2
+      defense: 2
 
   requirements:
     level: 11
@@ -92,12 +99,11 @@
   sprite: 243
 
   encrustGive:
-    maxEncrusts: 2
+    slots: ['robe']
 
     stats:
       healingBoostPercent: 5
       defense: 3
-      offense: -3
 
   requirements:
     level: 11
@@ -109,12 +115,11 @@
   sprite: 213
 
   encrustGive:
-    maxEncrusts: 2
+    slots: ['robe']
 
     stats:
       magicalDamageBoostPercent: 5
       defense: 3
-      offense: -3
 
   requirements:
     level: 11
@@ -129,7 +134,7 @@
   tellsBind: true
 
   encrustGive:
-    maxEncrusts: 2
+    slots: ['feet', 'gloves', 'ring']
 
     stats:
       str: 1
@@ -147,7 +152,7 @@
   tellsBind: true
 
   encrustGive:
-    maxEncrusts: 2
+    slots: ['amulet', 'ring']
 
     stats:
       int: 1
@@ -165,7 +170,7 @@
   tellsBind: true
 
   encrustGive:
-    maxEncrusts: 2
+    slots: ['amulet', 'ring']
 
     stats:
       wis: 1

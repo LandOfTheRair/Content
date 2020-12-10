@@ -11,7 +11,7 @@
   sprite: 1013
 
   encrustGive:
-    maxEncrusts: 3
+    slots: ['ring', 'wrists']
 
     stats:
       hp: 50
@@ -23,10 +23,10 @@
   sprite: 1009
 
   encrustGive:
-    maxEncrusts: 3
+    slots: ['ear']
 
     stats:
-      cha: 1
+      cha: 3
 
 - name: Christmas Gem
   desc: "a sparkling blue diamond with a snowflake embedded in it"
@@ -34,7 +34,7 @@
   sprite: 1014
 
   encrustGive:
-    maxEncrusts: 3
+    slots: ['amulet']
 
     stats:
-      wil: 1
+      wil: 3
