@@ -22,4 +22,5 @@ items:
     armor: Antanian Tunic
 
 behaviors:
-  - type: banker
+  - type: encruster
+    props: ['maxGemLevel']

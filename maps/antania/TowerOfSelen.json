@@ -7245,10 +7245,12 @@
                  "name":"",
                  "properties":
                     {
+                     "maxTanLevel":25,
                      "script":"global\/tanner"
                     },
                  "propertytypes":
                     {
+                     "maxTanLevel":"int",
                      "script":"string"
                     },
                  "rotation":0,

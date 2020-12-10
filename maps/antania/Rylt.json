@@ -6073,10 +6073,12 @@
                  "name":"",
                  "properties":
                     {
+                     "maxTanLevel":10,
                      "tag":"Tanner"
                     },
                  "propertytypes":
                     {
+                     "maxTanLevel":"int",
                      "tag":"string"
                     },
                  "rotation":0,
@@ -6531,10 +6533,12 @@
                  "name":"",
                  "properties":
                     {
+                     "maxGemLevel":10,
                      "tag":"Encruster"
                     },
                  "propertytypes":
                     {
+                     "maxGemLevel":"int",
                      "tag":"string"
                     },
                  "rotation":0,

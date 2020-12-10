@@ -1569,26 +1569,6 @@
                  "y":1216
                 }, 
                 {
-                 "gid":3147,
-                 "height":64,
-                 "id":487,
-                 "name":"Encruster",
-                 "properties":
-                    {
-                     "script":"global\/encruster"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":2176,
-                 "y":1408
-                }, 
-                {
                  "gid":3057,
                  "height":64,
                  "id":488,

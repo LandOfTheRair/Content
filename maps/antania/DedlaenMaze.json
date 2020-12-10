@@ -22211,10 +22211,12 @@
                  "name":"Encruster",
                  "properties":
                     {
+                     "maxGemLevel":25,
                      "script":"global\/encruster"
                     },
                  "propertytypes":
                     {
+                     "maxGemLevel":"int",
                      "script":"string"
                     },
                  "rotation":0,
@@ -28570,7 +28572,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }],

@@ -5019,10 +5019,12 @@
                  "name":"Encruster",
                  "properties":
                     {
+                     "maxGemLevel":15,
                      "script":"global\/encruster"
                     },
                  "propertytypes":
                     {
+                     "maxGemLevel":"int",
                      "script":"string"
                     },
                  "rotation":0,
