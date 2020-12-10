@@ -13,4 +13,5 @@ maxCreatures: 20
 spawnRadius: 10
 randomWalkRadius: 15
 leashRadius: 20
+attributeAddChance: 1
 tag: 'Antania Dedlaenmaze Ne-orckin'

@@ -9,4 +9,5 @@ maxCreatures: 5
 spawnRadius: 0
 randomWalkRadius: 10
 leashRadius: 35
+attributeAddChance: 1
 tag: 'Antania Yzalt Insane'

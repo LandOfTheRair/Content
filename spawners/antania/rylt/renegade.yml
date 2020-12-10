@@ -8,4 +8,5 @@ maxCreatures: 4
 spawnRadius: 1
 randomWalkRadius: 25
 leashRadius: 35
+attributeAddChance: 1
 tag: 'Antania Rylt Renegade'

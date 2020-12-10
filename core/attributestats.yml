@@ -1,0 +1,77 @@
+
+- attribute: lucky
+  stats:
+    - stat: luk
+      boost: 10
+
+- attribute: strong
+  stats:
+    - stat: str
+      boost: 2
+    - stat: defense
+      boost: 5
+
+- attribute: smart
+  stats:
+    - stat: int
+      boost: 3
+    - stat: mpregen
+      boost: 10
+
+- attribute: wise
+  stats:
+    - stat: wis
+      boost: 3
+    - stat: mpregen
+      boost: 10
+
+- attribute: willful
+  stats:
+    - stat: wil
+      boost: 3
+
+- attribute: agile
+  stats:
+    - stat: agi
+      boost: 2
+    - stat: defense
+      boost: 5
+
+- attribute: deft
+  stats:
+    - stat: dex
+      boost: 2
+    - stat: offense
+      boost: 5
+
+- attribute: fit
+  stats:
+    - stat: con
+      boost: 3
+    - stat: defense
+      boost: 5
+
+- attribute: fighty
+  stats:
+    - stat: offense
+      boost: 5
+    - stat: defense
+      boost: 5
+
+- attribute: berserk
+  stats:
+    - stat: str
+      boost: 5
+    - stat: dex
+      boost: 5
+    - stat: agi
+      boost: 5
+
+- attribute: frantic
+  stats:
+    - stat: int
+      boost: 5
+    - stat: wis
+      boost: 5
+    - stat: wil
+      boost: 5

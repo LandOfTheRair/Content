@@ -6,4 +6,5 @@ maxCreatures: 4
 spawnRadius: 0
 randomWalkRadius: 25
 leashRadius: 45
+attributeAddChance: 1
 tag: 'Antania Yzalt Sewer-rat'

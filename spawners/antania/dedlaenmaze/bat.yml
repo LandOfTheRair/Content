@@ -6,4 +6,5 @@ maxCreatures: 6
 spawnRadius: 4
 randomWalkRadius: 15
 leashRadius: 20
+attributeAddChance: 1
 tag: 'Antania Dedlaenmaze Bat'

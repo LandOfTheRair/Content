@@ -6,4 +6,5 @@ maxCreatures: 4
 spawnRadius: 1
 randomWalkRadius: 25
 leashRadius: 45
+attributeAddChance: 3
 tag: 'Antania Yzalt Cave-golems'

@@ -8,4 +8,5 @@ maxCreatures: 10
 spawnRadius: 2
 randomWalkRadius: 7
 leashRadius: 12
+attributeAddChance: 1
 tag: 'Antania Dedlaenmaze Sw-room'

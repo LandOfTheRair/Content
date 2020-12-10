@@ -6,4 +6,5 @@ maxCreatures: 3
 spawnRadius: 1
 randomWalkRadius: 15
 leashRadius: 25
+attributeAddChance: 1
 tag: 'Risan Frozencatacombs 4f-nightwalker'
