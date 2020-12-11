@@ -22390,7 +22390,7 @@
                  "properties":
                     {
                      "peddleCost":1000,
-                     "peddleItem":"Succor Ring",
+                     "peddleItem":"Cure Ring",
                      "script":"global\/peddler"
                     },
                  "propertytypes":
