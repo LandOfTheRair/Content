@@ -613,6 +613,8 @@
       chance: -1
     - result: 'equipment.waist'
       chance: -1
+    - result: 'equipment.ammo'
+      chance: -1
 
 - npcId: Lunatic Warrior
   name: lunatic warrior

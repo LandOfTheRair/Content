@@ -145,6 +145,8 @@
       chance: -1
     - result: 'equipment.feet'
       chance: -1
+    - result: 'equipment.ammo'
+      chance: -1
 
 - npcId: Heniz Thief Defender
   name: defender
@@ -255,6 +257,8 @@
     - result: 'equipment.wrists'
       chance: -1
     - result: 'equipment.waist'
+      chance: -1
+    - result: 'equipment.ammo'
       chance: -1
 
 - npcId: Heniz Mage Defender
@@ -467,6 +471,8 @@
     - result: 'equipment.wrists'
       chance: -1
     - result: 'equipment.waist'
+      chance: -1
+    - result: 'equipment.ammo'
       chance: -1
 
 - npcId: Heniz Mage Offender

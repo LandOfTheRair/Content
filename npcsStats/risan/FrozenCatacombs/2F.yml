@@ -776,6 +776,8 @@
       chance: -1
     - result: 'equipment.leftHand'
       chance: -1
+    - result: 'equipment.ammo'
+      chance: -1
 
   skillOnKill: 70
 

@@ -191,6 +191,8 @@
       chance: -1
     - result: 'equipment.waist'
       chance: -1
+    - result: 'equipment.ammo'
+      chance: -1
 
 - npcId: Crazed Steffen Warrior
   name: crazed warrior
@@ -812,6 +814,8 @@
       chance: -1
     - result: 'equipment.waist'
       chance: -1
+    - result: 'equipment.ammo'
+      chance: -1
 
 - npcId: Insane Steffen Warrior
   name: insane warrior
@@ -1136,7 +1140,7 @@
 
       rightHand: Ranata Longbow
 
-      leftHand:
+      ammo:
         - none
         - Antanian Darkness Arrows
 
