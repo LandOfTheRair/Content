@@ -73,7 +73,7 @@
   desc: "a pair of royal gauntlets from the Frostlands Kingdom of Risan, enscribed with the runes of Shalala, the Shadow"
   value: 30000
 
-- name: Frostlands Royal Undecided Gauntlets
+- name: Frostlands Royal Traveller Gauntlets
   tier: 6
   stats:
     armorClass: 15

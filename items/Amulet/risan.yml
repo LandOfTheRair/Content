@@ -52,7 +52,7 @@
   requirements:
     level: 14
 
-- name: Librarian Undecided Amulet
+- name: Librarian Traveller Amulet
   stats:
     hp: 200
   binds: true

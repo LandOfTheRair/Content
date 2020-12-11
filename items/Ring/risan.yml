@@ -68,7 +68,7 @@
   requirements:
     level: 27
 
-- name: Undecided Simple Machleum Ring
+- name: Traveller Simple Machleum Ring
   stats:
     armorClass: 10
     hp: 100
@@ -132,7 +132,7 @@
   requirements:
     level: 27
 
-- name: Undecided Double Machleum Ring
+- name: Traveller Double Machleum Ring
   stats:
     hp: 100
     armorClass: 5

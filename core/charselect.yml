@@ -145,12 +145,12 @@ allegiances:
 
 
 classes:
-  - name: 'Undecided'
+  - name: 'Traveller'
     description: >
       You don't know what you want to do, but you do know you want to go on an adventure!
       
       This is an advanced selection! This class has no skill tree, low HP maxes, and below average combat ability.
-      If you choose to enter the world Undecided, you can change your class a single time at any class trainer.
+      If you choose to enter the world undecided, you can change your class a single time at any class trainer.
     statMods: {}
 
   - name: 'Mage'
