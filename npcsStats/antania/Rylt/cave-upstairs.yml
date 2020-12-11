@@ -203,6 +203,6 @@
     equipment:
       armor: Antanian Tunic
       rightHand: Tower Longbow Strong
-      leftHand:
+      ammo:
         - none
         - Antanian Arrows

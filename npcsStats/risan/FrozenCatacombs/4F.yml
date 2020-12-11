@@ -804,10 +804,13 @@
       leftHand:
         - result: none
           chance: 2000
-        - result: Catacombs Arrows
-          chance: 400
         - result: Frost Chakram
           chance: 1
+      ammo:
+        - result: none
+          chance: 2000
+        - result: Catacombs Arrows
+          chance: 400
 
   copyDrops:
     - result: 'equipment.armor'

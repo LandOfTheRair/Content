@@ -166,6 +166,9 @@
           chance: 30
         - result: Antanian Dualwielding Dagger
           chance: 1
+      ammo:
+        - result: none
+          chance: 30
         - result: Antanian Arrows
           chance: 10
         - result: Antanian Poisoned Arrows
@@ -697,6 +700,9 @@
           chance: 30
         - result: Antanian Dualwielding Dagger
           chance: 1
+      ammo:
+        - result: none
+          chance: 30
         - result: Antanian Arrows
           chance: 10
         - result: Antanian Poisoned Arrows

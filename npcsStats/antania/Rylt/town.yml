@@ -38,6 +38,8 @@
       leftHand:
         - none
         - Antanian Wooden Shield
+
+      ammo:
         - Antanian Arrows
 
       rightHand:

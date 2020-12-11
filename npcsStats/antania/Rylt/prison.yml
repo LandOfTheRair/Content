@@ -408,7 +408,7 @@
         - Antanian Returning Dagger
         - Rylt Renegade Shortbow
 
-      leftHand:
+      ammo:
         - none
         - Antanian Arrows
       armor: Antanian Tunic
