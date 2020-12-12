@@ -8,6 +8,7 @@ const merge = async () => {
     const files = fs.readdirSync('./core');
 
     files.forEach(file => {
+      console.log(`Loading ${file}...`);
       const fData = YAML.load(`./core/${file}`);
       if(!fs.existsSync('_output')) fs.mkdirSync('_output');
       fs.writeFileSync(`_output/${file.split('.')[0]}.json`, JSON.stringify(fData, null, 4));

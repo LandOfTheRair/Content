@@ -17,6 +17,8 @@ const merge = async () => {
     if(!fs.existsSync('_output')) fs.mkdirSync('_output');
     fs.writeFileSync('_output/spells.json', JSON.stringify(file, null, 4));
 
+    console.log(`Loading ${Object.values(file).length} spells...`);
+
   } catch(e) {
     console.error(e);
     process.exit(-1);

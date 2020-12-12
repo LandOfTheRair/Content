@@ -8,6 +8,8 @@ const merge = async () => {
     const files = fs.readdirSync('./macros').map(f => YAML.load(`./macros/${f}`));
     const file = Object.assign({}, ...files);
 
+    console.log(`Loading ${Object.values(file).length} macros...`);
+
     if(!fs.existsSync('_output')) fs.mkdirSync('_output');
     fs.writeFileSync('_output/macros.json', JSON.stringify(file, null, 4));
 

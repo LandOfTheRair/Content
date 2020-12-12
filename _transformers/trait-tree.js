@@ -43,6 +43,8 @@ const merge = async () => {
     if(!fs.existsSync('_output')) fs.mkdirSync('_output');
     fs.writeFileSync('_output/trait-trees.json', JSON.stringify(file, null, 4));
 
+    console.log(`Loading ${Object.values(file).length} trait trees...`);
+
   } catch(e) {
     console.error(e);
     process.exit(-1);

@@ -14,6 +14,8 @@ const merge = async () => {
       eff.extra = eff.extra || {};
     });
 
+    console.log(`Loading ${Object.values(file).length} effects...`);
+
     if(!fs.existsSync('_output')) fs.mkdirSync('_output');
     fs.writeFileSync('_output/effect-data.json', JSON.stringify(file, null, 4));
 

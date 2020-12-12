@@ -129,6 +129,8 @@ const merge = async () => {
     gemDescItems(allItemData, allMapDropData, allRegionDropData);
     recipeScrollItems(allItemData, allRegionDropData, allRecipeData);
 
+    console.log(`Loading lore: ${allItemData.length} items & droptables modified...`)
+
     fs.writeFileSync('_output/items.json', JSON.stringify(allItemData, null, 4));
     fs.writeFileSync('_output/droptable-maps.json', JSON.stringify(allMapDropData, null, 4));
     fs.writeFileSync('_output/droptable-regions.json', JSON.stringify(allRegionDropData, null, 4));

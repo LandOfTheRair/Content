@@ -11,6 +11,8 @@ const merge = async () => {
     if(!fs.existsSync('_output')) fs.mkdirSync('_output');
     fs.writeFileSync('_output/traits.json', JSON.stringify(file, null, 4));
 
+    console.log(`Loading ${Object.values(file).length} traits...`);
+
   } catch(e) {
     console.error(e);
     process.exit(-1);
