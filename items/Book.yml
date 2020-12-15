@@ -1,7 +1,7 @@
 
 - name: Newbie Book
   sprite: 406
-  desc: "a book designed to help new adventurers out if held in the left hand"
+  desc: "a book designed to help new adventurers out if right clicked while in their hands"
   value: 1
   binds: true
 
