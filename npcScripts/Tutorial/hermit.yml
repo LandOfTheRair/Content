@@ -29,6 +29,7 @@ dialog:
     hello:
       actions:
         - type: checkItem
+          fromHands: true
           slot:    # priority - if right hand matches, then right hand. otherwise, check left hand. otherwise, check fails
             - rightHand
             - leftHand

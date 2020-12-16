@@ -1,16 +1,14 @@
 
+name: Grab Renegade Feathers
+desc: Find some feathers in the renegade camp and bring them back to Jona, south of Rylt.
+
 objectives:
   - type: item
     item: Renegade Feathers
-
+    fromHands: true
     slot:
       - rightHand
       - leftHand
-
-    item: 
-      - name: Renegade Feathers
-        amount: 1 # implied, but could take X from sack f.ex (same style as npc dialog)
-        owner: $player.name # again, not sure on player name syntax. there will also need to be arbitrary checks for stats and other related item stuff.
 
     messages:
       incomplete: Dat's not a feather!
@@ -18,7 +16,7 @@ objectives:
 
 rewards:
   - type: xp
-    xp: 5000
+    value: 5000
 
   - type: gold
-    gold: 10000
+    value: 10000

@@ -1,4 +1,7 @@
 
+name: Kill Rebelling Prisoners
+desc: Kill rebels in the prison to prevent an uprising, and report back to Jarek when you've got 20 down.
+
 isRepeatable: true
 
 objectives:
@@ -13,7 +16,7 @@ objectives:
 
 rewards:
   - type: xp
-    xp: 500
+    value: 500
 
   - type: gold
-    gold: 500
+    value: 500

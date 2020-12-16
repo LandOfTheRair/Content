@@ -1,9 +1,11 @@
 
+name: Kill Rebels (Daily)
+desc: Kill rebels in the rebel camp and report back to Mayor Twean when you've bagged 10.
 isRepeatable: true
 
 objectives:
   - type: kill
-    kills: 10
+    killsRequired: 10
     npcIds:
       - Rylt Renegade Rebel
       - Rylt Renegade Weak Rebel
@@ -17,16 +19,13 @@ objectives:
 
 rewards:
   - type: xp
-    xp: 5000
+    value: 5000
 
   - type: gold
-    gold: 5000
-
-  - type: resetPoints
-    resetPoints: 2
+    value: 5000
 
   - type: silver
-    silver: 1
+    value: 1
 
   - type: holidayTokens
-    holidayTokens: 15     # only granted if a holiday is going on
+    value: 15     # only granted if a holiday is going on
