@@ -1,0 +1,25 @@
+
+name: Kill Competing Apprentices
+desc: Kill competing apprentices and their constructs in the caves near Tenur, and report back when you've killed 20.
+
+isRepeatable: true
+
+requirements:
+  type: kill
+  killsRequired: 20
+  npcIds:
+    - Rylt Cave Apprentice
+    - Rylt Rockgolem
+
+messages:
+  kill: You have killed ${ current }/${ total } apprentices/golems.
+  incomplete: By my records, you have to kill ${ remaining } apprentices/golems yet!
+  alreadyHas: You're already killin' em for me!
+  complete: Thanks! I'm gonna be the best apprentice now, you'll see!
+
+rewards:
+  - type: xp
+    value: 5000
+
+  - type: gold
+    value: 10000

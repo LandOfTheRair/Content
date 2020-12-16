@@ -18,17 +18,78 @@ usableSkills:
 
 items:
   equipment:
+    rightHand: Rylt Renegade Book
     armor: Antanian Tunic
 
 dialog:
-  keyword:
+  keyword:  # may be superfluous, not sure yet
+
     hello:
       actions:
+        - type: checkItem
+          fromHands: true
+          slot:    # priority - if right hand matches, then right hand. otherwise, check left hand. otherwise, check fails
+            - rightHand
+            - leftHand
+          item: 
+            name: Rylt Renegade Book
+            amount: 1 # implied
+            owner: "${ name }" # again, not sure on player name syntax. there will also need to be arbitrary checks for stats and other related item stuff.
+
+          checkPassActions:
+            - type: takeItem
+              slot:
+                - rightHand
+                - leftHand
+              item:
+                name: Rylt Renegade Book
+                amount: 1 # implied
+                owner: "${ name }" # will need to make sure it doesn't take unowned ones
+
+            - type: giveItem
+              slot:
+                - rightHand
+                - leftHand
+              item:
+                name: Antanian Health Potion
+                amount: 1 # implied. if we wanted to give more keys, we would have to specify sack, pouch, or belt as a target. 
+
+            - type: chat
+              maxDistance: 0
+              message: >
+                Well, thank you, kind adventurer. Here is your reward, as promised.
+
+              options:
+                - text: Thanks, weirdo
+                  action: noop # would point to dialog/keyword/noop if existed. no-op if it doesn't exist
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 0
+              message: >
+                Why, hello. It's not often that I get visitors down here in my hidey-hole. 
+                I like to read, they call me the read-agade. Get it? 
+                Anyway, if you can bring me some BOOKS to stave off the boredom of my already-vast collection, I'd be grateful. 
+                Those muscleheads above us have some novels I've not yet read. 
+                They're too dimwitted to understand the intricacies of the words on the page, so I'd appreciate them being given to someone who does. 
+                Me, that is. Be warned though, those barbarians rip apart books on the regular.
+
+              options:
+                - text: What books?
+                  action: books
+
+                - text: No thanks
+                  action: noop
+                  
+    books:
+      actions:
         - type: chat
-          maxDistance: 4
+          maxDistance: 0
           message: >
-            Hello, ${ name }!
+            Books, books. Ah yes. Rewards, you want one, yes? 
+            If you bring me a book and hold it in your right hand, I'll give you a potion to permanently increase your health. 
+            It's very handy. Be warned that it does have limitations.
 
           options:
-            - text: Hello!
+            - text: I'll find some books
               action: noop

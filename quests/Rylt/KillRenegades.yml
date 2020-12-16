@@ -1,0 +1,28 @@
+
+name: Kill Camping Renegades
+desc: Kill the camp renegades for Rengi, and report back you've slain 20 of them.
+
+isRepeatable: true
+
+requirements:
+  type: kill
+  killsRequired: 20
+  npcIds:
+    - Rylt Renegade
+    - Rylt Renegade Mage
+    - Rylt Renegade Healer
+    - Rylt Renegade Leader
+    - Rylt Renegade Commander
+
+messages:
+  kill: You have killed ${ current }/${ total } renegades.
+  incomplete: By my records, you have to kill ${ remaining } renegades yet!
+  alreadyHas: You're already killin' em for me!
+  complete: Thanks, mate. These renegades don't take care of themselves, ya know?
+
+rewards:
+  - type: xp
+    value: 15000
+
+  - type: gold
+    value: 5000

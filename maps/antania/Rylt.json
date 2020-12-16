@@ -1071,14 +1071,6 @@
                  "height":64,
                  "id":502,
                  "name":"",
-                 "properties":
-                    {
-                     "tag":"Rylt Readegade"
-                    },
-                 "propertytypes":
-                    {
-                     "tag":"string"
-                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -6155,11 +6147,11 @@
                  "name":"Readegade",
                  "properties":
                     {
-                     "script":"antania\/rylt\/renegade"
+                     "tag":"Rylt Readegade"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
