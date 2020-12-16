@@ -19,17 +19,54 @@ usableSkills:
 
 items:
   equipment:
-    armor: Antanian Tunic
+    rightHand: Antanian Longbow
+    armor: Antanian Breastplate
 
 dialog:
   keyword:
     hello:
       actions:
+        - type: checkQuest
+          quest: Kill Rebelling Prisoners
+          maxDistance: 2
+
         - type: chat
-          maxDistance: 4
+          maxDistance: 2
           message: >
-            Hello, ${ name }!
+            Hello, ${ name }! Don't mind me and this stack of paperwork, I've been having troubles with the PRISONERS lately...
 
           options:
-            - text: Hello!
+            - text: Prisoners?
+              action: prisoners
+
+            - text: I am not a murderer
+              action: noop
+
+    prisoners:
+      actions:
+        - type: chat
+          maxDistance: 2
+          message: >
+            Why, yes. They've been doing nothing but trying to riot down there, as if they could actually get out. Regardless, I could use some HELP containing them.
+
+          options:
+            - text: Help with what exactly?
+              action: help
+
+            - text: I am not a murderer
+              action: noop
+
+    help:
+      actions:
+        - type: giveQuest
+          quest: Kill Rebelling Prisoners
+          maxDistance: 2
+
+        - type: chat
+          maxDistance: 2
+          message: >
+            Help me kill 20 of 'em. Like, actually kill them. There's no paperwork to deal with if they're no longer living, you see. Get it done, and get it done fast. I'll give you a reward of 2,000 gold if you do -- 100 gold per prisoner killed. You can find the prisons down those stairs over there.
+
+          options:
+            - text: I'll be back
               action: noop

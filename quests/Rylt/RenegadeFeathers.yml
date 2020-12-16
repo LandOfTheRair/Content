@@ -2,17 +2,19 @@
 name: Grab Renegade Feathers
 desc: Find some feathers in the renegade camp and bring them back to Jona, south of Rylt.
 
-objectives:
-  - type: item
-    item: Renegade Feathers
-    fromHands: true
-    slot:
-      - rightHand
-      - leftHand
+requirements:
+  type: item
+  item: Renegade Feather
+  fromHands: true
+  slot:
+    - rightHand
+    - leftHand
 
-    messages:
-      incomplete: Dat's not a feather!
-      complete: Tanks for da feather!
+messages:
+  incomplete: Dat's not a feather!
+  complete: Tanks for da feather!
+  alreadyHas: You're already lookin' for da feather!
+  permComplete: Tanks again for da feather!
 
 rewards:
   - type: xp

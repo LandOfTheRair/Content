@@ -24,11 +24,19 @@ dialog:
   keyword:
     hello:
       actions:
+        - type: checkQuest
+          quest: Grab Renegade Feathers
+          maxDistance: 2
+
+        - type: giveQuest
+          quest: Grab Renegade Feathers
+          maxDistance: 2
+
         - type: chat
-          maxDistance: 4
+          maxDistance: 2
           message: >
-            Hello, ${ name }!
+            Hewwo, can you help me? I want a pink feather from the renegades! Dey are to the sowwtheast! Mommy says I can't cross the bridge to get one myself...
 
           options:
-            - text: Hello!
+            - text: I'll bring you a feather
               action: noop

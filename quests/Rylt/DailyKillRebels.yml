@@ -2,20 +2,23 @@
 name: Kill Rebels (Daily)
 desc: Kill rebels in the rebel camp and report back to Mayor Twean when you've bagged 10.
 isRepeatable: true
+isDaily: true
 
-objectives:
-  - type: kill
-    killsRequired: 10
-    npcIds:
-      - Rylt Renegade Rebel
-      - Rylt Renegade Weak Rebel
-      - Rylt Renegade Rebel Thief
-      - Rylt Renegade Mage Rebel
-      - Rylt Renegade Healer Rebel
+requirements:
+  type: kill
+  killsRequired: 10
+  npcIds:
+    - Rylt Renegade Rebel
+    - Rylt Renegade Weak Rebel
+    - Rylt Renegade Rebel Thief
+    - Rylt Renegade Mage Rebel
+    - Rylt Renegade Healer Rebel
 
-    messages:
-      kill: You have killed $current/$total rebels.
-      incomplete: Thanks for offering your help. You have to kill more $remaining rebels.
+messages:
+  kill: You have killed ${ current }/${ total } rebels.
+  incomplete: Thanks for offering your help. You have to kill ${ remaining } more rebels.
+  alreadyHas: You're already killin' em for me!
+  complete: Thanks for the help, ${ player.name }!
 
 rewards:
   - type: xp
