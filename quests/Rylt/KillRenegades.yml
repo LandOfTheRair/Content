@@ -1,6 +1,7 @@
 
 name: Kill Camping Renegades
 desc: Kill the camp renegades for Rengi, and report back you've slain 20 of them.
+giver: Rengi
 
 isRepeatable: true
 

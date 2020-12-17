@@ -42,6 +42,7 @@
 
   otherStats:
     waterResist: 5000
+    damageFactor: 0.1
 
   aquaticOnly: true
   skillOnKill: 3

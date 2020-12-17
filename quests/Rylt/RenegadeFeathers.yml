@@ -1,6 +1,7 @@
 
 name: Grab Renegade Feathers
 desc: Find some feathers in the renegade camp and bring them back to Jona, south of Rylt.
+giver: Jona
 
 requirements:
   type: item

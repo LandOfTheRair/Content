@@ -1,6 +1,7 @@
 
 name: Botanist Blueflower
 desc: Find a Rylt Blueflower and bring it to the Botanist in the bog, southwest of Rylt.
+giver: Rylt Botanist
 
 requirements:
   type: item

@@ -1,6 +1,7 @@
 
 name: Kill Competing Apprentices
 desc: Kill competing apprentices and their constructs in the caves near Tenur, and report back when you've killed 20.
+giver: Tenur
 
 isRepeatable: true
 

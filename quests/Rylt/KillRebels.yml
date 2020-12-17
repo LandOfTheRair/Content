@@ -1,6 +1,7 @@
 
 name: Kill Rebelling Prisoners
 desc: Kill rebels in the prison to prevent an uprising, and report back to Jarek when you've got 20 down.
+giver: Jarek
 
 isRepeatable: true
 

@@ -15,7 +15,7 @@
   otherStats:
     con: 7
     perception: 5
-    damageFactor: 0.5
+    damageFactor: 0.1
     accuracy: -5
 
   gold:
