@@ -1,0 +1,28 @@
+
+name: Botanist Blueflower
+desc: Find a Rylt Blueflower and bring it to the Botanist in the bog, southwest of Rylt.
+
+requirements:
+  type: item
+  item: Rylt Blueflower
+  fromHands: true
+  slot:
+    - rightHand
+    - leftHand
+
+messages:
+  incomplete: I need a Blueflower to help you out.
+  complete: Ah, thank you ${ player.name }! Here, enjoy your increased regeneration.
+  alreadyHas: I need you to bring me a Blueflower.
+  permComplete: You've already received my blessing!
+
+rewards:
+  - type: xp
+    value: 500
+
+  - type: gold
+    value: 5000
+
+  - type: stat
+    statName: hpregen
+    value: 1
