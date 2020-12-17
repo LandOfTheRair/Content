@@ -28,7 +28,7 @@ dialog:
         - type: chat
           maxDistance: 4
           message: >
-            Congratulations on getting this far, ${ name }!
+            Congratulations on getting this far, ${ name }! Reach out to a GM for a prize! Please don't share anything about this, either, it's supposed to be a surprise!
 
           options:
             - text: Hello!
