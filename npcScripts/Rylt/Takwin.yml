@@ -18,17 +18,98 @@ usableSkills:
 
 items:
   equipment:
+    rightHand: Takwin Shield
     armor: Antanian Tunic
 
 dialog:
   keyword:
     hello:
       actions:
+        - type: checkItem
+          fromHands: true
+          slot:
+            - rightHand
+            - leftHand
+          item: 
+            name: Tonwin Sword
+            amount: 1
+            owner: "${ name }"
+
+          checkPassActions:
+            - type: takeItem
+              slot:
+                - rightHand
+                - leftHand
+              item:
+                name: Tonwin Sword
+                amount: 1
+                owner: "${ name }"
+
+            - type: giveItem
+              slot:
+                - rightHand
+                - leftHand
+              item:
+                name: Takwin Shield
+                amount: 1
+
+            - type: chat
+              maxDistance: 0
+              message: >
+                Thank you, ${ name }. Here is our family heirloom! May it protect you more than it did us!
+
+              options:
+                - text: Thanks
+                  action: noop
+
+          checkFailActions:  
+            - type: chat
+              maxDistance: 2
+              message: >
+                I'm Takwin, but if you're here, you probably already knew that. Telwin is the only one who knows the way here -- he did DESIGN these prisons, after all.
+
+              options:
+                - text: Telwin designed these?
+                  action: design
+
+                - text: Bye
+                  action: noop
+
+    design:
+      actions:
         - type: chat
-          maxDistance: 4
+          maxDistance: 2
           message: >
-            Hello, ${ name }!
+            Telwin is a master architect. I've seen his tribute, his altar, and I've seen what lies beneath here. Whatever it is, it must have POSSESSED Tonwin -- I don't think he could have betrayed us by himself.
 
           options:
-            - text: Hello!
+            - text: Possessed?
+              action: possessed
+
+            - text: This is too much
+              action: noop
+              
+    possessed:
+      actions:
+        - type: chat
+          maxDistance: 2
+          message: >
+            Possessed is the word I would use. Some spirit or ghost or whatever they're called came out of the Altar. It gave Tonwin a murderous look in his eye -- I've never seen anything like it. I'm afraid he must be STOPPED.
+
+          options:
+            - text: Stopped how?
+              action: stopped
+
+            - text: I don't want to kill him
+              action: noop
+              
+    stopped:
+      actions:
+        - type: chat
+          maxDistance: 2
+          message: >
+            The only way to stop him is to kill him. I wish there were another way. If you can bring me proof of his death, I can impart our family memento unto you.
+
+          options:
+            - text: I'll bring your proof
               action: noop

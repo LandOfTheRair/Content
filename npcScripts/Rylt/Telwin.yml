@@ -18,17 +18,146 @@ usableSkills:
 
 items:
   equipment:
+    rightHand: Gold Coin
     armor: Antanian Tunic
 
 dialog:
   keyword:
     hello:
       actions:
+        - type: checkItem
+          fromHands: true
+          slot:
+            - rightHand
+          item: 
+            name: Tonwin Sword
+            amount: 1
+            owner: "${ name }"
+
+          checkPassActions:
+            - type: takeItem
+              slot:
+                - rightHand
+              item:
+                name: Tonwin Sword
+                amount: 1
+                owner: "${ name }"
+
+            - type: giveItem
+              slot:
+                - rightHand
+              item:
+                name: Gold Coin
+                amount: 1
+
+            - type: modifyItem
+              slot:
+                - rightHand
+              mods:
+                value: 25000
+
+            - type: chat
+              maxDistance: 0
+              message: >
+                Thank you, ${ name }. Here is your reward for my freedom!
+
+              options:
+                - text: Thanks
+                  action: noop
+
+          checkFailActions:  
+            - type: chat
+              maxDistance: 2
+              message: >
+                Help! Help! Heeeeeelp! He-oh, hey, it's a person! My BROTHERS and I are trapped here, can you HELP?
+
+              options:
+                - text: Your brothers?
+                  action: brothers
+
+                - text: I'll help you
+                  action: help
+
+                - text: Bye
+                  action: noop
+
+    brothers:
+      actions:
         - type: chat
-          maxDistance: 4
+          maxDistance: 2
           message: >
-            Hello, ${ name }!
+            Yes. My eldest brother, TONWIN, imprisoned myself, TAKWIN, and TERWIN here. We were all tricked!
 
           options:
-            - text: Hello!
+            - text: Who is Tonwin?
+              action: tonwin
+
+            - text: Who is Takwin?
+              action: takwin
+
+            - text: Who is Terwin?
+              action: terwin
+
+            - text: This family drama is too much
+              action: noop
+              
+    help:
+      actions:
+        - type: chat
+          maxDistance: 2
+          message: >
+            Yes, you can get us out of here. I fear we're magically bound to this prison, though. I bet if you could win against TONWIN, we could be free!
+
+          options:
+            - text: But who is Tonwin?
+              action: tonwin
+
+            - text: I can't kill your brother
+              action: noop
+              
+    tonwin:
+      actions:
+        - type: chat
+          maxDistance: 2
+          message: >
+            Yes, Tonwin tricked us all. He convinced us all to work against each other, bringing us deeper and deeper into the prison and imprisoning us separately from each other. All the while, he was convincing us we would get something out of it. Money, fame, strength, you know how it goes. We were greedy.
+
+          options:
+            - text: I'll sort your problem out
+              action: noop
+              
+    takwin:
+      actions:
+        - type: chat
+          maxDistance: 2
+          message: >
+            Takwin was the closest to TONWIN. He's probably very close to Tonwin; he always trusted Takwin's counsel. I bet he would give you the strength he desired if you could help him.
+
+          options:
+            - text: But who is Tonwin?
+              action: tonwin
+
+            - text: I'll sort your problem out
+              action: noop
+              
+    terwin:
+      actions:
+        - type: chat
+          maxDistance: 2
+          message: >
+            Terwin always was a bit of an outcast to us. Who knows what was done with him, or if he's even alive? He probably can't give you the fame he so desired, but I'm sure he could help you in other ways.
+
+          options:
+            - text: I'll sort your problem out
+              action: noop
+              
+    telwin:
+      actions:
+        - type: chat
+          maxDistance: 2
+          message: >
+            Yes, yes. You see, I wanted money. With it, I could live comfortably in a Steffen castle. If you bring me proof of Tonwin's death, I can reward you with what I have.
+
+          options:
+            - text: I'll get your proof
               action: noop

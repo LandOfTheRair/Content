@@ -22,19 +22,19 @@ items:
     armor: Antanian Tunic
 
 dialog:
-  keyword:  # may be superfluous, not sure yet
+  keyword:
 
     hello:
       actions:
         - type: checkItem
           fromHands: true
-          slot:    # priority - if right hand matches, then right hand. otherwise, check left hand. otherwise, check fails
+          slot:
             - rightHand
             - leftHand
           item: 
             name: Rylt Renegade Book
-            amount: 1 # implied
-            owner: "${ name }" # again, not sure on player name syntax. there will also need to be arbitrary checks for stats and other related item stuff.
+            amount: 1
+            owner: "${ name }"
 
           checkPassActions:
             - type: takeItem
@@ -43,8 +43,8 @@ dialog:
                 - leftHand
               item:
                 name: Rylt Renegade Book
-                amount: 1 # implied
-                owner: "${ name }" # will need to make sure it doesn't take unowned ones
+                amount: 1
+                owner: "${ name }"
 
             - type: giveItem
               slot:
@@ -52,7 +52,7 @@ dialog:
                 - leftHand
               item:
                 name: Antanian Health Potion
-                amount: 1 # implied. if we wanted to give more keys, we would have to specify sack, pouch, or belt as a target. 
+                amount: 1
 
             - type: chat
               maxDistance: 0
@@ -61,7 +61,7 @@ dialog:
 
               options:
                 - text: Thanks, weirdo
-                  action: noop # would point to dialog/keyword/noop if existed. no-op if it doesn't exist
+                  action: noop
 
           checkFailActions:
             - type: chat
