@@ -1,0 +1,20 @@
+
+Poison:
+  damageClass: necrotic
+  mpCost: 25
+  maxSkillForGain: 20
+  potencyMultiplier: 0.5
+  willSaveThreshold: 15
+  willSavePercent: 50
+  skillMultiplierChanges:
+    - [0,  1]
+    - [6,  1.25]
+    - [11, 1.5]
+    - [16, 1.75]
+    - [21, 2]
+    - [26, 2.5]
+    - [31, 3.25]
+    - [36, 5]
+
+  meta:
+    spellRef: Poison

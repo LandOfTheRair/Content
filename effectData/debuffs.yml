@@ -1,0 +1,15 @@
+
+Poison:
+  tooltip:
+    icon: 'poison-gas'
+    color: '#0a0'
+    desc: 'You are poisoned, and continually taking damage.'
+  effect:
+    type: debuff
+    duration: 600
+  meta:
+    castSfx: 'spell-debuff-give'
+    applySfx: 'spell-debuff-receive'
+    castMessage: 'You poisoned %target.'
+    applyMessage: 'You were poisoned!'
+    unapplyMessage: 'You are no longer poisoned.'
