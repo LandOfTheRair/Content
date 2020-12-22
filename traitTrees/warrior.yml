@@ -20,9 +20,8 @@ Warrior:
 
           - name: FunkyMoves
             maxLevel: 5
-
-          - name: NaturalArmor
-            maxLevel: 5
+            
+          - name: ''
 
         - traits:
           - name: Swashbuckler
