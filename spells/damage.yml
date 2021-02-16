@@ -19,7 +19,7 @@ MagicMissile:
   meta:
     doesAttack: true
     casterAttackMessage: 'You fling magic missiles at %0!'
-    casterSfx: ''
+    casterSfx: 'combat-hit-spell'
     targetAttackMessage: '%0 hit you with magic missiles!'
     spellRef: MagicMissile
 
@@ -43,7 +43,7 @@ MagicBolt:
   meta:
     doesAttack: true
     casterAttackMessage: 'You fire a bolt of energy at %0!'
-    casterSfx: ''
+    casterSfx: 'combat-hit-spell'
     targetAttackMessage: '%0 hit you with a bolt of energy!'
     spellRef: MagicBolt
 
@@ -66,7 +66,7 @@ Afflict:
 
   meta:
     doesAttack: true
-    casterAttackMessage: ''
-    casterSfx: ''
-    targetAttackMessage: ''
+    casterAttackMessage: 'You hit %0 with necrotic energy!'
+    casterSfx: 'combat-hit-spell'
+    targetAttackMessage: '%0 hit you with necrotic energy!'
     spellRef: Afflict
