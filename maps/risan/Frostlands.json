@@ -12601,6 +12601,101 @@
                  "width":64,
                  "x":11072,
                  "y":15424
+                }, 
+                {
+                 "height":640,
+                 "id":3000,
+                 "name":"",
+                 "properties":
+                    {
+                     "z":-2
+                    },
+                 "propertytypes":
+                    {
+                     "z":"int"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":896,
+                 "x":10304,
+                 "y":13184
+                }, 
+                {
+                 "height":1216,
+                 "id":3001,
+                 "name":"",
+                 "properties":
+                    {
+                     "z":5
+                    },
+                 "propertytypes":
+                    {
+                     "z":"int"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":3968,
+                 "x":12288,
+                 "y":13184
+                }, 
+                {
+                 "height":1536,
+                 "id":3002,
+                 "name":"",
+                 "properties":
+                    {
+                     "z":-1
+                    },
+                 "propertytypes":
+                    {
+                     "z":"int"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":3968,
+                 "x":12288,
+                 "y":14720
+                }, 
+                {
+                 "height":1600,
+                 "id":3003,
+                 "name":"",
+                 "properties":
+                    {
+                     "z":4
+                    },
+                 "propertytypes":
+                    {
+                     "z":"int"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":1664,
+                 "x":10304,
+                 "y":14208
+                }, 
+                {
+                 "height":320,
+                 "id":3004,
+                 "name":"",
+                 "properties":
+                    {
+                     "z":-5
+                    },
+                 "propertytypes":
+                    {
+                     "z":"int"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":1600,
+                 "x":10304,
+                 "y":15872
                 }],
          "opacity":1,
          "properties":
@@ -21970,14 +22065,71 @@
         {
          "draworder":"topdown",
          "name":"ZLevel",
-         "objects":[],
+         "objects":[
+                {
+                 "height":2560,
+                 "id":2997,
+                 "name":"",
+                 "properties":
+                    {
+                     "z":1
+                    },
+                 "propertytypes":
+                    {
+                     "z":"int"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":2304,
+                 "x":13888,
+                 "y":256
+                }, 
+                {
+                 "height":1920,
+                 "id":2998,
+                 "name":"",
+                 "properties":
+                    {
+                     "z":1
+                    },
+                 "propertytypes":
+                    {
+                     "z":"int"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":1216,
+                 "x":4480,
+                 "y":320
+                }, 
+                {
+                 "height":2816,
+                 "id":2999,
+                 "name":"",
+                 "properties":
+                    {
+                     "z":1
+                    },
+                 "propertytypes":
+                    {
+                     "z":"int"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":2304,
+                 "x":320,
+                 "y":13376
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
          "x":0,
          "y":0
         }],
- "nextobjectid":2997,
+ "nextobjectid":3005,
  "orientation":"orthogonal",
  "properties":
     {
