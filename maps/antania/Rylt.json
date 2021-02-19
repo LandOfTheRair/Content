@@ -6676,7 +6676,7 @@
                  "gid":3207,
                  "height":64,
                  "id":1344,
-                 "name":"",
+                 "name":"Dekar",
                  "properties":
                     {
                      "tag":"Rylt Dekar"
@@ -10289,6 +10289,106 @@
                  "width":64,
                  "x":7424,
                  "y":8256
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":1375,
+                 "name":"Cave Monster Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Rylt Cave"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":7744,
+                 "y":4416
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":1376,
+                 "name":"Cave Monster Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Rylt Cave"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":7744,
+                 "y":4928
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":1377,
+                 "name":"Cave Monster Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Rylt Cave"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":9664,
+                 "y":5632
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":1378,
+                 "name":"Cave Monster Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Rylt Cave"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":8896,
+                 "y":4480
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":1379,
+                 "name":"Cave Monster Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Rylt Cave"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":9600,
+                 "y":4864
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -12143,7 +12243,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1375,
+ "nextobjectid":1380,
  "orientation":"orthogonal",
  "properties":
     {
