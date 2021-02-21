@@ -1,0 +1,39 @@
+
+Cleave:
+
+  # global info
+  all:
+    desc: "Cleave your current target. Cost: 10 Rage"
+    icon: blade-fall
+    color: "#f00"
+
+  # spell cast info
+  spell: 
+    damageClass: physical
+    maxSkillForGain: 10
+    mpCost: 10
+    potencyMultiplier: 1.5
+    skillMultiplierChanges:
+      - [0,  2]
+      - [6,  3]
+      - [11, 4]
+      - [16, 5]
+      - [21, 6]
+      - [26, 7]
+      - [31, 8]
+      - [36, 10]
+
+    spellMeta:
+      doesAttack: true
+      casterAttackMessage: 'You cleave %0!'
+      casterSfx: ''
+      targetAttackMessage: '%0 cleaved you!'
+
+  # trait info
+  trait:
+    desc: Cleave a target, consuming 10 Rage and dealing massive damage.
+    borderColor: "#f00"
+
+  # macro info
+  macro:
+    mode: 'autoTarget'

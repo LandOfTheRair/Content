@@ -1,0 +1,52 @@
+
+Poison:
+
+  # global info
+  all:
+    desc: "Poison a single target. Cost: 25 MP."
+    icon: poison-gas
+    color: "#0a0"
+
+  # spell cast info
+  spell: 
+    damageClass: necrotic
+    mpCost: 25
+    maxSkillForGain: 20
+    potencyMultiplier: 0.5
+    willSaveThreshold: 15
+    willSavePercent: 50
+    skillMultiplierChanges:
+      - [0,  1]
+      - [6,  1.25]
+      - [11, 1.5]
+      - [16, 1.75]
+      - [21, 2]
+      - [26, 2.5]
+      - [31, 3.25]
+      - [36, 5]
+
+    spellMeta:
+      doesOvertime: true
+
+  # trait info
+  trait:
+    borderColor: "#0a0"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'You are poisoned, and continually taking damage.'
+    effect:
+      type: debuff
+      duration: 0
+    effectMeta:
+      effectRef: Poison
+      castSfx: 'spell-debuff-give'
+      applySfx: 'spell-debuff-receive'
+      castMessage: 'You poisoned %target.'
+      applyMessage: "You've been poisoned!"
+      unapplyMessage: 'You are no longer poisoned.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'

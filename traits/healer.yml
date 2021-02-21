@@ -6,27 +6,3 @@ HealingFocus:
   icon: drink-me
   statsGiven:
     healingBoostPercent: 10
-
-Cure:
-  name: Cure
-  desc: "Heal a single target. Cost: 5 MP."
-  icon: tentacle-heart
-  iconColor: "#080"
-  borderColor: "#0a0"
-  spellGiven: Cure
-
-Afflict:
-  name: Afflict
-  desc: "Inflict necrotic damage on a single target. Cost: 10 MP."
-  icon: bolas
-  iconColor: "#bd5900"
-  borderColor: "#0a0"
-  spellGiven: Afflict
-
-Poison:
-  name: Poison
-  desc: "Poison a single target. Cost: 25 MP."
-  icon: poison-gas
-  iconColor: "#0a0"
-  borderColor: "#0a0"
-  spellGiven: Poison

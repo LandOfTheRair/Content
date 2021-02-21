@@ -1,0 +1,115 @@
+
+ImbueFrost:
+
+  # global info
+  all:
+    desc: "Augment physical attacks to do bonus ice damage. Cost: 100 MP"
+    icon: magic-palm
+    color: "#00b"
+
+  # spell cast info
+  spell:
+    mpCost: 100
+    maxSkillForGain: 25
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Your attacks sometimes do additional frost damage.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-physical'
+      applySfx: 'spell-buff-physical'
+      castMessage: 'You cast Imbue Frost on %target.'
+      applyMessage: 'A whirling blue aura envelops your hands.'
+      unapplyMessage: 'The blue aura surrounding your hands fades.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+DarkVision:
+
+  # global info
+  all:
+    desc: ""
+    icon: ""
+    color: ""
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      icon: 'uncertainty'
+      color: '#000'
+      desc: '???'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-sight-effect'
+      applySfx: 'spell-sight-effect'
+      castMessage: 'You cast DarkVision on %target.'
+      applyMessage: 'You can see in the dark!'
+      unapplyMessage: 'Your vision returns to normal.'
+
+TrueSight:
+
+  # global info
+  all:
+    desc: ""
+    icon: ""
+    color: ""
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      icon: 'all-seeing-eye'
+      color: '#00a'
+      desc: 'Seeing other planes of existence.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-sight-effect'
+      applySfx: 'spell-sight-effect'
+      castMessage: 'You cast TrueSight on %target.'
+      applyMessage: 'Your vision expands to see other planes of existence!'
+      unapplyMessage: 'Your vision returns to normal.'
+
+SecondWind:
+
+  # global info
+  all:
+    desc: ""
+    icon: ""
+    color: ""
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      icon: 'uncertainty'
+      color: '#000'
+      desc: '???'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-magical'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast SecondWind on %target.'
+      applyMessage: 'You are enclosed by a safe aura!'
+      unapplyMessage: 'Your safety aura fades.'

@@ -1,12 +1,4 @@
 
-MagicMissile:
-  name: Magic Missile
-  desc: "Inflict energy damage on a single target. Cost: 5 MP."
-  icon: missile-swarm
-  iconColor: "#a0a"
-  borderColor: "#00a"
-  spellGiven: MagicMissile
-
 EnergyFocus:
   name: Energy Focus
   desc: Deal +$10$% more energy damage.

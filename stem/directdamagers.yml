@@ -1,0 +1,117 @@
+
+Afflict:
+
+  # global info
+  all:
+    desc: "Inflict necrotic damage on a single target. Cost: 10 MP."
+    icon: bolas
+    color: "#bd5900"
+
+  # spell cast info
+  spell: 
+    damageClass: necrotic
+    mpCost: 5
+    maxSkillForGain: 30
+    potencyMultiplier: 0.5
+    willSaveThreshold: 20
+    willSavePercent: 50
+    skillMultiplierChanges:
+      - [0,  1]
+      - [6,  1.75]
+      - [11, 2.5]
+      - [16, 3.25]
+      - [21, 4]
+      - [26, 4.75]
+      - [31, 6]
+      - [36, 8]
+
+    spellMeta:
+      doesAttack: true
+      casterAttackMessage: 'You hit %0 with necrotic energy!'
+      casterSfx: 'combat-hit-spell'
+      targetAttackMessage: '%0 hit you with necrotic energy!'
+
+  # trait info
+  trait:
+    borderColor: "#0a0"
+
+  # macro info
+  macro:
+    mode: 'lockActivation'
+
+MagicMissile:
+
+  # global info
+  all:
+    desc: "Inflict energy damage on a single target. Cost: 5 MP."
+    icon: missile-swarm
+    color: "#a0a"
+
+  # spell cast info
+  spell: 
+    damageClass: energy
+    mpCost: 5
+    maxSkillForGain: 30
+    potencyMultiplier: 0.5
+    willSaveThreshold: 15
+    willSavePercent: 50
+    skillMultiplierChanges:
+      - [0,  1]
+      - [6,  1.75]
+      - [11, 2.5]
+      - [16, 3.25]
+      - [21, 4]
+      - [26, 4.75]
+      - [31, 6]
+      - [36, 8]
+
+    spellMeta:
+      doesAttack: true
+      casterAttackMessage: 'You fling magic missiles at %0!'
+      casterSfx: 'combat-hit-spell'
+      targetAttackMessage: '%0 hit you with magic missiles!'
+
+  # trait info
+  trait:
+    name: Magic Missile
+    borderColor: "#00a"
+
+  # macro info
+  macro:
+    mode: 'lockActivation'
+
+MagicBolt:
+
+  # global info
+  all:
+    desc: "Inflict energy damage on a single target. Cost: 20 MP"
+    icon: burning-dot
+    color: "#a0a"
+
+  # spell cast info
+  spell: 
+    damageClass: energy
+    mpCost: 20
+    maxSkillForGain: 40
+    potencyMultiplier: 2
+    willSaveThreshold: 25
+    willSavePercent: 30
+    skillMultiplierChanges:
+      - [0,  4]
+      - [6,  5]
+      - [11, 6]
+      - [16, 7]
+      - [21, 8]
+      - [26, 9]
+      - [31, 11]
+      - [36, 14]
+
+    spellMeta:
+      doesAttack: true
+      casterAttackMessage: 'You fire a bolt of energy at %0!'
+      casterSfx: 'combat-hit-spell'
+      targetAttackMessage: '%0 hit you with a bolt of energy!'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'

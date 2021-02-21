@@ -1,9 +1,0 @@
-
-Identify:
-  name: 'Identify'
-  for: Identify
-  macro: 'cast identify'
-  icon: 'uncertainty'
-  color: '#665600'
-  mode: 'autoActivate'
-  tooltipDesc: 'Identify the attributes of the item in your right hand. Cost: 15 MP'

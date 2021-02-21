@@ -25,10 +25,3 @@ Swashbuckler:
   desc: Reduce your chance of an outgoing glancing blow by +$10$.
   icon: spiral-thrust
   valuePerTier: .1
-
-Cleave:
-  name: Cleave
-  desc: Cleave a target, consuming 10 Rage.
-  icon: blade-fall
-  borderColor: "#f00"
-  spellGiven: Cleave

@@ -11,6 +11,6 @@ Channeling:
     extra:
       canRemove: true
       unique: true
-  meta:
+  effectMeta:
     castMessage: 'You begin channeling a spell...'
     unapplyMessage: 'You stop channeling your spell.'

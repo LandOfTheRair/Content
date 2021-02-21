@@ -11,25 +11,8 @@ Hidden:
     extra:
       canRemove: true
       unique: true
-  meta:
+  effectMeta:
     effectRef: Hidden
     applyMessage: 'You step into the shadows.'
     unapplyMessage: 'Your stealth is broken!'
-
-Shadowmeld:
-  tooltip:
-    icon: 'hidden'
-    color: '#ccc'
-    bgColor: '#00c'
-    desc: 'One with the shadows, ready to pounce.'
-  effect:
-    type: buff
-    duration: -1
-    extra:
-      canRemove: true
-      unique: true
-  meta:
-    applyMessage: 'You become one with the shadows.'
-    unapplyMessage: 'Your shadowmeld is broken!'
-    castSfx: 'spell-sight-effect'
 

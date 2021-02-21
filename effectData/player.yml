@@ -9,7 +9,7 @@ Swimming:
     duration: 15
     extra:
       unique: true
-  meta:
+  effectMeta:
     effectRef: Swimming
 
 Drowning:
@@ -22,7 +22,7 @@ Drowning:
     duration: -1
     extra:
       unique: true
-  meta:
+  effectMeta:
     effectRef: Drowning
 
 Sated:
@@ -37,7 +37,7 @@ Sated:
       hidden: true
       unique: true
       persistThroughDeath: true
-  meta:
+  effectMeta:
     effectRef: Sated
 
 Nourishment:
@@ -52,7 +52,7 @@ Nourishment:
       canRemove: true
       unique: true
       persistThroughDeath: true
-  meta:
+  effectMeta:
     effectRef: Nourishment
     unapplyMessage: 'Your nourishment fades.'
 
@@ -76,7 +76,7 @@ Malnourished:
         int: -1
         wis: -1
         wil: -1
-  meta:
+  effectMeta:
     effectRef: Malnourished
     applyMessage: 'You are starving!'
 
@@ -91,7 +91,7 @@ Dead:
     extra:
       unique: true
       persistThroughDeath: true
-  meta:
+  effectMeta:
     effectRef: Dead
 
 Encumbered:
@@ -117,7 +117,7 @@ LowCON:
     extra:
       unique: true
       persistThroughDeath: true
-  meta:
+  effectMeta:
     applyMessage: 'Your consitition is dangerously low.'
     unapplyMessage: 'You are no longer in danger of losing health or getting stripped.'
     effectRef: LowCON

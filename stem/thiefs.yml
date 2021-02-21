@@ -1,0 +1,56 @@
+
+Mug:
+
+  # global info
+  all:
+    desc: "Mug your target, dealing damage and stealing from them."
+    icon: hooded-assassin
+    color: "#530000"
+
+  # spell cast info
+  spell: 
+    damageClass: physical
+    maxSkillForGain: 20
+    potencyMultiplier: 1
+    skillMultiplierChanges:
+      - [0,  4]
+      - [6,  5]
+      - [11, 6]
+      - [16, 7]
+      - [21, 8]
+      - [26, 9]
+      - [31, 11]
+      - [36, 14]
+
+  # trait info
+  trait:
+    desc: You can now mug marks, dealing damage and stealing from them.
+    borderColor: "#f00"
+
+  # macro info
+  macro:
+    mode: 'lockActivation'
+    
+Shadowmeld:
+
+  # global info
+  all:
+    desc: ""
+    icon: hidden
+    color: "#ccc"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      bgColor: '#00c'
+      desc: 'One with the shadows, ready to pounce.'
+    effect:
+      type: buff
+      duration: -1
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      applyMessage: 'You become one with the shadows.'
+      unapplyMessage: 'Your shadowmeld is broken!'
+      castSfx: 'spell-sight-effect'

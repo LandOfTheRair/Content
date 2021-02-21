@@ -4,7 +4,7 @@ ExactHeal:
     type: useonly
     extra:
       potency: 1
-  meta:
+  effectMeta:
     effectRef: ExactHeal
 
 PermanentSTR:
@@ -12,7 +12,7 @@ PermanentSTR:
     type: useonly
     extra:
       potency: 1
-  meta:
+  effectMeta:
     effectRef: PermanentSTR
 
 PermanentAGI:
@@ -20,7 +20,7 @@ PermanentAGI:
     type: useonly
     extra:
       potency: 1
-  meta:
+  effectMeta:
     effectRef: PermanentAGI
 
 PermanentDEX:
@@ -28,7 +28,7 @@ PermanentDEX:
     type: useonly
     extra:
       potency: 1
-  meta:
+  effectMeta:
     effectRef: PermanentDEX
 
 PermanentINT:
@@ -36,7 +36,7 @@ PermanentINT:
     type: useonly
     extra:
       potency: 1
-  meta:
+  effectMeta:
     effectRef: PermanentINT
 
 PermanentWIS:
@@ -44,7 +44,7 @@ PermanentWIS:
     type: useonly
     extra:
       potency: 1
-  meta:
+  effectMeta:
     effectRef: PermanentWIS
 
 PermanentWIL:
@@ -52,7 +52,7 @@ PermanentWIL:
     type: useonly
     extra:
       potency: 1
-  meta:
+  effectMeta:
     effectRef: PermanentWIL
 
 PermanentCON:
@@ -60,7 +60,7 @@ PermanentCON:
     type: useonly
     extra:
       potency: 1
-  meta:
+  effectMeta:
     effectRef: PermanentCON
 
 PermanentCHA:
@@ -68,7 +68,7 @@ PermanentCHA:
     type: useonly
     extra:
       potency: 1
-  meta:
+  effectMeta:
     effectRef: PermanentCHA
 
 PermanentLUK:
@@ -76,7 +76,7 @@ PermanentLUK:
     type: useonly
     extra:
       potency: 1
-  meta:
+  effectMeta:
     effectRef: PermanentLUK
 
 MinorHP:
@@ -84,7 +84,7 @@ MinorHP:
     type: useonly
     extra:
       potency: 2
-  meta:
+  effectMeta:
     effectRef: MinorHP
 
 MinorMP:
@@ -92,5 +92,5 @@ MinorMP:
     type: useonly
     extra:
       potency: 2
-  meta:
+  effectMeta:
     effectRef: MinorMP

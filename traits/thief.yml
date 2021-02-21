@@ -17,13 +17,6 @@ NimbleFingers:
   icon: take-my-money
   valuePerTier: 5
 
-Mug:
-  name: Mug
-  desc: You can now mug marks, dealing damage and stealing from them.
-  icon: hooded-assassin
-  borderColor: "#f00"
-  spellGiven: Mug
-
 DarkerShadows:
   name: Darker Shadows
   desc: Increases your Stealth stat by +$2$.

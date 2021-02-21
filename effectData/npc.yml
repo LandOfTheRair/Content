@@ -57,5 +57,5 @@ Dangerous:
       unique: true
       statChanges:
         hpregen: 100
-  meta:
+  effectMeta:
     effectRef: Dangerous

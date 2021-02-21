@@ -1,0 +1,39 @@
+
+Identify:
+
+  # global info
+  all:
+    desc: "Identify the attributes of the item in your right hand. Cost: 15 MP"
+    icon: uncertainty
+    color: "#665600"
+
+  # spell cast info
+  spell: 
+    mpCost: 15
+    maxSkillForGain: 5
+
+    spellMeta:
+      casterMessage: 'You begin to identify the item in your right hand...'
+      casterSfx: 'spell-buff-magical'
+
+  # macro info
+  macro:
+    mode: 'autoActivate'
+
+FindFamiliar:
+
+  # global info
+  all:
+    desc: ""
+    icon: ""
+    color: ""
+
+  # spell cast info
+  spell: 
+    mpCost: 100
+    castTime: 10
+    cooldown: 60
+    maxSkillForGain: 1
+
+    spellMeta:
+      casterMessage: 'You begin channeling for a familiar...'

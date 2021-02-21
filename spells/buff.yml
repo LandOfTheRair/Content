@@ -1,7 +1,0 @@
-
-ImbueFrost:
-  mpCost: 100
-  maxSkillForGain: 25
-
-  meta:
-    spellRef: ImbueFrost

@@ -8,6 +8,24 @@ const merge = async () => {
     const files = fs.readdirSync('./macros').map(f => YAML.load(`./macros/${f}`));
     const file = Object.assign({}, ...files);
 
+    const stems = fs.readdirSync('./stem').map(f => YAML.load(`./stem/${f}`));
+    const allStem = Object.assign({}, ...stems);
+
+    // these properties can be overridden, but default to the `all` value
+    Object.keys(allStem).forEach(stemKey => {
+      const stem = allStem[stemKey];
+      if(!stem.macro) return;
+      
+      stem.macro.name = stem.macro.name || stemKey;
+      stem.macro.for = stem.macro.for || stemKey;
+      stem.macro.macro = stem.macro.macro || `cast ${stemKey.toLowerCase()}`;
+      stem.macro.icon = stem.macro.icon || stem.all.icon;
+      stem.macro.color = stem.macro.color || stem.all.color;
+      stem.macro.tooltipDesc = stem.macro.tooltipDesc || stem.all.desc;
+
+      file[stemKey] = stem.macro;
+    });
+
     console.log(`Loading ${Object.values(file).length} macros...`);
 
     if(!fs.existsSync('_output')) fs.mkdirSync('_output');
