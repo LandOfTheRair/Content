@@ -22,3 +22,11 @@ Afflict:
   iconColor: "#bd5900"
   borderColor: "#0a0"
   spellGiven: Afflict
+
+Poison:
+  name: Poison
+  desc: "Poison a single target. Cost: 25 MP."
+  icon: poison-gas
+  iconColor: "#0a0"
+  borderColor: "#0a0"
+  spellGiven: Poison

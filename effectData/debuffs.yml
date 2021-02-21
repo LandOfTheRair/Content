@@ -6,8 +6,9 @@ Poison:
     desc: 'You are poisoned, and continually taking damage.'
   effect:
     type: debuff
-    duration: 600
+    duration: 0
   meta:
+    effectRef: Poison
     castSfx: 'spell-debuff-give'
     applySfx: 'spell-debuff-receive'
     castMessage: 'You poisoned %target.'

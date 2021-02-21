@@ -17,4 +17,8 @@ Poison:
     - [36, 5]
 
   meta:
+    doesOvertime: true
     spellRef: Poison
+    casterAttackMessage: 'You poison %0!'
+    casterSfx: 'combat-hit-spell'
+    targetAttackMessage: '%0 poisoned you!'

@@ -17,6 +17,15 @@ Cure:
   mode: 'clickToTarget'
   tooltipDesc: 'Heal a single target. Cost: 5 MP'
 
+Poison:
+  name: 'Poison'
+  for: Poison
+  macro: 'cast poison'
+  icon: 'poison-gas'
+  color: '#0a0'
+  mode: 'clickToTarget'
+  tooltipDesc: 'Poison a single target. Cost: 25 MP'
+
 Revive:
   name: 'Revive'
   for: Revive

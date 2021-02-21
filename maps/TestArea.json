@@ -497,8 +497,36 @@
                 {
                  "gid":3247,
                  "height":64,
-                 "id":218,
+                 "id":232,
                  "name":"Alterna",
+                 "properties":
+                    {
+                     "tag":"Rylt Gemmos"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":2048,
+                 "y":576
+                }, 
+                {
+                 "gid":3247,
+                 "height":64,
+                 "id":233,
+                 "name":"Alterna",
+                 "properties":
+                    {
+                     "tag":"Rylt Gemmos"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -507,26 +535,264 @@
                  "y":512
                 }, 
                 {
-                 "gid":3092,
+                 "gid":3247,
                  "height":64,
-                 "id":219,
-                 "name":"",
+                 "id":234,
+                 "name":"Alterna",
                  "properties":
                     {
-                     "maxLevelUpLevel":50,
-                     "maxSkillTrain":27
+                     "tag":"Rylt Gemmos"
                     },
                  "propertytypes":
                     {
-                     "maxLevelUpLevel":"int",
-                     "maxSkillTrain":"int"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":64,
-                 "x":1856,
+                 "x":1920,
                  "y":576
+                }, 
+                {
+                 "gid":3247,
+                 "height":64,
+                 "id":235,
+                 "name":"Alterna",
+                 "properties":
+                    {
+                     "tag":"Rylt Gemmos"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":1984,
+                 "y":576
+                }, 
+                {
+                 "gid":3247,
+                 "height":64,
+                 "id":236,
+                 "name":"Alterna",
+                 "properties":
+                    {
+                     "tag":"Rylt Gemmos"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":2048,
+                 "y":512
+                }, 
+                {
+                 "gid":3247,
+                 "height":64,
+                 "id":237,
+                 "name":"Alterna",
+                 "properties":
+                    {
+                     "tag":"Rylt Gemmos"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":1920,
+                 "y":512
+                }, 
+                {
+                 "gid":3247,
+                 "height":64,
+                 "id":238,
+                 "name":"Alterna",
+                 "properties":
+                    {
+                     "tag":"Rylt Gemmos"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":1920,
+                 "y":448
+                }, 
+                {
+                 "gid":3247,
+                 "height":64,
+                 "id":239,
+                 "name":"Alterna",
+                 "properties":
+                    {
+                     "tag":"Rylt Gemmos"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":2048,
+                 "y":448
+                }, 
+                {
+                 "gid":3247,
+                 "height":64,
+                 "id":241,
+                 "name":"Alterna",
+                 "properties":
+                    {
+                     "tag":"Rylt Gemmos"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":1984,
+                 "y":448
+                }, 
+                {
+                 "gid":3247,
+                 "height":64,
+                 "id":242,
+                 "name":"Alterna",
+                 "properties":
+                    {
+                     "tag":"Rylt Gemmos"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":2112,
+                 "y":448
+                }, 
+                {
+                 "gid":3247,
+                 "height":64,
+                 "id":243,
+                 "name":"Alterna",
+                 "properties":
+                    {
+                     "tag":"Rylt Gemmos"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":2112,
+                 "y":512
+                }, 
+                {
+                 "gid":3247,
+                 "height":64,
+                 "id":244,
+                 "name":"Alterna",
+                 "properties":
+                    {
+                     "tag":"Rylt Gemmos"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":2112,
+                 "y":576
+                }, 
+                {
+                 "gid":3247,
+                 "height":64,
+                 "id":245,
+                 "name":"Alterna",
+                 "properties":
+                    {
+                     "tag":"Rylt Gemmos"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":2176,
+                 "y":576
+                }, 
+                {
+                 "gid":3247,
+                 "height":64,
+                 "id":246,
+                 "name":"Alterna",
+                 "properties":
+                    {
+                     "tag":"Rylt Gemmos"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":2176,
+                 "y":512
+                }, 
+                {
+                 "gid":3247,
+                 "height":64,
+                 "id":247,
+                 "name":"Alterna",
+                 "properties":
+                    {
+                     "tag":"Rylt Gemmos"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":2176,
+                 "y":448
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -594,7 +860,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":228,
+ "nextobjectid":248,
  "orientation":"orthogonal",
  "properties":
     {

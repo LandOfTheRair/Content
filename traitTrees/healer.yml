@@ -61,7 +61,9 @@ Healer:
 
       tree: 
         - traits: 
-          - name: ''
+          - name: Poison
+            maxLevel: 1
+
           - name: ''
           - name: ''
           - name: ''
