@@ -16,6 +16,7 @@ const merge = async () => {
       const stem = allStem[stemKey];
       if(!stem.effect || !stem.effect.effectMeta) return;
 
+      stem.effect.tooltip = stem.effect.tooltip || {};
       stem.effect.tooltip.icon = stem.effect.tooltip.icon || stem.all.icon;
       stem.effect.tooltip.color = stem.effect.tooltip.color || stem.all.color;
 

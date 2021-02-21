@@ -87,7 +87,7 @@ TrueSight:
       applyMessage: 'Your vision expands to see other planes of existence!'
       unapplyMessage: 'Your vision returns to normal.'
 
-SecondWind:
+Secondwind:
 
   # global info
   all:
@@ -110,6 +110,6 @@ SecondWind:
     effectMeta:
       castSfx: 'spell-buff-magical'
       applySfx: 'spell-buff-magical'
-      castMessage: 'You cast SecondWind on %target.'
+      castMessage: 'You cast Secondwind on %target.'
       applyMessage: 'You are enclosed by a safe aura!'
       unapplyMessage: 'Your safety aura fades.'
