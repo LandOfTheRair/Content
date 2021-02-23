@@ -64,7 +64,9 @@ Healer:
           - name: Poison
             maxLevel: 1
 
-          - name: ''
+          - name: Stun
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''

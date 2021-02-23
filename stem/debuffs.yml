@@ -50,3 +50,44 @@ Poison:
   # macro info
   macro:
     mode: 'clickToTarget'
+    
+Stun:
+
+  # global info
+  all:
+    desc: "Stun a single target. Cost: 25 MP."
+    icon: knockout
+    color: "#990"
+
+  # spell cast info
+  spell: 
+    mpCost: 25
+    maxSkillForGain: 20
+    willSaveThreshold: 20
+
+    spellMeta:
+      doesOvertime: true
+
+  # trait info
+  trait:
+    borderColor: "#0a0"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'You are stunned, and cannot act.'
+    effect:
+      type: debuff
+      duration: 0
+    effectMeta:
+      effectRef: Stun
+      recentlyRef: RecentlyStunned
+      castSfx: 'spell-debuff-give'
+      applySfx: 'spell-debuff-receive'
+      castMessage: 'You stunned %target.'
+      applyMessage: "You've been stunned!"
+      unapplyMessage: 'You are no longer stunned.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
