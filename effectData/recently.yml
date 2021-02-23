@@ -10,3 +10,14 @@ Revealed:
     duration: 5
     extra:
       unique: true
+
+RecentlyStunned:
+  tooltip:
+    icon: 'knockout'
+    color: '#000'
+    desc: 'You were recently stunned.'
+  effect:
+    type: debuff
+    duration: 15
+    extra:
+      unique: true

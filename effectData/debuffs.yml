@@ -1,0 +1,11 @@
+
+Stunned:
+  tooltip:
+    icon: 'knockout'
+    color: '#990'
+    desc: 'You are stunned.'
+  effect:
+    type: debuff
+    duration: 5
+    extra:
+      unique: true
