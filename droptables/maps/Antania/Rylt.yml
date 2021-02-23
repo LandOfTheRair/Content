@@ -2,6 +2,7 @@
 - result: Rylt Blueflower
   chance: 1
   maxChance: 100
+  noLuckBonus: true
 
 - result: Bear Meat Antidote
   chance: 1
@@ -10,3 +11,4 @@
 - result: Broom
   chance: 1
   maxChance: 1000000
+  noLuckBonus: true

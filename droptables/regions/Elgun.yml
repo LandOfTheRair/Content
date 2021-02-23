@@ -3,26 +3,32 @@
 - result: Elgun Strength Potion
   chance: 1
   maxChance: 70000
+  noLuckBonus: true
 
 - result: Elgun Agility Potion
   chance: 1
   maxChance: 65000
+  noLuckBonus: true
 
 - result: Elgun Dexterity Potion
   chance: 1
   maxChance: 70000
+  noLuckBonus: true
 
 - result: Elgun Intelligence Potion
   chance: 1
   maxChance: 65000
+  noLuckBonus: true
 
 - result: Elgun Wisdom Potion
   chance: 1
   maxChance: 75000
+  noLuckBonus: true
 
 - result: Elgun Willpower Potion
   chance: 1
   maxChance: 150000
+  noLuckBonus: true
 
 - result: Elgun Constitution Potion
   chance: 1
@@ -31,7 +37,9 @@
 - result: Elgun Luck Potion
   chance: 1
   maxChance: 400000
+  noLuckBonus: true
 
 - result: Elgun Charisma Potion
   chance: 1
   maxChance: 300000
+  noLuckBonus: true

@@ -2,6 +2,7 @@
 - result: Christmas Walnuts
   chance: 1
   maxChance: 50
+  noLuckBonus: true
 
 - result: Christmas Carrot
   chance: 1
@@ -10,7 +11,9 @@
 - result: Christmas Snowglobe
   chance: 1
   maxChance: 50000
+  noLuckBonus: true
 
 - result: Cosmetic Scroll - Snowflake Joy
   chance: 1
   maxChance: 50000
+  noLuckBonus: true

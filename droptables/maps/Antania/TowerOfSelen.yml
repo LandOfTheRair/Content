@@ -2,6 +2,7 @@
 - result: Tower Goblood
   chance: 1
   maxChance: 100
+  noLuckBonus: true
 
 - result: Tower Mage Gem
   chance: 1

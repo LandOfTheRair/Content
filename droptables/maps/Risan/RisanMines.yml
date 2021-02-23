@@ -2,6 +2,7 @@
 - result: Mines Caveflower
   chance: 1
   maxChance: 250
+  noLuckBonus: true
 
 - result: Weak Absorption Potion
   chance: 1

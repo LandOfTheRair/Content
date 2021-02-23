@@ -14,6 +14,7 @@
 - result: Frostlands Gourd
   chance: 1
   maxChance: 500
+  noLuckBonus: true
 
 - result: Frostlands Boots
   chance: 1

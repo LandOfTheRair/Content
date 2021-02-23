@@ -3,68 +3,84 @@
 - result: Leather Ring
   chance: 1
   maxChance: 30
+  noLuckBonus: true
 
 - result: Leather Strength Ring
   chance: 1
   maxChance: 7500
+  noLuckBonus: true
 
 - result: Leather Dexterity Ring
   chance: 1
   maxChance: 7500
+  noLuckBonus: true
 
 - result: Leather Agility Ring
   chance: 1
   maxChance: 7500
+  noLuckBonus: true
 
 - result: Leather Intelligence Ring
   chance: 1
   maxChance: 7500
+  noLuckBonus: true
 
 - result: Leather Wisdom Ring
   chance: 1
   maxChance: 7500
+  noLuckBonus: true
 
 - result: Leather Willpower Ring
   chance: 1
   maxChance: 7500
+  noLuckBonus: true
 
 - result: Leather Constitution Ring
   chance: 1
   maxChance: 7500
+  noLuckBonus: true
 
 - result: Leather Charisma Ring
   chance: 1
   maxChance: 7500
+  noLuckBonus: true
 
 - result: Leather Luck Ring
   chance: 1
   maxChance: 7500
+  noLuckBonus: true
 
 # Cosmetics
 - result: Cosmetic Scroll - Inversify
   chance: 1
   maxChance: 1000000
+  noLuckBonus: true
 
 - result: Cosmetic Scroll - Ancientify
   chance: 1
   maxChance: 1000000
+  noLuckBonus: true
 
 - result: Cosmetic Scroll - Ether Pulse
   chance: 1
   maxChance: 1000000
+  noLuckBonus: true
 
 - result: Cosmetic Scroll - Ghost Ether
   chance: 1
   maxChance: 1000000
+  noLuckBonus: true
 
 - result: Cosmetic Scroll - Ether Nebula
   chance: 1
   maxChance: 1000000
+  noLuckBonus: true
 
 # Misc
 - result: Abacus of Life
   chance: 1
   maxChance: 100000
+  noLuckBonus: true
 
 # Holidays
 
@@ -73,54 +89,65 @@
   chance: 1
   maxChance: 25
   requireHoliday: Halloween
+  noLuckBonus: true
 
 - result: Halloween Candy - Lollipops
   chance: 1
   maxChance: 25
   requireHoliday: Halloween
+  noLuckBonus: true
 
 - result: Halloween Candy - Mints
   chance: 1
   maxChance: 25
   requireHoliday: Halloween
+  noLuckBonus: true
 
 - result: Halloween Candy - Jellies
   chance: 1
   maxChance: 25
   requireHoliday: Halloween
+  noLuckBonus: true
 
 - result: Halloween Candy - Wrapped
   chance: 1
   maxChance: 25
   requireHoliday: Halloween
+  noLuckBonus: true
 
 - result: Halloween Candy Pile
   chance: 1
   maxChance: 500
   requireHoliday: Halloween
+  noLuckBonus: true
 
 ## Christmas
 - result: Christmas Gift - Green
   chance: 1
   maxChance: 1000
   requireHoliday: Christmas
+  noLuckBonus: true
 
 - result: Christmas Gift - Red
   chance: 1
   maxChance: 1000
   requireHoliday: Christmas
+  noLuckBonus: true
 
 - result: Christmas Gift - Blue
   chance: 1
   maxChance: 1000
   requireHoliday: Christmas
+  noLuckBonus: true
 
 - result: Christmas Gift - Yellow
   chance: 1
   maxChance: 1000
   requireHoliday: Christmas
+  noLuckBonus: true
 
 - result: Christmas Gift - Rainbow
   chance: 1
   maxChance: 1000
   requireHoliday: Christmas
+  noLuckBonus: true

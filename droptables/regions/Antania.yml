@@ -3,30 +3,37 @@
 - result: Mend Bottle
   chance: 1
   maxChance: 20
+  noLuckBonus: true
 
 - result: Instant Heal Bottle
   chance: 1
   maxChance: 50
+  noLuckBonus: true
 
 - result: TrueSight Potion
   chance: 1
   maxChance: 200
+  noLuckBonus: true
 
 - result: Weak BarNecro Potion
   chance: 1
   maxChance: 200
+  noLuckBonus: true
 
 - result: Weak BarFire Potion
   chance: 1
   maxChance: 200
+  noLuckBonus: true
 
 - result: Weak BarWater Potion
   chance: 1
   maxChance: 200
+  noLuckBonus: true
 
 - result: Weak BarFrost Potion
   chance: 1
   maxChance: 200
+  noLuckBonus: true
 
 # gems
 - result: Antanian Purple Gem
@@ -70,26 +77,32 @@
 - result: Antanian Strength Potion
   chance: 1
   maxChance: 15000
+  noLuckBonus: true
 
 - result: Antanian Agility Potion
   chance: 1
   maxChance: 15000
+  noLuckBonus: true
 
 - result: Antanian Dexterity Potion
   chance: 1
   maxChance: 15000
+  noLuckBonus: true
 
 - result: Antanian Intelligence Potion
   chance: 1
   maxChance: 15000
+  noLuckBonus: true
 
 - result: Antanian Wisdom Potion
   chance: 1
   maxChance: 15000
+  noLuckBonus: true
 
 - result: Antanian Willpower Potion
   chance: 1
   maxChance: 65000
+  noLuckBonus: true
 
 - result: Antanian Constitution Potion
   chance: 1
@@ -98,10 +111,12 @@
 - result: Antanian Luck Potion
   chance: 1
   maxChance: 250000
+  noLuckBonus: true
 
 - result: Antanian Charisma Potion
   chance: 1
   maxChance: 200000
+  noLuckBonus: true
 
 - result: Antanian Health Potion
   chance: 1
@@ -122,14 +137,17 @@
 - result: Antanian Lore Scroll 1
   chance: 1
   maxChance: 500
+  noLuckBonus: true
 
 - result: Antanian Lore Scroll 2
   chance: 1
   maxChance: 500
+  noLuckBonus: true
 
 - result: Antanian Lore Scroll 3
   chance: 1
   maxChance: 500
+  noLuckBonus: true
 
 # Rune Scrolls
 - result: Rune Scroll - Careful Touch I

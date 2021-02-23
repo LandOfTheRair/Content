@@ -2,6 +2,7 @@
 - result: Maze Corpseflower
   chance: 1
   maxChance: 150
+  noLuckBonus: true
 
 - result: Dedlaen Dexterity Gloves
   chance: 1
