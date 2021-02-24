@@ -9,6 +9,7 @@
   value: 2500
   sprite: 545
   binds: true
+  maxUpgrades: 1
 
   trait:
     name: SweetTooth
@@ -32,6 +33,7 @@
   value: 500
   sprite: 574
   binds: true
+  maxUpgrades: 1
 
   trait:
     name: WintersEmbrace

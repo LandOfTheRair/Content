@@ -4,6 +4,7 @@
   tier: 5
   stats:
     accuracy: 4
+  maxUpgrades: 1
   type: Ranged
   value: 2390
   sprite: 47

@@ -8,6 +8,7 @@
     name: TrueSight
     potency: 1
     autocast: true
+  maxUpgrades: 1
   sprite: 568
   desc: "a traditional pilgrim hat"
   value: 3500
@@ -28,6 +29,7 @@
     name: DarkVision
     potency: 1
     autocast: true
+  maxUpgrades: 1
   sprite: 578
   desc: "a top hat worn by the snowmen of Winter Wonderland"
   value: 1000

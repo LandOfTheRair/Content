@@ -28,6 +28,7 @@
     potency: 250
     chance: 100
     range: 0
+  maxUpgrades: 1
 
   desc: "a well-balanced throwing hammer that emanates holy power"
   proneChance: 100

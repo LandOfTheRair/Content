@@ -23,6 +23,7 @@
     name: Poison
     potency: 55
     chance: 75
+  maxUpgrades: 1
   type: Ranged
   value: 195
   sprite: 390

@@ -32,6 +32,7 @@
     defense: 4
   desc: "a massive greatsword crafted in the ancient Risan kingdom"
   tier: 6
+  maxUpgrades: 1
   type: Twohanded
   value: 23185
   sprite: 198
@@ -47,6 +48,7 @@
     defense: 5
   desc: "a massive greatsword crafted in the ancient Risan kingdom"
   tier: 6
+  maxUpgrades: 1
   type: Twohanded
   value: 33185
   sprite: 198
@@ -62,6 +64,7 @@
     defense: 6
   desc: "a massive greatsword crafted in the ancient Risan kingdom"
   tier: 7
+  maxUpgrades: 2
   type: Twohanded
   value: 43185
   sprite: 198
@@ -77,6 +80,7 @@
     defense: 7
   desc: "a massive greatsword crafted in the ancient Risan kingdom"
   tier: 7
+  maxUpgrades: 2
   type: Twohanded
   value: 53185
   sprite: 198
@@ -92,6 +96,7 @@
     defense: 10
   desc: "a massive greatsword crafted in the ancient Risan kingdom"
   tier: 8
+  maxUpgrades: 2
   type: Twohanded
   value: 23185
   sprite: 198
@@ -107,6 +112,7 @@
     offense: 7
     defense: 7
   returnsOnThrow: true
+  maxUpgrades: 2
   tier: 7
   type: Twohanded
   value: 83185

@@ -11,6 +11,7 @@
     hp:
       min: 50
       max: 75
+  maxUpgrades: 1
   desc: "a helmet designed to protect the face from overexposure to heat"
   value: 4500
 
@@ -25,6 +26,7 @@
     hp:
       min: 50
       max: 75
+  maxUpgrades: 1
   desc: "a helmet designed to protect the face from overexposure to heat"
   value: 4500
 
@@ -39,6 +41,7 @@
     mp:
       min: 50
       max: 75
+  maxUpgrades: 1
   desc: "a helmet designed to protect the face from overexposure to heat"
   value: 4500
 
@@ -53,6 +56,7 @@
     mp:
       min: 50
       max: 75
+  maxUpgrades: 1
   desc: "a helmet designed to protect the face from overexposure to heat"
   value: 4500
 
@@ -61,6 +65,7 @@
   stats:
     armorClass: 10
     defense: 5
+  maxUpgrades: 1
   desc: "a helmet crafted with the finest metals in Risan"
   value: 1500
   binds: true

@@ -5,6 +5,7 @@
     armorClass: 10
     fireResist: 150
     iceResist: 150
+  maxUpgrades: 1
   desc: "a bright red scaleplate made of refined ether"
   binds: true
   value: 5000
@@ -18,6 +19,7 @@
     armorClass: 20
     fireResist: 200
     iceResist: 200
+  maxUpgrades: 1
   desc: "a bright red scaleplate, twice refined, forged with ether"
   binds: true
   value: 15000
@@ -34,6 +36,7 @@
     iceResist: 300
     energyResist: 400
     necroticResist: 400
+  maxUpgrades: 1
   desc: "a shining silver scaleplate made of silver scales"
   binds: true
   value: 5000
@@ -49,6 +52,7 @@
     iceResist: 500
     energyResist: 600
     necroticResist: 600
+  maxUpgrades: 1
   desc: "a shining silver scaleplate, twice refined, forged with refined silver scales"
   binds: true
   value: 15000

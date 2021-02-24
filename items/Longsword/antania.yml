@@ -32,6 +32,7 @@
   trait:
     name: SwordTricks
     level: 1
+  maxUpgrades: 2
   tier: 2
   type: Sword
   binds: true
@@ -68,6 +69,7 @@
     offense: 4
     defense: 4
     weaponArmorClass: 3
+  maxUpgrades: 2
   tier: 5
   type: Sword
   binds: true

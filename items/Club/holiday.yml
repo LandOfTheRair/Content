@@ -25,6 +25,7 @@
     chance: 25
   desc: "a pipe used to stay warm in the cold months"
   binds: true
+  maxUpgrades: 1
   tier: 4
   type: Mace
   value: 500

@@ -11,6 +11,7 @@
   trait:
     name: TotemSpecialty
     level: 1
+  maxUpgrades: 2
   binds: true
   tellsBind: true
   type: Wand
@@ -30,6 +31,7 @@
   trait:
     name: NecroticFocus
     level: 3
+  maxUpgrades: 2
   binds: true
   tellsBind: true
   type: Wand
@@ -52,6 +54,7 @@
   trait:
     name: TotemSpecialty
     level: 3
+  maxUpgrades: 2
   binds: true
   tellsBind: true
   type: Wand

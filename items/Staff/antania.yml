@@ -21,6 +21,7 @@
     int: 1
     wis: 1
     mp: 50
+  maxUpgrades: 1
   tier: 2
   type: Staff
   value: 567
@@ -40,6 +41,7 @@
   value: 567
   sprite: 326
   binds: true
+  maxUpgrades: 1
 
   trait:
     name: FamiliarFortitude

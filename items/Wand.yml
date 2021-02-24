@@ -11,6 +11,7 @@
   trait:
     name: WandSpecialty
     level: 2
+  maxUpgrades: 2
   offhand: true
   binds: true
   tellsBind: true
@@ -30,6 +31,7 @@
   trait:
     name: WandSpecialty
     level: 1
+  maxUpgrades: 1
   offhand: true
   binds: true
   type: Wand
@@ -51,6 +53,7 @@
   trait:
     name: WandSpecialty
     level: 1
+  maxUpgrades: 1
   offhand: true
   binds: true
   type: Wand
@@ -73,6 +76,7 @@
   trait:
     name: WandSpecialty
     level: 3
+  maxUpgrades: 2
   offhand: true
   binds: true
   tellsBind: true
@@ -100,6 +104,7 @@
   trait:
     name: MagicFocus
     level: 3
+  maxUpgrades: 2
   offhand: true
   binds: true
   tellsBind: true

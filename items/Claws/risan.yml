@@ -12,6 +12,7 @@
   value: 4000
   sprite: 463
   binds: true
+  maxUpgrades: 1
   strikeEffect:
     name: Dispel
     potency: 30
@@ -32,6 +33,7 @@
   value: 8000
   sprite: 463
   binds: true
+  maxUpgrades: 1
   strikeEffect:
     name: Dispel
     potency: 30
@@ -52,6 +54,7 @@
   value: 12000
   sprite: 463
   binds: true
+  maxUpgrades: 2
   strikeEffect:
     name: Dispel
     potency: 30
@@ -72,6 +75,7 @@
   value: 16000
   sprite: 463
   binds: true
+  maxUpgrades: 2
   strikeEffect:
     name: Dispel
     potency: 30
@@ -92,6 +96,7 @@
   value: 20000
   sprite: 463
   binds: true
+  maxUpgrades: 2
   strikeEffect:
     name: Dispel
     potency: 30

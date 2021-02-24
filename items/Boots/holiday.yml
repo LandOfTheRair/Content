@@ -4,6 +4,7 @@
   stats:
     magicalResist: 100
   tier: 3
+  maxUpgrades: 1
   sprite: 288
   desc: "a mesmerizing pair of red boots depicting a dark moon rising over a bright sunscape"
   value: 2000
@@ -18,6 +19,7 @@
     agi: 2
     dex: 2
   tier: 3
+  maxUpgrades: 1
   sprite: 569
   desc: "a plain pair of clogs found traditionally in the Turkey Forest"
   value: 2500

@@ -9,6 +9,7 @@
     str: 5
     defense: 10
     offense: 10
+  maxUpgrades: 2
   tier: 8
   type: Staff
   value: 956712

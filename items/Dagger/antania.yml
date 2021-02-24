@@ -42,6 +42,7 @@
   value: 500
   sprite: 332
   binds: true
+  maxUpgrades: 1
 
   requirements:
     level: 5
@@ -94,6 +95,7 @@
   type: Dagger
   value: 21347
   sprite: 978
+  maxUpgrades: 2
   binds: true
   tellsBind: true
 

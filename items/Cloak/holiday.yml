@@ -12,3 +12,4 @@
   value: 3500
   sprite: 567
   binds: true
+  maxUpgrades: 1

@@ -5,6 +5,7 @@
     armorClass: 4
     offense: 3
     accuracy: 4
+  maxUpgrades: 1
   tier: 2
   type: Polearm
   value: 2500
@@ -16,6 +17,7 @@
     armorClass: 8
     offense: 5
     accuracy: 6
+  maxUpgrades: 1
   tier: 5
   type: Polearm
   value: 3500
@@ -31,6 +33,7 @@
     armorClass: 3
     weaponArmorClass: 10
     offense: 4
+  maxUpgrades: 1
   type: Polearm
   value: 2344
   sprite: 44

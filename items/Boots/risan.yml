@@ -10,6 +10,7 @@
     autocast: true
     potency: 1
   tier: 5
+  maxUpgrades: 1
   sprite: 372
   desc: "a pair of spongy, springy boots that allows you to move more quickly"
   value: 1980
@@ -34,6 +35,7 @@
       min: 3
       max: 5
   tier: 6
+  maxUpgrades: 1
   sprite: 287
   desc: "a pair of white-fur boots that keep you warm when traversing the frostlands"
   value: 2500
@@ -53,6 +55,7 @@
   value: 4000
   sprite: 511
   binds: true
+  maxUpgrades: 1
 
   requirements:
     level: 25
@@ -68,6 +71,7 @@
   value: 8000
   sprite: 511
   binds: true
+  maxUpgrades: 1
 
   requirements:
     level: 30
@@ -83,6 +87,7 @@
   value: 12000
   sprite: 511
   binds: true
+  maxUpgrades: 2
 
   requirements:
     level: 35
@@ -98,6 +103,7 @@
   value: 16000
   sprite: 511
   binds: true
+  maxUpgrades: 2
 
   requirements:
     level: 40
@@ -113,6 +119,7 @@
   value: 20000
   sprite: 511
   binds: true
+  maxUpgrades: 2
 
   requirements:
     level: 45

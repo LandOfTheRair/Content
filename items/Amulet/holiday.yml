@@ -20,6 +20,7 @@
     fireResist: 300
     iceResist: 300
   sprite: 581
+  maxUpgrades: 1
   desc: "a scarf used to stay warm during the winter months"
   value: 500
   binds: true

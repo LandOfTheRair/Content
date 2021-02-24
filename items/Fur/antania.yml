@@ -6,6 +6,7 @@
     armorClass: 3
     fireResist: 10
     iceResist: 10
+  maxUpgrades: 1
   value: 10
   sprite: 297
 
@@ -15,6 +16,7 @@
     armorClass: 6
     fireResist: 25
     iceResist: 25
+  maxUpgrades: 1
   value: 100
   sprite: 218
 
@@ -25,6 +27,8 @@
     defense: 2
     fireResist: 50
     iceResist: 50
+
+  maxUpgrades: 2
 
   requirements:
     level: 5
@@ -40,6 +44,7 @@
     stealth: -3
     fireResist: 20
     iceResist: 20
+  maxUpgrades: 1
 
   value: 200
   sprite: 352
@@ -54,6 +59,7 @@
     defense: 1
     fireResist: 40
     iceResist: 40
+  maxUpgrades: 1
 
   value: 700
   sprite: 352

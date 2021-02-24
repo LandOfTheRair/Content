@@ -38,6 +38,7 @@
   value: 1500
   sprite: 330
   binds: true
+  maxUpgrades: 1
 
   requirements:
     level: 5
@@ -75,6 +76,7 @@
   sprite: 517
   binds: true
   tellsBind: true
+  maxUpgrades: 2
 
   requirements:
     level: 17
@@ -90,6 +92,7 @@
   sprite: 1004
   binds: true
   tellsBind: true
+  maxUpgrades: 2
 
   requirements:
     level: 25

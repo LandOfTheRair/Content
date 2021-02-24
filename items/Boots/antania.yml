@@ -22,6 +22,7 @@
     defense: 1
     offense: 2
   tier: 2
+  maxUpgrades: 1
   sprite: 369
   desc: "a pair of black leather combat boots"
   value: 580
@@ -38,6 +39,7 @@
       min: 3
       max: 5
   tier: 4
+  maxUpgrades: 1
   sprite: 369
   desc: "a pair of rugged combat boots"
   value: 980
@@ -54,6 +56,7 @@
       min: 3
       max: 5
   tier: 3
+  maxUpgrades: 1
   sprite: 369
   desc: "a pair of rugged combat boots"
   value: 980
@@ -81,6 +84,7 @@
     iceResist: 100
   isHeavy: true
   tier: 6
+  maxUpgrades: 2
   sprite: 975
   desc: "a mesmerizing pair of chausses bathed in a crimson ether glow"
   value: 20042

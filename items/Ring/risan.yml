@@ -7,6 +7,7 @@
     offense:
       min: 1
       max: 10
+  maxUpgrades: 1
   binds: true
   sprite: 267
   desc: "a gold ring set with a blue gem with a shield etched into it"
@@ -24,6 +25,7 @@
   stats:
     int: 3
     mpregen: 5
+  maxUpgrades: 1
   sprite: 623
   binds: true
   desc: "a simple machleum ring set with a freezing frost larimar"
@@ -36,6 +38,7 @@
   stats:
     wis: 3
     mpregen: 5
+  maxUpgrades: 1
   sprite: 623
   binds: true
   desc: "a simple machleum ring set with a holy frost larimar"
@@ -48,6 +51,7 @@
   stats:
     str: 3
     hpregen: 5
+  maxUpgrades: 1
   sprite: 623
   binds: true
   desc: "a simple machleum ring set with a strong frost larimar"
@@ -60,6 +64,7 @@
   stats:
     agi: 3
     hpregen: 5
+  maxUpgrades: 1
   sprite: 623
   binds: true
   desc: "a simple machleum ring set with a shadowy frost larimar"
@@ -72,6 +77,7 @@
   stats:
     armorClass: 10
     hp: 100
+  maxUpgrades: 2
   sprite: 623
   binds: true
   desc: "a simple machleum ring set with a freezing frost larimar"
@@ -85,6 +91,7 @@
     int: 2
     agi: 2
     mpregen: 5
+  maxUpgrades: 2
   sprite: 624
   binds: true
   desc: "a twin machleum ring set with a highly-polished, freezing etherfrost larimar"
@@ -98,6 +105,7 @@
     wis: 2
     wil: 2
     mpregen: 5
+  maxUpgrades: 2
   sprite: 624
   binds: true
   desc: "a twin machleum ring set with a highly-polished, holy etherfrost larimar"
@@ -111,6 +119,7 @@
     str: 2
     dex: 3
     hpregen: 5
+  maxUpgrades: 2
   sprite: 624
   binds: true
   desc: "a twin machleum ring set with a highly-polished, strong etherfrost larimar"
@@ -124,6 +133,7 @@
     agi: 2
     stealth: 25
     hpregen: 5
+  maxUpgrades: 2
   sprite: 624
   binds: true
   desc: "a twin machleum ring set with a highly-polished, shadowy etherfrost larimar"
@@ -136,6 +146,7 @@
   stats:
     hp: 100
     armorClass: 5
+  maxUpgrades: 3
   sprite: 624
   binds: true
   desc: "a twin machleum ring set with a highly-polished etherfrost larimar"

@@ -7,6 +7,7 @@
     defense: 3
     mpregen: 5
   binds: true
+  maxUpgrades: 1
   sprite: 3
   desc: "an golden amulet set with an ice jade butterfly"
   value: 5000
@@ -21,6 +22,7 @@
     defense: 3
     mpregen: 5
   binds: true
+  maxUpgrades: 1
   sprite: 348
   desc: "an amulet set with a polished gem made of refined crimson ether"
   value: 5000
@@ -33,6 +35,7 @@
     str: 2
     mitigation: 3
   binds: true
+  maxUpgrades: 1
   sprite: 2
   desc: "a silver amulet set with a pair of small spider fangs"
   value: 5000
@@ -45,6 +48,7 @@
     agi: 2
     stealth: 15
   binds: true
+  maxUpgrades: 1
   sprite: 1
   desc: "an amulet set with a purple gem that reflects the night of the moon"
   value: 5000
@@ -56,6 +60,7 @@
   stats:
     hp: 200
   binds: true
+  maxUpgrades: 3
   sprite: 231
   desc: "a gold chain formerly used as a bookmark"
   value: 5000
@@ -67,6 +72,7 @@
     armorClass: 1
     defense: 2
   binds: true
+  maxUpgrades: 1
   sprite: 2
   desc: "an amulet set with the fangs of an ancient beast"
   value: 10000
@@ -81,6 +87,7 @@
     armorClass: 2
     defense: 4
   binds: true
+  maxUpgrades: 1
   sprite: 2
   desc: "an amulet set with the fangs of an ancient beast"
   value: 15000
@@ -95,6 +102,7 @@
     armorClass: 3
     defense: 6
   binds: true
+  maxUpgrades: 2
   sprite: 2
   desc: "an amulet set with the fangs of an ancient beast"
   value: 20000
@@ -109,6 +117,7 @@
     armorClass: 4
     defense: 8
   binds: true
+  maxUpgrades: 2
   sprite: 2
   desc: "an amulet set with the fangs of an ancient beast"
   value: 25000
@@ -123,6 +132,7 @@
     armorClass: 5
     defense: 10
   binds: true
+  maxUpgrades: 2
   sprite: 2
   desc: "an amulet set with the fangs of an ancient beast"
   value: 30000

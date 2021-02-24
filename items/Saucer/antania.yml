@@ -7,6 +7,7 @@
     defense:
       min: 2
       max: 4
+  maxUpgrades: 1
   sprite: 309
   desc: "a small saucer commonly held and worn by goblinkin"
   value: 387
@@ -22,6 +23,7 @@
     offense:
       min: 2
       max: 4
+  maxUpgrades: 1
   sprite: 309
   desc: "a small saucer commonly held and worn by goblinkin"
   value: 480
@@ -40,6 +42,7 @@
     mp:
       min: 15
       max: 65
+  maxUpgrades: 1
   sprite: 309
   desc: "a small saucer commonly held and worn by goblinkin"
   value: 480

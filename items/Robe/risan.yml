@@ -7,6 +7,7 @@
     iceResist: 20
     necroticResist: 20
     poisonResist: 20
+  maxUpgrades: 1
   desc: "a shimmering golden robe made from the hide of a crazed deer"
   value: 2500
   sprite: 385
@@ -31,6 +32,7 @@
     armorClass:
       min: 3
       max: 7
+  maxUpgrades: 1
 
   desc: "the tanned hide of a sabretooth"
   value: 3500
@@ -49,6 +51,7 @@
     fireResist: 100
     poisonResist: 75
     diseaseResist: 25
+  maxUpgrades: 1
 
   desc: "the tanned hide of a big sabretooth"
   value: 3500
@@ -74,6 +77,7 @@
     defense:
       min: 0
       max: 10
+  maxUpgrades: 1
   desc: "a yellow robe sewn with a black hem"
   value: 17004
   sprite: 380
@@ -89,6 +93,7 @@
     armorClass: 1
     physicalResist: 50
     perception: 5
+  maxUpgrades: 1
   desc: "a white and blue robe with splotches of bloody flowers scattered around it"
   value: 13000
   sprite: 400
@@ -104,6 +109,7 @@
     armorClass: 2
     physicalResist: 100
     perception: 10
+  maxUpgrades: 1
   desc: "a white and blue robe with splotches of bloody flowers scattered around it"
   value: 26000
   sprite: 400
@@ -119,6 +125,7 @@
     armorClass: 3
     physicalResist: 150
     perception: 15
+  maxUpgrades: 1
   desc: "a white and blue robe with splotches of bloody flowers scattered around it"
   value: 39000
   sprite: 400
@@ -134,6 +141,7 @@
     armorClass: 4
     physicalResist: 200
     perception: 20
+  maxUpgrades: 1
   desc: "a white and blue robe with splotches of bloody flowers scattered around it"
   value: 13000
   sprite: 400
@@ -149,6 +157,7 @@
     armorClass: 5
     physicalResist: 250
     perception: 30
+  maxUpgrades: 1
   desc: "a white and blue robe with splotches of bloody flowers scattered around it"
   value: 13000
   sprite: 400
@@ -165,6 +174,7 @@
     armorClass: 15
     iceResist: 400
     fireResist: 400
+  maxUpgrades: 2
 
   desc: "a fluffy robe made of chilled sparkling feathers"
   value: 5500
@@ -177,6 +187,7 @@
   stats:
     energyResist: 400
     necroticResist: 400
+  maxUpgrades: 1
 
   desc: "a warm robe depicting the eruption of a volcano"
   value: 2500

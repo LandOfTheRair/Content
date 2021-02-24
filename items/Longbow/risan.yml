@@ -16,6 +16,7 @@
   stats:
     offense: 2
     accuracy: 3
+  maxUpgrades: 1
   type: Ranged
   value: 12390
   sprite: 444
@@ -29,6 +30,7 @@
   stats:
     offense: 2
     accuracy: 3
+  maxUpgrades: 1
   type: Ranged
   value: 22390
   sprite: 444
@@ -42,6 +44,7 @@
   stats:
     offense: 3
     accuracy: 4
+  maxUpgrades: 2
   type: Ranged
   value: 32390
   sprite: 444
@@ -55,6 +58,7 @@
   stats:
     offense: 4
     accuracy: 5
+  maxUpgrades: 2
   type: Ranged
   value: 42390
   sprite: 444
@@ -68,6 +72,7 @@
   stats:
     offense: 5
     accuracy: 6
+  maxUpgrades: 2
   type: Ranged
   value: 52390
   sprite: 444

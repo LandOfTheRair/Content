@@ -5,6 +5,7 @@
   stats:
     offense: 4
     defense: 2
+  maxUpgrades: 1
   tier: 2
   type: Twohanded
   value: 2500
@@ -15,6 +16,7 @@
   stats:
     offense: 6
     defense: 2
+  maxUpgrades: 1
   tier: 5
   type: Twohanded
   value: 3500
@@ -29,6 +31,7 @@
   stats:
     accuracy: -1
     offense: 8
+  maxUpgrades: 1
   type: Twohanded
   value: 2341
   sprite: 43

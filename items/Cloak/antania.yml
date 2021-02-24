@@ -23,6 +23,7 @@
   value: 760
   sprite: 321
   binds: true
+  maxUpgrades: 1
 
   trait:
     name: ShadowStepper
@@ -39,6 +40,7 @@
   value: 679
   sprite: 16
   binds: true
+  maxUpgrades: 1
 
 - name: Tower Trash Cloak
   stats:
@@ -65,6 +67,7 @@
   value: 3699
   sprite: 18
   binds: true
+  maxUpgrades: 2
 
   requirements:
     level: 15

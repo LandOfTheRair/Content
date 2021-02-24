@@ -4,6 +4,7 @@
   stats:
     offense: 3
     defense: 3
+  maxUpgrades: 1
   tier: 2
   type: Sword
   value: 2500
@@ -14,6 +15,7 @@
   stats:
     offense: 5
     defense: 5
+  maxUpgrades: 1
   tier: 5
   type: Sword
   value: 3500

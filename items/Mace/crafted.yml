@@ -5,6 +5,7 @@
   tier: 5
   stats:
     accuracy: 4
+  maxUpgrades: 1
   type: Mace
   value: 2378
   sprite: 48

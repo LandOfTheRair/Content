@@ -21,6 +21,7 @@
     armorClass: 4
     defense: 2
     offense: 2
+  maxUpgrades: 2
   sprite: 475
   desc: "a sash with the image of a sword sewn into it"
   binds: true
@@ -35,6 +36,7 @@
     offense:
       min: 2
       max: 4
+  maxUpgrades: 2
   sprite: 475
   desc: "a sash emblazoned with the glorious Steffen blade"
   binds: true
@@ -54,6 +56,7 @@
   trait:
     name: ShadowSwap
     level: 1
+  maxUpgrades: 1
   sprite: 388
   desc: "a sash emblazoned with the glorious Heniz colors"
   binds: true
@@ -74,6 +77,7 @@
     armorClass:
       min: 1
       max: 5
+  maxUpgrades: 1
   sprite: 293
   desc: "a rug fashioned into a sash"
   binds: true
@@ -94,6 +98,7 @@
     agi:
       min: 0
       max: 1
+  maxUpgrades: 1
   sprite: 388
   desc: "a sash weaved with the iridescent threads of the rift-defying beast"
   binds: true

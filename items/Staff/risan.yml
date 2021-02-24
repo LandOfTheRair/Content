@@ -16,6 +16,7 @@
     int: 2
     wis: 2
     mp: 100
+  maxUpgrades: 1
   tier: 5
   type: Staff
   value: 5267
@@ -35,6 +36,7 @@
     mpregen: 10
     conjurationBonus: 2
     restorationBonus: 2
+  maxUpgrades: 2
   tier: 5
   type: Staff
   value: 9567
@@ -68,6 +70,7 @@
     weaponArmorClass: 4
     armorClass: 4
     mpregen: 4
+  maxUpgrades: 1
   desc: "a wooden staff carved from wood from the ancient Risan kingdom"
   tier: 6
   type: Staff
@@ -83,6 +86,7 @@
     weaponArmorClass: 6
     armorClass: 6
     mpregen: 8
+  maxUpgrades: 1
   desc: "a wooden staff carved from wood from the ancient Risan kingdom"
   tier: 6
   type: Staff
@@ -98,6 +102,7 @@
     weaponArmorClass: 8
     armorClass: 8
     mpregen: 12
+  maxUpgrades: 2
   desc: "a wooden staff carved from wood from the ancient Risan kingdom"
   tier: 7
   type: Staff
@@ -113,6 +118,7 @@
     weaponArmorClass: 10
     armorClass: 10
     mpregen: 16
+  maxUpgrades: 2
   desc: "a wooden staff carved from wood from the ancient Risan kingdom"
   tier: 7
   type: Staff
@@ -128,6 +134,7 @@
     weaponArmorClass: 12
     armorClass: 12
     mpregen: 20
+  maxUpgrades: 3
   desc: "a wooden staff carved from wood from the ancient Risan kingdom"
   tier: 8
   type: Staff
@@ -145,6 +152,7 @@
     wis: 2
     wil: 2
     mpregen: 10
+  maxUpgrades: 1
   desc: "a strange staff with an almost-closed fist at the peak"
   tier: 6
   type: Staff

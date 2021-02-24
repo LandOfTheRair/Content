@@ -15,6 +15,7 @@
       max: 3
   sprite: 284
   binds: true
+  maxUpgrades: 1
   desc: "a pair of shadow-dark bracers"
   value: 650
 
@@ -29,6 +30,7 @@
     iceResist: 30
   sprite: 6
   binds: true
+  maxUpgrades: 1
   desc: "a pair of bracers set with many magical gems"
   value: 650
 
@@ -39,6 +41,8 @@
   sprite: 119
   desc: "a pair of bracers forged from the horn of a minotaur, reinforced with the egg of a dragon turtle and the crystalline heart of a vampire, set with many small spectral pearl shards"
   value: 10000
+  binds: true
+  maxUpgrades: 1
   stats:
     offense: 4
     defense: 4

@@ -6,6 +6,7 @@
     armorClass: 12
     defense: 5
     agi: 2
+  maxUpgrades: 1
 
   value: 1600
   sprite: 217
@@ -16,6 +17,7 @@
     armorClass: 17
     defense: 10
     agi: 3
+  maxUpgrades: 1
 
   value: 1600
   sprite: 217
@@ -30,6 +32,7 @@
     dex: 1
     agi: 1
     wil: 1
+  maxUpgrades: 1
 
   value: 1600
   sprite: 217

@@ -13,6 +13,7 @@
     cha: 1
     fireResist: 200
     iceResist: 200
+  maxUpgrades: 1
   sprite: 580
   binds: true
   desc: "a small ring fashioned out of festive leaves"

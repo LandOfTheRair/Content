@@ -24,6 +24,7 @@
     offense:
       min: 2
       max: 4
+  maxUpgrades: 1
   tier: 2
   desc: "a pair of golden knight gauntlets"
   sprite: 362
@@ -47,6 +48,7 @@
     mp:
       min: 10
       max: 30
+  maxUpgrades: 1
   tier: 2
   strikeEffect:
     name: MagicMissile
@@ -74,6 +76,7 @@
       min: 2
       max: 5
 
+  maxUpgrades: 1
   binds: true
 
   requirements:

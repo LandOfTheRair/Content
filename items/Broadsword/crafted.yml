@@ -12,6 +12,7 @@
   value: 2345
   sprite: 46
   binds: true
+  maxUpgrades: 1
 
   requirements:
     level: 15

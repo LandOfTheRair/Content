@@ -6,6 +6,7 @@
     offense: 2
     defense: 1
     accuracy: 1
+  maxUpgrades: 1
   tier: 2
   type: Axe
   value: 2500
@@ -17,6 +18,7 @@
     offense: 2
     defense: 2
     accuracy: 1
+  maxUpgrades: 1
   tier: 5
   type: Axe
   value: 3500
@@ -28,6 +30,7 @@
   stats:
     accuracy: 2
     offense: 4
+  maxUpgrades: 1
   type: Axe
   value: 2349
   sprite: 132

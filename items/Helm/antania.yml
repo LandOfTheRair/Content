@@ -24,6 +24,7 @@
     offense:
       min: 0
       max: 1
+  maxUpgrades: 1
   sprite: 374
   desc: "a large iron helm with a flared-out neck protector"
   value: 200
@@ -35,6 +36,7 @@
     hp:
       min: 0
       max: 35
+  maxUpgrades: 1
   sprite: 374
   desc: "a large iron helm with a flared-out neck protector"
   value: 244
@@ -46,6 +48,7 @@
     mp:
       min: 0
       max: 35
+  maxUpgrades: 1
   sprite: 374
   desc: "a large iron helm with a flared-out neck protector"
   value: 287
@@ -61,6 +64,7 @@
     wil: 1
     luk: 1
     cha: 1
+  maxUpgrades: 1
   sprite: 127
   desc: "the regal crown of the Steffen"
   value: 3600
@@ -73,6 +77,7 @@
     name: DarkVision
     potency: 1
     autocast: true
+  maxUpgrades: 1
   sprite: 373
   desc: "a glow in the dark helmet with eyes that let you see in the dark"
   value: 3500
@@ -88,6 +93,7 @@
     defense: 5
     fireResist: 100
     iceResist: 100
+  maxUpgrades: 1
   sprite: 973
   isHeavy: true
   desc: "a mesmerizing helm bathed in a crimson ether glow"

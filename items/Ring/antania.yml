@@ -16,6 +16,7 @@
     defense:
       min: 2
       max: 5
+  maxUpgrades: 1
   sprite: 240
   desc: "a gold ring set with a green gem"
   value: 500
@@ -27,6 +28,7 @@
       max: 5
   stats:
     weaponDamageRolls: 1
+  maxUpgrades: 1
   binds: true
   sprite: 241
   desc: "a gold ring set with a blue gem"
@@ -40,6 +42,7 @@
     offense:
       min: 1
       max: 4
+  maxUpgrades: 1
   binds: true
   sprite: 267
   desc: "a gold ring set with a blue gem with a shield etched into it"
@@ -49,6 +52,7 @@
   stats:
     cha: 1
   binds: true
+  maxUpgrades: 1
   sprite: 30
   desc: "a gold ring with a sparkly red gem set in the center"
   value: 1000
@@ -58,6 +62,7 @@
     physicalResist:
       min: 5
       max: 15
+  maxUpgrades: 1
   binds: true
   sprite: 496
   desc: "a black platinum ring set with a green gem which pulses with magical energy"
@@ -74,6 +79,7 @@
     defense:
       min: 0
       max: 2
+  maxUpgrades: 1
   binds: true
   sprite: 495
   desc: "a silver ring set with many glowing mana beads"
@@ -90,6 +96,7 @@
     defense:
       min: 0
       max: 2
+  maxUpgrades: 1
   binds: true
   sprite: 497
   desc: "a brass ring set with a pulsating blue gem"
@@ -103,6 +110,7 @@
     armorClass:
       min: 3
       max: 6
+  maxUpgrades: 1
   sprite: 266
   binds: true
   desc: "a gold ring plated with layers of silver"

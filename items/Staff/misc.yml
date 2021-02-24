@@ -5,6 +5,7 @@
     name: Vortex
     potency: 3
     uses: -1
+  maxUpgrades: 5
   type: Staff
   value: 98001
   sprite: 229

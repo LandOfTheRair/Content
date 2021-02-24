@@ -15,6 +15,7 @@
   desc: "a golden earring set with a blue gem encased with a shadowy aura"
   value: 1000
   binds: true
+  maxUpgrades: 1
 
   requirements:
     level: 27
@@ -35,6 +36,7 @@
   desc: "a golden earring set with a blue gem with tiny swords carved into it"
   value: 1000
   binds: true
+  maxUpgrades: 1
 
   requirements:
     level: 27
@@ -55,6 +57,7 @@
   desc: "a golden earring set with a blue gem that changes temperature rapidly in your hands"
   value: 1000
   binds: true
+  maxUpgrades: 1
 
   requirements:
     level: 27
@@ -75,6 +78,7 @@
   desc: "a golden earring set with a blue gem bathed in a holy light"
   value: 1000
   binds: true
+  maxUpgrades: 1
 
   requirements:
     level: 27
@@ -90,6 +94,7 @@
   desc: "a golden earring set with a green gem"
   value: 9000
   binds: true
+  maxUpgrades: 1
 
   requirements:
     level: 35

@@ -17,6 +17,7 @@
     armorClass: 14
     fireResist: 300
     offense: 4
+  maxUpgrades: 1
   desc: "a shield forged from Risan metals designed to protect against fire"
   binds: true
   value: 3004
@@ -27,6 +28,7 @@
     armorClass: 14
     fireResist: 300
     defense: 4
+  maxUpgrades: 1
   desc: "a shield forged from Risan metals designed to protect against fire"
   binds: true
   value: 3004
@@ -55,6 +57,7 @@
     iceResist: 300
     offense: 2
     defense: 4
+  maxUpgrades: 1
   tier: 6
   desc: "a highly-polished shield engraved with the mark of the Risan royal family which is covered in a layer of frost"
   value: 21451
@@ -71,6 +74,7 @@
     offense: 1
     defense: 1
     energyResist: 200
+  maxUpgrades: 1
   tier: 6
   desc: "a shield engraved with the arcane symbol of ancient Risan kingdom"
   value: 15333
@@ -86,6 +90,7 @@
     offense: 3
     defense: 3
     energyResist: 400
+  maxUpgrades: 1
   tier: 6
   desc: "a shield engraved with the arcane symbol of ancient Risan kingdom"
   value: 25333
@@ -101,6 +106,7 @@
     offense: 5
     defense: 5
     energyResist: 600
+  maxUpgrades: 1
   tier: 7
   desc: "a shield engraved with the arcane symbol of ancient Risan kingdom"
   value: 35333
@@ -116,6 +122,7 @@
     offense: 7
     defense: 7
     energyResist: 800
+  maxUpgrades: 1
   tier: 7
   desc: "a shield engraved with the arcane symbol of ancient Risan kingdom"
   value: 45333
@@ -131,6 +138,7 @@
     offense: 9
     defense: 9
     energyResist: 1000
+  maxUpgrades: 1
   tier: 8
   desc: "a shield engraved with the arcane symbol of ancient Risan kingdom"
   value: 55333

@@ -38,6 +38,7 @@
     hpregen: 3
     poisonResist: 50
     diseaseResist: 25
+  maxUpgrades: 1
   desc: "a ringmail tunic stained green from the nearby fungus growing on it"
   value: 845
   sprite: 9
@@ -74,6 +75,7 @@
   stats:
     armorClass: 16
     defense: 3
+  maxUpgrades: 1
   requirements:
     level: 14
   desc: "a plain tunic double-reinforced with shards of bone"
