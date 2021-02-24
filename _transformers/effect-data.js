@@ -26,7 +26,7 @@ const merge = async () => {
     Object.values(file).forEach(eff => {
       eff.effectMeta = eff.effectMeta || {};
       eff.tooltip = eff.tooltip || {};
-      eff.extra = eff.extra || {};
+      eff.effect.extra = eff.effect.extra || {};
     });
 
     console.log(`Loading ${Object.values(file).length} effects...`);
