@@ -1,6 +1,6 @@
 
 - name: Roma Deer Upgrade
-  sprite: 395
+  sprite: 385
   desc: "an upgrade material for Deer Robes"
   value: 100
   canUpgradeWith: true
