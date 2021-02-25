@@ -1,0 +1,41 @@
+
+- name: Roma Deer Upgrade
+  sprite: 395
+  desc: "an upgrade material for Deer Robes"
+  value: 100
+
+  stats:
+    offense: 1
+    defense: 1
+
+- name: Bear Meat Upgrade
+  sprite: 932
+  desc: "an upgrade material from Ranger Bear"
+  value: 100
+
+  stats:
+    offense: 1
+
+- name: Rock Brain Upgrade
+  sprite: 64
+  desc: "an upgrade material from Rocky"
+  value: 100
+
+  stats:
+    defense: 1
+
+- name: Offes Upgrade
+  sprite: 68
+  desc: "an upgrade material from Rocky"
+  value: 100
+
+  stats:
+    offense: 2
+
+- name: Deffes Upgrade
+  sprite: 68
+  desc: "an upgrade material from Rocky"
+  value: 100
+
+  stats:
+    defense: 2
