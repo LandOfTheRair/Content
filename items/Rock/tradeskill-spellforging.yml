@@ -4,6 +4,7 @@
   sprite: 616
   desc: "a machleum brick, emanating with the power of ether"
   value: 100
+  canUpgradeWith: true
 
   stats:
     offense: 1
@@ -14,6 +15,7 @@
   sprite: 683
   desc: "a shimmering machleum brick, overflowing with the magical power of ether"
   value: 100
+  canUpgradeWith: true
 
   stats:
     tier: 1
@@ -22,6 +24,7 @@
   sprite: 67
   desc: "a solid sliver of machleite, commonly used by enchanters"
   value: 100000
+  canUpgradeWith: true
 
   stats:
     defense: 2
@@ -31,6 +34,7 @@
   sprite: 67
   desc: "a sharp sliver of machleite, commonly used by enchanters"
   value: 100000
+  canUpgradeWith: true
 
   stats:
     offense: 2
@@ -40,6 +44,7 @@
   sprite: 67
   desc: "a dynamic sliver of machleite, commonly used by enchanters"
   value: 25
+  canUpgradeWith: true
 
   stats:
     offense: 1

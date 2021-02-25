@@ -1671,6 +1671,26 @@
                  "width":64,
                  "x":2304,
                  "y":1408
+                }, 
+                {
+                 "gid":2587,
+                 "height":64,
+                 "id":531,
+                 "name":"Gratzee",
+                 "properties":
+                    {
+                     "tag":"Upgrader"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":2176,
+                 "y":1408
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1970,7 +1990,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":531,
+ "nextobjectid":532,
  "orientation":"orthogonal",
  "properties":
     {

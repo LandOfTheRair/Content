@@ -26,6 +26,7 @@ const itemSchema = [
   ['secondaryType', false, isString],
   ['stats', false, isObject],
   ['maxUpgrades', false, isInteger],
+  ['canUpgradeWith', false, isBoolean],
 
   ['cosmetic', false, isCosmetic],
   ['cosmetic.isPermanent', false, isBoolean],

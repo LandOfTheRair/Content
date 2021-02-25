@@ -793,6 +793,86 @@
                  "width":64,
                  "x":2176,
                  "y":448
+                }, 
+                {
+                 "gid":3187,
+                 "height":64,
+                 "id":248,
+                 "name":"Roma",
+                 "properties":
+                    {
+                     "tag":"Rylt Roma"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":1920,
+                 "y":1600
+                }, 
+                {
+                 "gid":2612,
+                 "height":64,
+                 "id":249,
+                 "name":"Bear",
+                 "properties":
+                    {
+                     "tag":"Rylt Ranger Bear"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":2048,
+                 "y":1600
+                }, 
+                {
+                 "gid":2652,
+                 "height":64,
+                 "id":250,
+                 "name":"Rocky",
+                 "properties":
+                    {
+                     "tag":"Rylt Rocky"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":2048,
+                 "y":1728
+                }, 
+                {
+                 "gid":3187,
+                 "height":64,
+                 "id":251,
+                 "name":"Gratzee",
+                 "properties":
+                    {
+                     "tag":"Upgrader"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":1920,
+                 "y":1728
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -860,7 +940,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":248,
+ "nextobjectid":252,
  "orientation":"orthogonal",
  "properties":
     {
