@@ -18,6 +18,19 @@
     "build:quests": "node _transformers/quest.js",
     "build:traits": "node _transformers/trait.js",
     "build:spells": "node _transformers/spell.js",
+    "watch:items": "nodemon --ext yml --watch items --exec \"npm run build:items && npm run build:lores\"",
+    "watch:npcs": "nodemon --ext yml --watch npcs --exec \"npm run build:npcs\"",
+    "watch:droptables": "nodemon --ext yml --watch droptables --exec \"npm run build:droptables\"",
+    "watch:recipes": "nodemon --ext yml --watch recipes --exec \"npm run build:recipes\"",
+    "watch:spawners": "nodemon --ext yml --watch spawners --exec \"npm run build:spawners\"",
+    "watch:npc-scripts": "nodemon --ext yml --watch npcScripts --exec \"npm run build:npc-scripts\"",
+    "watch:macros": "nodemon --ext yml --watch macros --exec \"npm run build:macros\"",
+    "watch:effect-data": "nodemon --ext yml --watch effectData --exec \"npm run build:effect-data\"",
+    "watch:core": "nodemon --ext yml --watch core --exec \"npm run build:core\"",
+    "watch:trait-trees": "nodemon --ext yml --watch traitTrees --exec \"npm run build:trait-trees\"",
+    "watch:quests": "nodemon --ext yml --watch quests --exec \"npm run build:quests\"",
+    "watch:traits": "nodemon --ext yml --watch traits --exec \"npm run build:traits\"",
+    "watch:spells": "nodemon --ext yml --watch spells --exec \"npm run build:spells\"",
     "validate:npcs": "node _validators/npc.js",
     "validate:items": "node _validators/item.js",
     "validate:spawners": "node _validators/spawner.js",
@@ -28,7 +41,8 @@
     "validate:all": "npm run validate:items && npm run validate:npcs && npm run validate:spawners && npm run validate:npc-scripts",
     "test": "npm run build:all && npm run validate:all",
     "postinstall": "npm run build:all",
-    "watch": "nodemon --ext yml --watch core --watch macros --watch effectData --watch droptables --watch items --watch npcScripts --watch npcsStats --watch quests --watch recipes --watch spawners --watch traitTrees --watch traits --watch spells --watch stem --exec \"npm run build:all\""
+    "watch:all": "nodemon --ext yml --watch core --watch macros --watch effectData --watch droptables --watch items --watch npcScripts --watch npcsStats --watch quests --watch recipes --watch spawners --watch traitTrees --watch traits --watch spells --watch stem --exec \"npm run build:all\"",
+    "watch": "concurrently \"npm run watch:items\" \"npm run watch:npcs\" \"npm run watch:droptables\" \"npm run watch:recipes\" \"npm run watch:spawners\" \"npm run watch:npc-scripts\" \"npm run watch:macros\" \"npm run watch:effect-data\" \"npm run watch:core\" \"npm run watch:trait-trees\" \"npm run watch:quests\" \"npm run watch:traits\" \"npm run watch:spells\""
   },
   "repository": {
     "type": "git",
@@ -45,6 +59,7 @@
     "node": ">=12"
   },
   "devDependencies": {
+    "concurrently": "^6.0.0",
     "download-github-repo": "^0.1.4",
     "nodemon": "^2.0.6"
   }
