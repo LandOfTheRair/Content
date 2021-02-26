@@ -30,7 +30,6 @@ dialog:
             - rightHand
           item: 
             name: Deer Robe
-            owner: "${ name }"
 
           checkPassActions:
 

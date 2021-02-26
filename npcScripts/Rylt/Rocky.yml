@@ -25,11 +25,113 @@ dialog:
   keyword:
     hello:
       actions:
+        - type: checkItem
+          fromHands: true
+          slot:
+            - leftHand
+          item: 
+            name: Antanian Golem Brain
+
+          checkPassActions:
+            - type: checkItem
+              slot:
+                - sack
+              item: 
+                name: Antanian Golem Brain
+                amount: 4
+
+              checkPassActions:
+                - type: checkItemCanUpgrade
+                  slot: rightHand
+                  upgrade: Rock Brain Upgrade
+
+                  checkPassActions:
+                    - type: takeItem
+                      slot:
+                        - leftHand
+                      item:
+                        name: Antanian Golem Brain
+
+                    - type: takeItem
+                      slot:
+                        - sack
+                      item:
+                        name: Antanian Golem Brain
+                        amount: 4
+
+                    - type: addItemUpgrade
+                      slot: rightHand
+                      upgrade: Rock Brain Upgrade
+
+                    - type: chat
+                      maxDistance: 2
+                      message: >
+                        Thanks, ${ name }! I've upgraded your item. 
+                        And thanks for the rocks, heheh. I'm gonna be the smartest rock in this cave.
+
+                      options:
+                        - text: Awesome, thanks
+                          action: noop
+
+
+                  checkFailActions:
+                    - type: chat
+                      maxDistance: 2
+                      message: >
+                        You need to bring me an un-upgraded item you own and can upgrade!
+
+                      options:
+                        - text: Alright fine
+                          action: noop
+
+              checkFailActions:
+                - type: chat
+                  maxDistance: 2
+                  message: >
+                    You need to have 4 more of the brains in your sack! Jeez, I thought I was the dumb one here.
+
+                  options:
+                    - text: Alright fine
+                      action: noop
+
+          checkFailActions:  
+            - type: chat
+              maxDistance: 2
+              message: >
+                Hey! You! Help! I'm trapped in here. At least I think so. Name's Rocky, I'm a golem or somethin'. 
+                They made me smart and stuff but I seem to be stuck between a ROCK and a hard place. Ha ha.
+
+              options:
+                - text: Rocks? Hard places?
+                  action: rock
+
+                - text: Bye
+                  action: noop
+
+    rock:
+      actions:
         - type: chat
-          maxDistance: 4
+          maxDistance: 2
           message: >
-            Hello, ${ name }!
+            Yeah! Yeah! Get it, 'cause I'm made of rocks and we're in a place made of- nevermind. 
+            Anyway, I can UPGRADE your gear to make it hard as a rock. Heh heh. 
+            You might have a lil' trouble finding 'em though, I don't think these guys are as smart as me.
 
           options:
-            - text: Hello!
+            - text: You can upgrade my gear?
+              action: upgrade
+
+            - text: I don't think I'll have trouble
+              action: noop
+
+    upgrade:
+      actions:
+        - type: chat
+          maxDistance: 2
+          message: >
+            Hold one golem brain in your left hand, and I'll take that one plus four from your sack. 
+            Hold a piece of gear that I haven't upgraded in your right hand, and it will help you be more defensive in combat!
+
+          options:
+            - text: I'll bring the brains
               action: noop

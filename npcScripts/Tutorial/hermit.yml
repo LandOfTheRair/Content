@@ -36,7 +36,6 @@ dialog:
           item: 
             name: Tutorial Yeti Skull
             amount: 1 # implied
-            owner: "${ name }" # again, not sure on player name syntax. there will also need to be arbitrary checks for stats and other related item stuff.
 
           checkPassActions:
             # - type: takeItem
@@ -46,7 +45,6 @@ dialog:
             #   item:
             #     name: Tutorial Yeti Skull
             #     amount: 1 # implied
-            #     owner: "${ name }" # will need to make sure it doesn't take unowned ones
 
             # - type: giveItem
             #   slot:

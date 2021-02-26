@@ -33,7 +33,6 @@ dialog:
           item: 
             name: Tonwin Sword
             amount: 1
-            owner: "${ name }"
 
           checkPassActions:
             - type: takeItem
@@ -43,7 +42,6 @@ dialog:
               item:
                 name: Tonwin Sword
                 amount: 1
-                owner: "${ name }"
 
             - type: giveItem
               slot:
