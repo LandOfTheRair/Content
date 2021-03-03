@@ -10,6 +10,11 @@ requirements:
   killsRequired: 20
   npcIds:
     - Rylt Renegade Prisoner
+    - Rylt Renegade Weak Rebel
+    - Rylt Renegade Rebel
+    - Rylt Renegade Rebel Thief
+    - Rylt Renegade Mage Rebel
+    - Rylt Renegade Healer Rebel
 
 messages:
   kill: You have killed ${ current }/${ total } prisoners.
