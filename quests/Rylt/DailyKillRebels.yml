@@ -1,6 +1,6 @@
 
 name: Kill Rebels (Daily)
-desc: Kill rebels in the rebel camp and report back to Mayor Twean when you've bagged 10.
+desc: Kill rebels in the prison and report back to Mayor Twean when you've bagged 10.
 giver: Twean
 isRepeatable: true
 isDaily: true
