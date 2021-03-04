@@ -25,14 +25,6 @@ allegiances:
       wil: -1
       luk: 1
       cha: 1
-
-    baseItems:
-      rightHand: Antanian Longsword
-      armor: Antanian Studded Tunic
-
-    baseSkills:
-      sword: 2
-      dagger: 1
       
   - name: 'Pirates'
     description: >
@@ -49,14 +41,6 @@ allegiances:
       hp: 15
       gold: 400
 
-    baseItems:
-      rightHand: Antanian Axe
-      armor: Antanian Tunic
-
-    baseSkills:
-      axe: 2
-      twohanded: 1
-
   - name: 'Royalty'
     description: >
       You may never have picked up a sword in your life, but you are very well read, knowledgable, and wealthy. 
@@ -72,14 +56,6 @@ allegiances:
       cha: 2
       gold: 900
 
-    baseItems:
-      rightHand: Antanian Mace
-      armor: Antanian Tunic
-
-    baseSkills:
-      mace: 2
-      staff: 1
-
   - name: 'Townsfolk'
     description: >
       You happen to be a person of the town. You may not be used to defending your town, but you can dodge a thrown milk can.
@@ -91,14 +67,6 @@ allegiances:
       agi: 1
       wil: 1
       gold: -75
-
-    baseItems:
-      rightHand: Antanian Dagger
-      armor: Antanian Ringmail Tunic
-
-    baseSkills:
-      dagger: 2
-      sword: 1
 
   - name: 'Underground'
     description: >
@@ -113,14 +81,6 @@ allegiances:
       luk: -1
       cha: -2
 
-    baseItems:
-      rightHand: Antanian Greatsword
-      armor: Antanian Tunic
-
-    baseSkills:
-      twohanded: 2
-      sword: 1
-
   - name: 'Wilderness'
     description: >
       You spend a lot of time in the wilderness, away from society. 
@@ -134,14 +94,6 @@ allegiances:
       wil: 1
       luk: 1
       cha: -1
-
-    baseItems:
-      rightHand: Antanian Staff
-      armor: Antanian Studded Tunic
-
-    baseSkills:
-      staff: 2
-      dagger: 1
 
 
 classes:
@@ -167,12 +119,12 @@ classes:
       The Elementalist brings powerful fire and ice abilities to combat.
       
       The Battlemage augments their melee abilities with magic, making them a fine hybrid combat class.
+
+      This class choice grants +2 INT and +1 WIL.
       
     statMods:
       int: 2
       wil: 1
-      hp: 10
-      mp: 40
 
   - name: 'Thief'
     description: >
@@ -187,10 +139,11 @@ classes:
       The Rogue specialization allows for the Thief to more effectively dual wield, and create more effective traps.
       
       The Assassin specialization allows for the Thief to become even more lethal than before, as well as learning some combat spells.
+
+      This class choice grants +2 AGI and +1 DEX.
     statMods:
       agi: 2
       dex: 1
-      hp: 30
 
   - name: 'Healer'
     description: >
@@ -205,11 +158,11 @@ classes:
       The Bard specialization gives the Healer a wide array of support magic, even allowing to cast on multiple allies simultaneously.
       
       The Diviner specialization gives the Healer strong single-target damage spells, and some holy buffs to be cast on itself.
+
+      This class choice grants +2 WIS and +1 WIL.
     statMods:
       wis: 2
       wil: 1
-      hp: 20
-      mp: 30
 
   - name: 'Warrior'
     description: >
@@ -224,8 +177,93 @@ classes:
       The Monk specialization turns the Warrior into an extremely powerful fist fighter.
       
       The Paladin specialization allows the Warrior to become more defensive and able to provoke enemies into attacking it.
+
+      This class choice grants +2 STR and +1 DEX.
     statMods:
       str: 2
       dex: 1
-      hp: 40
 
+weapons:
+  - name: Staves
+    description: >
+      Staves have a very magical implication - most staves you find in the world will carry some kind of spell to help you out. Staves are very defensive in nature.
+
+      This specialization also includes a minor proficiency in Daggers.
+
+    baseItems:
+      rightHand: Antanian Staff
+      armor: Antanian Studded Tunic
+
+    baseSkills:
+      staff: 2
+      dagger: 1
+
+  - name: Greatswords
+    description: >
+      Greatswords are a two-handed powerhouse. While you won't be able to use a shield, you will be able to do a lot of damage.
+
+      This specialization also includes a minor proficiency in Swords, in case you want to use a shield or dual-wield.
+
+    baseItems:
+      rightHand: Antanian Greatsword
+      armor: Antanian Tunic
+
+    baseSkills:
+      twohanded: 2
+      sword: 1
+
+  - name: Daggers
+    description: >
+      Daggers are a very stealthy choice of weapon, being able to be concealed the best. They do less damage than most weapons, but they're very consistent and often return when thrown.
+
+      This specialization also includes a minor proficiency in Swords.
+
+    baseItems:
+      rightHand: Antanian Dagger
+      armor: Antanian Ringmail Tunic
+
+    baseSkills:
+      dagger: 2
+      sword: 1
+
+  - name: Maces
+    description: >
+      Maces are a strong, blunt type of weapon that come in a few varieties. Their damage is consistent and strong.
+
+      This specialization also includes a minor proficiency in Staves.
+
+    baseItems:
+      rightHand: Antanian Mace
+      armor: Antanian Tunic
+
+    baseSkills:
+      mace: 2
+      staff: 1
+
+  - name: Axes
+    description: >
+      Axes are a sharp one handed type of weapon that can often be dual-wielded. Their damage is lesser than most one-handed weapons as a result, but they make up for it by being able to be dual-wielded.
+
+      This specialization also includes a minor proficiency in two-handed weapons.
+
+    baseItems:
+      rightHand: Antanian Axe
+      armor: Antanian Tunic
+
+    baseSkills:
+      axe: 2
+      twohanded: 1
+
+  - name: Swords
+    description: >
+      Swords are the most consistent one-handed weapons, sometimes being able to be dual-wielded but always able to be used with a shield.
+
+      This specialization also includes a minor proficiency in Daggers.
+
+    baseItems:
+      rightHand: Antanian Longsword
+      armor: Antanian Studded Tunic
+
+    baseSkills:
+      sword: 2
+      dagger: 1
