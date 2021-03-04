@@ -119,8 +119,6 @@ classes:
       The Elementalist brings powerful fire and ice abilities to combat.
       
       The Battlemage augments their melee abilities with magic, making them a fine hybrid combat class.
-
-      This class choice grants +2 INT and +1 WIL.
       
     statMods:
       int: 2
@@ -139,8 +137,6 @@ classes:
       The Rogue specialization allows for the Thief to more effectively dual wield, and create more effective traps.
       
       The Assassin specialization allows for the Thief to become even more lethal than before, as well as learning some combat spells.
-
-      This class choice grants +2 AGI and +1 DEX.
     statMods:
       agi: 2
       dex: 1
@@ -158,8 +154,6 @@ classes:
       The Bard specialization gives the Healer a wide array of support magic, even allowing to cast on multiple allies simultaneously.
       
       The Diviner specialization gives the Healer strong single-target damage spells, and some holy buffs to be cast on itself.
-
-      This class choice grants +2 WIS and +1 WIL.
     statMods:
       wis: 2
       wil: 1
@@ -177,8 +171,6 @@ classes:
       The Monk specialization turns the Warrior into an extremely powerful fist fighter.
       
       The Paladin specialization allows the Warrior to become more defensive and able to provoke enemies into attacking it.
-
-      This class choice grants +2 STR and +1 DEX.
     statMods:
       str: 2
       dex: 1
