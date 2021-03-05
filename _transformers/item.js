@@ -117,7 +117,10 @@ const conditionallyAddInformation = (item) => {
     }
 
     if(['Breastplate', 'Fullplate'].includes(item.itemClass)) {
-      if(!item.stats.mitigation) item.stats.mitigation = 25;
+      if(!item.stats.mitigation) {
+        item.stats.mitigation = 25;
+        item.isHeavy = true;
+      }
     }
   }
 
