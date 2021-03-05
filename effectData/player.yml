@@ -98,7 +98,7 @@ Encumbered:
   tooltip:
     icon: 'armor-vest'
     color: '#f00'
-    desc: 'You are encumbered, which inhibits spellcasting.'
+    desc: 'You are encumbered, which inhibits spellcasting and stealth.'
   effect:
     type: debuff
     duration: -1
