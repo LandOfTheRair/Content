@@ -1,5 +1,5 @@
 
-const YAML = require('yamljs');
+const YAML = require('js-yaml');
 const recurse = require('recursive-readdir');
 const fs = require('fs');
 
@@ -13,7 +13,7 @@ const fixSpawners = async () => {
   const files = await recurse(`spawners`);
 
   files.forEach(file => {
-    const spawnerData = YAML.load(file);
+    const spawnerData = YAML.load(fs.readFileSync(file));
     if(spawnerData.tag) return;
 
     delete spawnerData.name;

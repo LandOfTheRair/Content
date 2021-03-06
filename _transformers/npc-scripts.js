@@ -1,5 +1,5 @@
 
-const YAML = require('yamljs');
+const YAML = require('js-yaml');
 const recurse = require('recursive-readdir');
 const fs = require('fs');
 
@@ -26,7 +26,7 @@ const merge = async () => {
     const files = await recurse(`npcScripts`);
 
     const scriptsData = files.map(file => {
-      const scriptData = YAML.load(file);
+      const scriptData = YAML.load(fs.readFileSync(file));
 
       conditionallyAddInformation(scriptData);
       if(!validateScript(scriptData)) throw new Error(`${scriptData.tag} failed validation.`);

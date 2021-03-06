@@ -1,5 +1,5 @@
 
-const YAML = require('yamljs');
+const YAML = require('js-yaml');
 const recurse = require('recursive-readdir');
 const fs = require('fs');
 
@@ -21,7 +21,7 @@ const merge = async () => {
       const allTradeskillRecipes = await recurse(`recipes/${tradeskill}`);
 
       return allTradeskillRecipes.map(file => {
-        const itemsOfType = YAML.load(file);
+        const itemsOfType = YAML.load(fs.readFileSync(file));
   
         return itemsOfType.map(itemData => {
           addRecipeData(itemData);

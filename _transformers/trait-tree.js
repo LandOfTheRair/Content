@@ -1,11 +1,11 @@
 
-const YAML = require('yamljs');
+const YAML = require('js-yaml');
 const fs = require('fs');
 
 const merge = async () => {
   try {
 
-    const files = fs.readdirSync('./traitTrees').map(f => YAML.load(`./traitTrees/${f}`));
+    const files = fs.readdirSync('./traitTrees').map(f => YAML.load(fs.readFileSync(`./traitTrees/${f}`)));
     const file = Object.assign({}, ...files);
 
     const coreTree = file.Core;

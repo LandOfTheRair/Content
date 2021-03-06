@@ -1,17 +1,17 @@
 
-const YAML = require('yamljs');
+const YAML = require('js-yaml');
 const path = require('path');
 const recurse = require('recursive-readdir');
 const fs = require('fs');
 
 const mergeRegions = async () => {
   try {
-    const globalDroptable = YAML.load(`${__dirname}/../droptables/Global.yml`);
+    const globalDroptable = YAML.load(fs.readFileSync(`${__dirname}/../droptables/Global.yml`));
 
     const files = await recurse(`droptables/regions`);
 
     const droptables = files.map(file => {
-      const droptable = YAML.load(file);
+      const droptable = YAML.load(fs.readFileSync(file));
 
       const fileName = path.basename(file, path.extname(file));
 
@@ -35,7 +35,7 @@ const mergeMaps = async () => {
     const files = await recurse(`droptables/maps`);
 
     const droptables = files.map(file => {
-      const droptable = YAML.load(file);
+      const droptable = YAML.load(fs.readFileSync(file));
 
       const fileName = path.basename(file, path.extname(file));
 

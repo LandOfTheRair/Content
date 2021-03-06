@@ -1,5 +1,5 @@
 
-const YAML = require('yamljs');
+const YAML = require('js-yaml');
 const recurse = require('recursive-readdir');
 const fs = require('fs');
 
@@ -191,7 +191,7 @@ const merge = async () => {
     const filePromises = files.map(file => {
 
       try {
-        const npcs = YAML.load(file);
+        const npcs = YAML.load(fs.readFileSync(file));
   
         return npcs.map(npcData => {
           conditionallyAddInformation(npcData);

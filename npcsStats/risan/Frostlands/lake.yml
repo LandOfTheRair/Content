@@ -20,6 +20,7 @@
 
   items:
     equipment:
+      hands: Dolphin Gloves
       rightHand:
         - result: Risan Halberd
           chance: 1000
@@ -37,6 +38,7 @@
     - Autoheal
     - ImbueFrost
     - Hail
+    - PoisonBiteWeak
 
   hp:
     min: 45000
@@ -49,10 +51,3 @@
   giveXp:
     min: 8200
     max: 8900
-
-  usableSkills:
-    - PoisonBiteWeak
-
-  items:
-    equipment:
-      hands: Dolphin Gloves

@@ -1,10 +1,10 @@
 
-const YAML = require('yamljs');
+const YAML = require('js-yaml');
 const path = require('path');
 const recurse = require('recursive-readdir');
 const fs = require('fs');
 
-const { capitalize, isUndefined, isNumber, isString } = require('lodash');
+const { isUndefined, isNumber, isString } = require('lodash');
 
 const ValidItemTypes = [
   'Mace', 'Axe', 'Dagger', 'Wand', 'Onehanded', 'Twohanded', 'Polearm', 'Ranged',
@@ -214,7 +214,7 @@ const merge = async () => {
 
       let itemsOfType = null;
       try {
-        itemsOfType = YAML.load(file);
+        itemsOfType = YAML.load(fs.readFileSync(file));
       } catch(e) {
         console.error(`Failed to parse file: ${file}`);
         process.exit(-1);

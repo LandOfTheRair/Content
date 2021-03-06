@@ -1,5 +1,5 @@
 
-const YAML = require('yamljs');
+const YAML = require('js-yaml');
 const recurse = require('recursive-readdir');
 const fs = require('fs');
 
@@ -10,7 +10,7 @@ const merge = async () => {
     const questHash = {};
 
     files.forEach(file => {
-      const quest = YAML.load(file);
+      const quest = YAML.load(fs.readFileSync(file));
       questHash[quest.name] = quest;
     });
 

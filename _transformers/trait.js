@@ -1,14 +1,14 @@
 
-const YAML = require('yamljs');
+const YAML = require('js-yaml');
 const fs = require('fs');
 
 const merge = async () => {
   try {
 
-    const files = fs.readdirSync('./traits').map(f => YAML.load(`./traits/${f}`));
+    const files = fs.readdirSync('./traits').map(f => YAML.load(fs.readFileSync(`./traits/${f}`)));
     const file = Object.assign({}, ...files);
 
-    const stems = fs.readdirSync('./stem').map(f => YAML.load(`./stem/${f}`));
+    const stems = fs.readdirSync('./stem').map(f => YAML.load(fs.readFileSync(`./stem/${f}`)));
     const allStem = Object.assign({}, ...stems);
 
     // these properties can be overridden, but default to the `all` value

@@ -86,7 +86,6 @@
     accuracy: 5
     offense: 5
     perception: 15
-    accuracy: 1
     damageFactor: 0.5
 
   gold:

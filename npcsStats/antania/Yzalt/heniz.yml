@@ -285,9 +285,6 @@
 
   skillOnKill: 8
 
-  otherStats:
-    perception: 20
-
   gold:
     min: 50
     max: 200

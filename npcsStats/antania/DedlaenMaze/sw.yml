@@ -191,17 +191,6 @@
     min: 14100
     max: 14500
 
-  baseEffects:
-    - name: Attribute
-      extra:
-        potency: 0
-        damageType: 'physical'
-
-    - name: Attribute
-      extra:
-        potency: 0
-        damageType: 'magical'
-
   tansFor: Dedlaen Ghost Cloak
 
   items:
@@ -218,6 +207,14 @@
       endsAt: -1
     - name: Invisible
       endsAt: -1
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'physical'
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
 
   triggers:
     leash:
@@ -270,12 +267,6 @@
     min: 19900
     max: 20200
 
-  baseEffects:
-    - name: Attribute
-      extra:
-        potency: 0
-        damageType: 'necrotic'
-
   items:
     equipment:
       hands: Ghast Claws
@@ -295,6 +286,10 @@
       endsAt: -1
       extra:
         potency: 8
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'necrotic'
 
 - npcId: Dedlaen Revenant
   name: revenant

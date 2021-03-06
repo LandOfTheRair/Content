@@ -560,10 +560,6 @@
     - TrueSight
 
   gold:
-    min: 1350
-    max: 1500
-
-  gold:
     min: 43850
     max: 44000
 

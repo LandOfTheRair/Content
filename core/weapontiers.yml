@@ -1,0 +1,149 @@
+
+## Tier Explanations
+#
+# 0  - unused in general, but useful to have
+# 1  - ~Lv1  - basic Antanian gear                                            (fighting against 30~60 hp creatures)           - assume 10 str/int/wis, skill 2
+# 2  - ~Lv7  - Antanian rares/base lairs/Antanian crafted weapons             (fighting against 400~600 hp creatures)         - assume 10 str/int/wis, skill 7
+# 3  - ~Lv12 - Antanian late gear                                             (fighting against 1500~2500 hp creatures)       - assume 13 str/int/wis, skill 9
+# 4  - ~Lv15 - Antanian finish gear                                           (fighting against 4000~7000 hp creatures)       - assume 16 str/int/wis, skill 13
+# 5  - ~Lv20 - Risan crafted weapons / Ether weapons                          (fighting against 20000~22000 hp creatures)     - assume 20 str/int/wis, skill 17
+# 6  - ~Lv25 - Frostlands / etc                                               (fighting against 50000~100000 hp creatures)    - assume 23 str/int/wis, skill 20
+# 7  - ~Lv35 - Catacombs 2F/3F                                                (fighting against 80000~100000 hp creatures)    - assume 25 str/int/wis, skill 23
+# 8  - ~Lv45 - Catacombs 4F/5F                                                (fighting against 120000~140000 hp creatures)   - assume 30 str/int/wis, skill 27
+# 9  - unused - probably Solokar gear
+# 10 - unused - probably Solokar gear / early Elgun
+
+## Weapon Matrices
+
+### OneHanded
+
+# Type        | Damage    | Variance    | Scaling   | Weak Hit %
+# Axe         | M.High    | Low         | Mid       | 10%
+# Broadsword  | Mid       | Mid         | Mid       | 5%
+# Longsword   | Mid       | Low         | High      | 15%
+# Dagger      | Low       | V.Low       | Mid       | 1%
+# Shortsword  | Low       | Mid         | Low       | 5%
+# Mace        | Mid       | L.Mid       | Mid       | 10%
+# Flail       | Mid       | High        | Low       | 10%
+# Hammer      | Low       | None        | Low       | 20%
+# Club        | M.Low     | Low         | Low       | 10%
+# Shield      | M.Low     | V.Low       | Low       | 25%
+# Saucer      | Low       | V.Low       | Low       | 25%
+
+### Ranged
+# Type        | Damage    | Variance    | Scaling   | Weak Hit %
+# Crossbow    | Mid       | Low         | Mid       | 15%
+# Longbow     | M.High    | High        | Mid       | 10%
+# Shortbow    | Mid       | Mid         | High      | 10%
+# Blunderbuss | M.Low     | V.High      | Low       | 30% 
+
+
+### Two Handed
+# Type        | Damage    | Variance    | Scaling   | Weak Hit %
+# Greatsword  | Mid       | Low         | High      | 10%
+# Greataxe    | V.High    | Mid         | Mid       | 15%
+# Greatmace   | M.High    | Low         | Mid       | 10%
+# Halberd     | V.High    | V.High      | Mid       | 5%
+
+
+### Martial
+# Type        | Damage    | Variance    | Scaling   | Weak Hit %
+# Hands       | Low       | Low         | Low       | 20%
+# Claws       | Mid       | Mid         | Mid       | 10%
+# Gloves      | Mid       | Low         | Low       | 10%
+# Boots       | Mid       | Low         | Mid       | 10%
+
+
+### Caster
+# Type        | Damage    | Variance    | Scaling   | Weak Hit %
+# Spear       | Mid       | Mid         | Mid       | 10%
+# Staff       | Low       | High        | Mid       | 35%
+# Totem       | V.Low     | Low         | Low       | 50%
+# Wand        | V.Low     | Low         | Low       | 50%
+
+
+### Misc
+# Type        | Damage    | Variance    | Scaling   | Weak Hit %
+# Arrow       | Low       | Low         | Low       | 25%
+
+## Damage Measures
+
+__damageVeryLow: &damageVeryLow   { 0: 1,   1: 3,     2: 10,    3: 15,    4: 20,    5: 30,    6: 50,    7: 100,   8: 300,   9: 500,     10: 1000 }
+__damageLow: &damageLow           { 0: 2,   1: 5,     2: 14,    3: 30,    4: 50,    5: 150,   6: 400,   7: 800,   8: 1200,  9: 1700,    10: 2500 }
+__damageMidLow: &damageMidLow     { 0: 3,   1: 7,     2: 18,    3: 45,    4: 65,    5: 180,   6: 450,   7: 900,   8: 1350,  9: 2000,    10: 3000 }
+__damageMid: &damageMid           { 0: 4,   1: 9,     2: 22,    3: 50,    4: 90,    5: 200,   6: 500,   7: 1000,  8: 1500,  9: 2500,    10: 3500 }
+__damageMidHigh: &damageMidHigh   { 0: 5,   1: 13,    2: 26,    3: 55,    4: 110,   5: 225,   6: 570,   7: 1140,  8: 1710,  9: 2800,    10: 4000 }
+__damageHigh: &damageHigh         { 0: 6,   1: 15,    2: 30,    3: 60,    4: 140,   5: 255,   6: 690,   7: 1380,  8: 2070,  9: 3100,    10: 4500 }
+__damageVeryHigh: &damageVeryHigh { 0: 7,   1: 20,    2: 40,    3: 75,    4: 180,   5: 300,   6: 800,   7: 1600,  8: 2400,  9: 3500,    10: 5000 }
+
+## Variance Measures
+
+__varianceNone: &varianceNone         { min: 0,  max: 0   }
+__varianceVeryLow: &varianceVeryLow   { min: 15, max: 25  }
+__varianceLow: &varianceLow           { min: 20, max: 25  }
+__varianceMidLow: &varianceMidLow     { min: 20, max: 35  }
+__varianceMid: &varianceMid           { min: 25, max: 50  }
+__varianceMidHigh: &varianceMidHigh   { min: 15, max: 60  }
+__varianceHigh: &varianceHigh         { min: 15, max: 80  }
+__varianceVeryHigh: &varianceVeryHigh { min: 0,  max: 125 }
+
+## Scaling Measures
+
+__scalingLow: &scalingLow [ 
+  1.00, 1.03, 1.06, 1.09, 1.12, 
+  1.15, 1.18, 1.21, 1.24, 1.27,
+  1.30, 1.33, 1.36, 1.39, 1.42,
+  1.45, 1.48, 1.51, 1.54, 1.57,
+  1.60, 1.63, 1.66, 1.69, 1.72,
+  1.75, 1.78, 1.81, 1.84, 1.87,
+  1.90, 1.93, 1.96, 1.99, 2.02,
+  2.05, 2.08, 2.11, 2.14, 2.17 ]
+
+__scalingMid: &scalingMid [ 
+  1.00, 1.05, 1.10, 1.15, 1.20, 
+  1.25, 1.30, 1.35, 1.40, 1.45,
+  1.50, 1.55, 1.60, 1.65, 1.70,
+  1.75, 1.80, 1.85, 1.90, 1.95,
+  2.00, 2.05, 2.10, 2.15, 2.20,
+  2.25, 2.30, 2.35, 2.40, 2.45,
+  2.50, 2.55, 2.60, 2.65, 2.70,
+  2.75, 2.80, 2.85, 2.90, 3.00 ]
+
+__scalingHigh: &scalingHigh [ 
+  1.00, 1.07, 1.14, 1.21, 1.28, 
+  1.35, 1.42, 1.49, 1.56, 1.63,
+  1.70, 1.77, 1.84, 1.91, 1.98,
+  2.05, 2.12, 2.19, 2.26, 2.33,
+  2.40, 2.47, 2.54, 2.61, 2.68,
+  2.75, 2.82, 2.89, 2.96, 3.03,
+  3.10, 3.17, 3.24, 3.31, 3.38,
+  3.45, 3.52, 3.59, 3.66, 3.73 ]
+
+Arrow:          { damage: *damageLow,       variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 25 }
+Axe:            { damage: *damageMidHigh,   variance: *varianceLow,       scaling: *scalingMid,     weakPercent: 10 }
+Blunderbuss:    { damage: *damageMidLow,    variance: *varianceVeryHigh,  scaling: *scalingLow,     weakPercent: 30 }
+Broadsword:     { damage: *damageMid,       variance: *varianceMid,       scaling: *scalingMid,     weakPercent: 5  }
+Claws:          { damage: *damageMid,       variance: *varianceMid,       scaling: *scalingMid,     weakPercent: 10 }
+Club:           { damage: *damageMidLow,    variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 10 }
+Crossbow:       { damage: *damageMid,       variance: *varianceLow,       scaling: *scalingMid,     weakPercent: 15 }
+Dagger:         { damage: *damageLow,       variance: *varianceVeryLow,   scaling: *scalingMid,     weakPercent: 1  }
+Flail:          { damage: *damageMid,       variance: *varianceHigh,      scaling: *scalingLow,     weakPercent: 10 }
+Gloves:         { damage: *damageMid,       variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 10 }
+Hands:          { damage: *damageLow,       variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 20 }
+Boots:          { damage: *damageMid,       variance: *varianceLow,       scaling: *scalingMid,     weakPercent: 10 }
+Greataxe:       { damage: *damageVeryHigh,  variance: *varianceMid,       scaling: *scalingMid,     weakPercent: 15 }
+Greatmace:      { damage: *damageMidHigh,   variance: *varianceLow,       scaling: *scalingMid,     weakPercent: 10 }
+Greatsword:     { damage: *damageHigh,      variance: *varianceLow,       scaling: *scalingHigh,    weakPercent: 10 }
+Halberd:        { damage: *damageVeryHigh,  variance: *varianceVeryHigh,  scaling: *scalingMid,     weakPercent: 5  }
+Hammer:         { damage: *damageMidLow,    variance: *varianceNone,      scaling: *scalingLow,     weakPercent: 20 }
+Longbow:        { damage: *damageMidHigh,   variance: *varianceHigh,      scaling: *scalingMid,     weakPercent: 10 }
+Longsword:      { damage: *damageMid,       variance: *varianceLow,       scaling: *scalingHigh,    weakPercent: 15 }
+Mace:           { damage: *damageMid,       variance: *varianceMidLow,    scaling: *scalingMid,     weakPercent: 10 }
+Saucer:         { damage: *damageLow,       variance: *varianceVeryLow,   scaling: *scalingLow,     weakPercent: 25 }
+Shield:         { damage: *damageMidLow,    variance: *varianceVeryHigh,  scaling: *scalingLow,     weakPercent: 25 }
+Shortbow:       { damage: *damageMid,       variance: *varianceMid,       scaling: *scalingHigh,    weakPercent: 30 }
+Shortsword:     { damage: *damageLow,       variance: *varianceMid,       scaling: *scalingLow,     weakPercent: 5 }
+Spear:          { damage: *damageMid,       variance: *varianceMid,       scaling: *scalingMid,     weakPercent: 10 }
+Staff:          { damage: *damageLow,       variance: *varianceHigh,      scaling: *scalingMid,     weakPercent: 35 }
+Totem:          { damage: *damageVeryLow,   variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 50 }
+Wand:           { damage: *damageVeryLow,   variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 50 }

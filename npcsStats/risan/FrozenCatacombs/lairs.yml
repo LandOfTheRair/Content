@@ -316,7 +316,7 @@
 
   traitLevels:
     ForcefulStrike: 2
-    Sterlingarmor: 2
+    SterlingArmor: 2
     OffhandFinesse: 5
     BoostedBoost: 1
     Riposte: 3
@@ -341,12 +341,10 @@
   otherStats:
     con: 40
     accuracy: 10
-    offense: 10
     perception: 350
     mpregen: 100
     defense: 50
     offense: 50
-    accuracy: 20
     damageFactor: 0.5
 
   gold:
