@@ -113,3 +113,29 @@ Secondwind:
       castMessage: 'You cast Secondwind on %target.'
       applyMessage: 'You are enclosed by a safe aura!'
       unapplyMessage: 'Your safety aura fades.'
+      
+
+Invisibility:
+
+  # global info
+  all:
+    desc: "Make your target invisible. Cost: 100 MP"
+    icon: invisible
+    color: "#000"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'You are invisible, most creatures will not be able to detect you.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-sight-effect'
+      applySfx: 'spell-sight-effect'
+      castMessage: 'You cast Invisibility on %target.'
+      applyMessage: 'You can see through yourself!'
+      unapplyMessage: 'You become opaque again.'

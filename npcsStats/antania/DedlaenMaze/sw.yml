@@ -205,7 +205,7 @@
   baseEffects:
     - name: TrueSight
       endsAt: -1
-    - name: Invisible
+    - name: Invisibility
       endsAt: -1
     - name: Attribute
       extra:

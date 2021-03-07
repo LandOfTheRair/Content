@@ -30,7 +30,7 @@
     "watch:trait-trees": "nodemon --ext yml --watch traitTrees --exec \"npm run build:trait-trees\"",
     "watch:quests": "nodemon --ext yml --watch quests --exec \"npm run build:quests\"",
     "watch:traits": "nodemon --ext yml --watch traits --exec \"npm run build:traits\"",
-    "watch:spells": "nodemon --ext yml --watch spells --exec \"npm run build:spells\"",
+    "watch:spells": "nodemon --ext yml --watch spells --watch stem --exec \"npm run build:spells\"",
     "validate:npcs": "node _validators/npc.js",
     "validate:items": "node _validators/item.js",
     "validate:spawners": "node _validators/spawner.js",
