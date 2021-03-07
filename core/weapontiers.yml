@@ -119,31 +119,31 @@ __scalingHigh: &scalingHigh [
   3.10, 3.17, 3.24, 3.31, 3.38,
   3.45, 3.52, 3.59, 3.66, 3.73 ]
 
-Arrow:          { damage: *damageLow,       variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 25 }
-Axe:            { damage: *damageMidHigh,   variance: *varianceLow,       scaling: *scalingMid,     weakPercent: 10 }
-Blunderbuss:    { damage: *damageMidLow,    variance: *varianceVeryHigh,  scaling: *scalingLow,     weakPercent: 30 }
-Broadsword:     { damage: *damageMid,       variance: *varianceMid,       scaling: *scalingMid,     weakPercent: 5  }
-Claws:          { damage: *damageMid,       variance: *varianceMid,       scaling: *scalingMid,     weakPercent: 10 }
-Club:           { damage: *damageMidLow,    variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 10 }
-Crossbow:       { damage: *damageMid,       variance: *varianceLow,       scaling: *scalingMid,     weakPercent: 15 }
-Dagger:         { damage: *damageLow,       variance: *varianceVeryLow,   scaling: *scalingMid,     weakPercent: 1  }
-Flail:          { damage: *damageMid,       variance: *varianceHigh,      scaling: *scalingLow,     weakPercent: 10 }
-Gloves:         { damage: *damageMid,       variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 10 }
-Hands:          { damage: *damageLow,       variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 20 }
-Boots:          { damage: *damageMid,       variance: *varianceLow,       scaling: *scalingMid,     weakPercent: 10 }
-Greataxe:       { damage: *damageVeryHigh,  variance: *varianceMid,       scaling: *scalingMid,     weakPercent: 15 }
-Greatmace:      { damage: *damageMidHigh,   variance: *varianceLow,       scaling: *scalingMid,     weakPercent: 10 }
-Greatsword:     { damage: *damageHigh,      variance: *varianceLow,       scaling: *scalingHigh,    weakPercent: 10 }
-Halberd:        { damage: *damageVeryHigh,  variance: *varianceVeryHigh,  scaling: *scalingMid,     weakPercent: 5  }
-Hammer:         { damage: *damageMidLow,    variance: *varianceNone,      scaling: *scalingLow,     weakPercent: 20 }
-Longbow:        { damage: *damageMidHigh,   variance: *varianceHigh,      scaling: *scalingMid,     weakPercent: 10 }
-Longsword:      { damage: *damageMid,       variance: *varianceLow,       scaling: *scalingHigh,    weakPercent: 15 }
-Mace:           { damage: *damageMid,       variance: *varianceMidLow,    scaling: *scalingMid,     weakPercent: 10 }
-Saucer:         { damage: *damageLow,       variance: *varianceVeryLow,   scaling: *scalingLow,     weakPercent: 25 }
-Shield:         { damage: *damageMidLow,    variance: *varianceVeryHigh,  scaling: *scalingLow,     weakPercent: 25 }
-Shortbow:       { damage: *damageMid,       variance: *varianceMid,       scaling: *scalingHigh,    weakPercent: 30 }
-Shortsword:     { damage: *damageLow,       variance: *varianceMid,       scaling: *scalingLow,     weakPercent: 5 }
-Spear:          { damage: *damageMid,       variance: *varianceMid,       scaling: *scalingMid,     weakPercent: 10 }
-Staff:          { damage: *damageLow,       variance: *varianceHigh,      scaling: *scalingMid,     weakPercent: 35 }
-Totem:          { damage: *damageVeryLow,   variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 50 }
-Wand:           { damage: *damageVeryLow,   variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 50 }
+Arrow:          { damage: *damageLow,       variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 25, strongPercent: 0  }
+Axe:            { damage: *damageMidHigh,   variance: *varianceLow,       scaling: *scalingMid,     weakPercent: 10, strongPercent: 10 }
+Blunderbuss:    { damage: *damageMidLow,    variance: *varianceVeryHigh,  scaling: *scalingLow,     weakPercent: 30, strongPercent: 5  }
+Broadsword:     { damage: *damageMid,       variance: *varianceMid,       scaling: *scalingMid,     weakPercent: 5,  strongPercent: 10 }
+Claws:          { damage: *damageMid,       variance: *varianceMid,       scaling: *scalingMid,     weakPercent: 10, strongPercent: 10 }
+Club:           { damage: *damageMidLow,    variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 10, strongPercent: 5  }
+Crossbow:       { damage: *damageMid,       variance: *varianceLow,       scaling: *scalingMid,     weakPercent: 15, strongPercent: 5  }
+Dagger:         { damage: *damageLow,       variance: *varianceVeryLow,   scaling: *scalingMid,     weakPercent: 1,  strongPercent: 10 }
+Flail:          { damage: *damageMid,       variance: *varianceHigh,      scaling: *scalingLow,     weakPercent: 10, strongPercent: 15 }
+Gloves:         { damage: *damageMid,       variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 10, strongPercent: 5  }
+Hands:          { damage: *damageLow,       variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 20, strongPercent: 5  }
+Boots:          { damage: *damageMid,       variance: *varianceLow,       scaling: *scalingMid,     weakPercent: 10, strongPercent: 10 }
+Greataxe:       { damage: *damageVeryHigh,  variance: *varianceMid,       scaling: *scalingMid,     weakPercent: 15, strongPercent: 15 }
+Greatmace:      { damage: *damageMidHigh,   variance: *varianceLow,       scaling: *scalingMid,     weakPercent: 10, strongPercent: 15 }
+Greatsword:     { damage: *damageHigh,      variance: *varianceLow,       scaling: *scalingHigh,    weakPercent: 10, strongPercent: 15 }
+Halberd:        { damage: *damageVeryHigh,  variance: *varianceVeryHigh,  scaling: *scalingMid,     weakPercent: 5,  strongPercent: 20 }
+Hammer:         { damage: *damageMidLow,    variance: *varianceNone,      scaling: *scalingLow,     weakPercent: 20, strongPercent: 20 }
+Longbow:        { damage: *damageMidHigh,   variance: *varianceHigh,      scaling: *scalingMid,     weakPercent: 10, strongPercent: 20 }
+Longsword:      { damage: *damageMid,       variance: *varianceLow,       scaling: *scalingHigh,    weakPercent: 15, strongPercent: 15 }
+Mace:           { damage: *damageMid,       variance: *varianceMidLow,    scaling: *scalingMid,     weakPercent: 10, strongPercent: 10 }
+Saucer:         { damage: *damageLow,       variance: *varianceVeryLow,   scaling: *scalingLow,     weakPercent: 25, strongPercent: 1  }
+Shield:         { damage: *damageMidLow,    variance: *varianceVeryHigh,  scaling: *scalingLow,     weakPercent: 25, strongPercent: 5  }
+Shortbow:       { damage: *damageMid,       variance: *varianceMid,       scaling: *scalingHigh,    weakPercent: 30, strongPercent: 10 }
+Shortsword:     { damage: *damageLow,       variance: *varianceMid,       scaling: *scalingLow,     weakPercent: 5,  strongPercent: 15 }
+Spear:          { damage: *damageMid,       variance: *varianceMid,       scaling: *scalingMid,     weakPercent: 10, strongPercent: 15 }
+Staff:          { damage: *damageLow,       variance: *varianceHigh,      scaling: *scalingMid,     weakPercent: 35, strongPercent: 7  }
+Totem:          { damage: *damageVeryLow,   variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 50, strongPercent: 1  }
+Wand:           { damage: *damageVeryLow,   variance: *varianceLow,       scaling: *scalingLow,     weakPercent: 50, strongPercent: 1  }
