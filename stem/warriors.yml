@@ -37,3 +37,4 @@ Cleave:
   # macro info
   macro:
     mode: 'autoTarget'
+    macro: 'art cleave'
