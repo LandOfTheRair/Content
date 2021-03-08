@@ -12,7 +12,6 @@ Cure:
     damageClass: heal
     mpCost: 5
     maxSkillForGain: 30
-    potencyMultiplier: 1
     skillMultiplierChanges:
       - [0,  4]
       - [11, 6]

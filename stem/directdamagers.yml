@@ -12,9 +12,10 @@ Afflict:
     damageClass: necrotic
     mpCost: 5
     maxSkillForGain: 30
-    potencyMultiplier: 0.5
     willSaveThreshold: 20
     willSavePercent: 50
+    bonusRollsMin: 1
+    bonusRollsMax: 3
     skillMultiplierChanges:
       - [0,  1]
       - [6,  1.75]
@@ -52,9 +53,10 @@ MagicMissile:
     damageClass: energy
     mpCost: 5
     maxSkillForGain: 30
-    potencyMultiplier: 0.5
     willSaveThreshold: 15
     willSavePercent: 50
+    bonusRollsMin: 1
+    bonusRollsMax: 3
     skillMultiplierChanges:
       - [0,  1]
       - [6,  1.75]
@@ -96,6 +98,8 @@ MagicBolt:
     potencyMultiplier: 2
     willSaveThreshold: 25
     willSavePercent: 30
+    bonusRollsMin: 3
+    bonusRollsMax: 6
     skillMultiplierChanges:
       - [0,  4]
       - [6,  5]

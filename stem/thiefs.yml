@@ -11,7 +11,6 @@ Mug:
   spell: 
     damageClass: physical
     maxSkillForGain: 20
-    potencyMultiplier: 1
     skillMultiplierChanges:
       - [0,  4]
       - [6,  5]
