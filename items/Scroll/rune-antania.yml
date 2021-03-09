@@ -30,6 +30,9 @@
   trait:
     name: CalmMind
     level: 1
+    restrict:
+      - Mage
+      - Healer
   value: 1
 
 - name: Rune Scroll - Mana Pool I
@@ -38,6 +41,9 @@
   trait:
     name: ManaPool
     level: 1
+    restrict:
+      - Mage
+      - Healer
   value: 1
 
 # Healer Rune Scrolls
@@ -47,6 +53,8 @@
   trait:
     name: HealingFocus
     level: 1
+    restrict:
+      - Healer
   value: 1
 
 - name: Rune Scroll - Necrotic Focus I
@@ -55,6 +63,8 @@
   trait:
     name: NecroticFocus
     level: 1
+    restrict:
+      - Healer
   value: 1
 
 - name: Rune Scroll - Totem Specialty I
@@ -63,6 +73,8 @@
   trait:
     name: TotemSpecialty
     level: 1
+    restrict:
+      - Healer
   value: 1
 
 - name: Rune Scroll - Irresistible Stuns I
@@ -71,6 +83,8 @@
   trait:
     name: IrresistibleStuns
     level: 1
+    restrict:
+      - Healer
   value: 1
 
 # Mage Rune Scrolls
@@ -80,6 +94,8 @@
   trait:
     name: MagicFocus
     level: 1
+    restrict:
+      - Mage
   value: 1
 
 - name: Rune Scroll - Forged Fire I
@@ -88,6 +104,8 @@
   trait:
     name: ForgedFire
     level: 1
+    restrict:
+      - Mage
   value: 1
 
 - name: Rune Scroll - Frosted Touch I
@@ -96,6 +114,8 @@
   trait:
     name: FrostedTouch
     level: 1
+    restrict:
+      - Mage
   value: 1
 
 - name: Rune Scroll - Wand Specialty I
@@ -104,6 +124,8 @@
   trait:
     name: WandSpecialty
     level: 1
+    restrict:
+      - Mage
   value: 1
 
 # Thief Rune Scrolls
@@ -113,6 +135,8 @@
   trait:
     name: DarkerShadows
     level: 1
+    restrict:
+      - Thief
   value: 1
 
 - name: Rune Scroll - Shadow Sheath I
@@ -121,6 +145,8 @@
   trait:
     name: ShadowSheath
     level: 1
+    restrict:
+      - Thief
   value: 1
 
 - name: Rune Scroll - Shadow Ranger I
@@ -129,6 +155,8 @@
   trait:
     name: ShadowRanger
     level: 1
+    restrict:
+      - Thief
   value: 1
 
 - name: Rune Scroll - Shadow Swap I
@@ -137,6 +165,8 @@
   trait:
     name: ShadowSwap
     level: 1
+    restrict:
+      - Thief
   value: 1
 
 - name: Rune Scroll - Philosophers Stone I
@@ -145,6 +175,8 @@
   trait:
     name: PhilosophersStone
     level: 1
+    restrict:
+      - Thief
   value: 1
 
 - name: Rune Scroll - Shadow Daggers I
@@ -153,6 +185,8 @@
   trait:
     name: ShadowDaggers
     level: 1
+    restrict:
+      - Thief
   value: 1
 
 # Warrior Rune Scrolls
@@ -162,6 +196,8 @@
   trait:
     name: ForcefulStrike
     level: 1
+    restrict:
+      - Warrior
   value: 1
 
 - name: Rune Scroll - Swashbuckler I
@@ -170,6 +206,8 @@
   trait:
     name: Swashbuckler
     level: 1
+    restrict:
+      - Warrior
   value: 1
 
 - name: Rune Scroll - Offhand Finesse I
@@ -178,6 +216,8 @@
   trait:
     name: OffhandFinesse
     level: 1
+    restrict:
+      - Warrior
   value: 1
 
 - name: Rune Scroll - Riposte I
@@ -186,6 +226,8 @@
   trait:
     name: Riposte
     level: 1
+    restrict:
+      - Warrior
   value: 1
 
 - name: Rune Scroll - Sword Tricks I
@@ -194,6 +236,8 @@
   trait:
     name: SwordTricks
     level: 1
+    restrict:
+      - Warrior
   value: 1
 
 - name: Rune Scroll - Eagle Eye I
@@ -202,6 +246,8 @@
   trait:
     name: EagleEye
     level: 1
+    restrict:
+      - Warrior
   value: 1
 
 - name: Rune Scroll - Funky Moves I
@@ -210,4 +256,6 @@
   trait:
     name: FunkyMoves
     level: 1
+    restrict:
+      - Warrior
   value: 1
