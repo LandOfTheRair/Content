@@ -100,7 +100,7 @@ layouts:
   - category: Raw Materials
     items: [
       CopperOre, SilverOre, GoldOre, null, null,
-      CopperIngot, SilverIngot, GoldIngot, null, null
+      CopperIngot, SilverIngot, GoldIngot, null, null,
       AntanianTwig, AntanianBranch, RisanTwig, RisanBranch, RisanTwigFrozen
     ]
 
