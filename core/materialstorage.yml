@@ -1,6 +1,41 @@
 
 # can only append to the end of this list, *never* in the middle
 slots:
+
+  # Flowers
+  RyltFlower:
+    items: [Rylt Blueflower]
+    sprite: 740
+
+  YzaltFlower:
+    items: [Yzalt Bogweed]
+    sprite: 742
+
+  YzaltApple:
+    items: [Yzalt Steffen Apple]
+    sprite: 560
+
+  TowerFlower:
+    items: [Tower Goblood]
+    sprite: 736
+
+  MazeFlower:
+    items: [Maze Corpseflower]
+    sprite: 750
+
+  MinesFlower:
+    items: [Mines Caveflower]
+    sprite: 761
+
+  FrostlandsFlower:
+    items: [Frostlands Gourd]
+    sprite: 840
+
+  CatacombsFlower:
+    items: [Catacombs Frostflower]
+    sprite: 745
+
+  # Ore
   CopperOre:
     items: [Copper Ore (Small), Copper Ore (Large)]
     sprite: 993
@@ -21,45 +56,14 @@ slots:
     sprite: 996
 
   SilverIngot:
-    items: [Copper Ingot (Hourglass)]
+    items: [Silver Ingot (Hourglass)]
     sprite: 1001
 
   GoldIngot:
-    items: [Copper Ingot (Infinity)]
+    items: [Gold Ingot (Infinity)]
     sprite: 409
 
-  RyltFlower:
-    items: [Rylt Blueflower]
-    sprite: 740
-
-  YzaltFlower:
-    items: [Yzalt Bogflower]
-    sprite: 742
-
-  YzaltApple:
-    items: [Yzalt Steffen Apple]
-    sprite: 560
-
-  TowerFlower:
-    items: [Tower Goblood]
-    sprite: 736
-
-  MazeFlower:
-    items: [Maze Corpseflower]
-    sprite: 750
-
-  EtherScale:
-    items: [Ether Scale]
-    sprite: 965
-
-  EtherScaleRefined:
-    items: [Ether Scale (Refined)]
-    sprite: 965
-
-  Mines Flower:
-    items: [Mines Caveflower]
-    sprite: 761
-
+  # Twigs
   AntanianTwig:
     items: [Antanian Twig]
     sprite: 222
@@ -72,7 +76,7 @@ slots:
     items: [Risan Twig]
     sprite: 222
 
-  Risan Branch:
+  RisanBranch:
     items: [Risan Branch]
     sprite: 1008
 
@@ -80,13 +84,14 @@ slots:
     items: [Risan Frozen Twig]
     sprite: 283
 
-  FrostlandsFlower:
-    items: [Frostlands Gourd]
-    sprite: 840
+  # Scales
+  EtherScale:
+    items: [Ether Scale]
+    sprite: 965
 
-  CatacombsFlower:
-    items: [Catacombs Frostflower]
-    sprite: 745
+  EtherScaleRefined:
+    items: [Ether Scale (Refined)]
+    sprite: 965
 
   SilverScale:
     items: [Silver Scale]
