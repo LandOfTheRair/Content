@@ -1,0 +1,117 @@
+
+# can only append to the end of this list, *never* in the middle
+slots:
+  CopperOre:
+    items: [Copper Ore (Small), Copper Ore (Large)]
+    sprite: 993
+    withdrawInOunces: true
+    
+  SilverOre:
+    items: [Silver Ore (Small), Silver Ore (Large)]
+    sprite: 614
+    withdrawInOunces: true
+
+  GoldOre:
+    items: [Gold Ore (Small), Gold Ore (Large)]
+    sprite: 950
+    withdrawInOunces: true
+
+  CopperIngot:
+    items: [Copper Ingot (Pillars)]
+    sprite: 996
+
+  SilverIngot:
+    items: [Copper Ingot (Hourglass)]
+    sprite: 1001
+
+  GoldIngot:
+    items: [Copper Ingot (Infinity)]
+    sprite: 409
+
+  RyltFlower:
+    items: [Rylt Blueflower]
+    sprite: 740
+
+  YzaltFlower:
+    items: [Yzalt Bogflower]
+    sprite: 742
+
+  YzaltApple:
+    items: [Yzalt Steffen Apple]
+    sprite: 560
+
+  TowerFlower:
+    items: [Tower Goblood]
+    sprite: 736
+
+  MazeFlower:
+    items: [Maze Corpseflower]
+    sprite: 750
+
+  EtherScale:
+    items: [Ether Scale]
+    sprite: 965
+
+  EtherScaleRefined:
+    items: [Ether Scale (Refined)]
+    sprite: 965
+
+  Mines Flower:
+    items: [Mines Caveflower]
+    sprite: 761
+
+  AntanianTwig:
+    items: [Antanian Twig]
+    sprite: 222
+
+  AntanianBranch:
+    items: [Antanian Branch]
+    sprite: 1008
+
+  RisanTwig:
+    items: [Risan Twig]
+    sprite: 222
+
+  Risan Branch:
+    items: [Risan Branch]
+    sprite: 1008
+
+  RisanTwigFrozen:
+    items: [Risan Frozen Twig]
+    sprite: 283
+
+  FrostlandsFlower:
+    items: [Frostlands Gourd]
+    sprite: 840
+
+  CatacombsFlower:
+    items: [Catacombs Frostflower]
+    sprite: 745
+
+  SilverScale:
+    items: [Silver Scale]
+    sprite: 967
+
+  SilverScaleRefined:
+    items: [Silver Scale (Refined)]
+    sprite: 967
+
+layouts:
+  - category: Raw Materials
+    items: [
+      CopperOre, SilverOre, GoldOre, null, null,
+      CopperIngot, SilverIngot, GoldIngot, null, null
+      AntanianTwig, AntanianBranch, RisanTwig, RisanBranch, RisanTwigFrozen
+    ]
+
+  - category: Flowers
+    items: [
+      RyltFlower, YzaltFlower, YzaltApple, TowerFlower, MazeFlower,
+      MinesFlower, FrostlandsFlower, CatacombsFlower, null, null
+    ]
+
+  - category: Scales
+    items: [
+      EtherScale, SilverScale, null, null, null,
+      EtherScaleRefined, SilverScaleRefined, null, null, null
+    ]
