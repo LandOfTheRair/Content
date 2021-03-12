@@ -39,6 +39,7 @@ const npcSchema = [
   ['level', true, isInteger],
 
   ['monsterClass', false, isString],
+  ['monsterGroup', false, isString],
   ['hostility', false, isString],
   ['noCorpseDrop', false, isBoolean],
   ['noItemDrop', false, isBoolean],
