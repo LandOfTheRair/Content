@@ -19,7 +19,7 @@
     "build:traits": "node _transformers/trait.js",
     "build:spells": "node _transformers/spell.js",
     "watch:items": "nodemon --ext yml --watch items --exec \"npm run build:items && npm run build:lores\"",
-    "watch:npcs": "nodemon --ext yml --watch npcs --exec \"npm run build:npcs\"",
+    "watch:npcs": "nodemon --ext yml --watch npcStats --exec \"npm run build:npcs\"",
     "watch:droptables": "nodemon --ext yml --watch droptables --exec \"npm run build:droptables\"",
     "watch:recipes": "nodemon --ext yml --watch recipes --exec \"npm run build:recipes\"",
     "watch:spawners": "nodemon --ext yml --watch spawners --exec \"npm run build:spawners\"",
