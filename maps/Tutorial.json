@@ -61,18 +61,6 @@
          "name":"Decor",
          "objects":[
                 {
-                 "gid":1013,
-                 "height":64,
-                 "id":76,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":896,
-                 "y":384
-                }, 
-                {
                  "gid":1529,
                  "height":64,
                  "id":127,
@@ -335,6 +323,18 @@
                  "width":64,
                  "x":512,
                  "y":832
+                }, 
+                {
+                 "gid":1024,
+                 "height":64,
+                 "id":225,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":896,
+                 "y":384
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1175,7 +1175,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":225,
+ "nextobjectid":226,
  "orientation":"orthogonal",
  "properties":
     {
