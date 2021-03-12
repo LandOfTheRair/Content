@@ -1,6 +1,7 @@
 - npcId: Christmas Elf
   name: elf
   monsterClass: Humanoid
+  monsterGroup: Elf
   hostility: Faction
   allegiance: Townsfolk
   sprite: 1025
@@ -44,6 +45,7 @@
 - npcId: Christmas Present Elf
   name: present elf
   monsterClass: Humanoid
+  monsterGroup: Elf
   hostility: Faction
   allegiance: Townsfolk
   sprite: 1025
@@ -103,6 +105,7 @@
 - npcId: Christmas Weak Snowman
   name: snowman
   hostility: Always
+  monsterGroup: Snowman
   allegiance: Pirates
   sprite: 1020
   stats: 7
@@ -189,6 +192,7 @@
 - npcId: Christmas Strong Snowman
   name: snowman
   hostility: Faction
+  monsterGroup: Snowman
   allegiance: Pirates
   sprite: 1020
   stats: 10
@@ -275,6 +279,7 @@
 - npcId: Christmas King Snowman
   name: Jack Frost
   hostility: Always
+  monsterGroup: Snowman
   sprite: 1020
   stats: 10
   skillLevels: 8
@@ -377,6 +382,7 @@
   name: reindeer
   allegiance: Wilderness
   hostility: Faction
+  monsterGroup: Deer
   sprite: 1030
   stats: 7
   skillLevels: 2
@@ -431,6 +437,7 @@
   name: reindeer
   allegiance: Wilderness
   hostility: Faction
+  monsterGroup: Deer
   sprite: 1030
   stats: 10
   skillLevels: 3

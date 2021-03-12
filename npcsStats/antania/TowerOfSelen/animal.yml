@@ -4,6 +4,7 @@
   name: warg
   hostility: Always
   monsterClass: Beast
+  monsterGroup: Goblin
   sprite: 405
   alignment: Evil
   stats: 10
@@ -46,6 +47,7 @@
   name: warspider
   hostility: Always
   monsterClass: Beast
+  monsterGroup: Goblin
   sprite: 800
   alignment: Evil
   stats: 9

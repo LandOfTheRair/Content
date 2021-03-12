@@ -6,6 +6,7 @@
   alignment: Evil
   hostility: Always
   monsterClass: Beast
+  monsterGroup: Crazed
   stats: 13
   skillLevels:
     Martial: 6
@@ -72,6 +73,7 @@
   alignment: Evil
   hostility: Always
   monsterClass: Beast
+  monsterGroup: Crazed
   stats: 17
   skillLevels:
     Martial: 8
@@ -146,6 +148,7 @@
   alignment: Evil
   hostility: Always
   monsterClass: Beast
+  monsterGroup: Crazed
   stats: 15
   skillLevels:
     Martial: 7
@@ -221,6 +224,7 @@
   alignment: Evil
   hostility: Always
   monsterClass: Beast
+  monsterGroup: Crazed
   stats: 25
   skillLevels:
     Martial: 13
@@ -297,6 +301,7 @@
   hostility: Faction
   alignment: Good
   baseClass: Thief
+  monsterGroup: Dryad
   stats: 16
   skillLevels: 7
   level: 18
@@ -402,6 +407,7 @@
   hostility: Always
   alignment: Evil
   baseClass: Thief
+  monsterGroup: Crazed
   stats: 16
   skillLevels: 7
   level: 16
@@ -498,7 +504,6 @@
     - result: 'equipment.leftHand'
       chance: -1
 
-
 - npcId: Dryad Queen Cyrena
   name: Cyrena
   sprite: 465
@@ -506,6 +511,7 @@
   affiliation: Dryad Queen
   alignment: Evil
   baseClass: Thief
+  monsterGroup: Crazed
   stats: 19
   skillLevels: 9
   level: 23

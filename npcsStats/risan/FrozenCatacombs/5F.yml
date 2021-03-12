@@ -2,6 +2,7 @@
 - npcId: Catacombs Skeleton 5F
   name: skeleton king
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 1015
   allegiance: Enemy
   alignment: Evil
@@ -135,6 +136,7 @@
 - npcId: Catacombs Mummy 5F
   name: mummy general
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 155
   allegiance: Enemy
   alignment: Evil
@@ -243,6 +245,7 @@
 - npcId: Catacombs Ghost 5F
   name: ghost archbishop
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 300
   allegiance: Enemy
   alignment: Evil
@@ -384,6 +387,7 @@
 - npcId: Catacombs Wight 5F
   name: wight archmage
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 980
   allegiance: Enemy
   alignment: Evil
@@ -506,6 +510,7 @@
 - npcId: Catacombs Nightwalker 5F
   name: nightwalker shadowbelt
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 975
   allegiance: Enemy
   alignment: Evil
@@ -616,6 +621,7 @@
 - npcId: Catacombs Qell 5F
   name: qell shadow
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 945
   allegiance: Enemy
   alignment: Evil
@@ -766,6 +772,7 @@
 - npcId: Catacombs Spectre 5F
   name: spectre sagittarius
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 305
   allegiance: Enemy
   alignment: Evil

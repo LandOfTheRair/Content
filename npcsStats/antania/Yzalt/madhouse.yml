@@ -3,6 +3,7 @@
   name: shade
   sprite: 290
   allegiance: Enemy
+  monsterGroup: Crazed
   alignment: Evil
   baseClass: Mage
   hostility: Always
@@ -47,6 +48,7 @@
   hostility: Always
   affiliation: Insanity Embodied
   monsterClass: Humanoid
+  monsterGroup: Crazed
   alignment: Evil
   baseClass: Healer
   stats: 25
@@ -179,6 +181,7 @@
 - npcId: Lunatic Healer
   name: lunatic healer
   monsterClass: Humanoid
+  monsterGroup: Crazed
   hostility: Always
   sprite: 550
   stats: 25
@@ -310,6 +313,7 @@
 - npcId: Lunatic Mage
   name: lunatic mage
   monsterClass: Humanoid
+  monsterGroup: Crazed
   hostility: Always
   sprite: 545
   baseClass: Mage
@@ -450,6 +454,7 @@
 - npcId: Lunatic Thief
   name: lunatic thief
   monsterClass: Humanoid
+  monsterGroup: Crazed
   hostility: Always
   sprite: 585
   alignment: Evil
@@ -619,6 +624,7 @@
 - npcId: Lunatic Warrior
   name: lunatic warrior
   monsterClass: Humanoid
+  monsterGroup: Crazed
   hostility: Always
   sprite: 590
   baseClass: Warrior

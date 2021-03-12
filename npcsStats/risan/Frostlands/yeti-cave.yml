@@ -6,6 +6,7 @@
   alignment: Evil
   hostility: Always
   monsterClass: Beast
+  monsterGroup: Yeti
   stats: 21
   skillLevels: 10
   level: 25
@@ -91,6 +92,7 @@
   alignment: Evil
   hostility: Always
   monsterClass: Beast
+  monsterGroup: Yeti
   stats: 25
   skillLevels: 11
   level: 26
@@ -174,6 +176,7 @@
 - npcId: Frostlands Frostgolem
   name: frostgolem
   hostility: Always
+  monsterGroup: Yeti
   sprite: 75
   stats: 22
   skillLevels: 11
@@ -250,6 +253,7 @@
   alignment: Evil
   hostility: Always
   monsterClass: Beast
+  monsterGroup: Yeti
   stats: 30
   skillLevels: 13
   level: 35

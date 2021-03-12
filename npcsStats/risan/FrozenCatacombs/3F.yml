@@ -2,6 +2,7 @@
 - npcId: Catacombs Skeleton 3F
   name: skeleton knight
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 1015
   allegiance: Enemy
   alignment: Evil
@@ -133,6 +134,7 @@
 - npcId: Catacombs Mummy 3F
   name: mummy knight
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 155
   allegiance: Enemy
   alignment: Evil
@@ -239,6 +241,7 @@
 - npcId: Catacombs Ghost 3F
   name: ghost cardinal
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 300
   allegiance: Enemy
   alignment: Evil
@@ -377,6 +380,7 @@
 - npcId: Catacombs Wight 3F
   name: wight sorcerer
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 980
   allegiance: Enemy
   alignment: Evil
@@ -492,6 +496,7 @@
 - npcId: Catacombs Nightwalker 3F
   name: nightwalker bluebelt
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 975
   allegiance: Enemy
   alignment: Evil
@@ -599,6 +604,7 @@
 - npcId: Catacombs Qell 3F
   name: qell trapper
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 945
   allegiance: Enemy
   alignment: Evil
@@ -746,6 +752,7 @@
 - npcId: Catacombs Spectre 3F
   name: spectre archer
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 305
   allegiance: Enemy
   alignment: Evil

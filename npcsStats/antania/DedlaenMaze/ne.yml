@@ -2,6 +2,7 @@
 - npcId: Dedlaen Goblin
   name: goblin
   hostility: Always
+  monsterGroup: Goblin
   sprite: 80
   alignment: Evil
   stats: 13
@@ -110,6 +111,7 @@
   name: sneakgoblin
   hostility: Always
   baseClass: Thief
+  monsterGroup: Goblin
   sprite: 80
   alignment: Evil
   stats: 12
@@ -251,11 +253,11 @@
         name: "monster-goblin"
         maxChance: 20
 
-
 - npcId: Dedlaen Hobgoblin
   name: hobgoblin
   hostility: Always
   baseClass: Warrior
+  monsterGroup: Goblin
   sprite: 90
   alignment: Evil
   stats: 8
@@ -363,6 +365,7 @@
 - npcId: Dedlaen Orc
   name: orc
   hostility: Always
+  monsterGroup: Goblin
   sprite: 70
   alignment: Evil
   baseClass: Warrior
@@ -451,6 +454,7 @@
   name: orc shaman
   hostility: Always
   baseClass: Healer
+  monsterGroup: Goblin
   sprite: 70
   alignment: Evil
   stats: 9
@@ -553,6 +557,7 @@
   name: orc caster
   hostility: Always
   baseClass: Mage
+  monsterGroup: Goblin
   sprite: 70
   alignment: Evil
   stats: 9
@@ -646,6 +651,7 @@
   sprite: 85
   alignment: Evil
   baseClass: Warrior
+  monsterGroup: Goblin
   stats: 13
   skillLevels: 4
   level: 18
@@ -730,6 +736,7 @@
   name: lizardman
   hostility: Always
   baseClass: Mage
+  monsterGroup: Lizard
   sprite: 100
   alignment: Evil
   stats: 15
@@ -819,6 +826,7 @@
 - npcId: Dedlaen Minotaur
   name: minotaur
   hostility: Always
+  monsterGroup: Goblin
   sprite: 445
   alignment: Evil
   stats: 18
@@ -883,6 +891,7 @@
   sprite: [580, 595, 610, 615]
   stats: 10
   level: 10
+  monsterGroup: Town
 
   skillLevels: 3
 
@@ -923,6 +932,7 @@
   stats: 20
   level: 20
   baseClass: Warrior
+  monsterGroup: Town
 
   skillLevels: 5
 

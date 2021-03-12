@@ -2,6 +2,7 @@
 - npcId: Catacombs Skeleton 2F
   name: skeleton squire
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 1015
   allegiance: Enemy
   alignment: Evil
@@ -121,6 +122,7 @@
 - npcId: Catacombs Mummy 2F
   name: mummy squire
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 155
   allegiance: Enemy
   alignment: Evil
@@ -226,6 +228,7 @@
 - npcId: Catacombs Ghost 2F
   name: ghost bishop
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 300
   allegiance: Enemy
   alignment: Evil
@@ -358,6 +361,7 @@
 - npcId: Catacombs Wight 2F
   name: wight mage
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 980
   allegiance: Enemy
   alignment: Evil
@@ -464,6 +468,7 @@
 - npcId: Catacombs Nightwalker 2F
   name: nightwalker goldsash
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 975
   allegiance: Enemy
   alignment: Evil
@@ -571,6 +576,7 @@
 - npcId: Catacombs Qell 2F
   name: qell pickpocket
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 945
   allegiance: Enemy
   alignment: Evil
@@ -709,6 +715,7 @@
 - npcId: Catacombs Spectre 2F
   name: spectre ranger
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 305
   allegiance: Enemy
   alignment: Evil

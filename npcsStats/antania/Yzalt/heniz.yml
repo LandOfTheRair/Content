@@ -1,6 +1,7 @@
 - npcId: Heniz Child
   name: child
   monsterClass: Humanoid
+  monsterGroup: Heniz
   allegiance: Pirates
   sprite: 60
   alignment: Evil
@@ -34,6 +35,7 @@
 - npcId: Heniz Townee
   allegiance: Pirates
   monsterClass: Humanoid
+  monsterGroup: Heniz
   sprite: [580, 595, 610, 615]
   alignment: Evil
   stats: 15
@@ -151,6 +153,7 @@
 - npcId: Heniz Thief Defender
   name: defender
   monsterClass: Humanoid
+  monsterGroup: Heniz
   hostility: Faction
   allegiance: Pirates
   sprite: 585
@@ -264,6 +267,7 @@
 - npcId: Heniz Mage Defender
   name: defender
   monsterClass: Humanoid
+  monsterGroup: Heniz
   hostility: Faction
   allegiance: Pirates
   sprite: 545
@@ -363,6 +367,7 @@
 - npcId: Heniz Thief Offender
   name: assaulter
   monsterClass: Humanoid
+  monsterGroup: Heniz
   hostility: Faction
   allegiance: Pirates
   sprite: 585
@@ -475,6 +480,7 @@
 - npcId: Heniz Mage Offender
   name: assaulter
   monsterClass: Humanoid
+  monsterGroup: Heniz
   hostility: Faction
   allegiance: Pirates
   sprite: 545

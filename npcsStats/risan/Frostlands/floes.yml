@@ -6,6 +6,7 @@
   alignment: Evil
   hostility: Always
   monsterClass: Beast
+  monsterGroup: Snake
   stats: 22
   skillLevels:
     Martial: 9
@@ -62,6 +63,7 @@
   hostility: Always
   baseClass: Mage
   monsterClass: Beast
+  monsterGroup: Snake
   stats: 24
   skillLevels: 11
   level: 29

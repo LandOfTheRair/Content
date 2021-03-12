@@ -2,6 +2,7 @@
   name: sewer rat
   hostility: Always
   monsterClass: Beast
+  monsterGroup: Rat
   sprite: 310
   alignment: Evil
   stats: 9
@@ -62,6 +63,7 @@
   name: ratguard
   hostility: Always
   monsterClass: Beast
+  monsterGroup: Rat
   sprite: 310
   alignment: Evil
   stats: 13

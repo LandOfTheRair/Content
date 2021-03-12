@@ -1,6 +1,7 @@
 - npcId: Crazed Saraxa
   name: Saraxa
   monsterClass: Humanoid
+  monsterGroup: CaveApprentice
   hostility: Always
   affiliation: Crazed
   alignment: Evil
@@ -129,6 +130,7 @@
   hostility: Always
   alignment: Evil
   baseClass: Warrior
+  monsterGroup: CaveApprentice
   sprite: 75
   stats: 20
   skillLevels: 10
@@ -168,6 +170,7 @@
   hostility: Always
   alignment: Evil
   baseClass: Mage
+  monsterGroup: CaveApprentice
   stats: 15
   level: 20
 

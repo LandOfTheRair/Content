@@ -5,6 +5,7 @@
   hostility: Always
   affiliation: Crazed
   monsterClass: Humanoid
+  monsterGroup: Tonwin
   alignment: Evil
   baseClass: Thief
   stats: 20
@@ -123,6 +124,7 @@
   hostility: Always
   alignment: Evil
   baseClass: Warrior
+  monsterGroup: Tonwin
   stats: 20
   level: 25
 
@@ -183,6 +185,7 @@
   hostility: Always
   alignment: Evil
   baseClass: Mage
+  monsterGroup: Tonwin
   stats: 20
   level: 25
 
@@ -249,6 +252,7 @@
   hostility: Always
   alignment: Evil
   baseClass: Healer
+  monsterGroup: Tonwin
   stats: 20
   level: 25
 

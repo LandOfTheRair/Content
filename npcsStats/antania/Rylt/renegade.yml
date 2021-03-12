@@ -2,6 +2,7 @@
 - npcId: Rylt Renegade
   name: renegade
   monsterClass: Humanoid
+  monsterGroup: Renegade
   hostility: Always
   sprite: [630, 635, 645, 650]
   alignment: Evil
@@ -124,6 +125,7 @@
 - npcId: Rylt Renegade Mage
   name: renegade
   monsterClass: Humanoid
+  monsterGroup: Renegade
   hostility: Always
   baseClass: Mage
   sprite: 545
@@ -183,6 +185,7 @@
 - npcId: Rylt Renegade Healer
   name: renegade
   monsterClass: Humanoid
+  monsterGroup: Renegade
   baseClass: Healer
   hostility: Always
   sprite: 550
@@ -242,6 +245,7 @@
 - npcId: Rylt Renegade Leader
   name: leader
   monsterClass: Humanoid
+  monsterGroup: Renegade
   hostility: Always
   sprite: 640
   alignment: Evil
@@ -326,6 +330,7 @@
 - npcId: Rylt Renegade Commander
   name: commander
   monsterClass: Humanoid
+  monsterGroup: Renegade
   hostility: Always
   sprite: 590
   alignment: Evil

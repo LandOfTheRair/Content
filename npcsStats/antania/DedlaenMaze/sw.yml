@@ -3,6 +3,7 @@
   name: mummy
   hostility: Always
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 155
   alignment: Evil
   stats: 12
@@ -59,6 +60,7 @@
   name: ghoul
   hostility: Always
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 305
   alignment: Evil
   stats: 14
@@ -97,6 +99,7 @@
   name: spectre
   hostility: Always
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 970
   baseClass: Mage
   alignment: Evil
@@ -149,6 +152,7 @@
   name: ghost
   hostility: Always
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 300
   baseClass: Mage
   alignment: Evil
@@ -234,6 +238,7 @@
   name: ghast
   hostility: Always
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 305
   alignment: Evil
   stats: 14
@@ -294,6 +299,7 @@
 - npcId: Dedlaen Revenant
   name: revenant
   hostility: Always
+  monsterGroup: Undead
   sprite: 945
   alignment: Evil
   stats: 17

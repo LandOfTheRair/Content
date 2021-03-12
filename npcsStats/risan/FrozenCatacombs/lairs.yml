@@ -8,6 +8,7 @@
   alignment: Evil
   hostility: Always
   monsterClass: Dragon
+  monsterGroup: Dragon
   stats: 25
   skillLevels:
     Martial: 13
@@ -103,7 +104,6 @@
         name: "monster-dragon"
         maxChance: 1
 
-
 - npcId: Catacombs Tomb Guardian
   name: tomb guardian
   sprite: 370
@@ -111,6 +111,7 @@
   alignment: Evil
   hostility: Always
   monsterClass: Beast
+  monsterGroup: Griffon
   stats: 25
   skillLevels:
     Martial: 13
@@ -203,6 +204,7 @@
 - npcId: Catacombs Frost Knight
   name: frost knight
   monsterClass: Undead
+  monsterGroup: Undead
   hostility: Always
   baseClass: Mage
   sprite: 285
@@ -327,6 +329,7 @@
 - npcId: Catacombs Lich
   name: archlich
   monsterClass: Undead
+  monsterGroup: Undead
   affiliation: The Royal Undeath
   hostility: Always
   baseClass: Mage

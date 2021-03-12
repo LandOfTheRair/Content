@@ -2,6 +2,7 @@
 - npcId: Dedlaen Crypt Thing
   name: crypt thing
   monsterClass: Undead
+  monsterGroup: CryptThing
   hostility: Always
   sprite: 225
   alignment: Evil
@@ -76,6 +77,7 @@
   name: water naga
   hostility: OnHit
   baseClass: Mage
+  monsterGroup: Naga
   sprite: 430
   stats: 20
   skillLevels: 7
@@ -132,6 +134,7 @@
 - npcId: Dedlaen Spider
   name: spider
   hostility: Always
+  monsterGroup: Spider
   monsterClass: Beast
   sprite: 800
   alignment: Evil
@@ -170,6 +173,7 @@
   hostility: Always
   baseClass: Mage
   monsterClass: Beast
+  monsterGroup: Leech
   sprite: 785
   alignment: Evil
   stats: 15
@@ -208,6 +212,7 @@
 - npcId: Dedlaen Dragon Turtle
   name: turtle dragon
   hostility: Always
+  monsterGroup: Turtle
   sprite: 455
   baseClass: Mage
   alignment: Evil

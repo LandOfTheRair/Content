@@ -3,6 +3,7 @@
   name: dolphin
   allegiance: None
   hostility: OnHit
+  monsterGroup: Dolphin
   sprite: 165
   stats: 1
   level: 1
@@ -36,6 +37,7 @@
   name: shark
   hostility: Always
   alignment: Evil
+  monsterGroup: Shark
   sprite: 160
   stats: 10
   level: 5

@@ -2,6 +2,7 @@
 - npcId: Risan Miner
   name: miner
   monsterClass: Humanoid
+  monsterGroup: Town
   hostility: Faction
   allegiance: Townsfolk
   baseClass: Warrior
@@ -91,6 +92,7 @@
   hostility: Always
   allegiance: Enemy
   baseClass: Warrior
+  monsterGroup: Crazed
   sprite: 770
   stats: 21
   skillLevels: 8
@@ -169,6 +171,7 @@
 - npcId: Mines Rockman
   name: rockman
   hostility: Always
+  monsterGroup: Rock
   sprite: 75
   stats: 18
   skillLevels: 8
@@ -236,6 +239,7 @@
   name: Jigan
   monsterClass: Humanoid
   affiliation: Mines Overseer
+  monsterGroup: Town
   hostility: OnHit
   allegiance: Enemy
   baseClass: Mage

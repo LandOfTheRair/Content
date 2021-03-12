@@ -2,6 +2,7 @@
 - npcId: Catacombs Skeleton 4F
   name: skeleton prince
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 1015
   allegiance: Enemy
   alignment: Evil
@@ -135,6 +136,7 @@
 - npcId: Catacombs Mummy 4F
   name: mummy paladin
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 155
   allegiance: Enemy
   alignment: Evil
@@ -243,6 +245,7 @@
 - npcId: Catacombs Ghost 4F
   name: ghost patriarch
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 300
   allegiance: Enemy
   alignment: Evil
@@ -383,6 +386,7 @@
 - npcId: Catacombs Wight 4F
   name: wight sage
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 980
   allegiance: Enemy
   alignment: Evil
@@ -501,6 +505,7 @@
 - npcId: Catacombs Nightwalker 4F
   name: nightwalker bloodbelt
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 975
   allegiance: Enemy
   alignment: Evil
@@ -609,6 +614,7 @@
 - npcId: Catacombs Qell 4F
   name: qell thief
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 945
   allegiance: Enemy
   alignment: Evil
@@ -758,6 +764,7 @@
 - npcId: Catacombs Spectre 4F
   name: spectre composite
   monsterClass: Undead
+  monsterGroup: Undead
   sprite: 305
   allegiance: Enemy
   alignment: Evil

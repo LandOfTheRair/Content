@@ -2,6 +2,7 @@
 - npcId: Yzalt Rockgolem
   name: rockgolem
   hostility: Always
+  monsterGroup: Rocks
   sprite: 75
   stats: 8
   skillLevels: 3

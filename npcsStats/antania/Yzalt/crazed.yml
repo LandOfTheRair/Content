@@ -2,6 +2,7 @@
 - npcId: Crazed Heniz Mage
   name: crazed mage
   monsterClass: Humanoid
+  monsterGroup: Crazed
   hostility: Always
   sprite: 545
   alignment: Evil
@@ -93,6 +94,7 @@
 - npcId: Crazed Heniz Thief
   name: crazed thief
   monsterClass: Humanoid
+  monsterGroup: Crazed
   hostility: Always
   sprite: 585
   alignment: Evil
@@ -197,6 +199,7 @@
 - npcId: Crazed Steffen Warrior
   name: crazed warrior
   monsterClass: Humanoid
+  monsterGroup: Crazed
   hostility: Always
   sprite: 590
   alignment: Good
@@ -302,6 +305,7 @@
 - npcId: Crazed Steffen Healer
   name: crazed healer
   monsterClass: Humanoid
+  monsterGroup: Crazed
   hostility: Always
   sprite: 550
   alignment: Good
@@ -399,6 +403,7 @@
   name: crazed mummy
   hostility: Always
   monsterClass: Undead
+  monsterGroup: Crazed
   sprite: 155
   stats: 6
   otherStats:
@@ -499,6 +504,7 @@
 - npcId: Insane Heniz Mage
   name: insane mage
   monsterClass: Humanoid
+  monsterGroup: Crazed
   hostility: Always
   sprite: 545
   baseClass: Mage
@@ -644,6 +650,7 @@
 - npcId: Insane Heniz Thief
   name: insane thief
   monsterClass: Humanoid
+  monsterGroup: Crazed
   hostility: Always
   sprite: 585
   alignment: Evil
@@ -820,6 +827,7 @@
 - npcId: Insane Steffen Warrior
   name: insane warrior
   monsterClass: Humanoid
+  monsterGroup: Crazed
   hostility: Always
   sprite: 590
   baseClass: Warrior
@@ -959,6 +967,7 @@
 - npcId: Insane Steffen Healer
   name: insane healer
   monsterClass: Humanoid
+  monsterGroup: Crazed
   hostility: Always
   sprite: 550
   stats: 10
@@ -1093,6 +1102,7 @@
 - npcId: Ranata
   name: Ranata
   monsterClass: Humanoid
+  monsterGroup: Crazed
   hostility: Always
   affiliation: Crazed
   sprite: 480
@@ -1167,10 +1177,10 @@
         - "RAWWWWWWWRGH!"
         - "WHERE... SEDGWICK?"
 
-
 - npcId: Crazed Sedgwick
   name: Sedgwick
   monsterClass: Humanoid
+  monsterGroup: Crazed
   hostility: Always
   affiliation: Crazed
   sprite: 480

@@ -84,6 +84,7 @@
 - npcId: Tutorial Wolf
   name: wolf
   hostility: Always
+  monsterGroup: Wolf
   sprite: 215
   alignment: Evil
   stats: 2
@@ -118,6 +119,7 @@
 - npcId: Tutorial Yeti
   name: yeti
   hostility: Always
+  monsterGroup: Yeti
   sprite: 220
   stats: 1
   level: 1

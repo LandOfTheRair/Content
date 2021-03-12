@@ -2,6 +2,7 @@
 - npcId: Tower Goblin
   name: goblin
   hostility: Always
+  monsterGroup: Goblin
   sprite: 80
   alignment: Evil
   stats: 7
@@ -84,11 +85,11 @@
         name: "monster-goblin"
         maxChance: 20
 
-
 - npcId: Tower Goblin Thief
   name: sneakgoblin
   hostility: Always
   baseClass: Thief
+  monsterGroup: Goblin
   sprite: 80
   alignment: Evil
   stats: 6
@@ -209,11 +210,11 @@
         name: "monster-goblin"
         maxChance: 20
 
-
 - npcId: Tower Hobgoblin
   name: hobgoblin
   hostility: Always
   baseClass: Warrior
+  monsterGroup: Goblin
   sprite: 90
   alignment: Evil
   stats: 2

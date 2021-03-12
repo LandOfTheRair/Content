@@ -2,6 +2,7 @@
 - npcId: Dedlaen Skeleton
   name: skeleton
   monsterClass: Undead
+  monsterGroup: Undead
   hostility: Always
   sprite: 1015
   alignment: Evil
@@ -72,6 +73,7 @@
 - npcId: Dedlaen Skeleton Knight
   name: skeleton knight
   monsterClass: Undead
+  monsterGroup: Undead
   hostility: Always
   sprite: 285
   alignment: Evil
@@ -142,6 +144,7 @@
 - npcId: Dedlaen Death Knight
   name: death knight
   monsterClass: Undead
+  monsterGroup: Undead
   hostility: Always
   baseClass: Mage
   sprite: 285
@@ -227,6 +230,7 @@
 - npcId: Dedlaen Vampire
   name: vampire
   monsterClass: Undead
+  monsterGroup: Undead
   hostility: Always
   sprite: 495
   alignment: Evil
@@ -287,6 +291,7 @@
   name: bat
   hostility: Always
   affiliation: Vampire's Minion
+  monsterGroup: Undead
   sprite: 805
   alignment: Evil
   stats: 10

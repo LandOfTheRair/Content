@@ -1,6 +1,7 @@
 - npcId: Steffen Child
   name: child
   monsterClass: Humanoid
+  monsterGroup: Steffen
   allegiance: Royalty
   sprite: 60
   alignment: Good
@@ -34,6 +35,7 @@
 - npcId: Steffen LostChild
   name: lost child
   monsterClass: Humanoid
+  monsterGroup: Steffen
   allegiance: Royalty
   sprite: 60
   alignment: Good
@@ -76,6 +78,7 @@
 - npcId: Steffen Townee
   allegiance: Royalty
   monsterClass: Humanoid
+  monsterGroup: Steffen
   sprite: [580, 595, 610, 615]
   alignment: Good
   stats: 9
@@ -175,6 +178,7 @@
 - npcId: Steffen Warrior Defender
   name: defender
   monsterClass: Humanoid
+  monsterGroup: Steffen
   allegiance: Royalty
   hostility: Faction
   sprite: 590
@@ -271,10 +275,10 @@
     - result: 'equipment.neck'
       chance: -1
 
-
 - npcId: Steffen Healer Defender
   name: defender
   monsterClass: Humanoid
+  monsterGroup: Steffen
   hostility: Faction
   allegiance: Royalty
   sprite: 550
@@ -368,10 +372,10 @@
     - result: 'equipment.waist'
       chance: -1
 
-
 - npcId: Steffen Warrior Offender
   name: assaulter
   monsterClass: Humanoid
+  monsterGroup: Steffen
   hostility: Faction
   allegiance: Royalty
   sprite: 590
@@ -468,10 +472,10 @@
     - result: 'equipment.neck'
       chance: -1
 
-
 - npcId: Steffen Healer Offender
   name: assaulter
   monsterClass: Humanoid
+  monsterGroup: Steffen
   hostility: Faction
   allegiance: Royalty
   sprite: 550

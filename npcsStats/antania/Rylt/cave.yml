@@ -2,6 +2,7 @@
 - npcId: Rylt Rockgolem
   name: rockgolem
   hostility: Always
+  monsterGroup: CaveApprentice
   sprite: 75
   alignment: Evil
   stats: 7
@@ -70,6 +71,7 @@
 - npcId: Rylt Cave Apprentice
   name: apprentice
   monsterClass: Humanoid
+  monsterGroup: CaveApprentice
   hostility: Always
   sprite: 545
   alignment: Evil
@@ -160,6 +162,7 @@
 - npcId: Saraxa
   name: Saraxa
   monsterClass: Humanoid
+  monsterGroup: CaveApprentice
   hostility: Always
   affiliation: Corrupted
   alignment: Evil

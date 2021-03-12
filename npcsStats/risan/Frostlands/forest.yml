@@ -6,6 +6,7 @@
   alignment: Evil
   hostility: Always
   monsterClass: Beast
+  monsterGroup: Moose
   stats: 20
   skillLevels:
     Martial: 8

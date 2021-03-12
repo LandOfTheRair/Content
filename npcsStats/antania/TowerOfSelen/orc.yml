@@ -2,6 +2,7 @@
 - npcId: Tower Orc
   name: orc
   hostility: Always
+  monsterGroup: Goblin
   sprite: 70
   alignment: Evil
   baseClass: Warrior
@@ -67,6 +68,7 @@
   name: orc shaman
   hostility: Always
   baseClass: Healer
+  monsterGroup: Goblin
   sprite: 70
   alignment: Evil
   stats: 6
@@ -148,6 +150,7 @@
   name: orc caster
   hostility: Always
   baseClass: Mage
+  monsterGroup: Goblin
   sprite: 70
   alignment: Evil
   stats: 6
@@ -218,6 +221,7 @@
 - npcId: Tower Orc Warlord
   name: orc warlord
   hostility: Always
+  monsterGroup: Goblin
   sprite: 70
   alignment: Evil
   stats: 12

@@ -4,6 +4,7 @@
   name: zombie
   monsterClass: Undead
   hostility: Faction
+  monsterGroup: Zombie
   sprite: 1465
   alignment: Evil
   stats: 1
