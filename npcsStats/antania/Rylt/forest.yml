@@ -278,6 +278,10 @@
       extra:
         potency: 0.75
         damageType: 'physical'
+        
+    - name: Mood
+      extra:
+        enrageTimer: 300000
 
   drops:
     - result: Werebear Claws
