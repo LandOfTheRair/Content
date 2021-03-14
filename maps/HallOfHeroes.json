@@ -129,6 +129,16 @@
                  "height":64,
                  "id":229,
                  "name":"Seiyria",
+                 "properties":
+                    {
+                     "message":"Hello, traveller, and welcome to the realms!",
+                     "tag":"Hall of Heroes NPC"
+                    },
+                 "propertytypes":
+                    {
+                     "message":"string",
+                     "tag":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -141,6 +151,16 @@
                  "height":64,
                  "id":230,
                  "name":"Blackmoore",
+                 "properties":
+                    {
+                     "message":"Hello!",
+                     "tag":"Hall of Heroes NPC"
+                    },
+                 "propertytypes":
+                    {
+                     "message":"string",
+                     "tag":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -153,6 +173,16 @@
                  "height":64,
                  "id":231,
                  "name":"Nevyn",
+                 "properties":
+                    {
+                     "message":"Hello!",
+                     "tag":"Hall of Heroes NPC"
+                    },
+                 "propertytypes":
+                    {
+                     "message":"string",
+                     "tag":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -165,6 +195,16 @@
                  "height":64,
                  "id":232,
                  "name":"Max",
+                 "properties":
+                    {
+                     "message":"Hello!",
+                     "tag":"Hall of Heroes NPC"
+                    },
+                 "propertytypes":
+                    {
+                     "message":"string",
+                     "tag":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -177,6 +217,16 @@
                  "height":64,
                  "id":233,
                  "name":"Kryt",
+                 "properties":
+                    {
+                     "message":"Hello!",
+                     "tag":"Hall of Heroes NPC"
+                    },
+                 "propertytypes":
+                    {
+                     "message":"string",
+                     "tag":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -189,6 +239,16 @@
                  "height":64,
                  "id":234,
                  "name":"Cobra",
+                 "properties":
+                    {
+                     "message":"Hello!",
+                     "tag":"Hall of Heroes NPC"
+                    },
+                 "propertytypes":
+                    {
+                     "message":"string",
+                     "tag":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -201,6 +261,16 @@
                  "height":64,
                  "id":235,
                  "name":"Rockslide",
+                 "properties":
+                    {
+                     "message":"Hello!",
+                     "tag":"Hall of Heroes NPC"
+                    },
+                 "propertytypes":
+                    {
+                     "message":"string",
+                     "tag":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -213,6 +283,16 @@
                  "height":64,
                  "id":237,
                  "name":"Sarimash",
+                 "properties":
+                    {
+                     "message":"Hello!",
+                     "tag":"Hall of Heroes NPC"
+                    },
+                 "propertytypes":
+                    {
+                     "message":"string",
+                     "tag":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
