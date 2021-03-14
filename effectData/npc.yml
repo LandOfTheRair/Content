@@ -16,7 +16,7 @@ Attribute:
     color: '#000'
     desc: '???'
   effect:
-    type: buff
+    type: incoming
     duration: -1
     extra:
       unique: true
