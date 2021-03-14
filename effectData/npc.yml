@@ -1,9 +1,9 @@
 
 Unshakeable:
   tooltip:
-    icon: 'uncertainty'
+    icon: 'black-hand-shield'
     color: '#000'
-    desc: '???'
+    desc: 'This creature is immovable and cannot be hit by effects such as Prone and Push.'
   effect:
     type: buff
     duration: -1
@@ -20,17 +20,21 @@ Attribute:
     duration: -1
     extra:
       unique: true
+  effectMeta:
+    effectRef: Attribute
       
 Mood:
   tooltip:
-    icon: 'uncertainty'
-    color: '#000'
-    desc: '???'
+    icon: 'bully-minion'
+    color: '#fff'
+    desc: 'This creature is calm.'
   effect:
     type: buff
     duration: -1
     extra:
       unique: true
+  effectMeta:
+    effectRef: Mood
       
 Dangerous:
   tooltip:
