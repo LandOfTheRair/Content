@@ -24,6 +24,12 @@
     min: 100
     max: 150
 
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
+
   items:
     equipment:
       armor: Tower Titanium Chunk

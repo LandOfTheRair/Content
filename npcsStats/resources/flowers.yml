@@ -23,6 +23,12 @@
     min: 50
     max: 100
 
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
+
   drops:
     - result: Rylt Blueflower
       chance: 1
@@ -55,6 +61,12 @@
   giveXp:
     min: 50
     max: 100
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
 
   drops:
     - result: Yzalt Steffen Apple
@@ -89,6 +101,12 @@
     min: 50
     max: 100
 
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
+
   drops:
     - result: Yzalt Bogweed
       chance: 1
@@ -121,6 +139,12 @@
   giveXp:
     min: 50
     max: 100
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
 
   drops:
     - result: Tower Goblood
@@ -155,6 +179,12 @@
     min: 50
     max: 100
 
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
+
   drops:
     - result: Maze Corpseflower
       chance: 1
@@ -183,6 +213,12 @@
   giveXp:
     min: 50
     max: 100
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
 
   drops:
     - result: Mines Caveflower
@@ -216,6 +252,12 @@
   giveXp:
     min: 50
     max: 100
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
 
   drops:
     - result: Frostlands Gourd
