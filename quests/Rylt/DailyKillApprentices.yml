@@ -25,7 +25,7 @@ rewards:
     value: 5000
 
   - type: silver
-    value: 1
+    value: 5
 
   - type: holidayTokens
     value: 15     # only granted if a holiday is going on
