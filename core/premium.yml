@@ -1,0 +1,127 @@
+
+silverTiers:
+  microtransaction:
+    - key: 'micro-sm'
+      price: 499
+      silver: 500
+      percentOverAverage: 0
+
+    - key: 'micro-md'
+      price: 999
+      silver: 1100
+      percentOverAverage: 10
+
+    - key: 'micro-lg'
+      price: 1999
+      silver: 2500
+      percentOverAverage: 25
+
+  subscription:
+    - key: 'sub-1m'
+      price: 699
+      duration: 1
+      percentOverAverage: 0
+
+    - key: 'sub-3m'
+      price: 2099
+      duration: 3
+      percentOverAverage: 0
+
+    - key: 'sub-12m'
+      price: 6999
+      duration: 12
+      percentOverAverage: 2
+
+silverPurchases:
+
+  # Festivals
+  - name: 'Festival: XP Gain +100%'
+    desc: 'Gain +100% XP for 6 hours (globally). Additional purchases increase duration, not bonus.'
+    icon: two-shadows
+    fgColor: '#0a0'
+    maxPurchases: -1
+    key: FestivalXP
+    cost: 100
+
+  - name: 'Festival: Skill Gain +100%'
+    desc: 'Gain +100% Skill for 6 hours (globally). Additional purchases increase duration, not bonus.'
+    icon: two-shadows
+    fgColor: '#a00'
+    maxPurchases: -1
+    key: FestivalSkill
+    cost: 100
+
+  # Cosmetics
+  - name: 'Cosmetic: Inversify'
+    desc: 'Visit Cosmetica to redeem your Inversify cosmetic (turns your item "inversed" looking).'
+    icon: beard
+    fgColor: '#4d1919'
+    maxPurchases: -1
+    key: CosmeticInversify
+    cost: 50
+
+  - name: 'Cosmetic: Ancientify'
+    desc: 'Visit Cosmetica to redeem your Ancientify cosmetic (turns your item "ancient" looking).'
+    icon: beard
+    fgColor: '#4d1919'
+    maxPurchases: -1
+    key: CosmeticAncientify
+    cost: 50
+
+  - name: 'Cosmetic: Ether Pulse'
+    desc: 'Visit Cosmetica to redeem your Ether Pulse cosmetic (your item will have a glowing red pulse).'
+    icon: beard
+    fgColor: '#4d1919'
+    maxPurchases: -1
+    key: CosmeticEtherPulse
+    cost: 50
+
+  - name: 'Cosmetic: Ghost Ether'
+    desc: 'Visit Cosmetica to redeem your Ghost Ether cosmetic (your item will have a ghostly blue pulse).'
+    icon: beard
+    fgColor: '#4d1919'
+    maxPurchases: -1
+    key: CosmeticGhostEther
+    cost: 50
+
+  # Permanent Upgrades (Multi-purchaseable)
+  - name: 'Bigger Potion Stacks'
+    desc: 'Increase your Alchemist potion max by 5oz.'
+    icon: potion-ball
+    fgColor: '#00a'
+    maxPurchases: 5
+    key: MorePotions
+    cost: 300
+
+  - name: 'More Characters'
+    desc: 'Add another character slot to your account. Perfect for hoarding items.'
+    icon: ages
+    fgColor: '#000'
+    maxPurchases: 6
+    key: MoreCharacters
+    cost: 1000
+
+  - name: 'Expanded Material Storage'
+    desc: 'Increase capacity by 200 for each item to your material storage. You can never have too much space.'
+    icon: ore
+    fgColor: '#550'
+    maxPurchases: 4
+    key: ExpandedMaterialStorage
+    cost: 750
+
+  # Permanent Upgrades (Single purchase)
+  - name: 'Shared Wardrobe'
+    desc: 'Add an extra 25-slot locker. You can access it anywhere, on any character, at any time.'
+    icon: locked-box
+    fgColor: '#a0a'
+    maxPurchases: 1
+    key: SharedLockers
+    cost: 2000
+
+  - name: 'Magic Pouch'
+    desc: 'A magical 5-slot pouch carried around simultaneously by all of your characters. It happens to be strip-safe too. Weird, right?'
+    icon: knapsack
+    fgColor: '#a0a'
+    maxPurchases: 1
+    key: MagicPouch
+    cost: 2000
