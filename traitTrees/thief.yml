@@ -65,8 +65,10 @@ Thief:
         - traits: 
           - name: 'Identify'
             maxLevel: 1
+
+          - name: 'TrueSight'
+            maxLevel: 1
             
-          - name: ''
           - name: ''
           - name: ''
           - name: ''

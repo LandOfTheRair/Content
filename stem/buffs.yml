@@ -64,15 +64,13 @@ TrueSight:
 
   # global info
   all:
-    desc: ""
+    desc: "See hidden walls and invisible creatures. Cost: 25 MP"
     icon: "all-seeing-eye"
     color: "#00a"
 
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      icon: 'all-seeing-eye'
-      color: '#00a'
       desc: 'Seeing other planes of existence.'
     effect:
       type: buff
@@ -86,6 +84,14 @@ TrueSight:
       castMessage: 'You cast TrueSight on %target.'
       applyMessage: 'Your vision expands to see other planes of existence!'
       unapplyMessage: 'Your vision returns to normal.'
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
 
 Secondwind:
 
