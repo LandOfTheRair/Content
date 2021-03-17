@@ -16,6 +16,10 @@ Identify:
       casterMessage: 'You begin to identify the item in your right hand...'
       casterSfx: 'spell-buff-magical'
 
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
   # macro info
   macro:
     mode: 'autoActivate'

@@ -41,7 +41,9 @@ Mage:
 
       tree: 
         - traits: 
-          - name: ''
+          - name: 'Identify'
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''
