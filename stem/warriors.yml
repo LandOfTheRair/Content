@@ -32,7 +32,7 @@ Cleave:
   # trait info
   trait:
     desc: Cleave a target, consuming 10 Rage and dealing massive damage.
-    borderColor: "#f00"
+    borderColor: "#ccc"
 
   # macro info
   macro:

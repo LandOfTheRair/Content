@@ -34,7 +34,7 @@ Afflict:
 
   # trait info
   trait:
-    borderColor: "#0a0"
+    borderColor: "#0f0"
 
   # macro info
   macro:
@@ -76,7 +76,7 @@ MagicMissile:
   # trait info
   trait:
     name: Magic Missile
-    borderColor: "#00a"
+    borderColor: "#a0a"
 
   # macro info
   macro:

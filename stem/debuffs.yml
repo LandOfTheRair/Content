@@ -70,7 +70,7 @@ Stun:
 
   # trait info
   trait:
-    borderColor: "#0a0"
+    borderColor: "#ccc"
 
   # effect info (tooltip, duration, messages)
   effect:

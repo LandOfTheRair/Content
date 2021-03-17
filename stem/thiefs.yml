@@ -24,7 +24,7 @@ Mug:
   # trait info
   trait:
     desc: You can now mug marks, dealing damage and stealing from them.
-    borderColor: "#f00"
+    borderColor: "#ccc"
 
   # macro info
   macro:
