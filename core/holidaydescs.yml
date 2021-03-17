@@ -1,0 +1,16 @@
+
+
+Halloween: 
+  name: Celebration of Zombies
+  text: Go smash some zombies, take their brains, and go trick-or-treating!
+  duration: Oct 1 - Oct 31
+
+Thanksgiving: 
+  name: Celebration of Feast
+  text: Help some pilgrims shoot some turkeys, test your shooting accuracy, and gather food for a feast!
+  duration: Nov 1 - Nov 30
+
+Christmas: 
+  name: Celebration of Snow
+  text: Stop Jack Frost from taking over Christmas, help some elves, and find some reindeer!
+  duration: Dec 1 - Dec 31
