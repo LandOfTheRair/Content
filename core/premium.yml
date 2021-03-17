@@ -42,6 +42,10 @@ silverPurchases:
     maxPurchases: -1
     key: FestivalXP
     cost: 100
+    festival:
+      name: Silver XP Festival
+      stats:
+        xpBonusPercent: 100
 
   - name: 'Festival: Skill Gain +100%'
     desc: 'Gain +100% Skill for 6 hours (globally). Additional purchases increase duration, not bonus.'
@@ -50,6 +54,10 @@ silverPurchases:
     maxPurchases: -1
     key: FestivalSkill
     cost: 100
+    festival:
+      name: Silver Skill Festival
+      stats:
+        skillBonusPercent: 100
 
   # Cosmetics
   - name: 'Cosmetic: Inversify'
