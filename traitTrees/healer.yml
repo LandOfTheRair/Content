@@ -83,7 +83,10 @@ Healer:
 
       tree: 
         - traits: 
-          - name: ''
+
+          - name: 'TrueSight'
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''
