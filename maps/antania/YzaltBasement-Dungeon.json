@@ -818,6 +818,9 @@
  "properties":
     {
      "disableCreatureRespawn":true,
+     "gearDropMap":"Yzalt",
+     "gearDropX":"21",
+     "gearDropY":"19",
      "itemExpirationHours":6,
      "itemGarbageCollection":60,
      "kickMap":"Yzalt",
@@ -830,11 +833,14 @@
      "respawnMap":"Yzalt",
      "respawnX":19,
      "respawnY":35,
-     "script":"antania\/yzalt\/yzaltbasement-dungeon"
+     "script":"Yzalt Basement"
     },
  "propertytypes":
     {
      "disableCreatureRespawn":"bool",
+     "gearDropMap":"string",
+     "gearDropX":"string",
+     "gearDropY":"string",
      "itemExpirationHours":"float",
      "itemGarbageCollection":"int",
      "kickMap":"string",

@@ -543,6 +543,9 @@
  "orientation":"orthogonal",
  "properties":
     {
+     "gearDropMap":"RisanMines",
+     "gearDropX":"92",
+     "gearDropY":"28",
      "itemExpirationHours":6,
      "itemGarbageCollection":60,
      "kickMap":"RisanMines",
@@ -558,6 +561,9 @@
     },
  "propertytypes":
     {
+     "gearDropMap":"string",
+     "gearDropX":"string",
+     "gearDropY":"string",
      "itemExpirationHours":"float",
      "itemGarbageCollection":"int",
      "kickMap":"string",

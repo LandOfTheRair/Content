@@ -12,6 +12,9 @@ ImbueFrost:
     mpCost: 100
     maxSkillForGain: 25
 
+    spellMeta:
+      doesOvertime: true
+
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
@@ -67,6 +70,19 @@ TrueSight:
     desc: "See hidden walls and invisible creatures. Cost: 25 MP"
     icon: "all-seeing-eye"
     color: "#00a"
+
+  # spell cast info
+  spell: 
+    mpCost: 25
+    maxSkillForGain: 5
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      doesOvertime: true
 
   # effect info (tooltip, duration, messages)
   effect:
