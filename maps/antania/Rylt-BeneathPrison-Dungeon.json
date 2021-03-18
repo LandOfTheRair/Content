@@ -666,8 +666,8 @@
     {
      "disableCreatureRespawn":true,
      "gearDropMap":"Rylt",
-     "gearDropX":"22",
-     "gearDropY":"53",
+     "gearDropX":22,
+     "gearDropY":53,
      "itemExpirationHours":6,
      "itemGarbageCollection":60,
      "kickMap":"Rylt",
@@ -686,8 +686,8 @@
     {
      "disableCreatureRespawn":"bool",
      "gearDropMap":"string",
-     "gearDropX":"string",
-     "gearDropY":"string",
+     "gearDropX":"int",
+     "gearDropY":"int",
      "itemExpirationHours":"float",
      "itemGarbageCollection":"int",
      "kickMap":"string",

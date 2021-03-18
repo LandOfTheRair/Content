@@ -819,8 +819,8 @@
     {
      "disableCreatureRespawn":true,
      "gearDropMap":"Yzalt",
-     "gearDropX":"21",
-     "gearDropY":"19",
+     "gearDropX":21,
+     "gearDropY":19,
      "itemExpirationHours":6,
      "itemGarbageCollection":60,
      "kickMap":"Yzalt",
@@ -839,8 +839,8 @@
     {
      "disableCreatureRespawn":"bool",
      "gearDropMap":"string",
-     "gearDropX":"string",
-     "gearDropY":"string",
+     "gearDropX":"int",
+     "gearDropY":"int",
      "itemExpirationHours":"float",
      "itemGarbageCollection":"int",
      "kickMap":"string",
