@@ -11,10 +11,10 @@
 
   otherStats:
     accuracy: 10
-    perception: 55
-    int: 25
+    perception: 5
+    int: 15
     dex: 25
-    str: 25
+    str: 15
     con: 33
     agi: 25
     luk: 10
@@ -57,7 +57,7 @@
       chance: 100
     - result: Darkness
       chance: 100
-    - result: EnergyBolt
+    - result: MagicBolt
       chance: 100
     - result: FireMist
       chance: 100
@@ -138,7 +138,7 @@
 
   otherStats:
     con: 33
-    perception: 55
+    perception: 5
     accuracy: 10
     wil: 13
 
@@ -149,8 +149,8 @@
     max: 6000
 
   hp:
-    min: 150000
-    max: 150000
+    min: 100000
+    max: 100000
 
   giveXp:
     min: 5000
@@ -176,7 +176,7 @@
 
   otherStats:
     accuracy: 10
-    perception: 55
+    perception: 5
 
   skillLevels: 4
   skillOnKill: 5

@@ -13,6 +13,7 @@ ImbueFrost:
     maxSkillForGain: 25
 
     spellMeta:
+      noHostileTarget: true
       doesOvertime: true
 
   # effect info (tooltip, duration, messages)
@@ -82,6 +83,7 @@ TrueSight:
       - [31, 15]
 
     spellMeta:
+      noHostileTarget: true
       doesOvertime: true
 
   # effect info (tooltip, duration, messages)

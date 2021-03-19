@@ -41,7 +41,7 @@ Dangerous:
     icon: 'crowned-skull'
     color: '#fff'
     bgColor: '#000'
-    desc: This creature is dangerous! IT has above average stats and may strip your gear on death.'
+    desc: This creature is dangerous! It has above average stats and may strip your gear on death.
   effect:
     type: buff
     duration: -1
@@ -57,7 +57,7 @@ AcolyteOverseer:
     icon: 'minions'
     color: '#fff'
     bgColor: '#a06'
-    desc: Receiving 4% healing per acolyte every 5 seconds.'
+    desc: Receiving 4% healing per acolyte every 5 seconds.
   effect:
     type: buff
     duration: -1
