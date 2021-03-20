@@ -34,7 +34,8 @@ Healer:
 
           - name: ''
 
-          - name: ''
+          - name: Succor
+            maxLevel: 1
 
     Diviner:
       desc: The Diviner tree

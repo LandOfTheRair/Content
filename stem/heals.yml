@@ -43,4 +43,4 @@ Revive:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: 'autoActivate'

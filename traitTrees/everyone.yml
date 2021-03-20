@@ -18,4 +18,5 @@ Core:
 
           - name: ''
 
-          - name: ''
+          - name: Charge
+            maxLevel: 1

@@ -24,6 +24,54 @@ Identify:
   macro:
     mode: 'autoActivate'
 
+Charge:
+
+  # global info
+  all:
+    desc: "Charge towards an enemy, attacking with the item in your right hand."
+    icon: running-ninja
+    color: "#530000"
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'lockActivation'
+    macro: 'charge'
+
+Succor:
+
+  # global info
+  all:
+    desc: "Create a consumable that will let you return to your current location. Cost: 25 MP"
+    icon: blackball
+    color: "#080"
+
+  # spell cast info
+  spell: 
+    damageClass: heal
+    mpCost: 25
+    maxSkillForGain: 7
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      casterMessage: 'You begin to identify the item in your right hand...'
+      casterSfx: 'spell-buff-magical'
+
+  # trait info
+  trait:
+    borderColor: "#aa0"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'
+
 FindFamiliar:
 
   # global info
