@@ -466,7 +466,7 @@
   traitLevels:
     FindFamiliarWolf: 1
     FindFamiliarBear: 1
-    MagicFocus: 2
+    EnergyFocus: 2
 
   gold:
     min: 4550

@@ -91,3 +91,85 @@ Stun:
   # macro info
   macro:
     mode: 'clickToTarget'
+    
+Snare:
+
+  # global info
+  all:
+    desc: "Snare a single target. Cost: 25 MP."
+    icon: light-thorny-triskelion
+    color: "#0a0"
+
+  # spell cast info
+  spell: 
+    mpCost: 25
+    maxSkillForGain: 15
+    willSaveThreshold: 20
+
+    spellMeta:
+      doesOvertime: true
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'You are snared, and cannot move.'
+    effect:
+      type: debuff
+      duration: 0
+    effectMeta:
+      effectRef: Snare
+      recentlyRef: RecentlySnared
+      castSfx: 'spell-debuff-give'
+      applySfx: 'spell-debuff-receive'
+      castMessage: 'You snared %target.'
+      applyMessage: "You've been snared!"
+      unapplyMessage: 'You are no longer snared.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+    
+Daze:
+
+  # global info
+  all:
+    desc: "Daze a single target. Cost: 25 MP."
+    icon: knockout
+    color: "#055"
+
+  # spell cast info
+  spell: 
+    mpCost: 25
+    maxSkillForGain: 15
+    willSaveThreshold: 25
+
+    spellMeta:
+      doesOvertime: true
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'You are dazed. Spellcasting proficiency lowered.'
+    effect:
+      type: debuff
+      duration: 0
+    effectMeta:
+      effectRef: Daze
+      recentlyRef: RecentlyDazed
+      castSfx: 'spell-debuff-give'
+      applySfx: 'spell-debuff-receive'
+      castMessage: 'You dazed %target.'
+      applyMessage: "You've been dazed!"
+      unapplyMessage: 'You are no longer dazed.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'

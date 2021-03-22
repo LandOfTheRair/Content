@@ -124,7 +124,7 @@
   value: 40000
   binds: true
   containedItems:
-    - result: Rune Scroll - Magic Focus I
+    - result: Rune Scroll - Energy Focus I
       chance: 1
     - result: Rune Scroll - Calm Mind I
       chance: 1

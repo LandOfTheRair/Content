@@ -102,7 +102,7 @@
     potency: 25
     chance: 33
   trait:
-    name: MagicFocus
+    name: EnergyFocus
     level: 3
   maxUpgrades: 2
   offhand: true

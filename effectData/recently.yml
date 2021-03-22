@@ -21,3 +21,25 @@ RecentlyStunned:
     duration: 15
     extra:
       unique: true
+
+RecentlyDazed:
+  tooltip:
+    icon: 'knockout'
+    color: '#000'
+    desc: 'You were recently dazed.'
+  effect:
+    type: debuff
+    duration: 15
+    extra:
+      unique: true
+
+RecentlySnared:
+  tooltip:
+    icon: 'light-thorny-triskelion'
+    color: '#000'
+    desc: 'You were recently snared.'
+  effect:
+    type: debuff
+    duration: 15
+    extra:
+      unique: true

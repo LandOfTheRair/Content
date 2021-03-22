@@ -51,7 +51,9 @@ Healer:
           - name: ''
 
         - traits: 
-          - name: ''
+          - name: NecroticFocus
+            maxLevel: 5
+
           - name: ''
           - name: ''
           - name: ''
@@ -73,8 +75,12 @@ Healer:
           - name: ''
           
         - traits: 
-          - name: ''
-          - name: ''
+          - name: Snare
+            maxLevel: 1
+
+          - name: Daze
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''

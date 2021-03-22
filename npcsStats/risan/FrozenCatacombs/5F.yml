@@ -479,7 +479,7 @@
   traitLevels:
     FindFamiliarWolf: 1
     FindFamiliarBear: 1
-    MagicFocus: 5
+    EnergyFocus: 5
     ConcussiveBolt: 4
 
   gold:

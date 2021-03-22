@@ -83,7 +83,7 @@
   value: 3000
 
   trait:
-    name: MagicFocus
+    name: EnergyFocus
     level: 2
 
   requirements:

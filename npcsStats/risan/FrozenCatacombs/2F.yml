@@ -438,7 +438,7 @@
 
   traitLevels:
     FindFamiliarWolf: 1
-    MagicFocus: 1
+    EnergyFocus: 1
 
   gold:
     min: 3550

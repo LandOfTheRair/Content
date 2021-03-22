@@ -6,3 +6,10 @@ HealingFocus:
   icon: drink-me
   statsGiven:
     healingBoostPercent: 10
+
+NecroticFocus:
+  name: Necrotic Focus
+  desc: Deal +$10$% more necrotic damage.
+  icon: plasma-bolt
+  statsGiven:
+    necroticBoostPercent: 10
