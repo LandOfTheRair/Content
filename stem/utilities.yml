@@ -62,7 +62,38 @@ Succor:
 
     spellMeta:
       casterMessage: 'You begin to identify the item in your right hand...'
-      casterSfx: 'spell-buff-magical'
+      casterSfx: 'spell-conjure'
+
+  # trait info
+  trait:
+    borderColor: "#aa0"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'
+
+Wellspring:
+
+  # global info
+  all:
+    desc: "Create a consumable that will quell satiation. Cost: 25 MP"
+    icon: holy-water
+    color: "#080"
+
+  # spell cast info
+  spell: 
+    damageClass: heal
+    mpCost: 25
+    maxSkillForGain: 7
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      casterMessage: 'You channel holy energy into a bottle.'
+      casterSfx: 'spell-conjure'
 
   # trait info
   trait:

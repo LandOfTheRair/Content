@@ -32,7 +32,8 @@ Healer:
           - name: Clearcasting
             maxLevel: 1
 
-          - name: ''
+          - name: Wellspring
+            maxLevel: 1
 
           - name: Succor
             maxLevel: 1
@@ -80,7 +81,7 @@ Healer:
 
           - name: Daze
             maxLevel: 1
-            
+
           - name: ''
           - name: ''
           - name: ''
