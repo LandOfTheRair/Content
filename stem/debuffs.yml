@@ -26,6 +26,7 @@ Poison:
       - [36, 5]
 
     spellMeta:
+      bonusAgro: 25
       doesOvertime: true
 
   # trait info
@@ -66,6 +67,7 @@ Stun:
     willSaveThreshold: 20
 
     spellMeta:
+      bonusAgro: 500
       doesOvertime: true
 
   # trait info
@@ -107,6 +109,7 @@ Snare:
     willSaveThreshold: 20
 
     spellMeta:
+      bonusAgro: 300
       doesOvertime: true
 
   # trait info
@@ -148,6 +151,7 @@ Daze:
     willSaveThreshold: 25
 
     spellMeta:
+      bonusAgro: 450
       doesOvertime: true
 
   # trait info
