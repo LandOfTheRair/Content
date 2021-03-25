@@ -11,7 +11,7 @@ Chase:
 Climb:
   name: 'Climb'
   macro: 'climbup'
-  icon: 'ladder'
+  icon: 'mountain-climbing'
   color: '#D2691E'
   mode: 'autoActivate'
   tooltipDesc: 'Climb up or down on this tile.'
