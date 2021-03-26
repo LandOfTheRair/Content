@@ -37,6 +37,27 @@ Healer:
 
           - name: Succor
             maxLevel: 1
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
 
     Diviner:
       desc: The Diviner tree
@@ -55,6 +76,27 @@ Healer:
           - name: NecroticFocus
             maxLevel: 5
 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
           - name: ''
           - name: ''
           - name: ''
@@ -85,6 +127,27 @@ Healer:
           - name: ''
           - name: ''
           - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
 
     Bard:
       desc: The Bard tree
@@ -103,7 +166,28 @@ Healer:
 
           - name: BarNecro
             maxLevel: 1
-            
+
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
           - name: ''
           
         - traits: 

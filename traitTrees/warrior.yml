@@ -35,6 +35,27 @@ Warrior:
           - name: ''
 
           - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
 
     Paladin:
       desc: The Paladin tree
@@ -47,6 +68,27 @@ Warrior:
           - name: ''
           - name: ''
 
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
         - traits: 
           - name: ''
           - name: ''
@@ -71,11 +113,53 @@ Warrior:
           - name: ''
           - name: ''
           - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
 
     Monk:
       desc: The Monk tree
 
       tree: 
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
         - traits: 
           - name: ''
           - name: ''

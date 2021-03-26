@@ -34,6 +34,27 @@ Thief:
           - name: ''
 
           - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
 
     Ninja:
       desc: The Ninja tree
@@ -53,6 +74,27 @@ Thief:
             maxLevel: 5
             requires: ImprovedHide
             
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
           - name: ''
           - name: ''
           - name: ''
@@ -79,11 +121,53 @@ Thief:
           - name: ''
           - name: ''
           - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
 
     Assassin:
       desc: The Assassin tree
 
       tree: 
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
         - traits: 
           - name: ''
           - name: ''

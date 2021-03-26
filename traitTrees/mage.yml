@@ -36,6 +36,27 @@ Mage:
 
           - name: ConjureHealing
             maxLevel: 1
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
 
     Protector:
       desc: The Protector tree
@@ -63,6 +84,27 @@ Mage:
           - name: ''
           - name: ''
           - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
 
     Elementalist:
       desc: The Elementalist tree
@@ -81,11 +123,53 @@ Mage:
           - name: ''
           - name: ''
           - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
 
     Battlemage:
       desc: The Battlemage tree
 
       tree: 
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
         - traits: 
           - name: ''
           - name: ''
