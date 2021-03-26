@@ -41,15 +41,20 @@ Mage:
 
       tree: 
         - traits: 
-          - name: 'Identify'
+          - name: Identify
             maxLevel: 1
 
-          - name: 'TrueSight'
+          - name: TrueSight
             maxLevel: 1
-            
-          - name: ''
-          - name: ''
-          - name: ''
+
+          - name: BarFire
+            maxLevel: 1
+
+          - name: BarFrost
+            maxLevel: 1
+
+          - name: BarWater
+            maxLevel: 1
 
         - traits: 
           - name: ''
@@ -63,15 +68,9 @@ Mage:
 
       tree: 
         - traits: 
-          - name: BarFire
-            maxLevel: 1
-
-          - name: BarFrost
-            maxLevel: 1
-
-          - name: BarWater
-            maxLevel: 1
-
+          - name: ''
+          - name: ''
+          - name: ''
           - name: ''
           - name: ''
           
