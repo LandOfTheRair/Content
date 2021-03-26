@@ -103,6 +103,37 @@ Wellspring:
   macro:
     mode: 'autoActivate'
 
+ConjureHealing:
+
+  # global info
+  all:
+    desc: "Create a consumable that will heal you. Cost: 25 MP"
+    icon: brandy-bottle
+    color: "#080"
+
+  # spell cast info
+  spell: 
+    damageClass: heal
+    mpCost: 25
+    maxSkillForGain: 7
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      casterMessage: 'You channel magical energy into a bottle.'
+      casterSfx: 'spell-conjure'
+
+  # trait info
+  trait:
+    borderColor: "#aa0"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'
+
 FindFamiliar:
 
   # global info

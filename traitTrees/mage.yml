@@ -34,7 +34,8 @@ Mage:
 
           - name: ''
 
-          - name: ''
+          - name: ConjureHealing
+            maxLevel: 1
 
     Protector:
       desc: The Protector tree
