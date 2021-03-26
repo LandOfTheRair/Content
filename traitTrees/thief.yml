@@ -107,23 +107,23 @@ Thief:
         - traits: 
           - name: 'Identify'
             maxLevel: 1
-
-          - name: 'TrueSight'
-            maxLevel: 1
             
           - name: ''
           - name: ''
           - name: ''
-          
-        - traits: 
-          - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
           - name: ''
           
         - traits: 
           - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: EagleEye
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''
@@ -148,7 +148,9 @@ Thief:
 
       tree: 
         - traits: 
-          - name: ''
+          - name: 'TrueSight'
+            maxLevel: 1
+
           - name: ''
           - name: ''
           - name: ''

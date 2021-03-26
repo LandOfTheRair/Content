@@ -111,6 +111,53 @@ TrueSight:
   macro:
     mode: 'clickToTarget'
 
+EagleEye:
+
+  # global info
+  all:
+    desc: "See through trees and waters. Cost: 25 MP"
+    icon: "dead-eye"
+    color: "#f00"
+
+  # spell cast info
+  spell: 
+    mpCost: 25
+    maxSkillForGain: 5
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Seeing through trees and water.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-sight-effect'
+      applySfx: 'spell-sight-effect'
+      castMessage: 'You cast EagleEye on %target.'
+      applyMessage: 'Your vision sharpens!'
+      unapplyMessage: 'Your vision returns to normal.'
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
 Secondwind:
 
   # global info
