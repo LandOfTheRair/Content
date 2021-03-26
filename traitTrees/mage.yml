@@ -63,9 +63,15 @@ Mage:
 
       tree: 
         - traits: 
-          - name: ''
-          - name: ''
-          - name: ''
+          - name: BarFire
+            maxLevel: 1
+
+          - name: BarFrost
+            maxLevel: 1
+
+          - name: BarWater
+            maxLevel: 1
+
           - name: ''
           - name: ''
           

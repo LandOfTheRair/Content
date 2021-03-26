@@ -163,3 +163,207 @@ Invisibility:
       castMessage: 'You cast Invisibility on %target.'
       applyMessage: 'You can see through yourself!'
       unapplyMessage: 'You become opaque again.'
+
+BarFire:
+
+  # global info
+  all:
+    name: Flame Shield
+    desc: "Resist some fire damage. Cost: 20 MP"
+    icon: "rosa-shield"
+    bgColor: "#dc143c"
+    color: "#fff"
+
+  # spell cast info
+  spell: 
+    mpCost: 20
+    maxSkillForGain: 10
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Resisting some fire damage.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-magical'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast BarFire on %target.'
+      applyMessage: 'Your body builds a temporary resistance to heat!'
+      unapplyMessage: 'Your heat resistance fades.'
+
+  # trait info
+  trait:
+    iconColor: "#fff"
+    borderColor: "#a00"
+
+  # macro info
+  macro:
+    macro: 'cast barfire'
+    mode: 'clickToTarget'
+
+BarFrost:
+
+  # global info
+  all:
+    name: Frost Shield
+    desc: "Resist some frost damage. Cost: 20 MP"
+    icon: "rosa-shield"
+    bgColor: "#000080"
+    color: "#fff"
+
+  # spell cast info
+  spell: 
+    mpCost: 20
+    maxSkillForGain: 10
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Resisting some frost damage.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-magical'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast BarFrost on %target.'
+      applyMessage: 'Your body builds a temporary resistance to cold!'
+      unapplyMessage: 'Your cold resistance fades.'
+
+  # trait info
+  trait:
+    iconColor: "#fff"
+    borderColor: "#00a"
+
+  # macro info
+  macro:
+    macro: 'cast barfrost'
+    mode: 'clickToTarget'
+
+BarWater:
+
+  # global info
+  all:
+    name: Water Shield
+    desc: "Resist some water damage. Cost: 20 MP"
+    icon: "rosa-shield"
+    bgColor: "#208aec"
+    color: "#fff"
+
+  # spell cast info
+  spell: 
+    mpCost: 20
+    maxSkillForGain: 10
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Resisting some water damage.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-magical'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast BarWater on %target.'
+      applyMessage: 'Your body become able to handle water better!'
+      unapplyMessage: 'Your water capabilities fade.'
+
+  # trait info
+  trait:
+    iconColor: "#fff"
+    borderColor: "#00f"
+
+  # macro info
+  macro:
+    macro: 'cast barwater'
+    mode: 'clickToTarget'
+
+BarNecro:
+
+  # global info
+  all:
+    name: Necrotic Shield
+    desc: "Resist some necrotic, poison, and disease damage. Cost: 20 MP"
+    icon: "rosa-shield"
+    bgColor: "#1b390e"
+    color: "#fff"
+
+  # spell cast info
+  spell: 
+    mpCost: 20
+    maxSkillForGain: 10
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Resisting some necrotic, poison, and disease damage.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-magical'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast BarNecro on %target.'
+      applyMessage: 'Your body builds a temporary resistance to the dark arts!'
+      unapplyMessage: 'Your resistance to the dark arts fades.'
+
+  # trait info
+  trait:
+    iconColor: "#fff"
+    borderColor: "#0f0"
+
+  # macro info
+  macro:
+    macro: 'cast barnecro'
+    mode: 'clickToTarget'

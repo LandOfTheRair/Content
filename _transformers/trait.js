@@ -20,7 +20,7 @@ const merge = async () => {
       stem.trait.spellGiven = stem.trait.spellGiven || stemKey;
       stem.trait.desc = stem.trait.desc || stem.all.desc;
       stem.trait.icon = stem.trait.icon || stem.all.icon;
-      stem.trait.iconColor = stem.trait.iconColor || stem.all.color;
+      stem.trait.iconBgColor = stem.trait.iconBgColor || stem.all.bgColor;
 
       file[stemKey] = stem.trait;
     });

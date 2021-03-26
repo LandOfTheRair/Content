@@ -21,6 +21,7 @@ const merge = async () => {
       stem.macro.macro = stem.macro.macro || `cast ${stemKey.toLowerCase()}`;
       stem.macro.icon = stem.macro.icon || stem.all.icon;
       stem.macro.color = stem.macro.color || stem.all.color;
+      stem.macro.bgColor = stem.macro.bgColor || stem.all.bgColor;
       stem.macro.tooltipDesc = stem.macro.tooltipDesc || stem.all.desc;
 
       file[stemKey] = stem.macro;

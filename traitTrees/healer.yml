@@ -92,12 +92,18 @@ Healer:
       tree: 
         - traits: 
 
-          - name: 'TrueSight'
+          - name: TrueSight
             maxLevel: 1
             
-          - name: ''
-          - name: ''
-          - name: ''
+          - name: BarFire
+            maxLevel: 1
+
+          - name: BarFrost
+            maxLevel: 1
+
+          - name: BarNecro
+            maxLevel: 1
+            
           - name: ''
           
         - traits: 

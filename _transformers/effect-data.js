@@ -19,6 +19,7 @@ const merge = async () => {
       stem.effect.tooltip = stem.effect.tooltip || {};
       stem.effect.tooltip.icon = stem.effect.tooltip.icon || stem.all.icon;
       stem.effect.tooltip.color = stem.effect.tooltip.color || stem.all.color;
+      stem.effect.tooltip.bgColor = stem.effect.tooltip.bgColor || stem.all.bgColor;
 
       file[stemKey] = stem.effect;
     });
