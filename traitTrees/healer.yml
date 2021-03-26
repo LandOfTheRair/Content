@@ -48,7 +48,7 @@ Healer:
         - traits: 
           - name: SecondWind
             maxLevel: 1
-            
+
           - name: ''
           - name: ''
           - name: ''
@@ -135,7 +135,8 @@ Healer:
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+          - name: Disease
+            maxLevel: 1
           
         - traits: 
           - name: ''
