@@ -7,7 +7,7 @@
 
   baseEffects:
     - name: Unshakeable
-    - name: Secondwind
+    - name: SecondWind
       endsAt: -1
 
   gold:

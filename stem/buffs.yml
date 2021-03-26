@@ -158,20 +158,32 @@ EagleEye:
   macro:
     mode: 'clickToTarget'
 
-Secondwind:
+SecondWind:
 
   # global info
   all:
-    desc: ""
-    icon: ""
-    color: ""
+    desc: "Prevent gear loss on strip/eat. Cost: 100 MP"
+    icon: "wing-cloak"
+    color: "#a0a"
+
+  # spell cast info
+  spell: 
+    mpCost: 25
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
 
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
       icon: 'uncertainty'
-      color: '#000'
-      desc: '???'
     effect:
       type: buff
       duration: 600
@@ -181,11 +193,14 @@ Secondwind:
     effectMeta:
       castSfx: 'spell-buff-magical'
       applySfx: 'spell-buff-magical'
-      castMessage: 'You cast Secondwind on %target.'
+      castMessage: 'You cast SecondWind on %target.'
       applyMessage: 'You are enclosed by a safe aura!'
       unapplyMessage: 'Your safety aura fades.'
-      
 
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+      
 Invisibility:
 
   # global info

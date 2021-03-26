@@ -80,7 +80,7 @@
     uses: 10
     potency: 100
 
-- name: Secondwind Ring
+- name: SecondWind Ring
   sprite: 970
   desc: "a golden wedding ring set with a purple gem that has wings carved into it"
   value: 100
@@ -88,7 +88,7 @@
   stats:
     defense: 10
   useEffect:
-    name: Secondwind
+    name: SecondWind
     uses: 100
     potency: 50
   requirements:
