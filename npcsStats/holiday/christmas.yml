@@ -79,7 +79,7 @@
       chance: 100
     - result: BarFrost
       chance: 100
-    - result: MagicShield
+    - result: Protection
       chance: 100
     - result: ChristmasPresentElfDropPresent
       chance: 5

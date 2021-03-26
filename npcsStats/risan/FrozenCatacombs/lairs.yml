@@ -310,7 +310,7 @@
     - Haste
     - ImbueFrost
     - Absorption
-    - MagicShield
+    - Protection
     - DarkVision
     - TrueSight
     - Boost
@@ -431,7 +431,7 @@
       chance: 100
     - result: Absorption
       chance: 100
-    - result: MagicShield
+    - result: Protection
       chance: 100
     - result: DarkVision
       chance: 100

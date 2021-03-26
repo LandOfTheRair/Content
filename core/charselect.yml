@@ -114,11 +114,11 @@ classes:
 
   - name: 'Healer'
     description: >      
-      The Healer is a very supportive class, able to do moderate single target damage and keep allies alive with support magic. This class is able to specialize as a Druid, Bard or Diviner.
+      The Healer is a very supportive class, able to do moderate single target damage and keep allies alive with support magic. This class is able to specialize as a Druid, Oracle or Diviner.
             
       The Druid specialization gives the Healer an immense amount of debuffing magic to snare and daze foes.
       
-      The Bard specialization gives the Healer a wide array of support magic, even allowing to cast on multiple allies simultaneously.
+      The Oracle specialization gives the Healer a wide array of support magic, even allowing to cast on multiple allies simultaneously.
       
       The Diviner specialization gives the Healer strong single-target damage spells, and some holy buffs to be cast on itself.
     statMods:
@@ -141,9 +141,9 @@ classes:
   - name: 'Mage'
     description: >
       The Mage is a very powerful and versatile spellcaster, able to do excellent single target damage, area of effect damage,
-      and brings some interesting utility ablities to combat. This class is able to specialize as a Protector, Elementalist, or Battlemage.
+      and brings some interesting utility ablities to combat. This class is able to specialize as a Evoker, Elementalist, or Battlemage.
       
-      The Protector brings support abilities to combat, and can help protect or support allies.
+      The Evoker brings support abilities to combat, and can help protect or support allies.
       
       The Elementalist brings powerful fire and ice abilities to combat.
       

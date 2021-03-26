@@ -454,7 +454,7 @@
       chance: 10
     - result: TrueSight
       chance: 100
-    - result: MagicShield
+    - result: Protection
       chance: 100
     - result: Absorption
       chance: 100

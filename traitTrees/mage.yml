@@ -1,7 +1,7 @@
 
 Mage:
 
-  treeOrder: ['Mage', 'Elementalist', 'Protector', 'Battlemage']
+  treeOrder: ['Mage', 'Elementalist', 'Evoker', 'Battlemage']
 
   trees:
     Mage:
@@ -58,8 +58,8 @@ Mage:
           - name: ''
           - name: ''
 
-    Protector:
-      desc: The Protector tree
+    Evoker:
+      desc: The Evoker tree
 
       tree: 
         - traits: 
@@ -79,14 +79,20 @@ Mage:
             maxLevel: 1
 
         - traits: 
-          - name: ''
-          - name: ''
+          - name: Protection
+            maxLevel: 1
+
+          - name: Absorption
+            maxLevel: 1
+
           - name: ''
           - name: ''
           - name: ''
           
         - traits: 
-          - name: ''
+          - name: Haste
+            maxLevel: 1
+
           - name: ''
           - name: ''
           - name: ''

@@ -237,8 +237,7 @@ BarFire:
     name: Flame Shield
     desc: "Resist some fire damage. Cost: 20 MP"
     icon: "rosa-shield"
-    bgColor: "#dc143c"
-    color: "#fff"
+    color: "#dc143c"
 
   # spell cast info
   spell: 
@@ -273,7 +272,6 @@ BarFire:
 
   # trait info
   trait:
-    iconColor: "#fff"
     borderColor: "#a00"
 
   # macro info
@@ -288,8 +286,7 @@ BarFrost:
     name: Frost Shield
     desc: "Resist some frost damage. Cost: 20 MP"
     icon: "rosa-shield"
-    bgColor: "#000080"
-    color: "#fff"
+    color: "#000080"
 
   # spell cast info
   spell: 
@@ -324,7 +321,6 @@ BarFrost:
 
   # trait info
   trait:
-    iconColor: "#fff"
     borderColor: "#00a"
 
   # macro info
@@ -339,8 +335,7 @@ BarWater:
     name: Water Shield
     desc: "Resist some water damage. Cost: 20 MP"
     icon: "rosa-shield"
-    bgColor: "#208aec"
-    color: "#fff"
+    color: "#208aec"
 
   # spell cast info
   spell: 
@@ -375,7 +370,6 @@ BarWater:
 
   # trait info
   trait:
-    iconColor: "#fff"
     borderColor: "#00f"
 
   # macro info
@@ -390,8 +384,7 @@ BarNecro:
     name: Necrotic Shield
     desc: "Resist some necrotic, poison, and disease damage. Cost: 20 MP"
     icon: "rosa-shield"
-    bgColor: "#1b390e"
-    color: "#fff"
+    color: "#1b390e"
 
   # spell cast info
   spell: 
@@ -426,7 +419,6 @@ BarNecro:
 
   # trait info
   trait:
-    iconColor: "#fff"
     borderColor: "#0f0"
 
   # macro info
@@ -530,6 +522,147 @@ Regen:
       castMessage: 'You gave regeneration to %target.'
       applyMessage: "You are now regenerating health!"
       unapplyMessage: 'You are no longer regenerating health.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+Protection:
+
+  # global info
+  all:
+    desc: "Resist some physical damage. Cost: 65 MP"
+    icon: "energy-shield"
+    color: "#a0a"
+
+  # spell cast info
+  spell: 
+    mpCost: 65
+    maxSkillForGain: 15
+    skillMultiplierChanges:
+      - [0,  2]
+      - [11, 3]
+      - [21, 4]
+      - [31, 5]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Resisting some physical damage.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-magical'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast Protection on %target.'
+      applyMessage: 'You begin to glow light blue!'
+      unapplyMessage: 'Your light blue glow fades.'
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+Absorption:
+
+  # global info
+  all:
+    desc: "Resist some magical damage. Cost: 65 MP"
+    icon: "magic-swirl"
+    color: "#a0a"
+
+  # spell cast info
+  spell: 
+    mpCost: 65
+    maxSkillForGain: 15
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Resisting some magical damage.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-magical'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast Absorption on %target.'
+      applyMessage: 'You begin to glow dark purple!'
+      unapplyMessage: 'Your dark purple glow fades.'
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+Haste:
+
+  # global info
+  all:
+    desc: "Act twice as fast. Cost: 200 MP"
+    icon: "time-trap"
+    color: "#0a0"
+
+  # spell cast info
+  spell: 
+    mpCost: 200
+    maxSkillForGain: 15
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 1]
+      - [21, 1]
+      - [41, 2]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Acting twice as fast.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-magical'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast Haste on %target.'
+      applyMessage: 'The world around you begins to slow down!'
+      unapplyMessage: 'The world around you speeds up again.'
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
 
   # macro info
   macro:

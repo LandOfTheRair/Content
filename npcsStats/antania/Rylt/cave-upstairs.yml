@@ -75,7 +75,7 @@
       chance: 100
     - result: TrueSight
       chance: 100
-    - result: MagicShield
+    - result: Protection
       chance: 100
     - result: Leash
       chance: 10
