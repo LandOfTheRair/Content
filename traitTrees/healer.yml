@@ -1,7 +1,7 @@
 
 Healer:
 
-  treeOrder: ['Healer', 'Diviner', 'Druid', 'Bard']
+  treeOrder: ['Healer', 'Diviner', 'Druid', 'Oracle']
 
   trees:
     Healer:
@@ -39,7 +39,9 @@ Healer:
             maxLevel: 1
           
         - traits: 
-          - name: ''
+          - name: Regen
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''
@@ -152,8 +154,8 @@ Healer:
           - name: ''
           - name: ''
 
-    Bard:
-      desc: The Bard tree
+    Oracle:
+      desc: The Oracle tree
 
       tree: 
         - traits: 
@@ -173,7 +175,9 @@ Healer:
           - name: ''
           
         - traits: 
-          - name: ''
+          - name: Aid
+            maxLevel: 1
+
           - name: ''
           - name: ''
           - name: ''

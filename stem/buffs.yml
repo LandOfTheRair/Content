@@ -433,3 +433,104 @@ BarNecro:
   macro:
     macro: 'cast barnecro'
     mode: 'clickToTarget'
+
+Aid:
+
+  # global info
+  all:
+    name: Aid
+    desc: "Increased DEX and offensive capabilities. Cost: 100 MP"
+    icon: "three-friends"
+    color: "#00c"
+
+  # spell cast info
+  spell: 
+    mpCost: 100
+    maxSkillForGain: 10
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Increased DEX and offensive capabilities.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-magical'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast Aid on %target.'
+      applyMessage: 'You feel guided by a higher presence!'
+      unapplyMessage: 'The guidance fades.'
+
+  # trait info
+  trait:
+    iconColor: "#fff"
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+Regen:
+
+  # global info
+  all:
+    desc: "Grant regeneration to a single target. Cost: 25 MP."
+    icon: star-swirl
+    color: "#00a"
+
+  # spell cast info
+  spell: 
+    damageClass: heal
+    mpCost: 25
+    maxSkillForGain: 20
+    potencyMultiplier: 0.5
+    skillMultiplierChanges:
+      - [0,  1]
+      - [6,  1.25]
+      - [11, 1.5]
+      - [16, 1.75]
+      - [21, 2]
+      - [26, 2.5]
+      - [31, 3.25]
+      - [36, 5]
+
+    spellMeta:
+      doesHeal: true
+      noHostileTarget: true
+      doesOvertime: true
+
+  # trait info
+  trait:
+    borderColor: "#0a0"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'You are regenerating health.'
+    effect:
+      type: buff
+      duration: 0
+    effectMeta:
+      effectRef: Regen
+      castSfx: 'spell-buff-give'
+      applySfx: 'spell-buff-receive'
+      castMessage: 'You gave regeneration to %target.'
+      applyMessage: "You are now regenerating health!"
+      unapplyMessage: 'You are no longer regenerating health.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
