@@ -118,8 +118,12 @@ Mage:
           - name: ''
           
         - traits: 
-          - name: ''
-          - name: ''
+          - name: Combust
+            maxLevel: 1
+
+          - name: Hail
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''

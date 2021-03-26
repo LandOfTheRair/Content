@@ -476,7 +476,7 @@ Aid:
 
   # trait info
   trait:
-    iconColor: "#fff"
+    iconColor: "#000"
     borderColor: "#ccc"
 
   # macro info

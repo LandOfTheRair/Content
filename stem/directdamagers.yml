@@ -116,6 +116,95 @@ MagicBolt:
       casterSfx: 'combat-hit-spell'
       targetAttackMessage: '%0 hit you with a bolt of energy!'
 
+  # trait info
+  trait:
+    name: Magic Bolt
+    borderColor: "#a0a"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+Combust:
+
+  # global info
+  all:
+    desc: "Inflict fire damage on a single target. Cost: 20 MP"
+    icon: burning-dot
+    color: "#dc143c"
+
+  # spell cast info
+  spell: 
+    damageClass: fire
+    mpCost: 20
+    maxSkillForGain: 40
+    potencyMultiplier: 2
+    willSaveThreshold: 25
+    willSavePercent: 50
+    bonusRollsMin: 3
+    bonusRollsMax: 6
+    skillMultiplierChanges:
+      - [0,  6]
+      - [6,  7]
+      - [11, 8]
+      - [16, 9]
+      - [21, 10]
+      - [26, 11]
+      - [31, 15]
+      - [36, 20]
+
+    spellMeta:
+      doesAttack: true
+      casterAttackMessage: 'You scorch %0!'
+      casterSfx: 'combat-hit-spell'
+      targetAttackMessage: '%0 scorched you!'
+
+  # trait info
+  trait:
+    borderColor: "#a00"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+Hail:
+
+  # global info
+  all:
+    desc: "Inflict ice damage on a single target. Cost: 20 MP"
+    icon: burning-dot
+    color: "#000080"
+
+  # spell cast info
+  spell: 
+    damageClass: ice
+    mpCost: 20
+    maxSkillForGain: 40
+    potencyMultiplier: 2
+    willSaveThreshold: 25
+    willSavePercent: 50
+    bonusRollsMin: 3
+    bonusRollsMax: 6
+    skillMultiplierChanges:
+      - [0,  6]
+      - [6,  7]
+      - [11, 8]
+      - [16, 9]
+      - [21, 10]
+      - [26, 11]
+      - [31, 15]
+      - [36, 20]
+
+    spellMeta:
+      doesAttack: true
+      casterAttackMessage: 'You fling pellets of ice at %0!'
+      casterSfx: 'combat-hit-spell'
+      targetAttackMessage: '%0 bombarded you with pellets of ice!'
+
+  # trait info
+  trait:
+    borderColor: "#00a"
+
   # macro info
   macro:
     mode: 'clickToTarget'
