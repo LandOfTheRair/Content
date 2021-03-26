@@ -183,7 +183,7 @@ SecondWind:
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      icon: 'uncertainty'
+      icon: 'wing-cloak'
     effect:
       type: buff
       duration: 600
@@ -196,6 +196,10 @@ SecondWind:
       castMessage: 'You cast SecondWind on %target.'
       applyMessage: 'You are enclosed by a safe aura!'
       unapplyMessage: 'Your safety aura fades.'
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
 
   # macro info
   macro:
