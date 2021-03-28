@@ -141,8 +141,8 @@ Combust:
     potencyMultiplier: 2
     willSaveThreshold: 25
     willSavePercent: 50
-    bonusRollsMin: 3
-    bonusRollsMax: 6
+    bonusRollsMin: 2
+    bonusRollsMax: 4
     skillMultiplierChanges:
       - [0,  1]
       - [6,  2]
@@ -180,11 +180,11 @@ Hail:
     damageClass: ice
     mpCost: 20
     maxSkillForGain: 40
-    potencyMultiplier: 2
+    potencyMultiplier: 1.5
     willSaveThreshold: 25
     willSavePercent: 50
-    bonusRollsMin: 3
-    bonusRollsMax: 6
+    bonusRollsMin: 1
+    bonusRollsMax: 3
     skillMultiplierChanges:
       - [0,  0.75]
       - [6,  1.5]
