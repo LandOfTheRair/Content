@@ -144,14 +144,14 @@ Combust:
     bonusRollsMin: 3
     bonusRollsMax: 6
     skillMultiplierChanges:
-      - [0,  6]
-      - [6,  7]
-      - [11, 8]
-      - [16, 9]
-      - [21, 10]
-      - [26, 11]
-      - [31, 15]
-      - [36, 20]
+      - [0,  1]
+      - [6,  2]
+      - [11, 3]
+      - [16, 4]
+      - [21, 5]
+      - [26, 6]
+      - [31, 8]
+      - [36, 15]
 
     spellMeta:
       doesAttack: true
@@ -186,14 +186,14 @@ Hail:
     bonusRollsMin: 3
     bonusRollsMax: 6
     skillMultiplierChanges:
-      - [0,  6]
-      - [6,  7]
-      - [11, 8]
-      - [16, 9]
-      - [21, 10]
-      - [26, 11]
-      - [31, 15]
-      - [36, 20]
+      - [0,  0.75]
+      - [6,  1.5]
+      - [11, 2.25]
+      - [16, 3]
+      - [21, 3.75]
+      - [26, 4.5]
+      - [31, 7]
+      - [36, 12]
 
     spellMeta:
       doesAttack: true
