@@ -33,6 +33,43 @@ Cure:
   macro:
     mode: 'clickToTarget'
 
+PowerwordHeal:
+
+  # global info
+  all:
+    desc: "Heal your entire party. Cost: 100 MP."
+    icon: tentacle-heart
+    color: "#0f0"
+
+  # spell cast info
+  spell: 
+    damageClass: heal
+    mpCost: 100
+    maxSkillForGain: 30
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      targetsParty: true
+      doesHeal: true
+      noHostileTarget: true
+      casterAttackMessage: 'You heal %0!'
+      casterSfx: 'spell-heal'
+      targetAttackMessage: '%0 healed you!'
+
+  # trait info
+  trait:
+    name: Powerword Heal
+    borderColor: "#aa0"
+
+  # macro info
+  macro:
+    macro: 'powerword heal'
+    mode: 'autoActivate'
+
 Revive:
 
   # global info

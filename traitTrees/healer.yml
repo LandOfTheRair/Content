@@ -39,10 +39,13 @@ Healer:
             maxLevel: 1
           
         - traits: 
+          - name: PowerwordHeal
+            maxLevel: 1
+            requires: Cure
+            
           - name: Regen
             maxLevel: 1
             
-          - name: ''
           - name: ''
           - name: ''
           - name: ''
@@ -60,7 +63,7 @@ Healer:
 
           - name: Clearcasting
             maxLevel: 1
-            
+
           - name: ''
           - name: ''
           - name: ''
