@@ -87,7 +87,7 @@ Mage:
 
           - name: ThermalBarrier
             maxLevel: 5
-            
+
           - name: ''
           - name: ''
           
@@ -98,7 +98,8 @@ Mage:
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+          - name: FleetOfFoot
+            maxLevel: 1
           
         - traits: 
           - name: ''

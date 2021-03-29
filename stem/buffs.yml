@@ -168,7 +168,7 @@ SecondWind:
 
   # spell cast info
   spell: 
-    mpCost: 25
+    mpCost: 100
     maxSkillForGain: 20
     skillMultiplierChanges:
       - [0,  4]
@@ -196,6 +196,53 @@ SecondWind:
       castMessage: 'You cast SecondWind on %target.'
       applyMessage: 'You are enclosed by a safe aura!'
       unapplyMessage: 'Your safety aura fades.'
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+FleetOfFoot:
+
+  # global info
+  all:
+    desc: "Take less damage from falls and be immune to prone. Cost: 25 MP"
+    icon: "wing-foot"
+    color: "#0aa"
+
+  # spell cast info
+  spell: 
+    mpCost: 25
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      icon: 'wing-foot'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-physical'
+      applySfx: 'spell-buff-physical'
+      castMessage: 'You cast FleetOfFoot on %target.'
+      applyMessage: 'You feel light on your feet!'
+      unapplyMessage: 'Your body returns to the ground.'
 
   # trait info
   trait:
