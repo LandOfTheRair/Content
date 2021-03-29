@@ -714,3 +714,102 @@ Haste:
   # macro info
   macro:
     mode: 'clickToTarget'
+
+PowerwordBarNecro:
+
+  # global info
+  all:
+    desc: "Give your entire party necrotic resistance. Cost: 150 MP."
+    icon: rosa-shield
+    color: "#1b390e"
+
+  # spell cast info
+  spell: 
+    damageClass: heal
+    mpCost: 150
+    maxSkillForGain: 30
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      targetsParty: true
+      noHostileTarget: true
+
+  # trait info
+  trait:
+    name: Powerword BarNecro
+    borderColor: "#0a0"
+
+  # macro info
+  macro:
+    macro: 'powerword barnecro'
+    mode: 'autoActivate'
+
+PowerwordBarFire:
+
+  # global info
+  all:
+    desc: "Give your entire party fire resistance. Cost: 150 MP."
+    icon: rosa-shield
+    color: "#dc143c"
+
+  # spell cast info
+  spell: 
+    damageClass: heal
+    mpCost: 150
+    maxSkillForGain: 30
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      targetsParty: true
+      noHostileTarget: true
+
+  # trait info
+  trait:
+    name: Powerword BarFire
+    borderColor: "#a00"
+
+  # macro info
+  macro:
+    macro: 'powerword barfire'
+    mode: 'autoActivate'
+
+PowerwordBarFrost:
+
+  # global info
+  all:
+    desc: "Give your entire party frost resistance. Cost: 150 MP."
+    icon: rosa-shield
+    color: "#000080"
+
+  # spell cast info
+  spell: 
+    damageClass: heal
+    mpCost: 150
+    maxSkillForGain: 30
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      targetsParty: true
+      noHostileTarget: true
+
+  # trait info
+  trait:
+    name: Powerword BarFrost
+    borderColor: "#00a"
+
+  # macro info
+  macro:
+    macro: 'powerword barfrost'
+    mode: 'autoActivate'

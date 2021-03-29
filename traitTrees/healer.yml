@@ -42,7 +42,7 @@ Healer:
           - name: PowerwordHeal
             maxLevel: 1
             requires: Cure
-            
+
           - name: Regen
             maxLevel: 1
             
@@ -194,9 +194,18 @@ Healer:
           
         - traits: 
           - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
+          - name: PowerwordBarFire
+            maxLevel: 1
+            requires: BarFire
+            
+          - name: PowerwordBarFrost
+            maxLevel: 1
+            requires: BarFrost
+
+          - name: PowerwordBarNecro
+            maxLevel: 1
+            requires: BarNecro
+
           - name: ''
           
         - traits: 
