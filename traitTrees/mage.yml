@@ -29,8 +29,7 @@ Mage:
 
           - name: ''
 
-          - name: Clearcasting
-            maxLevel: 1
+          - name: ''
 
           - name: ''
 
@@ -52,7 +51,10 @@ Mage:
           - name: ''
           
         - traits: 
-          - name: ''
+
+          - name: Clearcasting
+            maxLevel: 1
+
           - name: ''
           - name: ''
           - name: ''

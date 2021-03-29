@@ -27,10 +27,10 @@ Healer:
             maxLevel: 5
             requires: Cure
 
-          - name: ''
-
-          - name: Clearcasting
+          - name: Revive
             maxLevel: 1
+
+          - name: ''
 
           - name: Wellspring
             maxLevel: 1
@@ -57,7 +57,10 @@ Healer:
           - name: ''
           
         - traits: 
-          - name: ''
+
+          - name: Clearcasting
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''

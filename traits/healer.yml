@@ -3,7 +3,7 @@
 HealingFocus:
   name: Healing Focus
   desc: Heal $10$% more health when you use Restoration magic.
-  icon: drink-me
+  icon: health-increase
   statsGiven:
     healingBoostPercent: 10
 

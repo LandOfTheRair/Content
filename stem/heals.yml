@@ -41,6 +41,26 @@ Revive:
     icon: quicksand
     color: "#080"
 
+  # spell cast info
+  spell: 
+    damageClass: heal
+    mpCost: 50
+    maxSkillForGain: 30
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      doesHeal: true
+      noHostileTarget: true
+      casterSfx: 'spell-heal'
+
+  # trait info
+  trait:
+    borderColor: "#aa0"
+
   # macro info
   macro:
     mode: 'autoActivate'
