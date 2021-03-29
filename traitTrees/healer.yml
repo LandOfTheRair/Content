@@ -180,7 +180,10 @@ Healer:
 
           - name: ''
           - name: ''
-          - name: ''
+          - name: NecroticWard
+            maxLevel: 5
+            requires: BarNecro
+            
           - name: ''
           
         - traits: 

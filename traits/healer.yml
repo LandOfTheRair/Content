@@ -13,3 +13,8 @@ NecroticFocus:
   icon: plasma-bolt
   statsGiven:
     necroticBoostPercent: 10
+
+NecroticWard:
+  name: Necrotic Ward
+  desc: Protect against +$10$% more necrotic damage.
+  icon: transportation-rings
