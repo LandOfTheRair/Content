@@ -85,7 +85,9 @@ Mage:
           - name: Absorption
             maxLevel: 1
 
-          - name: ''
+          - name: ThermalBarrier
+            maxLevel: 5
+            
           - name: ''
           - name: ''
           

@@ -5,3 +5,8 @@ EnergyFocus:
   icon: plasma-bolt
   statsGiven:
     energyBoostPercent: 10
+
+ThermalBarrier:
+  name: Thermal Barrier
+  desc: Protect against +$10$% more fire and ice damage.
+  icon: transportation-rings
