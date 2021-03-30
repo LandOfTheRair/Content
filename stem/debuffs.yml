@@ -117,10 +117,10 @@ Stun:
   spell: 
     mpCost: 25
     maxSkillForGain: 20
-    willSaveThreshold: 20
 
     spellMeta:
       bonusAgro: 500
+      canBeResisted: true
       doesOvertime: true
 
   # trait info
@@ -159,10 +159,10 @@ Snare:
   spell: 
     mpCost: 25
     maxSkillForGain: 15
-    willSaveThreshold: 20
 
     spellMeta:
       bonusAgro: 300
+      canBeResisted: true
       doesOvertime: true
 
   # trait info
@@ -201,10 +201,10 @@ Daze:
   spell: 
     mpCost: 25
     maxSkillForGain: 15
-    willSaveThreshold: 25
 
     spellMeta:
       bonusAgro: 450
+      canBeResisted: true
       doesOvertime: true
 
   # trait info
