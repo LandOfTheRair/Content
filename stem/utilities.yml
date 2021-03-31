@@ -152,3 +152,30 @@ FindFamiliar:
 
     spellMeta:
       casterMessage: 'You begin channeling for a familiar...'
+
+Push:
+
+  # global info
+  all:
+    desc: "Push a single target around. Cost: 15 MP"
+    icon: swirl-string
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    damageClass: physical
+    mpCost: 15
+    maxSkillForGain: 30
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      canBeResisted: true
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
