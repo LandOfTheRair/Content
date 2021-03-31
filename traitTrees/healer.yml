@@ -193,7 +193,9 @@ Healer:
           - name: ''
           
         - traits: 
-          - name: ''
+          - name: VitalEssence
+            maxLevel: 1
+            
           - name: PowerwordBarFire
             maxLevel: 1
             requires: BarFire

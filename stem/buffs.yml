@@ -819,3 +819,53 @@ PowerwordBarFrost:
   macro:
     macro: 'powerword barfrost'
     mode: 'autoActivate'
+
+VitalEssence:
+
+  # global info
+  all:
+    name: VitalEssence
+    desc: "Increased HP and AC. Cost: 100 MP"
+    icon: "bell-shield"
+    color: "#0a0"
+
+  # spell cast info
+  spell: 
+    mpCost: 100
+    maxSkillForGain: 10
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Increased HP and AC.'
+    effect:
+      type: incoming
+      duration: -1
+      extra:
+        charges: 600
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-magical'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast VitalEssence on %target.'
+      applyMessage: 'Your body feels more durable!'
+      unapplyMessage: 'The durability fades.'
+
+  # trait info
+  trait:
+    iconColor: "#000"
+    borderColor: "#0a0"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
