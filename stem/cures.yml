@@ -1,0 +1,24 @@
+
+Antidote:
+
+  # global info
+  all:
+    desc: "Cure poison from a single target. Cost: 10 MP"
+    icon: miracle-medecine
+    color: "#0a0"
+
+  # spell cast info
+  spell: 
+    damageClass: heal
+    mpCost: 10
+    maxSkillForGain: 10
+    skillMultiplierChanges:
+      - [0,  1]
+
+  # trait info
+  trait:
+    borderColor: "#0a0"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'

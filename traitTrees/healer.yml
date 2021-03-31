@@ -129,14 +129,15 @@ Healer:
           - name: ''
           
         - traits: 
-          - name: Snare
+          - name: Antidote
             maxLevel: 1
 
           - name: Daze
             maxLevel: 1
 
           - name: ''
-          - name: ''
+          - name: Snare
+            maxLevel: 1
           - name: ''
           
         - traits: 
