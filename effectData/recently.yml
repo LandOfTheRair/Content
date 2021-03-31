@@ -43,3 +43,14 @@ RecentlySnared:
     duration: 15
     extra:
       unique: true
+
+RecentlyBlinded:
+  tooltip:
+    icon: 'evil-eyes'
+    color: '#000'
+    desc: 'You were recently blinded.'
+  effect:
+    type: debuff
+    duration: 15
+    extra:
+      unique: true

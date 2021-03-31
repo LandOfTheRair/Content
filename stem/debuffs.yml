@@ -230,3 +230,45 @@ Daze:
   # macro info
   macro:
     mode: 'clickToTarget'
+    
+Blind:
+
+  # global info
+  all:
+    desc: "Blind a single target. Cost: 25 MP."
+    icon: evil-eyes
+    color: "#900"
+
+  # spell cast info
+  spell: 
+    mpCost: 25
+    maxSkillForGain: 15
+
+    spellMeta:
+      bonusAgro: 100
+      canBeResisted: true
+      doesOvertime: true
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'You are blinded and cannot see.'
+    effect:
+      type: debuff
+      duration: 0
+    effectMeta:
+      effectRef: Blind
+      recentlyRef: RecentlyBlinded
+      castSfx: 'spell-debuff-give'
+      applySfx: 'spell-debuff-receive'
+      castMessage: 'You blinded %target.'
+      applyMessage: "You've been blinded!"
+      unapplyMessage: 'You are no longer blinded.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'

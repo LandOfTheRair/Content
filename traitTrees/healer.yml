@@ -124,7 +124,9 @@ Healer:
           - name: Stun
             maxLevel: 1
             
-          - name: ''
+          - name: Blind
+            maxLevel: 1
+
           - name: ''
           - name: ''
           
@@ -135,9 +137,12 @@ Healer:
           - name: Daze
             maxLevel: 1
 
-          - name: ''
+          - name: Vision
+            maxLevel: 1
+
           - name: Snare
             maxLevel: 1
+          
           - name: ''
           
         - traits: 

@@ -22,3 +22,27 @@ Antidote:
   # macro info
   macro:
     mode: 'clickToTarget'
+
+Vision:
+
+  # global info
+  all:
+    desc: "Cure blindness from a single target. Cost: 10 MP"
+    icon: evil-eyes
+    color: "#0a0"
+
+  # spell cast info
+  spell: 
+    damageClass: heal
+    mpCost: 10
+    maxSkillForGain: 10
+    skillMultiplierChanges:
+      - [0,  1]
+
+  # trait info
+  trait:
+    borderColor: "#0a0"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
