@@ -210,7 +210,7 @@ FleetOfFoot:
   # global info
   all:
     desc: "Take less damage from falls and be immune to prone. Cost: 25 MP"
-    icon: "wing-foot"
+    icon: "wingfoot"
     color: "#0aa"
 
   # spell cast info
@@ -230,7 +230,7 @@ FleetOfFoot:
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      icon: 'wing-foot'
+      icon: 'wingfoot'
     effect:
       type: buff
       duration: 600
