@@ -105,6 +105,7 @@ TrueSight:
 
   # trait info
   trait:
+    name: True Sight
     borderColor: "#ccc"
 
   # macro info
@@ -246,6 +247,7 @@ FleetOfFoot:
 
   # trait info
   trait:
+    name: Fleet of Foot
     borderColor: "#ccc"
 
   # macro info
@@ -319,6 +321,7 @@ BarFire:
 
   # trait info
   trait:
+    name: Bar Fire
     borderColor: "#a00"
 
   # macro info
@@ -368,6 +371,7 @@ BarFrost:
 
   # trait info
   trait:
+    name: Bar Frost
     borderColor: "#00a"
 
   # macro info
@@ -417,6 +421,7 @@ BarWater:
 
   # trait info
   trait:
+    name: Bar Water
     borderColor: "#00f"
 
   # macro info
@@ -466,6 +471,7 @@ BarNecro:
 
   # trait info
   trait:
+    name: Bar Necro
     borderColor: "#0f0"
 
   # macro info
