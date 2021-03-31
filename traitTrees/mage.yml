@@ -29,7 +29,8 @@ Mage:
 
           - name: ''
 
-          - name: ''
+          - name: Push
+            maxLevel: 1
 
           - name: ''
 
