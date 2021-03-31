@@ -200,6 +200,7 @@ SecondWind:
 
   # trait info
   trait:
+    name: Second Wind
     borderColor: "#ccc"
 
   # macro info
@@ -868,4 +869,5 @@ VitalEssence:
 
   # macro info
   macro:
+    name: Vital Essence
     mode: 'clickToTarget'
