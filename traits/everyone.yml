@@ -18,3 +18,9 @@ CarefulTouch:
   desc: Decrease the damage your items take by +$10$%.
   icon: blacksmith
   valuePerTier: 10
+  
+InternalFortitude:
+  name: Internal Fortitude
+  desc: Increase your saving throw to resist spells by +$2$.
+  icon: brain
+  valuePerTier: 2

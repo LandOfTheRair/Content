@@ -236,6 +236,9 @@
       chance: 1
       maxChance: 20
 
+  traitLevels:
+    InternalFortitude: 3
+
   triggers:
     combat:
       messages:

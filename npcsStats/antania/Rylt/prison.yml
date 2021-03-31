@@ -639,6 +639,8 @@
         - "Turn around now before it's too late!"
         - "You will be slain for your insolence!"
 
+  traitLevels:
+    InternalFortitude: 3
 
   items:
     equipment:

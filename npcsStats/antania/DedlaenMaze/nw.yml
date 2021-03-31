@@ -279,6 +279,9 @@
     - SkillSuckWeak
     - DarkVision
     - TrueSight
+    
+  traitLevels:
+    InternalFortitude: 5
 
   triggers:
     combat:

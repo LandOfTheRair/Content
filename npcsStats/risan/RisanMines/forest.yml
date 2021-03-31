@@ -262,6 +262,7 @@
         damageType: 'physical'
 
   traitLevels:
+    InternalFortitude: 5
     StunningFist: 7
     ForcefulStrike: 3
 
@@ -542,6 +543,7 @@
   skillOnKill: 75
 
   traitLevels:
+    InternalFortitude: 5
     OffhandFinesse: 5
     ForcefulStrike: 3
     HolyProtection: 5

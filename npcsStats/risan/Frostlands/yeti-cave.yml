@@ -272,7 +272,8 @@
       rightHand: Frostlands Frozen Yeti Club
 
   traitLevels:
-    Sterlingarmor: 10
+    InternalFortitude: 5
+    SterlingArmor: 10
     HolyProtection: 10
     DoubleThrust: 1
     ShadowSwap: 5

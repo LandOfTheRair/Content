@@ -51,6 +51,8 @@
       robe2: Crazed Saraxa Robe
       rightHand: Crazed Saraxa Wand
 
+  traitLevels:
+    InternalFortitude: 5
 
   usableSkills:
     - result: Charge

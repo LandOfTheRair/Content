@@ -20,3 +20,12 @@ Core:
 
           - name: Charge
             maxLevel: 1
+
+        - traits: 
+          - name: InternalFortitude
+            maxLevel: 5
+            
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''

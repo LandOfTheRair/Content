@@ -104,8 +104,9 @@
       hands: Mines Animal Claws
 
   traitLevels:
+    InternalFortitude: 5
     Riposte: 5
-    Sterlingarmor: 5
+    SterlingArmor: 5
     BrassKnuckles: 3
     MartialAgility: 10
 

@@ -46,6 +46,8 @@
     min: 1450000
     max: 1475000
 
+  traitLevels:
+    InternalFortitude: 5
 
   items:
     equipment:

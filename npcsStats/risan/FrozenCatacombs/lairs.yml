@@ -29,6 +29,7 @@
       hands: Catacombs Lair Claws
 
   traitLevels:
+    InternalFortitude: 5
     Sterlingarmor: 15
     HolyProtection: 15
     IceMistWiden: 4
@@ -169,6 +170,7 @@
         damageType: 'physical'
 
   traitLevels:
+    InternalFortitude: 5
     StunningFist: 10
     MartialAgility: 10
 
@@ -467,7 +469,8 @@
       chance: 10
 
   traitLevels:
-    Sterlingarmor: 2
+    InternalFortitude: 5
+    SterlingArmor: 2
     OffhandFinesse: 5
     BoostedBoost: 1
     Riposte: 3

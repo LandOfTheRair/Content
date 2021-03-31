@@ -130,12 +130,13 @@
       chance: 10
 
   traitLevels:
+    InternalFortitude: 5
     FindFamiliarLight: 1
     FindFamiliarNature: 1
     FindFamiliarWater: 1
     NatureSpirit: 1
     StrongerSnare: 1
-    Lightenarmor: 1
+    LightenArmor: 1
 
   copyDrops:
     - result: 'equipment.rightHand'

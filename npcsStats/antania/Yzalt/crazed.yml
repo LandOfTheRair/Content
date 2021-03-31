@@ -1245,6 +1245,9 @@
       - Rune Scroll - Darker Shadows I
       - Rune Scroll - Shadow Daggers I
 
+  traitLevels:
+    InternalFortitude: 3
+
   baseEffects:
     - name: DarkVision
       endsAt: -1
