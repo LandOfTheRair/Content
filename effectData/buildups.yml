@@ -6,7 +6,7 @@ BuildupHeat:
     color: '#400'
     desc: Heat is building up.
   effect:
-    type: debuff
+    type: incoming
     duration: -1
     extra:
       unique: true
@@ -33,7 +33,7 @@ BuildupChill:
     color: '#004'
     desc: Chill is building up.
   effect:
-    type: debuff
+    type: incoming
     duration: -1
     extra:
       unique: true
