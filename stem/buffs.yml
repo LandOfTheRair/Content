@@ -905,7 +905,7 @@ HolyAura:
         unique: true
     effectMeta:
       effectRef: HolyAura
-      recentlyRef: RecentlyShield
+      recentlyRef: RecentlyShielded
       castSfx: 'spell-buff-give'
       applySfx: 'spell-buff-receive'
       castMessage: 'You cast HolyAura on %target.'
