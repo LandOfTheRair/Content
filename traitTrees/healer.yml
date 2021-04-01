@@ -107,7 +107,9 @@ Healer:
           - name: ''
           
         - traits: 
-          - name: ''
+          - name: Dispel
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''
