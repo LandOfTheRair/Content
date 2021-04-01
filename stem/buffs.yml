@@ -898,7 +898,7 @@ HolyAura:
     tooltip:
       desc: 'You are resisting some physical damage.'
     effect:
-      type: buff
+      type: incoming
       duration: 30
       extra:
         canRemove: true
