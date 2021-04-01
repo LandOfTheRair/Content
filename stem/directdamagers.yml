@@ -129,14 +129,14 @@ Combust:
 
   # global info
   all:
-    desc: "Inflict fire damage on a single target. Cost: 20 MP"
+    desc: "Inflict fire damage on a single target. Cost: 10 MP"
     icon: burning-dot
     color: "#dc143c"
 
   # spell cast info
   spell: 
     damageClass: fire
-    mpCost: 20
+    mpCost: 10
     maxSkillForGain: 40
     potencyMultiplier: 2
     willSaveThreshold: 25
@@ -165,20 +165,20 @@ Combust:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: 'lockActivation'
 
 Hail:
 
   # global info
   all:
-    desc: "Inflict ice damage on a single target. Cost: 20 MP"
+    desc: "Inflict ice damage on a single target. Cost: 10 MP"
     icon: burning-dot
     color: "#000080"
 
   # spell cast info
   spell: 
     damageClass: ice
-    mpCost: 20
+    mpCost: 10
     maxSkillForGain: 40
     potencyMultiplier: 1.5
     willSaveThreshold: 25
@@ -207,4 +207,4 @@ Hail:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: 'lockActivation'
