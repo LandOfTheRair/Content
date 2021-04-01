@@ -87,3 +87,14 @@ RecentlyChilled:
     duration: 15
     extra:
       unique: true
+
+RecentlyHasted:
+  tooltip:
+    icon: 'time-trap'
+    color: '#000'
+    desc: 'You were recently hasted.'
+  effect:
+    type: debuff
+    duration: 60
+    extra:
+      unique: true

@@ -708,6 +708,7 @@ Haste:
         canRemove: true
         unique: true
     effectMeta:
+      recentlyRef: RecentlyHasted
       castSfx: 'spell-buff-magical'
       applySfx: 'spell-buff-magical'
       castMessage: 'You cast Haste on %target.'
