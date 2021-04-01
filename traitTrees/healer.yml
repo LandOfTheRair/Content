@@ -93,7 +93,9 @@ Healer:
             maxLevel: 1
           
         - traits: 
-          - name: ''
+          - name: HolyAura
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''
@@ -109,7 +111,7 @@ Healer:
         - traits: 
           - name: Dispel
             maxLevel: 1
-            
+
           - name: ''
           - name: ''
           - name: ''

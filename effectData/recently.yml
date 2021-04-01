@@ -54,3 +54,14 @@ RecentlyBlinded:
     duration: 15
     extra:
       unique: true
+
+RecentlyShielded:
+  tooltip:
+    icon: 'aura'
+    color: '#000'
+    desc: 'You were recently shielded.'
+  effect:
+    type: debuff
+    duration: 15
+    extra:
+      unique: true

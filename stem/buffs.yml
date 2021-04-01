@@ -871,3 +871,47 @@ VitalEssence:
   macro:
     name: Vital Essence
     mode: 'clickToTarget'
+    
+HolyAura:
+
+  # global info
+  all:
+    desc: "Make a single target invulnerable to some damage. Cost: 150 MP."
+    icon: aura
+    color: "#aa0"
+
+  # spell cast info
+  spell: 
+    mpCost: 150
+    maxSkillForGain: 20
+
+    spellMeta:
+      doesOvertime: true
+
+  # trait info
+  trait:
+    name: Holy Aura
+    borderColor: "#ccc"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'You are resisting some physical damage.'
+    effect:
+      type: buff
+      duration: 30
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      effectRef: HolyAura
+      recentlyRef: RecentlyShield
+      castSfx: 'spell-buff-give'
+      applySfx: 'spell-buff-receive'
+      castMessage: 'You cast HolyAura on %target.'
+      applyMessage: "You're glowing with strength!"
+      unapplyMessage: 'You are no longer glowing.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
