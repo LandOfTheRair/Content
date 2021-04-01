@@ -18,3 +18,10 @@ NecroticWard:
   name: Necrotic Ward
   desc: Protect against +$10$% more necrotic damage.
   icon: transportation-rings
+
+HolyAffliction:
+  name: Holy Affliction
+  desc: Gain +$3$% spell critical chance.
+  icon: large-wound
+  statsGiven:
+    spellCriticalPercent: 3

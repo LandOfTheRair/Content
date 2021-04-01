@@ -95,8 +95,10 @@ Healer:
         - traits: 
           - name: HolyAura
             maxLevel: 1
+
+          - name: HolyAffliction
+            maxLevel: 5
             
-          - name: ''
           - name: ''
           - name: ''
           - name: ''
