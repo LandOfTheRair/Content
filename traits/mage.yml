@@ -10,3 +10,10 @@ ThermalBarrier:
   name: Thermal Barrier
   desc: Protect against +$10$% more fire and ice damage.
   icon: transportation-rings
+  valuePerTier: 0.1
+
+WandSpecialty:
+  name: Wand Specialty
+  desc: Spells cost -$5$% while holding a wand.
+  icon: fairy-wand
+  valuePerTier: 0.05

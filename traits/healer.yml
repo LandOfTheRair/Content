@@ -18,6 +18,13 @@ NecroticWard:
   name: Necrotic Ward
   desc: Protect against +$10$% more necrotic damage.
   icon: transportation-rings
+  valuePerTier: 0.1
+
+TotemSpecialty:
+  name: Totem Specialty
+  desc: Spells cost -$5$% while holding a totem.
+  icon: grapple
+  valuePerTier: 0.05
 
 HolyAffliction:
   name: Holy Affliction

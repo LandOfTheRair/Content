@@ -86,7 +86,9 @@ Healer:
           - name: NecroticFocus
             maxLevel: 5
 
-          - name: ''
+          - name: TotemSpecialty
+            maxLevel: 5
+            
           - name: ''
           - name: ''
           - name: Push
@@ -98,7 +100,7 @@ Healer:
 
           - name: HolyAffliction
             maxLevel: 5
-            
+
           - name: ''
           - name: ''
           - name: ''

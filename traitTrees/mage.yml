@@ -27,7 +27,8 @@ Mage:
             maxLevel: 5
             requires: MagicMissile
 
-          - name: ''
+          - name: WandSpecialty
+            maxLevel: 5
 
           - name: Push
             maxLevel: 1
