@@ -1,0 +1,55 @@
+
+      
+BuildupHeat:
+  tooltip:
+    icon: 'fire'
+    color: '#400'
+    desc: Heat is building up.
+  effect:
+    type: debuff
+    duration: -1
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: BuildupHeat
+      
+Burning:
+  tooltip:
+    icon: 'fire'
+    color: '#dc143c'
+    desc: Constantly receiving fire damage.
+  effect:
+    type: debuff
+    duration: 10
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: Burning
+    recentlyRef: RecentlyBurned
+      
+BuildupChill:
+  tooltip:
+    icon: 'cold-heart'
+    color: '#004'
+    desc: Chill is building up.
+  effect:
+    type: debuff
+    duration: -1
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: BuildupChill
+      
+Chilled:
+  tooltip:
+    icon: 'cold-heart'
+    color: '#000080'
+    desc: Actions are 50% slower.
+  effect:
+    type: debuff
+    duration: 10
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: Chilled
+    recentlyRef: RecentlyChilled

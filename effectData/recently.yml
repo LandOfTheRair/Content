@@ -65,3 +65,25 @@ RecentlyShielded:
     duration: 15
     extra:
       unique: true
+
+RecentlyBurned:
+  tooltip:
+    icon: 'fire'
+    color: '#000'
+    desc: 'You were recently burned.'
+  effect:
+    type: debuff
+    duration: 15
+    extra:
+      unique: true
+
+RecentlyChilled:
+  tooltip:
+    icon: 'cold-heart'
+    color: '#000'
+    desc: 'You were recently chilled.'
+  effect:
+    type: debuff
+    duration: 15
+    extra:
+      unique: true
