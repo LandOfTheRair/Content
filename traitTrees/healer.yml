@@ -89,7 +89,9 @@ Healer:
           - name: TotemSpecialty
             maxLevel: 5
             
-          - name: ''
+          - name: Light
+            maxLevel: 1
+            
           - name: ''
           - name: Push
             maxLevel: 1

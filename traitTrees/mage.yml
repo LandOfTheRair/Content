@@ -92,7 +92,9 @@ Mage:
           - name: ThermalBarrier
             maxLevel: 5
 
-          - name: ''
+          - name: Darkness
+            maxLevel: 1
+            
           - name: ''
           
         - traits: 

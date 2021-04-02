@@ -208,3 +208,51 @@ Dispel:
   # macro info
   macro:
     mode: 'clickToTarget'
+
+Darkness:
+
+  # global info
+  all:
+    desc: "Make it harder to see in a certain area. Cost: 15 MP"
+    icon: dust-cloud
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    damageClass: physical
+    mpCost: 15
+    maxSkillForGain: 15
+    skillMultiplierChanges:
+      - [0,  1]
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+Light:
+
+  # global info
+  all:
+    desc: "Remove darkness from a certain area. Cost: 15 MP"
+    icon: candle-light
+    color: "#aa0"
+
+  # spell cast info
+  spell: 
+    damageClass: physical
+    mpCost: 15
+    maxSkillForGain: 15
+    skillMultiplierChanges:
+      - [0,  1]
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'

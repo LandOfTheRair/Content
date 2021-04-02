@@ -64,7 +64,9 @@ Thief:
           - name: ImprovedHide
             maxLevel: 1
 
-          - name: ''
+          - name: Darkness
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''
