@@ -94,8 +94,9 @@ Mage:
 
           - name: Darkness
             maxLevel: 1
-            
-          - name: ''
+
+          - name: DarkVision
+            maxLevel: 1
           
         - traits: 
           - name: Haste

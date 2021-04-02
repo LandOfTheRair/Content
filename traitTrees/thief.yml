@@ -66,8 +66,10 @@ Thief:
 
           - name: Darkness
             maxLevel: 1
+
+          - name: DarkVision
+            maxLevel: 1
             
-          - name: ''
           - name: ''
           - name: ''
 

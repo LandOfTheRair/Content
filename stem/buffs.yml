@@ -41,16 +41,28 @@ DarkVision:
 
   # global info
   all:
-    desc: ""
-    icon: ""
-    color: ""
+    desc: "See in the dark. Cost: 25 MP"
+    icon: "angry-eyes"
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    mpCost: 25
+    maxSkillForGain: 5
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
 
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      icon: 'uncertainty'
-      color: '#000'
-      desc: '???'
+      desc: 'Seeing in the dark.'
     effect:
       type: buff
       duration: 600
@@ -62,7 +74,16 @@ DarkVision:
       applySfx: 'spell-sight-effect'
       castMessage: 'You cast DarkVision on %target.'
       applyMessage: 'You can see in the dark!'
-      unapplyMessage: 'Your vision returns to normal.'
+      unapplyMessage: 'Your darkvision fades.'
+
+  # trait info
+  trait:
+    name: Dark Vision
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
 
 TrueSight:
 
