@@ -225,6 +225,9 @@ Darkness:
     skillMultiplierChanges:
       - [0,  1]
 
+    spellMeta:
+      range: 1
+
   # trait info
   trait:
     borderColor: "#ccc"
@@ -247,7 +250,10 @@ Light:
     mpCost: 15
     maxSkillForGain: 15
     skillMultiplierChanges:
-      - [0,  1]
+      - [0,  0.5]
+
+    spellMeta:
+      range: 1
 
   # trait info
   trait:
