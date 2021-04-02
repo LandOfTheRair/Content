@@ -91,7 +91,7 @@ Healer:
             
           - name: Light
             maxLevel: 1
-            
+
           - name: ''
           - name: Push
             maxLevel: 1
@@ -103,7 +103,9 @@ Healer:
           - name: HolyAffliction
             maxLevel: 5
 
-          - name: ''
+          - name: HolyFire
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           
