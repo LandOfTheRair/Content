@@ -251,7 +251,9 @@ Healer:
             maxLevel: 5
           
         - traits: 
-          - name: ''
+          - name: Autoheal
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''

@@ -936,4 +936,53 @@ HolyAura:
 
   # macro info
   macro:
+    mode: 'clickToTarget' 
+
+Autoheal:
+
+  # global info
+  all:
+    name: Autoheal
+    desc: "Automatically heal when your HP gets low. Cost: 100 MP"
+    icon: "self-love"
+    color: "#00c"
+
+  # spell cast info
+  spell: 
+    mpCost: 100
+    maxSkillForGain: 15
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Automatically heal when your HP gets low.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-magical'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast AutoHeal on %target.'
+      applyMessage: 'Your chest feels warm!'
+      unapplyMessage: 'The warmth in your chest fades.'
+
+  # trait info
+  trait:
+    iconColor: "#000"
+    borderColor: "#aa0"
+
+  # macro info
+  macro:
     mode: 'clickToTarget'
