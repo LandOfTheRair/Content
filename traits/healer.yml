@@ -35,12 +35,12 @@ HolyAffliction:
 
 IrresistibleStun:
   name: Irresistible Stun
-  desc: Increase your Stun rolls by +$2$.
+  desc: Increase your Stun rolls and duration by +$2$.
   icon: knockout
   valuePerTier: 2
 
 DazingOutlook:
   name: Dazing Outlook
-  desc: Increase your Daze rolls by +$2$.
+  desc: Increase your Daze rolls, duration and potency by +$2$.
   icon: knockout
   valuePerTier: 2
