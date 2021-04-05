@@ -162,6 +162,7 @@ Snare:
     maxSkillForGain: 15
 
     spellMeta:
+      resistLowerTrait: Roots
       bonusAgro: 300
       canBeResisted: true
       doesOvertime: true

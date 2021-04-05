@@ -44,3 +44,9 @@ DazingOutlook:
   desc: Increase your Daze rolls, duration and potency by +$2$.
   icon: knockout
   valuePerTier: 2
+
+Roots:
+  name: Roots
+  desc: Increase your Snare rolls by +5 and roots the target in place.
+  icon: light-thorny-triskelion
+  valuePerTier: 5

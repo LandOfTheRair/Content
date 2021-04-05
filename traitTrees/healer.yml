@@ -160,7 +160,7 @@ Healer:
         - traits: 
           - name: Disease
             maxLevel: 1
-            
+
           - name: IrresistibleStun
             maxLevel: 5
             requires: Stun
@@ -176,7 +176,10 @@ Healer:
             requires: Daze
 
           - name: ''
-          - name: ''
+          - name: Roots
+            maxLevel: 1
+            requires: Snare
+            
           - name: ''
           
         - traits: 
