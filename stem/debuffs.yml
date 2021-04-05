@@ -248,6 +248,7 @@ Blind:
     maxSkillForGain: 15
 
     spellMeta:
+      resistLowerTrait: BlindingLight
       bonusAgro: 100
       canBeResisted: true
       doesOvertime: true

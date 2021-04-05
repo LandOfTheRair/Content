@@ -165,7 +165,10 @@ Healer:
             maxLevel: 5
             requires: Stun
 
-          - name: ''
+          - name: BlindingLight
+            maxLevel: 5
+            requires: Blind
+            
           - name: ''
           - name: ''
           
@@ -179,7 +182,7 @@ Healer:
           - name: Roots
             maxLevel: 1
             requires: Snare
-            
+
           - name: ''
           
         - traits: 

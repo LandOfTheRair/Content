@@ -50,3 +50,9 @@ Roots:
   desc: Increase your Snare rolls by +5 and roots the target in place.
   icon: light-thorny-triskelion
   valuePerTier: 5
+
+BlindingLight:
+  name: Blinding Light
+  desc: Increase your Blind rolls and duration by +$2$.
+  icon: evil-eyes
+  valuePerTier: 2
