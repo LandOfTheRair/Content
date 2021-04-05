@@ -32,3 +32,15 @@ HolyAffliction:
   icon: large-wound
   statsGiven:
     spellCriticalPercent: 3
+
+IrresistibleStun:
+  name: Irresistible Stun
+  desc: Increase your Stun rolls by +$2$.
+  icon: knockout
+  valuePerTier: 2
+
+DazingOutlook:
+  name: Dazing Outlook
+  desc: Increase your Daze rolls by +$2$.
+  icon: knockout
+  valuePerTier: 2

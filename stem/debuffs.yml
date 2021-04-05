@@ -120,6 +120,7 @@ Stun:
 
     spellMeta:
       bonusAgro: 500
+      resistLowerTrait: IrresistibleStun
       canBeResisted: true
       doesOvertime: true
 
@@ -203,6 +204,7 @@ Daze:
     maxSkillForGain: 15
 
     spellMeta:
+      resistLowerTrait: DazingOutlook
       bonusAgro: 450
       canBeResisted: true
       doesOvertime: true

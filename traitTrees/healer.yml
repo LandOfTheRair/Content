@@ -105,7 +105,7 @@ Healer:
 
           - name: HolyFire
             maxLevel: 1
-            
+
           - name: ''
           - name: ''
           
@@ -158,16 +158,23 @@ Healer:
           - name: ''
           
         - traits: 
-          - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
           - name: Disease
             maxLevel: 1
+            
+          - name: IrresistibleStun
+            maxLevel: 5
+            requires: Stun
+
+          - name: ''
+          - name: ''
+          - name: ''
           
         - traits: 
           - name: ''
-          - name: ''
+          - name: DazingOutlook
+            maxLevel: 5
+            requires: Daze
+
           - name: ''
           - name: ''
           - name: ''
