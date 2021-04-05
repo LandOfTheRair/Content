@@ -135,6 +135,33 @@ ConjureHealing:
   macro:
     mode: 'autoActivate'
 
+Augury:
+
+  # global info
+  all:
+    desc: "Use the birds to divine the location of your target. Cost: 25 MP"
+    icon: dove
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    damageClass: heal
+    mpCost: 25
+    maxSkillForGain: 15
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      casterSfx: 'spell-conjure'
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
 FindFamiliar:
 
   # global info

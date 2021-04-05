@@ -222,7 +222,8 @@ Healer:
             maxLevel: 5
             requires: BarNecro
             
-          - name: ''
+          - name: Augury
+            maxLevel: 1
           
         - traits: 
           - name: VitalEssence
@@ -253,7 +254,7 @@ Healer:
         - traits: 
           - name: Autoheal
             maxLevel: 1
-            
+
           - name: ''
           - name: ''
           - name: ''
