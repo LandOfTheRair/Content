@@ -168,7 +168,7 @@ Healer:
           - name: BlindingLight
             maxLevel: 5
             requires: Blind
-            
+
           - name: ''
           - name: ''
           
@@ -247,7 +247,8 @@ Healer:
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+          - name: EffectiveSupporter
+            maxLevel: 5
           
         - traits: 
           - name: ''

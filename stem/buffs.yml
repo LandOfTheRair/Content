@@ -769,7 +769,7 @@ PowerwordBarNecro:
 
   # trait info
   trait:
-    name: Powerword BarNecro
+    name: Powerword Bar Necro
     borderColor: "#0a0"
 
   # macro info
@@ -802,7 +802,7 @@ PowerwordBarFire:
 
   # trait info
   trait:
-    name: Powerword BarFire
+    name: Powerword Bar Fire
     borderColor: "#a00"
 
   # macro info
@@ -835,7 +835,7 @@ PowerwordBarFrost:
 
   # trait info
   trait:
-    name: Powerword BarFrost
+    name: Powerword Bar Frost
     borderColor: "#00a"
 
   # macro info

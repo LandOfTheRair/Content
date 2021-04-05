@@ -56,3 +56,9 @@ BlindingLight:
   desc: Increase your Blind rolls and duration by +$2$.
   icon: evil-eyes
   valuePerTier: 2
+
+EffectiveSupporter:
+  name: Effective Supporter
+  desc: Increase the duration of all buffs by +$10$%.
+  icon: burning-passion
+  valuePerTier: 0.1
