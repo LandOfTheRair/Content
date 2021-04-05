@@ -966,7 +966,7 @@ Autoheal:
     tooltip:
       desc: 'Automatically heal when your HP gets low.'
     effect:
-      type: buff
+      type: incoming
       duration: 600
       extra:
         canRemove: true
