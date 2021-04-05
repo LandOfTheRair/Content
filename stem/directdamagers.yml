@@ -247,6 +247,7 @@ HolyFire:
 
   # trait info
   trait:
+    name: Holy Fire
     borderColor: "#a00"
 
   # macro info
