@@ -68,3 +68,9 @@ DebilitatingDisease:
   desc: Your Disease spell will also lower the CON, WIL, and Accuracy of the target.
   icon: death-juice
   valuePerTier: 0.25
+
+ContagiousPlague:
+  name: Contagious Plague
+  desc: Your Plague spell will spread to a nearby target not suffering from Plague once every 3s.
+  icon: death-zone
+  valuePerTier: 3

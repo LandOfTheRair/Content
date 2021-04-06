@@ -176,7 +176,10 @@ Healer:
             maxLevel: 1
           
         - traits: 
-          - name: ''
+          - name: ContagiousPlague
+            maxLevel: 1
+            requires: Plague
+
           - name: DazingOutlook
             maxLevel: 5
             requires: Daze
@@ -193,7 +196,7 @@ Healer:
           - name: DebilitatingDisease
             maxLevel: 1
             requires: Disease
-            
+
           - name: ''
           - name: ''
           - name: ''
