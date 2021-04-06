@@ -190,7 +190,10 @@ Healer:
             maxLevel: 1
           
         - traits: 
-          - name: ''
+          - name: DebilitatingDisease
+            maxLevel: 1
+            requires: Disease
+            
           - name: ''
           - name: ''
           - name: ''

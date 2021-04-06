@@ -62,3 +62,9 @@ EffectiveSupporter:
   desc: Increase the duration of all buffs by +$10$%.
   icon: burning-passion
   valuePerTier: 0.1
+
+DebilitatingDisease:
+  name: Debilitating Disease
+  desc: Your Disease spell will also lower the CON, WIL, and Accuracy of the target.
+  icon: death-juice
+  valuePerTier: 0.25
