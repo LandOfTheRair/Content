@@ -48,8 +48,8 @@ const npcSchema = [
   ['stats', true, isObject],
   ['skills', true, isObject],
 
-  ['summonStatModifiers', true, isObject],
-  ['summonSkillModifiers', true, isObject],
+  ['summonStatModifiers', false, isObject],
+  ['summonSkillModifiers', false, isObject],
 
   ['tanSkillRequired', false, isInteger],
   ['tansFor', false, isString],
