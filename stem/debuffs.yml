@@ -94,12 +94,65 @@ Disease:
       type: debuff
       duration: 0
     effectMeta:
-      effectRef: Poison
+      effectRef: Disease
       castSfx: 'spell-debuff-give'
       applySfx: 'spell-debuff-receive'
       castMessage: 'You diseased %target.'
       applyMessage: "You've been diseased!"
       unapplyMessage: 'You are no longer diseased.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+Plague:
+
+  # global info
+  all:
+    desc: "Inflict plague on a single target. Cost: 15 MP."
+    icon: death-zone
+    color: "#0c0"
+
+  # spell cast info
+  spell: 
+    damageClass: disease
+    mpCost: 15
+    maxSkillForGain: 20
+    potencyMultiplier: 0.5
+    willSaveThreshold: 15
+    willSavePercent: 50
+    skillMultiplierChanges:
+      - [0,  1]
+      - [6,  1.25]
+      - [11, 1.5]
+      - [16, 1.75]
+      - [21, 2]
+      - [26, 2.25]
+      - [31, 2.5]
+      - [36, 3.5]
+
+    spellMeta:
+      bonusAgro: 25
+      doesOvertime: true
+
+  # trait info
+  trait:
+    borderColor: "#0c0"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'You are diseased, and continually taking damage.'
+    effect:
+      type: debuff
+      duration: 0
+    effectMeta:
+      effectRef: Plague
+      castSfx: 'spell-debuff-give'
+      applySfx: 'spell-debuff-receive'
+      castMessage: 'You plagued %target.'
+      applyMessage: "You've been plagued!"
+      unapplyMessage: 'You are no longer plagued.'
 
   # macro info
   macro:

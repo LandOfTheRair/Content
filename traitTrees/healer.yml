@@ -130,7 +130,7 @@ Healer:
 
       tree: 
         - traits: 
-          - name: Poison
+          - name: Plague
             maxLevel: 1
 
           - name: Stun
