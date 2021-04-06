@@ -7,6 +7,14 @@
   skillLevels: 5
   level: 1
 
+  summonStatModifiers:
+    hp: 10000
+    str: 0.2
+    dex: 0.2
+    agi: 0.2
+    offense: 1
+    accuracy: 1
+
   noCorpseDrop: true
 
   items:
@@ -49,6 +57,13 @@
   stats: 10
   skillLevels: 5
   level: 1
+
+  summonStatModifiers:
+    hp: 10000
+    int: 0.2
+    wis: 0.2
+    wil: 0.2
+    defense: 1
 
   noCorpseDrop: true
 

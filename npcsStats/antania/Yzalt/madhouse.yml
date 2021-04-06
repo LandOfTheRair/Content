@@ -122,7 +122,11 @@
       chance: 100
     - result: HolyAura
       chance: 100
-    - result: FindFamiliar
+    - result: FindFamiliarLight
+      chance: 100
+    - result: FindFamiliarNature
+      chance: 100
+    - result: FindFamiliarWater
       chance: 100
     - result: Daze
       chance: 100
@@ -131,9 +135,6 @@
 
   traitLevels:
     InternalFortitude: 5
-    FindFamiliarLight: 1
-    FindFamiliarNature: 1
-    FindFamiliarWater: 1
     NatureSpirit: 1
     StrongerSnare: 1
     LightenArmor: 1

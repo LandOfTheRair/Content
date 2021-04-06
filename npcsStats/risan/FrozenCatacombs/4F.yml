@@ -466,14 +466,14 @@
       chance: 100
     - result: DarkVision
       chance: 100
-    - result: FindFamiliar
+    - result: FindFamiliarWolf
+      chance: 100
+    - result: FindFamiliarBear
       chance: 100
     - result: ImbueEnergy
       chance: 100
 
   traitLevels:
-    FindFamiliarWolf: 1
-    FindFamiliarBear: 1
     EnergyFocus: 3
     ConcussiveBolt: 2
 

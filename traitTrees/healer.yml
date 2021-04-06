@@ -155,7 +155,8 @@ Healer:
           - name: Snare
             maxLevel: 1
           
-          - name: ''
+          - name: FindFamiliarLight
+            maxLevel: 1
           
         - traits: 
           - name: Disease
@@ -170,7 +171,9 @@ Healer:
             requires: Blind
 
           - name: ''
-          - name: ''
+          
+          - name: FindFamiliarWater
+            maxLevel: 1
           
         - traits: 
           - name: ''
@@ -183,7 +186,8 @@ Healer:
             maxLevel: 1
             requires: Snare
 
-          - name: ''
+          - name: FindFamiliarNature
+            maxLevel: 1
           
         - traits: 
           - name: ''

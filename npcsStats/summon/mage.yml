@@ -7,6 +7,9 @@
   skillLevels: 3
   level: 1
 
+  summonStatModifiers:
+    hp: 20000
+
   noCorpseDrop: true
 
   items:
@@ -35,6 +38,13 @@
   stats: 10
   skillLevels: 3
   level: 1
+
+  summonStatModifiers:
+    hp: 30000
+    str: 0.3
+
+  summonSkillModifiers:
+    martial: 0.5
 
   noCorpseDrop: true
 
@@ -70,6 +80,11 @@
   stats: 15
   skillLevels: 4
   level: 1
+
+  summonStatModifiers:
+    hp: 50000
+    str: 0.2
+    con: 0.2
 
   noCorpseDrop: true
 
@@ -107,6 +122,13 @@
   skills: 5
   level: 1
 
+  summonStatModifiers:
+    hp: 15000
+    int: 0.25
+
+  summonSkillModifiers:
+    conjuration: 0.3
+
   noCorpseDrop: true
 
   otherStats:
@@ -143,6 +165,13 @@
   stats: 15
   skillLevels: 6
   level: 1
+
+  summonStatModifiers:
+    hp: 30000
+    str: 0.25
+
+  summonSkillModifiers:
+    martial: 0.5
 
   noCorpseDrop: true
 

@@ -162,24 +162,6 @@ Augury:
   macro:
     mode: 'clickToTarget'
 
-FindFamiliar:
-
-  # global info
-  all:
-    desc: ""
-    icon: ""
-    color: ""
-
-  # spell cast info
-  spell: 
-    mpCost: 100
-    castTime: 10
-    cooldown: 60
-    maxSkillForGain: 1
-
-    spellMeta:
-      casterMessage: 'You begin channeling for a familiar...'
-
 Push:
 
   # global info

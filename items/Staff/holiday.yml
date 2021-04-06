@@ -16,9 +16,11 @@
   sprite: 566
   binds: true
 
-  trait:
+  useEffect:
     name: FindFamiliarGobbler
-    level: 5
+    potency: 1
+    duration: 7200
+    uses: -1
 
 - name: Christmas Candy Staff
   desc: "a candy cane sweetly created in the Winter Wonderland"
@@ -46,6 +48,8 @@
   binds: true
   maxUpgrades: 1
 
-  trait:
+  useEffect:
     name: FindFamiliarFrosty
-    level: 5
+    potency: 1
+    duration: 7200
+    uses: -1

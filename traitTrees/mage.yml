@@ -174,28 +174,32 @@ Mage:
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+          - name: FindFamiliarBear
+            maxLevel: 1
           
         - traits: 
           - name: ''
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+          - name: FindFamiliarWolf
+            maxLevel: 1
           
         - traits: 
           - name: ''
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+          - name: FindFamiliarSpider
+            maxLevel: 1
           
         - traits: 
           - name: ''
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+          - name: FindFamiliarSalamander
+            maxLevel: 1
           
         - traits: 
           - name: ''

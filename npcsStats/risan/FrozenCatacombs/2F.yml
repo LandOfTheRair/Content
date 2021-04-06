@@ -433,11 +433,10 @@
       chance: 100
     - result: DarkVision
       chance: 100
-    - result: FindFamiliar
+    - result: FindFamiliarWolf
       chance: 100
 
   traitLevels:
-    FindFamiliarWolf: 1
     EnergyFocus: 1
 
   gold:

@@ -273,9 +273,6 @@
       maxChance: 250
 
   traitLevels:
-    FindFamiliarWater: 1
-    FindFamiliarNature: 1
-    FindFamiliarLight: 1
     HolyAffliction: 1
     CripplingPlague: 1
 
@@ -286,7 +283,11 @@
       chance: 100
     - result: BarNecro
       chance: 100
-    - result: FindFamiliar
+    - result: FindFamiliarLight
+      chance: 100
+    - result: FindFamiliarNature
+      chance: 100
+    - result: FindFamiliarWater
       chance: 100
     - result: Cure
       chance: 100

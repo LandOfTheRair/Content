@@ -315,7 +315,10 @@
     - Snare
     - Regen
     - Cure
-    - FindFamiliar
+    - FindFamiliarSalamander
+    - FindFamiliarChillspider
+    - FindFamiliarWolf
+    - FindFamiliarBear
     - Absorption
     - Protection
     - VitalEssence
@@ -328,10 +331,6 @@
     DebilitatingDisease: 1
     EffectiveSupporter: 5
     BladedWands: 1
-    FindFamiliarSalamander: 1
-    FindFamiliarChillspider: 1
-    FindFamiliarBear: 1
-    FindFamiliarWolf: 1
 
   drops:
     - result: Risan Miner Book

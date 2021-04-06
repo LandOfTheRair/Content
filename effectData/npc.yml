@@ -51,6 +51,17 @@ Dangerous:
         hpregen: 100
   effectMeta:
     effectRef: Dangerous
+      
+SummonedPet:
+  tooltip:
+    icon: 'eagle-emblem'
+    color: '#000'
+    desc: 'Pet. Summoned by creature.'
+  effect:
+    type: buff
+    duration: -1
+    extra:
+      unique: true
 
 AcolyteOverseer:
   tooltip:

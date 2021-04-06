@@ -1,0 +1,387 @@
+
+FindFamiliarLight:
+
+  # global info
+  all:
+    desc: "Summon a spirit of light to heal allies. Cost: 50 MP"
+    icon: "double-ringed-orb"
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    castTime: 10
+    cooldown: 60
+    maxSkillForGain: 1
+
+    spellMeta:
+      creatureSummoned: Healer Summon Light Spirit
+      casterMessage: 'You begin channeling for a familiar...'
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Light spirit heals allies and grants +2 INT'
+    effect:
+      type: buff
+      duration: 0
+      extra:
+        statChanges:
+          int: 2
+    effectMeta:
+      effectRef: FindFamiliar
+      castSfx: 'spell-conjure'
+      applySfx: 'spell-conjure'
+      unapplyMessage: 'Your light familiar has returned to the ether.'
+
+  # trait info
+  trait:
+    name: Find Familiar (Light)
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: findfamiliar light
+    mode: 'autoActivate'
+
+FindFamiliarNature:
+
+  # global info
+  all:
+    desc: "Summon a spirit of nature to debuff enemies. Cost: 50 MP"
+    icon: "tree-branch"
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    castTime: 10
+    cooldown: 60
+    maxSkillForGain: 1
+
+    spellMeta:
+      creatureSummoned: Healer Summon Nature Spirit
+      casterMessage: 'You begin channeling for a familiar...'
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Nature spirit debuffs enemies and grants +2 DEX'
+    effect:
+      type: buff
+      duration: 0
+      extra:
+        statChanges:
+          dex: 2
+    effectMeta:
+      effectRef: FindFamiliar
+      castSfx: 'spell-conjure'
+      applySfx: 'spell-conjure'
+      unapplyMessage: 'Your nature familiar has returned to the ether.'
+
+  # trait info
+  trait:
+    name: Find Familiar (Nature)
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: findfamiliar nature
+    mode: 'autoActivate'
+
+FindFamiliarWater:
+
+  # global info
+  all:
+    desc: "Summon a spirit of water to buff allies. Cost: 50 MP"
+    icon: "water-splash"
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    castTime: 10
+    cooldown: 60
+    maxSkillForGain: 1
+
+    spellMeta:
+      creatureSummoned: Healer Summon Water Spirit
+      casterMessage: 'You begin channeling for a familiar...'
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Water spirit debuffs enemies and grants +2 WIS'
+    effect:
+      type: buff
+      duration: 0
+      extra:
+        statChanges:
+          wis: 2
+    effectMeta:
+      effectRef: FindFamiliar
+      castSfx: 'spell-conjure'
+      applySfx: 'spell-conjure'
+      unapplyMessage: 'Your water familiar has returned to the ether.'
+
+  # trait info
+  trait:
+    name: Find Familiar (Water)
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: findfamiliar water
+    mode: 'autoActivate'
+
+FindFamiliarSpider:
+
+  # global info
+  all:
+    desc: "Summon a chillspider to fight for you in combat. Cost: 50 MP"
+    icon: "spider-alt"
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    castTime: 10
+    cooldown: 60
+    maxSkillForGain: 1
+
+    spellMeta:
+      creatureSummoned: Mage Summon Chillspider
+      casterMessage: 'You begin channeling for a familiar...'
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Chillspider fights enemies for you with frost techniques.'
+    effect:
+      type: buff
+      duration: 0
+    effectMeta:
+      effectRef: FindFamiliar
+      castSfx: 'spell-conjure'
+      applySfx: 'spell-conjure'
+      unapplyMessage: 'Your chillspider familiar has returned to the ether.'
+
+  # trait info
+  trait:
+    name: Find Familiar (Spider)
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: findfamiliar spider
+    mode: 'autoActivate'
+
+FindFamiliarSalamander:
+
+  # global info
+  all:
+    desc: "Summon a salamander to fight for you in combat. Cost: 50 MP"
+    icon: "salamander"
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    castTime: 10
+    cooldown: 60
+    maxSkillForGain: 1
+
+    spellMeta:
+      creatureSummoned: Mage Summon Salamander
+      casterMessage: 'You begin channeling for a familiar...'
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Salamander fights enemies for you with fire techniques.'
+    effect:
+      type: buff
+      duration: 0
+    effectMeta:
+      effectRef: FindFamiliar
+      castSfx: 'spell-conjure'
+      applySfx: 'spell-conjure'
+      unapplyMessage: 'Your salamander familiar has returned to the ether.'
+
+  # trait info
+  trait:
+    name: Find Familiar (Salamander)
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: findfamiliar salamander
+    mode: 'autoActivate'
+
+FindFamiliarBear:
+
+  # global info
+  all:
+    desc: "Summon a bear to fight for you in combat. Cost: 50 MP"
+    icon: "polar-bear"
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    castTime: 10
+    cooldown: 60
+    maxSkillForGain: 1
+
+    spellMeta:
+      creatureSummoned: Mage Summon Bear
+      casterMessage: 'You begin channeling for a familiar...'
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Bear supports you as an agro tank.'
+    effect:
+      type: buff
+      duration: 0
+    effectMeta:
+      effectRef: FindFamiliar
+      castSfx: 'spell-conjure'
+      applySfx: 'spell-conjure'
+      unapplyMessage: 'Your bear familiar has returned to the ether.'
+
+  # trait info
+  trait:
+    name: Find Familiar (Bear)
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: findfamiliar bear
+    mode: 'autoActivate'
+
+FindFamiliarWolf:
+
+  # global info
+  all:
+    desc: "Summon a wolf to fight for you in combat. Cost: 50 MP"
+    icon: "wolf-head"
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    castTime: 10
+    cooldown: 60
+    maxSkillForGain: 1
+
+    spellMeta:
+      creatureSummoned: Mage Summon Wolf
+      casterMessage: 'You begin channeling for a familiar...'
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Wolf supports you as a melee DPS.'
+    effect:
+      type: buff
+      duration: 0
+    effectMeta:
+      effectRef: FindFamiliar
+      castSfx: 'spell-conjure'
+      applySfx: 'spell-conjure'
+      unapplyMessage: 'Your wolf familiar has returned to the ether.'
+
+  # trait info
+  trait:
+    name: Find Familiar (Wolf)
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: findfamiliar wolf
+    mode: 'autoActivate'
+
+FindFamiliarSnowman:
+
+  # global info
+  all:
+    desc: "Summon a snowman to fight for you in combat. Cost: 50 MP"
+    icon: "snowman"
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    castTime: 10
+    cooldown: 60
+    maxSkillForGain: 1
+
+    spellMeta:
+      creatureSummoned: Holiday Summon Snowman
+      casterMessage: 'You begin channeling for a familiar...'
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Snowman supports you using frost techniques.'
+    effect:
+      type: buff
+      duration: 0
+    effectMeta:
+      effectRef: FindFamiliar
+      castSfx: 'spell-conjure'
+      applySfx: 'spell-conjure'
+      unapplyMessage: 'Your snowman familiar has returned to the ether.'
+
+  # trait info
+  trait:
+    name: Find Familiar (Snowman)
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: findfamiliar snowman
+    mode: 'autoActivate'
+
+FindFamiliarTurkey:
+
+  # global info
+  all:
+    desc: "Summon a turkey to fight for you in combat. Cost: 50 MP"
+    icon: "twitter-alt"
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    castTime: 10
+    cooldown: 60
+    maxSkillForGain: 1
+
+    spellMeta:
+      creatureSummoned: Holiday Summon Turkey
+      casterMessage: 'You begin channeling for a familiar...'
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Turkey supports you as a melee DPS.'
+    effect:
+      type: buff
+      duration: 0
+    effectMeta:
+      effectRef: FindFamiliar
+      castSfx: 'spell-conjure'
+      applySfx: 'spell-conjure'
+      unapplyMessage: 'Your turkey familiar has returned to the ether.'
+
+  # trait info
+  trait:
+    name: Find Familiar (Turkey)
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: findfamiliar turkey
+    mode: 'autoActivate'

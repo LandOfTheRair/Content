@@ -14,3 +14,17 @@ Channeling:
   effectMeta:
     castMessage: 'You begin channeling a spell...'
     unapplyMessage: 'You stop channeling your spell.'
+
+FindFamiliar:
+  tooltip:
+    icon: 'uncertainty'
+    color: '#000'
+    desc: 'Generic familiar message.'
+  effect:
+    type: buff
+    duration: 600
+    extra:
+      canRemove: true
+      unique: true
+  effectMeta:
+    effectRef: FindFamiliar

@@ -7,6 +7,13 @@
   skillLevels: 5
   level: 1
 
+  summonStatModifiers:
+    hp: 30000
+    wis: 0.25
+
+  summonSkillModifiers:
+    restoration: 0.3
+
   noCorpseDrop: true
 
   usableSkills:
@@ -40,6 +47,13 @@
   skillLevels: 5
   level: 1
 
+  summonStatModifiers:
+    hp: 30000
+    wis: 0.25
+
+  summonSkillModifiers:
+    restoration: 0.25
+
   noCorpseDrop: true
 
   usableSkills:
@@ -71,6 +85,13 @@
   stats: 25
   skillLevels: 5
   level: 1
+
+  summonStatModifiers:
+    hp: 30000
+    wis: 0.25
+
+  summonSkillModifiers:
+    restoration: 0.3
 
   noCorpseDrop: true
 
