@@ -295,7 +295,7 @@ ConjureSword:
   # trait info
   trait:
     name: Conjure Sword
-    borderColor: "#aa0"
+    borderColor: "#a0a"
 
   # macro info
   macro:
@@ -324,7 +324,7 @@ ConjureShield:
   # trait info
   trait:
     name: Conjure Shield
-    borderColor: "#aa0"
+    borderColor: "#a0a"
 
   # macro info
   macro:
