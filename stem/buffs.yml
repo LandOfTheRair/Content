@@ -30,7 +30,7 @@ ImbueFrost:
       duration: 600
       extra:
         canRemove: true
-        unique: true
+        unique: 'Imbue'
     effectMeta:
       castSfx: 'spell-buff-physical'
       applySfx: 'spell-buff-physical'
@@ -78,7 +78,7 @@ ImbueFlame:
       duration: 600
       extra:
         canRemove: true
-        unique: true
+        unique: 'Imbue'
     effectMeta:
       castSfx: 'spell-buff-physical'
       applySfx: 'spell-buff-physical'
@@ -126,7 +126,7 @@ ImbueEnergy:
       duration: 600
       extra:
         canRemove: true
-        unique: true
+        unique: 'Imbue'
     effectMeta:
       castSfx: 'spell-buff-physical'
       applySfx: 'spell-buff-physical'
