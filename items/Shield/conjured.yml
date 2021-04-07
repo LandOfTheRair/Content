@@ -2,6 +2,5 @@
 - name: Conjured Shield
   tier: 1
   sprite: 1036
-  destroyOnDrop: true
   desc: "a shield crafted from raw ether"
   value: 0

@@ -2,6 +2,5 @@
 - name: Conjured Longsword
   tier: 1
   sprite: 1035
-  destroyOnDrop: true
   desc: "a sword crafted from raw ether"
   value: 0
