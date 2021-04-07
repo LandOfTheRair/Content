@@ -97,7 +97,7 @@ Mage:
 
           - name: DarkVision
             maxLevel: 1
-            
+
           - name: ''
           
         - traits: 
@@ -181,7 +181,10 @@ Mage:
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+
+          - name: ImbueFlame
+            maxLevel: 1
+
           - name: FindFamiliarBear
             maxLevel: 1
           
@@ -193,7 +196,10 @@ Mage:
             maxLevel: 1
 
           - name: ''
-          - name: ''
+
+          - name: ImbueFrost
+            maxLevel: 1
+
           - name: FindFamiliarWolf
             maxLevel: 1
           
@@ -201,7 +207,10 @@ Mage:
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+
+          - name: ImbueEnergy
+            maxLevel: 1
+
           - name: FindFamiliarSpider
             maxLevel: 1
           

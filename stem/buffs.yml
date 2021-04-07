@@ -11,6 +11,11 @@ ImbueFrost:
   spell:
     mpCost: 100
     maxSkillForGain: 25
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
 
     spellMeta:
       noHostileTarget: true
@@ -32,6 +37,107 @@ ImbueFrost:
       castMessage: 'You cast Imbue Frost on %target.'
       applyMessage: 'A whirling blue aura envelops your hands.'
       unapplyMessage: 'The blue aura surrounding your hands fades.'
+
+  # trait info
+  trait:
+    name: Imbue Frost
+    borderColor: "#00a"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+ImbueFlame:
+
+  # global info
+  all:
+    desc: "Augment physical attacks to do bonus fire damage. Cost: 100 MP"
+    icon: magic-palm
+    color: "#a00"
+
+  # spell cast info
+  spell:
+    mpCost: 100
+    maxSkillForGain: 25
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Your attacks sometimes do additional fire damage.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-physical'
+      applySfx: 'spell-buff-physical'
+      castMessage: 'You cast Imbue Flame on %target.'
+      applyMessage: 'A whirling red aura envelops your hands.'
+      unapplyMessage: 'The red aura surrounding your hands fades.'
+
+  # trait info
+  trait:
+    name: Imbue Flame
+    borderColor: "#a00"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+ImbueEnergy:
+
+  # global info
+  all:
+    desc: "Augment physical attacks to do bonus energy damage. Cost: 100 MP"
+    icon: magic-palm
+    color: "#a0a"
+
+  # spell cast info
+  spell:
+    mpCost: 100
+    maxSkillForGain: 25
+    skillMultiplierChanges:
+      - [0,  4]
+      - [11, 6]
+      - [21, 10]
+      - [31, 15]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Your attacks sometimes do additional energy damage.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-physical'
+      applySfx: 'spell-buff-physical'
+      castMessage: 'You cast Imbue Energy on %target.'
+      applyMessage: 'A whirling purple aura envelops your hands.'
+      unapplyMessage: 'The purple aura surrounding your hands fades.'
+
+  # trait info
+  trait:
+    name: Imbue Energy
+    borderColor: "#a0a"
 
   # macro info
   macro:
