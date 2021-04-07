@@ -19,6 +19,7 @@ Cure:
       - [31, 15]
 
     spellMeta:
+      noReflect: true
       doesHeal: true
       noHostileTarget: true
       casterAttackMessage: 'You heal %0!'
@@ -53,6 +54,7 @@ PowerwordHeal:
       - [31, 15]
 
     spellMeta:
+      noReflect: true
       targetsParty: true
       doesHeal: true
       noHostileTarget: true
@@ -90,6 +92,7 @@ Revive:
       - [31, 15]
 
     spellMeta:
+      noReflect: true
       doesHeal: true
       noHostileTarget: true
       casterSfx: 'spell-heal'

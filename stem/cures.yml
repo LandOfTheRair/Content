@@ -15,6 +15,9 @@ Antidote:
     skillMultiplierChanges:
       - [0,  1]
 
+    spellMeta:
+      noReflect: true
+
   # trait info
   trait:
     borderColor: "#0a0"
@@ -38,6 +41,9 @@ Vision:
     maxSkillForGain: 10
     skillMultiplierChanges:
       - [0,  1]
+
+    spellMeta:
+      noReflect: true
 
   # trait info
   trait:
