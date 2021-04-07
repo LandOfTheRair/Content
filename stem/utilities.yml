@@ -271,3 +271,61 @@ Light:
   # macro info
   macro:
     mode: 'clickToTarget'
+
+ConjureSword:
+
+  # global info
+  all:
+    desc: "Conjure a sword for yourself. Cost: 25 MP"
+    icon: broadsword
+    color: "#a0a"
+
+  # spell cast info
+  spell: 
+    damageClass: heal
+    mpCost: 25
+    maxSkillForGain: 7
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      casterMessage: 'You channel magical energy into the form of a sword.'
+      casterSfx: 'spell-conjure'
+
+  # trait info
+  trait:
+    name: Conjure Sword
+    borderColor: "#aa0"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'
+
+ConjureShield:
+
+  # global info
+  all:
+    desc: "Conjure a shield for yourself. Cost: 25 MP"
+    icon: round-shield
+    color: "#a0a"
+
+  # spell cast info
+  spell: 
+    damageClass: heal
+    mpCost: 25
+    maxSkillForGain: 7
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      casterMessage: 'You channel magical energy into the form of a shield.'
+      casterSfx: 'spell-conjure'
+
+  # trait info
+  trait:
+    name: Conjure Shield
+    borderColor: "#aa0"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'

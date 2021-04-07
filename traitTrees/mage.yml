@@ -182,8 +182,12 @@ Mage:
             maxLevel: 1
           
         - traits: 
-          - name: ''
-          - name: ''
+          - name: ConjureSword
+            maxLevel: 1
+
+          - name: ConjureShield
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: FindFamiliarWolf
