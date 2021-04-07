@@ -28,6 +28,7 @@
     iceResist: 150
     offense: 4
     defense: 4
+    spellReflectChance: 5
   value: 10011
   sprite: 219
   maxUpgrades: 2

@@ -212,7 +212,11 @@
         - Cure Ring
 
       robe1: FireIce Prot Robe 100
-      robe2: Saraxa Robe
+      robe2: 
+        - result: Saraxa Robe
+          chance: 5
+        - result: Saraxa Reflect Robe
+          chance: 1
       rightHand:
         - Saraxa Wand
 

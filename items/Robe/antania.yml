@@ -61,6 +61,22 @@
   requirements:
     level: 5
 
+- name: Saraxa Reflect Robe
+  quality: 5
+  stats:
+    magicalResist: 15
+    magicalDamageReflect: 15
+    spellReflectChance: 5
+  binds: true
+  tellsBind: true
+  maxUpgrades: 2
+  desc: "a red robe with a shimmering gold trim interleaved with rays of ether"
+  value: 1221
+  sprite: 488
+
+  requirements:
+    level: 5
+
 - name: Yzalt Straw Robe
   stats:
     armorClass: 2
@@ -147,6 +163,23 @@
   maxUpgrades: 2
   desc: "a gold-trimmed robe stained crimson from ether mist"
   value: 7891
+  sprite: 488
+
+  requirements:
+    level: 15
+
+- name: Crazed Saraxa Reflect Robe
+  quality: 5
+  stats:
+    magicalResist: 50
+    magicalDamageReflect: 35
+    spellReflectChance: 10
+    armorClass: 3
+  binds: true
+  tellsBind: true
+  maxUpgrades: 2
+  desc: "a gold-trimmed robe stained with chunks of glowing ether"
+  value: 5667
   sprite: 488
 
   requirements:

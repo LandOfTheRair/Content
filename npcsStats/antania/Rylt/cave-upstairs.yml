@@ -48,7 +48,11 @@
       neck: Crazed Saraxa Amulet
 
       robe1: FireIce Prot Robe 500
-      robe2: Crazed Saraxa Robe
+      robe2: 
+        - result: Crazed Saraxa Robe
+          chance: 5
+        - result: Crazed Saraxa Reflect Robe
+          chance: 1
       rightHand: Crazed Saraxa Wand
 
   traitLevels:
