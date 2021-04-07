@@ -54,6 +54,7 @@ const otherStats = {
   healingBoostPercent: 0,
   physicalDamageReflect: 0,
   magicalDamageReflect: 0,
+  spellReflectChance: 0,
   necroticBoostPercent: 0,
   energyBoostPercent: 0,
   diseaseBoostPercent: 0,
