@@ -93,27 +93,30 @@ Mage:
           - name: Absorption
             maxLevel: 1
 
+          - name: ''
+          - name: ''
+
+          - name: DarkVision
+            maxLevel: 1
+          
+        - traits: 
+          - name: ''
+
+          - name: ''
+
           - name: ThermalBarrier
             maxLevel: 5
 
           - name: Darkness
             maxLevel: 1
-
-          - name: DarkVision
+            
+          - name: FleetOfFoot
             maxLevel: 1
           
         - traits: 
           - name: Haste
             maxLevel: 1
 
-          - name: ''
-          - name: ''
-          - name: ''
-          - name: FleetOfFoot
-            maxLevel: 1
-          
-        - traits: 
-          - name: ''
           - name: ''
           - name: ''
           - name: ''
@@ -187,7 +190,7 @@ Mage:
 
           - name: ConjureShield
             maxLevel: 1
-            
+
           - name: ''
           - name: ''
           - name: FindFamiliarWolf
