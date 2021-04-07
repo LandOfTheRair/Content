@@ -17,3 +17,9 @@ WandSpecialty:
   desc: Spells cost -$5$% while holding a wand.
   icon: fairy-wand
   valuePerTier: 0.05
+
+EnergyWaveWiden:
+  name: Energy Wave Widen
+  desc: Energy Wave extends outwards an additional +$1$ tile.
+  icon: beams-aura
+  valuePerTier: 1

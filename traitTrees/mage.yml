@@ -39,14 +39,18 @@ Mage:
             maxLevel: 1
           
         - traits: 
-          - name: ''
+          - name: EnergyWave
+            maxLevel: 1
+
           - name: ''
           - name: ''
           - name: ''
           - name: ''
           
         - traits: 
-          - name: ''
+          - name: EnergyWaveWiden
+            maxLevel: 1
+
           - name: ''
           - name: ''
           - name: ''

@@ -253,3 +253,48 @@ HolyFire:
   # macro info
   macro:
     mode: 'lockActivation'
+
+EnergyWave:
+
+  # global info
+  all:
+    desc: "Inflict energy damage in a 3x3 AoE from your location and push each target. Cost: 35 MP."
+    icon: beams-aura
+    color: "#a0a"
+
+  # spell cast info
+  spell: 
+    damageClass: energy
+    mpCost: 35
+    maxSkillForGain: 20
+    willSaveThreshold: 20
+    willSavePercent: 50
+    bonusRollsMin: 1
+    bonusRollsMax: 3
+    skillMultiplierChanges:
+      - [0,  0.7]
+      - [6,  1.2]
+      - [11, 1.7]
+      - [16, 2.2]
+      - [21, 2.7]
+      - [26, 3.2]
+      - [31, 4.2]
+      - [36, 5.7]
+
+    spellMeta:
+      aoe: true
+      aoeRangeTrait: EnergyWaveWiden
+      range: 1
+      doesAttack: true
+      casterAttackMessage: 'You blast %0 with a wave of energy!'
+      casterSfx: 'combat-hit-spell'
+      targetAttackMessage: '%0 blasted you with a wave of energy!'
+
+  # trait info
+  trait:
+    name: Energy Wave
+    borderColor: "#a0a"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'
