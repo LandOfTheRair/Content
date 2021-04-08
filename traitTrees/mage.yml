@@ -150,7 +150,7 @@ Mage:
           - name: ''
           - name: ''
           - name: ''
-          
+
           - name: Invisibility
             maxLevel: 1
 
@@ -159,22 +159,27 @@ Mage:
 
       tree: 
         - traits: 
-          - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
-          
-        - traits: 
           - name: Combust
             maxLevel: 1
 
+          - name: ''
+          - name: ''
+          - name: ''
+
           - name: Hail
             maxLevel: 1
+          
+        - traits: 
             
+          - name: ForgedFire
+            maxLevel: 5
+
           - name: ''
           - name: ''
           - name: ''
+
+          - name: ChilledCore
+            maxLevel: 5
           
         - traits: 
           - name: ''

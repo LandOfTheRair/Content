@@ -47,3 +47,15 @@ ExpandedMemory:
   desc: You can memorize an additional +$5$ teleport locations.
   icon: teleport
   valuePerTier: 5
+
+ForgedFire:
+  name: Forged Fire
+  desc: Your fire spells burn the opponent more quickly.
+  icon: flame-spin
+  valuePerTier: 3
+
+ChilledCore:
+  name: Chilled Core
+  desc: Your ice spells chill the opponent more quickly.
+  icon: ice-spell-cast
+  valuePerTier: 3
