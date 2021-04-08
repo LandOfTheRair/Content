@@ -59,3 +59,15 @@ ChilledCore:
   desc: Your ice spells chill the opponent more quickly.
   icon: ice-spell-cast
   valuePerTier: 3
+
+FireMistWiden:
+  name: Fire Mist Widen
+  desc: Your Fire Mist spell will extend outwards and additional +$1$ tile.
+  icon: kaleidoscope-pearls
+  valuePerTier: 1
+
+IceMistWiden:
+  name: Ice Mist Widen
+  desc: Your Ice Mist spell will extend outwards and additional +$1$ tile.
+  icon: kaleidoscope-pearls
+  valuePerTier: 1

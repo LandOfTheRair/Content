@@ -182,7 +182,8 @@ Mage:
             maxLevel: 5
           
         - traits: 
-          - name: ''
+          - name: FireMist
+            maxLevel: 1
 
           - name: FirethornsAura
             maxLevel: 1
@@ -192,14 +193,19 @@ Mage:
           - name: FrostspikesAura
             maxLevel: 1
             
-          - name: ''
+          - name: IceMist
+            maxLevel: 1
           
         - traits: 
+          - name: FireMistWiden
+            maxLevel: 1
+
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
-          - name: ''
+          
+          - name: IceMistWiden
+            maxLevel: 1
           
         - traits: 
           - name: ''

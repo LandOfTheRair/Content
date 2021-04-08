@@ -335,3 +335,93 @@ Antipode:
   # macro info
   macro:
     mode: 'lockActivation'
+
+IceMist:
+
+  # global info
+  all:
+    desc: "Inflict ice damage in a 3x3 AoE. Cost: 25 MP"
+    icon: kaleidoscope-pearls
+    color: "#000080"
+
+  # spell cast info
+  spell: 
+    damageClass: ice
+    mpCost: 25
+    maxSkillForGain: 40
+    potencyMultiplier: 1
+    willSaveThreshold: 25
+    willSavePercent: 30
+    bonusRollsMin: 1
+    bonusRollsMax: 2
+    skillMultiplierChanges:
+      - [0,  2.5]
+      - [6,  3]
+      - [11, 3.5]
+      - [16, 4]
+      - [21, 5.5]
+      - [26, 7]
+      - [31, 10]
+      - [36, 14]
+
+    spellMeta:
+      aoe: true
+      aoeRangeTrait: IceMistWiden
+      doesAttack: true
+      casterAttackMessage: 'You engulf %0 in a chilling mist!'
+      targetAttackMessage: '%0 engulfed you in a chilling mist!'
+      range: 1
+
+  # trait info
+  trait:
+    name: Ice Mist
+    borderColor: "#00a"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+FireMist:
+
+  # global info
+  all:
+    desc: "Inflict fire damage in a 3x3 AoE. Cost: 25 MP"
+    icon: kaleidoscope-pearls
+    color: "#DC143C"
+
+  # spell cast info
+  spell: 
+    damageClass: fire
+    mpCost: 25
+    maxSkillForGain: 40
+    potencyMultiplier: 1.5
+    willSaveThreshold: 25
+    willSavePercent: 30
+    bonusRollsMin: 2
+    bonusRollsMax: 3
+    skillMultiplierChanges:
+      - [0,  3]
+      - [6,  3.5]
+      - [11, 4]
+      - [16, 4.5]
+      - [21, 5]
+      - [26, 8]
+      - [31, 12]
+      - [36, 17]
+
+    spellMeta:
+      aoe: true
+      aoeRangeTrait: FireMistWiden
+      doesAttack: true
+      casterAttackMessage: 'You engulf %0 in a scorching mist!'
+      targetAttackMessage: '%0 engulfed you in a scorching mist!'
+      range: 1
+
+  # trait info
+  trait:
+    name: Fire Mist
+    borderColor: "#a00"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
