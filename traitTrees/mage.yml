@@ -59,7 +59,7 @@ Mage:
         - traits: 
 
           - name: ''
-          
+
           - name: ConcussiveBolt
             maxLevel: 5
 
@@ -67,7 +67,9 @@ Mage:
             maxLevel: 1
             
           - name: ''
-          - name: ''
+
+          - name: Teleport
+            maxLevel: 1
           
         - traits: 
 
@@ -76,8 +78,12 @@ Mage:
 
           - name: ''
           - name: ''
-          - name: ''
-          - name: ''
+          
+          - name: ExpandedMemory
+            maxLevel: 5
+
+          - name: MassTeleport
+            maxLevel: 1
 
     Evoker:
       desc: The Evoker tree

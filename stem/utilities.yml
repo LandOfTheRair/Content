@@ -329,3 +329,51 @@ ConjureShield:
   # macro info
   macro:
     mode: 'autoActivate'
+
+Teleport:
+
+  # global info
+  all:
+    desc: "Teleport to a previously-memorized location. Memorize new locations with the memorize command. Cost: 100 MP"
+    icon: teleport
+    color: "#a0a"
+
+  # spell cast info
+  spell: 
+    damageClass: physical
+    mpCost: 100
+    maxSkillForGain: 15
+    skillMultiplierChanges:
+      - [0,  1]
+
+  # trait info
+  trait:
+    borderColor: "#a0a"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+MassTeleport:
+
+  # global info
+  all:
+    desc: "Teleport all players on your tile to a previously-memorized location. Memorize new locations with the memorize command. Cost: 100 MP"
+    icon: vortex
+    color: "#a0a"
+
+  # spell cast info
+  spell: 
+    damageClass: physical
+    mpCost: 100
+    maxSkillForGain: 15
+    skillMultiplierChanges:
+      - [0,  1]
+
+  # trait info
+  trait:
+    borderColor: "#a0a"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'

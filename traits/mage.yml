@@ -41,3 +41,9 @@ EnergyWaveWiden:
   desc: Energy Wave extends outwards an additional +$1$ tile.
   icon: beams-aura
   valuePerTier: 1
+
+ExpandedMemory:
+  name: Expanded Memory
+  desc: You can memorize an additional +$5$ teleport locations.
+  icon: teleport
+  valuePerTier: 5
