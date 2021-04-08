@@ -78,12 +78,13 @@ Mage:
 
           - name: ''
           - name: ''
-          
+
           - name: ExpandedMemory
             maxLevel: 5
 
           - name: MassTeleport
             maxLevel: 1
+            requires: Teleport
 
     Evoker:
       desc: The Evoker tree
