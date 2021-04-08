@@ -299,3 +299,39 @@ EnergyWave:
   # macro info
   macro:
     mode: 'autoActivate'
+
+Antipode:
+
+  # global info
+  all:
+    desc: "Inflict ice and fire damage on a single target. Cost: 25 MP"
+    icon: frostfire
+    color: "#505"
+
+  # spell cast info
+  spell: 
+    damageClass: energy
+    mpCost: 25
+    maxSkillForGain: 40
+    potencyMultiplier: 0.8
+    willSaveThreshold: 25
+    willSavePercent: 30
+    bonusRollsMin: 0
+    bonusRollsMax: 2
+    skillMultiplierChanges:
+      - [0,  0.5]
+      - [6,  1]
+      - [11, 1.5]
+      - [16, 2]
+      - [21, 2.5]
+      - [26, 3]
+      - [31, 5]
+      - [36, 10]
+
+  # trait info
+  trait:
+    borderColor: "#00a"
+
+  # macro info
+  macro:
+    mode: 'lockActivation'

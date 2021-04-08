@@ -204,7 +204,10 @@ Mage:
         - traits: 
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: Antipode
+            maxLevel: 1
+
           - name: ''
           - name: ''
 
