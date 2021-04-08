@@ -11,6 +11,12 @@ BouncingMissiles:
   icon: missile-swarm
   valuePerTier: 10
 
+ConcussiveBolt:
+  name: Concussive Bolt
+  desc: Magic Bolt has a +$4$% chance of stunning.
+  icon: burning-dot
+  valuePerTier: 3
+
 EnergyFocus:
   name: Energy Focus
   desc: Deal +$10$% more energy damage.

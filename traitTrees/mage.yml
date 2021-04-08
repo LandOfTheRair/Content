@@ -59,7 +59,9 @@ Mage:
         - traits: 
 
           - name: ''
-          - name: ''
+          
+          - name: ConcussiveBolt
+            maxLevel: 5
 
           - name: EnergyWaveWiden
             maxLevel: 1
