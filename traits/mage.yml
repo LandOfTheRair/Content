@@ -5,6 +5,12 @@ MissileBarrage:
   icon: missile-swarm
   valuePerTier: 2
 
+BouncingMissiles:
+  name: Bouncing Missiles
+  desc: Magic Missiles have a +$10$% chance to bounce to another target.
+  icon: missile-swarm
+  valuePerTier: 10
+
 EnergyFocus:
   name: Energy Focus
   desc: Deal +$10$% more energy damage.

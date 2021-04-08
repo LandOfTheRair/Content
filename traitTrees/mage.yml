@@ -24,7 +24,7 @@ Mage:
 
         - traits:
 
-          - name: MissileBarrage
+          - name: BouncingMissiles
             maxLevel: 1
             requires: MagicMissile
 
@@ -41,7 +41,10 @@ Mage:
           
         - traits: 
 
-          - name: ''
+          - name: MissileBarrage
+            maxLevel: 1
+            requires: MagicMissile
+
           - name: ''
 
           - name: EnergyWave
