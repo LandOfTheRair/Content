@@ -1093,3 +1093,47 @@ Autoheal:
   # macro info
   macro:
     mode: 'clickToTarget'
+
+MagicMirror:
+
+  # global info
+  all:
+    desc: "Increase your chance to reflect magical damage. Cost: 125 MP"
+    icon: "mirror-mirror"
+    color: "#a0a"
+
+  # spell cast info
+  spell: 
+    mpCost: 125
+    maxSkillForGain: 15
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Reflecting some magical damage.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      castSfx: 'spell-buff-magical'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast Magic Mirror on %target.'
+      applyMessage: 'Your skin begins to reflect the light around you!'
+      unapplyMessage: 'Your reflective skin fades.'
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
