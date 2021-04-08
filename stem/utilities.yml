@@ -334,7 +334,7 @@ Teleport:
 
   # global info
   all:
-    desc: "Teleport to a previously-memorized location. Memorize new locations with the memorize command. Cost: 100 MP"
+    desc: "Teleport to a previously-memorized location. Memorize new locations with the memorize command and forget them with the forget command. Cost: 100 MP"
     icon: teleport
     color: "#a0a"
 
@@ -358,7 +358,7 @@ MassTeleport:
 
   # global info
   all:
-    desc: "Teleport all players on your tile to a previously-memorized location. Memorize new locations with the memorize command. Cost: 100 MP"
+    desc: "Teleport all players on your tile to a previously-memorized location. Memorize new locations with the memorize command and forget them with the forget command. Cost: 100 MP"
     icon: vortex
     color: "#a0a"
 
