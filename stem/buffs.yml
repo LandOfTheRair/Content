@@ -1035,6 +1035,7 @@ HolyAura:
     maxSkillForGain: 20
 
     spellMeta:
+      unique: 'Aura'
       doesOvertime: true
 
   # trait info
@@ -1157,3 +1158,107 @@ MagicMirror:
   # macro info
   macro:
     mode: 'clickToTarget'
+    
+FrostspikesAura:
+
+  # global info
+  all:
+    desc: "Make a single target reflect physical damage and counter it with ice. Cost: 100 MP."
+    icon: barbed-coil
+    color: "#000080"
+
+  # spell cast info
+  spell: 
+    mpCost: 100
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 2.5]
+      - [21, 4]
+      - [31, 6]
+
+    spellMeta:
+      doesOvertime: true
+
+  # trait info
+  trait:
+    name: Frostspikes
+    spellGiven: Frostspikes
+    borderColor: "#000080"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'You are reflecting physical damage and countering with ice.'
+    effect:
+      type: incoming
+      duration: 600
+      extra:
+        unique: 'Aura'
+        canRemove: true
+    effectMeta:
+      effectRef: FrostspikesAura
+      castSfx: 'spell-buff-give'
+      applySfx: 'spell-buff-receive'
+      castMessage: 'You cast Frostspikes on %target.'
+      applyMessage: "A spiky blue aura appears around you!"
+      unapplyMessage: 'Your spiky blue aura fades.'
+
+  # macro info
+  macro:
+    macro: cast frostspikes
+    name: Frostspikes
+    for: Frostspikes
+    mode: 'clickToTarget' 
+    
+FirethornsAura:
+
+  # global info
+  all:
+    desc: "Make a single target reflect physical damage and counter it with fire. Cost: 100 MP."
+    icon: barbed-coil
+    color: "#f00"
+
+  # spell cast info
+  spell: 
+    mpCost: 100
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 2.5]
+      - [21, 4]
+      - [31, 6]
+
+    spellMeta:
+      doesOvertime: true
+
+  # trait info
+  trait:
+    name: Firethorns
+    spellGiven: Firethorns
+    borderColor: "#f00"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'You are reflecting physical damage and countering with fire.'
+    effect:
+      type: incoming
+      duration: 600
+      extra:
+        unique: 'Aura'
+        canRemove: true
+    effectMeta:
+      effectRef: FirethornsAura
+      castSfx: 'spell-buff-give'
+      applySfx: 'spell-buff-receive'
+      castMessage: 'You cast Firethorns on %target.'
+      applyMessage: "A thorny red aura appears around you!"
+      unapplyMessage: 'Your thorny red aura fades.'
+
+  # macro info
+  macro:
+    macro: cast firethorns
+    name: Firethorns
+    for: Firethorns
+    mode: 'clickToTarget' 

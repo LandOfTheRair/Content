@@ -183,9 +183,15 @@ Mage:
           
         - traits: 
           - name: ''
+
+          - name: FirethornsAura
+            maxLevel: 1
+            
           - name: ''
-          - name: ''
-          - name: ''
+
+          - name: FrostspikesAura
+            maxLevel: 1
+            
           - name: ''
           
         - traits: 

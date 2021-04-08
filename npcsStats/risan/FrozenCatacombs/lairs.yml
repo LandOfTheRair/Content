@@ -449,7 +449,7 @@
       chance: 100
     - result: Daze
       chance: 100
-    - result: Frostspikes
+    - result: FrostspikesAura
       chance: 100
     - result: HolyAura
       chance: 100

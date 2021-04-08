@@ -33,7 +33,7 @@
   usableSkills:
     - ChillBiteMedium
     - Blindstrike
-    - Frostspikes
+    - FrostspikesAura
     - Sweep
 
   baseEffects:
@@ -115,7 +115,7 @@
   usableSkills:
     - Blindstrike
     - ChillBiteStrong
-    - Frostspikes
+    - FrostspikesAura
     - Rapidpunch
     - ShadowMeld
     - Sweep

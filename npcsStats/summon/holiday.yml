@@ -80,7 +80,7 @@
     - GlacierStance
     - ImbueFrost
     - Hail
-    - Frostspikes
+    - FrostspikesAura
 
   traitLevels:
     FrostedTouch: 5
