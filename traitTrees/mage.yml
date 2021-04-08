@@ -118,7 +118,9 @@ Mage:
           - name: Haste
             maxLevel: 1
 
-          - name: ''
+          - name: MagicMirror
+            maxLevel: 1
+
           - name: ''
           - name: ''
           - name: ''
