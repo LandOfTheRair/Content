@@ -124,7 +124,7 @@ MagicBolt:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: 'lockActivation'
 
 Combust:
 

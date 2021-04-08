@@ -45,7 +45,8 @@ Mage:
             maxLevel: 1
             requires: MagicMissile
 
-          - name: ''
+          - name: MagicBolt
+            maxLevel: 1
 
           - name: EnergyWave
             maxLevel: 1
