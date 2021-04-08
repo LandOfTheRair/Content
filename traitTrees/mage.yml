@@ -150,7 +150,9 @@ Mage:
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: Invisibility
+            maxLevel: 1
 
     Elementalist:
       desc: The Elementalist tree

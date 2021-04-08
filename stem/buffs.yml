@@ -391,6 +391,17 @@ Invisibility:
     icon: invisible
     color: "#000"
 
+  # spell cast info
+  spell: 
+    mpCost: 100
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
@@ -407,6 +418,15 @@ Invisibility:
       castMessage: 'You cast Invisibility on %target.'
       applyMessage: 'You can see through yourself!'
       unapplyMessage: 'You become opaque again.'
+
+  # trait info
+  trait:
+    name: Invisibility
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
 
 BarFire:
 
