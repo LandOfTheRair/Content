@@ -68,6 +68,7 @@ MagicMissile:
       - [36, 8]
 
     spellMeta:
+      extraAttackTrait: MissileBarrage
       doesAttack: true
       casterAttackMessage: 'You fling magic missiles at %0!'
       casterSfx: 'combat-hit-spell'

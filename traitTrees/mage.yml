@@ -23,11 +23,12 @@ Mage:
           - name: ''
 
         - traits:
-          - name: EnergyFocus
-            maxLevel: 5
+
+          - name: MissileBarrage
+            maxLevel: 1
             requires: MagicMissile
 
-          - name: WandSpecialty
+          - name: EnergyFocus
             maxLevel: 5
 
           - name: Push
@@ -39,20 +40,26 @@ Mage:
             maxLevel: 1
           
         - traits: 
+
+          - name: ''
+          - name: ''
+
           - name: EnergyWave
             maxLevel: 1
 
           - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
+
+          - name: WandSpecialty
+            maxLevel: 5
           
         - traits: 
-          - name: EnergyWaveWiden
-            maxLevel: 1
 
           - name: ''
           - name: ''
+
+          - name: EnergyWaveWiden
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           

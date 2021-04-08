@@ -1,4 +1,10 @@
 
+MissileBarrage:
+  name: Missile Barrage
+  desc: Shoot 2 more magic missiles when attacking.
+  icon: missile-swarm
+  valuePerTier: 2
+
 EnergyFocus:
   name: Energy Focus
   desc: Deal +$10$% more energy damage.

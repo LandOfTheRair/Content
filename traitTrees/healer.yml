@@ -85,9 +85,8 @@ Healer:
         - traits: 
           - name: NecroticFocus
             maxLevel: 5
-
-          - name: TotemSpecialty
-            maxLevel: 5
+            
+          - name: ''
             
           - name: Light
             maxLevel: 1
@@ -107,7 +106,9 @@ Healer:
             maxLevel: 1
 
           - name: ''
-          - name: ''
+
+          - name: TotemSpecialty
+            maxLevel: 5
           
         - traits: 
           - name: ''
