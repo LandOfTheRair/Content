@@ -71,3 +71,9 @@ IceMistWiden:
   desc: Your Ice Mist spell will extend outwards and additional +$1$ tile.
   icon: kaleidoscope-pearls
   valuePerTier: 1
+
+LightenArmor:
+  name: LightenArmor
+  desc: Armor no longer hinders your spellcasting.
+  icon: kevlar
+  valuePerTier: 1

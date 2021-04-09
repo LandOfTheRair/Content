@@ -203,7 +203,7 @@ Mage:
           - name: ''
           - name: ''
           - name: ''
-          
+
           - name: IceMistWiden
             maxLevel: 1
           
@@ -267,7 +267,9 @@ Mage:
             maxLevel: 1
           
         - traits: 
-          - name: ''
+          - name: LightenArmor
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''
