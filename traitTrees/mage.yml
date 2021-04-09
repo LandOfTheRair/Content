@@ -243,7 +243,8 @@ Mage:
           - name: Asper
             maxLevel: 1
 
-          - name: ''
+          - name: RiftSlash
+            maxLevel: 1
 
           - name: ImbueFrost
             maxLevel: 1

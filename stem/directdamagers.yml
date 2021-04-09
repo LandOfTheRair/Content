@@ -453,7 +453,7 @@ Drain:
 
   # trait info
   trait:
-    borderColor: "#a0a"
+    borderColor: "#ccc"
 
   # macro info
   macro:
@@ -486,8 +486,31 @@ Asper:
 
   # trait info
   trait:
-    borderColor: "#a0a"
+    borderColor: "#ccc"
 
   # macro info
   macro:
     mode: 'clickToTarget'
+
+RiftSlash:
+
+  # global info
+  all:
+    desc: "Warp through the void to your target and attack them. Cost: 10 MP"
+    icon: running-ninja
+    color: "#a0a"
+
+  # spell cast info
+  spell: 
+    damageClass: energy
+    mpCost: 10
+    maxSkillForGain: 30
+
+  # trait info
+  trait:
+    name: Rift Slash
+    borderColor: "#a0a"
+
+  # macro info
+  macro:
+    mode: 'lockActivation'
