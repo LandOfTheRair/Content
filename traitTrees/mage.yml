@@ -222,8 +222,12 @@ Mage:
 
       tree: 
         - traits: 
-          - name: ''
-          - name: ''
+          - name: ConjureSword
+            maxLevel: 1
+
+          - name: ConjureShield
+            maxLevel: 1
+
           - name: ''
 
           - name: ImbueFlame
@@ -233,10 +237,10 @@ Mage:
             maxLevel: 1
           
         - traits: 
-          - name: ConjureSword
+          - name: Drain
             maxLevel: 1
 
-          - name: ConjureShield
+          - name: Asper
             maxLevel: 1
 
           - name: ''
@@ -269,7 +273,7 @@ Mage:
         - traits: 
           - name: LightenArmor
             maxLevel: 1
-            
+
           - name: ''
           - name: ''
           - name: ''

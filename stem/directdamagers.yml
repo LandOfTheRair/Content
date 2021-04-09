@@ -425,3 +425,69 @@ FireMist:
   # macro info
   macro:
     mode: 'clickToTarget'
+
+Drain:
+
+  # global info
+  all:
+    desc: "Drain health from your target. Cost: 10 MP"
+    icon: wind-hole
+    color: "#af0000"
+
+  # spell cast info
+  spell: 
+    damageClass: energy
+    mpCost: 10
+    maxSkillForGain: 30
+    potencyMultiplier: 1
+    willSaveThreshold: 25
+    willSavePercent: 30
+    bonusRollsMin: 0
+    bonusRollsMax: 2
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 2]
+      - [21, 4]
+      - [31, 7]
+      - [41, 12]
+
+  # trait info
+  trait:
+    borderColor: "#a0a"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+Asper:
+
+  # global info
+  all:
+    desc: "Drain mana from your target. Cost: 10 MP"
+    icon: wind-hole
+    color: "#0059bd"
+
+  # spell cast info
+  spell: 
+    damageClass: energy
+    mpCost: 10
+    maxSkillForGain: 30
+    potencyMultiplier: 2
+    willSaveThreshold: 25
+    willSavePercent: 30
+    bonusRollsMin: 0
+    bonusRollsMax: 2
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 2]
+      - [21, 4]
+      - [31, 7]
+      - [41, 12]
+
+  # trait info
+  trait:
+    borderColor: "#a0a"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
