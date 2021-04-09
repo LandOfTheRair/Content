@@ -252,8 +252,14 @@ Mage:
             maxLevel: 1
           
         - traits: 
-          - name: ''
-          - name: ''
+          - name: DrainSlash
+            maxLevel: 5
+            requires: Drain
+
+          - name: AsperSlash
+            maxLevel: 5
+            requires: Asper
+
           - name: ''
 
           - name: ImbueEnergy

@@ -73,7 +73,19 @@ IceMistWiden:
   valuePerTier: 1
 
 LightenArmor:
-  name: LightenArmor
+  name: Lighten Armor
   desc: Armor no longer hinders your spellcasting.
   icon: kevlar
   valuePerTier: 1
+
+DrainSlash:
+  name: Drain Slash
+  desc: You have a +$5$% chance of casting Drain when physically attacking an enemy.
+  icon: running-ninja
+  valuePerTier: 5
+
+AsperSlash:
+  name: Asper Slash
+  desc: You have a +$5$% chance of casting Asper when physically attacking an enemy.
+  icon: running-ninja
+  valuePerTier: 5
