@@ -237,6 +237,21 @@ Mage:
             maxLevel: 1
           
         - traits: 
+
+          - name: ''
+
+          - name: ''
+
+          - name: ''
+
+
+          - name: ImbueFrost
+            maxLevel: 1
+
+          - name: FindFamiliarWolf
+            maxLevel: 1
+          
+        - traits: 
           - name: Drain
             maxLevel: 1
 
@@ -246,10 +261,10 @@ Mage:
           - name: RiftSlash
             maxLevel: 1
 
-          - name: ImbueFrost
+          - name: ImbueEnergy
             maxLevel: 1
 
-          - name: FindFamiliarWolf
+          - name: FindFamiliarSpider
             maxLevel: 1
           
         - traits: 
@@ -262,18 +277,8 @@ Mage:
             requires: Asper
 
           - name: ''
+          - name: ''
 
-          - name: ImbueEnergy
-            maxLevel: 1
-
-          - name: FindFamiliarSpider
-            maxLevel: 1
-          
-        - traits: 
-          - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
           - name: FindFamiliarSalamander
             maxLevel: 1
           
@@ -282,6 +287,8 @@ Mage:
             maxLevel: 1
 
           - name: ''
-          - name: ''
+          - name: StrongMind
+            maxLevel: 5
+
           - name: ''
           - name: ''

@@ -89,3 +89,9 @@ AsperSlash:
   desc: You have a +$5$% chance of casting Asper when physically attacking an enemy.
   icon: running-ninja
   valuePerTier: 5
+
+StrongMind:
+  name: Strong Mind
+  desc: When attacking, add +$20$% of your INT to your attack stat.
+  icon: brain
+  valuePerTier: 20
