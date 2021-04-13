@@ -36,7 +36,7 @@ VolcanoStance:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: 'autoActivate'
     
 GlacierStance:
 
@@ -75,4 +75,4 @@ GlacierStance:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: 'autoActivate'
