@@ -3,7 +3,7 @@ VolcanoStance:
 
   # global info
   all:
-    desc: "Adopt a molten offensive stance."
+    desc: "Adopt a molten offensive stance, boosting outgoing fire damage, making physical attacks hit for bonus fire damage, increasing offense and lowering defense."
     icon: fire-silhouette
     color: "#dc143c"
 
@@ -42,7 +42,7 @@ GlacierStance:
 
   # global info
   all:
-    desc: "Adopt a frozen defensive stance."
+    desc: "Adopt a frozen defensive stance, boosting outgoing frost damage, making physical attackers take frost damage, increasing defense and lowering offense."
     icon: frozen-orb
     color: "#000080"
 
