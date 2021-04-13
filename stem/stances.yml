@@ -13,6 +13,10 @@ VolcanoStance:
     maxSkillForGain: 1
     skillMultiplierChanges:
       - [0,  1]
+      - [11, 2]
+      - [21, 4]
+      - [31, 7]
+      - [41, 10]
 
     spellMeta:
       noHostileTarget: true
@@ -53,6 +57,10 @@ GlacierStance:
     maxSkillForGain: 1
     skillMultiplierChanges:
       - [0,  1]
+      - [11, 2]
+      - [21, 4]
+      - [31, 7]
+      - [41, 10]
 
     spellMeta:
       noHostileTarget: true
