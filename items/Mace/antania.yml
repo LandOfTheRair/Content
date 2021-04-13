@@ -16,3 +16,21 @@
   type: Mace
   value: 105
   sprite: 204
+
+- name: Tonwin Mace
+  quality: 5
+  desc: "a steel mace inscribed with strange arcane markings"
+  stats:
+    physicalDamageReflect: 10
+    armorClass: 2
+    offense: 3
+  maxUpgrades: 2
+  tier: 2
+  type: Mace
+  binds: true
+  tellsBind: true
+  sprite: 204
+  value: 2500
+
+  requirements:
+    level: 5

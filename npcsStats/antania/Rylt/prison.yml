@@ -646,7 +646,11 @@
     equipment:
       armor: Rylt Renegade Breastplate
       waist: Tonwin Sash
-      rightHand: Tonwin Sword
+      rightHand: 
+        - result: Tonwin Sword
+          chance: 5
+        - result: Tonwin Mace
+          chance: 1
       leftHand: Rylt Renegade Iron Shield
 
   copyDrops:
