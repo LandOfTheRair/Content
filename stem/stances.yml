@@ -28,6 +28,7 @@ VolcanoStance:
       extra:
         canRemove: true
         unique: 'Stance'
+    effectMeta: {}
 
   # trait info
   trait:
@@ -67,6 +68,7 @@ GlacierStance:
       extra:
         canRemove: true
         unique: 'Stance'
+    effectMeta: {}
 
   # trait info
   trait:
