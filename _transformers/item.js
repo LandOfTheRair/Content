@@ -7,7 +7,7 @@ const fs = require('fs');
 const { isUndefined, isNumber, isString } = require('lodash');
 
 const ValidItemTypes = [
-  'Mace', 'Axe', 'Dagger', 'Wand', 'Onehanded', 'Twohanded', 'Polearm', 'Ranged',
+  'Mace', 'Axe', 'Dagger', 'Wand', 'Sword', 'Twohanded', 'Polearm', 'Ranged',
   'Martial', 'Staff', 'Restoration', 'Conjuration', 'Throwing', 'Thievery', 'Shortsword'
 ];
 
