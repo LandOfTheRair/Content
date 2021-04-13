@@ -3,4 +3,5 @@
   tier: 1
   sprite: 1035
   desc: "a sword crafted from raw ether"
+  type: Sword
   value: 0
