@@ -1,0 +1,78 @@
+
+VolcanoStance:
+
+  # global info
+  all:
+    desc: "Adopt a molten offensive stance."
+    icon: fire-silhouette
+    color: "#dc143c"
+
+  # spell cast info
+  spell:
+    mpCost: 0
+    maxSkillForGain: 1
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Stance. Acting offensively.'
+    effect:
+      type: outgoing
+      duration: -1
+      extra:
+        canRemove: true
+        unique: 'Stance'
+
+  # trait info
+  trait:
+    name: Volcano Stance
+    borderColor: "#a00"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+    
+GlacierStance:
+
+  # global info
+  all:
+    desc: "Adopt a frozen defensive stance."
+    icon: frozen-orb
+    color: "#000080"
+
+  # spell cast info
+  spell:
+    mpCost: 0
+    maxSkillForGain: 1
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Stance. Acting defensively.'
+    effect:
+      type: incoming
+      duration: -1
+      extra:
+        canRemove: true
+        unique: 'Stance'
+
+  # trait info
+  trait:
+    name: Glacier Stance
+    borderColor: "#00a"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
