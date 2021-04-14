@@ -117,10 +117,12 @@ Warrior:
           
         - traits: 
           - name: ''
+          - name: OffhandFinesse
+            maxLevel: 5
+            
           - name: ''
           - name: ''
-          - name: ''
-          
+
           - name: Riposte
             maxLevel: 5
           
