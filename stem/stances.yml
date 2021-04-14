@@ -120,7 +120,8 @@ ParryStance:
       extra:
         canRemove: true
         unique: 'Stance'
-    effectMeta: {}
+    effectMeta:
+      effectRef: ParryStance
 
   # trait info
   trait:
@@ -165,7 +166,8 @@ RageStance:
       extra:
         canRemove: true
         unique: 'Stance'
-    effectMeta: {}
+    effectMeta:
+      effectRef: RageStance
 
   # trait info
   trait:
