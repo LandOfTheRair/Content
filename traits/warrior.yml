@@ -22,6 +22,6 @@ FunkyMoves:
 
 Swashbuckler:
   name: Swashbuckler
-  desc: Reduce your chance of an outgoing glancing blow by +$10$.
+  desc: Reduce your chance of an outgoing glancing blow by +$10$%.
   icon: spiral-thrust
   valuePerTier: .1

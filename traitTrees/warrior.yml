@@ -24,13 +24,14 @@ Warrior:
           - name: ''
 
         - traits:
+
+          - name: ''
+
+          - name: ''
+          
           - name: Swashbuckler
             maxLevel: 5
             requires: SwordTricks
-
-          - name: ''
-
-          - name: ''
 
           - name: ''
 
