@@ -26,8 +26,14 @@ Swashbuckler:
   icon: spiral-thrust
   valuePerTier: 0.1
 
+Riposte:
+  name: Riposte
+  desc: Increase your chance of counter-attacking while parrying by +$3$%.
+  icon: spinning-sword
+  valuePerTier: 3
+
 ForcefulStrike:
-  name: ForcefulStrike
+  name: Forceful Strike
   desc: Gain +$10$% to your physical damage.
   icon: striped-sword
   statsGiven:
