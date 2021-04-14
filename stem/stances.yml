@@ -159,7 +159,7 @@ RageStance:
     tooltip:
       desc: 'Stance. Acting offensively.'
     effect:
-      type: incoming
+      type: outgoing
       duration: -1
       extra:
         canRemove: true
