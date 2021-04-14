@@ -28,7 +28,7 @@ Warrior:
           - name: ''
 
           - name: ''
-          
+
           - name: Swashbuckler
             maxLevel: 5
             requires: SwordTricks
@@ -102,10 +102,15 @@ Warrior:
 
       tree: 
         - traits: 
+          - name: RageStance
+            maxLevel: 1
+
           - name: ''
           - name: ''
-          - name: ''
-          - name: ''
+          
+          - name: ParryStance
+            maxLevel: 1
+
           - name: ''
           
         - traits: 

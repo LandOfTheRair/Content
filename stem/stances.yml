@@ -86,3 +86,91 @@ GlacierStance:
   # macro info
   macro:
     mode: 'autoActivate'
+    
+ParryStance:
+
+  # global info
+  all:
+    desc: "Adopt a defensive stance, taunting foes, increasing defense and lowering offense."
+    icon: surrounded-shield
+    color: "#000"
+
+  # spell cast info
+  spell:
+    mpCost: 0
+    maxSkillForGain: 1
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 2]
+      - [21, 4]
+      - [31, 7]
+      - [41, 10]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Stance. Acting defensively.'
+    effect:
+      type: incoming
+      duration: -1
+      extra:
+        canRemove: true
+        unique: 'Stance'
+    effectMeta: {}
+
+  # trait info
+  trait:
+    name: Parry Stance
+    borderColor: "#00a"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'
+    
+RageStance:
+
+  # global info
+  all:
+    desc: "Adopt an offensive stance, generating rage, increasing offense and lowering defense."
+    icon: swords-power
+    color: "#000"
+
+  # spell cast info
+  spell:
+    mpCost: 0
+    maxSkillForGain: 1
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 2]
+      - [21, 4]
+      - [31, 7]
+      - [41, 10]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Stance. Acting offensively.'
+    effect:
+      type: incoming
+      duration: -1
+      extra:
+        canRemove: true
+        unique: 'Stance'
+    effectMeta: {}
+
+  # trait info
+  trait:
+    name: Rage Stance
+    borderColor: "#00a"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'
