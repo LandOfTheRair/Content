@@ -106,12 +106,14 @@ Warrior:
             maxLevel: 1
 
           - name: ''
+
+          - name: ForcefulStrike
+            maxLevel: 5
+
           - name: ''
           
           - name: ParryStance
             maxLevel: 1
-
-          - name: ''
           
         - traits: 
           - name: ''

@@ -24,4 +24,11 @@ Swashbuckler:
   name: Swashbuckler
   desc: Reduce your chance of an outgoing glancing blow by +$10$%.
   icon: spiral-thrust
-  valuePerTier: .1
+  valuePerTier: 0.1
+
+ForcefulStrike:
+  name: ForcefulStrike
+  desc: Gain +$10$% to your physical damage.
+  icon: striped-sword
+  statsGiven:
+    physicalBoostPercent: 10
