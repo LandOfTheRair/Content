@@ -129,6 +129,7 @@ ParryStance:
 
   # macro info
   macro:
+    macro: art parrystance
     mode: 'autoActivate'
     
 RageStance:
@@ -173,4 +174,5 @@ RageStance:
 
   # macro info
   macro:
+    macro: art ragestance
     mode: 'autoActivate'
