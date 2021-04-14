@@ -117,33 +117,47 @@ Warrior:
           
         - traits: 
           - name: ''
+
           - name: OffhandFinesse
             maxLevel: 5
-            
+
           - name: ''
           - name: ''
 
           - name: Riposte
             maxLevel: 5
+            requires: ParryStance
+          
+        - traits: 
+          - name: ViciousAssault
+            maxLevel: 5
+            requires: RageStance
+
+          - name: ''
+          - name: ''
+          - name: ''
+
+          - name: GlowingWeapon
+            maxLevel: 5
+            requires: ParryStance
           
         - traits: 
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: Boost
+            maxLevel: 1
+
           - name: ''
           - name: ''
           
         - traits: 
           - name: ''
           - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
-          
-        - traits: 
-          - name: ''
-          - name: ''
-          - name: ''
+
+          - name: BoostedBoost
+            maxLevel: 1
+
           - name: ''
           - name: ''
 

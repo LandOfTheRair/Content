@@ -44,3 +44,21 @@ OffhandFinesse:
   desc: Increase your offhand attack damage by +$10$%.
   icon: crossed-sabres
   valuePerTier: 0.1
+
+GlowingWeapon:
+  name: Glowing Weapon
+  desc: Increase your chance of parry applying to a magical attack by +$5$%.
+  icon: glowing-hands
+  valuePerTier: 5
+
+ViciousAssault:
+  name: Vicious Assault
+  desc: Increase your chance of attacking a second time while enraged by +$5$%.
+  icon: fire-dash
+  valuePerTier: 5
+
+BoostedBoost:
+  name: Boosted Boost
+  desc: Increase the stats boosted from Boost by +$2$.
+  icon: fist
+  valuePerTier: 2
