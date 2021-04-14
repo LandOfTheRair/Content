@@ -1306,5 +1306,5 @@ Boost:
 
   # macro info
   macro:
-    macro: art booost
-    mode: 'clickToTarget' 
+    macro: art boost
+    mode: 'autoActivate' 
