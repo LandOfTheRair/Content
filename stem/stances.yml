@@ -125,7 +125,7 @@ ParryStance:
   # trait info
   trait:
     name: Parry Stance
-    borderColor: "#00a"
+    borderColor: "#ccc"
 
   # macro info
   macro:
@@ -169,7 +169,7 @@ RageStance:
   # trait info
   trait:
     name: Rage Stance
-    borderColor: "#00a"
+    borderColor: "#ccc"
 
   # macro info
   macro:
