@@ -77,9 +77,11 @@ Warrior:
 
           - name: SilverSkin
             maxLevel: 5
-            
+
           - name: ''
-          - name: ''
+          
+          - name: SterlingArmor
+            maxLevel: 5
           
         - traits: 
           - name: ''

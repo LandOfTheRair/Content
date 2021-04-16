@@ -81,3 +81,9 @@ HolyProtection:
   icon: holy-symbol
   statsGiven:
     magicalResist: 10
+
+SterlingArmor:
+  name: Sterling Armor
+  desc: Increase your chance of ignoring incoming glancing blows by +$5$%.
+  icon: chest-armor
+  valuePerTier: 5
