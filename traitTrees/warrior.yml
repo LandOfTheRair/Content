@@ -86,7 +86,9 @@ Warrior:
             maxLevel: 5
           
         - traits: 
-          - name: ''
+          - name: MockingShout
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''

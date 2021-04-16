@@ -76,3 +76,42 @@ Provoke:
   macro:
     mode: 'autoTarget'
     macro: 'art provoke'
+
+MockingShout:
+
+  # global info
+  all:
+    desc: "Provoke all enemies around you. Cost: 25 Rage"
+    icon: shouting
+    color: "#f00"
+
+  # spell cast info
+  spell: 
+    damageClass: physical
+    maxSkillForGain: 10
+    mpCost: 25
+    potencyMultiplier: 1
+    skillMultiplierChanges:
+      - [0,  5]
+      - [6,  6]
+      - [11, 7]
+      - [16, 8]
+      - [21, 9]
+      - [26, 10]
+      - [31, 14]
+      - [36, 20]
+
+    spellMeta:
+      casterAttackMessage: 'You provoke %0!'
+      targetAttackMessage: '%0 provoked you!'
+
+  # trait info
+  trait:
+    name: Mocking Shout
+    desc: Provoke all targets around you, consuming 25 Rage and drawing their attention.
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'
+    macro: 'art mockingshout'
