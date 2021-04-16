@@ -63,7 +63,9 @@ Warrior:
 
       tree: 
         - traits: 
-          - name: ''
+          - name: Provoke
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''
@@ -79,7 +81,7 @@ Warrior:
             maxLevel: 5
 
           - name: ''
-          
+
           - name: SterlingArmor
             maxLevel: 5
           
