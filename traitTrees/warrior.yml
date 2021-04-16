@@ -84,7 +84,9 @@ Warrior:
           - name: ''
           
         - traits: 
-          - name: ''
+          - name: Shieldbearer
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''

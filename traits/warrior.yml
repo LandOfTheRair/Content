@@ -62,3 +62,8 @@ BoostedBoost:
   desc: Increase the stats boosted from Boost by +$2$.
   icon: fist
   valuePerTier: 2
+
+Shieldbearer:
+  name: Shieldbearer
+  desc: Shields also work in your right hand.
+  icon: edged-shield
