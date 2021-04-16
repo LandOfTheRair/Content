@@ -70,9 +70,14 @@ Warrior:
           - name: ''
 
         - traits: 
+          - name: HolyProtection
+            maxLevel: 5
+
           - name: ''
-          - name: ''
-          - name: ''
+
+          - name: SilverSkin
+            maxLevel: 5
+            
           - name: ''
           - name: ''
           
@@ -86,7 +91,7 @@ Warrior:
         - traits: 
           - name: Shieldbearer
             maxLevel: 1
-            
+
           - name: ''
           - name: ''
           - name: ''
