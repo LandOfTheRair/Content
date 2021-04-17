@@ -139,3 +139,9 @@ StrongSweep:
   desc: Increase the damage of your sweep attacks by +$10$%.
   icon: foot-trip
   valuePerTier: 0.1
+
+ImprovedRapidpunch:
+  name: Improved Rapidpunch
+  desc: Reduce the accuracy penalty and increase the number of hits for Rapidpunch.
+  icon: fire-punch
+  valuePerTier: 1

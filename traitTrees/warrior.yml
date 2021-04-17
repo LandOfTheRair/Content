@@ -245,14 +245,16 @@ Warrior:
         - traits: 
           - name: Rapidpunch
             maxLevel: 1
-            
+
           - name: ''
           - name: ''
           - name: ''
           - name: ''
           
         - traits: 
-          - name: ''
+          - name: ImprovedRapidpunch
+            maxLevel: 5
+            
           - name: ''
           - name: ''
           - name: ''
