@@ -151,3 +151,9 @@ UnarmoredSavant:
   desc: Your base mitigation will be 60 if you have a fur, robe, or cloak in your main armor slot.
   icon: robe
   valuePerTier: 60
+
+StunningFist:
+  name: Stunning Fist
+  desc: Increase the chance of stunning an opponent with your fist hits.
+  icon: thor-fist
+  valuePerTier: 2

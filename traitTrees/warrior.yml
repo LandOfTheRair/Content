@@ -249,7 +249,9 @@ Warrior:
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: StunningFist
+            maxLevel: 5
           
         - traits: 
           - name: ImprovedRapidpunch
