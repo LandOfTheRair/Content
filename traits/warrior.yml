@@ -98,3 +98,15 @@ ReflectiveCoating:
   desc: Increase your chance of reflecting spells by +$2$% per shield you hold.
   icon: mirror-mirror
   valuePerTier: 2
+
+Multitarget:
+  name: Multitarget
+  desc: Increase the number of targets Multistrike can hit by +$4$.
+  icon: sword-spin
+  valuePerTier: 4
+
+Multifocus:
+  name: Multifocus
+  desc: Reduce the defensive penalty of Multistrike by -$10$%.
+  icon: sword-spin
+  valuePerTier: 10

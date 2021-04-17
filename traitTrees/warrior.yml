@@ -94,7 +94,7 @@ Warrior:
             requires: Provoke
 
           - name: ''
-          
+
           - name: Multistrike
             maxLevel: 1
           
@@ -109,7 +109,10 @@ Warrior:
           - name: Shieldbearer
             maxLevel: 1
 
-          - name: ''
+          - name: Multitarget
+            maxLevel: 1
+            requires: Multistrike
+
           - name: ''
 
           - name: ReflectiveCoating
@@ -118,7 +121,10 @@ Warrior:
         - traits: 
           - name: ''
           - name: ''
-          - name: ''
+
+          - name: Multifocus
+            maxLevel: 5
+            requires: Multistrike
           
           - name: DoubleThrust
             maxLevel: 1
