@@ -145,3 +145,9 @@ ImprovedRapidpunch:
   desc: Reduce the accuracy penalty and increase the number of hits for Rapidpunch.
   icon: fire-punch
   valuePerTier: 1
+
+UnarmoredSavant:
+  name: Unarmored Savant
+  desc: Your base mitigation will be 60 if you have a fur, robe, or cloak in your main armor slot.
+  icon: robe
+  valuePerTier: 60
