@@ -94,7 +94,9 @@ Warrior:
             requires: Provoke
 
           - name: ''
-          - name: ''
+          
+          - name: Multistrike
+            maxLevel: 1
           
           - name: Thruststrike
             maxLevel: 1
@@ -109,7 +111,7 @@ Warrior:
 
           - name: ''
           - name: ''
-          
+
           - name: ReflectiveCoating
             maxLevel: 5
           
@@ -184,6 +186,7 @@ Warrior:
 
           - name: BoostedBoost
             maxLevel: 1
+            requires: Boost
 
           - name: ''
           - name: ''

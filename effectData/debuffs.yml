@@ -9,3 +9,16 @@ Stunned:
     duration: 5
     extra:
       unique: true
+
+LoweredDefenses:
+  tooltip:
+    icon: 'armor-downgrade'
+    color: '#a00'
+    desc: 'Your defenses are lowered.'
+  effect:
+    type: debuff
+    duration: 7
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: LoweredDefenses

@@ -151,3 +151,21 @@ Blindstrike:
   macro:
     mode: 'autoActivate'
     macro: 'art blindstrike'
+
+Multistrike:
+
+  # global info
+  all:
+    desc: "Attack a group of enemies on your tile at the expense of defense."
+    icon: sword-spin
+    color: "#f00"
+
+  # trait info
+  trait:
+    name: Multistrike
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'
+    macro: 'art multistrike'
