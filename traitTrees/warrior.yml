@@ -206,14 +206,19 @@ Warrior:
             maxLevel: 1
 
           - name: ''
+          
+          - name: TurtleStance
+            maxLevel: 1
+
           - name: ''
-          - name: ''
-          - name: ''
+
+          - name: TigerStance
+            maxLevel: 1
           
         - traits: 
           - name: Punchkick
             maxLevel: 1
-            
+
           - name: ''
           - name: ''
           - name: ''
