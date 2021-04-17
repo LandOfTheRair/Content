@@ -222,4 +222,96 @@ Rapidpunch:
   # macro info
   macro:
     mode: 'lockActivation'
-    macro: 'art rapidpunch'
+    macro: 'art rapidpunch' 
+    
+Boost:
+
+  # global info
+  all:
+    desc: "Boost your STR, DEX, and AGI by +3."
+    icon: fist
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    mpCost: 0
+    maxSkillForGain: 5
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      doesOvertime: true
+
+  # trait info
+  trait:
+    name: Boost
+    borderColor: "#000"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Boosted STR, DEX, INT.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        unique: true
+        canRemove: true
+    effectMeta:
+      effectRef: Boost
+      castSfx: 'spell-buff-give'
+      applySfx: 'spell-buff-receive'
+      castMessage: 'You cast Boost on %target.'
+      applyMessage: "You feel your physique improve!"
+      unapplyMessage: 'Your physique weakens.'
+
+  # macro info
+  macro:
+    macro: art boost
+    mode: 'autoActivate'  
+    
+Shield:
+
+  # global info
+  all:
+    desc: "Increase your physical and magical resistance for a period of time."
+    icon: vibrating-shield
+    color: "#a00"
+
+  # spell cast info
+  spell: 
+    mpCost: 0
+    maxSkillForGain: 5
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      doesOvertime: true
+
+  # trait info
+  trait:
+    name: Shield
+    borderColor: "#000"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Boosted physical and magical resistance'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        unique: true
+        canRemove: true
+    effectMeta:
+      effectRef: Shield
+      castSfx: 'spell-buff-physical'
+      applySfx: 'spell-buff-physical'
+      castMessage: 'You cast Shield on %target.'
+      applyMessage: "You clasp your hands together and exhale."
+      unapplyMessage: 'Your shield fades.'
+
+  # macro info
+  macro:
+    macro: art shield
+    mode: 'autoActivate' 

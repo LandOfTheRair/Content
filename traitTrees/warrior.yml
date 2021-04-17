@@ -235,7 +235,8 @@ Warrior:
           - name: StrongSweep
             maxLevel: 5
 
-          - name: ''
+          - name: Shield
+            maxLevel: 1
           
           - name: MartialAgility
             maxLevel: 5
@@ -249,7 +250,7 @@ Warrior:
           - name: ''
           - name: ''
           - name: ''
-          
+
           - name: StunningFist
             maxLevel: 5
           
