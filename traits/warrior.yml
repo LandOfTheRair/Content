@@ -111,6 +111,12 @@ Multifocus:
   icon: sword-spin
   valuePerTier: 10
 
+MartialAcuity:
+  name: Martial Acuity
+  desc: Increase your to-hit when attacking by +$1$.
+  icon: armor-punch
+  valuePerTier: 1
+
 Punchkick:
   name: Punchkick
   desc: When using Jumpkick, you will also punch your target.

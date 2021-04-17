@@ -206,11 +206,12 @@ Warrior:
             maxLevel: 1
 
           - name: ''
-          
+
           - name: TurtleStance
             maxLevel: 1
 
-          - name: ''
+          - name: MartialAcuity
+            maxLevel: 5
 
           - name: TigerStance
             maxLevel: 1
