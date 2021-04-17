@@ -222,7 +222,7 @@ Warrior:
 
           - name: Sweep
             maxLevel: 1
-            
+
           - name: ''
           - name: ''
 
@@ -231,7 +231,10 @@ Warrior:
           
         - traits: 
           - name: ''
-          - name: ''
+
+          - name: StrongSweep
+            maxLevel: 5
+
           - name: ''
           
           - name: MartialAgility
@@ -240,7 +243,9 @@ Warrior:
           - name: ''
           
         - traits: 
-          - name: ''
+          - name: Rapidpunch
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''

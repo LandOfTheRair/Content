@@ -133,3 +133,9 @@ BrassKnuckles:
   desc: Increase the damage of your fist attacks by +$1$ tier.
   icon: brass-knuckles
   valuePerTier: 1
+
+StrongSweep:
+  name: Strong Sweep
+  desc: Increase the damage of your sweep attacks by +$10$%.
+  icon: foot-trip
+  valuePerTier: 0.1

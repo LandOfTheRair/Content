@@ -205,3 +205,21 @@ Sweep:
   macro:
     mode: 'autoActivate'
     macro: 'art sweep'
+
+Rapidpunch:
+
+  # global info
+  all:
+    desc: "Repeatedly punch a target."
+    icon: fire-punch
+    color: "#a00"
+
+  # trait info
+  trait:
+    name: Rapidpunch
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'lockActivation'
+    macro: 'art rapidpunch'
