@@ -110,3 +110,8 @@ Multifocus:
   desc: Reduce the defensive penalty of Multistrike by -$10$%.
   icon: sword-spin
   valuePerTier: 10
+
+Punchkick:
+  name: Punchkick
+  desc: When using Jumpkick, you will also punch your target.
+  icon: high-kick
