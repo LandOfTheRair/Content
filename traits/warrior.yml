@@ -117,6 +117,12 @@ MartialAcuity:
   icon: armor-punch
   valuePerTier: 1
 
+MartialAgility:
+  name: Martial Agility
+  desc: Increase your chance of dodging a melee attack by +$20$% while you have an empty right hand.
+  icon: wingfoot
+  valuePerTier: 20
+
 Punchkick:
   name: Punchkick
   desc: When using Jumpkick, you will also punch your target.

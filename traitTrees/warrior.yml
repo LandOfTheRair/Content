@@ -229,7 +229,10 @@ Warrior:
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: MartialAgility
+            maxLevel: 5
+
           - name: ''
           
         - traits: 
