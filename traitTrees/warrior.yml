@@ -53,11 +53,20 @@ Warrior:
           - name: ''
           
         - traits: 
-          - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
+          - name: WandSpecialty
+            maxLevel: 1
+
+          - name: StaffSpecialty
+            maxLevel: 1
+
+          - name: BowSpecialty
+            maxLevel: 1
+
+          - name: ThrowingSpecialty
+            maxLevel: 1
+
+          - name: ShortswordSpecialty
+            maxLevel: 1
 
     Paladin:
       desc: The Paladin tree
@@ -95,43 +104,46 @@ Warrior:
             requires: Provoke
 
           - name: ''
-
-          - name: Multistrike
-            maxLevel: 1
+          - name: ''
           
           - name: Thruststrike
             maxLevel: 1
 
-          - name: ''
+          - name: Multistrike
+            maxLevel: 1
           
         - traits: 
-          - name: ''
+
+          - name: ReflectiveCoating
+            maxLevel: 5
 
           - name: Shieldbearer
             maxLevel: 1
 
+          - name: ''
+          - name: ''
+
           - name: Multitarget
             maxLevel: 1
             requires: Multistrike
-
-          - name: ''
-
-          - name: ReflectiveCoating
-            maxLevel: 5
           
         - traits: 
-          - name: ''
-          - name: ''
+          - name: MaceSpecialty
+            maxLevel: 1
 
-          - name: Multifocus
-            maxLevel: 5
-            requires: Multistrike
+          - name: TwohandedSpecialty
+            maxLevel: 1
+
+          - name: PolearmSpecialty
+            maxLevel: 1
           
           - name: DoubleThrust
             maxLevel: 1
             requires: Thruststrike
 
-          - name: ''
+          - name: Multifocus
+            maxLevel: 5
+            requires: Multistrike
 
     Duelist:
       desc: The Duelist tree
@@ -180,22 +192,28 @@ Warrior:
         - traits: 
           - name: ''
           - name: ''
+
+          - name: ''
           
           - name: Boost
             maxLevel: 1
 
           - name: ''
-          - name: ''
           
         - traits: 
-          - name: ''
-          - name: ''
+          - name: SwordSpecialty
+            maxLevel: 1
+
+          - name: AxeSpecialty
+            maxLevel: 1
+
+          - name: DaggerSpecialty
+            maxLevel: 1
 
           - name: BoostedBoost
             maxLevel: 1
             requires: Boost
 
-          - name: ''
           - name: ''
 
     Monk:
@@ -265,4 +283,6 @@ Warrior:
             maxLevel: 1
 
           - name: ''
-          - name: ''
+
+          - name: MartialSpecialty
+            maxLevel: 1
