@@ -127,3 +127,9 @@ Punchkick:
   name: Punchkick
   desc: When using Jumpkick, you will also punch your target.
   icon: high-kick
+
+BrassKnuckles:
+  name: Brass Knuckles
+  desc: Increase the damage of your fist attacks by +$1$ tier.
+  icon: brass-knuckles
+  valuePerTier: 1
