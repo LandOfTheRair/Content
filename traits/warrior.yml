@@ -87,3 +87,8 @@ SterlingArmor:
   desc: Increase your chance of ignoring incoming glancing blows by +$5$%.
   icon: chest-armor
   valuePerTier: 5
+
+DoubleThrust:
+  name: Double Thrust
+  desc: Perform a second, weaker attack when using Thruststrike.
+  icon: saber-slash

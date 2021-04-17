@@ -88,6 +88,7 @@ Warrior:
         - traits: 
           - name: MockingShout
             maxLevel: 1
+            requires: Provoke
 
           - name: ''
           - name: ''
@@ -110,7 +111,11 @@ Warrior:
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: DoubleThrust
+            maxLevel: 1
+            requires: Thruststrike
+
           - name: ''
 
     Duelist:
