@@ -25,7 +25,8 @@ Warrior:
 
         - traits:
 
-          - name: ''
+          - name: ConsumingRage
+            maxLevel: 1
 
           - name: ''
 

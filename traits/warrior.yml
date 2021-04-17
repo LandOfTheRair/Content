@@ -157,3 +157,8 @@ StunningFist:
   desc: Increase the chance of stunning an opponent with your fist hits.
   icon: thor-fist
   valuePerTier: 2
+
+ConsumingRage:
+  name: Consuming Rage
+  desc: Periodically consume Rage while attacking to boost your damage.
+  icon: enrage
