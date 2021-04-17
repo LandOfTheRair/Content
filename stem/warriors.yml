@@ -133,3 +133,21 @@ Thruststrike:
   macro:
     mode: 'lockActivation'
     macro: 'art thruststrike'
+
+Blindstrike:
+
+  # global info
+  all:
+    desc: "Attack a random enemy on your tile with a slightly weak attack. You can use this even if you can't see the target."
+    icon: sword-tie
+    color: "#f00"
+
+  # trait info
+  trait:
+    name: Blindstrike
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'
+    macro: 'art blindstrike'

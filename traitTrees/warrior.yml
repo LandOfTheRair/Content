@@ -69,21 +69,24 @@ Warrior:
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
 
-        - traits: 
-          - name: HolyProtection
+          - name: SterlingArmor
             maxLevel: 5
 
+        - traits: 
+
           - name: ''
+
+          - name: HolyProtection
+            maxLevel: 5
 
           - name: SilverSkin
             maxLevel: 5
 
           - name: ''
 
-          - name: SterlingArmor
-            maxLevel: 5
+          - name: Blindstrike
+            maxLevel: 1
           
         - traits: 
           - name: MockingShout
@@ -99,10 +102,11 @@ Warrior:
           - name: ''
           
         - traits: 
+          - name: ''
+
           - name: Shieldbearer
             maxLevel: 1
 
-          - name: ''
           - name: ''
           - name: ''
           - name: ''
