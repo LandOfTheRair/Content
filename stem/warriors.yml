@@ -169,3 +169,21 @@ Multistrike:
   macro:
     mode: 'autoActivate'
     macro: 'art multistrike'
+
+Jumpkick:
+
+  # global info
+  all:
+    desc: "Jump to and kick an enemy."
+    icon: high-kick
+    color: "#530000"
+
+  # trait info
+  trait:
+    name: Jumpkick
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'lockActivation'
+    macro: 'art jumpkick'

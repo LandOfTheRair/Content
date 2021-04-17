@@ -202,7 +202,9 @@ Warrior:
 
       tree: 
         - traits: 
-          - name: ''
+          - name: Jumpkick
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''
