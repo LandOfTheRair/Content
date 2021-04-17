@@ -88,10 +88,13 @@ Warrior:
         - traits: 
           - name: MockingShout
             maxLevel: 1
-            
+
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: Thruststrike
+            maxLevel: 1
+
           - name: ''
           
         - traits: 
