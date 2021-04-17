@@ -92,3 +92,9 @@ DoubleThrust:
   name: Double Thrust
   desc: Perform a second, weaker attack when using Thruststrike.
   icon: saber-slash
+
+ReflectiveCoating:
+  name: Reflective Coating
+  desc: Increase your chance of reflecting spells by +$2$% per shield you hold.
+  icon: mirror-mirror
+  valuePerTier: 2

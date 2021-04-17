@@ -109,7 +109,9 @@ Warrior:
 
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: ReflectiveCoating
+            maxLevel: 5
           
         - traits: 
           - name: ''
