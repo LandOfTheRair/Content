@@ -253,6 +253,7 @@
 - npcId: Saraxa Rocky
   name: Rocky
   hostility: Always
+  monsterGroup: CaveApprentice
   alignment: Evil
   baseClass: Warrior
   sprite: 75
