@@ -187,3 +187,21 @@ Jumpkick:
   macro:
     mode: 'lockActivation'
     macro: 'art jumpkick'
+
+Sweep:
+
+  # global info
+  all:
+    desc: "Attack multiple creatures on your tile with a kick attack."
+    icon: foot-trip
+    color: "#a00"
+
+  # trait info
+  trait:
+    name: Sweep
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'
+    macro: 'art sweep'

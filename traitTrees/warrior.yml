@@ -220,10 +220,12 @@ Warrior:
           - name: Punchkick
             maxLevel: 1
 
+          - name: Sweep
+            maxLevel: 1
+            
           - name: ''
           - name: ''
-          - name: ''
-          
+
           - name: BrassKnuckles
             maxLevel: 5
           
