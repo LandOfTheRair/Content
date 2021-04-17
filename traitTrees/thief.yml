@@ -119,7 +119,10 @@ Thief:
           
         - traits: 
           - name: ''
-          - name: ''
+          
+          - name: OffhandFinesse
+            maxLevel: 5
+
           - name: ''
           - name: ''
           - name: ''

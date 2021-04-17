@@ -39,12 +39,6 @@ ForcefulStrike:
   statsGiven:
     physicalBoostPercent: 10
 
-OffhandFinesse:
-  name: Offhand Finesse
-  desc: Increase your offhand attack damage by +$10$%.
-  icon: crossed-sabres
-  valuePerTier: 0.1
-
 GlowingWeapon:
   name: Glowing Weapon
   desc: Increase your chance of parry applying to a magical attack by +$5$%.

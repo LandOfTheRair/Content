@@ -1,0 +1,7 @@
+
+
+OffhandFinesse:
+  name: Offhand Finesse
+  desc: Increase your offhand attack damage by +$10$%.
+  icon: crossed-sabres
+  valuePerTier: 0.1
