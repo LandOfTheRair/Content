@@ -121,7 +121,7 @@ MartialAgility:
   name: Martial Agility
   desc: Increase your chance of dodging a melee attack by +$20$% while you have an empty right hand.
   icon: wingfoot
-  valuePerTier: 20
+  valuePerTier: 0.2
 
 Punchkick:
   name: Punchkick
