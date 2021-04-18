@@ -35,6 +35,7 @@
     - Clover
 
   allegiance: None
+  alignment: Neutral
   monsterClass: Beast
   stats: 15
   skillLevels: 5
