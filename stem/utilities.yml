@@ -377,3 +377,30 @@ MassTeleport:
   # macro info
   macro:
     mode: 'clickToTarget'
+
+Vortex:
+
+  # global info
+  all:
+    desc: "Create a vortex which sucks in nearby items. Cost: 100 MP"
+    icon: wind-hole
+    color: "#333"
+
+  # spell cast info
+  spell: 
+    damageClass: physical
+    mpCost: 100
+    maxSkillForGain: 15
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      range: 1
+
+  # trait info
+  trait:
+    borderColor: "#333"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'

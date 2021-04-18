@@ -136,7 +136,9 @@ Thief:
             
           - name: ''
           - name: ''
-          - name: ''
+          - name: Vortex
+            maxLevel: 1
+            
           - name: ''
           
         - traits: 
