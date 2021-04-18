@@ -186,7 +186,8 @@ Thief:
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+          - name: Shadowmeld
+            maxLevel: 1
           
         - traits: 
           - name: ''

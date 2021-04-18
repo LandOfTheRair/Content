@@ -52,9 +52,22 @@ Shadowmeld:
 
   # global info
   all:
-    desc: ""
+    desc: "Become one with the shadows for a brief time. Cost: 100 MP."
     icon: hidden
     color: "#ccc"
+
+  # spell cast info
+  spell: 
+    mpCost: 100
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 2.5]
+      - [21, 4]
+      - [31, 6]
+
+    spellMeta:
+      doesOvertime: true
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -63,7 +76,7 @@ Shadowmeld:
       desc: 'One with the shadows, ready to pounce.'
     effect:
       type: buff
-      duration: -1
+      duration: 5
       extra:
         canRemove: true
         unique: true
@@ -71,3 +84,12 @@ Shadowmeld:
       applyMessage: 'You become one with the shadows.'
       unapplyMessage: 'Your shadowmeld is broken!'
       castSfx: 'spell-sight-effect'
+
+  # trait info
+  trait:
+    borderColor: "#333"
+
+  # macro info
+  macro:
+    bgColor: "#00c"
+    mode: 'autoActivate'
