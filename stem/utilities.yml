@@ -236,8 +236,6 @@ Darkness:
 
     spellMeta:
       range: 1
-      aoe: true
-      aoeRangeTrait: DarknessWiden
 
   # trait info
   trait:
