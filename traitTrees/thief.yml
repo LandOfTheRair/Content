@@ -16,7 +16,8 @@ Thief:
             maxLevel: 1
             requires: ImprovedSteal
 
-          - name: ''
+          - name: Backstab
+            maxLevel: 1
 
           - name: ''
 
@@ -138,7 +139,7 @@ Thief:
           - name: ''
           - name: Vortex
             maxLevel: 1
-            
+
           - name: ''
           
         - traits: 

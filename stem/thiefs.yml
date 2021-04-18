@@ -29,6 +29,23 @@ Mug:
   # macro info
   macro:
     mode: 'lockActivation'
+
+Backstab:
+
+  # global info
+  all:
+    desc: "Backstab your target from the shadows."
+    icon: backstab
+    color: "#530000"
+
+  # trait info
+  trait:
+    desc: You can now backstab targets if you're hidden from them.
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
     
 Shadowmeld:
 
