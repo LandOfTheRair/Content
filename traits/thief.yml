@@ -23,3 +23,9 @@ DarkerShadows:
   icon: hidden
   statsGiven:
     stealth: 2
+
+DarknessWiden:
+  name: Darkness Widen
+  desc: Your Darkness spell will extend outwards and additional +$1$ tile.
+  icon: dust-cloud
+  valuePerTier: 1
