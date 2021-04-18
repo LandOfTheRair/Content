@@ -45,6 +45,7 @@ Backstab:
 
   # macro info
   macro:
+    macro: backstab
     mode: 'clickToTarget'
     
 Shadowmeld:
