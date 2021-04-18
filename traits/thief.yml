@@ -29,3 +29,9 @@ DarknessWiden:
   desc: Your Darkness spell will extend outwards and additional +$1$ tile.
   icon: dust-cloud
   valuePerTier: 1
+
+BetterBackstab:
+  name: Better Backstab
+  desc: Your backstab damage is increased by +$100$%.
+  icon: backstab
+  valuePerTier: 1
