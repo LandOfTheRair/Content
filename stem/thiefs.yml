@@ -47,6 +47,23 @@ Backstab:
   macro:
     macro: backstab
     mode: 'clickToTarget'
+
+Set:
+
+  # global info
+  all:
+    desc: "Set a trap from your hand. Traps can be purchased from thief vendors."
+    icon: quake-stomp
+    color: "#530000"
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: set
+    mode: 'clickToTarget'
     
 Shadowmeld:
 

@@ -116,7 +116,10 @@ Thief:
             maxLevel: 1
             
           - name: ''
-          - name: ''
+
+          - name: Set
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           
