@@ -64,6 +64,23 @@ Set:
   macro:
     macro: set
     mode: 'clickToTarget'
+
+Disarm:
+
+  # global info
+  all:
+    desc: "Disarm a trap on an adjacent tile."
+    icon: quake-stomp
+    color: "#000053"
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: disarm
+    mode: 'clickToTarget'
     
 Shadowmeld:
 

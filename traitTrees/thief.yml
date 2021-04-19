@@ -117,10 +117,11 @@ Thief:
             
           - name: ''
 
+          - name: ''
+
           - name: Set
             maxLevel: 1
-            
-          - name: ''
+
           - name: ''
           
         - traits: 
@@ -130,17 +131,21 @@ Thief:
             maxLevel: 5
 
           - name: ''
-          - name: ''
+          
+          - name: Disarm
+            maxLevel: 1
+
           - name: ''
           
         - traits: 
           - name: EagleEye
             maxLevel: 1
+
+          - name: Vortex
+            maxLevel: 1
             
           - name: ''
           - name: ''
-          - name: Vortex
-            maxLevel: 1
 
           - name: ''
           
