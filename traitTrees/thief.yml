@@ -137,7 +137,9 @@ Thief:
             maxLevel: 1
             requires: Set
 
-          - name: ''
+          - name: StrongerTraps
+            maxLevel: 1
+            requires: Set
 
           - name: ReusableTraps
             maxLevel: 5

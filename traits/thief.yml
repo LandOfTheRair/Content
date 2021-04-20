@@ -47,3 +47,9 @@ ReusableTraps:
   desc: Your traps now trigger an additional +$1$ time(s).
   icon: regeneration
   valuePerTier: 1
+
+StrongerTraps:
+  name: Stronger Traps
+  desc: Your traps are now +$1$x stronger.
+  icon: beveled-star
+  valuePerTier: 1
