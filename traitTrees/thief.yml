@@ -19,8 +19,9 @@ Thief:
           - name: ''
 
           - name: ''
-
-          - name: ''
+          
+          - name: Identify
+            maxLevel: 1
 
         - traits:
           - name: NimbleFingers
@@ -112,8 +113,8 @@ Thief:
 
       tree: 
         - traits: 
-          - name: 'Identify'
-            maxLevel: 1
+
+          - name: ''
             
           - name: ''
 
