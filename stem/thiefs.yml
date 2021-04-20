@@ -182,6 +182,7 @@ ChainKunai:
 
   # spell cast info
   spell: 
+    damageClass: physical
     mpCost: 25
     maxSkillForGain: 20
     skillMultiplierChanges:
@@ -191,6 +192,9 @@ ChainKunai:
       - [31, 6]
 
     spellMeta:
+      doesAttack: true
+      casterAttackMessage: 'You bind %0 with a kunai and chain!'
+      targetAttackMessage: '%0 hooked you with a kunai and chain!'
       doesOvertime: true
 
   # effect info (tooltip, duration, messages)
@@ -204,8 +208,9 @@ ChainKunai:
         canRemove: true
         unique: true
     effectMeta:
-      applyMessage: 'You are suddenly locked in place!.'
+      applyMessage: 'You are suddenly locked in place!'
       unapplyMessage: 'Your chains fall aside!'
+      effectRef: ChainKunai
 
   # trait info
   trait:
