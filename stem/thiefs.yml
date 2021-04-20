@@ -152,7 +152,6 @@ Disguise:
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      bgColor: '#00c'
       desc: 'Blending in with enemies.'
     effect:
       type: buff
