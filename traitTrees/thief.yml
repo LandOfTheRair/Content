@@ -148,21 +148,23 @@ Thief:
         - traits: 
           - name: EagleEye
             maxLevel: 1
-
-          - name: Vortex
-            maxLevel: 1
             
+          - name: ''
+          
           - name: ''
 
           - name: StrongerTraps
             maxLevel: 5
             requires: Set
-            
+
           - name: ''
           
         - traits: 
           - name: ''
-          - name: ''
+
+          - name: Vortex
+            maxLevel: 1
+
           - name: ''
 
           - name: WiderTraps
