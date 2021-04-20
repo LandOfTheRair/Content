@@ -75,3 +75,9 @@ Appraise:
   name: Appraise
   desc: You innately know the value of items.
   icon: receive-money
+
+PhilosophersStone:
+  name: Philosophers Stone
+  desc: Your transmutes generate +$20$% more gold.
+  icon: coins
+  valuePerTier: 20

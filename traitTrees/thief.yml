@@ -177,7 +177,10 @@ Thief:
         - traits: 
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: PhilosophersStone
+            maxLevel: 5
+            requires: Transmute
 
           - name: ReusableTraps
             maxLevel: 5
