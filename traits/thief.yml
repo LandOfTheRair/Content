@@ -59,3 +59,8 @@ WiderTraps:
   desc: Your area-of-effect traps are now +$2$ tiles wider.
   icon: kaleidoscope-pearls
   valuePerTier: 2
+
+GentleStep:
+  name: Gentle Step
+  desc: You no longer trigger traps by walking over them.
+  icon: wingfoot

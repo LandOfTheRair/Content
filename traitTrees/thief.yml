@@ -116,7 +116,8 @@ Thief:
 
           - name: ''
             
-          - name: ''
+          - name: GentleStep
+            maxLevel: 1
 
           - name: ''
 
@@ -153,7 +154,7 @@ Thief:
             maxLevel: 1
             
           - name: ''
-          
+
           - name: WiderTraps
             maxLevel: 1
             requires: Set
