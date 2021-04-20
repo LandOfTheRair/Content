@@ -127,3 +127,48 @@ Shadowmeld:
   macro:
     bgColor: "#00c"
     mode: 'autoActivate'
+    
+Disguise:
+
+  # global info
+  all:
+    desc: "Blend in with your enemies. Cost: 100 MP."
+    icon: duality
+    color: "#111"
+
+  # spell cast info
+  spell: 
+    mpCost: 100
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 2.5]
+      - [21, 4]
+      - [31, 6]
+
+    spellMeta:
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      bgColor: '#00c'
+      desc: 'Blending in with enemies.'
+    effect:
+      type: buff
+      duration: 5
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      applyMessage: 'You put on a shadowy disguise.'
+      unapplyMessage: 'Your disguise is broken!'
+      castSfx: 'spell-sight-effect'
+
+  # trait info
+  trait:
+    borderColor: "#333"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'

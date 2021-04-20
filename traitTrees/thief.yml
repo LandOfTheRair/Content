@@ -42,7 +42,10 @@ Thief:
         - traits: 
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: Disguise
+            maxLevel: 1
+
           - name: ''
           - name: ''
           
