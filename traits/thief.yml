@@ -35,3 +35,9 @@ BetterBackstab:
   desc: Your backstab damage is increased by +$100$%.
   icon: backstab
   valuePerTier: 1
+
+ThrownTraps:
+  name: Thrown Traps
+  desc: You can now set your traps anywhere, instead of only adjacent to you.
+  icon: beveled-star
+  valuePerTier: 3
