@@ -153,7 +153,10 @@ Thief:
             maxLevel: 1
             
           - name: ''
-          - name: ''
+          
+          - name: WiderTraps
+            maxLevel: 1
+            requires: Set
 
           - name: ''
           

@@ -53,3 +53,9 @@ StrongerTraps:
   desc: Your traps are now +$1$x stronger.
   icon: beveled-star
   valuePerTier: 1
+
+WiderTraps:
+  name: Wider Traps
+  desc: Your area-of-effect traps are now +$2$ tiles wider.
+  icon: kaleidoscope-pearls
+  valuePerTier: 2
