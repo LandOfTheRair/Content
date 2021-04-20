@@ -121,24 +121,26 @@ Thief:
 
           - name: Set
             maxLevel: 1
-
-          - name: ''
-          
-        - traits: 
-          - name: ''
-
-          - name: OffhandFinesse
-            maxLevel: 5
-
-          - name: ThrownTraps
-            maxLevel: 1
-            requires: Set
           
           - name: Disarm
             maxLevel: 1
             requires: Set
+          
+        - traits: 
+          - name: OffhandFinesse
+            maxLevel: 5
 
           - name: ''
+
+          - name: ThrownTraps
+            maxLevel: 1
+            requires: Set
+
+          - name: ''
+
+          - name: ReusableTraps
+            maxLevel: 5
+            requires: Set
           
         - traits: 
           - name: EagleEye
