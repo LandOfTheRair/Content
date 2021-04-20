@@ -42,7 +42,7 @@ Thief:
         - traits: 
           - name: ''
           - name: ''
-          
+
           - name: Disguise
             maxLevel: 1
 
@@ -53,7 +53,9 @@ Thief:
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+          - name: ChainKunai
+            maxLevel: 1
+            
           - name: ''
           
         - traits: 

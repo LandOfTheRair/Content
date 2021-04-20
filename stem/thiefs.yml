@@ -171,3 +171,47 @@ Disguise:
   # macro info
   macro:
     mode: 'autoActivate'
+    
+ChainKunai:
+
+  # global info
+  all:
+    desc: "Attack an enemy, pull it to you, and lock it in place briefly. Cost: 25 MP."
+    icon: harpoon-chain
+    color: "#111"
+
+  # spell cast info
+  spell: 
+    mpCost: 25
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 2.5]
+      - [21, 4]
+      - [31, 6]
+
+    spellMeta:
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Chained in place.'
+    effect:
+      type: debuff
+      duration: 3
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      applyMessage: 'You are suddenly locked in place!.'
+      unapplyMessage: 'Your chains fall aside!'
+
+  # trait info
+  trait:
+    name: Chain Kunai
+    borderColor: "#333"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
