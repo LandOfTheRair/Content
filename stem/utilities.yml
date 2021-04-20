@@ -404,3 +404,33 @@ Vortex:
   # macro info
   macro:
     mode: 'autoActivate'
+
+Transmute:
+
+  # global info
+  all:
+    desc: "Convert the items on the chosen tile to gold. Cost: 15 MP"
+    icon: coins-pile
+    color: "#665600"
+
+  # spell cast info
+  spell: 
+    damageClass: energy
+    mpCost: 15
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [32, 4]
+
+    spellMeta: {}
+
+  # trait info
+  trait:
+    name: Transmute
+    borderColor: "#665600"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'

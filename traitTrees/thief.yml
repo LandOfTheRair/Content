@@ -150,8 +150,9 @@ Thief:
             maxLevel: 1
             
           - name: ''
-          
-          - name: ''
+
+          - name: Transmute
+            maxLevel: 1
 
           - name: StrongerTraps
             maxLevel: 5
