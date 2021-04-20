@@ -64,3 +64,9 @@ GentleStep:
   name: Gentle Step
   desc: You no longer trigger traps by walking over them.
   icon: wingfoot
+
+LockpickSpecialty:
+  name: Lockpick Specialty
+  desc: Your skill when picking locks is considered to be +$1$.
+  icon: unlocking
+  valuePerTier: 1

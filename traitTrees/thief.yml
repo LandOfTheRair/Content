@@ -32,7 +32,8 @@ Thief:
 
           - name: ''
 
-          - name: ''
+          - name: LockpickSpecialty
+            maxLevel: 5
 
           - name: ''
           
@@ -142,9 +143,7 @@ Thief:
             maxLevel: 5
             requires: Set
 
-          - name: ReusableTraps
-            maxLevel: 5
-            requires: Set
+          - name: ''
           
         - traits: 
           - name: EagleEye
@@ -159,7 +158,9 @@ Thief:
             maxLevel: 1
             requires: Set
 
-          - name: ''
+          - name: ReusableTraps
+            maxLevel: 5
+            requires: Set
           
         - traits: 
           - name: ''
