@@ -35,7 +35,9 @@ Thief:
           - name: LockpickSpecialty
             maxLevel: 5
 
-          - name: ''
+          - name: Appraise
+            maxLevel: 1
+            requires: Identify
           
         - traits: 
           - name: ''

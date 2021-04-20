@@ -70,3 +70,8 @@ LockpickSpecialty:
   desc: Your skill when picking locks is considered to be +$1$.
   icon: unlocking
   valuePerTier: 1
+
+Appraise:
+  name: Appraise
+  desc: You innately know the value of items.
+  icon: receive-money
