@@ -31,7 +31,7 @@
   useEffect:
     name: BlurredVision
     duration: 30
-    potency: 30
+    potency: 10
     canApply: true
   value: 3000
 
@@ -67,6 +67,6 @@
   useEffect:
     name: BlurredVision
     duration: 60
-    potency: 60
+    potency: 25
     canApply: true
   value: 15000
