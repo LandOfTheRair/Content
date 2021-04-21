@@ -1,7 +1,7 @@
 
 Thief:
 
-  treeOrder: ['Thief', 'Rogue', 'Ninja', 'Assassin']
+  treeOrder: ['Thief', 'Rogue', 'Shadowsong', 'Assassin']
 
   trees:
     Thief:
@@ -16,7 +16,8 @@ Thief:
             maxLevel: 1
             requires: ImprovedSteal
 
-          - name: ''
+          - name: ImprovedHide
+            maxLevel: 1
 
           - name: ''
           
@@ -30,24 +31,30 @@ Thief:
 
           - name: ''
 
-          - name: ''
+          - name: Darkness
+            maxLevel: 1
+
+          - name: DarkVision
+            maxLevel: 1
 
           - name: LockpickSpecialty
             maxLevel: 5
-
-          - name: Appraise
-            maxLevel: 1
-            requires: Identify
           
         - traits: 
-          - name: ''
           - name: ''
 
           - name: Disguise
             maxLevel: 1
+            
+          - name: DarknessWiden
+            maxLevel: 1
+            requires: Darkness
 
           - name: ''
-          - name: ''
+
+          - name: Appraise
+            maxLevel: 1
+            requires: Identify
           
         - traits: 
           - name: ''
@@ -65,32 +72,20 @@ Thief:
           - name: ''
           - name: ''
 
-    Ninja:
-      desc: The Ninja tree
+    Shadowsong:
+      desc: The Shadowsong tree
 
       tree: 
         - traits: 
-          - name: ImprovedHide
-            maxLevel: 1
-
-          - name: Darkness
-            maxLevel: 1
-
-          - name: DarkVision
-            maxLevel: 1
-            
+          - name: ''
+          - name: ''
+          - name: ''
           - name: ''
           - name: ''
 
         - traits: 
-          - name: DarkerShadows
-            maxLevel: 5
-            requires: ImprovedHide
-            
-          - name: DarknessWiden
-            maxLevel: 1
-            requires: Darkness
-
+          - name: ''
+          - name: ''
           - name: ''
           - name: ''
           - name: ''
@@ -207,7 +202,9 @@ Thief:
             maxLevel: 1
 
           - name: ''
-          - name: ''
+          
+          - name: Apply
+            maxLevel: 1
           
         - traits: 
           - name: ''

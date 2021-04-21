@@ -81,6 +81,23 @@ Disarm:
   macro:
     macro: disarm
     mode: 'clickToTarget'
+
+Apply:
+
+  # global info
+  all:
+    desc: "Apply the effects of a bottle to your weapon strikes."
+    icon: bloody-sword
+    color: "#050"
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: apply
+    mode: 'autoActivate'
     
 Shadowmeld:
 

@@ -127,9 +127,9 @@ classes:
 
   - name: 'Thief'
     description: >
-      The Thief is a stealthy melee class, capable of using traps, ranged attacks, and other trinkets - sometimes from stealth, sometimes not. This class is able to specialize as a Ninja, Rogue or Assassin.
+      The Thief is a stealthy melee class, capable of using traps, ranged attacks, and other trinkets - sometimes from stealth, sometimes not. This class is able to specialize as a Shadowsong, Rogue or Assassin.
       
-      The Ninja specialization allows for the Thief to get even stealthier, able to hide from the most powerful of foes.
+      The Shadowsong specialization allows for the Thief to sing buffs for its allies and gain bow proficiency.
       
       The Rogue specialization allows for the Thief to more effectively dual wield, and create more effective traps.
       
