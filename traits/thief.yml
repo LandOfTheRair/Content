@@ -94,6 +94,6 @@ CorrosivePoison:
   icon: poison-gas
 
 DegenerativeVenom:
-  name: DegenerativeVenom
+  name: Degenerative Venom
   desc: Your venom will also lower the perception of the afflicted target.
   icon: dripping-goo
