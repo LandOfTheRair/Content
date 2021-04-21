@@ -7,7 +7,7 @@
   useEffect:
     name: Disease
     duration: 30
-    potency: 10
+    potency: 25
     canApply: true
   value: 3000
 
@@ -43,7 +43,7 @@
   useEffect:
     name: Venom
     duration: 60
-    potency: 20
+    potency: 125
     canApply: true
   value: 15000
 
