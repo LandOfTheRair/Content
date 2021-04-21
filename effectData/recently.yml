@@ -98,3 +98,14 @@ RecentlyHasted:
     duration: 60
     extra:
       unique: true
+
+RecentlyDebilitated:
+  tooltip:
+    icon: 'one-eyed'
+    color: '#000'
+    desc: 'You were recently debilitated.'
+  effect:
+    type: debuff
+    duration: 60
+    extra:
+      unique: true
