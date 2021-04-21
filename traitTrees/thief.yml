@@ -202,7 +202,7 @@ Thief:
             maxLevel: 1
 
           - name: ''
-          
+
           - name: Apply
             maxLevel: 1
           
@@ -214,7 +214,9 @@ Thief:
             maxLevel: 5
 
           - name: ''
-          - name: ''
+          
+          - name: EnhancedApplications
+            maxLevel: 5
           
         - traits: 
           - name: ''

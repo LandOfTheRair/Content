@@ -81,3 +81,9 @@ PhilosophersStone:
   desc: Your transmutes generate +$20$% more gold.
   icon: coins
   valuePerTier: 20
+
+EnhancedApplications:
+  name: Enhanced Applications
+  desc: Your applied effects last +$120$ seconds longer.
+  icon: bloody-sword
+  valuePerTier: 120
