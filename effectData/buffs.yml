@@ -1,4 +1,15 @@
 
+Applied:
+  tooltip:
+    icon: 'bloody-sword'
+    color: '#090'
+    desc: 'You have an effect applied to your weapons.'
+  effect:
+    type: buff
+    duration: 120
+    extra:
+      unique: true
+
 NecroticAura:
   tooltip:
     icon: 'uncertainty'
