@@ -10,6 +10,19 @@ Stunned:
     extra:
       unique: true
 
+BlurredVision:
+  tooltip:
+    icon: 'worried-eyes'
+    color: '#a00'
+    desc: 'Your perception is lowered.'
+  effect:
+    type: debuff
+    duration: 30
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: BlurredVision
+
 LoweredDefenses:
   tooltip:
     icon: 'armor-downgrade'
