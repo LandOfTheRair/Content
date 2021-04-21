@@ -5,7 +5,7 @@ Applied:
     color: '#090'
     desc: 'You have an effect applied to your weapons.'
   effect:
-    type: buff
+    type: outgoing
     duration: 120
     extra:
       unique: true
