@@ -235,10 +235,13 @@ Thief:
         - traits: 
           - name: DegenerativeVenom
             maxLevel: 1
-            
+
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: Debilitate
+            maxLevel: 1
+
           - name: ''
           
         - traits: 

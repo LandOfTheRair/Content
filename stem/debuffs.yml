@@ -378,3 +378,50 @@ Blind:
   # macro info
   macro:
     mode: 'clickToTarget'
+
+Debilitate:
+
+  # global info
+  all:
+    desc: "Make all hidden attacks against your target count as backstabs. Cost: 100 MP"
+    icon: "one-eyed"
+    color: "#a00"
+
+  # spell cast info
+  spell: 
+    mpCost: 100
+    maxSkillForGain: 15
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 1]
+      - [21, 1]
+      - [41, 2]
+
+    spellMeta:
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Acting twice as fast.'
+    effect:
+      type: debuff
+      duration: 15
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      recentlyRef: RecentlyDebilitated
+      castSfx: 'spell-debuff-physical'
+      applySfx: 'spell-debuff-physical'
+      castMessage: 'You cast Debilitate on %target.'
+      applyMessage: 'You see daggers in every corner of your eyes!'
+      unapplyMessage: 'Your paranoia fades.'
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
