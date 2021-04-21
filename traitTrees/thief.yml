@@ -223,15 +223,19 @@ Thief:
         - traits: 
           - name: Venom
             maxLevel: 1
-            
-          - name: ''
+
+          - name: CorrosivePoison
+            maxLevel: 1
+
           - name: ''
           - name: ''
           - name: Shadowmeld
             maxLevel: 1
           
         - traits: 
-          - name: ''
+          - name: DegenerativeVenom
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''

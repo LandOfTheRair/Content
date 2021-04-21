@@ -87,3 +87,13 @@ EnhancedApplications:
   desc: Your applied effects last +$120$ seconds longer.
   icon: bloody-sword
   valuePerTier: 120
+
+CorrosivePoison:
+  name: Corrosive Poison
+  desc: Your poison will also lower the mitigation of the afflicted target.
+  icon: poison-gas
+
+DegenerativeVenom:
+  name: DegenerativeVenom
+  desc: Your venom will also lower the perception of the afflicted target.
+  icon: dripping-goo
