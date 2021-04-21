@@ -52,6 +52,55 @@ Poison:
   macro:
     mode: 'clickToTarget'
 
+Venom:
+
+  # global info
+  all:
+    desc: "Inflict venom on a single target. Cost: 30 MP."
+    icon: dripping-goo
+    color: "#0a0"
+
+  # spell cast info
+  spell: 
+    damageClass: necrotic
+    mpCost: 30
+    maxSkillForGain: 20
+    potencyMultiplier: 1
+    willSaveThreshold: 20
+    willSavePercent: 33
+    skillMultiplierChanges:
+      - [0,  1]
+      - [6,  1.5]
+      - [11, 2]
+      - [16, 2.5]
+      - [21, 3]
+      - [26, 3.5]
+      - [31, 4]
+      - [36, 7]
+
+    spellMeta:
+      bonusAgro: 25
+      doesOvertime: true
+
+  # trait info
+  trait:
+    borderColor: "#0a0"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'You are envenomed, and continually taking damage.'
+    effect:
+      type: debuff
+      duration: 0
+    effectMeta:
+      effectRef: Venom
+      castSfx: 'spell-debuff-give'
+      applySfx: 'spell-debuff-receive'
+      castMessage: 'You cast a deadly venom on %target.'
+      applyMessage: "You feel a deadly venom coursing through your veins!"
+      unapplyMessage: 'You are no longer envenomed.'
+
 Disease:
 
   # global info

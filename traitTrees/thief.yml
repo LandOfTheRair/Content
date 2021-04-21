@@ -208,18 +208,22 @@ Thief:
           
         - traits: 
           - name: ''
-          - name: ''
+
+          - name: Poison
+            maxLevel: 1
           
           - name: BetterBackstab
             maxLevel: 5
 
           - name: ''
-          
+
           - name: EnhancedApplications
             maxLevel: 5
           
         - traits: 
-          - name: ''
+          - name: Venom
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''
