@@ -134,3 +134,9 @@ EndlessQuiver:
   desc: You have a +$5$% chance to not consume ammo when shooting.
   icon: quiver
   valuePerTier: 5
+
+StrongShots:
+  name: Strong Shots
+  desc: Increase the damage of your arrows by +$1$ tier.
+  icon: middle-arrow
+  valuePerTier: 5

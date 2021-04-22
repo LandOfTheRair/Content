@@ -95,7 +95,7 @@ Thief:
         - traits: 
           - name: EndlessQuiver
             maxLevel: 5
-            
+
           - name: ''
           - name: ''
           - name: ''
@@ -111,7 +111,9 @@ Thief:
           - name: ''
           
         - traits: 
-          - name: ''
+          - name: StrongShots
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''
