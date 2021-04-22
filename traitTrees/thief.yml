@@ -240,7 +240,8 @@ Thief:
           - name: DegenerativeVenom
             maxLevel: 1
 
-          - name: ''
+          - name: FindFamiliarShadowClones
+            maxLevel: 1
           
           - name: ShadowSwap
             maxLevel: 5

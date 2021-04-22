@@ -15,7 +15,7 @@ FindFamiliarLight:
     maxSkillForGain: 1
 
     spellMeta:
-      creatureSummoned: Healer Summon Light Spirit
+      creatureSummoned: [Healer Summon Light Spirit]
       casterMessage: 'You begin channeling for a familiar...'
 
   # effect info (tooltip, duration, messages)
@@ -60,7 +60,7 @@ FindFamiliarNature:
     maxSkillForGain: 1
 
     spellMeta:
-      creatureSummoned: Healer Summon Nature Spirit
+      creatureSummoned: [Healer Summon Nature Spirit]
       casterMessage: 'You begin channeling for a familiar...'
 
   # effect info (tooltip, duration, messages)
@@ -105,7 +105,7 @@ FindFamiliarWater:
     maxSkillForGain: 1
 
     spellMeta:
-      creatureSummoned: Healer Summon Water Spirit
+      creatureSummoned: [Healer Summon Water Spirit]
       casterMessage: 'You begin channeling for a familiar...'
 
   # effect info (tooltip, duration, messages)
@@ -150,7 +150,7 @@ FindFamiliarSpider:
     maxSkillForGain: 1
 
     spellMeta:
-      creatureSummoned: Mage Summon Chillspider
+      creatureSummoned: [Mage Summon Chillspider]
       casterMessage: 'You begin channeling for a familiar...'
 
   # effect info (tooltip, duration, messages)
@@ -192,7 +192,7 @@ FindFamiliarSalamander:
     maxSkillForGain: 1
 
     spellMeta:
-      creatureSummoned: Mage Summon Salamander
+      creatureSummoned: [Mage Summon Salamander]
       casterMessage: 'You begin channeling for a familiar...'
 
   # effect info (tooltip, duration, messages)
@@ -234,7 +234,7 @@ FindFamiliarBear:
     maxSkillForGain: 1
 
     spellMeta:
-      creatureSummoned: Mage Summon Bear
+      creatureSummoned: [Mage Summon Bear]
       casterMessage: 'You begin channeling for a familiar...'
 
   # effect info (tooltip, duration, messages)
@@ -302,6 +302,48 @@ FindFamiliarWolf:
     macro: findfamiliar wolf
     mode: 'autoActivate'
 
+FindFamiliarShadowClones:
+
+  # global info
+  all:
+    desc: "Summon shadow clones to help you slaughter your foes. Cost: 100 MP"
+    icon: "dark-squad"
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    mpCost: 100
+    castTime: 10
+    cooldown: 60
+    maxSkillForGain: 1
+
+    spellMeta:
+      creatureSummoned: [Thief Shadow Clone, Thief Shadow Clone, Thief Shadow Clone]
+      casterMessage: 'You begin calling for shadowy help...'
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Shadow clones attack enemies'
+    effect:
+      type: buff
+      duration: 0
+    effectMeta:
+      effectRef: FindFamiliar
+      castSfx: 'spell-conjure'
+      applySfx: 'spell-conjure'
+      unapplyMessage: 'Your shadow clone has returned to the darkness.'
+
+  # trait info
+  trait:
+    name: Shadow Clones
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: findfamiliar shadowclones
+    mode: 'autoActivate'
+
 FindFamiliarSnowman:
 
   # global info
@@ -318,7 +360,7 @@ FindFamiliarSnowman:
     maxSkillForGain: 1
 
     spellMeta:
-      creatureSummoned: Holiday Summon Snowman
+      creatureSummoned: [Holiday Summon Snowman]
       casterMessage: 'You begin channeling for a familiar...'
 
   # effect info (tooltip, duration, messages)
@@ -360,7 +402,7 @@ FindFamiliarTurkey:
     maxSkillForGain: 1
 
     spellMeta:
-      creatureSummoned: Holiday Summon Turkey
+      creatureSummoned: [Holiday Summon Turkey]
       casterMessage: 'You begin channeling for a familiar...'
 
   # effect info (tooltip, duration, messages)
