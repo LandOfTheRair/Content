@@ -100,9 +100,9 @@ DegenerativeVenom:
 
 ShadowSheath:
   name: Shadow Sheath
-  desc: Your weapons are +$20$% easier to conceal.
+  desc: Your weapons are +$10$% easier to conceal.
   icon: thrown-knife
-  valuePerTier: 0.2
+  valuePerTier: 0.1
 
 ShadowDaggers:
   name: Shadow Daggers
