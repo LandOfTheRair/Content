@@ -232,8 +232,7 @@ Thief:
           - name: ShadowSheath
             maxLevel: 5
 
-          - name: Shadowmeld
-            maxLevel: 1
+          - name: ''
           
         - traits: 
           - name: DegenerativeVenom
@@ -242,11 +241,16 @@ Thief:
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+
+          - name: Shadowmeld
+            maxLevel: 1
           
         - traits: 
           - name: ''
-          - name: ''
+
+          - name: ShadowDaggers
+            maxLevel: 5
+
           - name: ''
           
           - name: Debilitate

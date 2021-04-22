@@ -103,3 +103,9 @@ ShadowSheath:
   desc: Your weapons are +$20$% easier to conceal.
   icon: thrown-knife
   valuePerTier: 0.2
+
+ShadowDaggers:
+  name: Shadow Daggers
+  desc: Your non-backstab attacks have a +$3$% chance to become backstabs.
+  icon: daggers
+  valuePerTier: 3
