@@ -98,8 +98,12 @@ Thief:
 
           - name: ''
           - name: ''
-          - name: ''
-          - name: ''
+
+          - name: WistfulFugueSong
+            maxLevel: 1
+
+          - name: PowerBalladSong
+            maxLevel: 1
           
         - traits: 
           - name: TripleShot

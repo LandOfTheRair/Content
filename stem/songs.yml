@@ -1,0 +1,83 @@
+
+    
+PowerBalladSong:
+
+  # global info
+  all:
+    desc: "Sing a song that buffs nearby allies' offensive stats."
+    icon: music-spell
+    color: "#f00"
+
+  # spell cast info
+  spell:
+    mpCost: 0
+    maxSkillForGain: 1
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Song. Boosting nearby allies offense.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: 'Song'
+    effectMeta:
+      effectRef: PowerBalladSong
+
+  # trait info
+  trait:
+    name: Power Ballad
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: song powerballadsong
+    mode: 'autoActivate'
+
+WistfulFugueSong:
+
+  # global info
+  all:
+    desc: "Sing a song that debuffs nearby enemies' defensive stats."
+    icon: music-spell
+    color: "#00f"
+
+  # spell cast info
+  spell:
+    mpCost: 0
+    maxSkillForGain: 1
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Song. Lowering nearby enemies defense.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+        unique: 'Song'
+    effectMeta:
+      effectRef: WistfulFugueSong
+
+  # trait info
+  trait:
+    name: Wistful Fugue
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: song wistfulfuguesong
+    mode: 'autoActivate'
