@@ -95,3 +95,17 @@ StrongMind:
   desc: When attacking, add +$5$% of your INT to your attack stat.
   icon: brain
   valuePerTier: 0.05
+
+FireFocus:
+  name: Fire Focus
+  desc: Deal +$10$% more fire damage.
+  icon: plasma-bolt
+  statsGiven:
+    fireBoostPercent: 10
+
+IceFocus:
+  name: Ice Focus
+  desc: Deal +$10$% more ice damage.
+  icon: plasma-bolt
+  statsGiven:
+    iceBoostPercent: 10

@@ -174,9 +174,13 @@ Mage:
           - name: ForgedFire
             maxLevel: 5
 
+          - name: FireFocus
+            maxLevel: 5
+
           - name: ''
-          - name: ''
-          - name: ''
+          
+          - name: IceFocus
+            maxLevel: 5
 
           - name: ChilledCore
             maxLevel: 5
