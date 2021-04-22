@@ -122,3 +122,9 @@ PoisonFocus:
   icon: poison-gas
   statsGiven:
     poisonBoostPercent: 10
+
+TripleShot:
+  name: Triple Shot
+  desc: You fire an additional arrow when using Multi Shot.
+  icon: double-arrow
+  valuePerTier: 1

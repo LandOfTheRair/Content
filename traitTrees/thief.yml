@@ -86,21 +86,23 @@ Thief:
         - traits: 
           - name: MultiShot
             maxLevel: 1
+
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+          
+        - traits: 
+          - name: TripleShot
+            maxLevel: 1
             
-          - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
-          
-        - traits: 
-          - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
-          
-        - traits: 
-          - name: ''
           - name: ''
           - name: ''
           - name: ''
