@@ -237,3 +237,20 @@ ChainKunai:
   # macro info
   macro:
     mode: 'clickToTarget'
+
+MultiShot:
+
+  # global info
+  all:
+    desc: "Shoot multiple arrows at a foe."
+    icon: double-shot
+    color: "#000"
+
+  # trait info
+  trait:
+    name: Multi Shot
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'lockActivation'

@@ -84,7 +84,9 @@ Thief:
           - name: ''
 
         - traits: 
-          - name: ''
+          - name: MultiShot
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''
