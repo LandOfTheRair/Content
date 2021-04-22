@@ -18,20 +18,19 @@ Core:
 
           - name: ''
 
+        - traits: 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+
           - name: Charge
             maxLevel: 1
 
-        - traits: 
+        - traits:     
           - name: InternalFortitude
             maxLevel: 5
-            
-          - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
 
-        - traits:             
-          - name: ''
           - name: ''
           
           - name: CarrotVision
