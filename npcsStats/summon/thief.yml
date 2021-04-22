@@ -12,6 +12,11 @@
     equipment:
       armor: Antanian Tunic
 
+  usableSkills:
+    - Backstab
+    - Hide
+    - Shadowmeld
+
   gold:
     min: 0
     max: 0
