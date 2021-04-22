@@ -68,7 +68,7 @@
   desc: "a trap imbued with the spell Distraction"
   trapUses: 5
   trapEffect:
-    name: Distraction
+    name: FindFamiliarDistraction
     potency: 10
   value: 1500
 

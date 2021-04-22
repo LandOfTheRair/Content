@@ -42,7 +42,7 @@
   sprite: 334
   desc: "a trap imbued with the spell Distraction"
   trapEffect:
-    name: Distraction
+    name: FindFamiliarDistraction
     potency: 10
   value: 1500
 
@@ -128,7 +128,7 @@
   desc: "a trap imbued with the spell Distraction"
   trapEffect:
     uses: 3
-    name: Distraction
+    name: FindFamiliarDistraction
     potency: 30
   value: 3500
 
