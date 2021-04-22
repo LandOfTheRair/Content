@@ -109,3 +109,9 @@ ShadowDaggers:
   desc: Your non-backstab attacks have a +$3$% chance to become backstabs.
   icon: daggers
   valuePerTier: 3
+
+ShadowSwap:
+  name: Shadow Swap
+  desc: You have a +$2$% chance to automatically become hidden after attacking.
+  icon: shadow-follower
+  valuePerTier: 2

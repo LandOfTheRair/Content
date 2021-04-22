@@ -239,7 +239,10 @@ Thief:
             maxLevel: 1
 
           - name: ''
-          - name: ''
+          
+          - name: ShadowSwap
+            maxLevel: 5
+
           - name: ''
 
           - name: Shadowmeld
