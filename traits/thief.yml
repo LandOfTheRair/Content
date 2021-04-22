@@ -128,3 +128,9 @@ TripleShot:
   desc: You fire an additional arrow when using Multi Shot.
   icon: double-shot
   valuePerTier: 1
+
+EndlessQuiver:
+  name: Endless Quiver
+  desc: You have a +$5$% chance to not consume ammo when shooting.
+  icon: quiver
+  valuePerTier: 5
