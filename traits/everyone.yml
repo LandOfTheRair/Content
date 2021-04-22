@@ -24,3 +24,10 @@ InternalFortitude:
   desc: Increase your saving throw to resist spells by +$2$.
   icon: brain
   valuePerTier: 2
+  
+CarrotVision:
+  name: Carrot Vision
+  desc: Increase your perception by +$2$.
+  icon: carrot
+  statsGiven:
+    perception: 2

@@ -29,3 +29,13 @@ Core:
           - name: ''
           - name: ''
           - name: ''
+
+        - traits:             
+          - name: ''
+          - name: ''
+          
+          - name: CarrotVision
+            maxLevel: 5
+
+          - name: ''
+          - name: ''
