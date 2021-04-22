@@ -126,5 +126,5 @@ PoisonFocus:
 TripleShot:
   name: Triple Shot
   desc: You fire an additional arrow when using Multi Shot.
-  icon: double-arrow
+  icon: double-shot
   valuePerTier: 1
