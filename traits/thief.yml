@@ -115,3 +115,10 @@ ShadowSwap:
   desc: You have a +$2$% chance to automatically become hidden after attacking.
   icon: shadow-follower
   valuePerTier: 2
+
+PoisonFocus:
+  name: Poison Focus
+  desc: Deal +$10$% more poison damage.
+  icon: poison-gas
+  statsGiven:
+    poisonBoostPercent: 10

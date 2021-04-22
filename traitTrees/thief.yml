@@ -117,7 +117,8 @@ Thief:
       tree: 
         - traits: 
 
-          - name: ''
+          - name: 'TrueSight'
+            maxLevel: 1
             
           - name: GentleStep
             maxLevel: 1
@@ -193,10 +194,11 @@ Thief:
 
       tree: 
         - traits: 
-          - name: 'TrueSight'
-            maxLevel: 1
 
           - name: ''
+
+          - name: Poison
+            maxLevel: 1
           
           - name: Backstab
             maxLevel: 1
@@ -207,10 +209,11 @@ Thief:
             maxLevel: 1
           
         - traits: 
-          - name: ''
-
-          - name: Poison
+          - name: Venom
             maxLevel: 1
+
+          - name: PoisonFocus 
+            maxLevel: 5
           
           - name: BetterBackstab
             maxLevel: 5
@@ -221,8 +224,7 @@ Thief:
             maxLevel: 5
           
         - traits: 
-          - name: Venom
-            maxLevel: 1
+          - name: ''
 
           - name: CorrosivePoison
             maxLevel: 1
