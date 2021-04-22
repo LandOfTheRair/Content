@@ -140,18 +140,20 @@ Healer:
           - name: Blind
             maxLevel: 1
 
-          - name: ''
-          - name: ''
-          
-        - traits: 
           - name: Antidote
-            maxLevel: 1
-
-          - name: Daze
             maxLevel: 1
 
           - name: Vision
             maxLevel: 1
+
+        - traits: 
+          - name: DiseaseFocus
+            maxLevel: 5
+
+          - name: Daze
+            maxLevel: 1
+
+          - name: ''
 
           - name: Snare
             maxLevel: 1

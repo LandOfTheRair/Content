@@ -74,3 +74,10 @@ ContagiousPlague:
   desc: Your Plague spell will spread to a nearby target not suffering from Plague once every 3s.
   icon: death-zone
   valuePerTier: 3
+
+DiseaseFocus:
+  name: Disease Focus
+  desc: Deal +$10$% more disease damage.
+  icon: death-zone
+  statsGiven:
+    diseaseBoostPercent: 10
