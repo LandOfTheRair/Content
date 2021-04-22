@@ -102,3 +102,4 @@ ShadowSheath:
   name: Shadow Sheath
   desc: Your weapons are +$20$% easier to conceal.
   icon: thrown-knife
+  valuePerTier: 0.2
