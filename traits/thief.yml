@@ -97,3 +97,8 @@ DegenerativeVenom:
   name: Degenerative Venom
   desc: Your venom will also lower the perception of the afflicted target.
   icon: dripping-goo
+
+ShadowSheath:
+  name: Shadow Sheath
+  desc: Your weapons are +$20$% easier to conceal.
+  icon: thrown-knife

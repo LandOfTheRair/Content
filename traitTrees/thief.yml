@@ -228,7 +228,10 @@ Thief:
             maxLevel: 1
 
           - name: ''
-          - name: ''
+          
+          - name: ShadowSheath
+            maxLevel: 5
+
           - name: Shadowmeld
             maxLevel: 1
           
@@ -238,15 +241,15 @@ Thief:
 
           - name: ''
           - name: ''
-          
-          - name: Debilitate
-            maxLevel: 1
-
+          - name: ''
           - name: ''
           
         - traits: 
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: Debilitate
+            maxLevel: 1
+
           - name: ''
