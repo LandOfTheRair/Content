@@ -588,9 +588,6 @@
       - result: Enemy Medium MagicBolt Thief Trap
         chance: 10
         maxChance: 100
-      - result: Enemy Medium Distraction Thief Trap
-        chance: 10
-        maxChance: 100
       - result: Enemy Medium Haste Thief Trap
         chance: 10
         maxChance: 100
