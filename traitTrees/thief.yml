@@ -112,8 +112,8 @@ Thief:
           
         - traits: 
           - name: StrongShots
-            maxLevel: 1
-            
+            maxLevel: 5
+
           - name: ''
           - name: ''
           - name: ''
