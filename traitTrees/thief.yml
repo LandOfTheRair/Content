@@ -91,7 +91,10 @@ Thief:
             maxLevel: 1
 
           - name: ''
-          - name: ''
+
+          - name: DirgeOfCerberus
+            maxLevel: 5
+            requires: DeadlyDirgeSong
           
           - name: OffensiveEncore
             maxLevel: 5
