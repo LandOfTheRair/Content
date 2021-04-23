@@ -81,3 +81,51 @@ WistfulFugueSong:
   macro:
     macro: song wistfulfuguesong
     mode: 'autoActivate'
+
+DeadlyDirgeSong:
+
+  # global info
+  all:
+    desc: "Sing a song that does sonic damage to nearby enemies."
+    icon: music-spell
+    color: "#0a0"
+
+  # spell cast info
+  spell:
+    mpCost: 0
+    maxSkillForGain: 1
+    skillMultiplierChanges:
+      - [0,   1]
+      - [6,   2]
+      - [11,  3]
+      - [16,  4]
+      - [21,  5]
+      - [26,  6]
+      - [31,  7]
+      - [36,  8]
+
+    spellMeta:
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Song. Damaging nearby enemies.'
+    effect:
+      type: outgoing
+      duration: 600
+      extra:
+        canRemove: true
+        unique: 'Song'
+    effectMeta:
+      effectRef: DeadlyDirgeSong
+
+  # trait info
+  trait:
+    name: Deadly Dirge
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: song deadlydirgesong
+    mode: 'autoActivate'

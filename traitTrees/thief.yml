@@ -79,7 +79,10 @@ Thief:
         - traits: 
           - name: ''
           - name: ''
-          - name: ''
+
+          - name: DeadlyDirgeSong
+            maxLevel: 1
+
           - name: ''
           - name: ''
 
