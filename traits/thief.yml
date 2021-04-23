@@ -140,3 +140,14 @@ StrongShots:
   desc: Increase the damage of your arrows by +$1$ tier.
   icon: middle-arrow
   valuePerTier: 5
+
+OffensiveEncore:
+  name: Offensive Encore
+  desc: Restore +$1$ MP when attacking.
+  icon: musical-notes
+  valuePerTier: 1
+
+Shadowsong:
+  name: Shadowsong
+  desc: You can sing while hidden.
+  icon: musical-score

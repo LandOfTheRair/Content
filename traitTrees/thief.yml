@@ -89,7 +89,10 @@ Thief:
 
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: OffensiveEncore
+            maxLevel: 5
+
           - name: ''
           
         - traits: 
@@ -121,7 +124,9 @@ Thief:
           - name: ''
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: Shadowsong
+            maxLevel: 1
 
     Rogue:
       desc: The Rogue tree

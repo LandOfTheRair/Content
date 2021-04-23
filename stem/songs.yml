@@ -23,7 +23,7 @@ PowerBalladSong:
     tooltip:
       desc: 'Song. Boosting nearby allies offense.'
     effect:
-      type: buff
+      type: outgoing
       duration: 600
       extra:
         canRemove: true
@@ -64,7 +64,7 @@ WistfulFugueSong:
     tooltip:
       desc: 'Song. Lowering nearby enemies defense.'
     effect:
-      type: buff
+      type: outgoing
       duration: 600
       extra:
         canRemove: true

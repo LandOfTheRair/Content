@@ -35,13 +35,22 @@ Song:
     color: '#000'
     desc: 'Generic song message.'
   effect:
-    type: buff
+    type: outgoing
     duration: 600
     extra:
       canRemove: true
       unique: true
-  effectMeta:
-    effectRef: Song
+
+Singing:
+  tooltip:
+    icon: 'musical-notes'
+    color: '#000'
+    desc: 'Singing a song for nearby creatures.'
+  effect:
+    type: buff
+    duration: -1
+    extra:
+      unique: true
 
 TargetSong:
   tooltip:
