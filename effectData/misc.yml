@@ -42,3 +42,15 @@ Song:
       unique: true
   effectMeta:
     effectRef: Song
+
+TargetSong:
+  tooltip:
+    icon: 'uncertainty'
+    color: '#000'
+    desc: 'Generic song message.'
+  effect:
+    type: buff
+    duration: 600
+    extra:
+      canRemove: true
+      unique: true
