@@ -238,6 +238,7 @@ NightmareSerenadeSong:
   spell:
     mpCost: 0
     maxSkillForGain: 1
+    potencyMultiplier: 0.5
     skillMultiplierChanges:
       - [0,   0.5]
       - [6,   0.75]
