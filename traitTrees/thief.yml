@@ -90,7 +90,8 @@ Thief:
           - name: MultiShot
             maxLevel: 1
 
-          - name: ''
+          - name: NightmareSerenadeSong
+            maxLevel: 1
 
           - name: DirgeOfCerberus
             maxLevel: 5
@@ -118,7 +119,8 @@ Thief:
           - name: TripleShot
             maxLevel: 1
 
-          - name: ''
+          - name: AriaOfRefugeSong
+            maxLevel: 1
           
           - name: WistfulFugueSong
             maxLevel: 1
