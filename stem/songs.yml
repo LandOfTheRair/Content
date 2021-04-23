@@ -136,7 +136,7 @@ TranquilTrillSong:
   all:
     desc: "Sing a song that heals nearby allies."
     icon: music-spell
-    color: "#aa0"
+    color: "#080"
 
   # spell cast info
   spell:
