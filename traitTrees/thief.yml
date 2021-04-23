@@ -108,7 +108,7 @@ Thief:
           - name: ''
           - name: ''
 
-          - name: WistfulFugueSong
+          - name: TranquilTrillSong
             maxLevel: 1
 
           - name: PowerBalladSong
@@ -119,7 +119,10 @@ Thief:
             maxLevel: 1
 
           - name: ''
-          - name: ''
+          
+          - name: WistfulFugueSong
+            maxLevel: 1
+
           - name: ''
           - name: ''
           

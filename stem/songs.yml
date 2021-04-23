@@ -88,7 +88,7 @@ DeadlyDirgeSong:
   all:
     desc: "Sing a song that does sonic damage to nearby enemies."
     icon: music-spell
-    color: "#0a0"
+    color: "#808"
 
   # spell cast info
   spell:
@@ -123,9 +123,57 @@ DeadlyDirgeSong:
   # trait info
   trait:
     name: Deadly Dirge
-    borderColor: "#ccc"
+    borderColor: "#808"
 
   # macro info
   macro:
     macro: song deadlydirgesong
+    mode: 'autoActivate'
+
+TranquilTrillSong:
+
+  # global info
+  all:
+    desc: "Sing a song that heals nearby allies."
+    icon: music-spell
+    color: "#aa0"
+
+  # spell cast info
+  spell:
+    mpCost: 0
+    maxSkillForGain: 1
+    skillMultiplierChanges:
+      - [0,   0.5]
+      - [6,   0.75]
+      - [11,  1]
+      - [16,  1.25]
+      - [21,  1.5]
+      - [26,  1.75]
+      - [31,  2]
+      - [36,  4]
+
+    spellMeta:
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Song. Healing nearby allies.'
+    effect:
+      type: outgoing
+      duration: 600
+      extra:
+        canRemove: true
+        unique: 'Song'
+    effectMeta:
+      effectRef: TranquilTrillSong
+
+  # trait info
+  trait:
+    name: Tranquil Trill
+    borderColor: "#080"
+
+  # macro info
+  macro:
+    macro: song tranquiltrillsong
     mode: 'autoActivate'
