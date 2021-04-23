@@ -238,6 +238,7 @@ Warrior:
         - traits: 
           - name: Punchkick
             maxLevel: 1
+            requires: Jumpkick
 
           - name: Sweep
             maxLevel: 1
