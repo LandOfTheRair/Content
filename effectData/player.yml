@@ -105,6 +105,8 @@ Encumbered:
     extra:
       unique: true
       persistThroughDeath: true
+      statChanges:
+        move: -2
 
 LowCON:
   tooltip:
