@@ -247,7 +247,7 @@ Warrior:
           - name: ''
 
           - name: BrassKnuckles
-            maxLevel: 5
+            maxLevel: 1
           
         - traits: 
           - name: ''
