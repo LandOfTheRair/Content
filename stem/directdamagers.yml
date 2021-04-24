@@ -366,6 +366,7 @@ IceMist:
 
     spellMeta:
       aoe: true
+      allowDirectional: true
       aoeRangeTrait: IceMistWiden
       doesAttack: true
       casterAttackMessage: 'You engulf %0 in a chilling mist!'
@@ -411,6 +412,7 @@ FireMist:
 
     spellMeta:
       aoe: true
+      allowDirectional: true
       aoeRangeTrait: FireMistWiden
       doesAttack: true
       casterAttackMessage: 'You engulf %0 in a scorching mist!'
