@@ -32,6 +32,7 @@ const npcSchema = [
   ['copyDrops', false, isRollable],
   ['dropPool', false, isDropPool],
   ['drops', false, isRollable],
+  ['forceAI', false, isString],
   ['items', false, isObject],
   ['items.equipment', false, isObject],
   ['items.sack', false, isRollable],

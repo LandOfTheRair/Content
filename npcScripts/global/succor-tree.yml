@@ -2,6 +2,7 @@
 tag: Succor Tree
 name: Ether Tree
 hostility: Never
+forceAI: resource
 
 level: 10
 
