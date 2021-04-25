@@ -24,6 +24,7 @@
     physicalDamageReflect: 10
     armorClass: 2
     offense: 3
+    threatMultiplier: 0.25
   maxUpgrades: 2
   tier: 2
   type: Mace
