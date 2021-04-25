@@ -53,3 +53,18 @@ Chilled:
   effectMeta:
     effectRef: Chilled
     recentlyRef: RecentlyChilled
+      
+Frozen:
+  tooltip:
+    icon: 'cold-heart'
+    color: '#fff'
+    bgColor: '#000080'
+    desc: Frozen solid.
+  effect:
+    type: debuff
+    duration: 10
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: Frozen
+    recentlyRef: RecentlyChilled

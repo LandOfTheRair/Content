@@ -240,10 +240,3 @@ TwohandedSpecialty:
   icon: croc-sword
   statsGiven:
     twohandedBonus: 1
-
-AngryFace:
-  name: Angry Face
-  desc: Increase the amount of agro you generate by +$10$%.
-  icon: unfriendly-fire
-  statsGiven:
-    threatMultiplier: 0.1

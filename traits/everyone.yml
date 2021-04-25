@@ -31,3 +31,28 @@ CarrotVision:
   icon: carrot
   statsGiven:
     perception: 2
+
+AngryFace:
+  name: Angry Face
+  desc: Increase the amount of agro you generate by +$10$%.
+  icon: unfriendly-fire
+  statsGiven:
+    threatMultiplier: 0.1
+
+SweetTooth:
+  name: Sweet Tooth
+  desc: All food boosts your HP and MP regen by +$5$%.
+  icon: candy-canes
+  valuePerTier: 5
+
+SlowDigestion:
+  name: Slow Digestion
+  desc: Increase the duration of food by +$20$%.
+  icon: blackcurrant
+  valuePerTier: 0.2
+
+WintersEmbrace:
+  name: Winters Embrace
+  desc: When chilling an opponent, you have a +$10$% chance to freeze them solid instead.
+  icon: frozen-orb
+  valuePerTier: 10
