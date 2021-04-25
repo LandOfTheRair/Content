@@ -103,8 +103,8 @@
     max: 1500
 
   giveXp:
-    min: 300
-    max: 425
+    min: 900
+    max: 1425
 
   items:
     equipment:
@@ -199,8 +199,8 @@
     max: 10000
 
   giveXp:
-    min: 5000
-    max: 10000
+    min: 25000
+    max: 30000
 
   items:
     equipment:
@@ -278,8 +278,8 @@
     max: 5000
 
   giveXp:
-    min: 250
-    max: 272
+    min: 1250
+    max: 1272
 
   items:
     equipment:

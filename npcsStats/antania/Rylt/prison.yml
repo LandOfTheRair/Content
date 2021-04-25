@@ -28,8 +28,8 @@
     max: 70
 
   giveXp:
-    min: 35
-    max: 75
+    min: 135
+    max: 175
 
   items:
     equipment:
@@ -140,8 +140,8 @@
     max: 1000
 
   giveXp:
-    min: 100
-    max: 200
+    min: 2100
+    max: 2200
 
   items:
     equipment:
@@ -189,8 +189,8 @@
     max: 600
 
   giveXp:
-    min: 35
-    max: 50
+    min: 435
+    max: 450
 
   items:
     equipment:
@@ -291,8 +291,8 @@
     max: 1200
 
   giveXp:
-    min: 50
-    max: 70
+    min: 450
+    max: 570
 
   items:
     equipment:
@@ -402,8 +402,8 @@
     max: 950
 
   giveXp:
-    min: 60
-    max: 80
+    min: 460
+    max: 580
 
   items:
     equipment:
@@ -514,8 +514,8 @@
     max: 600
 
   giveXp:
-    min: 60
-    max: 110
+    min: 460
+    max: 510
 
 
   items:
@@ -574,8 +574,8 @@
     max: 600
 
   giveXp:
-    min: 60
-    max: 110
+    min: 460
+    max: 510
 
 
   usableSkills:
@@ -629,8 +629,8 @@
     max: 32000
 
   giveXp:
-    min: 5000
-    max: 15000
+    min: 25000
+    max: 35000
 
   triggers:
     combat:

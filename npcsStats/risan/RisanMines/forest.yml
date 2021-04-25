@@ -52,8 +52,8 @@
     max: 14350
 
   giveXp:
-    min: 1500
-    max: 1800
+    min: 3500
+    max: 5800
 
   drops:
     - result: Risan Twig
@@ -127,8 +127,8 @@
     max: 19350
 
   giveXp:
-    min: 2200
-    max: 2500
+    min: 3200
+    max: 5500
 
   tansFor: Crazed Beast Fur
   tanSkillRequired: 12
@@ -203,8 +203,8 @@
     max: 26350
 
   giveXp:
-    min: 2900
-    max: 3100
+    min: 3900
+    max: 5100
 
   tansFor: Crazed Bear Fur
   tanSkillRequired: 12
@@ -380,8 +380,8 @@
     max: 1000
 
   giveXp:
-    min: 2500
-    max: 2800
+    min: 3500
+    max: 5800
 
   copyDrops:
     - result: 'equipment.armor'
@@ -491,8 +491,8 @@
     max: 1000
 
   giveXp:
-    min: 4500
-    max: 5800
+    min: 7500
+    max: 8800
 
   copyDrops:
     - result: 'equipment.armor'

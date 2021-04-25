@@ -26,8 +26,8 @@
     max: 8470
 
   giveXp:
-    min: 1350
-    max: 1450
+    min: 1850
+    max: 1950
 
   items:
     equipment:
@@ -140,8 +140,8 @@
     max: 700
 
   giveXp:
-    min: 3600
-    max: 3650
+    min: 4600
+    max: 5650
 
   items:
     equipment:
@@ -281,8 +281,8 @@
     max: 15950
 
   giveXp:
-    min: 6950
-    max: 7050
+    min: 8950
+    max: 9350
 
   items:
     equipment:
@@ -389,8 +389,8 @@
     max: 18350
 
   giveXp:
-    min: 2700
-    max: 2800
+    min: 3700
+    max: 3800
 
   items:
     equipment:
@@ -481,8 +481,8 @@
     max: 700
 
   giveXp:
-    min: 2700
-    max: 2800
+    min: 3700
+    max: 4800
 
   usableSkills:
     - Afflict
@@ -584,8 +584,8 @@
     max: 700
 
   giveXp:
-    min: 2700
-    max: 2800
+    min: 3700
+    max: 4800
 
   usableSkills:
     - MagicBolt
@@ -672,8 +672,8 @@
     max: 33350
 
   giveXp:
-    min: 3700
-    max: 3800
+    min: 4700
+    max: 5800
 
   items:
     equipment:
@@ -764,8 +764,8 @@
     max: 700
 
   giveXp:
-    min: 2600
-    max: 2900
+    min: 3600
+    max: 3900
 
   usableSkills:
     - FireMist
@@ -909,8 +909,8 @@
     max: 5000
 
   giveXp:
-    min: 1000
-    max: 2000
+    min: 3000
+    max: 4000
 
   items:
     equipment:
@@ -950,8 +950,8 @@
     max: 15000
 
   giveXp:
-    min: 1000
-    max: 2000
+    min: 3000
+    max: 4000
 
   items:
     equipment:
