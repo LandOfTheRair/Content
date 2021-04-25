@@ -168,7 +168,7 @@ DefensiveVoice:
   name: Defensive Voice
   desc: Your defense is increased by +$5$ while singing.
   icon: sing
-  valuePerTier: 
+  valuePerTier: 5
 
 ShieldingVoice:
   name: Shielding Voice
