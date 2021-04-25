@@ -51,6 +51,8 @@ Singing:
     duration: -1
     extra:
       unique: true
+  effectMeta:
+    effectRef: Singing
 
 TargetSong:
   tooltip:

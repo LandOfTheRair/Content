@@ -84,7 +84,9 @@ Thief:
             maxLevel: 1
 
           - name: ''
-          - name: ''
+
+          - name: DefensiveVoice
+            maxLevel: 5
 
         - traits: 
           - name: MultiShot
@@ -107,7 +109,9 @@ Thief:
             maxLevel: 5
 
           - name: ''
-          - name: ''
+
+          - name: ShieldingVoice
+            maxLevel: 5
 
           - name: TranquilTrillSong
             maxLevel: 1
@@ -135,7 +139,10 @@ Thief:
             maxLevel: 5
 
           - name: ''
-          - name: ''
+          
+          - name: ReflectingVoice
+            maxLevel: 5
+
           - name: ''
           
           - name: Shadowsong

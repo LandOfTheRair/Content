@@ -163,3 +163,21 @@ SoothingTranquility:
   desc: Your Tranquil Trill heals an additional +$1$ time(s).
   icon: music-spell
   valuePerTier: 1
+
+DefensiveVoice:
+  name: Defensive Voice
+  desc: Your defense is increased by +$5$ while singing.
+  icon: sing
+  valuePerTier: 
+
+ShieldingVoice:
+  name: Shielding Voice
+  desc: Your magical and physical resistance is increased by +$15$ while singing.
+  icon: sing
+  valuePerTier: 15
+
+ReflectingVoice:
+  name: Reflecting Voice
+  desc: Your spell reflect chance is increased by +$2$ while singing.
+  icon: sing
+  valuePerTier: 2
