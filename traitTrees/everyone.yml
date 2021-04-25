@@ -38,3 +38,13 @@ Core:
 
           - name: ''
           - name: ''
+
+        - traits:     
+          - name: ''
+
+          - name: AngryFace
+            maxLevel: 5
+
+          - name: ''
+          - name: ''
+          - name: ''
