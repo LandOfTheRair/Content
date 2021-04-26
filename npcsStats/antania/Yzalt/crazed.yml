@@ -456,7 +456,7 @@
         - result: Yzalt Fungus Ringmail Tunic
           chance: 1
         - result: none
-          chance: 100
+          chance: 25
       robe1:
         - result: Yzalt Fungus Cloak
           chance: 1
