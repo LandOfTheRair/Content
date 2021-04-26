@@ -1,0 +1,29 @@
+
+name: Botanist Apple
+desc: Find a Steffen Apple and bring it to the Botanist outside the Steffen town.
+giver: Steffen Botanist
+
+requirements:
+  type: item
+  item: Yzalt Steffen Apple
+  fromHands: true
+  slot:
+    - rightHand
+    - leftHand
+
+messages:
+  incomplete: I need an apple to help you out.
+  complete: Ah, thank you ${ player.name }! Here, enjoy your increased regeneration.
+  alreadyHas: I need you to bring me an apple.
+  permComplete: You've already received my blessing!
+
+rewards:
+  - type: xp
+    value: 5000
+
+  - type: gold
+    value: 25000
+
+  - type: stat
+    statName: mpregen
+    value: 1

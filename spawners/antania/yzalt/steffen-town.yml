@@ -1,6 +1,6 @@
 npcIds:
     - {result: 'Steffen Townee', chance: 10}
-    - {result: 'Steffen Child', chance: 51}
+    - {result: 'Steffen Child', chance: 5}
     - {result: 'Dog', chance: 1}
 respawnRate: 15
 initialSpawn: 7

@@ -1,0 +1,97 @@
+
+tag: Yzalt Heniz Leader
+allegiance: Pirates
+affiliation: Heniz Elder
+hostility: Never
+
+level: 25
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 10000
+  max: 10000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkItem
+          fromHands: true
+          slot:
+            - rightHand
+            - leftHand
+          item: 
+            name: Ranata Longbow
+            amount: 1
+
+          checkPassActions:
+            - type: takeItem
+              slot:
+                - rightHand
+                - leftHand
+              item:
+                name: Ranata Longbow
+                amount: 1
+
+            - type: giveItem
+              slot:
+                - rightHand
+                - leftHand
+              item:
+                name: Heniz DarkVision Helm
+                amount: 1
+
+            - type: chat
+              maxDistance: 2
+              message: >
+                I... see. So you've dealt with the problem, then. I'm not happy about it, but it had to be done. Here, have our treasure: a necessity for a dungeon diver.
+
+              options:
+                - text: Thanks
+                  action: noop
+
+          checkFailActions:  
+            - type: chat
+              maxDistance: 4
+              message: >
+                Greetings, adventurer! I am the elder of the Heniz, Ergorat. You seem to be doing well recently, so I have a favor to ask of you. Are you interested in fostering a fruitful relationship with the Heniz? I think I can TRUST you.
+
+              options:
+                - text: What do you have in mind?
+                  action: trust
+
+                - text: Nope
+                  action: noop
+    trust:
+      actions:
+        - type: chat
+          maxDistance: 4
+          message: >
+            You might have heard of our former general, Sedgwick. You might have seen his grave, too. The grave is a lie - we've exiled him for his betrayal to our people. However, he is the only one who's seen the lair of RANATA, Lord of the Madhouse, and he claims there is a secret to entering, which he shared with no one. Ranata is causing us some trouble with his rat-kin, and we need you to stop him. Go find Sedgwick and see of he'll reveal the location of Ranata to you. Bring back proof you've dealt with the problem, and you'll be rewarded handsomely.
+
+          options:
+            - text: Who is Ranata?
+              action: ranata
+
+            - text: I don't want your problems
+              action: noop
+    ranata:
+      actions:
+        - type: chat
+          maxDistance: 4
+          message: >
+            Ranata has been the scourge of our people for decades. He takes our forces and corrupts them using some kind of sick magic. It's entirely possible that he's eaten too much of the magical fruit. We can't have him taking our people any more, so please go take care of him in any way you deem necessary.
+
+          options:
+            - text: I see
+              action: noop

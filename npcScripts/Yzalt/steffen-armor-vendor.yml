@@ -1,0 +1,37 @@
+
+tag: Steffen Armor Vendor
+hostility: Never
+affiliation: Armor Vendor
+
+hp:
+  min: 10000
+  max: 10000
+
+level: 15
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Antanian Returning Longsword
+    armor: Antanian Breastplate
+
+behaviors:
+  - type: vendor
+  
+    vendorCurrency: gold # default gold, but can be any currency - currencies should be tracked in a "wallet" of sorts
+
+    vendorItems: 
+
+      - item: Antanian Ringmail Tunic
+
+      - item: Antanian Breastplate
+
+      - item: Antanian Cloak
+
+      - item: Antanian Leather Gloves
+
+      - item: Antanian Leather Boots
+
+      - item: Leather Ring

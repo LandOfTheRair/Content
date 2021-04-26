@@ -11031,6 +11031,16 @@
                  "height":64,
                  "id":6249,
                  "name":"",
+                 "properties":
+                    {
+                     "requireLockpick":true,
+                     "skillRequired":40
+                    },
+                 "propertytypes":
+                    {
+                     "requireLockpick":"bool",
+                     "skillRequired":"int"
+                    },
                  "rotation":0,
                  "type":"Door",
                  "visible":true,
@@ -11043,6 +11053,16 @@
                  "height":64,
                  "id":6250,
                  "name":"",
+                 "properties":
+                    {
+                     "requireLockpick":true,
+                     "skillRequired":40
+                    },
+                 "propertytypes":
+                    {
+                     "requireLockpick":"bool",
+                     "skillRequired":"int"
+                    },
                  "rotation":0,
                  "type":"Door",
                  "visible":true,

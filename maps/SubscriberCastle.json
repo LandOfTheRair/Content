@@ -1407,11 +1407,11 @@
                  "name":"Poto",
                  "properties":
                     {
-                     "script":"subscriber\/castle\/potion-vendor"
+                     "tag":"Subscriber Potion Vendor"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1451,11 +1451,11 @@
                  "name":"Rando",
                  "properties":
                     {
-                     "script":"subscriber\/castle\/gift-vendor"
+                     "tag":"Subscriber Gift Vendor"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",

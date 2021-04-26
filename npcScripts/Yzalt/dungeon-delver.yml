@@ -1,0 +1,368 @@
+
+tag: Yzalt Dungeon Delver
+affiliation: Dungeon Delver
+hostility: Never
+
+level: 15
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 10000
+  max: 10000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: giveEffect
+          effect: DarkVision
+          duration: 3600
+
+        # check sewer rat fur
+        - type: checkItem
+          fromHands: true
+          slot:
+            - rightHand
+          item: 
+            name: Yzalt SewerRat Fur
+
+          checkPassActions:
+
+            - type: checkItem
+              fromHands: true
+              slot:
+                - leftHand
+              item: 
+                name: Yzalt SewerRat Fur
+
+              checkPassActions:
+
+                - type: checkItemCanUpgrade
+                  slot: rightHand
+                  upgrade: Yzalt SewerRat Fur Upgrade
+
+                  checkPassActions:
+                    - type: addItemUpgrade
+                      slot: rightHand
+                      upgrade: Yzalt SewerRat Fur Upgrade
+
+                    - type: takeItem
+                      slot:
+                        - leftHand
+                      item:
+                        name: Yzalt SewerRat Fur
+
+                    - type: chat
+                      maxDistance: 2
+                      message: >
+                        Nice find. I've added some defense to your rat fur!
+
+                      options:
+                        - text: Awesome, thanks
+                          action: noop
+
+                  checkFailActions:
+                    - type: chat
+                      maxDistance: 2
+                      message: >
+                        That fur has already been improved!
+
+                      options:
+                        - text: Alright fine
+                          action: noop
+
+              checkFailActions:
+                - type: chat
+                  maxDistance: 2
+                  message: >
+                    Hmmm. This is plain sewer rat fur. If you bring me a second one, I can add the defense from one to the other.
+
+                  options:
+                    - text: Sounds good
+                      action: noop
+
+        # check straw robe
+        - type: checkItem
+          fromHands: true
+          slot:
+            - rightHand
+          item: 
+            name: Yzalt Straw Robe
+
+          checkPassActions:
+
+            - type: checkItem
+              fromHands: true
+              slot:
+                - leftHand
+              item: 
+                name: Yzalt Straw Robe
+
+              checkPassActions:
+
+                - type: checkItemCanUpgrade
+                  slot: rightHand
+                  upgrade: Yzalt Straw Robe Upgrade
+
+                  checkPassActions:
+                    - type: addItemUpgrade
+                      slot: rightHand
+                      upgrade: Yzalt Straw Robe Upgrade
+
+                    - type: takeItem
+                      slot:
+                        - leftHand
+                      item:
+                        name: Yzalt Straw Robe
+
+                    - type: chat
+                      maxDistance: 2
+                      message: >
+                        Great job! I've merged the straw from the two robes, here is what I came up with.
+
+                      options:
+                        - text: Awesome, thanks
+                          action: noop
+
+                  checkFailActions:
+                    - type: chat
+                      maxDistance: 2
+                      message: >
+                        That robe has already been improved!
+
+                      options:
+                        - text: Alright fine
+                          action: noop
+
+              checkFailActions:
+                - type: chat
+                  maxDistance: 2
+                  message: >
+                    Interesting! They make robes out of the straw they use to make their nests, too. I can combine the straw from two of them to make a stronger robe.
+
+                  options:
+                    - text: Sounds good
+                      action: noop
+
+        # check rat guard axe
+        - type: checkItem
+          fromHands: true
+          slot:
+            - rightHand
+          item: 
+            name: Yzalt RatGuard Axe
+
+          checkPassActions:
+
+            - type: checkItem
+              fromHands: true
+              slot:
+                - leftHand
+              item: 
+                name: Yzalt RatGuard Axe
+
+              checkPassActions:
+
+                - type: checkItemCanUpgrade
+                  slot: rightHand
+                  upgrade: Yzalt RatGuard Axe Upgrade
+
+                  checkPassActions:
+                    - type: addItemUpgrade
+                      slot: rightHand
+                      upgrade: Yzalt RatGuard Axe Upgrade
+
+                    - type: takeItem
+                      slot:
+                        - leftHand
+                      item:
+                        name: Yzalt RatGuard Axe
+
+                    - type: chat
+                      maxDistance: 2
+                      message: >
+                        Well, I'm not sure how much I was able to do, but here it is: a slightly sharper axe.
+
+                      options:
+                        - text: Awesome, thanks
+                          action: noop
+
+                  checkFailActions:
+                    - type: chat
+                      maxDistance: 2
+                      message: >
+                        That axe has already been improved!
+
+                      options:
+                        - text: Alright fine
+                          action: noop
+
+              checkFailActions:
+                - type: chat
+                  maxDistance: 2
+                  message: >
+                    So they can use axes, too? They might be too dangerous to be left alone. I can sharpen one with the other to increase its damage output.
+
+                  options:
+                    - text: Sounds good
+                      action: noop
+
+        # check fungus cloak
+        - type: checkItem
+          fromHands: true
+          slot:
+            - rightHand
+          item: 
+            name: Yzalt Fungus Cloak
+
+          checkPassActions:
+
+            - type: checkItem
+              fromHands: true
+              slot:
+                - leftHand
+              item: 
+                name: Yzalt Fungus Cloak
+
+              checkPassActions:
+
+                - type: checkItemCanUpgrade
+                  slot: rightHand
+                  upgrade: Yzalt Fungus Cloak Upgrade
+
+                  checkPassActions:
+                    - type: addItemUpgrade
+                      slot: rightHand
+                      upgrade: Yzalt Fungus Cloak Upgrade
+
+                    - type: takeItem
+                      slot:
+                        - leftHand
+                      item:
+                        name: Yzalt Fungus Cloak
+
+                    - type: chat
+                      maxDistance: 2
+                      message: >
+                        It doesn't smell the best, but it'll get the job done.
+
+                      options:
+                        - text: Awesome, thanks
+                          action: noop
+
+                  checkFailActions:
+                    - type: chat
+                      maxDistance: 2
+                      message: >
+                        That cloak has already been improved!
+
+                      options:
+                        - text: Alright fine
+                          action: noop
+
+              checkFailActions:
+                - type: chat
+                  maxDistance: 2
+                  message: >
+                    Well, this robe stinks like a rat. And fungus. These rats really couldn't make something that smells nicer? Bring me another one and I'll... see what I can do...
+
+                  options:
+                    - text: Sounds good
+                      action: noop
+
+        # check rat guard fur
+        - type: checkItem
+          fromHands: true
+          slot:
+            - rightHand
+          item: 
+            name: Yzalt RatGuard Fur
+
+          checkPassActions:
+
+            - type: checkItem
+              fromHands: true
+              slot:
+                - leftHand
+              item: 
+                name: Yzalt RatGuard Fur
+
+              checkPassActions:
+
+                - type: checkItemCanUpgrade
+                  slot: rightHand
+                  upgrade: Yzalt RatGuard Fur Upgrade
+
+                  checkPassActions:
+                    - type: addItemUpgrade
+                      slot: rightHand
+                      upgrade: Yzalt RatGuard Fur Upgrade
+
+                    - type: takeItem
+                      slot:
+                        - leftHand
+                      item:
+                        name: Yzalt RatGuard Fur
+
+                    - type: chat
+                      maxDistance: 2
+                      message: >
+                        Very nice find. I've added some defense to your rat fur!
+
+                      options:
+                        - text: Awesome, thanks
+                          action: noop
+
+                  checkFailActions:
+                    - type: chat
+                      maxDistance: 2
+                      message: >
+                        That fur has already been improved!
+
+                      options:
+                        - text: Alright fine
+                          action: noop
+
+              checkFailActions:
+                - type: chat
+                  maxDistance: 2
+                  message: >
+                    This fur feels stronger than the average rat fur. Can you bring me another one?
+
+                  options:
+                    - text: Sounds good
+                      action: noop
+
+        # no items in hand
+        - type: chat
+          maxDistance: 4
+          message: >
+            Well hello there! If you're in the market for some dungeon diving, I can help you with the gift of dark vision. Come back any time! If you find any interesting relics from the RAT civilization, I want to be the first to know!
+
+          options:
+            - text: Rat civilization?
+              action: rat
+
+            - text: Thanks
+              action: noop
+    
+    rat:
+      actions:
+        - type: chat
+          maxDistance: 4
+          message: >
+            Yeah, it's fascinating! Allegedly, they've created their own kind of weapons and armor. They're rats, what could they need that for?
+
+          options:
+            - text: I'll check that out
+              action: noop

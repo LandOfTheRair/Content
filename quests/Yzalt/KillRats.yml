@@ -1,0 +1,26 @@
+
+name: Kill Rats
+desc: Kill rats in the Steffen sewers for Tristian to get through to wherever he's going, and report back when you've killed 20.
+giver: Tristian
+
+isRepeatable: true
+
+requirements:
+  type: kill
+  killsRequired: 20
+  npcIds:
+    - Yzalt Sewer Rat
+    - Yzalt Sewer RatGuard
+
+messages:
+  kill: You have killed ${ current }/${ total } rats.
+  incomplete: By my records, you have to kill ${ remaining } rats yet!
+  alreadyHas: You're already killin' em for me!
+  complete: Thanks! I'm gonna go visit my alchemist friend down there!
+
+rewards:
+  - type: xp
+    value: 15000
+
+  - type: gold
+    value: 20000

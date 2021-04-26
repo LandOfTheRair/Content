@@ -1,0 +1,97 @@
+
+tag: Yzalt Steffen Leader
+allegiance: Royalty
+affiliation: Steffen King
+hostility: Never
+
+level: 25
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 10000
+  max: 10000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+    
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkItem
+          fromHands: true
+          slot:
+            - rightHand
+            - leftHand
+          item: 
+            name: Ranata Longbow
+            amount: 1
+
+          checkPassActions:
+            - type: takeItem
+              slot:
+                - rightHand
+                - leftHand
+              item:
+                name: Ranata Longbow
+                amount: 1
+
+            - type: giveItem
+              slot:
+                - rightHand
+                - leftHand
+              item:
+                name: Steffen Crown
+                amount: 1
+
+            - type: chat
+              maxDistance: 2
+              message: >
+                Thank you for dealing with that vile lich. While it's not much, take my crown. It should help an adventurer like you more than an old coot like me.
+
+              options:
+                - text: Yep
+                  action: noop
+
+          checkFailActions:  
+            - type: chat
+              maxDistance: 4
+              message: >
+                Greetings, champion! I am King Kranton, ruler of the Steffen - but you already knew that, didn't you? Ohohoho. Let's get to the point, I need you to find our informant, SEDGWICK, and have him tell you where a man named Ranata is. Then I need you to deal with the problem and bring me proof you've done so.
+
+              options:
+                - text: Informant?
+                  action: sedgwick
+
+                - text: I don't want to deal with this
+                  action: noop
+    sedgwick:
+      actions:
+        - type: chat
+          maxDistance: 4
+          message: >
+            Sedgwick and I go way back - way before he became General Sedgwick. However, even further back is his relationship with Ranata, a lich that's been causing havoc for everyone - Heniz included. The two are good friends, but I need you to kill RANATA - his rats and dark magic are ruining our civilization. Go find Sedgwick. He should be able to lead you to the lich.
+
+          options:
+            - text: Who is Ranata?
+              action: ranata
+
+            - text: I don't want your problems
+              action: noop
+    ranata:
+      actions:
+        - type: chat
+          maxDistance: 4
+          message: >
+            Yes, Ranata has turned into a vile lich. We don't know what to do with him anymore. It's our fault, unfortunately, because we gave him some of the apples given to us by the Nameless. Of course, don't tell that to Sedgwick, should you see him again - he'll be devastated. Because of the fruit, we need you to put down Ranata.
+
+          options:
+            - text: I see
+              action: noop

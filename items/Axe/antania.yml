@@ -25,6 +25,7 @@
   value: 385
   sprite: 52
   binds: true
+  maxUpgrades: 1
 
 - name: Dedlaen Dueling Axe
   quality: 5

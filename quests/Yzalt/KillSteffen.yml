@@ -1,0 +1,33 @@
+
+name: Kill Steffen
+desc: Kill the Steffen in their town, or when they assault the Heniz. Report back to the Planner when you've killed 25.
+giver: Planner
+
+isRepeatable: true
+
+requirements:
+  type: kill
+  killsRequired: 25
+  npcIds:
+    - Steffen Townee
+    - Steffen Warrior Defender
+    - Steffen Warrior Offender
+    - Steffen Healer Defender
+    - Steffen Healer Offender
+
+messages:
+  kill: You have killed ${ current }/${ total } Steffen.
+  incomplete: By my records, you have to kill ${ remaining } Steffen yet!
+  alreadyHas: You're already killin' em for me!
+  complete: Thanks for your continued support.
+
+rewards:
+  - type: xp
+    value: 15000
+
+  - type: gold
+    value: 20000
+
+  - type: reputation
+    statName: Pirates
+    value: 100

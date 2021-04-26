@@ -1,0 +1,27 @@
+
+tag: Diplomat
+hostility: Never
+
+level: 10
+
+hp:
+  min: 10000
+  max: 10000
+
+mp:
+  min: 10000
+  max: 10000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Risan Royal Spear
+    armor: Rylt Fur
+
+maxWanderRandomlyDistance: 1
+
+behaviors:
+  - type: identifier
+    props: ['identifyCost', 'identifyTier']

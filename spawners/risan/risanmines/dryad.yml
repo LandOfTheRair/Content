@@ -1,6 +1,6 @@
 npcIds:
     - {result: 'Risan Dryad', chance: 1}
-respawnRate: 15
+respawnRate: 45
 initialSpawn: 1
 maxCreatures: 3
 spawnRadius: 7

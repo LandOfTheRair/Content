@@ -1,0 +1,132 @@
+
+tag: Yzalt General Sedgwick
+name: Sedgwick
+affiliation: Exiled General
+hostility: Never
+
+level: 15
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 10000
+  max: 10000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: chat
+          maxDistance: 4
+          message: >
+            Well met, ${ name }! You might have been led to believe that I perished in the war. As you can see, that's not true. To be honest, I was exiled. I threatened to expose the war, and this is the price I paid. I have a bed, water, food, and a coffin for when I finally die down here. Let me tell you the TRUTH of this pointless struggle.
+
+          options:
+            - text: Oh really
+              action: truth
+
+            - text: I'm here about Ranata
+              action: ranata
+
+            - text: This is too much
+              action: noop
+
+    truth:
+      actions:
+        - type: chat
+          maxDistance: 4
+          message: >
+            The truth. Yes, the truth. Let's see here. In the not-so-distant past, the Heniz and Steffen were one. A valiant, noble kin. It seems like forever ago now. Then the magical FRUIT started growing. Oh boy, was it growing. Before we knew it, it was everywhere nearest the castle. That's when a civil WAR broke out.
+
+          options:
+            - text: Fruit? What kind of fruit?
+              action: fruit
+
+            - text: War? Over... fruit?
+              action: war
+
+            - text: This is too much
+              action: noop
+
+    fruit:
+      actions:
+        - type: chat
+          maxDistance: 4
+          message: >
+            Those damned, magical apples. No matter what anyone tells you, the WAR happened because of them. They bestowed gifts of powerful magic, but they slowly wore on the sanity of the person eating them. I think the NAMELESS were trying to experiment on us. You can see the result of the apples in the wasteland - shells of warriors everywhere, fighting forever.
+
+          options:
+            - text: Nameless? They didn't have names?
+              action: nameless
+              
+            - text: So this caused a war?
+              action: war
+
+            - text: This is too much
+              action: noop
+
+    war:
+      actions:
+        - type: chat
+          maxDistance: 4
+          message: >
+            The fruit tasted too good. The effects were too great. What is now the Heniz was formed because of their dedication to the dark arts. They stole apples -- too many apples. They craved the knowledge. You can probably guess -- the royal faction didn't take too kindly to this, and every thief was exiled from the land.  Thus, they made their home in the bog, where they now exist solely to pillage from the Steffen.
+
+          options:
+            - text: That's insane
+              action: noop
+
+    nameless:
+      actions:
+        - type: chat
+          maxDistance: 4
+          message: >
+            Yes, the Nameless. A strange group, they were. Their feet never touched the ground, and they spoke with their minds. They said they had come bearing gifts, and to plant the seeds they had given us in our land, promising prosperity for ages to come. We know nothing of where they came from, and where they went to, just that our society is forever ruined because of them.
+
+          options:
+            - text: These people are horrible
+              action: noop
+
+    ranata:
+      actions:
+        - type: checkNoItem
+          fromHands: true
+          slot:
+            - rightHand
+
+          checkPassActions:
+
+            - type: giveItem
+              slot:
+                - rightHand
+              item:
+                name: Ranata's Key
+                amount: 1
+
+            - type: chat
+              maxDistance: 4
+              message: >
+                Of course that's why you're really here. It was only a matter of time before this had to happen. It's sad - Ranata and I go way back, but he must be stopped. There isn't any secret magic like I told Ergorat, but there is this key. Ranata gave it to me as a sign of trust - I pray he's too far gone to know what hit him.
+
+              options:
+                - text: I'll do what I can
+                  action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Empty your right hand first.
+
+              options:
+                - text: I'll do that
+                  action: noop

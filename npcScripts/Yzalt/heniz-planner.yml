@@ -1,0 +1,70 @@
+
+tag: Yzalt Heniz Planner
+allegiance: Pirates
+hostility: Never
+
+level: 20
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 10000
+  max: 10000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkQuest
+          quest: Kill Steffen
+          maxDistance: 2
+
+        - type: chat
+          maxDistance: 2
+          message: >
+            Greetings. I am one of the leaders of the Heniz people. I maintain our relations with outsiders like yourself. If you happen to be interested in becoming more friendly with our kind, I might be willing to HELP.
+
+          options:
+            - text: How can I help?
+              action: help
+
+            - text: I'm good, thanks
+              action: noop
+
+    help:
+      actions:
+        - type: chat
+          maxDistance: 2
+          message: >
+            Yes, ${ name }, I could use your help. You see, we are at war with the Steffen in the north. While our crazed brethren are a problem, the more pressing matter is the Steffen that attack our camp. I would like you to help our local defenders out. You could also join our assaulters in attacking their town. Can you do this for me? You'll help, RIGHT?
+
+          options:
+            - text: I'll get it done
+              action: right
+
+            - text: Not my problem
+              action: noop
+
+    right:
+      actions:
+        - type: giveQuest
+          quest: Kill Steffen
+          maxDistance: 2
+
+        - type: chat
+          maxDistance: 2
+          message: >
+            Thank you, ${ name }. Best of luck out there.
+
+          options:
+            - text: I'll be back
+              action: noop

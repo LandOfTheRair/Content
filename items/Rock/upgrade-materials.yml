@@ -44,3 +44,57 @@
 
   stats:
     defense: 2
+
+- name: Yzalt SewerRat Fur Upgrade
+  sprite: 352
+  desc: "an upgrade material for sewer rat furs"
+  value: 100
+  canUpgradeWith: true
+
+  stats:
+    armorClass: 3
+    fireResist: 10
+    iceResist: 10
+
+- name: Yzalt Straw Robe Upgrade
+  sprite: 486
+  desc: "an upgrade material for straw robes"
+  value: 100
+  canUpgradeWith: true
+
+  stats:
+    armorClass: 1
+    iceResist: 20
+    defense: 1
+
+- name: Yzalt RatGuard Axe Upgrade
+  sprite: 52
+  desc: "an upgrade material for ratguard axes"
+  value: 100
+  canUpgradeWith: true
+
+  stats:
+    weaponDamageRolls: 2
+    offense: 1
+
+- name: Yzalt Fungus Cloak Upgrade
+  sprite: 16
+  desc: "an upgrade material for fungus cloaks"
+  value: 100
+  canUpgradeWith: true
+
+  stats:
+    armorClass: 1
+    defense: 1
+    stealth: 2
+
+- name: Yzalt RatGuard Fur Upgrade
+  sprite: 352
+  desc: "an upgrade material for rat guard fur"
+  value: 100
+  canUpgradeWith: true
+
+  stats:
+    armorClass: 5
+    fireResist: 20
+    iceResist: 20

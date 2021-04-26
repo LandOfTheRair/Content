@@ -1,0 +1,29 @@
+
+name: Botanist Bogweed
+desc: Find a Heniz Bogweed and bring it to the Botanist in the Heniz Town.
+giver: Heniz Botanist
+
+requirements:
+  type: item
+  item: Yzalt Bogweed
+  fromHands: true
+  slot:
+    - rightHand
+    - leftHand
+
+messages:
+  incomplete: I need a Bogweed to help you out.
+  complete: Ah, thank you ${ player.name }! Here, enjoy your increased regeneration.
+  alreadyHas: I need you to bring me a Bogweed.
+  permComplete: You've already received my blessing!
+
+rewards:
+  - type: xp
+    value: 5000
+
+  - type: gold
+    value: 25000
+
+  - type: stat
+    statName: hpregen
+    value: 1

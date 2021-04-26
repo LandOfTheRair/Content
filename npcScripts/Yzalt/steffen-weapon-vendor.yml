@@ -1,0 +1,44 @@
+
+tag: Steffen Weapon Vendor
+hostility: Never
+affiliation: Weapon Vendor
+
+hp:
+  min: 10000
+  max: 10000
+
+level: 15
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Antanian Greatsword
+    armor: Antanian Cloak
+
+behaviors:
+  - type: vendor
+  
+    vendorItems: 
+      - item: Antanian Mace
+
+      - item: Antanian Halberd
+
+      - item: Antanian Axe
+
+      - item: Antanian Greataxe
+
+      - item: Antanian Greatmace
+
+      - item: Antanian Greatsword
+
+      - item: Antanian Hammer
+
+      - item: Antanian Longsword
+
+      - item: Antanian Wooden Shield
+
+      - item: Antanian Bubble Shield
+
+      - item: Antanian Iron Shield

@@ -69,9 +69,6 @@
   desc: "the regal crown of the Steffen"
   value: 3600
 
-  requirements:
-    alignment: Good
-
 - name: Heniz DarkVision Helm
   equipEffect:
     name: DarkVision
@@ -81,9 +78,6 @@
   sprite: 373
   desc: "a glow in the dark helmet with eyes that let you see in the dark"
   value: 3500
-
-  requirements:
-    alignment: Evil
 
 - name: Crazed Tonwin Helm
   quality: 5
