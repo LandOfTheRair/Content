@@ -166,7 +166,7 @@
                  "gid":1545,
                  "height":64,
                  "id":207,
-                 "name":"Sub Locker #4",
+                 "name":"Sub#4",
                  "properties":
                     {
                      "lockerId":"subscriber4"
@@ -186,7 +186,7 @@
                  "gid":1545,
                  "height":64,
                  "id":208,
-                 "name":"Sub Locker #3",
+                 "name":"Sub#3",
                  "properties":
                     {
                      "lockerId":"subscriber3"
@@ -206,7 +206,7 @@
                  "gid":1545,
                  "height":64,
                  "id":209,
-                 "name":"Sub Locker #2",
+                 "name":"Sub#2",
                  "properties":
                     {
                      "lockerId":"subscriber2"
@@ -226,7 +226,7 @@
                  "gid":1545,
                  "height":64,
                  "id":210,
-                 "name":"Sub Locker #1",
+                 "name":"Sub#1",
                  "properties":
                     {
                      "lockerId":"subscriber1"
@@ -438,7 +438,7 @@
                  "gid":1545,
                  "height":64,
                  "id":491,
-                 "name":"Global Locker",
+                 "name":"Global",
                  "properties":
                     {
                      "lockerId":"global"
