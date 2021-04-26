@@ -3322,7 +3322,7 @@
                  "gid":1545,
                  "height":64,
                  "id":944,
-                 "name":"Yzalt - Heniz",
+                 "name":"Heniz",
                  "properties":
                     {
                      "lockerId":"yzaltHeniz"
@@ -3846,7 +3846,7 @@
                  "gid":1545,
                  "height":64,
                  "id":1033,
-                 "name":"Yzalt - Steffen",
+                 "name":"Steffen",
                  "properties":
                     {
                      "lockerId":"yzaltSteffen"
@@ -8593,7 +8593,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
