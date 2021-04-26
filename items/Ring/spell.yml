@@ -80,6 +80,15 @@
     uses: 10
     potency: 100
 
+- name: BarNecro Ring
+  sprite: 1031
+  desc: "a silver ring set with a pale green gem"
+  value: 100
+  useEffect:
+    name: BarNecro
+    uses: 10
+    potency: 100
+
 - name: SecondWind Ring
   sprite: 970
   desc: "a golden wedding ring set with a purple gem that has wings carved into it"
