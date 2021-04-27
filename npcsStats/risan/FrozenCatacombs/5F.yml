@@ -94,7 +94,7 @@
   traitLevels:
     Shieldbearer: 1
     ForcefulStrike: 5
-    Sterlingarmor: 7
+    SterlingArmor: 7
     Swashbuckler: 5
     OffhandFinesse: 4
     BoostedBoost: 2
@@ -342,9 +342,7 @@
 
   traitLevels:
     NecroticFocus: 5
-    CripplingPlague: 1
-    StrongerSnare: 2
-    SearingAffliction: 1
+    Roots: 2
 
   gold:
     min: 6550
@@ -854,7 +852,6 @@
     - Venom
 
   traitLevels:
-    ShadowRanger: 4
     ShadowSwap: 4
     DarkerShadows: 4
     TripleShot: 2

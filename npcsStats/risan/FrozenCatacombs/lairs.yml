@@ -30,7 +30,7 @@
 
   traitLevels:
     InternalFortitude: 5
-    Sterlingarmor: 15
+    SterlingArmor: 15
     HolyProtection: 15
     IceMistWiden: 4
 
@@ -479,7 +479,6 @@
     DoubleThrust: 1
     ConcussiveBolt: 5
     ContagiousPlague: 1
-    CripplingPlague: 1
     DebilitatingDisease: 1
     EffectiveSupporter: 10
     HolyAffliction: 1

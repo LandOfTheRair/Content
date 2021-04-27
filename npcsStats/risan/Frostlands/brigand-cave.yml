@@ -274,7 +274,6 @@
 
   traitLevels:
     HolyAffliction: 1
-    CripplingPlague: 1
 
   skillOnKill: 65
 
@@ -425,9 +424,8 @@
 
   traitLevels:
     OffhandFinesse: 5
-    NimbleStealing: 5
+    NimbleFingers: 5
     ShadowDaggers: 5
-    ShadowRanger: 3
     ShadowSwap: 5
     DegenerativeVenom: 1
     DarknessWiden: 2

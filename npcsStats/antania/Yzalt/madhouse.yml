@@ -135,8 +135,7 @@
 
   traitLevels:
     InternalFortitude: 5
-    NatureSpirit: 1
-    StrongerSnare: 1
+    Roots: 1
     LightenArmor: 1
 
   copyDrops:
@@ -211,7 +210,6 @@
     - Disease
 
   traitLevels:
-    CripplingPlague: 1
     DebilitatingDisease: 1
 
   items:

@@ -220,8 +220,7 @@
 
 
   traitLevels:
-    BladedWands: 1
-    Lightenarmor: 1
+    LightenArmor: 1
 
   items:
     equipment:
@@ -287,7 +286,7 @@
 
 
   traitLevels:
-    Lightenarmor: 1
+    LightenArmor: 1
 
   items:
     equipment:

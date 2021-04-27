@@ -82,7 +82,7 @@
 
   traitLevels:
     ForcefulStrike: 2
-    Sterlingarmor: 3
+    SterlingArmor: 3
     Swashbuckler: 2
 
   gold:
@@ -793,7 +793,6 @@
     - DarkVision
 
   traitLevels:
-    ShadowRanger: 2
     ShadowSwap: 2
     DarkerShadows: 2
 

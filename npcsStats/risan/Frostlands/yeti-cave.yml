@@ -31,7 +31,7 @@
 
   traitLevels:
     Riposte: 5
-    Sterlingarmor: 5
+    SterlingArmor: 5
 
   skillOnKill: 45
 
@@ -131,7 +131,7 @@
 
   traitLevels:
     Riposte: 10
-    Sterlingarmor: 10
+    SterlingArmor: 10
 
   skillOnKill: 55
 

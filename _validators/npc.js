@@ -1,6 +1,7 @@
 
 const npcs = require('../_output/npcs.json');
 const items = require('../_output/items.json');
+const traits = require('../_output/traits.json');
 
 const itemHash = items.reduce((prev, cur) => {
   prev[cur.name] = cur;
@@ -96,6 +97,12 @@ const validate = () => {
 
         throw new Error(`Result '${result}' is not a valid item in '${npc.npcId}':'${key}'`);
       });
+    });
+
+    Object.keys(npc.traitLevels || {}).forEach(traitName => {
+      if(!traits[traitName]) {
+        throw new Error(`Item ${npc.npcId} has an invalid trait ${traitName}!`);
+      }
     });
   });
 

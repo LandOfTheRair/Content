@@ -327,10 +327,8 @@
 
   traitLevels:
     HolyAffliction: 1
-    CripplingPlague: 1
     DebilitatingDisease: 1
     EffectiveSupporter: 5
-    BladedWands: 1
 
   drops:
     - result: Risan Miner Book
