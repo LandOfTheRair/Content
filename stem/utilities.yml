@@ -343,7 +343,7 @@ Teleport:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: 'autoActivate'
 
 MassTeleport:
 
@@ -367,7 +367,7 @@ MassTeleport:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: 'autoActivate'
 
 Vortex:
 
