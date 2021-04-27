@@ -9,5 +9,5 @@ maxCreatures: 3
 spawnRadius: 0
 randomWalkRadius: 15
 leashRadius: 35
-# TODO: (minute >= 15 && minute <= 30) || (minute >= 45 && minute <= 59)
+requireEvent: Heniz Raid
 tag: 'Antania Yzalt Heniz-offense'

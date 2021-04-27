@@ -1,0 +1,22 @@
+
+- name: Heniz Raid
+  duration: 900
+  cooldown: 2700
+  rarity: common
+  description: "The Heniz are currently raiding the Steffen town."
+  startMessage: "The Heniz have begun to raid the Steffen!"
+  endMessage: "The Heniz raid on the Steffen has ended... for now."
+  map: Yzalt
+  conflicts:
+    - Steffen Raid
+
+- name: Steffen Raid
+  duration: 900
+  cooldown: 2700
+  rarity: common
+  description: "The Steffen are currently raiding the Heniz town."
+  startMessage: "The Steffen have begun to raid the Heniz!"
+  endMessage: "The Steffen raid on the Heniz has ended... for now."
+  map: Yzalt
+  conflicts:
+    - Heniz Raid
