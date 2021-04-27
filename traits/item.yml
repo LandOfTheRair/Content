@@ -1,0 +1,24 @@
+
+ShadowStepper:
+  name: Shadow Stepper
+  desc: Gain +$5$ stealth.
+  icon: hide
+  statsGiven:
+    stealth: 5
+
+FamiliarFortitude:
+  name: Familiar Fortitude
+  desc: Familiars gain +$20$% HP.
+  icon: double-ringed-orb
+  valuePerTier: 0.2
+
+FamiliarStrength:
+  name: Familiar Strength
+  desc: Familiars gain +$2$% STR/INT/WIS.
+  icon: double-ringed-orb
+  valuePerTier: 2
+
+FamiliarFists:
+  name: Familiar Fists
+  desc: Familiars gain the ability to rapidpunch.
+  icon: fire-punch

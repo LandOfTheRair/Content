@@ -4,6 +4,7 @@ const npcs = require('../_output/npcs.json');
 const mapTables = require('../_output/droptable-maps.json');
 const regTables = require('../_output/droptable-regions.json');
 const recipes = require('../_output/recipes.json');
+const traits = require('../_output/traits.json');
 
 const { isString, isObject, isArray, isBoolean, get } = require('lodash');
 const { validateSchema } = require('./_validateSchema');
@@ -126,6 +127,10 @@ const validate = () => {
     itemsUsed[item.name] = false;
 
     validateSchema(item.name, item, itemSchema);
+
+    if(item.trait && !traits[item.trait.name]) {
+      throw new Error(`Item ${item.name} has an invalid trait ${item.trait.name}!`);
+    }
   });
 
   npcs.forEach(npc => {

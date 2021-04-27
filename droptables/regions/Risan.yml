@@ -132,31 +132,11 @@
   chance: 1
   maxChance: 10000
 
-- result: Rune Scroll - Regenerative Refrain I
-  chance: 1
-  maxChance: 10000
-
-- result: Rune Scroll - Nature Spirit I
-  chance: 1
-  maxChance: 10000
-
 - result: Rune Scroll - Effective Supporter I
   chance: 1
   maxChance: 10000
 
-- result: Rune Scroll - Glacier Stance Improved I
-  chance: 1
-  maxChance: 10000
-
-- result: Rune Scroll - Volcano Stance Improved I
-  chance: 1
-  maxChance: 10000
-
 - result: Rune Scroll - Thermal Barrier I
-  chance: 1
-  maxChance: 10000
-
-- result: Rune Scroll - Friendly Fire I
   chance: 1
   maxChance: 10000
 
@@ -168,11 +148,7 @@
   chance: 1
   maxChance: 10000
 
-- result: Rune Scroll - Nimble Stealing I
-  chance: 1
-  maxChance: 10000
-
-- result: Rune Scroll - Recuperating Debilitation I
+- result: Rune Scroll - Nimble Fingers I
   chance: 1
   maxChance: 10000
 

@@ -114,7 +114,7 @@
       chance: 1
     - result: Rune Scroll - Totem Specialty I
       chance: 1
-    - result: Rune Scroll - Irresistible Stuns I
+    - result: Rune Scroll - Irresistible Stun I
       chance: 1
 
 - name: Antanian Daily Mage Rune Scroll RNG Box
@@ -153,8 +153,6 @@
     - result: Rune Scroll - Philosophers Stone I
       chance: 1
     - result: Rune Scroll - Shadow Daggers I
-      chance: 1
-    - result: Rune Scroll - Shadow Ranger I
       chance: 1
     - result: Rune Scroll - Offhand Finesse I
       chance: 1
