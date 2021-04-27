@@ -14,3 +14,4 @@ Charge:
   color: '#530000'
   mode: 'lockActivation'
   tooltipDesc: 'Charge towards an enemy, attacking with the item in your right hand.'
+  isDefault: true
