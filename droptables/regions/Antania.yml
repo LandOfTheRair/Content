@@ -178,6 +178,14 @@
   chance: 1
   maxChance: 4000
 
+- result: Rune Scroll - Fire Focus I
+  chance: 1
+  maxChance: 4000
+
+- result: Rune Scroll - Ice Focus I
+  chance: 1
+  maxChance: 4000
+
 - result: Rune Scroll - Calm Mind I
   chance: 1
   maxChance: 4000
@@ -207,6 +215,10 @@
   maxChance: 4000
 
 - result: Rune Scroll - Totem Specialty I
+  chance: 1
+  maxChance: 4000
+
+- result: Rune Scroll - Necrotic Ward I
   chance: 1
   maxChance: 4000
 

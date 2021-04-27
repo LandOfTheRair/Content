@@ -67,6 +67,16 @@
       - Healer
   value: 1
 
+- name: Rune Scroll - Necrotic Ward I
+  sprite: 681
+  desc: "a runic scroll imbued with the empowerment \"Necrotic Ward I\""
+  trait:
+    name: NecroticWard
+    level: 1
+    restrict:
+      - Healer
+  value: 1
+
 - name: Rune Scroll - Totem Specialty I
   sprite: 681
   desc: "a runic scroll imbued with the empowerment \"Totem Specialty I\""
@@ -93,6 +103,26 @@
   desc: "a runic scroll imbued with the empowerment \"Energy Focus I\""
   trait:
     name: EnergyFocus
+    level: 1
+    restrict:
+      - Mage
+  value: 1
+
+- name: Rune Scroll - Fire Focus I
+  sprite: 681
+  desc: "a runic scroll imbued with the empowerment \"Fire Focus I\""
+  trait:
+    name: FireFocus
+    level: 1
+    restrict:
+      - Mage
+  value: 1
+
+- name: Rune Scroll - Ice Focus I
+  sprite: 681
+  desc: "a runic scroll imbued with the empowerment \"Ice Focus I\""
+  trait:
+    name: IceFocus
     level: 1
     restrict:
       - Mage
