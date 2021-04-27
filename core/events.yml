@@ -1,5 +1,6 @@
 
-- name: Heniz Raid
+Heniz Raid:
+  name: Heniz Raid
   duration: 900
   cooldown: 2700
   rarity: common
@@ -10,7 +11,8 @@
   conflicts:
     - Steffen Raid
 
-- name: Steffen Raid
+Steffen Raid:
+  name: Steffen Raid
   duration: 900
   cooldown: 2700
   rarity: common

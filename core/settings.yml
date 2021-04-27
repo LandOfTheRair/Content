@@ -3,13 +3,13 @@ game:
   maxLevel: 50
   maxSkill: 30
 
-  event:
-  
-    # 1/3000 chance for a common event to happen randomly
-    common: 3000
+event:
 
-    uncommon: 5000
+  # 1/3000 chance for a common event to happen randomly
+  common: 3000
 
-    rare: 10000
+  uncommon: 5000
 
-    legendary: 100000
+  rare: 10000
+
+  legendary: 100000
