@@ -4369,50 +4369,6 @@
                  "width":64,
                  "x":1472,
                  "y":1216
-                }, 
-                {
-                 "gid":4452,
-                 "height":64,
-                 "id":1627,
-                 "name":"",
-                 "properties":
-                    {
-                     "succorOz":3,
-                     "tag":"Succor Tree"
-                    },
-                 "propertytypes":
-                    {
-                     "succorOz":"int",
-                     "tag":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":2240,
-                 "y":1728
-                }, 
-                {
-                 "gid":4452,
-                 "height":64,
-                 "id":1628,
-                 "name":"",
-                 "properties":
-                    {
-                     "succorOz":3,
-                     "tag":"Succor Tree"
-                    },
-                 "propertytypes":
-                    {
-                     "succorOz":"int",
-                     "tag":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":4544,
-                 "y":11264
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -5289,6 +5245,50 @@
                  "width":64,
                  "x":4224,
                  "y":4800
+                }, 
+                {
+                 "gid":4452,
+                 "height":64,
+                 "id":1629,
+                 "name":"",
+                 "properties":
+                    {
+                     "succorOz":3,
+                     "tag":"Succor Tree"
+                    },
+                 "propertytypes":
+                    {
+                     "succorOz":"int",
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":4544,
+                 "y":11264
+                }, 
+                {
+                 "gid":4452,
+                 "height":64,
+                 "id":1630,
+                 "name":"",
+                 "properties":
+                    {
+                     "succorOz":3,
+                     "tag":"Succor Tree"
+                    },
+                 "propertytypes":
+                    {
+                     "succorOz":"int",
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":2240,
+                 "y":1664
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -9185,7 +9185,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1629,
+ "nextobjectid":1631,
  "orientation":"orthogonal",
  "properties":
     {
