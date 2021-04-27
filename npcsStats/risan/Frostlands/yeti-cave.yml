@@ -14,7 +14,7 @@
   otherStats:
     armorClass: 10
     defense: 5
-    perception: 80
+    perception: 20
     accuracy: 5
     damageFactor: 0.5
 
@@ -100,7 +100,7 @@
   otherStats:
     armorClass: 15
     defense: 10
-    perception: 80
+    perception: 20
     accuracy: 5
     damageFactor: 0.5
 
@@ -184,7 +184,7 @@
 
   otherStats:
     armorClass: 30
-    perception: 80
+    perception: 20
     accuracy: 7
     offense: 10
     defense: 10
@@ -262,7 +262,7 @@
     armorClass: 65
     offense: 25
     defense: 10
-    perception: 125
+    perception: 35
 
 
   items:

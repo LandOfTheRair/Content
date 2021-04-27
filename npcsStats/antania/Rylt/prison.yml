@@ -15,7 +15,7 @@
 
   otherStats:
     con: 7
-    perception: 5
+    perception: 1
     damageFactor: 0.1
     accuracy: -5
 
@@ -123,7 +123,7 @@
 
   otherStats:
     con: 7
-    perception: 7
+    perception: 2
     damageFactor: 0.5
     accuracy: -5
 
@@ -176,7 +176,7 @@
   skillOnKill: 6
 
   otherStats:
-    perception: 10
+    perception: 3
     damageFactor: 0.5
     accuracy: -10
 
@@ -278,7 +278,7 @@
   skillOnKill: 6
 
   otherStats:
-    perception: 15
+    perception: 4
     damageFactor: 0.5
     accuracy: -10
 
@@ -384,7 +384,7 @@
 
   otherStats:
     stealth: 5
-    perception: 20
+    perception: 4
     damageFactor: 0.5
     accuracy: -10
 
@@ -497,7 +497,7 @@
   skillOnKill: 7
 
   otherStats:
-    perception: 20
+    perception: 4
     damageFactor: 0.5
     accuracy: -10
 
@@ -554,7 +554,7 @@
     Restoration: 1
 
   otherStats:
-    perception: 20
+    perception: 4
     damageFactor: 0.5
     accuracy: -10
 
@@ -613,7 +613,7 @@
   otherStats:
     con: 20
     stealth: 10
-    perception: 30
+    perception: 5
     damageFactor: 0.5
     accuracy: -5
 

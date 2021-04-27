@@ -14,7 +14,7 @@
   otherStats:
     con: 15
     accuracy: 10
-    perception: 15
+    perception: 2
     damageFactor: 0.5
 
   gold:
@@ -124,7 +124,7 @@
     con: 15
     accuracy: 10
     stealth: 10
-    perception: 10
+    perception: 3
     damageFactor: 0.5
 
   gold:
@@ -269,7 +269,7 @@
   otherStats:
     con: 15
     accuracy: 3
-    perception: 20
+    perception: 4
     damageFactor: 0.3
 
   gold:
@@ -377,7 +377,7 @@
 
   otherStats:
     con: 15
-    perception: 25
+    perception: 5
     damageFactor: 0.5
 
   gold:
@@ -465,7 +465,7 @@
 
   otherStats:
     con: 15
-    perception: 25
+    perception: 5
     damageFactor: 0.5
 
   gold:
@@ -568,7 +568,7 @@
 
   otherStats:
     con: 15
-    perception: 25
+    perception: 5
     damageFactor: 0.5
 
   gold:
@@ -660,7 +660,7 @@
 
   otherStats:
     con: 15
-    perception: 35
+    perception: 6
     damageFactor: 0.5
 
   gold:
@@ -747,7 +747,7 @@
 
   otherStats:
     con: 15
-    perception: 35
+    perception: 6
     mpregen: 10
     damageFactor: 0.5
 
@@ -840,7 +840,7 @@
     wil: 29
     accuracy: 7
     offense: 7
-    perception: 45
+    perception: 8
     hpregen: 100
     damageFactor: 0.5
 

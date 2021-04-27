@@ -11,7 +11,7 @@
   otherStats:
     con: 13
     int: 15
-    perception: 15
+    perception: 6
     damageFactor: 0.7
   skillLevels: 2
 
@@ -102,7 +102,7 @@
   stats: 7
   otherStats:
     con: 13
-    perception: 15
+    perception: 6
     damageFactor: 0.7
   skillLevels: 2
 
@@ -207,7 +207,7 @@
   stats: 7
   otherStats:
     con: 15
-    perception: 15
+    perception: 6
     damageFactor: 0.7
   skillLevels:
     Mace: 2
@@ -314,7 +314,7 @@
   otherStats:
     con: 13
     wis: 15
-    perception: 15
+    perception: 6
     damageFactor: 0.7
   skillLevels: 2
 
@@ -408,7 +408,7 @@
   stats: 6
   otherStats:
     con: 11
-    perception: 10
+    perception: 4
     damageFactor: 0.7
   skillLevels: 2
 
@@ -512,7 +512,7 @@
   otherStats:
     con: 15
     int: 11
-    perception: 15
+    perception: 8
     damageFactor: 0.7
   skillLevels: 3
 
@@ -661,7 +661,7 @@
   otherStats:
     stealth: 10
     con: 15
-    perception: 15
+    perception: 8
     damageFactor: 0.5
 
   level: 8
@@ -834,7 +834,7 @@
   stats: 7
   otherStats:
     con: 15
-    perception: 15
+    perception: 8
     damageFactor: 0.5
   skillLevels:
     Mace: 2
@@ -974,7 +974,7 @@
   otherStats:
     con: 15
     wis: 17
-    perception: 15
+    perception: 8
     damageFactor: 0.7
   skillLevels: 3
 
@@ -1109,7 +1109,7 @@
   stats: 10
   otherStats:
     con: 25
-    perception: 35
+    perception: 10
   skillLevels: 7
 
   level: 10
@@ -1187,7 +1187,7 @@
   stats: 10
   otherStats:
     con: 30
-    perception: 45
+    perception: 5
   skillLevels: 3
 
   level: 15

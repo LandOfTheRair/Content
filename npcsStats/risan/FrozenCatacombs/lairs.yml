@@ -21,7 +21,7 @@
     offense: 20
     defense: 15
     agi: 15
-    perception: 250
+    perception: 45
 
   items:
     equipment:
@@ -122,7 +122,7 @@
   otherStats:
     armorClass: 45
     agi: 20
-    perception: 300
+    perception: 55
 
   items:
     equipment:
@@ -222,7 +222,7 @@
     agi: 20
     accuracy: 10
     offense: 10
-    perception: 300
+    perception: 55
     mpregen: 50
 
   gold:
@@ -346,7 +346,7 @@
   otherStats:
     con: 40
     accuracy: 10
-    perception: 350
+    perception: 65
     mpregen: 100
     defense: 50
     offense: 50

@@ -16,7 +16,7 @@
     con: 15
     offense: 4
     defense: 5
-    perception: 15
+    perception: 3
     accuracy: 1
     damageFactor: 0.5
 
@@ -87,7 +87,7 @@
     con: 20
     accuracy: 5
     offense: 5
-    perception: 15
+    perception: 3
     damageFactor: 0.5
 
   gold:
@@ -159,7 +159,7 @@
     con: 25
     accuracy: 5
     offense: 5
-    perception: 50
+    perception: 3
     mpregen: 50
 
   gold:
@@ -245,7 +245,7 @@
     wil: 29
     accuracy: 10
     offense: 5
-    perception: 75
+    perception: 3
     stealth: 20
     mpregen: 100
 
@@ -308,7 +308,7 @@
     wil: 5
     agi: 30
     defense: 10
-    perception: 75
+    perception: 3
 
   gold:
     min: 0

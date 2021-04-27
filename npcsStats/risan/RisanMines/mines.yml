@@ -17,7 +17,7 @@
     con: 15
     int: 10
     accuracy: 5
-    perception: 25
+    perception: 15
     damageFactor: 0.5
 
   allegianceReputation:
@@ -102,7 +102,7 @@
 
   otherStats:
     accuracy: 5
-    perception: 25
+    perception: 15
     damageFactor: 0.5
 
   gold:
@@ -179,7 +179,7 @@
 
   otherStats:
     armorClass: 30
-    perception: 15
+    perception: 5
     accuracy: 7
     offense: 7
     move: 2
@@ -254,7 +254,7 @@
     accuracy: 5
     wil: 30
     con: 30
-    perception: 55
+    perception: 30
     mpregen: 30
 
   gold:

@@ -14,7 +14,7 @@
 
   otherStats:
     con: 15
-    perception: 65
+    perception: 7
     damageFactor: 0.5
     accuracy: -10
 
@@ -79,7 +79,7 @@
 
   otherStats:
     con: 15
-    perception: 65
+    perception: 7
     damageFactor: 0.5
     accuracy: -10
 
@@ -161,7 +161,7 @@
 
   otherStats:
     con: 15
-    perception: 65
+    perception: 7
     damageFactor: 0.5
     accuracy: -10
 
@@ -232,7 +232,7 @@
 
   otherStats:
     con: 25
-    perception: 75
+    perception: 6
     damageFactor: 0.7
 
   gold:

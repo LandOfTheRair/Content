@@ -17,7 +17,7 @@
     wil: 29
     accuracy: 5
     offense: 5
-    perception: 65
+    perception: 15
 
   gold:
     min: 23050
@@ -91,7 +91,7 @@
   otherStats:
     waterResist: 5000
     con: 25
-    perception: 35
+    perception: 8
     mpregen: 10
 
   gold:
@@ -150,7 +150,7 @@
 
   otherStats:
     con: 25
-    perception: 30
+    perception: 7
 
   gold:
     min: 150
@@ -188,7 +188,7 @@
 
   otherStats:
     con: 25
-    perception: 30
+    perception: 7
 
   gold:
     min: 150
@@ -235,7 +235,7 @@
     accuracy: 10
     defense: 10
     offense: 10
-    perception: 35
+    perception: 8
     mpregen: 20
 
   gold:

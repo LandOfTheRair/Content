@@ -14,7 +14,7 @@
   otherStats:
     con: 15
     accuracy: 2
-    perception: 50
+    perception: 5
     damageFactor: 0.5
 
   gold:
@@ -102,7 +102,7 @@
     con: 15
     accuracy: 2
     stealth: 25
-    perception: 55
+    perception: 6
     damageFactor: 0.5
 
   gold:
@@ -226,7 +226,7 @@
   otherStats:
     con: 14
     accuracy: 2
-    perception: 60
+    perception: 7
     damageFactor: 0.3
 
   gold:

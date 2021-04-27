@@ -14,7 +14,7 @@
 
   otherStats:
     con: 7
-    perception: 5
+    perception: 1
     damageFactor: 0.8
     accuracy: -5
 
@@ -86,7 +86,7 @@
   level: 7
 
   otherStats:
-    perception: 10
+    perception: 1
 
   skillOnKill: 4
 
@@ -175,7 +175,7 @@
     con: 27
     agi: 10
     luk: 5
-    perception: 20
+    perception: 5
   level: 15
 
   skillLevels:
@@ -264,7 +264,7 @@
 
   otherStats:
     con: 15
-    perception: 20
+    perception: 3
     damageFactor: 0.6
 
   skillOnKill: 25

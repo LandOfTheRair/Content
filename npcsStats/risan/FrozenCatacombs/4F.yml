@@ -13,7 +13,7 @@
   level: 40
 
   otherStats:
-    perception: 155
+    perception: 45
     offense: 40
     accuracy: 40
     armorClass: 10
@@ -147,7 +147,7 @@
   level: 40
 
   otherStats:
-    perception: 155
+    perception: 45
     offense: 40
     accuracy: 40
     armorClass: 10
@@ -256,7 +256,7 @@
   level: 40
 
   otherStats:
-    perception: 155
+    perception: 45
     offense: 40
     accuracy: 40
     armorClass: 10
@@ -396,7 +396,7 @@
   level: 40
 
   otherStats:
-    perception: 155
+    perception: 45
     offense: 40
     accuracy: 40
     armorClass: 10
@@ -515,7 +515,7 @@
   level: 40
 
   otherStats:
-    perception: 155
+    perception: 45
     offense: 40
     accuracy: 40
     armorClass: 19
@@ -625,7 +625,7 @@
 
   otherStats:
     stealth: 70
-    perception: 125
+    perception: 40
     offense: 40
     accuracy: 40
     armorClass: 10
@@ -775,7 +775,7 @@
 
   otherStats:
     stealth: 70
-    perception: 135
+    perception: 40
     offense: 40
     accuracy: 40
     armorClass: 10
