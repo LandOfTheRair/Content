@@ -213,6 +213,18 @@
                  "height":64,
                  "id":1518,
                  "name":"Crypt Door",
+                 "rotation":0,
+                 "type":"Door",
+                 "visible":true,
+                 "width":64,
+                 "x":1088,
+                 "y":1024
+                }, 
+                {
+                 "gid":2397,
+                 "height":64,
+                 "id":1520,
+                 "name":"",
                  "properties":
                     {
                      "requireLockpick":true,
@@ -227,18 +239,6 @@
                  "type":"Door",
                  "visible":true,
                  "width":64,
-                 "x":1088,
-                 "y":1024
-                }, 
-                {
-                 "gid":2397,
-                 "height":64,
-                 "id":1520,
-                 "name":"",
-                 "rotation":0,
-                 "type":"Door",
-                 "visible":true,
-                 "width":64,
                  "x":1344,
                  "y":768
                 }, 
@@ -247,6 +247,16 @@
                  "height":64,
                  "id":1521,
                  "name":"",
+                 "properties":
+                    {
+                     "requireLockpick":true,
+                     "skillRequired":99
+                    },
+                 "propertytypes":
+                    {
+                     "requireLockpick":"bool",
+                     "skillRequired":"int"
+                    },
                  "rotation":0,
                  "type":"Door",
                  "visible":true,
@@ -259,6 +269,16 @@
                  "height":64,
                  "id":1522,
                  "name":"",
+                 "properties":
+                    {
+                     "requireLockpick":true,
+                     "skillRequired":99
+                    },
+                 "propertytypes":
+                    {
+                     "requireLockpick":"bool",
+                     "skillRequired":"int"
+                    },
                  "rotation":0,
                  "type":"Door",
                  "visible":true,
@@ -271,6 +291,16 @@
                  "height":64,
                  "id":1523,
                  "name":"",
+                 "properties":
+                    {
+                     "requireLockpick":true,
+                     "skillRequired":99
+                    },
+                 "propertytypes":
+                    {
+                     "requireLockpick":"bool",
+                     "skillRequired":"int"
+                    },
                  "rotation":0,
                  "type":"Door",
                  "visible":true,
@@ -299,50 +329,6 @@
                  "width":64,
                  "x":576,
                  "y":1536
-                }, 
-                {
-                 "gid":2384,
-                 "height":64,
-                 "id":1525,
-                 "name":"",
-                 "properties":
-                    {
-                     "offEvent":"off:swwalltile2",
-                     "onEvent":"on:swwalltile2"
-                    },
-                 "propertytypes":
-                    {
-                     "offEvent":"string",
-                     "onEvent":"string"
-                    },
-                 "rotation":0,
-                 "type":"EventSource",
-                 "visible":true,
-                 "width":64,
-                 "x":1024,
-                 "y":1600
-                }, 
-                {
-                 "gid":2384,
-                 "height":64,
-                 "id":1526,
-                 "name":"",
-                 "properties":
-                    {
-                     "offEvent":"off:swwalltile1",
-                     "onEvent":"on:swwalltile1"
-                    },
-                 "propertytypes":
-                    {
-                     "offEvent":"string",
-                     "onEvent":"string"
-                    },
-                 "rotation":0,
-                 "type":"EventSource",
-                 "visible":true,
-                 "width":64,
-                 "x":256,
-                 "y":384
                 }],
          "opacity":1,
          "type":"objectgroup",
