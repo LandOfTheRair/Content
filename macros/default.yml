@@ -153,3 +153,12 @@ Memorize:
   mode: 'clickToActivate'
   tooltipDesc: 'Memorize your current location for teleporting.'
   isDefault: true
+
+Forget:
+  name: 'Forget'
+  macro: 'forget'
+  icon: 'brain'
+  color: '#00a'
+  mode: 'clickToActivate'
+  tooltipDesc: 'Forget one of your previous teleport locations.'
+  isDefault: true
