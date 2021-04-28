@@ -179,7 +179,7 @@
                  "type":"Locker",
                  "visible":true,
                  "width":64,
-                 "x":1152,
+                 "x":1216,
                  "y":768
                 }, 
                 {
@@ -199,7 +199,7 @@
                  "type":"Locker",
                  "visible":true,
                  "width":64,
-                 "x":1024,
+                 "x":1088,
                  "y":768
                 }, 
                 {
@@ -219,7 +219,7 @@
                  "type":"Locker",
                  "visible":true,
                  "width":64,
-                 "x":896,
+                 "x":960,
                  "y":768
                 }, 
                 {
@@ -239,7 +239,7 @@
                  "type":"Locker",
                  "visible":true,
                  "width":64,
-                 "x":768,
+                 "x":832,
                  "y":768
                 }, 
                 {
@@ -433,26 +433,6 @@
                  "width":64,
                  "x":1152,
                  "y":2304
-                }, 
-                {
-                 "gid":1545,
-                 "height":64,
-                 "id":491,
-                 "name":"Global",
-                 "properties":
-                    {
-                     "lockerId":"global"
-                    },
-                 "propertytypes":
-                    {
-                     "lockerId":"string"
-                    },
-                 "rotation":0,
-                 "type":"Locker",
-                 "visible":true,
-                 "width":64,
-                 "x":1280,
-                 "y":768
                 }, 
                 {
                  "gid":2311,
