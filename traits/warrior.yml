@@ -159,84 +159,84 @@ ConsumingRage:
 
 MaceSpecialty:
   name: Mace Specialty
-  desc: Your advanced mastery of maces grants you an additional skill level.
+  desc: Your advanced mastery of maces grants you an additional mace skill level.
   icon: flanged-mace
   statsGiven:
     maceBonus: 1
 
 AxeSpecialty:
   name: Axe Specialty
-  desc: Your advanced mastery of axes grants you an additional skill level.
+  desc: Your advanced mastery of axes grants you an additional axe skill level.
   icon: battered-axe
   statsGiven:
     axeBonus: 1
 
 DaggerSpecialty:
   name: Dagger Specialty
-  desc: Your advanced mastery of daggers grants you an additional skill level.
+  desc: Your advanced mastery of daggers grants you an additional dagger skill level.
   icon: bone-knife
   statsGiven:
     daggerBonus: 1
 
 SwordSpecialty:
   name: Sword Specialty
-  desc: Your advanced mastery of swords grants you an additional skill level.
+  desc: Your advanced mastery of swords grants you an additional sword skill level.
   icon: gladius
   statsGiven:
     swordBonus: 1
 
 ShortswordSpecialty:
   name: Shortsword Specialty
-  desc: Your advanced mastery of shortswords grants you an additional skill level.
+  desc: Your advanced mastery of shortswords grants you an additional shortsword skill level.
   icon: broad-dagger
   statsGiven:
     shortswordBonus: 1
 
 PolearmSpecialty:
   name: Polearm Specialty
-  desc: Your advanced mastery of polearms grants you an additional skill level.
+  desc: Your advanced mastery of polearms grants you an additional polearm skill level.
   icon: sharp-halberd
   statsGiven:
     polearmBonus: 1
 
 WandSpecialty:
   name: Wand Specialty
-  desc: Your advanced mastery of wands grants you an additional skill level.
+  desc: Your advanced mastery of wands grants you an additional wand skill level.
   icon: crystal-wand
   statsGiven:
     wandBonus: 1
 
 StaffSpecialty:
   name: Staff Specialty
-  desc: Your advanced mastery of staves grants you an additional skill level.
+  desc: Your advanced mastery of staves grants you an additional staff skill level.
   icon: bo
   statsGiven:
     staffBonus: 1
 
 MartialSpecialty:
   name: Martial Specialty
-  desc: Your advanced mastery of martial arts grants you an additional skill level.
+  desc: Your advanced mastery of martial arts grants you an additional martial skill level.
   icon: mailed-fist
   statsGiven:
     martialBonus: 1
 
 BowSpecialty:
   name: Bow Specialty
-  desc: Your advanced mastery of bows grants you an additional skill level.
+  desc: Your advanced mastery of bows grants you an additional bow skill level.
   icon: crossbow
   statsGiven:
     rangedBonus: 1
 
 ThrowingSpecialty:
   name: Throwing Specialty
-  desc: Your advanced mastery of throwing weapons grants you an additional skill level.
+  desc: Your advanced mastery of throwing weapons grants you an additional throwing skill level.
   icon: discobolus
   statsGiven:
     throwingBonus: 1
 
 TwohandedSpecialty:
   name: Twohanded Specialty
-  desc: Your advanced mastery of two-handed weapons grants you an additional skill level.
+  desc: Your advanced mastery of two-handed weapons grants you an additional two-handed skill level.
   icon: croc-sword
   statsGiven:
     twohandedBonus: 1
