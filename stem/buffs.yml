@@ -1037,6 +1037,7 @@ HolyAura:
     spellMeta:
       unique: 'Aura'
       doesOvertime: true
+      noHostileTarget: true
 
   # trait info
   trait:

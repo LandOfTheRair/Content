@@ -59,24 +59,25 @@
     accuracy: 15
     stealth: 15
     perception: 15
+    damageFactor: 0.3
     int: 30
     dex: 30
     str: 23
-    con: 40
-    agi: 35
+    con: 30
+    agi: 25
     luk: 30
     wil: 25
-    wis: 30
+    wis: 15
 
-  skillLevels: 10
+  skillLevels: 5
 
   skillOnKill: 175
 
   sprite: 480
 
   hp:
-    min: 75000000
-    max: 75000000
+    min: 7500000
+    max: 7500000
 
   mp:
     min: 25000
@@ -99,37 +100,37 @@
 
   usableSkills:
     - result: Afflict
-      chance: 100
+      chance: 200
     - result: HolyFire
-      chance: 100
+      chance: 25
     - result: Charge
-      chance: 100
+      chance: 200
     - result: Blind
-      chance: 100
+      chance: 15
     - result: Antidote
-      chance: 100
+      chance: 50
     - result: Vision
-      chance: 100
+      chance: 50
     - result: Snare
-      chance: 100
+      chance: 25
     - result: BarNecro
-      chance: 100
+      chance: 45
     - result: Hide
-      chance: 100
+      chance: 35
     - result: DarkVision
-      chance: 100
+      chance: 45
     - result: TrueSight
-      chance: 100
+      chance: 45
     - result: HolyAura
-      chance: 100
+      chance: 35
     - result: FindFamiliarLight
-      chance: 100
+      chance: 15
     - result: FindFamiliarNature
-      chance: 100
+      chance: 15
     - result: FindFamiliarWater
-      chance: 100
+      chance: 15
     - result: Daze
-      chance: 100
+      chance: 15
     - result: Leash
       chance: 10
 

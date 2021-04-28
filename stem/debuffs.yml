@@ -299,7 +299,7 @@ Daze:
   all:
     desc: "Daze a single target. Cost: 25 MP."
     icon: knockout
-    color: "#055"
+    color: "#0aa"
 
   # spell cast info
   spell: 
