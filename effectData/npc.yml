@@ -63,6 +63,20 @@ SummonedPet:
     extra:
       unique: true
 
+Invulnerable:
+  tooltip:
+    icon: 'skull-shield'
+    color: '#fff'
+    bgColor: '#a06'
+    desc: Taking no damage from any source.
+  effect:
+    type: incoming
+    duration: -1
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: Invulnerable
+
 AcolyteOverseer:
   tooltip:
     icon: 'minions'
@@ -76,3 +90,45 @@ AcolyteOverseer:
       unique: true
   effectMeta:
     effectRef: AcolyteOverseer
+
+BrotherlySpeed:
+  tooltip:
+    icon: 'time-trap'
+    color: '#fff'
+    bgColor: '#a06'
+    desc: Blessed by Terwin.
+  effect:
+    type: buff
+    duration: -1
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: Haste
+
+BrotherlyShield:
+  tooltip:
+    icon: 'bell-shield'
+    color: '#fff'
+    bgColor: '#a06'
+    desc: Blessed by Telwin.
+  effect:
+    type: buff
+    duration: -1
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: VitalEssence
+
+BrotherlySword:
+  tooltip:
+    icon: 'fist'
+    color: '#fff'
+    bgColor: '#a06'
+    desc: Blessed by Takwin.
+  effect:
+    type: buff
+    duration: -1
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: Boost

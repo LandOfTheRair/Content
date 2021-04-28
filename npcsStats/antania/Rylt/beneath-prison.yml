@@ -13,26 +13,29 @@
   level: 30
 
   otherStats:
-    accuracy: 15
-    stealth: 20
+    accuracy: 5
+    defense: -10
+    stealth: 10
     perception: 25
-    int: 30
-    dex: 30
+    damageFactor: 0.2
+
+    int: 15
+    dex: 15
     str: 23
-    con: 40
-    agi: 35
-    luk: 30
+    con: 35
+    agi: 15
+    luk: 15
     wil: 25
 
-  skillLevels: 9
+  skillLevels: 5
 
   skillOnKill: 145
 
   sprite: 5
 
   hp:
-    min: 50000000
-    max: 50000000
+    min: 2000000
+    max: 2000000
 
   mp:
     min: 25000
@@ -64,11 +67,11 @@
     - result: TrueSight
       chance: 100
     - result: ShadowMeld
-      chance: 100
+      chance: 15
     - result: EagleEye
-      chance: 100
+      chance: 25
     - result: Backstab
-      chance: 100
+      chance: 25
     - result: Hide
       chance: 100
     - result: Leash
@@ -127,6 +130,7 @@
   otherStats:
     accuracy: 10
     perception: 15
+    damageFactor: 0.2
     int: 20
     dex: 20
     str: 20
@@ -188,6 +192,7 @@
   otherStats:
     accuracy: 10
     perception: 15
+    damageFactor: 0.2
     int: 20
     dex: 20
     str: 20
@@ -254,6 +259,7 @@
   otherStats:
     accuracy: 10
     perception: 15
+    damageFactor: 0.2
     int: 20
     dex: 20
     str: 20
