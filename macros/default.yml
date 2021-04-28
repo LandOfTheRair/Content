@@ -144,3 +144,12 @@ Throw:
   mode: 'lockActivation'
   tooltipDesc: 'Throw an item at a target.'
   isDefault: true
+
+Memorize:
+  name: 'Memorize'
+  macro: 'memorize'
+  icon: 'brain'
+  color: '#000'
+  mode: 'clickToActivate'
+  tooltipDesc: 'Memorize your current location for teleporting.'
+  isDefault: true
