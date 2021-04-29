@@ -1495,18 +1495,18 @@
                  "name":"Zarn",
                  "properties":
                     {
-                     "script":"global\/spellforger"
+                     "tag":"Upgrader"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":64,
-                 "x":2240,
-                 "y":960
+                 "x":2176,
+                 "y":1408
                 }, 
                 {
                  "gid":3122,
@@ -1650,26 +1650,6 @@
                  "visible":true,
                  "width":64,
                  "x":2304,
-                 "y":1408
-                }, 
-                {
-                 "gid":2587,
-                 "height":64,
-                 "id":531,
-                 "name":"Gratzee",
-                 "properties":
-                    {
-                     "tag":"Upgrader"
-                    },
-                 "propertytypes":
-                    {
-                     "tag":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":2176,
                  "y":1408
                 }],
          "opacity":1,

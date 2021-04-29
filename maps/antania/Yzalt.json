@@ -5213,11 +5213,11 @@
                  "name":"Zarn",
                  "properties":
                     {
-                     "script":"global\/spellforger"
+                     "tag":"Upgrader"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",

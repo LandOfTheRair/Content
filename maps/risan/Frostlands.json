@@ -12926,11 +12926,11 @@
                  "name":"Zarn",
                  "properties":
                     {
-                     "script":"global\/spellforger"
+                     "tag":"Upgrader"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -13647,7 +13647,7 @@
                  "gid":2587,
                  "height":64,
                  "id":3005,
-                 "name":"Gratzee",
+                 "name":"Zarn",
                  "properties":
                     {
                      "tag":"Upgrader"
