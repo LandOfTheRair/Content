@@ -425,3 +425,30 @@ Transmute:
   # macro info
   macro:
     mode: 'clickToTarget'
+
+Fate:
+
+  # global info
+  all:
+    desc: "???"
+    icon: solar-time
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    damageClass: physical
+    mpCost: 100
+    maxSkillForGain: 15
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      range: 1
+
+  # trait info
+  trait:
+    borderColor: "#333"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'
