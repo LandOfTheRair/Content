@@ -160,12 +160,12 @@ event:
   - chance: 60000
     result:
       message: You feel a strange bulge!
-      sex: Male
+      sex: male
 
   - chance: 60000
     result:
       message: You feel a strange bulge!
-      sex: Female
+      sex: female
 
   - chance: 55000
     result:
