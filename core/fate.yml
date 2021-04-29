@@ -293,7 +293,7 @@ event:
     result:
       message: You feel like you met your maker!
       currency:
-        fate: 25
+        threads of fate: 25
 
   - chance: 15000
     result:
@@ -342,7 +342,7 @@ event:
     result:
       message: You feel like you met your maker!
       currency:
-        fate: 100
+        threads of fate: 100
 
   - chance: 1000
     result:

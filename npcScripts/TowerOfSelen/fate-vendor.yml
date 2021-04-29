@@ -23,7 +23,7 @@ items:
 behaviors:
   - type: vendor
   
-    vendorCurrency: fate
+    vendorCurrency: threads of fate
     vendorItems: 
       - item: Abacus of Life
       - item: Cosmetic Scroll - Fate
