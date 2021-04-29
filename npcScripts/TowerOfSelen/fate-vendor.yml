@@ -1,0 +1,39 @@
+
+tag: Selen Fate Vendor
+hostility: Never
+affiliation: "???"
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+behaviors:
+  - type: vendor
+  
+    vendorCurrency: fate
+    vendorItems: 
+      - item: Abacus of Life
+      - item: Cosmetic Scroll - Fate
+      - item: Titanium Ingot (Fate)
+      - item: Enchanting Brick - Fate
+      - item: Money Scroll 1M
+        valueMult: 0.0001
+      - item: Money Scroll 25M
+        valueMult: 0.0001
+      - item: Money Scroll 100M
+        valueMult: 0.0001
+      - item: Money Scroll 1B
+        valueMult: 0.0001

@@ -1,0 +1,59 @@
+
+tag: Selen Gorji
+hostility: Never
+affiliation: Royal Guard
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Antanian Halberd
+    armor: Antanian Tunic
+
+maxWanderRandomlyDistance: 1
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkQuest
+          quest: Kill Orcs
+          maxDistance: 2
+
+        - type: chat
+          maxDistance: 2
+          message: >
+            Well, look at that, you want to climb the tower? HELP us, and we can make your climb easier.
+
+          options:
+            - text: Help? You look capable
+              action: help
+
+            - text: You look evil, bye
+              action: noop
+
+    help:
+      actions:
+        - type: giveQuest
+          quest: Kill Orcs
+          maxDistance: 2
+
+        - type: chat
+          maxDistance: 2
+          message: >
+            Yep. I need you to slay 40 orckin. They invade our town, but we don't have the resources to strike back.
+
+          options:
+            - text: I'll be back
+              action: noop

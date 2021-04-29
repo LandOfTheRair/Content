@@ -1,0 +1,28 @@
+
+name: Kill Orcs
+desc: Kill orckin in the Tower of Selen for Gorji, and report back when you've killed 40.
+giver: Gorji
+
+isRepeatable: true
+
+requirements:
+  type: kill
+  killsRequired: 40
+  npcIds:
+    - Tower Orc
+    - Tower Orc Mage
+    - Tower Orc Healer
+    - Tower Orc Warlord
+
+messages:
+  kill: You have killed ${ current }/${ total } orcs.
+  incomplete: By my records, you have to kill ${ remaining } orcs yet!
+  alreadyHas: You're already killin' em for me!
+  complete: Great. These orcos don't take care of themselves, ya know?
+
+rewards:
+  - type: xp
+    value: 100000
+
+  - type: gold
+    value: 40000

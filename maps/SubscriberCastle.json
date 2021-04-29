@@ -1452,12 +1452,12 @@
                  "properties":
                     {
                      "mpTier":2,
-                     "script":"global\/mpdoc"
+                     "tag":"MP Doc"
                     },
                  "propertytypes":
                     {
                      "mpTier":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1474,12 +1474,12 @@
                  "properties":
                     {
                      "hpTier":2,
-                     "script":"global\/hpdoc"
+                     "tag":"HP Doc"
                     },
                  "propertytypes":
                     {
                      "hpTier":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
