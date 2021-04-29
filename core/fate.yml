@@ -1,0 +1,373 @@
+
+stat:
+  - chance: 10000
+    result:
+      stat: hp
+      divisor: 2
+      message: 'You feel more healthy!'
+      antimessage: 'Your health is declining.'
+
+  - chance: 5000
+    result:
+      stat: accuracy
+      divisor: 20
+      message: 'You feel like an arrow flying true!'
+      antimessage: 'You feel like a crooked arrow.'
+
+  - chance: 5000
+    result:
+      stat: mp
+      divisor: 2
+      message: 'Your mental capabilities have increase!'
+      antimessage: 'Your mental capabilities have shrunk.'
+
+  - chance: 4500
+    result:
+      stat: offense
+      divisor: 20
+      message: 'You feel more outgoing!'
+      antimessage: 'You feel less outgoing.'
+
+  - chance: 4000
+    result:
+      stat: perception
+      divisor: 20
+      message: 'Your eyes get a tiny bit sharper!'
+      antimessage: 'Your perception dulls.'
+
+  - chance: 3500
+    result:
+      stat: defense
+      divisor: 20
+      message: 'You feel more guarded!'
+      antimessage: 'You feel less vulnerable.'
+
+  - chance: 2500
+    result:
+      stat: fireResist
+      divisor: 10
+      message: 'You feel more fire-resistant!'
+      antimessage: 'You feel overwhelmed by the thought of fire.'
+
+  - chance: 2500
+    result:
+      stat: iceResist
+      divisor: 10
+      message: 'You feel more ice-resistant!'
+      antimessage: 'You feel overwhelmed by the thought of ice.'
+
+  - chance: 2500
+    result:
+      stat: energyResist
+      divisor: 10
+      message: 'You feel more energy-resistant!'
+      antimessage: 'You feel overwhelmed by the thought of energy.'
+
+  - chance: 2500
+    result:
+      stat: necroticResist
+      divisor: 10
+      message: 'You feel more necrotic-resistant!'
+      antimessage: 'You feel overwhelmed by the thought of the undead.'
+
+  - chance: 1000
+    result:
+      stat: poisonResist
+      divisor: 10
+      message: 'You feel more poison-resistant!'
+      antimessage: 'You feel overwhelmed by the thought of poison.'
+
+  - chance: 1000
+    result:
+      stat: diseaseResist
+      divisor: 15
+      message: 'You feel more disease-resistant!'
+      antimessage: 'You feel overwhelmed by the thought of disease.'
+
+  - chance: 200
+    result:
+      stat: armorClass
+      divisor: 20
+      message: 'Your skin feels more solid!'
+      antimessage: 'Your skin softens.'
+
+  - chance: 20
+    result:
+      stat: stealth
+      divisor: 20
+      message: 'You feel more sneaky!'
+      antimessage: 'You feel incredibly obvious.'
+
+event:
+  - chance: 100000
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+
+  - chance: 75000
+    result:
+      message: You feel revitalized!
+      stats:
+        con: 1
+
+  - chance: 65000
+    result:
+      message: Wowza!
+      effect: 
+        name: Stun
+        duration: 5
+        potency: 50
+
+  - chance: 65000
+    result:
+      message: You feel nasty inside!
+      effect:
+        name: Poison
+        duration: 100
+        potency: 15
+
+  - chance: 60000
+    result:
+      message: You have a sudden craving for gold!
+      allegiance: Pirates
+
+  - chance: 60000
+    result:
+      message: You feel nostalgic for the simple Rylt life!
+      allegiance: Townsfolk
+
+  - chance: 60000
+    result:
+      message: You feel like going on an adventure!
+      allegiance: Adventurers
+
+  - chance: 60000
+    result:
+      message: You feel posh!
+      allegiance: Royalty
+
+  - chance: 60000
+    result:
+      message: The smell of trees pervades your mind!
+      allegiance: Wilderness
+
+  - chance: 60000
+    result:
+      message: The sound of rocks pervades your mind!
+      allegiance: Underground
+
+  - chance: 60000
+    result:
+      message: You feel a strange bulge!
+      sex: Male
+
+  - chance: 60000
+    result:
+      message: You feel a strange bulge!
+      sex: Female
+
+  - chance: 55000
+    result:
+      message: You feel your experience being drained away!
+      xp: -5
+
+  - chance: 50000
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        str: -1
+
+  - chance: 50000
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        dex: -1
+
+  - chance: 50000
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        agi: -1
+
+  - chance: 50000
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        int: -1
+
+  - chance: 50000
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        wis: -1
+
+  - chance: 50000
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        wil: -1
+
+  - chance: 50000
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        cha: -1
+
+  - chance: 50000
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        luk: -1
+
+  - chance: 45000
+    result:
+      message: You feel your sack get heavier!
+      currency:
+        gold: 25000
+
+  - chance: 45000
+    result:
+      message: You feel more experienced!
+      xp: 3
+
+  - chance: 35000
+    result:
+      message: You feel your sack get heavier!
+      currency:
+        gold: 100000
+
+  - chance: 35000
+    result:
+      message: You feel your experience being drained away!
+      xp: -10
+
+  - chance: 30000
+    result:
+      statBoost: 1
+
+  - chance: 55000
+    result:
+      message: You feel more experienced!
+      xp: 10
+
+  - chance: 25000
+    result:
+      message: Your muscles bulge!
+      stats:
+        str: 1
+
+  - chance: 25000
+    result:
+      message: You feel quick as a bunny!
+      stats:
+        agi: 1
+
+  - chance: 25000
+    result:
+      message: Your hands feel more steady!
+      stats:
+        dex: 1
+
+  - chance: 25000
+    result:
+      message: Your mind has expanded!
+      stats:
+        int: 1
+
+  - chance: 25000
+    result:
+      message: Your world view has expanded!
+      stats:
+        wis: 1
+
+  - chance: 25000
+    result:
+      message: You feel like you met your maker!
+      currency:
+        fate: 25
+
+  - chance: 15000
+    result:
+      message: You feel your experience being drained away!
+      xp: -20
+
+  - chance: 10000
+    result:
+      statBoost: 2
+
+  - chance: 4000
+    result:
+      message: You feel your experience being drained away!
+      xp: -1
+      megaXp: true
+
+  - chance: 2500
+    result:
+      message: You feel like you can do anything!
+      stats:
+        wil: 1
+
+  - chance: 2500
+    result:
+      message: You feel like a four-leaf clover!
+      stats:
+        luk: 1
+
+  - chance: 2500
+    result:
+      message: You feel pretty!
+      stats:
+        cha: 1
+
+  - chance: 2500
+    result:
+      message: You feel a magical energy fade from you!
+      unlearnSpell: Identify
+
+  - chance: 2500
+    result:
+      message: You feel a magical energy fade from you!
+      unlearnSpell: Succor
+
+  - chance: 1000
+    result:
+      message: You feel like you met your maker!
+      currency:
+        fate: 100
+
+  - chance: 1000
+    result:
+      message: You feel a surge of pain shoot through your entire body!
+      stats:
+        str: -1
+        dex: -1
+        agi: -1
+        int: -1
+        wis: -1
+        wil: -1
+        con: -1
+        cha: -1
+        luk: -1
+
+  - chance: 500
+    result:
+      statBoost: 3
+
+  - chance: 10
+    result:
+      message: You feel a magical energy encompass you!
+      learnSpell: Identify
+
+  - chance: 10
+    result:
+      message: You feel a magical energy encompass you!
+      learnSpell: Succor

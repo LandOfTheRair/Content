@@ -30,10 +30,10 @@ behaviors:
       - item: Titanium Ingot (Fate)
       - item: Enchanting Brick - Fate
       - item: Money Scroll 1M
-        valueMult: 0.0001
+        valueSet: 100
       - item: Money Scroll 25M
-        valueMult: 0.0001
+        valueSet: 2500
       - item: Money Scroll 100M
-        valueMult: 0.0001
+        valueSet: 10000
       - item: Money Scroll 1B
-        valueMult: 0.0001
+        valueSet: 1000000
