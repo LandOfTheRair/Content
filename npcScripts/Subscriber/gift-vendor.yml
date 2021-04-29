@@ -21,7 +21,7 @@ items:
 behaviors:
   - type: vendor
   
-    vendorItems: 
+    dailyVendorItems: 
       - item: Antanian Daily Gem RNG Box
       - item: Antanian Daily Gem RNG Box
       - item: Antanian Daily General Rune Scroll RNG Box
