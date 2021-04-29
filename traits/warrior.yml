@@ -37,7 +37,7 @@ ForcefulStrike:
   desc: Gain +$10$% to your physical damage.
   icon: striped-sword
   statsGiven:
-    physicalBoostPercent: 10
+    physicalDamageBoostPercent: 10
 
 GlowingWeapon:
   name: Glowing Weapon
