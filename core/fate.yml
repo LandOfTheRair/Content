@@ -123,7 +123,7 @@ event:
     result:
       message: You feel nasty inside!
       effect:
-        name: Poison
+        name: Disease
         duration: 100
         potency: 15
 
