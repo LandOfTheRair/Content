@@ -452,3 +452,30 @@ Fate:
   # macro info
   macro:
     mode: 'autoActivate'
+
+Reincarnate:
+
+  # global info
+  all:
+    desc: "Bring a strong foe back to life."
+    icon: life-in-the-balance
+    color: "#dc143c"
+
+  # spell cast info
+  spell: 
+    damageClass: physical
+    mpCost: 100
+    maxSkillForGain: 15
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      range: 1
+
+  # trait info
+  trait:
+    borderColor: "#333"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'
