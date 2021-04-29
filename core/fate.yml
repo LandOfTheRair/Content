@@ -4,98 +4,98 @@ stat:
     result:
       stat: hp
       divisor: 2
-      message: 'You feel more healthy!'
+      goodmessage: 'You feel more healthy!'
       antimessage: 'Your health is declining.'
 
   - chance: 5000
     result:
       stat: accuracy
       divisor: 20
-      message: 'You feel like an arrow flying true!'
+      goodmessage: 'You feel like an arrow flying true!'
       antimessage: 'You feel like a crooked arrow.'
 
   - chance: 5000
     result:
       stat: mp
       divisor: 2
-      message: 'Your mental capabilities have increase!'
+      goodmessage: 'Your mental capabilities have increase!'
       antimessage: 'Your mental capabilities have shrunk.'
 
   - chance: 4500
     result:
       stat: offense
       divisor: 20
-      message: 'You feel more outgoing!'
+      goodmessage: 'You feel more outgoing!'
       antimessage: 'You feel less outgoing.'
 
   - chance: 4000
     result:
       stat: perception
       divisor: 20
-      message: 'Your eyes get a tiny bit sharper!'
+      goodmessage: 'Your eyes get a tiny bit sharper!'
       antimessage: 'Your perception dulls.'
 
   - chance: 3500
     result:
       stat: defense
       divisor: 20
-      message: 'You feel more guarded!'
+      goodmessage: 'You feel more guarded!'
       antimessage: 'You feel less vulnerable.'
 
   - chance: 2500
     result:
       stat: fireResist
       divisor: 10
-      message: 'You feel more fire-resistant!'
+      goodmessage: 'You feel more fire-resistant!'
       antimessage: 'You feel overwhelmed by the thought of fire.'
 
   - chance: 2500
     result:
       stat: iceResist
       divisor: 10
-      message: 'You feel more ice-resistant!'
+      goodmessage: 'You feel more ice-resistant!'
       antimessage: 'You feel overwhelmed by the thought of ice.'
 
   - chance: 2500
     result:
       stat: energyResist
       divisor: 10
-      message: 'You feel more energy-resistant!'
+      goodmessage: 'You feel more energy-resistant!'
       antimessage: 'You feel overwhelmed by the thought of energy.'
 
   - chance: 2500
     result:
       stat: necroticResist
       divisor: 10
-      message: 'You feel more necrotic-resistant!'
+      goodmessage: 'You feel more necrotic-resistant!'
       antimessage: 'You feel overwhelmed by the thought of the undead.'
 
   - chance: 1000
     result:
       stat: poisonResist
       divisor: 10
-      message: 'You feel more poison-resistant!'
+      goodmessage: 'You feel more poison-resistant!'
       antimessage: 'You feel overwhelmed by the thought of poison.'
 
   - chance: 1000
     result:
       stat: diseaseResist
       divisor: 15
-      message: 'You feel more disease-resistant!'
+      goodmessage: 'You feel more disease-resistant!'
       antimessage: 'You feel overwhelmed by the thought of disease.'
 
   - chance: 200
     result:
       stat: armorClass
       divisor: 20
-      message: 'Your skin feels more solid!'
+      goodmessage: 'Your skin feels more solid!'
       antimessage: 'Your skin softens.'
 
   - chance: 20
     result:
       stat: stealth
       divisor: 20
-      message: 'You feel more sneaky!'
+      goodmessage: 'You feel more sneaky!'
       antimessage: 'You feel incredibly obvious.'
 
 event:
