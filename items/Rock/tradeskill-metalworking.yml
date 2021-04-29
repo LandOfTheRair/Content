@@ -84,6 +84,7 @@
   sprite: 68
   desc: "a refined chunk of Risan titanium, commonly used by blacksmiths"
   value: 100000
+  canUpgradeWith: true
 
   stats:
     defense: 2
@@ -93,6 +94,7 @@
   sprite: 68
   desc: "a sharp chunk of Risan titanium, commonly used by blacksmiths"
   value: 100000
+  canUpgradeWith: true
 
   stats:
     offense: 2
@@ -102,6 +104,7 @@
   sprite: 68
   desc: "a dynamic chunk of Risan titanium, commonly used by blacksmiths"
   value: 25
+  canUpgradeWith: true
 
   stats:
     offense: 1
