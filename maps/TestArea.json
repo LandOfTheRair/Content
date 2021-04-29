@@ -428,7 +428,7 @@
                      "fillEffect":"string"
                     },
                  "rotation":0,
-                 "type":"",
+                 "type":"Fillable",
                  "visible":true,
                  "width":64,
                  "x":2240,
