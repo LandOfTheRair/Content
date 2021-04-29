@@ -162,3 +162,30 @@ Forget:
   mode: 'clickToActivate'
   tooltipDesc: 'Forget one of your previous teleport locations.'
   isDefault: true
+
+Empty:
+  name: 'Empty'
+  macro: 'empty right'
+  icon: 'square-bottle'
+  color: '#000'
+  mode: 'clickToActivate'
+  tooltipDesc: 'Empty a bottle in your hands.'
+  isDefault: true
+
+Fill:
+  name: 'Fill'
+  macro: 'fill right'
+  icon: 'square-bottle'
+  color: '#00a'
+  mode: 'clickToActivate'
+  tooltipDesc: 'Fill a bottle based on the liquid you are swimming in.'
+  isDefault: true
+
+Quaff:
+  name: 'Quaff'
+  macro: 'quaff'
+  icon: 'drinking'
+  color: '#00a'
+  mode: 'clickToActivate'
+  tooltipDesc: 'Drink the liquid you are swimming in.'
+  isDefault: true
