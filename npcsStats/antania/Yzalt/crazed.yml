@@ -36,7 +36,7 @@
 
   usableSkills:
     - MagicMissile
-    - EnergyBlast
+    - EnergyWave
     - DarkVision
 
   giveXp:
@@ -534,7 +534,7 @@
 
   usableSkills:
     - MagicMissile
-    - EnergyBlast
+    - EnergyWave
     - Hail
     - Combust
     - BarFire

@@ -302,7 +302,7 @@
     max: 3000
 
   usableSkills:
-    - EnergyMissile
+    - MagicMissile
 
   giveXp:
     min: 175

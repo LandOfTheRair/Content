@@ -117,9 +117,9 @@
     - ChillBiteStrong
     - FrostspikesAura
     - Rapidpunch
-    - ShadowMeld
+    - Shadowmeld
     - Sweep
-    - ShadowClones
+    - FindFamiliarShadowClones
 
   baseEffects:
     - name: Attribute

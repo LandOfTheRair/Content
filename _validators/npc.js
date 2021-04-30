@@ -2,6 +2,7 @@
 const npcs = require('../_output/npcs.json');
 const items = require('../_output/items.json');
 const traits = require('../_output/traits.json');
+const spells = require('../_output/spells.json');
 
 const itemHash = items.reduce((prev, cur) => {
   prev[cur.name] = cur;
@@ -101,9 +102,18 @@ const validate = () => {
 
     Object.keys(npc.traitLevels || {}).forEach(traitName => {
       if(!traits[traitName]) {
-        throw new Error(`Item ${npc.npcId} has an invalid trait ${traitName}!`);
+        throw new Error(`NPC ${npc.npcId} has an invalid trait ${traitName}!`);
       }
     });
+
+    (npc.usableSkills || []).forEach(spellOrRollable => {
+      const spellName = isString(spellOrRollable) ? spellOrRollable : spellOrRollable.result;
+      if(['Attack'].includes(spellName)) return;
+
+      if(!spells[spellName]) {
+        console.warn(`NPC ${npc.npcId} has an invalid spell ${spellName}!`);
+      }
+    })
   });
 
 };
