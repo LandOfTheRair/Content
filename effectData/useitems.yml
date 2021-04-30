@@ -7,6 +7,22 @@ ExactHeal:
   effectMeta:
     effectRef: ExactHeal
 
+ChristmasCarrot:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  effectMeta:
+    effectRef: ChristmasCarrot
+
+ThanksgivingLUK:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  effectMeta:
+    effectRef: ThanksgivingLUK
+
 PermanentSTR:
   effect:
     type: useonly
@@ -94,3 +110,19 @@ MinorMP:
       potency: 2
   effectMeta:
     effectRef: MinorMP
+
+PermanentExperience:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  effectMeta:
+    effectRef: PermanentExperience
+
+PermanentSkill:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  effectMeta:
+    effectRef: PermanentSkill

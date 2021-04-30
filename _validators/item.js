@@ -5,6 +5,8 @@ const mapTables = require('../_output/droptable-maps.json');
 const regTables = require('../_output/droptable-regions.json');
 const recipes = require('../_output/recipes.json');
 const traits = require('../_output/traits.json');
+const spells = require('../_output/spells.json');
+const effects = require('../_output/effect-data.json');
 
 const { isString, isObject, isArray, isBoolean, get } = require('lodash');
 const { validateSchema } = require('./_validateSchema');
@@ -130,6 +132,22 @@ const validate = () => {
 
     if(item.trait && !traits[item.trait.name]) {
       throw new Error(`Item ${item.name} has an invalid trait ${item.trait.name}!`);
+    }
+
+    if(item.effect && !effects[item.effect.name] && !spells[item.effect.name]) {
+      throw new Error(`Item ${item.name} has an invalid effect ${item.effect.name}!`);
+    }
+    
+    if(item.strikeEffect && !effects[item.strikeEffect.name] && !spells[item.strikeEffect.name]) {
+      throw new Error(`Item ${item.name} has an invalid strikeEffect ${item.strikeEffect.name}!`);
+    }
+
+    if(item.useEffect && !effects[item.useEffect.name] && !spells[item.useEffect.name]) {
+      throw new Error(`Item ${item.name} has an invalid useEffect ${item.useEffect.name}!`);
+    }
+
+    if(item.equipEffect && !effects[item.equipEffect.name] && !spells[item.equipEffect.name]) {
+      throw new Error(`Item ${item.name} has an invalid equipEffect ${item.equipEffect.name}!`);
     }
   });
 
