@@ -14,7 +14,6 @@ Thief:
 
           - name: DarkerShadows
             maxLevel: 1
-            requires: 
 
           - name: ImprovedHide
             maxLevel: 1
