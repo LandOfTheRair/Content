@@ -6497,8 +6497,8 @@
                  "type":"",
                  "visible":true,
                  "width":64,
-                 "x":3776,
-                 "y":1408
+                 "x":640,
+                 "y":1024
                 }, 
                 {
                  "gid":3137,
@@ -6773,6 +6773,30 @@
                  "width":64,
                  "x":3392,
                  "y":1984
+                }, 
+                {
+                 "gid":2602,
+                 "height":64,
+                 "id":1384,
+                 "name":"",
+                 "properties":
+                    {
+                     "maxLevelUpLevel":50,
+                     "maxSkillTrain":7,
+                     "tag":"Trainer Traveller"
+                    },
+                 "propertytypes":
+                    {
+                     "maxLevelUpLevel":"int",
+                     "maxSkillTrain":"int",
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":4288,
+                 "y":3456
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -12281,7 +12305,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1384,
+ "nextobjectid":1385,
  "orientation":"orthogonal",
  "properties":
     {
