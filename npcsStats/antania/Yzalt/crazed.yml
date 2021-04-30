@@ -279,6 +279,8 @@
           chance: 30
         - result: Antanian Steffen Flail
           chance: 1
+        - result: Antanian Steffen Halberd
+          chance: 1
         - result: Antanian Steffen Katana
           chance: 1
         - result: Antanian Steffen Nodachi
@@ -477,6 +479,8 @@
         - result: Antanian Returning Dagger
           chance: 10
         - result: Antanian Steffen Flail
+          chance: 1
+        - result: Antanian Steffen Halberd
           chance: 1
         - result: Antanian Steffen Katana
           chance: 1
@@ -870,6 +874,8 @@
         - result: Antanian Greataxe
           chance: 30
         - result: Antanian Steffen Flail
+          chance: 1
+        - result: Antanian Steffen Halberd
           chance: 1
         - result: Antanian Steffen Katana
           chance: 1
