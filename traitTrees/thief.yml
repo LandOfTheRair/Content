@@ -12,9 +12,9 @@ Thief:
           - name: ImprovedSteal
             maxLevel: 1
 
-          - name: Mug
+          - name: DarkerShadows
             maxLevel: 1
-            requires: ImprovedSteal
+            requires: 
 
           - name: ImprovedHide
             maxLevel: 1
@@ -25,8 +25,8 @@ Thief:
             maxLevel: 1
 
         - traits:
-          - name: NimbleFingers
-            maxLevel: 5
+          - name: Mug
+            maxLevel: 1
             requires: ImprovedSteal
 
           - name: ''
@@ -41,7 +41,9 @@ Thief:
             maxLevel: 5
           
         - traits: 
-          - name: ''
+          - name: NimbleFingers
+            maxLevel: 5
+            requires: ImprovedSteal
 
           - name: Disguise
             maxLevel: 1
