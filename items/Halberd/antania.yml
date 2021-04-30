@@ -20,6 +20,17 @@
   value: 145
   sprite: 230
 
+- name: Antanian Steffen Halberd
+  desc: "a steel-tipped halberd"
+  stats:
+    armorClass: 2
+    weaponArmorClass: 1
+    offense: 1
+  tier: 2
+  type: Polearm
+  value: 378
+  sprite: 161
+
 - name: Tower Halberd Weak
   desc: "a riyan halberd"
   stats:
