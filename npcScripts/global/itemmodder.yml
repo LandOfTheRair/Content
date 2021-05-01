@@ -18,6 +18,8 @@ usableSkills:
 
 items:
   equipment:
+    rightHand: Antanian Halberd
+    leftHand: Antanian Halberd
     armor: Antanian Tunic
 
 behaviors:
