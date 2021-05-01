@@ -8675,6 +8675,86 @@
                  "width":64,
                  "x":5824,
                  "y":1024
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":2575,
+                 "name":"Town Guard Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Towerofselen Town-guard"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":832,
+                 "y":2816
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":2576,
+                 "name":"Town Guard Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Towerofselen Town-guard"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":960,
+                 "y":3264
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":2577,
+                 "name":"Town Guard Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Towerofselen Town-guard"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":768,
+                 "y":3648
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":2578,
+                 "name":"Town Guard Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Towerofselen Town-guard"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":1344,
+                 "y":3648
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -9783,7 +9863,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":2575,
+ "nextobjectid":2579,
  "orientation":"orthogonal",
  "properties":
     {
