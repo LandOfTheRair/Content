@@ -22,6 +22,17 @@ items:
 
 maxWanderRandomlyDistance: 1
 
-behaviors:
-  - type: identifier
-    props: ['identifyCost', 'identifyTier']
+dialog:
+  keyword:
+    hello:
+      actions:
+
+        - type: chat
+          maxDistance: 2
+          message: >
+           Hello, I help keep the peace in this region!
+
+          options:
+
+            - text: Cool
+              action: noop

@@ -199,9 +199,9 @@ PolearmSpecialty:
   statsGiven:
     polearmBonus: 1
 
-WandSpecialty:
-  name: Wand Specialty
-  desc: Your advanced mastery of wands grants you an additional wand skill level.
+MagicalSpecialty:
+  name: Magical Specialty
+  desc: Your advanced mastery of magical weapons grants you an additional magical weapons skill level.
   icon: crystal-wand
   statsGiven:
     wandBonus: 1

@@ -53,7 +53,7 @@ Warrior:
           - name: ''
           
         - traits: 
-          - name: WandSpecialty
+          - name: MagicalSpecialty
             maxLevel: 1
 
           - name: StaffSpecialty
