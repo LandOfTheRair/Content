@@ -260,9 +260,9 @@
       - Warrior
   value: 1
 
-- name: Rune Scroll - Eagle Eye I
+- name: Rune Scroll - Sharp Vision I
   sprite: 681
-  desc: "a runic scroll imbued with the empowerment \"Eagle Eye I\""
+  desc: "a runic scroll imbued with the empowerment \"Sharp Vision I\""
   trait:
     name: EagleEye
     level: 1
