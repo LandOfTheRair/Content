@@ -18,7 +18,7 @@ usableSkills:
 
 items:
   equipment:
-    armor: Rylt Fur
+    armor: Antanian Tunic
 
 behaviors:
   - type: binder

@@ -18,7 +18,8 @@ usableSkills:
 
 items:
   equipment:
-    armor: Rylt Fur
+    rightHand: Cosmetic Scroll - Ether Nebula
+    armor: Antanian Tunic
 
 behaviors:
   - type: cosmetic
