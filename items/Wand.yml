@@ -3,7 +3,7 @@
   desc: "a blue wand engraved with the markings of a shaman"
   tier: 1
   stats:
-    conjurationBonus: 3
+    conjurationBonus: 1
   strikeEffect:
     name: MagicMissile
     potency: 50
