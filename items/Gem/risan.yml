@@ -111,7 +111,7 @@
   sprite: 315
 
   encrustGive:
-    slots: ['weapon', 'gloves']
+    slots: ['weapon', 'hands']
 
     stats:
       accuracy: 3

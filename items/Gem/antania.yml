@@ -134,7 +134,7 @@
   tellsBind: true
 
   encrustGive:
-    slots: ['feet', 'gloves', 'ring']
+    slots: ['feet', 'hands', 'ring']
 
     stats:
       str: 1
