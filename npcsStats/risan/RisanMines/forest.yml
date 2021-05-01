@@ -357,15 +357,24 @@
     ShadowDaggers: 2
 
   usableSkills:
-    - Charge
-    - Backstab
-    - Cure
-    - Snare
-    - Poison
-    - Steal
-    - Hide
-    - Identify
-    - Transmute
+    - result: Charge
+      chance: 100
+    - result: Backstab
+      chance: 100
+    - result: Cure
+      chance: 100
+    - result: Snare
+      chance: 100
+    - result: Poison
+      chance: 100
+    - result: Steal
+      chance: 100
+    - result: Hide
+      chance: 100
+    - result: Identify
+      chance: 100
+    - result: Transmute
+      chance: 5
 
   gold:
     min: 350
@@ -467,16 +476,26 @@
     ShadowDaggers: 1
 
   usableSkills:
-    - Charge
-    - Backstab
-    - Cure
-    - Snare
-    - Poison
-    - Disease
-    - DarkVision
-    - Hide
-    - Identify
-    - Transmute
+    - result: Charge
+      chance: 100
+    - result: Backstab
+      chance: 100
+    - result: Cure
+      chance: 100
+    - result: Snare
+      chance: 100
+    - result: Poison
+      chance: 100
+    - result: Disease
+      chance: 100
+    - result: Darkvision
+      chance: 100
+    - result: Hide
+      chance: 100
+    - result: Identify
+      chance: 100
+    - result: Transmute
+      chance: 5
 
   gold:
     min: 1350

@@ -433,16 +433,26 @@
   skillOnKill: 65
 
   usableSkills:
-    - SetTrap
-    - Steal
-    - Venom
-    - Hide
-    - EagleEye
-    - FindFamiliarShadowClones
-    - Darkness
-    - DarkVision
-    - Identify
-    - Transmute
+    - result: SetTrap
+      chance: 100
+    - result: Steal
+      chance: 100
+    - result: Venom
+      chance: 100
+    - result: Hide
+      chance: 100
+    - result: EagleEye
+      chance: 100
+    - result: FindFamiliarShadowClones
+      chance: 100
+    - result: Darkness
+      chance: 100
+    - result: DarkVision
+      chance: 100
+    - result: Identify
+      chance: 100
+    - result: Transmute
+      chance: 5
 
   gold:
     min: 4550

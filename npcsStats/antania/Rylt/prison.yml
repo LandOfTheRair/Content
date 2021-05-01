@@ -377,10 +377,14 @@
   baseClass: Thief
 
   usableSkills:
-    - SetTrap
-    - Steal
-    - Identify
-    - Transmute
+    - result: SetTrap
+      chance: 100
+    - result: Steal
+      chance: 100
+    - result: Identify
+      chance: 100
+    - result: Transmute
+      chance: 5
 
   otherStats:
     stealth: 5

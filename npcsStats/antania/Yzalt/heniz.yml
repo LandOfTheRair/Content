@@ -238,8 +238,10 @@
           chance: 1
 
   usableSkills:
-    - Identify
-    - Transmute
+    - result: Identify
+      chance: 100
+    - result: Transmute
+      chance: 5
 
   triggers:
     combat:
@@ -451,8 +453,10 @@
           chance: 1
 
   usableSkills:
-    - Identify
-    - Transmute
+    - result: Identify
+      chance: 100
+    - result: Transmute
+      chance: 5
 
   triggers:
     combat:
