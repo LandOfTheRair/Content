@@ -1515,11 +1515,11 @@
                  "name":"Buffy",
                  "properties":
                     {
-                     "script":"subscriber\/castle\/buffy"
+                     "tag":"Buffer"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1555,11 +1555,11 @@
                  "name":"Atma",
                  "properties":
                     {
-                     "script":"subscriber\/castle\/atma"
+                     "tag":"ItemModder"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1575,11 +1575,11 @@
                  "name":"Cosmetica",
                  "properties":
                     {
-                     "script":"global\/cosmetica"
+                     "tag":"Cosmetic"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1595,11 +1595,11 @@
                  "name":"Binder",
                  "properties":
                     {
-                     "script":"subscriber\/castle\/binder"
+                     "tag":"Binder"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1639,11 +1639,11 @@
                  "name":"Resetti",
                  "properties":
                     {
-                     "script":"global\/resetti"
+                     "tag":"Resetter"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
