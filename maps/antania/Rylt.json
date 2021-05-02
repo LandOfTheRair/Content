@@ -6797,6 +6797,26 @@
                  "width":64,
                  "x":4288,
                  "y":3456
+                }, 
+                {
+                 "gid":3242,
+                 "height":64,
+                 "id":1385,
+                 "name":"Tutor",
+                 "properties":
+                    {
+                     "tag":"Rylt Tutor"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":3840,
+                 "y":1920
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -12305,7 +12325,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1385,
+ "nextobjectid":1386,
  "orientation":"orthogonal",
  "properties":
     {
