@@ -5,6 +5,18 @@
   desc: "a pair of gold bracers"
   value: 100
 
+- name: Antanian Newbie Bracers
+  stats:
+    armorClass: 1
+  equipEffect:
+    name: Newbie
+    autocast: true
+    potency: 1
+  sprite: 234
+  binds: true
+  desc: "a pair of gold bracers set with skull fragments"
+  value: 300
+
 - name: Heniz Dexterity Bracers
   randomStats:
     offense:
