@@ -38,21 +38,19 @@ dialog:
             amount: 1 # implied
 
           checkPassActions:
-            # - type: takeItem
-            #   slot:
-            #     - rightHand
-            #     - leftHand
-            #   item:
-            #     name: Tutorial Yeti Skull
-            #     amount: 1 # implied
+            - type: takeItem
+              slot:
+                - rightHand
+                - leftHand
+              item:
+                name: Tutorial Yeti Skull
 
-            # - type: giveItem
-            #   slot:
-            #     - rightHand
-            #     - leftHand
-            #   item:
-            #     name: Tutorial Key
-             #    amount: 1 # implied. if we wanted to give more keys, we would have to specify sack, pouch, or belt as a target. 
+            - type: giveItem
+              slot:
+                - rightHand
+                - leftHand
+              item:
+                name: Tutorial ${ baseClass } Amulet
 
             - type: chat
               maxDistance: 0
@@ -84,7 +82,7 @@ dialog:
           maxDistance: 0
           message: >
             Yes, I can help you, and you can help me. If you kill the nearby YETI and bring me his SKULL - just hold it in your right hand. 
-            If ya do that, I can give you a KEY to let you out of here. I can also help you find the PROFESSION trainers. 
+            If ya do that, I can give you a REWARD that will help you out there. I can also help you find the PROFESSION trainers. 
 
           options:
             - text: What yeti?
@@ -93,8 +91,8 @@ dialog:
             - text: A skull?
               action: skull
 
-            - text: Your key?
-              action: key
+            - text: A reward?
+              action: reward
 
             - text: Profession trainers?
               action: profession
@@ -122,12 +120,12 @@ dialog:
         - type: chat
           maxDistance: 0
           message: >
-            Yeti skulls happen to be a prized item in these parts. No, I'm not some sort of weirdo! I'll trade you a KEY for his skull. 
+            Yeti skulls happen to be a prized item in these parts. No, I'm not some sort of weirdo! I'll trade you a REWARD for his skull. 
             Just hold it in your hand, and greet me again! Note also that the skull must BELONG to you!
 
           options:
-            - text: A key for what?
-              action: key
+            - text: A reward for what?
+              action: reward
 
             - text: Belong to me?
               action: belong
@@ -148,12 +146,12 @@ dialog:
             - text: Interesting...
               action: noop
 
-    key:
+    reward:
       actions:
         - type: chat
           maxDistance: 0
           message: >
-            Yes, I'm willing to trade this key for the Yeti's skull. A small price for your freedom, wouldn't you say?
+            Yes, I'm willing to trade you something valuable for the Yeti's skull. A small price for your freedom, wouldn't you say?
 
           options:
             - text: It's not that bad in here
