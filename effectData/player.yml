@@ -137,3 +137,5 @@ Newbie:
       unique: true
       statChanges:
         xpBonusPercent: 10
+  effectMeta:
+    effectRef: Newbie
