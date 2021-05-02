@@ -172,62 +172,6 @@ event:
       message: You feel your experience being drained away!
       xp: -5
 
-  - chance: 50000
-    result:
-      message: Your chest feels like it's on fire!
-      stats:
-        con: -1
-        str: -1
-
-  - chance: 50000
-    result:
-      message: Your chest feels like it's on fire!
-      stats:
-        con: -1
-        dex: -1
-
-  - chance: 50000
-    result:
-      message: Your chest feels like it's on fire!
-      stats:
-        con: -1
-        agi: -1
-
-  - chance: 50000
-    result:
-      message: Your chest feels like it's on fire!
-      stats:
-        con: -1
-        int: -1
-
-  - chance: 50000
-    result:
-      message: Your chest feels like it's on fire!
-      stats:
-        con: -1
-        wis: -1
-
-  - chance: 50000
-    result:
-      message: Your chest feels like it's on fire!
-      stats:
-        con: -1
-        wil: -1
-
-  - chance: 50000
-    result:
-      message: Your chest feels like it's on fire!
-      stats:
-        con: -1
-        cha: -1
-
-  - chance: 50000
-    result:
-      message: Your chest feels like it's on fire!
-      stats:
-        con: -1
-        luk: -1
-
   - chance: 45000
     result:
       message: You feel your sack get heavier!
@@ -254,10 +198,45 @@ event:
     result:
       statBoost: 1
 
-  - chance: 55000
+  - chance: 30000
     result:
       message: You feel more experienced!
       xp: 10
+
+  - chance: 25000
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        str: -1
+
+  - chance: 25000
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        dex: -1
+
+  - chance: 25000
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        agi: -1
+
+  - chance: 25000
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        int: -1
+
+  - chance: 25000
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        wis: -1
 
   - chance: 25000
     result:
@@ -309,6 +288,27 @@ event:
       message: You feel your experience being drained away!
       xp: -1
       megaXp: true
+
+  - chance: 2500
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        wil: -1
+
+  - chance: 2500
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        cha: -1
+
+  - chance: 2500
+    result:
+      message: Your chest feels like it's on fire!
+      stats:
+        con: -1
+        luk: -1
 
   - chance: 2500
     result:
