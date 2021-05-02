@@ -244,7 +244,9 @@ Warrior:
             maxLevel: 1
 
           - name: ''
-          - name: ''
+          
+          - name: UnarmoredSavant
+            maxLevel: 1
 
           - name: BrassKnuckles
             maxLevel: 1
@@ -280,8 +282,7 @@ Warrior:
             
           - name: ''
           
-          - name: UnarmoredSavant
-            maxLevel: 1
+          - name: ''
 
           - name: ''
 
