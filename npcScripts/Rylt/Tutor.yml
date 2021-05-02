@@ -1,0 +1,103 @@
+
+tag: Rylt Tutor
+name: Tutor
+affiliation: Bear Expert
+hostility: Never
+
+level: 10
+
+hp:
+  min: 10000
+  max: 10000
+
+mp:
+  min: 10000
+  max: 10000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkItem
+          fromHands: true
+          slot:
+            - rightHand
+            - leftHand
+          item: 
+            name: Tutorial Yeti Skull
+
+        - type: checkItem
+          fromHands: true
+          slot:
+            - rightHand
+            - leftHand
+          item: 
+            name: Antanian Bracers
+
+          checkPassActions:
+            - type: takeItem
+              slot:
+                - rightHand
+                - leftHand
+              item:
+                name: Tutorial Yeti Skull
+                amount: 1
+
+            - type: takeItem
+              slot:
+                - rightHand
+                - leftHand
+              item:
+                name: Antanian Bracers
+                amount: 1
+
+            - type: giveItem
+              slot:
+                - rightHand
+                - leftHand
+              item:
+                name: Antanian Newbie Bracers
+                amount: 1
+
+            - type: chat
+              maxDistance: 2
+              message: >
+                Thanks, ${ name }! I've transferred the important bits to your bracers, and the rest of the skull should
+                serve my research nicely. 
+
+              options:
+                - text: I hope it helps me as much as it helped you
+                  action: noop
+
+          checkFailActions:  
+            - type: chat
+              maxDistance: 2
+              message: >
+                Greetings, adventurer. I am conducting research on the wildlife of Tutorial Island, but alas, after
+                moving on I cannot go back! If you bring me a pair of golden bracers and a Tutorial Yeti Skull, I can
+                transfer its enchantment to the bracers.
+
+              options:
+                - text: Sure, I can get you a skull
+                  action: upgrade
+
+                - text: No thanks, sorry
+                  action: noop
+
+    upgrade:
+      actions:
+        - type: chat
+          maxDistance: 2
+          message: >
+            Hold the bracers and the yeti skull and I will work my magic!
+
+          options:
+            - text: I'll get right on it
+              action: noop
