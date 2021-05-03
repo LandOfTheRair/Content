@@ -22510,14 +22510,14 @@
                  "gid":3112,
                  "height":64,
                  "id":5880,
-                 "name":"Deffess",
+                 "name":"Deffes",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/deffes"
+                     "tag":"Maze Deffes"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
