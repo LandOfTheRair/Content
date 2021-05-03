@@ -132,3 +132,16 @@ BrotherlySword:
       unique: true
   effectMeta:
     effectRef: Boost
+
+VampireMistForm:
+  tooltip:
+    icon: 'steam'
+    color: '#04f'
+    desc: Mist form. Invulnerable and pulsing Asper & Disease.
+  effect:
+    type: buff
+    duration: -1
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: VampireMistForm
