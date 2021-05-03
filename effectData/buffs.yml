@@ -12,12 +12,15 @@ Applied:
 
 NecroticAura:
   tooltip:
-    icon: 'uncertainty'
-    color: '#000'
-    desc: '???'
+    icon: 'bell-shield'
+    color: '#0a0'
+    desc: 'Pulsing necrotic damage to nearby enemies.'
   effect:
     type: buff
     duration: 600
     extra:
       canRemove: true
       unique: true
+  effectMeta:
+    effectRef: NecroticAura
+  
