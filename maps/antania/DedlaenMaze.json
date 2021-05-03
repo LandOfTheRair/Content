@@ -2029,114 +2029,6 @@
                  "y":7040
                 }, 
                 {
-                 "gid":1975,
-                 "height":64,
-                 "id":3242,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":7360,
-                 "y":6976
-                }, 
-                {
-                 "gid":1974,
-                 "height":64,
-                 "id":3243,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":7296,
-                 "y":6976
-                }, 
-                {
-                 "gid":1973,
-                 "height":64,
-                 "id":3244,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":7232,
-                 "y":6976
-                }, 
-                {
-                 "gid":1972,
-                 "height":64,
-                 "id":3245,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":7360,
-                 "y":6912
-                }, 
-                {
-                 "gid":1971,
-                 "height":64,
-                 "id":3246,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":7296,
-                 "y":6912
-                }, 
-                {
-                 "gid":1970,
-                 "height":64,
-                 "id":3247,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":7232,
-                 "y":6912
-                }, 
-                {
-                 "gid":1969,
-                 "height":64,
-                 "id":3248,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":7360,
-                 "y":6848
-                }, 
-                {
-                 "gid":1968,
-                 "height":64,
-                 "id":3250,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":7296,
-                 "y":6848
-                }, 
-                {
-                 "gid":1967,
-                 "height":64,
-                 "id":3251,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":7232,
-                 "y":6848
-                }, 
-                {
                  "gid":2211,
                  "height":64,
                  "id":3253,
@@ -14411,6 +14303,114 @@
                  "width":64,
                  "x":7616,
                  "y":6784
+                }, 
+                {
+                 "gid":1885,
+                 "height":64,
+                 "id":6110,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":7232,
+                 "y":6976
+                }, 
+                {
+                 "gid":1888,
+                 "height":64,
+                 "id":6111,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":7296,
+                 "y":6976
+                }, 
+                {
+                 "gid":1889,
+                 "height":64,
+                 "id":6112,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":7296,
+                 "y":6912
+                }, 
+                {
+                 "gid":1886,
+                 "height":64,
+                 "id":6113,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":7232,
+                 "y":6912
+                }, 
+                {
+                 "gid":1887,
+                 "height":64,
+                 "id":6114,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":7232,
+                 "y":6848
+                }, 
+                {
+                 "gid":1890,
+                 "height":64,
+                 "id":6115,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":7296,
+                 "y":6848
+                }, 
+                {
+                 "gid":1891,
+                 "height":64,
+                 "id":6116,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":7360,
+                 "y":6976
+                }, 
+                {
+                 "gid":1892,
+                 "height":64,
+                 "id":6117,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":7360,
+                 "y":6912
+                }, 
+                {
+                 "gid":1893,
+                 "height":64,
+                 "id":6118,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":7360,
+                 "y":6848
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -16774,7 +16774,7 @@
                  "gid":1547,
                  "height":64,
                  "id":2940,
-                 "name":"Dedlaen Town",
+                 "name":"Dedlaen",
                  "properties":
                     {
                      "lockerId":"dedlaen"
@@ -22095,11 +22095,11 @@
                  "name":"Bart",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/mayor"
+                     "tag":"Dedlaen Bart"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22117,13 +22117,13 @@
                     {
                      "maxLevelUpLevel":50,
                      "maxSkillTrain":20,
-                     "script":"trainer\/mage"
+                     "tag":"Trainer Mage"
                     },
                  "propertytypes":
                     {
                      "maxLevelUpLevel":"int",
                      "maxSkillTrain":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22141,13 +22141,13 @@
                     {
                      "maxLevelUpLevel":50,
                      "maxSkillTrain":20,
-                     "script":"trainer\/warrior"
+                     "tag":"Trainer Warrior"
                     },
                  "propertytypes":
                     {
                      "maxLevelUpLevel":"int",
                      "maxSkillTrain":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22165,13 +22165,13 @@
                     {
                      "maxLevelUpLevel":50,
                      "maxSkillTrain":20,
-                     "script":"trainer\/healer"
+                     "tag":"Trainer Healer"
                     },
                  "propertytypes":
                     {
                      "maxLevelUpLevel":"int",
                      "maxSkillTrain":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22189,13 +22189,13 @@
                     {
                      "bankId":"Antania",
                      "branchId":"Dedlaen",
-                     "script":"global\/banker"
+                     "tag":"Banker"
                     },
                  "propertytypes":
                     {
                      "bankId":"string",
                      "branchId":"string",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22212,12 +22212,12 @@
                  "properties":
                     {
                      "maxGemLevel":25,
-                     "script":"global\/encruster"
+                     "tag":"Encruster"
                     },
                  "propertytypes":
                     {
                      "maxGemLevel":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22234,14 +22234,16 @@
                  "properties":
                     {
                      "peddleCost":1000,
+                     "peddleDesc":"A Cure Ring will allow you to heal yourself!",
                      "peddleItem":"Cure Ring",
-                     "script":"global\/peddler"
+                     "tag":"Peddler"
                     },
                  "propertytypes":
                     {
                      "peddleCost":"int",
+                     "peddleDesc":"string",
                      "peddleItem":"string",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22259,13 +22261,13 @@
                     {
                      "alchCost":300,
                      "alchOz":25,
-                     "script":"global\/alchemist"
+                     "tag":"Alchemist"
                     },
                  "propertytypes":
                     {
                      "alchCost":"int",
                      "alchOz":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22281,11 +22283,13 @@
                  "name":"",
                  "properties":
                     {
-                     "script":"global\/tanner"
+                     "maxTanLevel":25,
+                     "tag":"Tanner"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "maxTanLevel":"int",
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22303,13 +22307,13 @@
                     {
                      "costPerThousand":4,
                      "repairsUpToCondition":30000,
-                     "script":"global\/smith"
+                     "tag":"Smith"
                     },
                  "propertytypes":
                     {
                      "costPerThousand":"int",
                      "repairsUpToCondition":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22327,13 +22331,13 @@
                     {
                      "maxLevelUpLevel":50,
                      "maxSkillTrain":20,
-                     "script":"trainer\/thief"
+                     "tag":"Trainer Thief"
                     },
                  "propertytypes":
                     {
                      "maxLevelUpLevel":"int",
                      "maxSkillTrain":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22349,11 +22353,11 @@
                  "name":"",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/weapon-vendor"
+                     "tag":"Dedlaen Weapon Vendor"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22369,11 +22373,11 @@
                  "name":"",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/thief-vendor"
+                     "tag":"Dedlaen Thief Vendor"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22390,14 +22394,16 @@
                  "properties":
                     {
                      "peddleCost":1000,
+                     "peddleDesc":"A Cure Ring will allow you to heal yourself!",
                      "peddleItem":"Cure Ring",
-                     "script":"global\/peddler"
+                     "tag":"Peddler"
                     },
                  "propertytypes":
                     {
                      "peddleCost":"int",
+                     "peddleDesc":"string",
                      "peddleItem":"string",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22413,11 +22419,11 @@
                  "name":"Crier",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/crier"
+                     "tag":"Dedlaen Crier"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22433,11 +22439,11 @@
                  "name":"Dedlaes",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/daily-se-smith"
+                     "tag":"Dedlaen Dedlaes"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22453,11 +22459,11 @@
                  "name":"",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/potion-vendor"
+                     "tag":"Dedlaen Potion Vendor"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22473,11 +22479,11 @@
                  "name":"Bradford",
                  "properties":
                     {
-                     "script":"antania\/rylt\/bradley"
+                     "tag":"Rylt Bradley"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22493,11 +22499,11 @@
                  "name":"",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/armor-vendor"
+                     "tag":"Dedlaen Armor Vendor"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22510,7 +22516,7 @@
                  "gid":3112,
                  "height":64,
                  "id":5880,
-                 "name":"Deffes",
+                 "name":"Deffess",
                  "properties":
                     {
                      "tag":"Maze Deffes"
@@ -22533,11 +22539,11 @@
                  "name":"Icariss",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/daily-nw-library"
+                     "tag":"Dedlaen Icariss"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22573,11 +22579,11 @@
                  "name":"Ralph",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/gatekeeper"
+                     "tag":"Dedlaen Gatekeeper"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22593,11 +22599,11 @@
                  "name":"Max",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/militia"
+                     "tag":"Dedlaen Max"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22613,11 +22619,11 @@
                  "name":"Jack",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/guard-jack"
+                     "tag":"Dedlaen Jack"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22633,11 +22639,11 @@
                  "name":"John",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/guard-john"
+                     "tag":"Dedlaen John"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22649,11 +22655,11 @@
                 {
                  "gid":3462,
                  "height":64,
-                 "id":6110,
+                 "id":6119,
                  "name":"Botanist",
                  "properties":
                     {
-                     "tag":"Maze Botanist"
+                     "tag":"Dedlaen Botanist"
                     },
                  "propertytypes":
                     {
@@ -22663,8 +22669,8 @@
                  "type":"",
                  "visible":true,
                  "width":64,
-                 "x":8896,
-                 "y":6528
+                 "x":9920,
+                 "y":12352
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -26647,6 +26653,26 @@
                  "width":64,
                  "x":7360,
                  "y":1216
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":6120,
+                 "name":"Dedlaen Escort",
+                 "properties":
+                    {
+                     "tag":"Antania Dedlaenmaze Escort"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":7104,
+                 "y":6464
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -28606,7 +28632,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":6111,
+ "nextobjectid":6121,
  "orientation":"orthogonal",
  "properties":
     {

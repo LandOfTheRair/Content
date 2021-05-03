@@ -1,0 +1,30 @@
+
+name: Bust Ghosts
+desc: Kill haunted creatures in the southwest of Dedlaen Maze and report back to Jack when you've killed 40.
+giver: Jack
+
+isRepeatable: true
+
+requirements:
+  type: kill
+  killsRequired: 40
+  npcIds:
+    - Dedlaen Mummy
+    - Dedlaen Ghoul
+    - Dedlaen Spectre
+    - Dedlaen Ghost
+    - Dedlaen Ghast
+    - Dedlaen Revenant
+
+messages:
+  kill: You have killed ${ current }/${ total } haunts.
+  incomplete: By my records, you have to kill ${ remaining } haunts yet!
+  alreadyHas: You're already killin' em for me!
+  complete: Thanks! We'll call you next time we need help.
+
+rewards:
+  - type: xp
+    value: 100000
+
+  - type: gold
+    value: 30000

@@ -1,0 +1,53 @@
+
+tag: Dedlaen Max
+name: Max
+hostility: Never
+affiliation: Militia Man
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Maze Longsword
+    armor: Tower Breastplate
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkNearbyNPCsAndDropItems
+          npcs:
+            - Dedlaen Escort Townee
+            - Dedlaen Escort Guard
+          item: Dedlaen Militia Gourd
+
+          checkPassActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Thank you, ${ name }! You are a hero to this encampment! I've dropped some of my secret garden gourds for you, I hope they come in handy.
+
+              options:
+                - text: I better be a hero
+                  action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Help! Help! We've received intel that our camp in the northeast has been compromised! Can you escort the survivors here?
+
+              options:
+                - text: I hate escort quests but I'll think about it
+                  action: noop

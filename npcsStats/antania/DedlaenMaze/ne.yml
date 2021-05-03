@@ -899,6 +899,9 @@
   level: 10
   monsterGroup: Town
 
+  noCorpseDrop: true
+  noItemDrop: true
+
   skillLevels: 3
 
   skillOnKill: 1
@@ -926,7 +929,6 @@
     - name: DarkVision
       endsAt: -1
 
-
   triggers:
     leash:
       messages:
@@ -939,6 +941,9 @@
   level: 20
   baseClass: Warrior
   monsterGroup: Town
+
+  noCorpseDrop: true
+  noItemDrop: true
 
   skillLevels: 5
 

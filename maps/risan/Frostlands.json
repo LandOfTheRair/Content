@@ -11852,7 +11852,7 @@
                  "gid":1545,
                  "height":64,
                  "id":2934,
-                 "name":"Club Locker #1",
+                 "name":"Club#1",
                  "properties":
                     {
                      "lockerId":"clubOne"
@@ -11872,7 +11872,7 @@
                  "gid":1545,
                  "height":64,
                  "id":2935,
-                 "name":"Club Locker #2",
+                 "name":"Club#2",
                  "properties":
                     {
                      "lockerId":"clubTwo"
@@ -13051,7 +13051,7 @@
                  "gid":3527,
                  "height":64,
                  "id":1464,
-                 "name":"Darwin",
+                 "name":"Bradwick",
                  "properties":
                     {
                      "script":"antania\/rylt\/bradley"

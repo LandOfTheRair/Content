@@ -1,0 +1,90 @@
+
+tag: Dedlaen Icariss
+name: Icariss
+hostility: Never
+affiliation: Eternally Hunted
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Dedlaen Maze Key
+    armor: Antanian Tunic
+
+maxWanderRandomlyDistance: 1
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkItem
+          fromHands: true
+          slot:
+            - rightHand
+            - leftHand
+          item: 
+            name: Dedlaen Transmute Pearl
+            amount: 1
+
+          checkPassActions:
+            - type: checkItem
+              fromHands: true
+              slot:
+                - rightHand
+                - leftHand
+              item: 
+                name: Dedlaen Vampire Heart
+                amount: 1
+
+              checkPassActions:
+                - type: takeItem
+                  slot:
+                    - rightHand
+                    - leftHand
+                  item:
+                    name: Dedlaen Transmute Pearl
+                    amount: 1
+
+                - type: takeItem
+                  slot:
+                    - rightHand
+                    - leftHand
+                  item:
+                    name: Dedlaen Vampire Heart
+                    amount: 1
+
+                - type: giveItem
+                  slot:
+                    - rightHand
+                  item:
+                    name: Dedlaen Maze Key
+
+                - type: chat
+                  maxDistance: 4
+                  message: >
+                    Here you go. Maybe it'll do you more good than it will for me.
+
+                  options:
+                    - text: I hope it will
+                      action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Agh! I'm trapped in this maze and there's just no escaping that dreadful beast chasing me. No matter how many of these keys I have, I just can't seem to find my way out. Do me a favor and bring me the heart of the dark lord as well as the spectral pearl and I can reward you with some form of escape.
+
+              options:
+                - text: That's... odd, but sure
+                  action: noop
