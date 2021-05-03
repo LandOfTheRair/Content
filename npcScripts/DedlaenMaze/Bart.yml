@@ -25,39 +25,59 @@ dialog:
   keyword:
     hello:
       actions:
-        - type: checkDailyQuest
-          quests: [Perfect Skull (Daily), Rotting Grub (Daily)]
-          npc: Bart
-          maxDistance: 2
+        - type: checkLevel
+          level: 12
 
-        - type: chat
-          maxDistance: 2
-          message: >
-            Hello, ${ name }! We're trying to renovate our town and we need some materials to ward off monsters. Can you find us some?
+          checkPassActions:
+            - type: checkDailyQuest
+              quests: [Perfect Skull (Daily), Rotting Grub (Daily)]
+              npc: Bart
+              maxDistance: 2
 
-          options:
-            - text: This is going to be gross isn't it
-              action: help
+            - type: chat
+              maxDistance: 2
+              message: >
+                Hello, ${ name }! We're trying to renovate our town and we need some materials to ward off monsters. Can you find us some?
 
-            - text: Maybe later
-              action: noop
+              options:
+                - text: This is going to be gross isn't it
+                  action: help
+
+                - text: Maybe later
+                  action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 0
+              message: >
+                Come back when you're a bit stronger, we'll have plenty of work for you! Or maybe you'd like to go visit my cousin Twean, over in Rylt?
 
     help:
       actions:
-        - type: checkDailyQuest
-          quests: [Perfect Skull (Daily), Rotting Grub (Daily)]
-          npc: Bart
-          maxDistance: 2
-          
-        - type: giveDailyQuest
-          quests: [Perfect Skull (Daily), Rotting Grub (Daily)]
-          maxDistance: 2
+        - type: checkLevel
+          level: 12
 
-        - type: chat
-          maxDistance: 2
-          message: >
-            Yes, thank you. Come back when you're done!
+          checkPassActions:
+            - type: checkDailyQuest
+              quests: [Perfect Skull (Daily), Rotting Grub (Daily)]
+              npc: Bart
+              maxDistance: 2
+              
+            - type: giveDailyQuest
+              quests: [Perfect Skull (Daily), Rotting Grub (Daily)]
+              maxDistance: 2
 
-          options:
-            - text: I'll be right back
-              action: noop
+            - type: chat
+              maxDistance: 2
+              message: >
+                Yes, thank you. Come back when you're done!
+
+              options:
+                - text: I'll be right back
+                  action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 0
+              message: >
+                Come back when you're a bit stronger, we'll have plenty of work for you! Or maybe you'd like to go visit my cousin Twean, over in Rylt?

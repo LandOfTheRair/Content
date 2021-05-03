@@ -21189,12 +21189,14 @@
                  "name":"",
                  "properties":
                     {
+                     "requireClass":"Thief",
                      "teleportMap":"DedlaenMaze",
                      "teleportX":144,
                      "teleportY":100
                     },
                  "propertytypes":
                     {
+                     "requireClass":"string",
                      "teleportMap":"string",
                      "teleportX":"int",
                      "teleportY":"int"

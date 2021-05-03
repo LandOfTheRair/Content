@@ -24,39 +24,59 @@ dialog:
   keyword:
     hello:
       actions:
-        - type: checkDailyQuest
-          quests: [Kill Rebels (Daily), Kill Apprentices (Daily), Kill Renegades (Daily)]
-          npc: Twean
-          maxDistance: 2
+        - type: checkLevel
+          level: 3
 
-        - type: chat
-          maxDistance: 2
-          message: >
-            Hello, ${ name }! Our troubles seem to change daily here in Rylt. Can you HELP us out today by killing some of our enemies?
+          checkPassActions:
+            - type: checkDailyQuest
+              quests: [Kill Rebels (Daily), Kill Apprentices (Daily), Kill Renegades (Daily)]
+              npc: Twean
+              maxDistance: 2
 
-          options:
-            - text: You have enemies?
-              action: help
+            - type: chat
+              maxDistance: 2
+              message: >
+                Hello, ${ name }! Our troubles seem to change daily here in Rylt. Can you HELP us out today by killing some of our enemies?
 
-            - text: Maybe later
-              action: noop
+              options:
+                - text: You have enemies?
+                  action: help
+
+                - text: Maybe later
+                  action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 0
+              message: >
+                Come back when you're a bit stronger, we'll have plenty of work for you!
 
     help:
       actions:
-        - type: checkDailyQuest
-          quests: [Kill Rebels (Daily), Kill Apprentices (Daily), Kill Renegades (Daily)]
-          npc: Twean
-          maxDistance: 2
-          
-        - type: giveDailyQuest
-          quests: [Kill Rebels (Daily), Kill Apprentices (Daily), Kill Renegades (Daily)]
-          maxDistance: 2
+        - type: checkLevel
+          level: 3
 
-        - type: chat
-          maxDistance: 2
-          message: >
-            Yes, thank you. Come back when you're done!
+          checkPassActions:
+            - type: checkDailyQuest
+              quests: [Kill Rebels (Daily), Kill Apprentices (Daily), Kill Renegades (Daily)]
+              npc: Twean
+              maxDistance: 2
+              
+            - type: giveDailyQuest
+              quests: [Kill Rebels (Daily), Kill Apprentices (Daily), Kill Renegades (Daily)]
+              maxDistance: 2
 
-          options:
-            - text: I'll be right back
-              action: noop
+            - type: chat
+              maxDistance: 2
+              message: >
+                Yes, thank you. Come back when you're done!
+
+              options:
+                - text: I'll be right back
+                  action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 0
+              message: >
+                Come back when you're a bit stronger, we'll have plenty of work for you!
