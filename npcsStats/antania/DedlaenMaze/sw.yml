@@ -170,6 +170,7 @@
     defense: 3
     mpregen: 50
     perception: 7
+    damageFactor: 0.5
 
   usableSkills:
     - Push

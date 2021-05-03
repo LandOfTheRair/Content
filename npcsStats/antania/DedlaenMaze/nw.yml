@@ -248,6 +248,7 @@
     perception: 3
     stealth: 20
     mpregen: 100
+    damageFactor: 0.5
 
   items:
     equipment:
