@@ -22510,14 +22510,14 @@
                  "gid":3112,
                  "height":64,
                  "id":5880,
-                 "name":"Deffess",
+                 "name":"Deffes",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/deffes"
+                     "tag":"Maze Deffes"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22553,11 +22553,11 @@
                  "name":"Offess",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/offes"
+                     "tag":"Maze Offes"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -22645,6 +22645,26 @@
                  "width":64,
                  "x":8128,
                  "y":6976
+                }, 
+                {
+                 "gid":3462,
+                 "height":64,
+                 "id":6110,
+                 "name":"Botanist",
+                 "properties":
+                    {
+                     "tag":"Maze Botanist"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":8896,
+                 "y":6528
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -28586,7 +28606,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":6110,
+ "nextobjectid":6111,
  "orientation":"orthogonal",
  "properties":
     {
