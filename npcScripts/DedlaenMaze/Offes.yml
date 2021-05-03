@@ -1,0 +1,84 @@
+
+tag: Maze Offes
+name: Offes
+affiliation: Defensive Specialist
+hostility: Never
+
+level: 20
+
+hp:
+  min: 500000
+  max: 500000
+
+mp:
+  min: 10000
+  max: 10000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Tower Halberd Weak
+    armor: Tower Breastplate
+
+dialog:
+  keyword:
+    hello:
+      actions:
+
+        - type: checkItem
+          fromHands: true
+          slot:
+            - leftHand
+          item: 
+            name: Tower Titanium Chunk
+
+          checkPassActions:
+            - type: checkItemCanUpgrade
+              fromHands: true
+              slot:
+                - rightHand
+              item: 
+                name: Offes Upgrade
+
+              checkPassActions:
+                - type: addItemUpgrade
+                  slot: rightHand
+                  upgrade: Offes Upgrade
+
+                - type: takeItem
+                  slot:
+                    - leftHand
+                  item: 
+                    name: Tower Titanium Chunk
+
+                - type: chat
+                  maxDistance: 2
+                  message: >
+                    Thanks, ${ name }! I've upgraded your item. I can't wait to show off this one!
+
+                  options:
+                    - text: Awesome, thanks!
+                      action: noop
+
+              checkFailActions:
+                - type: chat
+                  maxDistance: 2
+                  message: >
+                    That's a chunky one! Bring me a piece of gear with an open upgrade slot and I'd be happy to take that rock off your hands.
+
+                  options:
+                    - text: Be right back!
+                      action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 2
+              message: >
+                Greetings traveler. My brother and I are in search of rare chunks of titanium. We're not sure why, but they seem less rare here
+                than in other parts of the world. If you bring me one, I can improve the offensive capabilities of a piece of your gear.
+
+              options:
+                - text: I'll let you know if I find one
+                  action: noop

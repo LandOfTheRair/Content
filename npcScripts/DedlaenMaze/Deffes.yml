@@ -1,0 +1,86 @@
+
+tag: Maze Deffes
+name: Deffes
+affiliation: Defensive Specialist
+hostility: Never
+
+level: 20
+
+hp:
+  min: 500000
+  max: 500000
+
+mp:
+  min: 10000
+  max: 10000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Tower Broadsword Weak
+    leftHand:  Tower Shield Weak
+    armor: Tower Breastplate
+
+dialog:
+  keyword:
+    hello:
+      actions:
+
+        - type: checkItem
+          fromHands: true
+          slot:
+            - leftHand
+          item: 
+            name: Tower Titanium Chunk
+
+          checkPassActions:
+            - type: checkItemCanUpgrade
+              fromHands: true
+              slot:
+                - rightHand
+              item: 
+                name: Deffes Upgrade
+
+              checkPassActions:
+                - type: addItemUpgrade
+                  slot: rightHand
+                  upgrade: Deffes Upgrade
+
+                - type: takeItem
+                  slot:
+                    - leftHand
+                  item: 
+                    name: Tower Titanium Chunk
+
+                - type: chat
+                  maxDistance: 2
+                  message: >
+                    Thanks, ${ name }! I've upgraded your item. This titanium will sell for a pretty penny!
+
+                  options:
+                    - text: Awesome, thanks!
+                      action: noop
+
+              checkFailActions:
+                - type: chat
+                  maxDistance: 2
+                  message: >
+                    Aye, that's the ticket! Bring me a piece of gear with an open upgrade slot!
+
+                  options:
+                    - text: Back in a jiffy!
+                      action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 2
+              message: >
+                Greetings traveler. My brother and I are in search of rare chunks of titanium. 
+                For some reason, the living beings of this maze seem to carry an excess of them, compared to most other places we've looked. 
+                If you can bring a chunk to me, I can add some defense to your gear.
+
+              options:
+                - text: Okay, we'll see
+                  action: noop
