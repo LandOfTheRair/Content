@@ -318,6 +318,7 @@
     defense: 3
     mpregen: 50
     perception: 8
+    damageFactor: 0.4
 
   skillOnKill: 25
 
