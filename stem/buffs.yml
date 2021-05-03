@@ -742,10 +742,10 @@ Protection:
     mpCost: 65
     maxSkillForGain: 15
     skillMultiplierChanges:
-      - [0,  2]
-      - [11, 3]
-      - [21, 4]
-      - [31, 5]
+      - [0,  0.75]
+      - [11, 1]
+      - [21, 1.25]
+      - [31, 1.75]
 
     spellMeta:
       noHostileTarget: true
@@ -789,10 +789,10 @@ Absorption:
     mpCost: 65
     maxSkillForGain: 15
     skillMultiplierChanges:
-      - [0,  1]
-      - [11, 2]
-      - [21, 3]
-      - [31, 4]
+      - [0,  0.25]
+      - [11, 0.5]
+      - [21, 0.75]
+      - [31, 1]
 
     spellMeta:
       noHostileTarget: true
