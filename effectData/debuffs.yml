@@ -35,3 +35,17 @@ LoweredDefenses:
       unique: true
   effectMeta:
     effectRef: LoweredDefenses
+
+Immobilized:
+  tooltip:
+    icon: 'web-spit'
+    color: '#fff'
+    bgColor: '#000'
+    desc: 'You are immobilized and unable to move.'
+  effect:
+    type: debuff
+    duration: 5
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: Immobilized

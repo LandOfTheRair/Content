@@ -109,3 +109,14 @@ RecentlyDebilitated:
     duration: 60
     extra:
       unique: true
+
+RecentlyImmobilized:
+  tooltip:
+    icon: 'web-spit'
+    color: '#000'
+    desc: 'You were recently immobilized'
+  effect:
+    type: debuff
+    duration: 5
+    extra:
+      unique: true
