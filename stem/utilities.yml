@@ -173,6 +173,34 @@ Push:
   macro:
     mode: 'clickToTarget'
 
+Pull:
+
+  # global info
+  all:
+    desc: "Pull a single target to you. Cost: 15 MP"
+    icon: swirl-string
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    damageClass: physical
+    mpCost: 15
+    maxSkillForGain: 30
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      bonusAgro: 25
+      canBeResisted: true
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
 Dispel:
 
   # global info
