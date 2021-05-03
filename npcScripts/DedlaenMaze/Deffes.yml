@@ -36,7 +36,6 @@ dialog:
             name: Tower Titanium Chunk
 
           checkPassActions:
-
             - type: checkItemCanUpgrade
               fromHands: true
               slot:
@@ -58,43 +57,30 @@ dialog:
                 - type: chat
                   maxDistance: 2
                   message: >
-                    Thanks, ${player.name}! I've upgraded your item. This titanium will sell for a pretty penny, too!
+                    Thanks, ${ name }! I've upgraded your item. This titanium will sell for a pretty penny!
 
                   options:
                     - text: Awesome, thanks!
                       action: noop
 
-                  checkFailActions:
-                    - type: chat
-                      maxDistance: 2
-                      message: >
-                        That item has already reached it maximum potential!
-
-                      options:
-                        - text: Alright fine
-                          action: noop
-
               checkFailActions:
                 - type: chat
                   maxDistance: 2
                   message: >
-                    Aye, that's the ticket! Just bring me a piece of gear you want me to reinforce with it.
+                    Aye, that's the ticket! Bring me a piece of gear with an open upgrade slot!
 
                   options:
                     - text: Back in a jiffy!
                       action: noop
 
-        # no items in hand
-        - type: chat
-          maxDistance: 4
-          message: >
-            Greetings traveler. My brother and I are in search of rare chunks of titanium. 
-            For some reason, the living beings of this maze seem to carry an excess of them, compared to most other places we've looked. 
-            If you can bring a chunk to me, I can add some defense to your gear.
+          checkFailActions:
+            - type: chat
+              maxDistance: 2
+              message: >
+                Greetings traveler. My brother and I are in search of rare chunks of titanium. 
+                For some reason, the living beings of this maze seem to carry an excess of them, compared to most other places we've looked. 
+                If you can bring a chunk to me, I can add some defense to your gear.
 
-          options:
-            - text: How about this one?
-              action: rat
-
-            - text: Okay, we'll see
-              action: noop
+              options:
+                - text: Okay, we'll see
+                  action: noop
