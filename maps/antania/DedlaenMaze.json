@@ -22553,11 +22553,11 @@
                  "name":"Offess",
                  "properties":
                     {
-                     "script":"antania\/dedlaenmaze\/offes"
+                     "tag":"Maze Offes"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
