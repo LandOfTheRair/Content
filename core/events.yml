@@ -9,6 +9,15 @@ Harvest Moon:
   startMessage: "The harvest moon is rising!"
   endMessage: "The harvest moon has turned to day."
 
+Friendship Festival:
+  name: Friendship Festival
+  duration: 10800
+  cooldown: 64800
+  rarity: legendary
+  description: "Faction relationship changes are twice as effective!"
+  startMessage: "The friendship festival is starting!"
+  endMessage: "The frienship festival has ended."
+
 # Rylt
 Saraxa Raid:
   name: Saraxa Raid
