@@ -1,0 +1,91 @@
+
+tag: Frostlands Canti
+name: Canti
+hostility: Never
+affiliation: Club Guard
+
+level: 55
+
+hp:
+  min: 10000000
+  max: 10000000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Club Earring
+    armor: Club Shirt
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkLevel
+          level: 35
+
+          checkPassActions:
+            - type: checkItem
+              fromHands: true
+              slot:
+                - rightHand
+              item: 
+                name: Silver Scale
+                amount: 1
+
+              checkPassActions:
+
+                - type: takeItem
+                  slot:
+                    - rightHand
+                  item:
+                    name: Silver Scale
+                    amount: 1
+
+                - type: giveItem
+                  slot:
+                    - rightHand
+                  item:
+                    name: Club Earring
+
+                - type: giveQuest
+                  quest: Club Access
+                  maxDistance: 4
+
+                - type: checkQuest
+                  quest: Club Access
+                  maxDistance: 4
+
+                - type: chat
+                  maxDistance: 4
+                  message: >
+                    Excellent work. Good luck with your initiation!
+
+                  options:
+                    - text: Thanks
+                      action: noop
+
+              checkFailActions:
+                - type: chat
+                  maxDistance: 4
+                  message: >
+                    Bring me a scale of silver!
+
+                  options:
+                    - text: I have no idea what that is
+                      action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                You are not strong enough to be here!
+
+              options:
+                - text: But I'm the hero here
+                  action: noop

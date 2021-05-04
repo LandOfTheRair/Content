@@ -1,0 +1,17 @@
+
+name: Club Access
+desc: Slaying strong Frostlands creatures got you access to a secret club.
+giver: The Club
+
+requirements:
+  type: none
+
+messages:
+  incomplete: Done.
+  complete: Enjoy the club!
+  alreadyHas: Done.
+  permComplete: Enjoy the club!
+
+rewards:
+  - type: silver
+    value: 100

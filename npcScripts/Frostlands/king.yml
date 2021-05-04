@@ -1,0 +1,213 @@
+
+tag: Frostlands Risa
+affiliation: Risan King
+hostility: Never
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Risan Royal Spear
+    armor: Frostlands Noble Robe
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkLevel
+          level: 25
+
+          checkPassActions:
+            - type: checkItem
+              fromHands: true
+              slot:
+                - rightHand
+                - leftHand
+              item: 
+                name: Frostlands Frostfang Robe
+                amount: 1
+
+              checkPassActions:
+                - type: checkItem
+                  fromHands: true
+                  slot:
+                    - rightHand
+                    - leftHand
+                  item: 
+                    name: Frostlands Frozen Yeti Club
+                    amount: 1
+
+                  checkPassActions:
+                    - type: takeItem
+                      slot:
+                        - rightHand
+                        - leftHand
+                      item:
+                        name: Frostlands Frostfang Robe
+                        amount: 1
+
+                    - type: takeItem
+                      slot:
+                        - rightHand
+                        - leftHand
+                      item:
+                        name: Frostlands Frozen Yeti Club
+                        amount: 1
+
+                    - type: giveItem
+                      slot:
+                        - rightHand
+                      item:
+                        name: Frostlands Royal ${ baseClass } Gauntlets
+
+                    - type: chat
+                      maxDistance: 4
+                      message: >
+                        You have done our kingdom a great deed today. Thank you, ${ name }!
+
+                      options:
+                        - text: It was my honor
+                          action: noop
+
+              checkFailActions:
+                - type: chat
+                  maxDistance: 4
+                  message: >
+                    Greetings, royal subject. What brings you to my KINGDOM?
+
+                  options:
+                    - text: Your kingdom?
+                      action: kingdom
+
+                    - text: Nothing, bye
+                      action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Hmm? Royal subject as you may be, I can do nothing for those who cannot help themselves.
+
+              options:
+                - text: I'll come back later
+                  action: noop
+
+    kingdom:
+      actions:
+        - type: checkLevel
+          level: 25
+
+          checkPassActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Yes, I may not look it, but as far as you can see frost; you see the land in my possession. Sadly, we are overrun with all manner of BEASTS.
+
+              options:
+                - text: What kind of beasts?
+                  action: beasts
+
+                - text: I don't like beasts
+                  action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Hmm? Royal subject as you may be, I can do nothing for those who cannot help themselves.
+
+              options:
+                - text: I'll come back later
+                  action: noop
+
+    beasts:
+      actions:
+        - type: checkLevel
+          level: 25
+
+          checkPassActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Yeti, sabertooths, thermidors, and the frostsnakes. If you name it, we've got a problem with it. Never you mind the crazed wildlife to the south. In fact, we could use some help CULLING their numbers.
+
+              options:
+                - text: But the town seems fine
+                  action: culling
+
+                - text: Not my problem
+                  action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Hmm? Royal subject as you may be, I can do nothing for those who cannot help themselves.
+
+              options:
+                - text: I'll come back later
+                  action: noop
+
+    culling:
+      actions:
+        - type: checkLevel
+          level: 25
+
+          checkPassActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Specifically, if you could rout the legendary Frostfang and bring me his hide, as well as as bringing us the SOURCE of the frozen winds of the yeti, I think a handsomely royal reward would be in order.
+
+              options:
+                - text: Source? Yetis?
+                  action: source
+
+                - text: Too dangerous for my blood
+                  action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Hmm? Royal subject as you may be, I can do nothing for those who cannot help themselves.
+
+              options:
+                - text: I'll come back later
+                  action: noop
+
+    source:
+      actions:
+        - type: checkLevel
+          level: 25
+
+          checkPassActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+               Oh yes, of course, no specific yeti has the source. They share it - they certainly don't make it easy. You'll know it when you see it.
+
+              options:
+                - text: I see
+                  action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Hmm? Royal subject as you may be, I can do nothing for those who cannot help themselves.
+
+              options:
+                - text: I'll come back later
+                  action: noop

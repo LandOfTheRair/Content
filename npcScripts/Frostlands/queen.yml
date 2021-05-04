@@ -1,0 +1,163 @@
+
+tag: Frostlands Thena
+name: Thena
+affiliation: Risan Queen
+hostility: Never
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Traveller Simple Machleum Ring
+    armor: Frostlands Noble Robe
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkLevel
+          level: 25
+
+          # first upgrade
+          checkPassActions:
+            - type: checkItem
+              fromHands: true
+              slot:
+                - rightHand
+              item: 
+                name: Basic Machleum Ring
+                amount: 1
+
+              checkPassActions:
+                - type: checkItem
+                  fromHands: true
+                  slot:
+                    - leftHand
+                  item: 
+                    name: Risan Frost Larimar
+                    amount: 1
+
+                  checkPassActions:
+                    - type: takeItem
+                      slot:
+                        - leftHand
+                      item:
+                        name: Risan Frost Larimar
+                        amount: 1
+
+                    - type: takeItem
+                      slot:
+                        - rightHand
+                      item:
+                        name: Basic Machleum Ring
+                        amount: 1
+
+                    - type: giveItem
+                      slot:
+                        - rightHand
+                      item:
+                        name: ${ baseClass } Simple Machleum Ring
+                        amount: 1
+
+                    - type: chat
+                      maxDistance: 4
+                      message: >
+                        Good! Here, have ring. Want better? Bring ether red gem. More tricks to share, yes yes!
+
+                      options:
+                        - text: I'll find one
+                          action: noop
+
+                  checkFailActions:
+                    - type: chat
+                      maxDistance: 4
+                      message: >
+                        Ring and gem! Need both!
+
+                      options:
+                        - text: Okay, okay
+                          action: noop
+
+              # second upgrade
+              checkFailActions:
+                - type: checkItem
+                  fromHands: true
+                  slot:
+                    - rightHand
+                  item: 
+                    name: Simple Machleum Ring
+                    amount: 1
+
+                  checkPassActions:
+                    - type: checkItem
+                      fromHands: true
+                      slot:
+                        - leftHand
+                      item: 
+                        name: Risan Ether Larimar
+                        amount: 1
+
+                      checkPassActions:
+                        - type: takeItem
+                          slot:
+                            - leftHand
+                          item:
+                            name: Risan Ether Larimar
+                            amount: 1
+
+                        - type: mergeAndGiveItem
+                          slot:
+                            - rightHand
+                          item:
+                            name: ${ baseClass } Double Machleum Ring
+                            amount: 1
+
+                        - type: chat
+                          maxDistance: 4
+                          message: >
+                            Good! Here, new ring. Best ring in kingdom, probably. Best jeweler, yes!
+
+                          options:
+                            - text: Thanks Queen
+                              action: noop
+
+                      checkFailActions:
+                        - type: chat
+                          maxDistance: 4
+                          message: >
+                            Ring and gem! Need both!
+
+                          options:
+                            - text: Okay, okay
+                              action: noop
+
+                  checkFailActions:
+                    - type: chat
+                      maxDistance: 4
+                      message: >
+                        Greets, adventurer! Am Thena IV, queen of Risan! Also like making jewelry. Machleum make good ring, bring machleum ring and gem that emanates frost - yetis value highly!
+
+                      options:
+                        - text: I can bring those to you
+                          action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Greets! Too weak! Come back when strong like king!
+
+              options:
+                - text: I'll come back later
+                  action: noop

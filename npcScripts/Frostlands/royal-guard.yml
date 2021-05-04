@@ -1,0 +1,36 @@
+
+tag: Frostlands Royal Guard
+name: Royal Guard
+affiliation: Kingsguard
+hostility: Never
+
+level: 50
+
+hp:
+  min: 10000000
+  max: 10000000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Risan Halberd
+    armor: Risan Breastplate
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: chat
+          maxDistance: 4
+          message: >
+            None may pass. Remove yourself from here.
+
+          options:
+            - text: Fine
+              action: noop

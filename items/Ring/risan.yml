@@ -23,9 +23,8 @@
 
 - name: Mage Simple Machleum Ring
   stats:
-    int: 3
+    int: 2
     mpregen: 5
-  maxUpgrades: 1
   sprite: 623
   binds: true
   desc: "a simple machleum ring set with a freezing frost larimar"
@@ -36,9 +35,8 @@
 
 - name: Healer Simple Machleum Ring
   stats:
-    wis: 3
+    wis: 2
     mpregen: 5
-  maxUpgrades: 1
   sprite: 623
   binds: true
   desc: "a simple machleum ring set with a holy frost larimar"
@@ -49,9 +47,8 @@
 
 - name: Warrior Simple Machleum Ring
   stats:
-    str: 3
+    str: 2
     hpregen: 5
-  maxUpgrades: 1
   sprite: 623
   binds: true
   desc: "a simple machleum ring set with a strong frost larimar"
@@ -62,9 +59,8 @@
 
 - name: Thief Simple Machleum Ring
   stats:
-    agi: 3
+    agi: 2
     hpregen: 5
-  maxUpgrades: 1
   sprite: 623
   binds: true
   desc: "a simple machleum ring set with a shadowy frost larimar"
@@ -77,7 +73,6 @@
   stats:
     armorClass: 10
     hp: 100
-  maxUpgrades: 2
   sprite: 623
   binds: true
   desc: "a simple machleum ring set with a freezing frost larimar"
@@ -88,10 +83,10 @@
 
 - name: Mage Double Machleum Ring
   stats:
-    int: 2
+    int: 1
     agi: 2
     mpregen: 5
-  maxUpgrades: 2
+  maxUpgrades: 1
   sprite: 624
   binds: true
   desc: "a twin machleum ring set with a highly-polished, freezing etherfrost larimar"
@@ -102,10 +97,10 @@
 
 - name: Healer Double Machleum Ring
   stats:
-    wis: 2
+    wis: 1
     wil: 2
     mpregen: 5
-  maxUpgrades: 2
+  maxUpgrades: 1
   sprite: 624
   binds: true
   desc: "a twin machleum ring set with a highly-polished, holy etherfrost larimar"
@@ -116,10 +111,10 @@
 
 - name: Warrior Double Machleum Ring
   stats:
-    str: 2
+    str: 1
     dex: 3
     hpregen: 5
-  maxUpgrades: 2
+  maxUpgrades: 1
   sprite: 624
   binds: true
   desc: "a twin machleum ring set with a highly-polished, strong etherfrost larimar"
@@ -130,10 +125,10 @@
 
 - name: Thief Double Machleum Ring
   stats:
-    agi: 2
+    agi: 1
     stealth: 25
     hpregen: 5
-  maxUpgrades: 2
+  maxUpgrades: 1
   sprite: 624
   binds: true
   desc: "a twin machleum ring set with a highly-polished, shadowy etherfrost larimar"
@@ -146,7 +141,7 @@
   stats:
     hp: 100
     armorClass: 5
-  maxUpgrades: 3
+  maxUpgrades: 2
   sprite: 624
   binds: true
   desc: "a twin machleum ring set with a highly-polished etherfrost larimar"

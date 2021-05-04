@@ -1,0 +1,33 @@
+
+name: Botanist Frostgourd
+desc: Find a Frostlands Gourd and bring it to the Botanist in the Frostlands.
+giver: Frostlands Botanist
+
+requirements:
+  type: item
+  item: Frostlands Gourd
+  fromHands: true
+  slot:
+    - rightHand
+    - leftHand
+
+messages:
+  incomplete: I need a Gourd to help you out.
+  complete: Ah, thank you ${ player.name }! Here, enjoy your increased regeneration.
+  alreadyHas: I need you to bring me a Gourd.
+  permComplete: You've already received my blessing!
+
+rewards:
+  - type: xp
+    value: 5000
+
+  - type: gold
+    value: 25000
+
+  - type: stat
+    statName: hpregen
+    value: 1
+
+  - type: stat
+    statName: mpregen
+    value: 1

@@ -1,0 +1,46 @@
+
+tag: Frostlands Weapon Vendor
+hostility: Never
+affiliation: Weapon Vendor
+
+hp:
+  min: 100000
+  max: 100000
+
+level: 25
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Risan Greatsword
+    armor: Risan Cloak
+
+behaviors:
+  - type: vendor
+  
+    vendorItems: 
+      - item: Risan Dagger
+
+      - item: Risan Shortsword
+
+      - item: Risan Longsword
+
+      - item: Risan Greatsword
+
+      - item: Risan Staff
+
+      - item: Risan Crossbow
+
+      - item: Risan Shortbow
+
+      - item: Risan Longbow
+
+      - item: Risan Wooden Shield
+
+      - item: Risan Halberd
+
+      - item: Frostlands Arrows
+
+      - item: Smith Hammer

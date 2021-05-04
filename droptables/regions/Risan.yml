@@ -57,6 +57,10 @@
   chance: 1
   maxChance: 5000
 
+- result: Basic Machleum Ring
+  chance: 1
+  maxChance: 5000
+
 # gems
 - result: Risan Emerald Chunk
   chance: 1

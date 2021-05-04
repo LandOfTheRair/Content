@@ -1,0 +1,38 @@
+
+tag: Frostlands Crier
+name: Crier
+hostility: Never
+affiliation: Town Crier
+
+level: 25
+
+hp:
+  min: 10000
+  max: 10000
+
+items:
+  equipment:
+    armor: Risan Tunic
+
+maxWanderRandomlyDistance: 10
+
+behaviors:
+  - type: crier
+    messages:
+      - 'Wolves are the natural predator of deer!'
+      - 'You should not go far without armor or weapons!'
+      - 'Potions can be a saving grace!'
+      - 'The Alchemist can make your potions last longer!'
+      - 'The Renegade camp in the southeast is full of dangerous brigands!'
+      - 'The cave to the east is filled with practitioners of magic and their golems!'
+      - 'Thieves prefer to hide!'
+      - 'The Banker can hold onto your gold!'
+      - 'The Smith can repair your broken and breaking gear!'
+      - 'Werebear claws are prized by martial artists!'
+      - 'The King has many grand treasures in his royal vault!'
+      - 'The ice floes are full of terror!'
+      - 'The Yeti can channel frost itself!'
+      - 'Beware the Frostfang!'
+      - 'Felines like shiny objects!'
+      - 'The mercenary guard captain is a laggard!'
+      - 'Risan potions are better than Antanian potions!'

@@ -1,0 +1,31 @@
+
+tag: Frostlands Ring Vendor
+hostility: Never
+affiliation: Ring Vendor
+
+hp:
+  min: 100000
+  max: 100000
+
+level: 25
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Identify Ring
+    armor: Antanian Tunic
+
+behaviors:
+  - type: vendor
+  
+    vendorItems: 
+      - item: Identify Ring (Medium)
+      - item: Transmute Ring (Medium)
+      - item: Succor Ring (Medium)
+      - item: DarkVision Ring (Medium)
+      - item: Revive Ring (Medium)
+      - item: EagleEye Ring (Medium)
+      - item: BarFire Ring (Medium)
+      - item: BarFrost Ring (Medium)

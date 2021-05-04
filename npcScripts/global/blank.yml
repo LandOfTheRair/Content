@@ -1,0 +1,34 @@
+
+tag: Blank NPC
+name: Blank
+hostility: Never
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: chat
+          maxDistance: 4
+          message: >
+            Welcome to Land of the Rair, ${ name }!
+
+          options:
+            - text: Thanks!
+              action: noop # would point to dialog/keyword/noop if existed. no-op if it doesn't exist

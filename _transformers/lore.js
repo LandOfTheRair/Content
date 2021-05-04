@@ -41,6 +41,7 @@ const gemDescItems = (itemData, mapDropData, regionDropData) => {
       desc: `Twean's Gem Codex: ${gemScrollDesc.scrollDesc}`,
       extendedDesc: gemScrollDesc.scrollDesc,
       itemClass: 'Scroll',
+      isSackable: true,
       type: 'Martial'
     });
 
@@ -109,6 +110,7 @@ const recipeScrollItems = (itemData, regionDropData, recipeData) => {
       desc: `${ingScrollDesc._leader}: ${ingScrollDesc.scrollDesc}`,
       extendedDesc: ingScrollDesc.scrollDesc,
       itemClass: 'Scroll',
+      isSackable: true,
       type: 'Martial'
     });
 

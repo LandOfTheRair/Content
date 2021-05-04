@@ -1,0 +1,40 @@
+
+tag: Frostlands Thief Vendor
+hostility: Never
+affiliation: Secret Vendor
+
+hp:
+  min: 100000
+  max: 100000
+
+level: 25
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Blank Thief Trap
+    leftHand: Lockpick
+    armor: Antanian Studded Tunic
+
+behaviors:
+  - type: vendor
+  
+    vendorItems: 
+      - item: Lockpick
+      - item: Risan FireMist Thief Trap
+      - item: Risan IceMist Thief Trap
+      - item: Risan Poison Thief Trap
+      - item: Risan MagicBolt Thief Trap
+      - item: Risan HolyFire Thief Trap
+      - item: Risan Blind Thief Trap
+      - item: Risan Snare Thief Trap
+      - item: Risan Stun Thief Trap
+      - item: Risan Darkness Thief Trap
+      - item: Risan Dispel Thief Trap
+      - item: Risan Cure Thief Trap
+      - item: Risan Haste Thief Trap
+      - item: Medium Venom Potion (5oz)
+      - item: Medium Blind Potion (5oz)
+      - item: Medium BlurredVision Potion (5oz)

@@ -69,3 +69,6 @@
   desc: "a helmet crafted with the finest metals in Risan"
   value: 1500
   binds: true
+
+  requirements:
+    level: 35

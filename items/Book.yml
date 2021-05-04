@@ -45,7 +45,6 @@
   desc: "a short story, torn to shreds"
   value: 1
   binds: true
-  destroyOnDrop: true
   bookItemFilter: "Risan Love Story Page"
   bookFindablePages: 5
 

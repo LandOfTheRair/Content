@@ -1,0 +1,122 @@
+
+tag: Frostlands Jacques
+affiliation: Hopeless Lover
+hostility: Never
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    leftHand: Risan Wooden Shield
+    rightHand: Risan Longsword
+    armor: Risan Breastplate
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkItem
+          fromHands: true
+          slot:
+            - rightHand
+          item: 
+            name: Risan Love Story
+
+          checkPassActions:
+
+            - type: checkItem
+              fromHands: true
+              checkProperty: mods.bookPages.length
+              checkValue: 6
+              slot:
+                - rightHand
+              item: 
+                name: Risan Love Story
+
+              checkPassActions:
+
+                - type: chat
+                  maxDistance: 4
+                  message: >
+                    Yes, quickly, take that to Evelyn!
+
+                  options:
+                    - text: I'm going!
+                      action: noop
+
+              checkFailActions:
+
+                - type: checkItem
+                  fromHands: true
+                  checkProperty: mods.bookPages.length
+                  checkValue: 5
+                  slot:
+                    - rightHand
+                  item: 
+                    name: Risan Love Story
+
+                  checkPassActions:
+                    - type: checkNoItem
+                      fromHands: true
+                      slot:
+                        - leftHand
+
+                      checkPassActions:
+
+                        - type: giveItem
+                          slot:
+                            - leftHand
+                          item:
+                            name: Risan Love Story Page 6
+
+                        - type: chat
+                          maxDistance: 4
+                          message: >
+                            Oh, you've found all of that dreadful note they forced me to write! Here, let me give you a note. Put this in the back, she'll figure it out.
+
+                          options:
+                            - text: I can do that
+                              action: noop
+
+                      checkFailActions:
+                        - type: chat
+                          maxDistance: 4
+                          message: >
+                            Can you empty your left hand so I can give this to you?
+
+                          options:
+                            - text: I can do that
+                              action: noop
+
+                  checkFailActions:
+
+                    - type: chat
+                      maxDistance: 4
+                      message: >
+                        Bring me that book when you've finished it... I have something you want.
+
+                      options:
+                        - text: I can do that
+                          action: noop
+
+          checkFailActions:
+
+            - type: chat
+              maxDistance: 4
+              message: >
+                Oh... hello. Have you heard from someone named Evelyn?
+
+              options:
+                - text: Hello
+                  action: noop

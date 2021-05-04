@@ -1,0 +1,33 @@
+
+name: Kill Yetis (Daily)
+desc: Kill yetis in the Frostlands Kejar when you've slain 15.
+giver: Kejar
+isRepeatable: true
+isDaily: true
+
+requirements:
+  type: kill
+  killsRequired: 15
+  npcIds:
+    - Frostlands Yeti
+    - Frostlands Strong Yeti
+    - Abomniblus
+
+messages:
+  kill: You have killed ${ current }/${ total } yetis.
+  incomplete: Thanks for offering your help. You have to kill ${ remaining } more yetis.
+  alreadyHas: You're already killin' em for me!
+  complete: Here's your reward, now scram.
+
+rewards:
+  - type: xp
+    value: 500000
+
+  - type: gold
+    value: 50000
+
+  - type: silver
+    value: 5
+
+  - type: holidayTokens
+    value: 50     # only granted if a holiday is going on

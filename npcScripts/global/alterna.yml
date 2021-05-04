@@ -1,0 +1,25 @@
+
+tag: Alterna
+name: Alterna
+hostility: Never
+affiliation: Alternate Experiences
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+behaviors:
+  - type: axpswapper
