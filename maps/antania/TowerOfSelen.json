@@ -8755,6 +8755,146 @@
                  "width":64,
                  "x":1344,
                  "y":3648
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":2579,
+                 "name":"Town Guard Raid Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Towerofselen Town-guard Raid"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":2752,
+                 "y":3648
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":2580,
+                 "name":"Town Guard Raid Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Towerofselen Town-guard Raid"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":4288,
+                 "y":3008
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":2581,
+                 "name":"Town Guard Raid Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Towerofselen Town-guard Raid"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":5632,
+                 "y":3328
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":2582,
+                 "name":"Town Guard Raid Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Towerofselen Town-guard Raid"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":5952,
+                 "y":5120
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":2583,
+                 "name":"Town Guard Raid Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Towerofselen Town-guard Raid"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":3584,
+                 "y":4992
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":2584,
+                 "name":"Town Guard Raid Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Towerofselen Town-guard Raid"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":4288,
+                 "y":1728
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":2585,
+                 "name":"Town Guard Raid Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Towerofselen Town-guard Raid"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":1856,
+                 "y":2624
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -9863,7 +10003,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":2579,
+ "nextobjectid":2586,
  "orientation":"orthogonal",
  "properties":
     {

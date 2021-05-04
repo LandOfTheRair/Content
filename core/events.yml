@@ -65,3 +65,14 @@ Steffen Crazed Plague:
   startMessage: "The plague is sweeping through the Steffen town!"
   endMessage: "The plague in the Steffen town has subsided."
   map: Yzalt
+
+# Tower of Selen
+Tower Guards Strike Back:
+  name: Tower Guards Strike Back
+  duration: 450
+  cooldown: 3600
+  rarity: uncommon
+  description: "The Tower of Selen guards have mounted an offensive to strike back!"
+  startMessage: "The Tower of Selen guards are preparing to strike back against the goblinkin."
+  endMessage: "The Tower of Selen guards have temporarily retreated."
+  map: TowerOfSelen
