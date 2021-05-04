@@ -26655,6 +26655,26 @@
                  "width":64,
                  "x":7360,
                  "y":1216
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":6121,
+                 "name":"Skeleton Raid Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Dedlaenmaze Skeleton Raid"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":6720,
+                 "y":6464
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -28614,7 +28634,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":6121,
+ "nextobjectid":6122,
  "orientation":"orthogonal",
  "properties":
     {

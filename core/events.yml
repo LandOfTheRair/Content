@@ -76,3 +76,14 @@ Tower Guards Strike Back:
   startMessage: "The Tower of Selen guards are preparing to strike back against the goblinkin."
   endMessage: "The Tower of Selen guards have temporarily retreated."
   map: TowerOfSelen
+
+# Dedlaen Maze
+Skeletal Assault:
+  name: Skeletal Assault
+  duration: 450
+  cooldown: 4800
+  rarity: uncommon
+  description: "The Dark Lord is sending his minions to assault Maze Town!"
+  startMessage: "The Dark Lord is sending his minions to assault Maze Town!"
+  endMessage: "The minions of darkness have retreated."
+  map: DedlaenMaze
