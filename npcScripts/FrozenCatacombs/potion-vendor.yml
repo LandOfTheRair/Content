@@ -1,0 +1,31 @@
+
+tag: Catacombs Potion Vendor
+hostility: Never
+affiliation: Potion Vendor
+
+hp:
+  min: 1000000
+  max: 1000000
+
+level: 55
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Instant Heal Bottle
+    armor: Risan Tunic
+
+behaviors:
+  - type: vendor
+  
+    vendorItems: 
+      - item: Instant Heal Bottle
+      - item: Instant Heal Bottle (5oz)
+      - item: EtherFire Potion
+        valueMult: 25
+      - item: BeastRipper Potion
+        valueMult: 25
+      - item: ScaleShredder Potion
+        valueMult: 25

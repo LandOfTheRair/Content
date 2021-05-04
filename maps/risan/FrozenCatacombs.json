@@ -15549,11 +15549,11 @@
                  "name":"",
                  "properties":
                     {
-                     "script":"risan\/frozencatacombs\/potion-vendor"
+                     "tag":"Catacombs Potion Vendor"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -26334,7 +26334,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }],
