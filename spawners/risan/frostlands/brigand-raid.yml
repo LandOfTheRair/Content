@@ -1,0 +1,18 @@
+npcIds:
+    - {result: 'Frostlands Brigand Fighter', chance: 10}
+    - {result: 'Frostlands Brigand Mage', chance: 10}
+    - {result: 'Frostlands Brigand Healer', chance: 10}
+    - {result: 'Frostlands Brigand Thief', chance: 3}
+    - {result: 'Frostlands Brigand Shieldbearer', chance: 1}
+    - {result: 'Frostlands Brigand Monk', chance: 1}
+respawnRate: 7
+initialSpawn: 2
+maxCreatures: 6
+spawnRadius: 0
+randomWalkRadius: 7
+leashRadius: 12
+attributeAddChance: 1
+requireEvent: Brigand Attack
+paths:
+    - '30-E'
+tag: 'Risan Frostlands Brigand Raid'

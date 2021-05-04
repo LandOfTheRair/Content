@@ -87,3 +87,24 @@ Skeletal Assault:
   startMessage: "The Dark Lord is sending his minions to assault Maze Town!"
   endMessage: "The minions of darkness have retreated."
   map: DedlaenMaze
+
+# Risan Frostlands
+Ancient Assault:
+  name: Ancient Assault
+  duration: 450
+  cooldown: 4800
+  rarity: uncommon
+  description: "The Archlich is sending his ancient minions to assault the Castle!"
+  startMessage: "The Archlich is sending his ancient minions to assault the Castle!"
+  endMessage: "The archlich minions have retreated."
+  map: Frostlands
+
+Brigand Attack:
+  name: Brigand Attack
+  duration: 450
+  cooldown: 4800
+  rarity: common
+  description: "The brigands are attempting to raid the Castle!"
+  startMessage: "The brigands are attempting to raid the Castle!"
+  endMessage: "The brigands have retreated."
+  map: Frostlands
