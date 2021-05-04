@@ -10471,6 +10471,46 @@
                  "width":64,
                  "x":9600,
                  "y":4864
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":1386,
+                 "name":"Cave Raid Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Rylt Cave Raid"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":5632,
+                 "y":1664
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":1387,
+                 "name":"Cave Raid Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Renegade Raid"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":5056,
+                 "y":2752
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -12325,7 +12365,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1386,
+ "nextobjectid":1388,
  "orientation":"orthogonal",
  "properties":
     {

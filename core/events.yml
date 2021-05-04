@@ -22,3 +22,23 @@ Steffen Raid:
   map: Yzalt
   conflicts:
     - Heniz Raid
+
+Saraxa Raid:
+  name: Saraxa Raid
+  duration: 900
+  cooldown: 2700
+  rarity: uncommon
+  description: "Saraxa is sending some apprentices to Rylt!."
+  startMessage: "Saraxa is sending some apprentices to Rylt!"
+  endMessage: "Saraxa's apprentices have retreated."
+  map: Rylt
+
+Tonwin Raid:
+  name: Tonwin Raid
+  duration: 900
+  cooldown: 2700
+  rarity: common
+  description: "Tonwin is sending some renegades to Rylt!."
+  startMessage: "Tonwin gave a signal for the renegades to invade Rylt!"
+  endMessage: "Tonwin's renegades have retreated."
+  map: Rylt
