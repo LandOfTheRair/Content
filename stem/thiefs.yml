@@ -110,6 +110,7 @@ Shadowmeld:
   # spell cast info
   spell: 
     mpCost: 100
+    cooldown: 60
     maxSkillForGain: 20
     skillMultiplierChanges:
       - [0,  1]

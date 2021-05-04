@@ -235,6 +235,7 @@ Boost:
   # spell cast info
   spell: 
     mpCost: 0
+    cooldown: 60
     maxSkillForGain: 5
     skillMultiplierChanges:
       - [0,  1]
@@ -281,6 +282,7 @@ Shield:
   # spell cast info
   spell: 
     mpCost: 0
+    cooldown: 60
     maxSkillForGain: 5
     skillMultiplierChanges:
       - [0,  1]

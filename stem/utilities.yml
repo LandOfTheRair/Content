@@ -67,6 +67,7 @@ Wellspring:
   spell: 
     damageClass: heal
     mpCost: 25
+    cooldown: 15
     maxSkillForGain: 7
     skillMultiplierChanges:
       - [0,  4]
@@ -98,6 +99,7 @@ ConjureHealing:
   spell: 
     damageClass: heal
     mpCost: 25
+    cooldown: 15
     maxSkillForGain: 7
     skillMultiplierChanges:
       - [0,  4]
@@ -361,6 +363,7 @@ Teleport:
   spell: 
     damageClass: physical
     mpCost: 100
+    cooldown: 5
     maxSkillForGain: 15
     skillMultiplierChanges:
       - [0,  1]
@@ -385,6 +388,7 @@ MassTeleport:
   spell: 
     damageClass: physical
     mpCost: 100
+    cooldown: 5
     maxSkillForGain: 15
     skillMultiplierChanges:
       - [0,  1]
@@ -409,6 +413,7 @@ Vortex:
   spell: 
     damageClass: physical
     mpCost: 100
+    cooldown: 5
     maxSkillForGain: 15
     skillMultiplierChanges:
       - [0,  1]
@@ -493,6 +498,7 @@ Reincarnate:
   spell: 
     damageClass: physical
     mpCost: 100
+    cooldown: 60
     maxSkillForGain: 15
     skillMultiplierChanges:
       - [0,  1]
