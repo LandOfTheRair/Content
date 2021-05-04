@@ -20,6 +20,7 @@ ImbueFrost:
     spellMeta:
       noHostileTarget: true
       doesOvertime: true
+      staticPotency: true
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -68,6 +69,7 @@ ImbueFlame:
     spellMeta:
       noHostileTarget: true
       doesOvertime: true
+      staticPotency: true
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -116,6 +118,7 @@ ImbueEnergy:
     spellMeta:
       noHostileTarget: true
       doesOvertime: true
+      staticPotency: true
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -401,6 +404,7 @@ Invisibility:
     spellMeta:
       noHostileTarget: true
       doesOvertime: true
+      staticPotency: true
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -450,6 +454,7 @@ BarFire:
     spellMeta:
       noHostileTarget: true
       doesOvertime: true
+      staticPotency: true
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -500,6 +505,7 @@ BarFrost:
     spellMeta:
       noHostileTarget: true
       doesOvertime: true
+      staticPotency: true
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -550,6 +556,7 @@ BarWater:
     spellMeta:
       noHostileTarget: true
       doesOvertime: true
+      staticPotency: true
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -600,6 +607,7 @@ BarNecro:
     spellMeta:
       noHostileTarget: true
       doesOvertime: true
+      staticPotency: true
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -650,6 +658,7 @@ Aid:
     spellMeta:
       noHostileTarget: true
       doesOvertime: true
+      staticPotency: true
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -705,6 +714,7 @@ Regen:
       doesHeal: true
       noHostileTarget: true
       doesOvertime: true
+      staticPotency: true
 
   # trait info
   trait:
@@ -750,6 +760,7 @@ Protection:
     spellMeta:
       noHostileTarget: true
       doesOvertime: true
+      staticPotency: true
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -797,6 +808,7 @@ Absorption:
     spellMeta:
       noHostileTarget: true
       doesOvertime: true
+      staticPotency: true
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -893,6 +905,7 @@ PowerwordBarNecro:
     spellMeta:
       targetsParty: true
       noHostileTarget: true
+      staticPotency: true
 
   # trait info
   trait:
@@ -926,6 +939,7 @@ PowerwordBarFire:
     spellMeta:
       targetsParty: true
       noHostileTarget: true
+      staticPotency: true
 
   # trait info
   trait:
@@ -959,6 +973,7 @@ PowerwordBarFrost:
     spellMeta:
       targetsParty: true
       noHostileTarget: true
+      staticPotency: true
 
   # trait info
   trait:
@@ -992,6 +1007,7 @@ VitalEssence:
     spellMeta:
       noHostileTarget: true
       doesOvertime: true
+      staticPotency: true
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -1038,6 +1054,7 @@ HolyAura:
       unique: 'Aura'
       doesOvertime: true
       noHostileTarget: true
+      staticPotency: true
 
   # trait info
   trait:
@@ -1180,6 +1197,7 @@ FrostspikesAura:
 
     spellMeta:
       doesOvertime: true
+      staticPotency: true
 
   # trait info
   trait:
@@ -1232,6 +1250,7 @@ FirethornsAura:
 
     spellMeta:
       doesOvertime: true
+      staticPotency: true
 
   # trait info
   trait:
