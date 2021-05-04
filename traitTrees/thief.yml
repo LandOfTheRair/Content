@@ -83,8 +83,9 @@ Thief:
 
           - name: DeadlyDirgeSong
             maxLevel: 1
-
-          - name: ''
+          
+          - name: OffensiveEncore
+            maxLevel: 5
 
           - name: DefensiveVoice
             maxLevel: 5
@@ -99,9 +100,8 @@ Thief:
           - name: DirgeOfCerberus
             maxLevel: 5
             requires: DeadlyDirgeSong
-          
-          - name: OffensiveEncore
-            maxLevel: 5
+
+          - name: ''
 
           - name: ''
           
