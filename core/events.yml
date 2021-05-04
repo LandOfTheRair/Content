@@ -1,4 +1,13 @@
 
+# Miscellaneous
+Harvest Moon:
+  name: Harvest Moon
+  duration: 21600
+  cooldown: 64800
+  rarity: legendary
+  description: "Harvesting is twice as profitable in the open world!"
+  startMessage: "The harvest moon is rising!"
+  endMessage: "The harvest moon has turned to day."
 
 # Rylt
 Saraxa Raid:
