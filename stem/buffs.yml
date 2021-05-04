@@ -12,10 +12,10 @@ ImbueFrost:
     mpCost: 100
     maxSkillForGain: 25
     skillMultiplierChanges:
-      - [0,  4]
-      - [11, 6]
-      - [21, 10]
-      - [31, 15]
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
 
     spellMeta:
       noHostileTarget: true
@@ -61,10 +61,10 @@ ImbueFlame:
     mpCost: 100
     maxSkillForGain: 25
     skillMultiplierChanges:
-      - [0,  4]
-      - [11, 6]
-      - [21, 10]
-      - [31, 15]
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
 
     spellMeta:
       noHostileTarget: true
@@ -110,10 +110,10 @@ ImbueEnergy:
     mpCost: 100
     maxSkillForGain: 25
     skillMultiplierChanges:
-      - [0,  4]
-      - [11, 6]
-      - [21, 10]
-      - [31, 15]
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
 
     spellMeta:
       noHostileTarget: true
@@ -446,10 +446,10 @@ BarFire:
     mpCost: 20
     maxSkillForGain: 10
     skillMultiplierChanges:
-      - [0,  4]
-      - [11, 6]
-      - [21, 10]
-      - [31, 15]
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
 
     spellMeta:
       noHostileTarget: true
@@ -497,10 +497,10 @@ BarFrost:
     mpCost: 20
     maxSkillForGain: 10
     skillMultiplierChanges:
-      - [0,  4]
-      - [11, 6]
-      - [21, 10]
-      - [31, 15]
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
 
     spellMeta:
       noHostileTarget: true
@@ -548,10 +548,10 @@ BarWater:
     mpCost: 20
     maxSkillForGain: 10
     skillMultiplierChanges:
-      - [0,  4]
-      - [11, 6]
-      - [21, 10]
-      - [31, 15]
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
 
     spellMeta:
       noHostileTarget: true
@@ -599,10 +599,10 @@ BarNecro:
     mpCost: 20
     maxSkillForGain: 10
     skillMultiplierChanges:
-      - [0,  4]
-      - [11, 6]
-      - [21, 10]
-      - [31, 15]
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
 
     spellMeta:
       noHostileTarget: true
@@ -650,10 +650,10 @@ Aid:
     mpCost: 100
     maxSkillForGain: 10
     skillMultiplierChanges:
-      - [0,  4]
-      - [11, 6]
-      - [21, 10]
-      - [31, 15]
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
 
     spellMeta:
       noHostileTarget: true
@@ -897,10 +897,10 @@ PowerwordBarNecro:
     mpCost: 150
     maxSkillForGain: 30
     skillMultiplierChanges:
-      - [0,  4]
-      - [11, 6]
-      - [21, 10]
-      - [31, 15]
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
 
     spellMeta:
       targetsParty: true
@@ -931,10 +931,10 @@ PowerwordBarFire:
     mpCost: 150
     maxSkillForGain: 30
     skillMultiplierChanges:
-      - [0,  4]
-      - [11, 6]
-      - [21, 10]
-      - [31, 15]
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
 
     spellMeta:
       targetsParty: true
@@ -965,10 +965,10 @@ PowerwordBarFrost:
     mpCost: 150
     maxSkillForGain: 30
     skillMultiplierChanges:
-      - [0,  4]
-      - [11, 6]
-      - [21, 10]
-      - [31, 15]
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
 
     spellMeta:
       targetsParty: true
@@ -999,10 +999,10 @@ VitalEssence:
     mpCost: 100
     maxSkillForGain: 10
     skillMultiplierChanges:
-      - [0,  4]
-      - [11, 6]
-      - [21, 10]
-      - [31, 15]
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
 
     spellMeta:
       noHostileTarget: true
