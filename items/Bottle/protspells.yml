@@ -49,11 +49,12 @@
     name: Nourishment
     potency: 1
     extra:
-      tooltip: "+25 Poison Resist / +10 Disease Resist"
+      tooltip: "+25 Poison Resist, +10 Disease Resist, +10 Physical Resist"
       message: "The meaty liquid tastes strange."
       statChanges:
         poisonResist: 25
         diseaseResist: 10
+        physicalResist: 10
     duration: 10800
   value: 1000
 
@@ -66,11 +67,12 @@
     name: Nourishment
     potency: 1
     extra:
-      tooltip: "+25 Poison Resist / +10 Disease Resist"
+      tooltip: "+25 Poison Resist, +10 Disease Resist, +10 Physical Resist"
       message: "The meaty liquid tastes strange."
       statChanges:
         poisonResist: 25
         diseaseResist: 10
+        physicalResist: 10
     duration: 10800
   value: 2000
 

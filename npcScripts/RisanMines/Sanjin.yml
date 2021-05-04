@@ -1,0 +1,58 @@
+
+tag: Mines Sanjin
+name: San'jin
+affiliation: Distractions Expertologist
+hostility: Never
+
+level: 10
+
+hp:
+  min: 10000
+  max: 10000
+
+mp:
+  min: 10000
+  max: 10000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Antanian Halberd
+    armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkQuest
+          quest: Kill Distractions
+          maxDistance: 2
+
+        - type: chat
+          maxDistance: 2
+          message: >
+           DISTRACTION. Enemies. Rocks. Crazed. Help?
+
+          options:
+            - text: You're distracted by crazed rocks?
+              action: distraction
+
+            - text: I have no idea what you said
+              action: noop
+
+    distraction:
+      actions:
+        - type: giveQuest
+          quest: Kill Distractions
+          maxDistance: 2
+
+        - type: chat
+          maxDistance: 2
+          message: >
+            30 kill. Cave. Distractions. Evil. Enemy. Reward.
+
+          options:
+            - text: Uhhh, okay
+              action: noop

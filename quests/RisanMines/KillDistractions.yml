@@ -1,0 +1,30 @@
+
+name: Kill Distractions
+desc: Kill "distractions" and report back to San'jin when you've killed 30.
+giver: San'jin
+
+isRepeatable: true
+
+requirements:
+  type: kill
+  killsRequired: 30
+  npcIds:
+    - Mines Rockman
+    - Risan Crazed Miner
+
+messages:
+  kill: You have killed ${ current }/${ total } distractions.
+  incomplete: Kill ${ remaining } distractions!
+  alreadyHas: You're already killin' em for me!
+  complete: Thank.
+
+rewards:
+  - type: xp
+    value: 300000
+
+  - type: gold
+    value: 30000
+
+  - type: reputation
+    statName: Townsfolk
+    value: 25

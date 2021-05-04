@@ -2903,11 +2903,11 @@
                  "name":"Crier",
                  "properties":
                     {
-                     "script":"risan\/mines\/crier"
+                     "tag":"Mines Crier"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -3017,11 +3017,11 @@
                  "name":"",
                  "properties":
                     {
-                     "script":"risan\/mines\/potion-vendor"
+                     "tag":"Mines Potion Vendor"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -3109,11 +3109,11 @@
                  "name":"Librarian",
                  "properties":
                     {
-                     "script":"risan\/mines\/librarian"
+                     "tag":"Mines Librarian"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -3129,11 +3129,11 @@
                  "name":"Botanist",
                  "properties":
                     {
-                     "script":"risan\/mines\/botanist"
+                     "tag":"Mines Botanist"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -3149,11 +3149,11 @@
                  "name":"Yelak",
                  "properties":
                     {
-                     "script":"risan\/mines\/interim"
+                     "tag":"Mines Yelak"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -3169,11 +3169,11 @@
                  "name":"San'jin",
                  "properties":
                     {
-                     "script":"risan\/mines\/guard-expert"
+                     "tag":"Mines Sanjin"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -3189,11 +3189,11 @@
                  "name":"Enj'an",
                  "properties":
                     {
-                     "script":"risan\/mines\/enjan"
+                     "tag":"Mines Enjan"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -7263,7 +7263,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -7444,7 +7444,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }],

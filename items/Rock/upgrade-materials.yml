@@ -98,3 +98,48 @@
     armorClass: 5
     fireResist: 20
     iceResist: 20
+
+- name: Enjan Traveller Upgrade
+  sprite: 17
+  desc: "an upgrade material for a Crypt Thing sash"
+  value: 100
+  canUpgradeWith: true
+
+  stats:
+    hp: 100
+
+- name: Enjan Mage Upgrade
+  sprite: 17
+  desc: "an upgrade material for a Crypt Thing sash"
+  value: 100
+  canUpgradeWith: true
+
+  stats:
+    int: 1
+
+- name: Enjan Healer Upgrade
+  sprite: 17
+  desc: "an upgrade material for a Crypt Thing sash"
+  value: 100
+  canUpgradeWith: true
+
+  stats:
+    wis: 1
+
+- name: Enjan Warrior Upgrade
+  sprite: 17
+  desc: "an upgrade material for a Crypt Thing sash"
+  value: 100
+  canUpgradeWith: true
+
+  stats:
+    str: 1
+
+- name: Enjan Thief Upgrade
+  sprite: 17
+  desc: "an upgrade material for a Crypt Thing sash"
+  value: 100
+  canUpgradeWith: true
+
+  stats:
+    agi: 1

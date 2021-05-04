@@ -1,0 +1,33 @@
+
+name: Botanist Caveflower
+desc: Find a Mines Caveflower and bring it to the Botanist near the mines.
+giver: Mines Botanist
+
+requirements:
+  type: item
+  item: Mines Caveflower
+  fromHands: true
+  slot:
+    - rightHand
+    - leftHand
+
+messages:
+  incomplete: I need a Caveflower to help you out.
+  complete: Ah, thank you ${ player.name }! Here, enjoy your increased regeneration.
+  alreadyHas: I need you to bring me a Bogweed.
+  permComplete: You've already received my blessing!
+
+rewards:
+  - type: xp
+    value: 5000
+
+  - type: gold
+    value: 25000
+
+  - type: stat
+    statName: hpregen
+    value: 1
+
+  - type: stat
+    statName: mpregen
+    value: 1

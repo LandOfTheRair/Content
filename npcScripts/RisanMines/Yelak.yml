@@ -1,0 +1,83 @@
+
+tag: Mines Yelak
+name: Yelak
+affiliation: Interim Overseer
+hostility: Never
+
+level: 10
+
+hp:
+  min: 10000
+  max: 10000
+
+mp:
+  min: 10000
+  max: 10000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkLevel
+          level: 16
+
+          checkPassActions:
+            - type: checkDailyQuest
+              quests: [Kill Wildlife (Daily), Kill Miners (Daily), Kill Dryads (Daily)]
+              npc: Yelak
+              maxDistance: 2
+
+            - type: chat
+              maxDistance: 2
+              message: >
+                Hello, ${ name }! We're having issues with local creatures. Do you think you can cull their numbers? It's really starting to look bad for us in the town, here.
+
+              options:
+                - text: I hope they're evil
+                  action: help
+
+                - text: Maybe later
+                  action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 0
+              message: >
+                Come back when you're a bit stronger, we'll have plenty of work for you! Or maybe you'd like to go visit my associate Bart, over in the Maze?
+
+    help:
+      actions:
+        - type: checkLevel
+          level: 16
+
+          checkPassActions:
+            - type: checkDailyQuest
+              quests: [Kill Wildlife (Daily), Kill Miners (Daily), Kill Dryads (Daily)]
+              npc: Yelak
+              maxDistance: 2
+              
+            - type: giveDailyQuest
+              quests: [Kill Wildlife (Daily), Kill Miners (Daily), Kill Dryads (Daily)]
+              maxDistance: 2
+
+            - type: chat
+              maxDistance: 2
+              message: >
+                Yes, thank you. Come back when you're done!
+
+              options:
+                - text: I'll be right back
+                  action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 0
+              message: >
+                Come back when you're a bit stronger, we'll have plenty of work for you! Or maybe you'd like to go visit my associate Bart, over in the Maze?
