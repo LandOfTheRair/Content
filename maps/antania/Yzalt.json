@@ -7883,6 +7883,46 @@
                  "width":64,
                  "x":1152,
                  "y":3328
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":1631,
+                 "name":"Crazed Heniz Raid Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Yzalt Crazed-heniz Raid"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":1664,
+                 "y":10688
+                }, 
+                {
+                 "gid":2363,
+                 "height":64,
+                 "id":1632,
+                 "name":"Crazed Steffen Raid Spawner",
+                 "properties":
+                    {
+                     "tag":"Antania Yzalt Crazed-steffen Raid"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":1984,
+                 "y":1920
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -9185,7 +9225,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1631,
+ "nextobjectid":1633,
  "orientation":"orthogonal",
  "properties":
     {

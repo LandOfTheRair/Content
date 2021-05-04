@@ -1,4 +1,27 @@
 
+
+# Rylt
+Saraxa Raid:
+  name: Saraxa Raid
+  duration: 900
+  cooldown: 2700
+  rarity: common
+  description: "Saraxa is sending some apprentices to Rylt!"
+  startMessage: "Saraxa is sending some apprentices to Rylt!"
+  endMessage: "Saraxa's apprentices have retreated."
+  map: Rylt
+
+Tonwin Raid:
+  name: Tonwin Raid
+  duration: 900
+  cooldown: 2700
+  rarity: uncommon
+  description: "Tonwin is sending some renegades to Rylt!"
+  startMessage: "Tonwin gave a signal for the renegades to invade Rylt!"
+  endMessage: "Tonwin's renegades have retreated."
+  map: Rylt
+
+# Yzalt
 Heniz Raid:
   name: Heniz Raid
   duration: 900
@@ -10,6 +33,16 @@ Heniz Raid:
   map: Yzalt
   conflicts:
     - Steffen Raid
+
+Heniz Crazed Plague:
+  name: Heniz Crazed Plague
+  duration: 1800
+  cooldown: 3600
+  rarity: uncommon
+  description: "The Heniz are having plague issues."
+  startMessage: "The plague is sweeping through the Heniz town!"
+  endMessage: "The plague in the Heniz town has subsided."
+  map: Yzalt
 
 Steffen Raid:
   name: Steffen Raid
@@ -23,22 +56,12 @@ Steffen Raid:
   conflicts:
     - Heniz Raid
 
-Saraxa Raid:
-  name: Saraxa Raid
-  duration: 900
-  cooldown: 2700
+Steffen Crazed Plague:
+  name: Steffen Crazed Plague
+  duration: 1800
+  cooldown: 3600
   rarity: uncommon
-  description: "Saraxa is sending some apprentices to Rylt!."
-  startMessage: "Saraxa is sending some apprentices to Rylt!"
-  endMessage: "Saraxa's apprentices have retreated."
-  map: Rylt
-
-Tonwin Raid:
-  name: Tonwin Raid
-  duration: 900
-  cooldown: 2700
-  rarity: common
-  description: "Tonwin is sending some renegades to Rylt!."
-  startMessage: "Tonwin gave a signal for the renegades to invade Rylt!"
-  endMessage: "Tonwin's renegades have retreated."
-  map: Rylt
+  description: "The Steffen are having plague issues."
+  startMessage: "The plague is sweeping through the Steffen town!"
+  endMessage: "The plague in the Steffen town has subsided."
+  map: Yzalt
