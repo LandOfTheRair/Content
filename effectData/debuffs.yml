@@ -49,3 +49,17 @@ Immobilized:
       unique: true
   effectMeta:
     effectRef: Immobilized
+
+MinerFever:
+  tooltip:
+    icon: 'screaming'
+    color: '#f00'
+    desc: 'You feel a bit woozy.'
+  effect:
+    type: debuff
+    duration: 15
+    extra:
+      unique: true
+      statChanges:
+        hpregen: -10
+        mpregen: -10
