@@ -1,0 +1,15 @@
+npcIds:
+    - {result: 'Rylt Renegade', chance: 1}
+    - {result: 'Rylt Renegade Mage', chance: 1}
+    - {result: 'Rylt Renegade Healer', chance: 1}
+respawnRate: 15
+initialSpawn: 2
+maxCreatures: 3
+spawnRadius: 1
+randomWalkRadius: 15
+leashRadius: 25
+attributeAddChance: 1
+requireEvent: Tonwin Raid
+paths:
+    - '10-N'
+tag: 'Antania Renegade Raid'
