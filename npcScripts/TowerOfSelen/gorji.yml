@@ -52,7 +52,7 @@ dialog:
         - type: chat
           maxDistance: 2
           message: >
-            Yep. I need you to slay 40 orckin. They invade our town, but we don't have the resources to strike back.
+            Yep. I need you to slay 40 orckin and their pets. They invade our town, but we don't have the resources to strike back.
 
           options:
             - text: I'll be back
