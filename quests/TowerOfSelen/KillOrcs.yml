@@ -1,6 +1,6 @@
 
 name: Kill Orcs
-desc: Kill orckin in the Tower of Selen for Gorji, and report back when you've killed 40.
+desc: Kill orckin and their pets in the Tower of Selen for Gorji, and report back when you've killed 40.
 giver: Gorji
 
 isRepeatable: true
@@ -13,6 +13,8 @@ requirements:
     - Tower Orc Mage
     - Tower Orc Healer
     - Tower Orc Warlord
+    - Tower Warg
+    - Tower Warspider
 
 messages:
   kill: You have killed ${ current }/${ total } orcs.
