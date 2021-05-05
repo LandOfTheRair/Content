@@ -233,6 +233,8 @@
   otherStats:
     armorClass: 25
     perception: 25
+    damageFactor: 0.3
+
 
   items:
     equipment:
@@ -406,7 +408,7 @@
   drops:
     - result: Risan Dryad Succor Blob
       chance: 1
-      maxChance: 10
+      maxChance: 2
     - result: Weak EagleEye Potion
       chance: 1
       maxChance: 100
