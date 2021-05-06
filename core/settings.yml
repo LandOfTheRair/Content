@@ -17,6 +17,29 @@ subscriber:
   xpGain: 0.05
   skillGain: 0.05
 
+potion:
+  Lesser: 10
+  Bradley: 13
+  Minor: 15
+  Basic: 18
+  Greater: 21
+  Major: 24
+  Advanced: 27
+  Pure: 30
+
+corpse:
+  playerExpire: 500
+  npcExpire: 120
+
+ground:
+  saveTicks: 150
+  expireTicks: 1800
+
+npcgen:
+  attrMult: 2
+  eliteMult: 4
+  levelFuzz: 2
+
 event:
 
   # 1/3000 chance for a common event to happen randomly
