@@ -1,7 +1,21 @@
 
-game:
+character:
   maxLevel: 50
   maxSkill: 30
+  maxStats: 25
+
+subscriber:
+  characters: 1
+  smithRepair: 1000
+  smithCost: 0.05
+  alchemistOz: 5
+  statDoc: 0.05
+  succorOz: 1
+  marketListings: 5
+  storageSpace: 200
+  axpGain: 1
+  xpGain: 0.05
+  skillGain: 0.05
 
 event:
 
