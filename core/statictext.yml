@@ -1,0 +1,193 @@
+
+
+__woodPile: &woodpile You are standing near a pile of logs, stacked neatly so as not to trounce an unsuspecting passerby.
+__woodSeat: &woodseat You are sitting in a somewhat uncomfortable wooden seat.
+__waterBarrel: &waterbarrel You are standing near a keg. Who know's what's inside?
+__hay: &hay You are standing on a bale of hay.
+__water: &water You are standing near a water trough.
+__waterBroken: &waterbroken You are standing near a water trough. It's leaking everywhere.
+__furnace: &furnace You are standing near a furnace. It is hot.
+__weaponRack: &weaponrack You are standing near a rack of weapons. They look very pointy.
+__armorStatue: &armorstatue You are standing near a suit of armor.
+__coffin: &coffin You are standing near a coffin. You're concerned that something might jump out to scare you.
+__locker: &locker You are standing near a wardrobe. Every time you examine it, it looks strangely familiar. You open the interdimensional storage system in front of you and take a peek inside.
+__stoneBridge: &stonebridge You are standing on a bridge made of stone.
+__woodBridge: &woodbridge You are standing on a bridge fashioned out of a fallen tree.
+__waterPuddle: &waterpuddle You are standing in a puddle.
+__sludgePuddle: &sludgepuddle You are standing in some sludge. Eww.
+__bloodPuddle: &bloodpuddle You are standing in a puddle of blood.
+__ornateRug: &ornaterug You are standing on an ornate rug.
+__stylishRug: &stylishrug You are standing on a stylish rug.
+__springWater: &springwater You are swimming in spring water.
+
+terrain:
+  - You are standing on darkened cobblestone.
+  - You are standing in sand.
+  - You are standing on finely-polished tile.
+  - You are standing on a finished wooden floor.
+  - You are standing in fire.
+  - You are standing in a thick, black ooze. Eww.
+  - You are standing in a thin mist.
+  - You are standing on a pile of treasure.
+  - You are swimming in water.
+  - You are swimming in lava.
+  - You are standing in a thick, acrid mist. It is hard to breathe.
+  - You are standing on a pile of unidentifiable bones.
+  - You are standing on grass.
+  - You are standing near a hole.
+  - You are standing on cobblestone.
+  - You are standing in snow.
+  - You are swimming in chilly water.
+  - You are standing in flowery grass.
+  - You are standing knee-deep in weeds and bog flowers.
+  - You are standing on dirt.
+
+decor:
+  172: *woodpile
+  173: *woodpile
+  174: *woodpile
+  175: *woodpile
+
+  176: *woodseat
+  177: *woodseat
+  178: *woodseat
+  179: *woodseat
+
+  184: *waterbarrel
+  185: *waterbarrel
+  186: *waterbarrel
+  187: *waterbarrel
+
+  192: *hay
+  193: *hay
+  194: *hay
+  195: *hay
+
+  196: *water
+  197: *water
+  198: *waterbroken
+  199: *waterbroken
+
+  200: *furnace
+  201: *furnace
+  202: *furnace
+  203: *furnace
+
+  204: *weaponrack
+  205: *weaponrack
+  206: *weaponrack
+  207: *weaponrack
+
+  208: *armorstatue
+  209: *armorstatue
+  210: *armorstatue
+  211: *armorstatue
+
+  212: *coffin
+  213: *coffin
+  214: *coffin
+  215: *coffin
+
+  216: *locker
+  217: *locker
+  218: *locker
+  219: *locker
+
+  556: *ornaterug
+  557: *ornaterug
+  558: *ornaterug
+  559: *ornaterug
+  560: *ornaterug
+  561: *ornaterug
+  562: *ornaterug
+  563: *ornaterug
+  564: *ornaterug
+
+  565: *stylishrug
+  566: *stylishrug
+  567: *stylishrug
+  568: *stylishrug
+  569: *stylishrug
+  570: *stylishrug
+  571: *stylishrug
+  572: *stylishrug
+  573: *stylishrug
+
+  597: *ornaterug
+  598: *ornaterug
+  599: *ornaterug
+  600: *ornaterug
+  601: *ornaterug
+  602: *ornaterug
+  603: *ornaterug
+  604: *ornaterug
+  605: *ornaterug
+
+  606: *stylishrug
+  607: *stylishrug
+  608: *stylishrug
+  609: *stylishrug
+  610: *stylishrug
+  611: *stylishrug
+  612: *stylishrug
+  613: *stylishrug
+  614: *stylishrug
+
+  862: *stonebridge
+  863: *stonebridge
+  864: *stonebridge
+  865: *stonebridge
+  866: *stonebridge
+
+  867: *woodbridge
+  868: *woodbridge
+  869: *woodbridge
+  870: *woodbridge
+  871: *woodbridge
+  872: *woodbridge
+
+  874: You are standing on a net. Don't get stuck, now.
+  875: You are standing near an empty metal bucket.
+  876: You are standing near a cauldron full of primordial ooze. Or at least that's how it smells. Yuck.
+  877: You are standing near a wooden barrel full of who-knows-what.
+  878: You are standing near a pyre. As you can imagine, it's hot. You should probably be taking fire damage right now.
+  879: You are standing near a gigantic bag of flour. Too bad alchemy uses flower, not flour.
+  880: You are standing near an anvil. You are briefly reminded of a wily coyote.
+  881: You are standing near a pillar.
+  882: You are standing on a wooden table. Get off that.
+  883: You are standing near an alchemy table. Be careful what you mix together here, lest it blow up.
+  884: You are standing on what probably was a bale of hay. Soft enough to take a nap!
+  885: You are standing near a pile of books and scrolls. Someone sure made a mess of these.
+  886: You are standing on some rocks. If you're not careful, you'll fall and spill your gold everywhere.
+  894: You are standing near a blackjack table. Hit me!
+  895: You are standing near a roulette table. All on black!
+
+  946: *waterpuddle
+  947: *waterpuddle
+  948: *waterpuddle
+  949: *waterpuddle
+  950: *waterpuddle
+  951: *waterpuddle
+
+  952: *sludgepuddle
+  953: *sludgepuddle
+  954: *sludgepuddle
+  955: *sludgepuddle
+  956: *sludgepuddle
+  957: *sludgepuddle
+    
+  958: *bloodpuddle
+  959: *bloodpuddle
+  960: *bloodpuddle
+  961: *bloodpuddle
+  962: *bloodpuddle
+
+  887: *springwater
+  976: *springwater
+  977: *springwater
+  978: *springwater
+  979: *springwater
+  980: *springwater
+  981: *springwater
+  982: *springwater
+  983: *springwater
