@@ -3,18 +3,21 @@
   sprite: -1
   desc: "a pair of sharp claws"
   value: 0
+  destroyOnDrop: true
 
 - name: Medium Claws
   tier: 2
   sprite: -1
   desc: "a pair of sharp claws"
   value: 0
+  destroyOnDrop: true
 
 - name: Maze Mummy Claws
   tier: 3
   sprite: -1
   desc: "a pair of sharp claws"
   value: 0
+  destroyOnDrop: true
   strikeEffect:
     name: Disease
     potency: 15
@@ -25,6 +28,7 @@
   sprite: -1
   desc: "a pair of sharp claws"
   value: 0
+  destroyOnDrop: true
   strikeEffect:
     name: Stun
     potency: 10
@@ -35,15 +39,18 @@
   sprite: -1
   desc: "a pair of sharp claws"
   value: 0
+  destroyOnDrop: true
 
 - name: Mines Animal Claws
   tier: 5
   sprite: -1
   desc: "a pair of sharp claws"
   value: 0
+  destroyOnDrop: true
 
 - name: Catacombs Lair Claws
   tier: 6
   sprite: -1
   desc: "a pair of sharp claws"
   value: 0
+  destroyOnDrop: true

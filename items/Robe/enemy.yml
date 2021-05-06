@@ -4,6 +4,7 @@
   stats:
     fireResist: 100
     iceResist: 100
+  destroyOnDrop: true
   desc: "a robe made of insulating material"
   sprite: 211
   value: 1
@@ -12,6 +13,7 @@
   stats:
     fireResist: 500
     iceResist: 500
+  destroyOnDrop: true
   desc: "a robe made of insulating material"
   sprite: 211
   value: 1

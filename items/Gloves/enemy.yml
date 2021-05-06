@@ -8,6 +8,7 @@
   desc: "a pair of rocky gloves"
   sprite: -1
   value: 1
+  destroyOnDrop: true
 
 - name: Crazed Rockgolem Gloves
   stats:
@@ -17,6 +18,7 @@
   desc: "a pair of rocky gloves"
   sprite: -1
   value: 1
+  destroyOnDrop: true
 
 - name: Dolphin Gloves
   stats:
@@ -26,6 +28,7 @@
   desc: "a pair of finny gloves"
   sprite: -1
   value: 1
+  destroyOnDrop: true
 
 - name: Mines Rockman Gloves
   stats:
@@ -35,6 +38,7 @@
   desc: "a pair of rocky gloves"
   sprite: -1
   value: 1
+  destroyOnDrop: true
 
 - name: Frostlands Frostgolem Gloves
   stats:
@@ -45,3 +49,4 @@
   desc: "a pair of rocky gloves"
   sprite: -1
   value: 1
+  destroyOnDrop: true

@@ -3,3 +3,4 @@
   desc: "a coat of fur"
   value: 1
   sprite: 297
+  destroyOnDrop: true
