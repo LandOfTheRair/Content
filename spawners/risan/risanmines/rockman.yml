@@ -1,6 +1,6 @@
 npcIds:
     - {result: 'Mines Rockman', chance: 1}
-respawnRate: 10
+respawnRate: 5
 initialSpawn: 3
 maxCreatures: 10
 spawnRadius: 10
