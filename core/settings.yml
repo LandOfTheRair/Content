@@ -1,8 +1,83 @@
 
+
+auth:
+  verificationHourExpiration: 1
+
 character:
   maxLevel: 50
   maxSkill: 30
   maxStats: 25
+  chaSlidingDiscount: 7
+  hpRegenSlidingCon: 21
+  defaultMove: 3
+  defaultCasterMPRegen: 10
+  thiefOOCRegen: 10
+  thiefICRegen: 1
+  warriorOOCRegen: -3
+  warriorICRegen: 3
+  warriorHitRegen: 3
+  warriorDodgeRegen: 5
+  thiefStealthMultiplier: 1.5
+  stealthEncumberDivisor: 2
+  thiefLockpickFuzz: 2
+  sellValuePercent: 25
+  sellChaBaseBoost: 10
+  sellChaBaseDivisor: 5
+  fallDamagePercent: 15
+
+combat:
+  buildUpDecay: 3
+  buildUpStart: 5
+  buildUpMax: 200
+  buildUpScale: 10
+  cstunConMultiplier: 21
+  offhandDamageReduction: 0.8
+  resourceConditionDamage: 50
+
+corpse:
+  playerExpire: 500
+  npcExpire: 120
+  rotStrLossChance: 5
+  rotAgiLossChance: 5
+  eatXpLossMultiplier: 0.4
+  eatSkillLossMultiplier: 500
+
+# 1/X chance for a common event to happen randomly
+event:
+  common: 3000
+  uncommon: 5000
+  rare: 10000
+  legendary: 100000
+
+ground:
+  saveTicks: 150
+  expireTicks: 1800
+
+npcgen:
+  attrMult: 2
+  eliteMult: 4
+  levelFuzz: 2
+  eliteLootMult: 2
+  normalLootMult: 1
+
+players:
+  saveTicks: 150
+
+potion:
+  Lesser: 10
+  Bradley: 13
+  Minor: 15
+  Basic: 18
+  Greater: 21
+  Major: 24
+  Advanced: 27
+  Pure: 30
+
+skillgain:
+  one: [1]
+  two: [0.75, 0.25]
+  three: [0.55, 0.25, 0.20]
+  four: [0.45, 0.25, 0.15, 0.15]
 
 subscriber:
   characters: 1
@@ -16,37 +91,4 @@ subscriber:
   axpGain: 1
   xpGain: 0.05
   skillGain: 0.05
-
-potion:
-  Lesser: 10
-  Bradley: 13
-  Minor: 15
-  Basic: 18
-  Greater: 21
-  Major: 24
-  Advanced: 27
-  Pure: 30
-
-corpse:
-  playerExpire: 500
-  npcExpire: 120
-
-ground:
-  saveTicks: 150
-  expireTicks: 1800
-
-npcgen:
-  attrMult: 2
-  eliteMult: 4
-  levelFuzz: 2
-
-event:
-
-  # 1/3000 chance for a common event to happen randomly
-  common: 3000
-
-  uncommon: 5000
-
-  rare: 10000
-
-  legendary: 100000
+  holidayTokenGain: 2
