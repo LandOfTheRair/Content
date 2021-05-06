@@ -5,6 +5,7 @@
   trapEffect:
     name: FireMist
     potency: 300
+    range: 1
   value: 1500
 
   requirements:
@@ -18,6 +19,7 @@
   trapEffect:
     name: IceMist
     potency: 300
+    range: 1
   value: 1500
 
   requirements:

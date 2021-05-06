@@ -4,6 +4,7 @@
   trapEffect:
     name: FireMist
     potency: 15
+    range: 1
   value: 1500
   destroyOnDrop: true
 
@@ -13,6 +14,7 @@
   trapEffect:
     name: IceMist
     potency: 15
+    range: 1
   value: 1500
   destroyOnDrop: true
 
@@ -58,6 +60,7 @@
   trapEffect:
     name: Darkness
     potency: 15
+    range: 1
   value: 2000
   destroyOnDrop: true
 
@@ -95,6 +98,7 @@
     uses: 3
     name: FireMist
     potency: 35
+    range: 1
   value: 3500
   destroyOnDrop: true
 
@@ -105,6 +109,7 @@
     uses: 3
     name: IceMist
     potency: 35
+    range: 1
   value: 3500
   destroyOnDrop: true
 
@@ -165,6 +170,7 @@
     uses: 3
     name: Darkness
     potency: 35
+    range: 1
   value: 4000
   destroyOnDrop: true
 

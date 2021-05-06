@@ -5,7 +5,8 @@
   trapEffect:
     uses: 3
     name: FireMist
-    potency: 300
+    potency: 600
+    range: 1
   value: 3500
 
   requirements:
@@ -20,6 +21,7 @@
     uses: 3
     name: IceMist
     potency: 600
+    range: 1
   value: 3500
 
   requirements:
@@ -90,6 +92,7 @@
     uses: 3
     name: Darkness
     potency: 35
+    range: 1
   value: 4000
 
   requirements:
