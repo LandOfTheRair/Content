@@ -10,7 +10,7 @@
   alignment: Evil
   stats: 15
   skillLevels: 5
-  level: 15
+  level: 10
 
   otherStats:
     perception: 15
@@ -263,10 +263,6 @@
     EffectiveSupporter: 5
     EnergyFocus: 5
     HealingFocus: 5
-
-  drops:
-    - result: Korane Staff
-      chance: -1
 
   copyDrops:
     - result: 'equipment.robe2'

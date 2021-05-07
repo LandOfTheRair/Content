@@ -16,7 +16,7 @@ Friendship Festival:
   rarity: legendary
   description: "Faction relationship changes are twice as effective!"
   startMessage: "The friendship festival is starting!"
-  endMessage: "The frienship festival has ended."
+  endMessage: "The friendship festival has ended."
 
 Avatar Spawn:
   name: Avatar Spawn

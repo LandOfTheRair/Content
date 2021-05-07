@@ -6113,7 +6113,7 @@
                  "name":"",
                  "properties":
                     {
-                     "maxTanLevel":10,
+                     "maxTanLevel":15,
                      "tag":"Tanner"
                     },
                  "propertytypes":
