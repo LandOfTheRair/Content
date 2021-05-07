@@ -103,6 +103,10 @@
     min: 100000
     max: 120000
 
+  gold:
+    min: 0
+    max: 0
+
   items:
     equipment:
       rightHand: Antanian Steffen Halberd
@@ -149,6 +153,10 @@
   giveXp:
     min: 145000
     max: 158000
+
+  gold:
+    min: 0
+    max: 0
 
   items:
     equipment:
@@ -212,6 +220,10 @@
   giveXp:
     min: 169000
     max: 209000
+
+  gold:
+    min: 0
+    max: 0
 
   items:
     equipment:
@@ -329,3 +341,7 @@
   giveXp:
     min: 470000
     max: 500000
+
+  gold:
+    min: 0
+    max: 0
