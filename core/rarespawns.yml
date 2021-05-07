@@ -1,15 +1,20 @@
 
 Rylt:
-  - Aynamai
+  spawns:
+    - Aynamai
 
 Yzalt:
-  - Lytilan
+  spawns:
+    - Lytilan
 
 TowerOfSelen:
-  - Kroin
+  spawns:
+    - Kroin
 
 RisanMines:
-  - Korane
+  spawns:
+    - Korane
 
 Frostlands:
-  - Argnul
+  spawns:
+    - Argnul
