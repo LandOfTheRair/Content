@@ -20,7 +20,7 @@ Friendship Festival:
 
 Avatar Spawn:
   name: Avatar Spawn
-  duration: 30
+  duration: 1
   cooldown: 64800
   rarity: legendary
   description: "An avatar is coming to this realm!"
