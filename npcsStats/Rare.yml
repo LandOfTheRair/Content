@@ -266,8 +266,8 @@
     - result: 'equipment.leftHand'
       chance: -1
 
-- npcId: Argnul
-  name: Argnul
+- npcId: Glebog
+  name: Glebog
   monsterClass: Humanoid
   affiliation: Manifestation of Maji
   sprite: 535
@@ -285,7 +285,7 @@
   items:
     equipment:
 
-      rightHand: Argnul Sabre
+      rightHand: Glebog Sabre
 
       leftHand: Frostlands Shield
       armor: Frostlands Trash Breastplate
