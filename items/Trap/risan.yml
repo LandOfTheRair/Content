@@ -149,6 +149,8 @@
     uses: 5
     name: Cure
     potency: 1000
+    extra:
+      isPositive: true
   value: 1000
 
   requirements:
@@ -176,6 +178,8 @@
   trapEffect:
     name: Haste
     potency: 200
+    extra:
+      isPositive: true
   value: 10000
 
   requirements:

@@ -160,6 +160,8 @@
     uses: 3
     name: Haste
     potency: 30
+    extra:
+      isPositive: true
   value: 3500
   destroyOnDrop: true
 
