@@ -47,7 +47,7 @@ event:
   common: 5000
   uncommon: 7500
   rare: 10000
-  legendary: 20000
+  legendary: 30000
 
 ground:
   saveTicks: 150

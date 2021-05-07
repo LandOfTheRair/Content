@@ -1,0 +1,40 @@
+
+- npcId: Summon Golem
+  name: golem
+  monsterClass: Beast
+  sprite: 75
+  stats: 15
+  skillLevels: 5
+  level: 1
+
+  summonStatModifiers:
+    hp: 10000
+    str: 0.3
+    dex: 0.3
+    agi: 0.3
+    offense: 1
+    accuracy: 1
+
+  noCorpseDrop: true
+
+  items:
+    equipment:
+      hands: Medium Claws
+
+  usableSkills:
+    - Jumpkick
+
+  traitLevels:
+    Punchkick: 1
+
+  hp:
+    min: 500000
+    max: 500000
+
+  gold:
+    min: 0
+    max: 0
+
+  giveXp:
+    min: 0
+    max: 0

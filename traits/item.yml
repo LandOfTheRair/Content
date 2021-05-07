@@ -22,3 +22,9 @@ FamiliarFists:
   name: Familiar Fists
   desc: Familiars gain the ability to rapidpunch.
   icon: fire-punch
+
+DivineDancing:
+  name: Divine Dancing
+  desc: Move around automatically while stunned.
+  icon: boot-stomp
+  valuePerTier: 1

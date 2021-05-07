@@ -18,11 +18,20 @@ Friendship Festival:
   startMessage: "The friendship festival is starting!"
   endMessage: "The frienship festival has ended."
 
+Avatar Spawn:
+  name: Avatar Spawn
+  duration: 30
+  cooldown: 64800
+  rarity: legendary
+  description: "An avatar is coming to this realm!"
+  startMessage: "An avatar is coming to this realm!"
+  endMessage: "Seek the avatar for glory!"
+
 # Rylt
 Saraxa Raid:
   name: Saraxa Raid
   duration: 900
-  cooldown: 2700
+  cooldown: 5400
   rarity: common
   description: "Saraxa is sending some apprentices to Rylt!"
   startMessage: "Saraxa is sending some apprentices to Rylt!"
@@ -32,7 +41,7 @@ Saraxa Raid:
 Tonwin Raid:
   name: Tonwin Raid
   duration: 900
-  cooldown: 2700
+  cooldown: 5400
   rarity: uncommon
   description: "Tonwin is sending some renegades to Rylt!"
   startMessage: "Tonwin gave a signal for the renegades to invade Rylt!"
@@ -43,7 +52,7 @@ Tonwin Raid:
 Heniz Raid:
   name: Heniz Raid
   duration: 900
-  cooldown: 2700
+  cooldown: 5400
   rarity: common
   description: "The Heniz are currently raiding the Steffen town."
   startMessage: "The Heniz have begun to raid the Steffen!"
@@ -55,7 +64,7 @@ Heniz Raid:
 Heniz Crazed Plague:
   name: Heniz Crazed Plague
   duration: 1800
-  cooldown: 3600
+  cooldown: 5400
   rarity: uncommon
   description: "The Heniz are having plague issues."
   startMessage: "The plague is sweeping through the Heniz town!"
@@ -65,7 +74,7 @@ Heniz Crazed Plague:
 Steffen Raid:
   name: Steffen Raid
   duration: 900
-  cooldown: 2700
+  cooldown: 5400
   rarity: common
   description: "The Steffen are currently raiding the Heniz town."
   startMessage: "The Steffen have begun to raid the Heniz!"
@@ -77,7 +86,7 @@ Steffen Raid:
 Steffen Crazed Plague:
   name: Steffen Crazed Plague
   duration: 1800
-  cooldown: 3600
+  cooldown: 5400
   rarity: uncommon
   description: "The Steffen are having plague issues."
   startMessage: "The plague is sweeping through the Steffen town!"
@@ -88,7 +97,7 @@ Steffen Crazed Plague:
 Tower Guards Strike Back:
   name: Tower Guards Strike Back
   duration: 450
-  cooldown: 3600
+  cooldown: 5400
   rarity: uncommon
   description: "The Tower of Selen guards have mounted an offensive to strike back!"
   startMessage: "The Tower of Selen guards are preparing to strike back against the goblinkin."
@@ -99,7 +108,7 @@ Tower Guards Strike Back:
 Skeletal Assault:
   name: Skeletal Assault
   duration: 450
-  cooldown: 4800
+  cooldown: 5400
   rarity: uncommon
   description: "The Dark Lord is sending his minions to assault Maze Town!"
   startMessage: "The Dark Lord is sending his minions to assault Maze Town!"
@@ -110,7 +119,7 @@ Skeletal Assault:
 Ancient Assault:
   name: Ancient Assault
   duration: 450
-  cooldown: 4800
+  cooldown: 5400
   rarity: uncommon
   description: "The Archlich is sending his ancient minions to assault the Castle!"
   startMessage: "The Archlich is sending his ancient minions to assault the Castle!"
@@ -120,7 +129,7 @@ Ancient Assault:
 Brigand Attack:
   name: Brigand Attack
   duration: 450
-  cooldown: 4800
+  cooldown: 5400
   rarity: common
   description: "The brigands are attempting to raid the Castle!"
   startMessage: "The brigands are attempting to raid the Castle!"

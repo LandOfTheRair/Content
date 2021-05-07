@@ -1,0 +1,17 @@
+
+
+- name: Lytilan Breastplate
+  quality: 5
+  stats:
+    defense: 3
+    armorClass: 15
+  trait:
+    name: SterlingArmor
+    level: 3
+  sprite: 504
+  desc: "an golden breastplate imbued with the light of Maer"
+  value: 250000
+  maxUpgrades: 1
+
+  requirements:
+    level: 13

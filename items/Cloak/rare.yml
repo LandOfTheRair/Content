@@ -1,0 +1,19 @@
+
+- name: Aynamai Cloak
+  quality: 5
+  stats:
+    agi: 1
+    mpregen: 5
+    defense: 3
+    offense: 1
+  trait:
+    name: OffensiveEncore
+    level: 1
+
+  desc: "a fiery cloak imbued with the rage of Tai"
+  value: 500000
+  sprite: 482
+  maxUpgrades: 1
+
+  requirements:
+    level: 10

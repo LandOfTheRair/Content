@@ -469,3 +469,45 @@ FindFamiliarTurkey:
   macro:
     macro: findfamiliar turkey
     mode: 'autoActivate'
+
+FindFamiliarGolem:
+
+  # global info
+  all:
+    desc: "Summon a golem to fight for you in combat. Cost: 50 MP"
+    icon: "rock-2"
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    castTime: 10
+    cooldown: 60
+    maxSkillForGain: 1
+
+    spellMeta:
+      creatureSummoned: [Summon Golem]
+      casterMessage: 'You begin channeling for a familiar...'
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Golem supports you as a tank/melee DPS.'
+    effect:
+      type: buff
+      duration: 0
+    effectMeta:
+      effectRef: FindFamiliar
+      castSfx: 'spell-conjure'
+      applySfx: 'spell-conjure'
+      unapplyMessage: 'Your golem familiar has returned to the ether.'
+
+  # trait info
+  trait:
+    name: Find Familiar (Golem)
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    macro: findfamiliar golem
+    mode: 'autoActivate'
