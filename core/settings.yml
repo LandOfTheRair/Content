@@ -24,6 +24,7 @@ character:
   sellChaBaseBoost: 10
   sellChaBaseDivisor: 5
   fallDamagePercent: 15
+  trainingCostGoldMultiplier: 25
 
 combat:
   buildUpDecay: 3
