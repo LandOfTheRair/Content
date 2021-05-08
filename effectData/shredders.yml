@@ -7,7 +7,7 @@ EtherFire:
     desc: 'Negate the resistances of undead-class monsters.'
   effect:
     type: buff
-    duration: 600
+    duration: 3600
     extra:
       canRemove: true
       unique: true
@@ -19,7 +19,7 @@ BeastRipper:
     desc: 'Negate the resistances of beast-class monsters.'
   effect:
     type: buff
-    duration: 600
+    duration: 3600
     extra:
       canRemove: true
       unique: true
@@ -31,7 +31,7 @@ ScaleShredder:
     desc: 'Negate the resistances of dragon-class monsters.'
   effect:
     type: buff
-    duration: 600
+    duration: 3600
     extra:
       canRemove: true
       unique: true
