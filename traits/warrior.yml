@@ -64,14 +64,14 @@ Shieldbearer:
 
 SilverSkin:
   name: Silver Skin
-  desc: Ignore +$10$% physical damage.
+  desc: Ignore +$10$ physical damage.
   icon: leg-armor
   statsGiven:
     physicalResist: 10
 
 HolyProtection:
   name: Holy Protection
-  desc: Ignore +$10$% magical damage.
+  desc: Ignore +$10$ magical damage.
   icon: holy-symbol
   statsGiven:
     magicalResist: 10
