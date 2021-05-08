@@ -592,7 +592,7 @@ BarNecro:
     name: Necrotic Shield
     desc: "Resist some necrotic, poison, and disease damage. Cost: 20 MP"
     icon: "rosa-shield"
-    color: "#1b390e"
+    color: "#0a0"
 
   # spell cast info
   spell: 
