@@ -170,9 +170,8 @@ Mage:
             maxLevel: 1
           
         - traits: 
-            
-          - name: ForgedFire
-            maxLevel: 5
+          - name: FireMist
+            maxLevel: 1
 
           - name: FireFocus
             maxLevel: 5
@@ -181,13 +180,14 @@ Mage:
           
           - name: IceFocus
             maxLevel: 5
-
-          - name: ChilledCore
-            maxLevel: 5
+            
+          - name: IceMist
+            maxLevel: 1
           
         - traits: 
-          - name: FireMist
-            maxLevel: 1
+            
+          - name: ForgedFire
+            maxLevel: 5
 
           - name: FirethornsAura
             maxLevel: 1
@@ -196,9 +196,9 @@ Mage:
 
           - name: FrostspikesAura
             maxLevel: 1
-            
-          - name: IceMist
-            maxLevel: 1
+
+          - name: ChilledCore
+            maxLevel: 5
           
         - traits: 
           - name: FireMistWiden
