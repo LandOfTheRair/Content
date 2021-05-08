@@ -17,8 +17,8 @@ requirements:
     - Tower Warspider
 
 messages:
-  kill: You have killed ${ current }/${ total } orcs.
-  incomplete: By my records, you have to kill ${ remaining } orcs yet!
+  kill: You have killed ${ current }/${ total } orcs and their pets.
+  incomplete: By my records, you have to kill ${ remaining } orcs and their pets yet!
   alreadyHas: You're already killin' em for me!
   complete: Great. These orcos don't take care of themselves, ya know?
 
