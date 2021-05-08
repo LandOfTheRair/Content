@@ -390,13 +390,13 @@ FindFamiliarSnowman:
 
   # global info
   all:
-    desc: "Summon a snowman to fight for you in combat. Cost: 50 MP"
+    desc: "Summon a snowman to fight for you in combat. Cost: 0 MP"
     icon: "snowman"
     color: "#000"
 
   # spell cast info
   spell: 
-    mpCost: 50
+    mpCost: 0
     castTime: 10
     cooldown: 60
     maxSkillForGain: 1
@@ -432,13 +432,13 @@ FindFamiliarTurkey:
 
   # global info
   all:
-    desc: "Summon a turkey to fight for you in combat. Cost: 50 MP"
+    desc: "Summon a turkey to fight for you in combat. Cost: 0 MP"
     icon: "twitter-alt"
     color: "#000"
 
   # spell cast info
   spell: 
-    mpCost: 50
+    mpCost: 0
     castTime: 10
     cooldown: 60
     maxSkillForGain: 1
@@ -474,13 +474,13 @@ FindFamiliarGolem:
 
   # global info
   all:
-    desc: "Summon a golem to fight for you in combat. Cost: 50 MP"
+    desc: "Summon a golem to fight for you in combat. Cost: 0 MP"
     icon: "rock-2"
     color: "#000"
 
   # spell cast info
   spell: 
-    mpCost: 50
+    mpCost: 0
     castTime: 10
     cooldown: 60
     maxSkillForGain: 1
