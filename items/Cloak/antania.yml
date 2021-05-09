@@ -15,10 +15,8 @@
   sprite: 211
 
 - name: Yzalt Mummy Cloak
-  randomStats:
-    agi:
-      min: 0
-      max: 2
+  stats: 
+    agi: 1
   desc: "a disintegrating cloak made from the wrappings of a mummy that seem to blend in with your surroundings"
   value: 760
   sprite: 321
