@@ -3,7 +3,7 @@
   desc: "a wooden totem with a hand carved into it"
   tier: 1
   stats:
-    restorationBonus: 3
+    restorationBonus: 1
   strikeEffect:
     name: Afflict
     potency: 50

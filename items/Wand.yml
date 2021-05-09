@@ -23,7 +23,7 @@
   desc: "a blue wand engraved with the blazing Heniz runes"
   tier: 1
   stats:
-    conjurationBonus: 3
+    conjurationBonus: 1
   strikeEffect:
     name: Combust
     potency: 80
@@ -45,7 +45,7 @@
   desc: "a blue wand engraved with the frozen Heniz runes"
   tier: 1
   stats:
-    conjurationBonus: 3
+    conjurationBonus: 1
   strikeEffect:
     name: Hail
     potency: 80
