@@ -53,7 +53,7 @@
     level: 1
   binds: true
   tellsBind: true
-  maxUpgrades: 2
+  maxUpgrades: 1
   desc: "a red robe with a shimmering gold trim engraved with the markings of a shaman"
   value: 1400
   sprite: 488
@@ -66,10 +66,10 @@
   stats:
     magicalResist: 15
     magicalDamageReflect: 15
-    spellReflectChance: 5
+    spellReflectChance: 1
   binds: true
   tellsBind: true
-  maxUpgrades: 2
+  maxUpgrades: 1
   desc: "a red robe with a shimmering gold trim interleaved with rays of ether"
   value: 1221
   sprite: 488
@@ -173,7 +173,7 @@
   stats:
     magicalResist: 50
     magicalDamageReflect: 35
-    spellReflectChance: 10
+    spellReflectChance: 3
     armorClass: 3
   binds: true
   tellsBind: true
