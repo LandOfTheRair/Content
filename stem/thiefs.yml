@@ -119,6 +119,7 @@ Shadowmeld:
       - [31, 6]
 
     spellMeta:
+      noReflect: true
       doesOvertime: true
 
   # effect info (tooltip, duration, messages)
@@ -165,6 +166,7 @@ Disguise:
       - [31, 6]
 
     spellMeta:
+      noReflect: true
       doesOvertime: true
 
   # effect info (tooltip, duration, messages)

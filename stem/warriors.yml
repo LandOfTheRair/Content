@@ -241,6 +241,7 @@ Boost:
       - [0,  1]
 
     spellMeta:
+      noReflect: true
       doesOvertime: true
 
   # trait info
@@ -288,6 +289,7 @@ Shield:
       - [0,  1]
 
     spellMeta:
+      noReflect: true
       doesOvertime: true
 
   # trait info

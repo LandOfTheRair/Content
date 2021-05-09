@@ -165,6 +165,7 @@ DarkVision:
       - [31, 15]
 
     spellMeta:
+      noReflect: true
       noHostileTarget: true
       doesOvertime: true
 
@@ -213,6 +214,7 @@ TrueSight:
       - [31, 15]
 
     spellMeta:
+      noReflect: true
       noHostileTarget: true
       doesOvertime: true
 
@@ -261,6 +263,7 @@ EagleEye:
       - [31, 15]
 
     spellMeta:
+      noReflect: true
       noHostileTarget: true
       doesOvertime: true
 
@@ -309,6 +312,7 @@ SecondWind:
       - [31, 15]
 
     spellMeta:
+      noReflect: true
       noHostileTarget: true
       doesOvertime: true
 
@@ -357,6 +361,7 @@ FleetOfFoot:
       - [31, 15]
 
     spellMeta:
+      noReflect: true
       noHostileTarget: true
       doesOvertime: true
 
@@ -402,6 +407,7 @@ Invisibility:
       - [0,  1]
 
     spellMeta:
+      noReflect: true
       noHostileTarget: true
       doesOvertime: true
       staticPotency: true
@@ -452,6 +458,7 @@ BarFire:
       - [31, 4]
 
     spellMeta:
+      noReflect: true
       noHostileTarget: true
       doesOvertime: true
       staticPotency: true
@@ -503,6 +510,7 @@ BarFrost:
       - [31, 4]
 
     spellMeta:
+      noReflect: true
       noHostileTarget: true
       doesOvertime: true
       staticPotency: true
@@ -554,6 +562,7 @@ BarWater:
       - [31, 4]
 
     spellMeta:
+      noReflect: true
       noHostileTarget: true
       doesOvertime: true
       staticPotency: true
@@ -605,6 +614,7 @@ BarNecro:
       - [31, 4]
 
     spellMeta:
+      noReflect: true
       noHostileTarget: true
       doesOvertime: true
       staticPotency: true
@@ -656,6 +666,7 @@ Aid:
       - [31, 4]
 
     spellMeta:
+      noReflect: true
       noHostileTarget: true
       doesOvertime: true
       staticPotency: true
@@ -711,6 +722,7 @@ Regen:
       - [36, 5]
 
     spellMeta:
+      noReflect: true
       doesHeal: true
       noHostileTarget: true
       doesOvertime: true
@@ -758,6 +770,7 @@ Protection:
       - [31, 1.75]
 
     spellMeta:
+      noReflect: true
       noHostileTarget: true
       doesOvertime: true
       staticPotency: true
@@ -806,6 +819,7 @@ Absorption:
       - [31, 1]
 
     spellMeta:
+      noReflect: true
       noHostileTarget: true
       doesOvertime: true
       staticPotency: true
@@ -854,6 +868,7 @@ Haste:
       - [41, 2]
 
     spellMeta:
+      noReflect: true
       noHostileTarget: true
       doesOvertime: true
 
@@ -1149,6 +1164,7 @@ MagicMirror:
       - [0,  1]
 
     spellMeta:
+      noReflect: true
       noHostileTarget: true
       doesOvertime: true
 
