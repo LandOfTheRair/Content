@@ -2,6 +2,7 @@
 # Healer Rune Scrolls
 - name: Rune Scroll - Holy Affliction I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Holy Affliction I\""
   trait:
     name: HolyAffliction
@@ -12,6 +13,7 @@
 
 - name: Rune Scroll - Effective Supporter I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Effective Supporter I\""
   trait:
     name: EffectiveSupporter
@@ -24,6 +26,7 @@
 
 - name: Rune Scroll - Thermal Barrier I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Thermal Barrier I\""
   trait:
     name: ThermalBarrier
@@ -36,6 +39,7 @@
 
 - name: Rune Scroll - Lockpick Specialty I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Lockpick Specialty I\""
   trait:
     name: LockpickSpecialty
@@ -46,6 +50,7 @@
 
 - name: Rune Scroll - Stronger Traps I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Stronger Traps I\""
   trait:
     name: StrongerTraps
@@ -56,6 +61,7 @@
 
 - name: Rune Scroll - Nimble Fingers I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Nimble Fingers I\""
   trait:
     name: NimbleFingers
@@ -68,6 +74,7 @@
 
 - name: Rune Scroll - Brass Knuckles I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Brass Knuckles I\""
   trait:
     name: BrassKnuckles
@@ -78,6 +85,7 @@
 
 - name: Rune Scroll - Holy Protection I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Holy Protection I\""
   trait:
     name: HolyProtection
@@ -88,6 +96,7 @@
 
 - name: Rune Scroll - Martial Agility I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Martial Agility I\""
   trait:
     name: MartialAgility
@@ -98,6 +107,7 @@
 
 - name: Rune Scroll - Sterling Armor I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Sterling Armor I\""
   trait:
     name: SterlingArmor

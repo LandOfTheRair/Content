@@ -2,6 +2,7 @@
 # Halloween Rune Scrolls
 - name: Rune Scroll - Sweet Tooth I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Sweet Tooth I\""
   trait:
     name: SweetTooth
@@ -11,6 +12,7 @@
 
 - name: Rune Scroll - Sweet Tooth II
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Sweet Tooth II\""
   trait:
     name: SweetTooth
@@ -20,6 +22,7 @@
 
 - name: Rune Scroll - Sweet Tooth III
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Sweet Tooth III\""
   trait:
     name: SweetTooth
@@ -29,6 +32,7 @@
 
 - name: Rune Scroll - Sweet Tooth IV
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Sweet Tooth IV\""
   trait:
     name: SweetTooth
@@ -38,6 +42,7 @@
 
 - name: Rune Scroll - Sweet Tooth V
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Sweet Tooth V\""
   trait:
     name: SweetTooth
@@ -51,6 +56,7 @@
 # Thanksgiving Rune Scrolls
 - name: Rune Scroll - Slow Digestion I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Slow Digestion I\""
   trait:
     name: SlowDigestion
@@ -60,6 +66,7 @@
 
 - name: Rune Scroll - Slow Digestion II
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Slow Digestion II\""
   trait:
     name: SlowDigestion
@@ -69,6 +76,7 @@
 
 - name: Rune Scroll - Slow Digestion III
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Slow Digestion III\""
   trait:
     name: SlowDigestion
@@ -78,6 +86,7 @@
 
 - name: Rune Scroll - Slow Digestion IV
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Slow Digestion IV\""
   trait:
     name: SlowDigestion
@@ -87,6 +96,7 @@
 
 - name: Rune Scroll - Slow Digestion V
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Slow Digestion V\""
   trait:
     name: SlowDigestion
@@ -100,6 +110,7 @@
 # Christmas Rune Scrolls
 - name: Rune Scroll - Winters Embrace I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Winter's Embrace I\""
   trait:
     name: WintersEmbrace
@@ -109,6 +120,7 @@
 
 - name: Rune Scroll - Winters Embrace II
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Winter's Embrace II\""
   trait:
     name: WintersEmbrace
@@ -118,6 +130,7 @@
 
 - name: Rune Scroll - Winters Embrace III
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Winter's Embrace III\""
   trait:
     name: WintersEmbrace
@@ -127,6 +140,7 @@
 
 - name: Rune Scroll - Winters Embrace IV
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Winter's Embrace IV\""
   trait:
     name: WintersEmbrace
@@ -136,6 +150,7 @@
 
 - name: Rune Scroll - Winters Embrace V
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Winter's Embrace V\""
   trait:
     name: WintersEmbrace

@@ -43,6 +43,7 @@
   type: Ranged
   value: 24347
   sprite: 710
+  animation: 13
   binds: true
   tellsBind: true
   maxUpgrades: 1

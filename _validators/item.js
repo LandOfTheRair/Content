@@ -15,6 +15,7 @@ const { isRequirement, isCosmetic, isSuccor, isRollable, isTrait, isEffect, isEn
 const itemSchema = [
   ['name', true, isString],
   ['sprite', true, isInteger],
+  ['animation', true, isInteger],
   ['value', true, isInteger],
   ['desc', true, isString],
   ['itemClass', true, isString],

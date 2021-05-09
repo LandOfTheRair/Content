@@ -1,6 +1,7 @@
 # Rune Scrolls
 - name: Rune Scroll - Careful Touch I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Careful Touch I\""
   trait:
     name: CarefulTouch
@@ -9,6 +10,7 @@
 
 - name: Rune Scroll - Death Grip I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Death Grip I\""
   trait:
     name: DeathGrip
@@ -17,6 +19,7 @@
 
 - name: Rune Scroll - Natural Armor I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Natural Armor I\""
   trait:
     name: NaturalArmor
@@ -26,6 +29,7 @@
 # Shared Rune Scrolls
 - name: Rune Scroll - Calm Mind I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Calm Mind I\""
   trait:
     name: CalmMind
@@ -37,6 +41,7 @@
 
 - name: Rune Scroll - Mana Pool I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Mana Pool I\""
   trait:
     name: ManaPool
@@ -49,6 +54,7 @@
 # Healer Rune Scrolls
 - name: Rune Scroll - Healing Focus I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Healing Focus I\""
   trait:
     name: HealingFocus
@@ -59,6 +65,7 @@
 
 - name: Rune Scroll - Necrotic Focus I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Necrotic Focus I\""
   trait:
     name: NecroticFocus
@@ -69,6 +76,7 @@
 
 - name: Rune Scroll - Necrotic Ward I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Necrotic Ward I\""
   trait:
     name: NecroticWard
@@ -79,6 +87,7 @@
 
 - name: Rune Scroll - Totem Specialty I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Totem Specialty I\""
   trait:
     name: TotemSpecialty
@@ -89,6 +98,7 @@
 
 - name: Rune Scroll - Irresistible Stun I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Irresistible Stun I\""
   trait:
     name: IrresistibleStun
@@ -100,6 +110,7 @@
 # Mage Rune Scrolls
 - name: Rune Scroll - Energy Focus I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Energy Focus I\""
   trait:
     name: EnergyFocus
@@ -110,6 +121,7 @@
 
 - name: Rune Scroll - Fire Focus I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Fire Focus I\""
   trait:
     name: FireFocus
@@ -120,6 +132,7 @@
 
 - name: Rune Scroll - Ice Focus I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Ice Focus I\""
   trait:
     name: IceFocus
@@ -130,6 +143,7 @@
 
 - name: Rune Scroll - Forged Fire I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Forged Fire I\""
   trait:
     name: ForgedFire
@@ -140,6 +154,7 @@
 
 - name: Rune Scroll - Chilled Core I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Chilled Core I\""
   trait:
     name: ChilledCore
@@ -150,6 +165,7 @@
 
 - name: Rune Scroll - Wand Specialty I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Wand Specialty I\""
   trait:
     name: WandSpecialty
@@ -161,6 +177,7 @@
 # Thief Rune Scrolls
 - name: Rune Scroll - Darker Shadows I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Darker Shadows I\""
   trait:
     name: DarkerShadows
@@ -171,6 +188,7 @@
 
 - name: Rune Scroll - Shadow Sheath I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Shadow Sheath I\""
   trait:
     name: ShadowSheath
@@ -181,6 +199,7 @@
 
 - name: Rune Scroll - Shadow Swap I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Shadow Swap I\""
   trait:
     name: ShadowSwap
@@ -191,6 +210,7 @@
 
 - name: Rune Scroll - Philosophers Stone I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Philosophers Stone I\""
   trait:
     name: PhilosophersStone
@@ -201,6 +221,7 @@
 
 - name: Rune Scroll - Shadow Daggers I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Shadow Daggers I\""
   trait:
     name: ShadowDaggers
@@ -212,6 +233,7 @@
 # Warrior Rune Scrolls
 - name: Rune Scroll - Forceful Strike I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Forceful Strike I\""
   trait:
     name: ForcefulStrike
@@ -222,6 +244,7 @@
 
 - name: Rune Scroll - Swashbuckler I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Swashbuckler I\""
   trait:
     name: Swashbuckler
@@ -232,6 +255,7 @@
 
 - name: Rune Scroll - Offhand Finesse I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Offhand Finesse I\""
   trait:
     name: OffhandFinesse
@@ -242,6 +266,7 @@
 
 - name: Rune Scroll - Riposte I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Riposte I\""
   trait:
     name: Riposte
@@ -252,6 +277,7 @@
 
 - name: Rune Scroll - Sword Tricks I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Sword Tricks I\""
   trait:
     name: SwordTricks
@@ -262,6 +288,7 @@
 
 - name: Rune Scroll - Sharp Vision I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Sharp Vision I\""
   trait:
     name: EagleEye
@@ -272,6 +299,7 @@
 
 - name: Rune Scroll - Funky Moves I
   sprite: 681
+  animation: 10
   desc: "a runic scroll imbued with the empowerment \"Funky Moves I\""
   trait:
     name: FunkyMoves
