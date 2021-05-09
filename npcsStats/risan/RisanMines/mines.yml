@@ -283,11 +283,7 @@
           chance: 3
         - result: Crazed Deer Robe
           chance: 1
-      robe2:
-        - result: none
-          chance: 10
-        - result: Crazed Deer Robe
-          chance: 1
+      robe2: Crazed Deer Robe
       head:
         - result: none
           chance: 150
@@ -337,8 +333,6 @@
       chance: -1
 
   copyDrops:
-    - result: 'equipment.armor'
-      chance: -1
     - result: 'equipment.robe1'
       chance: -1
     - result: 'equipment.robe2'

@@ -18,7 +18,7 @@
   tellsBind: true
 
   requirements:
-    level: 20
+    level: 15
 
 - name: Frostlands Boots
   stats:

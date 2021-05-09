@@ -34,7 +34,7 @@
   maxUpgrades: 2
 
   requirements:
-    level: 13
+    level: 15
 
 - name: Frostlands Yeti Fur
   desc: "the tanned hide of a cave yeti"
