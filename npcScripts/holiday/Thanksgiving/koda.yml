@@ -16,6 +16,8 @@ mp:
 
 usableSkills:
   - MagicMissile
+  - MagicBolt
+  - Afflict
 
 noLeash: true
 
