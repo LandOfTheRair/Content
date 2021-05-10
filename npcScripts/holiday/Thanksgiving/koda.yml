@@ -17,6 +17,8 @@ mp:
 usableSkills:
   - MagicMissile
 
+noLeash: true
+
 items:
   equipment:
     rightHand: Thanksgiving Turkey Feather
