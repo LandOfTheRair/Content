@@ -4375,6 +4375,7 @@
  "orientation":"orthogonal",
  "properties":
     {
+     "holiday":"Christmas",
      "itemExpirationHours":6,
      "itemGarbageCollection":30,
      "kickMap":"Rylt",
@@ -4389,6 +4390,7 @@
     },
  "propertytypes":
     {
+     "holiday":"string",
      "itemExpirationHours":"int",
      "itemGarbageCollection":"int",
      "kickMap":"string",

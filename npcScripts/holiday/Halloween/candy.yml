@@ -1,0 +1,17 @@
+
+tag: Halloween Candy
+hostility: Never
+affiliation: Halloween Helpers
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+behaviors:
+  - type: halloweencandy

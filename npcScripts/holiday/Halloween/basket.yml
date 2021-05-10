@@ -1,0 +1,51 @@
+
+tag: Halloween Basket
+hostility: Never
+affiliation: Halloween Helpers
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkNoItem
+          fromHands: true
+          slot:
+            - rightHand
+
+          checkPassActions:
+
+            - type: giveItem
+              slot:
+                - rightHand
+              item:
+                name: Halloween Basket
+                amount: 1
+
+            - type: chat
+              maxDistance: 4
+              message: >
+                There you go! Right click on any friendly creature or tell them "trick or treat" and they'll probably give you some candy. Probably.
+
+              options:
+                - text: I'll get the most candy
+                  action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Empty your right hand first.
+
+              options:
+                - text: I'll do that
+                  action: noop

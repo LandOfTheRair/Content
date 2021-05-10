@@ -145,3 +145,16 @@ VampireMistForm:
       unique: true
   effectMeta:
     effectRef: VampireMistForm
+
+ZombieScratch:
+  tooltip:
+    icon: 'bleeding-wound'
+    color: '#a00'
+    desc: Scratched by a zombie. Will transform if not killed quickly enough.
+  effect:
+    type: debuff
+    duration: 30
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: ZombieScratch

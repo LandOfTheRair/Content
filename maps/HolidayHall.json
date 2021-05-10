@@ -161,11 +161,11 @@
                  "name":"Boz",
                  "properties":
                     {
-                     "script":"holiday\/halloween\/candy"
+                     "tag":"Halloween Candy"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -181,11 +181,11 @@
                  "name":"Zak",
                  "properties":
                     {
-                     "script":"holiday\/halloween\/basket"
+                     "tag":"Halloween Basket"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -201,11 +201,11 @@
                  "name":"Ven",
                  "properties":
                     {
-                     "script":"holiday\/halloween\/token-vendor"
+                     "tag":"Halloween Vendor"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -372,7 +372,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -393,7 +393,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -423,7 +423,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }],
