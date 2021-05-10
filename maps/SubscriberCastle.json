@@ -1660,7 +1660,7 @@
                  "properties":
                     {
                      "maxLevelUpLevel":50,
-                     "maxSkillTrain":7,
+                     "maxSkillTrain":40,
                      "tag":"Trainer Traveller"
                     },
                  "propertytypes":
