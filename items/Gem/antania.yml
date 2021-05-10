@@ -134,7 +134,7 @@
   tellsBind: true
 
   encrustGive:
-    slots: ['feet', 'hands', 'ring']
+    slots: ['hands']
 
     stats:
       str: 1
@@ -152,7 +152,7 @@
   tellsBind: true
 
   encrustGive:
-    slots: ['amulet', 'ring']
+    slots: ['amulet']
 
     stats:
       int: 1
@@ -170,7 +170,7 @@
   tellsBind: true
 
   encrustGive:
-    slots: ['amulet', 'ring']
+    slots: ['amulet']
 
     stats:
       wis: 1
