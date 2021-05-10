@@ -110,7 +110,7 @@
     mpregen: 3
     fireResist: 30
     iceResist: 30
-  maxUpgrades: 2
+  maxUpgrades: 1
   desc: "a shimmering black robe sewn with golden string"
   value: 1400
   sprite: 376
@@ -212,7 +212,7 @@
     mpregen: 10
     iceResist: 200
     fireResist: 200
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   desc: "a tattered purple cloak, the hue of which is the result of a tainted ether experiment"
   value: 9500
