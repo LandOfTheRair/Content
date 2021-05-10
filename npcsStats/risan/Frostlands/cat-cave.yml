@@ -6,7 +6,7 @@
   alignment: Evil
   hostility: Always
   monsterClass: Beast
-  monsterGroup: Cat
+  monsterGroup: Snake
   stats: 23
   skillLevels: 10
   level: 22
@@ -86,7 +86,7 @@
   alignment: Evil
   hostility: Always
   monsterClass: Beast
-  monsterGroup: Cat
+  monsterGroup: Snake
   stats: 25
   skillLevels: 12
   level: 35
