@@ -22,10 +22,19 @@ Avatar Spawn:
   name: Avatar Spawn
   duration: 1
   cooldown: 64800
-  rarity: legendary
+  rarity: rare
   description: "An avatar is coming to this realm!"
   startMessage: "An avatar is coming to this realm!"
   endMessage: "Seek the avatar for glory!"
+
+Double Trouble:
+  name: Double Trouble
+  duration: 7200
+  cooldown: 28800
+  rarity: rare
+  description: "Double trouble!"
+  startMessage: "Double trouble!"
+  endMessage: "The double trouble is over!"
 
 # Rylt
 Saraxa Raid:
