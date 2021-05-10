@@ -221,11 +221,11 @@
                  "name":"Toussaint",
                  "properties":
                     {
-                     "script":"holiday\/thanksgiving\/token-vendor"
+                     "tag":"Thanksgiving Toussaint"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -241,11 +241,11 @@
                  "name":"Koda",
                  "properties":
                     {
-                     "script":"holiday\/thanksgiving\/koda"
+                     "tag":"Thanksgiving Koda"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",

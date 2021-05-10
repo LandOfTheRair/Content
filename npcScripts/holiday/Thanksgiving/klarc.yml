@@ -1,0 +1,102 @@
+
+tag: Thanksgiving Klarc
+name: Klarc
+hostility: Never
+affiliation: Colonial Explorers
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Thanksgiving Bead Amulet
+    armor: Risan Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkItem
+          fromHands: true
+          slot:
+            - rightHand
+            - leftHand
+          item: 
+            name: Thanksgiving Corn
+            exact: true
+            amount: 1
+
+          checkPassActions:
+            - type: checkItem
+              fromHands: true
+              slot:
+                - rightHand
+                - leftHand
+              item: 
+                name: Thanksgiving Cornbread
+                exact: true
+                amount: 1
+
+              checkPassActions:
+                - type: takeItem
+                  slot:
+                    - rightHand
+                    - leftHand
+                  item:
+                    name: Thanksgiving Cornbread
+                    exact: true
+                    amount: 1
+
+                - type: takeItem
+                  slot:
+                    - rightHand
+                    - leftHand
+                  item:
+                    name: Thanksgiving Corn
+                    exact: true
+                    amount: 1
+
+                - type: giveItem
+                  slot:
+                    - rightHand
+                  item:
+                    name: Thanksgiving Bead Amulet
+
+                - type: chat
+                  maxDistance: 4
+                  message: >
+                    Mmmhmm! Oh man, so good! Here, the locals made me this, but I think you should have it.
+
+                  options:
+                    - text: I like the food better
+                      action: noop
+
+              checkFailActions:
+                - type: chat
+                  maxDistance: 4
+                  message: >
+                    Mmm! This corn is great. But so is this cornbread... Hey, I have an idea, can you bring me both?
+
+                  options:
+                    - text: I'll think about it
+                      action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Mmm! This corn is great. But so is this cornbread... Hey, I have an idea, can you bring me both?
+
+              options:
+                - text: I'll think about it
+                  action: noop

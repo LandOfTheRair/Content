@@ -1,0 +1,26 @@
+
+tag: Thanksgiving Koda
+name: Koda
+hostility: Never
+affiliation: Lost Turkey
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Thanksgiving Turkey Feather
+    armor: Thanksgiving Turkey Skin
+
+behaviors:
+  - type: thanksgivingturkey

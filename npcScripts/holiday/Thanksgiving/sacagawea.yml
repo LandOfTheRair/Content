@@ -1,0 +1,26 @@
+
+tag: Thanksgiving Sacagawea
+name: Sacagawea
+hostility: Never
+affiliation: Pilgrim Helpers
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Thanksgiving Heal Bottle
+    armor: Antanian Tunic
+
+behaviors:
+  - type: thanksgivingfood

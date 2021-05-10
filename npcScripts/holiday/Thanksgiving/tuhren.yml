@@ -1,0 +1,60 @@
+
+tag: Thanksgiving Tuhren
+name: Tuhren
+hostility: Never
+affiliation: Colonial Explorers
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Thanksgiving Blunderbuss
+    armor: Risan Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkNoItem
+          fromHands: true
+          slot:
+            - rightHand
+
+          checkPassActions:
+
+            - type: giveItem
+              slot:
+                - rightHand
+              item:
+                name: Thanksgiving Blunderbuss
+                amount: 1
+
+            - type: chat
+              maxDistance: 4
+              message: >
+                Here, I'll toss ya a spare blunderbuss. Hear the turkeys here don't take t' much else.
+
+              options:
+                - text: I can do that
+                  action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                Empty your right hand and I'll give ya a blunderbuss.
+
+              options:
+                - text: I'll do that
+                  action: noop
