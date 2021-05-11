@@ -107,6 +107,10 @@
     min: 49950
     max: 53350
 
+  mp:
+    min: 49950
+    max: 53350
+
   giveXp:
     min: 5200
     max: 6900
