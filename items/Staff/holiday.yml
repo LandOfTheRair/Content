@@ -14,6 +14,10 @@
   value: 4000
   sprite: 566
   binds: true
+  
+  breakEffect:
+    name: EnergyWave
+    potency: 25000
 
   useEffect:
     name: FindFamiliarTurkey
@@ -45,6 +49,10 @@
   sprite: 575
   binds: true
   maxUpgrades: 1
+
+  breakEffect:
+    name: EnergyWave
+    potency: 25000
 
   useEffect:
     name: FindFamiliarSnowman

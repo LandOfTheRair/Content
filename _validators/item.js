@@ -70,6 +70,10 @@ const itemSchema = [
   ['trapEffect.uses', false, isInteger],
   ['trapEffect.range', false, isIntegerBetween(0, 5)],
 
+  ['breakEffect', false, isEffect],
+  ['breakEffect.name', false, isString],
+  ['breakEffect.potency', false, isInteger],
+
   ['effect.extra', false, isObject],
 
   ['encrustGive', false, isEncrust],

@@ -22,6 +22,9 @@
     wis: 1
     mp: 50
   maxUpgrades: 1
+  breakEffect:
+    name: EnergyWave
+    potency: 250
   tier: 2
   type: Staff
   value: 567
@@ -42,6 +45,9 @@
   sprite: 326
   binds: true
   maxUpgrades: 1
+  breakEffect:
+    name: EnergyWave
+    potency: 750
 
   trait:
     name: FamiliarFortitude

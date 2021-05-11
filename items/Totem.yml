@@ -11,6 +11,9 @@
   trait:
     name: TotemSpecialty
     level: 1
+  breakEffect:
+    name: EnergyWave
+    potency: 500
   maxUpgrades: 2
   binds: true
   tellsBind: true
@@ -31,6 +34,9 @@
   trait:
     name: NecroticFocus
     level: 3
+  breakEffect:
+    name: HolyFire
+    potency: 2500
   maxUpgrades: 2
   binds: true
   tellsBind: true
@@ -51,6 +57,9 @@
     name: Afflict
     potency: 200
     chance: 20
+  breakEffect:
+    name: EnergyWave
+    potency: 2500
   trait:
     name: TotemSpecialty
     level: 3

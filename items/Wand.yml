@@ -8,6 +8,9 @@
     name: MagicMissile
     potency: 50
     chance: 33
+  breakEffect:
+    name: EnergyWave
+    potency: 500
   trait:
     name: WandSpecialty
     level: 2
@@ -31,6 +34,9 @@
   trait:
     name: WandSpecialty
     level: 1
+  breakEffect:
+    name: FireMist
+    potency: 500
   maxUpgrades: 1
   offhand: true
   binds: true
@@ -50,6 +56,9 @@
     name: Hail
     potency: 80
     chance: 10
+  breakEffect:
+    name: IceMist
+    potency: 500
   trait:
     name: WandSpecialty
     level: 1
@@ -73,6 +82,9 @@
     name: MagicBolt
     potency: 150
     chance: 33
+  breakEffect:
+    name: EnergyWave
+    potency: 2500
   trait:
     name: WandSpecialty
     level: 3
@@ -101,6 +113,9 @@
     name: Asper
     potency: 25
     chance: 33
+  breakEffect:
+    name: EnergyWave
+    potency: 2500
   trait:
     name: EnergyFocus
     level: 3

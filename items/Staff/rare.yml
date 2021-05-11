@@ -9,6 +9,10 @@
   value: 400000
   sprite: 887
 
+  breakEffect:
+    name: EnergyWave
+    potency: 5000
+
   useEffect:
     name: FindFamiliarGolem
     potency: 1

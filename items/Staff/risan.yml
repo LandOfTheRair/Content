@@ -17,6 +17,9 @@
     wis: 2
     mp: 100
   maxUpgrades: 1
+  breakEffect:
+    name: EnergyWave
+    potency: 5000
   tier: 5
   type: Staff
   value: 5267
@@ -43,6 +46,9 @@
   sprite: 268
   binds: true
   tellsBind: true
+  breakEffect:
+    name: EnergyWave
+    potency: 2500
 
   trait:
     name: FamiliarStrength
@@ -76,6 +82,9 @@
   type: Staff
   value: 15185
   sprite: 196
+  breakEffect:
+    name: EnergyWave
+    potency: 2500
 
   requirements:
     level: 25
@@ -92,6 +101,9 @@
   type: Staff
   value: 25185
   sprite: 196
+  breakEffect:
+    name: EnergyWave
+    potency: 3500
 
   requirements:
     level: 30
@@ -108,6 +120,9 @@
   type: Staff
   value: 35185
   sprite: 196
+  breakEffect:
+    name: EnergyWave
+    potency: 4500
 
   requirements:
     level: 35
@@ -124,6 +139,9 @@
   type: Staff
   value: 45185
   sprite: 196
+  breakEffect:
+    name: EnergyWave
+    potency: 5500
 
   requirements:
     level: 40
@@ -140,6 +158,9 @@
   type: Staff
   value: 55185
   sprite: 196
+  breakEffect:
+    name: EnergyWave
+    potency: 7500
 
   requirements:
     level: 45
@@ -158,6 +179,9 @@
   type: Staff
   value: 13344
   sprite: 459
+  breakEffect:
+    name: EnergyWave
+    potency: 10000
 
   trait:
     name: FamiliarFists
