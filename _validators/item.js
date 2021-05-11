@@ -74,8 +74,6 @@ const itemSchema = [
 
   ['encrustGive', false, isEncrust],
 
-  ['enchantLevel', false, isInteger],
-  ['maxEnchantLevel', false, isInteger],
   ['tier', false, isInteger],
   ['destroyOnDrop', false, isBoolean],
   ['twoHanded', false, isBoolean],

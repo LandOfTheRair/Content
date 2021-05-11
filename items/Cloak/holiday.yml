@@ -1,5 +1,4 @@
 - name: Thanksgiving Pilgrim Cloak
-  enchantLevel: 5
   stats:
     offense: 3
     defense: 3

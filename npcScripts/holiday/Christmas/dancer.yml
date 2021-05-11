@@ -1,0 +1,82 @@
+
+tag: Christmas Dancer
+name: Dancer
+hostility: Never
+affiliation: Frosty Friends
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Christmas Reindeer Skin
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: hasQuest
+          maxDistance: 2
+          quest: Find Reindeer
+          
+          checkPassActions:
+            - type: checkItem
+              fromHands: true
+              slot:
+                - rightHand
+              item: 
+                name: Christmas Walnuts
+                amount: 1
+
+              checkPassActions:
+                - type: takeItem
+                  fromHands: true
+                  slot:
+                    - rightHand
+                  item: 
+                    name: Christmas Walnuts
+                    amount: 1
+
+                - type: updateQuest
+                  quest: Find Reindeer
+                  arrayItem: Dancer
+
+                - type: chat
+                  maxDistance: 2
+                  message: >
+                    Thanks, I guess I'll head back...
+
+                  options:
+                    - text: You better
+                      action: noop
+
+              checkFailActions:
+                - type: chat
+                  maxDistance: 2
+                  message: >
+                    I'm so hungry...
+
+                  options:
+                    - text: I'll see if I can find something
+                      action: noop
+
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 2
+              message: >
+                Why are you here?
+
+              options:
+                - text: I could ask you the same
+                  action: noop

@@ -1,5 +1,4 @@
 - name: Thanksgiving Gobbler Staff
-  enchantLevel: 5
   stats:
     offense: 3
     defense: 3
@@ -31,7 +30,6 @@
   binds: true
 
 - name: Christmas Candy Staff (Improved)
-  enchantLevel: 5
   stats:
     offense: 3
     defense: 3

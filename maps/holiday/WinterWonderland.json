@@ -1173,11 +1173,11 @@
                  "name":"Santa Claus",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/santa"
+                     "tag":"Christmas Santa"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1193,11 +1193,11 @@
                  "name":"Rudolph",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/rudolph"
+                     "tag":"Christmas Rudolph"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1213,11 +1213,11 @@
                  "name":"Blitzen",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/reindeer-blitzen"
+                     "tag":"Christmas Blitzen"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1233,11 +1233,11 @@
                  "name":"Donner",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/reindeer-donner"
+                     "tag":"Christmas Donner"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1253,11 +1253,11 @@
                  "name":"Prancer",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/reindeer-prancer"
+                     "tag":"Christmas Prancer"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1273,11 +1273,11 @@
                  "name":"Dancer",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/reindeer-dancer"
+                     "tag":"Christmas Dancer"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1293,11 +1293,11 @@
                  "name":"Dasher",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/reindeer-dasher"
+                     "tag":"Christmas Dasher"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1313,11 +1313,11 @@
                  "name":"Vixen",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/reindeer-vixen"
+                     "tag":"Christmas Vixen"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1333,11 +1333,11 @@
                  "name":"Cupid",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/reindeer-cupid"
+                     "tag":"Christmas Cupid"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1353,11 +1353,11 @@
                  "name":"Comet",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/reindeer-comet"
+                     "tag":"Christmas Comet"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1373,11 +1373,11 @@
                  "name":"Keeble",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/keeble"
+                     "tag":"Christmas Keeble"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1393,11 +1393,11 @@
                  "name":"Mrs. Claus",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/gertrude"
+                     "tag":"Christmas Gertrude"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1413,11 +1413,11 @@
                  "name":"Frosty",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/frosty"
+                     "tag":"Christmas Frosty"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1433,11 +1433,11 @@
                  "name":"Alf",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/alf"
+                     "tag":"Christmas Alf"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1453,11 +1453,11 @@
                  "name":"Alan",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/alan"
+                     "tag":"Christmas Alan"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1473,11 +1473,11 @@
                  "name":"James",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/james"
+                     "tag":"Christmas James"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1493,11 +1493,11 @@
                  "name":"Vici",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/token-vendor"
+                     "tag":"Christmas Vendor"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1513,11 +1513,11 @@
                  "name":"Krampus",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/krampus"
+                     "tag":"Christmas Krampus"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -1535,13 +1535,13 @@
                     {
                      "maxLevelUpLevel":50,
                      "maxSkillTrain":30,
-                     "script":"trainer\/healer"
+                     "tag":"Trainer Healer"
                     },
                  "propertytypes":
                     {
                      "maxLevelUpLevel":"int",
                      "maxSkillTrain":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",

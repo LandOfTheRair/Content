@@ -23,7 +23,6 @@
   desc: "a bright red scaleplate, twice refined, forged with ether"
   binds: true
   value: 15000
-  maxEnchantLevel: 10
 
   requirements:
     level: 21
@@ -56,7 +55,6 @@
   desc: "a shining silver scaleplate, twice refined, forged with refined silver scales"
   binds: true
   value: 15000
-  maxEnchantLevel: 10
 
   requirements:
     level: 40

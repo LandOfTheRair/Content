@@ -1,6 +1,5 @@
 
 - name: Halloween Moon Boots
-  enchantLevel: 5
   stats:
     magicalResist: 100
   tier: 3
@@ -11,7 +10,6 @@
   binds: true
 
 - name: Thanksgiving Pilgrim Boots
-  enchantLevel: 5
   stats:
     move: 1
     offense: 3

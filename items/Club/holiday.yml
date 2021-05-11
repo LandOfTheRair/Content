@@ -11,7 +11,6 @@
   sprite: 571
 
 - name: Christmas Pipe (Improved)
-  enchantLevel: 5
   proneChance: 25
   damageClass: 'fire'
   stats:

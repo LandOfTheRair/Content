@@ -25,7 +25,6 @@
   binds: true
   maxUpgrades: 1
   value: 15000
-  maxEnchantLevel: 10
 
   requirements:
     level: 25
@@ -59,7 +58,6 @@
   binds: true
   maxUpgrades: 1
   value: 15000
-  maxEnchantLevel: 10
 
   requirements:
     level: 40

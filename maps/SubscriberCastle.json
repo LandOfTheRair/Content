@@ -1609,30 +1609,6 @@
                  "y":1408
                 }, 
                 {
-                 "gid":3082,
-                 "height":64,
-                 "id":493,
-                 "name":"Anjen",
-                 "properties":
-                    {
-                     "maxLevelUpLevel":50,
-                     "maxSkillTrain":30,
-                     "script":"trainer\/tradeskill"
-                    },
-                 "propertytypes":
-                    {
-                     "maxLevelUpLevel":"int",
-                     "maxSkillTrain":"int",
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1024,
-                 "y":1088
-                }, 
-                {
                  "gid":3447,
                  "height":64,
                  "id":530,

@@ -1,6 +1,5 @@
 
 - name: Thanksgiving Pilgrim Hat
-  enchantLevel: 5
   stats:
     offense: 3
     defense: 3
@@ -21,7 +20,6 @@
   binds: true
 
 - name: Christmas Top Hat (Improved)
-  enchantLevel: 5
   stats:
     offense: 3
     defense: 3

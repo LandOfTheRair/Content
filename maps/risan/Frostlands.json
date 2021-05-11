@@ -12967,11 +12967,11 @@
                  "name":"Crier",
                  "properties":
                     {
-                     "script":"risan\/frostlands\/crier"
+                     "tag":"Frostlands Crier"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -12987,11 +12987,11 @@
                  "name":"Guard Kejar",
                  "properties":
                     {
-                     "script":"Frostlands Kejar"
+                     "tag":"Frostlands Kejar"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",

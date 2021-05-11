@@ -4389,13 +4389,13 @@
                     {
                      "alchCost":100,
                      "alchOz":15,
-                     "script":"global\/alchemist"
+                     "tag":"Alchemist"
                     },
                  "propertytypes":
                     {
                      "alchCost":"int",
                      "alchOz":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -4905,26 +4905,6 @@
                  "y":10112
                 }, 
                 {
-                 "gid":3807,
-                 "height":64,
-                 "id":1117,
-                 "name":"Ivel",
-                 "properties":
-                    {
-                     "script":"antania\/yzalt\/ivel"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":4288,
-                 "y":4416
-                }, 
-                {
                  "gid":3137,
                  "height":64,
                  "id":1118,
@@ -4971,26 +4951,6 @@
                  "width":64,
                  "x":4544,
                  "y":2944
-                }, 
-                {
-                 "gid":3807,
-                 "height":64,
-                 "id":1135,
-                 "name":"Dogo",
-                 "properties":
-                    {
-                     "script":"antania\/yzalt\/dogo"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":4224,
-                 "y":4352
                 }, 
                 {
                  "gid":3182,

@@ -1,0 +1,68 @@
+
+tag: Christmas Rudolph
+name: Rudolph
+hostility: Never
+affiliation: Frosty Friends
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Christmas Reindeer Skin
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: checkItem
+          fromHands: true
+          slot:
+            - rightHand
+          item: 
+            name: Christmas Egg Nog
+            amount: 1
+
+          checkPassActions:
+
+            - type: takeItem
+              slot:
+                - rightHand
+              item:
+                name: Christmas Egg Nog
+                amount: 1
+
+            - type: giveItem
+              slot:
+                - rightHand
+              item:
+                name: Christmas Pipe
+
+            - type: chat
+              maxDistance: 4
+              message: >
+                Why thank you! This might help you keep warm... it wasn't helping me much...
+
+              options:
+                - text: I can see why
+                  action: noop
+
+          checkFailActions:
+            - type: chat
+              maxDistance: 4
+              message: >
+                *sniffle* Hello there... I'm having trouble keeping warm, can you bring me something good to drink?
+
+              options:
+                - text: I think I can find something
+                  action: noop

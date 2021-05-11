@@ -1,0 +1,35 @@
+
+tag: Christmas Keeble
+name: Keeble
+hostility: Never
+affiliation: Frosty Friends
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: chat
+          maxDistance: 2
+          message: >
+            Help us protect our hard-working present elves from the evil snowmen, and they will reward you!
+
+          options:
+            - text: I'll keep that in mind
+              action: noop

@@ -1,7 +1,6 @@
 
 
 - name: Halloween Pumpkin Shield
-  enchantLevel: 5
   stats:
     armorClass: 30
     defense: 5
@@ -25,7 +24,6 @@
   binds: true
 
 - name: Christmas Button Shield (Improved)
-  enchantLevel: 5
   stats:
     armorClass: 30
     defense: 5

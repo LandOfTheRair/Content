@@ -1,0 +1,35 @@
+
+tag: Christmas Krampus
+name: Krampus
+hostility: Never
+affiliation: Frosty Friends?
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: chat
+          maxDistance: 2
+          message: >
+            Ho ho ho! Just kidding, come back next year.
+
+          options:
+            - text: I'll keep that in mind
+              action: noop

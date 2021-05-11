@@ -183,27 +183,7 @@
         {
          "draworder":"topdown",
          "name":"NPCs",
-         "objects":[
-                {
-                 "gid":3187,
-                 "height":64,
-                 "id":2470,
-                 "name":"Jilik",
-                 "properties":
-                    {
-                     "script":"global\/encruster"
-                    },
-                 "propertytypes":
-                    {
-                     "script":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1600,
-                 "y":1280
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,

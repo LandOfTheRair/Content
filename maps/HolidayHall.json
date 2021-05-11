@@ -261,11 +261,11 @@
                  "name":"Vici",
                  "properties":
                     {
-                     "script":"holiday\/christmas\/token-vendor"
+                     "tag":"Christmas Vendor"
                     },
                  "propertytypes":
                     {
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",

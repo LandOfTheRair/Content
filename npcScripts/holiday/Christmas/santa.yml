@@ -1,0 +1,25 @@
+
+tag: Christmas Santa
+name: Santa Claus
+hostility: Never
+affiliation: Frosty Friends
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+behaviors:
+  - type: christmassanta

@@ -1,0 +1,35 @@
+
+tag: Christmas Alan
+name: Alan
+hostility: Never
+affiliation: Frosty Friends
+
+level: 10
+
+hp:
+  min: 100000
+  max: 100000
+
+mp:
+  min: 100000
+  max: 100000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: chat
+          maxDistance: 2
+          message: >
+            Did you know you can make Gingerbread men with water and walnuts? Just be careful not to burn them!
+
+          options:
+            - text: I'll keep that in mind
+              action: noop

@@ -1,6 +1,5 @@
 
 - name: Thanksgiving Blunderbuss
-  enchantLevel: 5
   desc: "a standard blunderbuss used primarily in the Turkey Forest"
   tier: 2
   type: Ranged

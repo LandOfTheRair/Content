@@ -13,7 +13,6 @@
   binds: true
 
 - name: Christmas Scarf (Improved)
-  enchantLevel: 5
   stats:
     offense: 3
     defense: 3

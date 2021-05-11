@@ -2545,13 +2545,13 @@
                     {
                      "maxLevelUpLevel":50,
                      "maxSkillTrain":30,
-                     "script":"trainer\/healer"
+                     "tag":"Trainer Healer"
                     },
                  "propertytypes":
                     {
                      "maxLevelUpLevel":"int",
                      "maxSkillTrain":"int",
-                     "script":"string"
+                     "tag":"string"
                     },
                  "rotation":0,
                  "type":"",
