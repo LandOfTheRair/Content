@@ -35,9 +35,6 @@
     min: 0
     max: 0
 
-  tansFor: Aynamai Cloak
-  tanSkillRequired: 5
-
   usableSkills:
     - PoisonBiteWeak
 
@@ -63,6 +60,10 @@
     - result: Antanian Branch
       chance: 1
       maxChance: 25
+
+  copyDrops:
+    - result: 'equipment.armor'
+      chance: -1
 
   triggers:
     leash:
