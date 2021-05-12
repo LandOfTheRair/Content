@@ -1,8 +1,68 @@
 
 
+__bed: &bed You are standing on a bed.
+__altarBlood: &altarblood You are standing near a sacrifical altar. There's some blood running out of it, indicating it was used recently.
+__altarClean: &altarclean You are standing near a sacrifical altar with a ceremonial dagger resting atop.
+__altarBroken: &altarbroken You are standing near a sacrifical altar with a broken ceremonial dagger resting atop it.
+__altarReligious: &altarreligious You are standing near a holy altar with glowing candles.
+__altarReligiousBroken: &altarreligiousbroken You are standing near what you guess to be a holy altar.
+__altarPlain: &altarplain You are standing near a plain altar with a cloth draped over it.
+__altarPlainTorn: &altarplaintorn You are standing near a plain altar with a torn cloth draped over it.
+__altarBones: &altarbones You are standing near an eerie altar with aged bones arranged in a neat manner.
+__bookcaseShort: &bookcaseshort You are standing near a stocked bookcase. Whoever owns it must be very literate!
+__bookcaseShortScattered: &bookcaseshortscattered You are standing near a ransacked bookcase.
+__dresser: &dresser You are standing near a dresser, probably full of someone's clothes.
+__dresserBroken: &dresserbroken You are standing near a broken, ransacked dresser.
+__dresserFancy: &dresserfancy You are standing near an ornate dresser.
+__dresserFancyBroken: &dresserfancybroken You are standing near a broken dresser, well beyond its glory days.
+__chairGreen: &chairgreen You are sitting on a simple green chair.
+__chairRed: &chairred You are sitting on a simple red chair.
+__chairGreenFancy: &chairgreenfancy You sitting on a very comfortable and sturdy green chair.
+__chairRedTwo: &chairredtwo You are sitting on a very comfortable sofa. No room for two here!
+__chairPurpleLong: &chairpurplelong You are sitting on a comfortable purple chair with room to stretch your legs.
+__coffeeTable: &coffeetable You are standing near a coffee table adorned with fresh fruit.
+__chairPurpleShort: &chairpurpleshort You are sitting on a comfortable purple chair.
+__coffeeTableEmpty: &coffeetableempty You are standing near a coffee table.
+__ladderSteel: &laddersteel You are standing near a steel ladder.
+__ladderSteelBroken: &laddersteelbroken You are standing near a broken steel ladder. Trying to use it would be dangerous.
+__ladderWood: &ladderwood You are standing near a wooden ladder.
+__ladderWoodBroken: &ladderwoodbroken You are standing near a broken wooden ladder. Trying to use it would be dangerous.
+__plantLiving: &plantliving You are standing near a healthy potted plant.
+__plantDead: &plantdead You are standing near a withered potted plant.
+__fruitLiving: &fruitliving You are standing near a fruit tree.
+__fruitDead: &fruitdead You are standing near a dead fruit tree.
+__marbleBench: &marblebench You are sitting on a marble bench.
+__sink: &sink You are standing near a primitive sink.
+__sinkOvergrown: &sinkovergrown You are standing near a sink overgrown with vines.
+__sinkBroken: &sinkbroken You are standing near a broken sink.
+__woodBench: &woodbench You are sitting on a small wooden bench.
+__woodBenchBroken: &woodbenchbroken You are standing on the mess that is a broken wooden bench.
+__vent: &vent You are standing on top of a vent.
+__ventBroken: &ventbroken You are standing near a broken vent. You probably don't want to fall down.
+__graveShallow: &graveshallow You are standing in a shallow grave. Luckily, it's empty.
+__graveSkull: &graveskull You are standing near a tombstone adorned with a creepy skull.
+__gravePlain: &graveplain You are standing near a plain tombstone.
+__graveCross: &gravecross You are standing near a grave cross.
+__graveCrossBroken: &gravecrossbroken You are standing on a broken grave cross that was trampled into the ground.
+__graveStoneBroken: &gravestonebroken You are standing on a grave that was broken into recently.
+__graveDug: &gravedug You are standing on a grave that was recently defiled.
+__graveStoneSkullMoss: &gravestoneskullmoss You are standing near a creepy, mossy grave with a skull placed at the base.
+__graveStoneSkull: &gravestoneskull You are standing near a creepy grave with a skull placed at the base.
+__trapdoor: &trapdoor You are standing near a closed hatch.
+__trapdoorOpen: &trapdooropen You are standing near an open hatch.
+__skinBear: &skinbear You are standing on the tanned hide of a great white bear.
+__skinTiger: &skintiger You are standing on the tanned hide of a massive tiger.
+__skinLynx: &skinlynx You are standing on the tanned hide of a lynx.
+__bigNestEmpty: &bignestempty You are standing in a massive, but empty, nest.
+__bigNest: &bignest You are standing in a massive, occupied nest. You wonder if you're going to die here.
 __woodPile: &woodpile You are standing near a pile of logs, stacked neatly so as not to trounce an unsuspecting passerby.
 __woodSeat: &woodseat You are sitting in a somewhat uncomfortable wooden seat.
+__greatSeat: &greatseat You are sitting on a massive bench.
 __waterBarrel: &waterbarrel You are standing near a keg. Who know's what's inside?
+__treasureChest: &treasurechest You are standing near a treasure chest. Search it and find out what's inside!
+__treasureChestOpen: &treasurechestopen You are standing near an ancient treasure chest. Looks like nothing's left.
+__stoneContainer: &stonecontainer You are standing near a massive stone container. You can't lift it.
+__stoneContainerMoss: &stonecontainermoss You are standing near a massive stone container. The years have sealed it shut.
 __hay: &hay You are standing on a bale of hay.
 __water: &water You are standing near a water trough.
 __waterBroken: &waterbroken You are standing near a water trough. It's leaking everywhere.
@@ -58,6 +118,11 @@ decor:
   186: *waterbarrel
   187: *waterbarrel
 
+  188: *bed
+  189: *bed
+  190: *bed
+  191: *bed
+
   192: *hay
   193: *hay
   194: *hay
@@ -82,6 +147,7 @@ decor:
   209: *armorstatue
   210: *armorstatue
   211: *armorstatue
+  1005: *armorstatue
 
   212: *coffin
   213: *coffin
@@ -92,6 +158,245 @@ decor:
   217: *locker
   218: *locker
   219: *locker
+
+  220: *altarblood
+  221: *altarclean
+  222: *altarblood
+  223: *altarbroken
+  984: *altarbroken
+
+  224: *altarreligious
+  225: *altarreligious
+  226: *altarreligiousbroken
+  227: *altarreligiousbroken
+  1047: *altarreligiousbroken
+
+  228: *altarplain
+  229: *altarplain
+  230: *altarplaintorn
+  231: *altarplaintorn
+  1048: *altarplaintorn
+
+  232: *altarbones
+  233: *altarbones
+  234: *altarbones
+  235: *altarbones
+  456: *altarbones
+
+  236: *bookcaseshort
+  237: *bookcaseshortscattered
+  238: *bookcaseshort
+  239: *bookcaseshortscattered
+  985: *bookcaseshortscattered
+
+  240: *bookcaseshort
+  241: *bookcaseshortscattered
+  242: *bookcaseshort
+  243: *bookcaseshortscattered
+  457: *bookcaseshortscattered
+  986: *bookcaseshortscattered
+
+  244: *dresser
+  245: *dresserbroken
+  246: *dresser
+  247: *dresserbroken
+
+  248: *dresserfancy
+  249: *dresserfancybroken
+  250: *dresserfancy
+  251: *dresserfancybroken
+
+  252: *chairgreen
+  253: *chairgreen
+  254: *chairgreen
+  255: *chairgreen
+
+  256: *chairred
+  257: *chairred
+  258: *chairred
+  259: *chairred
+
+  260: *chairgreenfancy
+  261: *chairgreenfancy
+  262: *chairgreenfancy
+  263: *chairgreenfancy
+
+  264: *chairredtwo
+  265: *chairredtwo
+  266: *chairredtwo
+  267: *chairredtwo
+
+  268: *chairpurplelong
+  269: *chairpurplelong
+  270: *chairpurplelong
+  271: *chairpurplelong
+
+  272: *coffeetable
+  273: *coffeetableempty
+  274: *coffeetable
+  275: *coffeetableempty
+
+  276: *laddersteel
+  277: *laddersteel
+  278: *laddersteelbroken
+  279: *laddersteelbroken
+
+  280: *ladderwood
+  281: *ladderwood
+  282: *ladderwoodbroken
+  283: *ladderwoodbroken
+
+  284: *plantliving
+  285: *plantdead
+  286: *plantliving
+  287: *plantdead
+
+  288: *fruitliving
+  289: *fruitdead
+  290: *fruitliving
+  291: *fruitdead
+
+  292: *marblebench
+  293: *marblebench
+  294: *marblebench
+  295: *marblebench
+
+  296: *chairpurpleshort
+  297: *chairpurpleshort
+  298: *chairpurpleshort
+  299: *chairpurpleshort
+
+  300: *woodbench
+  301: *woodbench
+  302: *woodbench
+  303: *woodbenchbroken
+
+  304: *vent
+  305: *ventbroken
+  306: *vent
+  307: *ventbroken
+
+  308: *graveshallow
+  309: *graveshallow
+  310: *graveshallow
+  311: *graveshallow
+
+  312: *graveskull
+  313: *graveplain
+  314: *graveplain
+  315: *graveplain
+  467: *graveplain
+
+  316: *gravecross
+  317: *gravecross
+  318: *gravecross
+  319: *gravecross
+  468: *gravecross
+
+  372: *skinbear
+  373: *skinbear
+  374: *skinbear
+  375: *skinbear
+
+  376: *skintiger
+  377: *skintiger
+  378: *skintiger
+  379: *skintiger
+
+  380: *skinlynx
+  381: *skinlynx
+  382: *skinlynx
+  383: *skinlynx
+
+  388: *trapdoor
+  389: *trapdoor
+  390: *trapdoor
+  391: *trapdoor
+
+  392: *trapdooropen
+  393: *trapdooropen
+  394: *trapdooropen
+  395: *trapdooropen
+
+  396: *bed
+  397: *bed
+  398: *bed
+  399: *bed
+
+  400: *bed
+  401: *bed
+  402: *bed
+  403: *bed
+
+  404: *bed
+  405: *bed
+  406: *bed
+  407: *bed
+
+  408: *bed
+  409: *bed
+  410: *bed
+  411: *bed
+
+  412: *sink
+  413: *sinkovergrown
+  414: *sink
+  415: *sinkovergrown
+
+  416: *treasurechest
+  417: *treasurechestopen
+  418: *treasurechest
+  419: *treasurechestopen
+
+  420: *stonecontainer
+  421: *stonecontainermoss
+  422: *stonecontainer
+  423: *stonecontainermoss
+
+  424: *sink
+  425: *sinkbroken
+  426: *sink
+  427: *sinkbroken
+  428: *sink
+  429: *sinkbroken
+  430: *sink
+  431: *sinkbroken
+  459: *sink
+  461: *sinkbroken
+
+  432: *gravecrossbroken
+  433: *gravecrossbroken
+  434: *gravecrossbroken
+  435: *gravecrossbroken
+
+  436: *gravestonebroken
+  437: *gravestonebroken
+  438: *gravestonebroken
+  439: *gravestonebroken
+
+  440: *gravedug
+  441: *gravedug
+  442: *gravedug
+  443: *gravedug
+  444: *gravedug
+  445: *gravedug
+  446: *gravedug
+  447: *gravedug
+
+  469: *gravestoneskullmoss
+  470: *gravestoneskullmoss
+  471: *gravestoneskull
+  472: *gravestoneskull
+
+  485: *bignestempty
+  486: *bignestempty
+  487: *bignestempty
+  488: *bignestempty
+
+  489: *bignest
+  490: *bignest
+  492: *bignest
+  493: *bignest
 
   556: *ornaterug
   557: *ornaterug
@@ -146,6 +451,34 @@ decor:
   871: *woodbridge
   872: *woodbridge
 
+  453: You are standing near some sharp rocks.
+  454: You are standing near a sharp rock.
+  455: You are standing near a pile of rocks.
+  462: You are standing on a piece of broken furniture.
+  473: You are standing next to a tiny tree.
+  474: You are standing next to a tiny shrub.
+  475: You are standing in an empty nest.
+  476: You are standing in a nest filled with eggs.
+  477: You are standing in a nest filled with speckled eggs.
+  478: You are standing near a group of eggs.
+  479: You are standing near a broken egg.
+  480: You are standing near a well and a bucket of water.
+  481: You are standing near a broken egg.
+  482: You are standing near a group of speckled eggs.
+  483: You are standing near a broken speckled egg.
+  484: You are standing near a broken speckled egg.
+  494: You are standing near a massive number of eggs.
+  505: You are standing in a small pool.
+  506: You are standing next to a small table.
+  509: You are standing next to a clay vase.
+  510: You are standing next to a big urn.
+  511: You are standing in some purple fluid near a broken bottle.
+  776: You are standing near a cauldron full of viscous liquid.
+  802: You are standing on a soft brown bear hide.
+  803: You are standing on a small, ornate rug.
+  814: You are standing on a small, ornate rug.
+  825: You are standing on a small, ornate rug.
+  847: You are standing on a small, ornate rug.
   874: You are standing on a net. Don't get stuck, now.
   875: You are standing near an empty metal bucket.
   876: You are standing near a cauldron full of primordial ooze. Or at least that's how it smells. Yuck.
@@ -161,6 +494,28 @@ decor:
   886: You are standing on some rocks. If you're not careful, you'll fall and spill your gold everywhere.
   894: You are standing near a blackjack table. Hit me!
   895: You are standing near a roulette table. All on black!
+  915: You are sitting in a canoe.
+  916: You are sitting in a canoe, ready for adventure.
+  917: You are sitting on a raft, prepared to sail the seas.
+  918: You are standing near a cauldron filled with a bright red liquid.
+  919: You are standing near a strange torture device.
+  920: You are standing near some stockades.
+  921: You are standing near an iron maiden.
+  922: You are standing near a torture table.
+  996: You are standing on a broken trap.
+  998: You are standing on a broken spear.
+  1000: You are standing on a broken mace.
+  1001: You are standing on a broken polearm.
+  1002: You are standing on a broken greatmace.
+  1004: You are standing near a weapon rack holding two kenukis.
+  1030: You are standing near a table with a strange symbol engraved into it.
+  1031: You are standing near a blue clay vase.
+  1035: You are sitting on a fancy purple pillow.
+  1036: You are sitting on a comfortable red pillow.
+  1037: You are sitting on a posh blue pillow.
+  1044: You are standing near a religious font.
+  1045: You are standing near a yellow barrel. Who makes yellow barrels?
+  1046: You are standing near a red barrel. Hopefully it wasn't stained with blood.
 
   946: *waterpuddle
   947: *waterpuddle
@@ -191,3 +546,8 @@ decor:
   981: *springwater
   982: *springwater
   983: *springwater
+
+  1016: *greatseat
+  1017: *greatseat
+  1018: *greatseat
+  1019: *greatseat
