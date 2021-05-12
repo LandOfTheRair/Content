@@ -1,0 +1,28 @@
+
+name: Kill Rylt Zombies
+desc: Kill the zombies invading Rylt, and return to Jarek when you've capped 10 of them.
+giver: Jarek
+
+isRepeatable: true
+
+requirements:
+  type: kill
+  killsRequired: 10
+  npcIds:
+    - Halloween Zombie
+
+messages:
+  kill: You have killed ${ current }/${ total } zombies.
+  incomplete: By my records, you have to kill ${ remaining } zombies yet!
+  alreadyHas: You're already killin' em for me!
+  complete: Thanks for the help, ${ player.name }!
+
+rewards:
+  - type: xp
+    value: 20000
+
+  - type: gold
+    value: 20000
+
+  - type: holidayTokens
+    value: 25

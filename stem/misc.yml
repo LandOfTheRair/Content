@@ -1,0 +1,19 @@
+
+Shred:
+
+  # global info
+  all:
+    desc: "Shred the opponents HP."
+    icon: bleeding-wound
+    color: "#bd5900"
+
+  # spell cast info
+  spell: {}
+
+  # trait info
+  trait:
+    borderColor: "#a00"
+
+  # macro info
+  macro:
+    mode: 'lockActivation'
