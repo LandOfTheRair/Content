@@ -21,6 +21,8 @@ items:
 behaviors:
   - type: vendor
 
+    vendorCurrency: pumpkin coins
+
     vendorItems:
       - item: Rune Scroll - Sweet Tooth I
       - item: Rune Scroll - Sweet Tooth II

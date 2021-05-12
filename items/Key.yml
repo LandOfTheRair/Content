@@ -71,3 +71,8 @@
   sprite: 617
   value: 12000
   binds: true
+
+- name: Necromancer Key
+  desc: "a black key emanating the smell of the undead"
+  sprite: 363
+  value: 4000

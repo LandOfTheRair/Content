@@ -104,3 +104,33 @@ Revive:
   # macro info
   macro:
     mode: 'autoActivate'
+
+Resurrect:
+
+  # global info
+  all:
+    desc: "Resurrect a corpse to fight for you."
+    icon: quicksand
+    color: "#800"
+
+  # spell cast info
+  spell: 
+    damageClass: heal
+    mpCost: 0
+    maxSkillForGain: 1
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      noReflect: true
+      doesHeal: true
+      noHostileTarget: true
+      casterSfx: 'spell-heal'
+
+  # trait info
+  trait:
+    borderColor: "#a00"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'

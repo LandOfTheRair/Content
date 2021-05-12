@@ -1,19 +1,20 @@
 
-name: Kill Rylt Zombies
-desc: Kill the zombies invading Rylt, and return to Jarek when you've capped 10 of them.
-giver: Jarek
+name: Kill Hallowed Undead
+desc: Kill the hallowed undead in the forsaken forest, and return to Zeke when you've slain 50 of them.
+giver: Zeke
 
 isRepeatable: true
 
 requirements:
   type: kill
-  killsRequired: 10
+  killsRequired: 50
   npcIds:
     - Halloween Zombie
+    - Halloween Skeleton
 
 messages:
-  kill: You have killed ${ current }/${ total } zombies.
-  incomplete: By my records, you have to kill ${ remaining } zombies yet!
+  kill: You have killed ${ current }/${ total } undead.
+  incomplete: By my records, you have to kill ${ remaining } undead yet!
   alreadyHas: You're already killin' em for me!
   complete: Thanks for the help, ${ player.name }!
 
@@ -25,4 +26,4 @@ rewards:
     value: 20000
 
   - type: holidayTokens
-    value: 25
+    value: 100

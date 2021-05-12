@@ -1,4 +1,115 @@
 
+- npcId: Halloween Townee
+  allegiance: None
+  monsterClass: Humanoid
+  monsterGroup: Town
+  stats: 15
+  skillLevels: 5
+  level: 10
+
+  skillOnKill: 1
+
+  sprite: [70, 75, 80, 85, 90, 100, 125, 305]
+
+  hp:
+    min: 500
+    max: 700
+
+  gold:
+    min: 0
+    max: 100
+
+  giveXp:
+    min: 30
+    max: 50
+
+  items:
+    equipment:
+      armor:
+        - Antanian Tunic
+        - Antanian Studded Tunic
+        - Antanian Scalemail Tunic
+        - Antanian Ringmail Tunic
+        - Antanian Breastplate
+
+      robe1:
+        - none
+        - Antanian Cloak
+
+      leftHand:
+        - none
+        - Antanian Wooden Shield
+
+      ammo:
+        - Antanian Arrows
+
+      rightHand:
+        - none
+        - Antanian Shortsword
+        - Antanian Longsword
+        - Antanian Staff
+        - Antanian Dagger
+        - Antanian Crossbow
+
+  copyDrops:
+    - result: 'equipment.leftHand'
+      chance: -1
+    - result: 'equipment.rightHand'
+      chance: -1
+    - result: 'equipment.armor'
+      chance: -1
+    - result: 'equipment.robe1'
+      chance: -1
+    - result: 'equipment.ammo'
+      chance: -1
+
+
+- npcId: Halloween Guard
+  name: guard
+  monsterClass: Humanoid
+  monsterGroup: Town
+  allegiance: None
+  hostility: Faction
+  stats: 30
+  level: 20
+  baseClass: Warrior
+
+  skillLevels: 10
+
+  allegianceReputation:
+    Enemy: -101
+
+  skillOnKill: 5
+
+  sprite: [140, 150, 315, 345, 380, 410]
+
+  hp:
+    min: 2500
+    max: 4000
+
+  gold:
+    min: 0
+    max: 100
+
+  giveXp:
+    min: 300
+    max: 500
+
+  items:
+    equipment:
+      armor:
+        - Antanian Breastplate
+
+      rightHand:
+        - Antanian Halberd
+        - Antanian Greatsword
+        - Antanian Greatmace
+
+  copyDrops:
+    - result: 'equipment.rightHand'
+      chance: -1
+    - result: 'equipment.armor'
+      chance: -1
 
 - npcId: Halloween Zombie
   name: zombie
@@ -42,6 +153,11 @@
   items:
     equipment:
       hands: Medium Claws
+      rightHand:
+        - result: none
+          chance: 5000
+        - result: Halloween Zombie Claw
+          chance: 1
 
   drops:
     - result: Halloween Zombie Brain
@@ -57,3 +173,251 @@
   usableSkills:
     - ShredTenPercent
     - HalloweenZombieScratch
+
+- npcId: Halloween Skeleton
+  name: skeleton
+  monsterClass: Undead
+  monsterGroup: Undead
+  hostility: Always
+  sprite: 1015
+  alignment: Evil
+  stats: 10
+  skillLevels: 3
+  level: 15
+
+  skillOnKill: 15
+
+  otherStats:
+    con: 15
+    offense: 4
+    defense: 5
+    perception: 3
+    accuracy: 1
+    damageFactor: 0.5
+
+  gold:
+    min: 2050
+    max: 2700
+
+  hp:
+    min: 12950
+    max: 13350
+
+  giveXp:
+    min: 2400
+    max: 2700
+
+  items:
+    equipment:
+      armor: Maze Bone Tunic
+      hands: Maze Skeleton Claws
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 1.5
+        damageType: 'fire'
+
+    - name: Attribute
+      extra:
+        potency: 0.5
+        damageType: 'sharp'
+
+  drops:
+    - result: Necromancer Key
+      chance: 1
+      maxChance: 1000
+
+  copyDrops:
+    - result: 'equipment.rightHand'
+      chance: -1
+    - result: 'equipment.armor'
+      chance: -1
+    - result: 'equipment.robe1'
+      chance: -1
+
+  triggers:
+    spawn:
+      messages:
+        - "the clattering of bones"
+      sfx: 
+        name: "monster-skeleton"
+        maxChance: 20
+
+- npcId: Halloween Necromancer
+  name: necromancer
+  monsterClass: Undead
+  monsterGroup: Undead
+  affiliation: Dark Healer
+  baseClass: Healer
+  hostility: Always
+  sprite: 480
+  alignment: Evil
+  stats: 21
+  skillLevels: 6
+  level: 21
+
+  skillOnKill: 100
+
+  otherStats:
+    con: 25
+    wil: 29
+    accuracy: 10
+    offense: 5
+    perception: 3
+    stealth: 20
+    mpregen: 100
+    damageFactor: 0.5
+
+  items:
+    equipment:
+      armor:
+        - Antanian Tunic
+        - Antanian Studded Tunic
+
+      robe1:
+        - none
+        - Antanian Cloak
+
+      hands: Maze Skeleton Claws
+
+      rightHand: Halloween Zombie Staff
+      leftHand: Halloween Pumpkin Shield
+
+  gold:
+    min: 32050
+    max: 32700
+
+  hp:
+    min: 457950
+    max: 461350
+
+  mp:
+    min: 10000
+    max: 10000
+
+  giveXp:
+    min: 219000
+    max: 225000
+
+  usableSkills:
+    - PoisonBiteMedium
+    - DarkVision
+    - TrueSight
+    - Afflict
+    - Push
+    - Dispel
+    - Blind
+    - Vision
+    - Antidote
+    - Plague
+    - Disease
+    - HalloweenNecromancerSpawnUndead
+    
+  traitLevels:
+    InternalFortitude: 5
+    NecroticFocus: 5
+    DiseaseFocus: 3
+    ContagiousPlague: 1
+    DebilitatingDisease: 1
+
+  baseEffects:
+    - name: TrueSight
+      endsAt: -1
+    - name: DarkVision
+      endsAt: -1
+    - name: NecroticAura
+      endsAt: -1
+      extra:
+        potency: 100
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'necrotic'
+
+  triggers:
+    combat:
+      messages:
+        - Soon, you'll become one of my pet zombies!
+        - Nothing will stand in my way of taking over this land!
+        - I will stop at nothing to have the greatest undead army!
+
+- npcId: Halloween Horror
+  name: horror
+  monsterClass: Undead
+  monsterGroup: Undead
+  hostility: Always
+  baseClass: Mage
+  sprite: 285
+  alignment: Evil
+  stats: 17
+  skillLevels: 7
+  level: 19
+
+  skillOnKill: 100
+
+  otherStats:
+    con: 25
+    accuracy: 5
+    offense: 5
+    perception: 3
+    mpregen: 50
+
+  gold:
+    min: 23050
+    max: 33700
+
+  hp:
+    min: 387950
+    max: 391350
+
+  mp:
+    min: 10000
+    max: 10000
+
+  giveXp:
+    min: 239000
+    max: 245000
+
+  noCorpseDrop: true
+  noItemDrop: true
+
+  items:
+    equipment:
+      armor: Reinforced Maze Bone Tunic
+      hands: Maze Skeleton Claws
+      robe1: Dedlaen Death Knight Coat
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
+
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'physical'
+
+  copyDrops:
+    - result: 'equipment.armor'
+      chance: -1
+    - result: 'equipment.robe1'
+      chance: -1
+
+  usableSkills:
+    - Charge
+    - Haste
+    - ImbueEnergy
+    - Absorption
+    - Protection
+    - DarkVision
+    - ConjureSword
+    - ConjureShield
+
+  triggers:
+    combat:
+      messages:
+        - You will not slay the almighty one!
+        - Your death is all but certain!
+        - I shall personally deliver you unto the next life!

@@ -21,6 +21,8 @@ items:
 behaviors:
   - type: vendor
 
+    vendorCurrency: snowflake coins
+
     vendorItems:
       - item: Rune Scroll - Winters Embrace I
       - item: Rune Scroll - Winters Embrace II

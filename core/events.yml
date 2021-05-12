@@ -22,7 +22,7 @@ Avatar Spawn:
   name: Avatar Spawn
   duration: 1
   cooldown: 64800
-  rarity: rare
+  rarity: legendary
   description: "An avatar is coming to this realm!"
   startMessage: "An avatar is coming to this realm!"
   endMessage: "Seek the avatar for glory!"

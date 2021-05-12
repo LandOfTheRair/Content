@@ -1,3 +1,26 @@
+- name: Halloween Zombie Staff
+  stats:
+    offense: 3
+    defense: 3
+    mpregen: 10
+  maxUpgrades: 1
+  desc: "an wooden staff made of a rotten tree, pulsating with an eerie glow"
+  tier: 4
+  type: Staff
+  value: 4000
+  sprite: 711
+  animation: 14
+  binds: true
+  
+  breakEffect:
+    name: EnergyWave
+    potency: 25000
+
+  useEffect:
+    name: Resurrect
+    potency: 1
+    uses: -1
+
 - name: Thanksgiving Gobbler Staff
   stats:
     offense: 3

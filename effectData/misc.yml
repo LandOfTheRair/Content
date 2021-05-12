@@ -19,7 +19,7 @@ FindFamiliar:
   tooltip:
     icon: 'uncertainty'
     color: '#000'
-    desc: 'Generic familiar message.'
+    desc: 'This creature has familiar(s)!'
   effect:
     type: buff
     duration: 600
