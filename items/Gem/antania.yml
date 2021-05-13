@@ -27,7 +27,7 @@
   value: 1
   sprite: 243
   encrustGive:
-    slots: ['robe', 'ring']
+    slots: ['robe', 'ring', 'feet']
 
     stats:
       defense: 1
@@ -55,7 +55,7 @@
     slots: ['robe', 'ring']
 
     stats:
-      offense: 3
+      offense: 1
 
   requirements:
     level: 4
@@ -134,7 +134,7 @@
   tellsBind: true
 
   encrustGive:
-    slots: ['hands']
+    slots: ['wrists']
 
     stats:
       str: 1

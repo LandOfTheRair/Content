@@ -228,7 +228,7 @@
   sprite: 243
 
   encrustGive:
-    slots: ['robe', 'ring']
+    slots: ['robe', 'ring', 'feet']
 
     stats:
       defense: 3
