@@ -312,7 +312,7 @@
   otherStats:
     dex: 8
     perception: 15
-    damageFactor: 0.8
+    damageFactor: 0.4
 
   items:
     equipment:
@@ -362,7 +362,7 @@
     - result: Charge
       chance: 100
     - result: Backstab
-      chance: 100
+      chance: 30
     - result: Cure
       chance: 100
     - result: Snare
@@ -374,7 +374,7 @@
     - result: Hide
       chance: 100
     - result: Identify
-      chance: 100
+      chance: 0
     - result: Transmute
       chance: 5
 
@@ -428,7 +428,7 @@
     dex: 8
     accuracy: 5
     perception: 15
-    damageFactor: 0.7
+    damageFactor: 0.3
 
   items:
     equipment:
@@ -481,7 +481,7 @@
     - result: Charge
       chance: 100
     - result: Backstab
-      chance: 100
+      chance: 30
     - result: Cure
       chance: 100
     - result: Snare
@@ -495,7 +495,7 @@
     - result: Hide
       chance: 100
     - result: Identify
-      chance: 100
+      chance: 0
     - result: Transmute
       chance: 5
 
@@ -542,6 +542,7 @@
     wil: 30
     con: 30
     perception: 25
+    damageFactor: 0.7
 
   items:
     equipment:
