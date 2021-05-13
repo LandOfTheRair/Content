@@ -46,6 +46,7 @@ Saraxa Raid:
   startMessage: "Saraxa is sending some apprentices to Rylt!"
   endMessage: "Saraxa's apprentices have retreated."
   map: Rylt
+  npc: Saraxa
 
 Tonwin Raid:
   name: Tonwin Raid
@@ -56,6 +57,7 @@ Tonwin Raid:
   startMessage: "Tonwin gave a signal for the renegades to invade Rylt!"
   endMessage: "Tonwin's renegades have retreated."
   map: Rylt
+  npc: Tonwin
 
 # Yzalt
 Heniz Raid:
@@ -79,6 +81,7 @@ Heniz Crazed Plague:
   startMessage: "The plague is sweeping through the Heniz town!"
   endMessage: "The plague in the Heniz town has subsided."
   map: Yzalt
+  npc: Ranata
 
 Steffen Raid:
   name: Steffen Raid
@@ -101,6 +104,7 @@ Steffen Crazed Plague:
   startMessage: "The plague is sweeping through the Steffen town!"
   endMessage: "The plague in the Steffen town has subsided."
   map: Yzalt
+  npc: Ranata
 
 # Tower of Selen
 Tower Guards Strike Back:
@@ -123,6 +127,7 @@ Skeletal Assault:
   startMessage: "The Dark Lord is sending his minions to assault Maze Town!"
   endMessage: "The minions of darkness have retreated."
   map: DedlaenMaze
+  npc: Dedlaen Vampire
 
 # Risan Frostlands
 Ancient Assault:
@@ -134,6 +139,7 @@ Ancient Assault:
   startMessage: "The Archlich is sending his ancient minions to assault the Castle!"
   endMessage: "The archlich minions have retreated."
   map: Frostlands
+  npc: Catacombs Lich
 
 Brigand Attack:
   name: Brigand Attack
