@@ -2873,7 +2873,7 @@
          "name":"NPCs",
          "objects":[
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":174,
                  "name":"Alchemist",
@@ -2897,7 +2897,7 @@
                  "y":8064
                 }, 
                 {
-                 "gid":3177,
+                 "gid":3209,
                  "height":64,
                  "id":198,
                  "name":"Crier",
@@ -2917,7 +2917,7 @@
                  "y":8768
                 }, 
                 {
-                 "gid":3092,
+                 "gid":3124,
                  "height":64,
                  "id":298,
                  "name":"",
@@ -2941,7 +2941,7 @@
                  "y":9216
                 }, 
                 {
-                 "gid":3097,
+                 "gid":3129,
                  "height":64,
                  "id":300,
                  "name":"",
@@ -2965,7 +2965,7 @@
                  "y":8768
                 }, 
                 {
-                 "gid":3087,
+                 "gid":3119,
                  "height":64,
                  "id":301,
                  "name":"",
@@ -2989,7 +2989,7 @@
                  "y":9728
                 }, 
                 {
-                 "gid":3142,
+                 "gid":3174,
                  "height":64,
                  "id":316,
                  "name":"",
@@ -3011,7 +3011,7 @@
                  "y":9600
                 }, 
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":324,
                  "name":"",
@@ -3031,7 +3031,7 @@
                  "y":8064
                 }, 
                 {
-                 "gid":2607,
+                 "gid":2639,
                  "height":64,
                  "id":914,
                  "name":"Smith",
@@ -3055,7 +3055,7 @@
                  "y":8192
                 }, 
                 {
-                 "gid":3147,
+                 "gid":3179,
                  "height":64,
                  "id":915,
                  "name":"Banker",
@@ -3079,7 +3079,7 @@
                  "y":8320
                 }, 
                 {
-                 "gid":3107,
+                 "gid":3139,
                  "height":64,
                  "id":918,
                  "name":"",
@@ -3103,7 +3103,7 @@
                  "y":7872
                 }, 
                 {
-                 "gid":2632,
+                 "gid":2664,
                  "height":64,
                  "id":1521,
                  "name":"Librarian",
@@ -3123,7 +3123,7 @@
                  "y":3840
                 }, 
                 {
-                 "gid":3467,
+                 "gid":3499,
                  "height":64,
                  "id":1523,
                  "name":"Botanist",
@@ -3143,7 +3143,7 @@
                  "y":4096
                 }, 
                 {
-                 "gid":2632,
+                 "gid":2664,
                  "height":64,
                  "id":1591,
                  "name":"Yelak",
@@ -3163,7 +3163,7 @@
                  "y":9408
                 }, 
                 {
-                 "gid":3347,
+                 "gid":3379,
                  "height":64,
                  "id":1634,
                  "name":"San'jin",
@@ -3183,7 +3183,7 @@
                  "y":9216
                 }, 
                 {
-                 "gid":3447,
+                 "gid":3479,
                  "height":64,
                  "id":1635,
                  "name":"Enj'an",
@@ -3203,7 +3203,7 @@
                  "y":512
                 }, 
                 {
-                 "gid":4452,
+                 "gid":4484,
                  "height":64,
                  "id":1646,
                  "name":"",
@@ -7455,7 +7455,7 @@
      "itemExpirationHours":6,
      "itemGarbageCollection":30,
      "maxCreatures":700,
-     "maxLevel":30,
+     "maxLevel":25,
      "maxSkill":23,
      "region":"Risan",
      "respawnX":52,
@@ -8721,11 +8721,11 @@
          "tilewidth":64
         }, 
         {
-         "columns":32,
+         "columns":40,
          "firstgid":1329,
          "image":"..\/..\/__assets\/spritesheets\/decor.png",
-         "imageheight":2496,
-         "imagewidth":2048,
+         "imageheight":2048,
+         "imagewidth":2560,
          "margin":0,
          "name":"Decor",
          "spacing":0,
@@ -8786,7 +8786,7 @@
                  "name":"LoudRugNoShineVert",
                  "tile":569
                 }],
-         "tilecount":1248,
+         "tilecount":1280,
          "tileheight":64,
          "tiles":
             {
@@ -9299,7 +9299,7 @@
         }, 
         {
          "columns":40,
-         "firstgid":2577,
+         "firstgid":2609,
          "image":"..\/..\/__assets\/spritesheets\/creatures.png",
          "imageheight":3008,
          "imagewidth":2560,
