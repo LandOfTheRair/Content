@@ -33,6 +33,7 @@ Mood:
     duration: -1
     extra:
       unique: true
+      doesTick: true
   effectMeta:
     effectRef: Mood
       
@@ -46,6 +47,7 @@ Dangerous:
     type: buff
     duration: -1
     extra:
+      doesTick: true
       unique: true
       statChanges:
         hpregen: 100
@@ -88,6 +90,7 @@ AcolyteOverseer:
     duration: -1
     extra:
       unique: true
+      doesTick: true
   effectMeta:
     effectRef: AcolyteOverseer
 
@@ -142,6 +145,7 @@ VampireMistForm:
     type: buff
     duration: -1
     extra:
+      doesTick: true
       unique: true
   effectMeta:
     effectRef: VampireMistForm

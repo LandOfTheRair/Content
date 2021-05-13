@@ -742,7 +742,7 @@ Regen:
     effectMeta:
       effectRef: Regen
       castSfx: 'spell-buff-give'
-      applySfx: 'spell-buff-receive'
+      applySfx: 'spell-buff-magical'
       castMessage: 'You gave regeneration to %target.'
       applyMessage: "You are now regenerating health!"
       unapplyMessage: 'You are no longer regenerating health.'
@@ -1090,7 +1090,7 @@ HolyAura:
       effectRef: HolyAura
       recentlyRef: RecentlyShielded
       castSfx: 'spell-buff-give'
-      applySfx: 'spell-buff-receive'
+      applySfx: 'spell-buff-magical'
       castMessage: 'You cast HolyAura on %target.'
       applyMessage: "You're glowing with strength!"
       unapplyMessage: 'You are no longer glowing.'
@@ -1234,7 +1234,7 @@ FrostspikesAura:
     effectMeta:
       effectRef: FrostspikesAura
       castSfx: 'spell-buff-give'
-      applySfx: 'spell-buff-receive'
+      applySfx: 'spell-buff-magical'
       castMessage: 'You cast Frostspikes on %target.'
       applyMessage: "A spiky blue aura appears around you!"
       unapplyMessage: 'Your spiky blue aura fades.'
@@ -1287,7 +1287,7 @@ FirethornsAura:
     effectMeta:
       effectRef: FirethornsAura
       castSfx: 'spell-buff-give'
-      applySfx: 'spell-buff-receive'
+      applySfx: 'spell-buff-magical'
       castMessage: 'You cast Firethorns on %target.'
       applyMessage: "A thorny red aura appears around you!"
       unapplyMessage: 'Your thorny red aura fades.'

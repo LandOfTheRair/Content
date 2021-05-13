@@ -262,7 +262,7 @@ Boost:
     effectMeta:
       effectRef: Boost
       castSfx: 'spell-buff-give'
-      applySfx: 'spell-buff-receive'
+      applySfx: 'spell-buff-magical'
       castMessage: 'You cast Boost on %target.'
       applyMessage: "You feel your physique improve!"
       unapplyMessage: 'Your physique weakens.'

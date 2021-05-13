@@ -21,6 +21,7 @@ Drowning:
     type: debuff
     duration: -1
     extra:
+      doesTick: true
       unique: true
   effectMeta:
     effectRef: Drowning
@@ -117,6 +118,7 @@ LowCON:
     type: debuff
     duration: -1
     extra:
+      doesTick: true
       unique: true
       persistThroughDeath: true
   effectMeta:
