@@ -90,6 +90,10 @@
   stats: 2
   level: 1
 
+  otherStats:
+    damageFactor: 0.3
+    accuracy: -10
+
   gold:
     min: 10
     max: 20
