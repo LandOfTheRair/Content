@@ -34,7 +34,7 @@
   sprite: 1014
 
   encrustGive:
-    slots: ['amulet']
+    slots: ['neck']
 
     stats:
       wil: 3

@@ -152,7 +152,7 @@
   tellsBind: true
 
   encrustGive:
-    slots: ['amulet']
+    slots: ['neck']
 
     stats:
       int: 1
@@ -170,7 +170,7 @@
   tellsBind: true
 
   encrustGive:
-    slots: ['amulet']
+    slots: ['neck']
 
     stats:
       wis: 1
