@@ -126,7 +126,7 @@
   sprite: 340
 
   encrustGive:
-    slots: ['robe', 'helm', 'shield']
+    slots: ['robe', 'head', 'shield']
 
     stats:
       fireResist: 50
@@ -138,7 +138,7 @@
   sprite: 339
 
   encrustGive:
-    slots: ['robe', 'helm', 'shield']
+    slots: ['robe', 'head', 'shield']
 
     stats:
       iceResist: 50
@@ -150,7 +150,7 @@
   sprite: 341
 
   encrustGive:
-    slots: ['robe', 'helm', 'shield']
+    slots: ['robe', 'head', 'shield']
 
     stats:
       necroticResist: 50
@@ -162,7 +162,7 @@
   sprite: 338
 
   encrustGive:
-    slots: ['robe', 'helm', 'shield']
+    slots: ['robe', 'head', 'shield']
 
     stats:
       energyResist: 50
@@ -174,7 +174,7 @@
   sprite: 912
 
   encrustGive:
-    slots: ['robe', 'helm', 'shield']
+    slots: ['robe', 'head', 'shield']
 
     stats:
       poisonResist: 50
@@ -186,7 +186,7 @@
   sprite: 911
 
   encrustGive:
-    slots: ['robe', 'helm', 'shield']
+    slots: ['robe', 'head', 'shield']
 
     stats:
       diseaseResist: 25

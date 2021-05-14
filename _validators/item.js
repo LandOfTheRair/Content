@@ -152,6 +152,15 @@ const validate = () => {
     if(item.equipEffect && !effects[item.equipEffect.name] && !spells[item.equipEffect.name]) {
       throw new Error(`Item ${item.name} has an invalid equipEffect ${item.equipEffect.name}!`);
     }
+
+    if(item.encrustGive) {
+      if(!item.encrustGive.slots) throw new Error (`Item ${item.name} has no encrust slots!`);
+
+      const slots = ['neck', 'head', 'ear', 'waist', 'wrists', 'ring', 'armor', 'hands', 'feet', 'robe', 'weapon', 'shield'];
+      item.encrustGive.slots.forEach(slot => {
+        if(!slots.includes(slot)) throw new Error(`Item ${item.name} has invalid encrust slot ${slot}!`);
+      });
+    }
   });
 
   npcs.forEach(npc => {
