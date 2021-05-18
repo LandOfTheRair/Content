@@ -25,6 +25,7 @@ character:
   sellChaBaseDivisor: 5
   fallDamagePercent: 15
   trainingCostGoldMultiplier: 25
+  axpPerLevel: 500
 
 combat:
   buildUpDecay: 3
