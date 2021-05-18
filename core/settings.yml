@@ -94,3 +94,9 @@ subscriber:
   xpGain: 0.05
   skillGain: 0.05
   holidayTokenGain: 2
+
+tradeskill:
+  validTradeskills:
+    - Alchemy
+    - Metalworking
+    - Spellforging

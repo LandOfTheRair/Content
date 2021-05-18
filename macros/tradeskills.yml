@@ -1,0 +1,32 @@
+
+Alchemy:
+  name: 'Alchemy'
+  macro: 'tradeskill Alchemy'
+  icon: 'apothecary'
+  color: '#0a0'
+  mode: 'autoActivate'
+  tooltipDesc: 'Open the alchemy window.'
+
+Metalworking:
+  name: 'Metalworking'
+  macro: 'tradeskill Metalworking'
+  icon: 'blacksmith'
+  color: '#a00'
+  mode: 'autoActivate'
+  tooltipDesc: 'Open the metalworking window.'
+
+Spellforging:
+  name: 'Spellforging'
+  macro: 'tradeskill Spellforging'
+  icon: 'minerals'
+  color: '#f00'
+  mode: 'autoActivate'
+  tooltipDesc: 'Open the metalworking window.'
+
+Disenchant:
+  name: 'Disenchant'
+  macro: 'disenchant'
+  icon: 'sparkles'
+  color: '#0f0'
+  mode: 'autoActivate'
+  tooltipDesc: 'Disenchant the item in your right hand.'
