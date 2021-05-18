@@ -27,6 +27,6 @@ Disenchant:
   name: 'Disenchant'
   macro: 'disenchant'
   icon: 'sparkles'
-  color: '#0f0'
+  color: '#f0f'
   mode: 'autoActivate'
   tooltipDesc: 'Disenchant the item in your right hand.'
