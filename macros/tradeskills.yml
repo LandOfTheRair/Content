@@ -19,7 +19,7 @@ Spellforging:
   name: 'Spellforging'
   macro: 'tradeskill Spellforging'
   icon: 'minerals'
-  color: '#f00'
+  color: '#f0f'
   mode: 'autoActivate'
   tooltipDesc: 'Open the metalworking window.'
 
