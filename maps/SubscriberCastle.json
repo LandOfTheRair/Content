@@ -1673,6 +1673,26 @@
                  "width":64,
                  "x":1536,
                  "y":2496
+                }, 
+                {
+                 "gid":2619,
+                 "height":64,
+                 "id":537,
+                 "name":"Magician",
+                 "properties":
+                    {
+                     "tag":"Spellforger"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":2240,
+                 "y":960
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1972,7 +1992,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":537,
+ "nextobjectid":538,
  "orientation":"orthogonal",
  "properties":
     {

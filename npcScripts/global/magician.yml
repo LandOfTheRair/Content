@@ -1,0 +1,26 @@
+
+tag: Spellforger
+name: Magician
+affiliation: Magician's Guild
+hostility: Never
+
+level: 10
+
+hp:
+  min: 10000
+  max: 10000
+
+mp:
+  min: 10000
+  max: 10000
+
+usableSkills:
+  - MagicBolt
+
+items:
+  equipment:
+    rightHand: Saraxa Wand
+    armor: Cave Apprentice Robe
+
+behaviors:
+  - type: magician
