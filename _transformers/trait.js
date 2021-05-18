@@ -48,6 +48,11 @@ const merge = async () => {
       file[stemKey] = stem.trait;
     });
 
+    Object.values(file).forEach(trait => {
+      if(!trait.isAncient) return;
+      trait.iconBgColor = '#aa5c39';
+    });
+
     if(!fs.existsSync('_output')) fs.mkdirSync('_output');
     fs.writeFileSync('_output/traits.json', JSON.stringify(file, null, 4));
 
