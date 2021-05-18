@@ -94,6 +94,8 @@
       chance: 1
     - result: Rune Scroll - Death Grip I
       chance: 1
+    - result: Rune Scroll - Effective Potions I
+      chance: 1
     - result: Rune Scroll - Natural Armor I
       chance: 1
 

@@ -10,18 +10,23 @@ Core:
           - name: DeathGrip
             maxLevel: 5
 
+          - name: ''
+
           - name: NaturalArmor
             maxLevel: 5
+
+          - name: ''
 
           - name: CarefulTouch
             maxLevel: 5
 
-          - name: ''
-
         - traits: 
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: EffectivePotions
+            maxLevel: 5
+
           - name: ''
           - name: ''
 
@@ -44,5 +49,8 @@ Core:
             maxLevel: 5
 
           - name: ''
-          - name: ''
+          
+          - name: SilentStrikes
+            maxLevel: 5
+
           - name: ''

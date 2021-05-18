@@ -158,6 +158,10 @@
   chance: 1
   maxChance: 2500
 
+- result: Rune Scroll - Effective Potions I
+  chance: 1
+  maxChance: 2500
+
 - result: Rune Scroll - Sharp Vision I
   chance: 1
   maxChance: 4000

@@ -9,14 +9,18 @@ const merge = async () => {
     const file = Object.assign({}, ...files);
 
     const coreTree = file.Core;
-
     coreTree.trees.Core.tree[0].traits.forEach(t => t.treeName = 'Core');
 
+    const ancientTree = file.Ancient;
+    ancientTree.trees.Ancient.tree[0].traits.forEach(t => t.treeName = 'Ancient');
+
     Object.keys(file).forEach(treeName => {
-      if(treeName === 'Core') return;
+      if(treeName === 'Core' || treeName === 'Ancient') return;
 
       file[treeName].trees.Core = JSON.parse(JSON.stringify(coreTree.trees.Core));
+      file[treeName].trees.Ancient = JSON.parse(JSON.stringify(ancientTree.trees.Ancient));
       file[treeName].treeOrder.unshift('Core');
+      file[treeName].treeOrder.push('Ancient');
 
       Object.keys(file[treeName].trees).forEach(subtreeName => {
         const treeData = file[treeName].trees[subtreeName];

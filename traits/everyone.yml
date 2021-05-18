@@ -1,5 +1,11 @@
 
 
+EffectivePotions:
+  name: Effective Potions
+  desc: Increase the healing from all potions by +$50$.
+  icon: bubbling-flask
+  valuePerTier: 50
+
 DeathGrip:
   name: Death Grip
   desc: Decrease your chance of dropping items on death by +$10$%.
@@ -38,6 +44,13 @@ AngryFace:
   icon: unfriendly-fire
   statsGiven:
     threatMultiplier: 0.1
+
+SilentStrikes:
+  name: Silent Strikes
+  desc: Decrease the amount of agro you generate by +$10$%.
+  icon: diamonds-smile
+  statsGiven:
+    threatMultiplier: -0.1
 
 SweetTooth:
   name: Sweet Tooth

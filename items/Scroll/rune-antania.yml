@@ -17,6 +17,15 @@
     level: 1
   value: 1
 
+- name: Rune Scroll - Effective Potions I
+  sprite: 681
+  animation: 10
+  desc: "a runic scroll imbued with the empowerment \"Effective Potions I\""
+  trait:
+    name: EffectivePotions
+    level: 1
+  value: 1
+
 - name: Rune Scroll - Natural Armor I
   sprite: 681
   animation: 10
