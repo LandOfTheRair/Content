@@ -49,7 +49,7 @@ CommandingPower:
 
 QuickRecovery:
   name: Quick Recovery
-  desc: Increases your natural health regeneration by +$5$%.
+  desc: Increases your natural health regeneration by +$5$.
   icon: psychic-waves
   isAncient: true
   statsGiven:
