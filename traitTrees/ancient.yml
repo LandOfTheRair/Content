@@ -17,7 +17,9 @@ Ancient:
             isAncient: true
             maxLevel: 5
 
-          - name: ''
+          - name: AncientFortitude
+            isAncient: true
+            maxLevel: 5
           
           - name: AncientGrip
             isAncient: true

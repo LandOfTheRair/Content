@@ -15,6 +15,13 @@ AncientPotions:
   isAncient: true
   valuePerTier: 500
 
+AncientFortitude:
+  name: Ancient Fortitude
+  desc: Increase your saving throw to resist spells by +$3$.
+  icon: brain
+  isAncient: true
+  valuePerTier: 3
+
 AncientAnger:
   name: Ancient Anger
   desc: Increase the amount of agro you generate by +$5$%.
