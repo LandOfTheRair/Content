@@ -543,6 +543,7 @@
     con: 30
     perception: 25
     damageFactor: 0.7
+    stealth: -10
 
   items:
     equipment:
@@ -572,7 +573,7 @@
     Riposte: 5
     ShadowSheath: 5
     ShadowSwap: 5
-    DarkerShadows: 10
+    DarkerShadows: 1
     ShadowDaggers: 1
     DarknessWiden: 1
 
