@@ -31,6 +31,7 @@ const itemSchema = [
   ['stats', false, isObject],
   ['maxUpgrades', false, isInteger],
   ['canUpgradeWith', false, isBoolean],
+  ['recipe', false, isString],
 
   ['cosmetic', false, isCosmetic],
   ['cosmetic.isPermanent', false, isBoolean],
