@@ -1,6 +1,8 @@
 
 - item: Copper Ore (Large)
-  skillGained: 5
+  name: Large Copper Ore
+  category: Refine
+  skillGained: 2
   maxSkillForGains: 3
   xpGained: 100
   ingredients:
@@ -11,8 +13,10 @@
     - Copper Ore (Small)
 
 - item: Silver Ore (Large)
-  skillGained: 5
-  maxSkillForGains: 3
+  name: Large Silver Ore
+  category: Refine
+  skillGained: 2
+  maxSkillForGains: 5
   xpGained: 100
   ingredients:
     - Silver Ore (Small)
@@ -22,8 +26,10 @@
     - Silver Ore (Small)
 
 - item: Gold Ore (Large)
-  skillGained: 5
-  maxSkillForGains: 3
+  name: Large Gold Ore
+  category: Refine
+  skillGained: 2
+  maxSkillForGains: 7
   xpGained: 100
   ingredients:
     - Gold Ore (Small)

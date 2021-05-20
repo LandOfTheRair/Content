@@ -1,8 +1,11 @@
 
 - item: Basic Machleum Ring
+  name: Machleum Ring
+  category: Refinement
+  requireClass: [Mage]
   skillGained: 20
-  maxSkillForGains: 15
-  requiredSkill: 10
+  maxSkillForGains: 16
+  requiredSkill: 12
   xpGained: 25000
   ingredients:
     - Enchanting Brick - Owts

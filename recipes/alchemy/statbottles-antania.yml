@@ -1,9 +1,11 @@
 
 
 - item: Antanian Strength Potion
-  skillGained: 1000
-  maxSkillForGains: 15
-  requiredSkill: 5
+  name: Minor Strength Potion
+  category: Minor Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 18
+  requiredSkill: 15
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -16,9 +18,11 @@
     - Tower Goblood
 
 - item: Antanian Dexterity Potion
-  skillGained: 1000
-  maxSkillForGains: 15
-  requiredSkill: 5
+  name: Minor Dexterity Potion
+  category: Minor Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 18
+  requiredSkill: 15
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -31,9 +35,11 @@
     - Yzalt Steffen Apple
 
 - item: Antanian Intelligence Potion
-  skillGained: 1000
-  maxSkillForGains: 15
-  requiredSkill: 5
+  name: Minor Intelligence Potion
+  category: Minor Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 18
+  requiredSkill: 15
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -46,9 +52,11 @@
     - Yzalt Bogweed
 
 - item: Antanian Wisdom Potion
-  skillGained: 1000
-  maxSkillForGains: 15
-  requiredSkill: 5
+  name: Minor Wisdom Potion
+  category: Minor Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 18
+  requiredSkill: 15
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -61,9 +69,11 @@
     - Rylt Blueflower
 
 - item: Antanian Agility Potion
-  skillGained: 1000
-  maxSkillForGains: 15
-  requiredSkill: 5
+  name: Minor Agility Potion
+  category: Minor Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 18
+  requiredSkill: 15
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -76,9 +86,11 @@
     - Maze Corpseflower
 
 - item: Antanian Willpower Potion
-  skillGained: 1000
-  maxSkillForGains: 17
-  requiredSkill: 7
+  name: Minor Willpower Potion
+  category: Minor Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 18
+  requiredSkill: 15
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -91,9 +103,11 @@
     - Antanian Constitution Potion
 
 - item: Antanian Charisma Potion
-  skillGained: 1000
-  maxSkillForGains: 17
-  requiredSkill: 7
+  name: Minor Charisma Potion
+  category: Minor Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 18
+  requiredSkill: 15
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -106,9 +120,11 @@
     - Antanian Agility Potion
 
 - item: Antanian Luck Potion
-  skillGained: 1000
-  maxSkillForGains: 19
-  requiredSkill: 9
+  name: Minor Luck Potion
+  category: Minor Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 18
+  requiredSkill: 15
   xpGained: 5000
   ingredients:
     - Antanian Strength Potion
@@ -122,9 +138,11 @@
 
 # substitution recipes, using the turtle egg instead of the other component
 - item: Antanian Strength Potion
-  skillGained: 1000
-  maxSkillForGains: 15
-  requiredSkill: 5
+  name: Minor Strength Potion
+  category: Minor Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 18
+  requiredSkill: 15
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -137,9 +155,11 @@
     - Tower Goblood
 
 - item: Antanian Dexterity Potion
-  skillGained: 1000
-  maxSkillForGains: 15
-  requiredSkill: 5
+  name: Minor Dexterity Potion
+  category: Minor Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 18
+  requiredSkill: 15
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -152,9 +172,11 @@
     - Yzalt Steffen Apple
 
 - item: Antanian Intelligence Potion
-  skillGained: 1000
-  maxSkillForGains: 15
-  requiredSkill: 5
+  name: Minor Intelligence Potion
+  category: Minor Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 18
+  requiredSkill: 15
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -167,9 +189,11 @@
     - Yzalt Bogweed
 
 - item: Antanian Wisdom Potion
-  skillGained: 1000
-  maxSkillForGains: 15
-  requiredSkill: 5
+  name: Minor Wisdom Potion
+  category: Minor Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 18
+  requiredSkill: 15
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -182,9 +206,11 @@
     - Rylt Blueflower
 
 - item: Antanian Agility Potion
-  skillGained: 1000
-  maxSkillForGains: 15
-  requiredSkill: 5
+  name: Minor Agility Potion
+  category: Minor Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 18
+  requiredSkill: 15
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -197,9 +223,11 @@
     - Maze Corpseflower
 
 - item: Antanian Magic Potion
-  skillGained: 100
-  maxSkillForGains: 5
-  requiredSkill: 1
+  name: Minor Magic Potion
+  category: Minor Stat Bottles
+  skillGained: 2
+  maxSkillForGains: 8
+  requiredSkill: 6
   xpGained: 5000
   ingredients:
     - Tower Goblood

@@ -1,7 +1,9 @@
 
 - item: Antanian Copper Dagger
-  skillGained: 20
-  maxSkillForGains: 7
+  name: Copper Dagger
+  category: Antanian Weaponry
+  skillGained: 2
+  maxSkillForGains: 4
   requiredSkill: 0
   xpGained: 1500
   ingredients:
@@ -9,8 +11,10 @@
     - Copper Ore (Small)
 
 - item: Antanian Copper Longsword
-  skillGained: 20
-  maxSkillForGains: 7
+  name: Copper Longsword
+  category: Antanian Weaponry
+  skillGained: 2
+  maxSkillForGains: 4
   requiredSkill: 0
   xpGained: 1500
   ingredients:
@@ -18,8 +22,10 @@
     - Copper Ore (Large)
 
 - item: Antanian Copper Greatsword
-  skillGained: 20
-  maxSkillForGains: 7
+  name: Copper Greatsword
+  category: Antanian Weaponry
+  skillGained: 2
+  maxSkillForGains: 4
   requiredSkill: 0
   xpGained: 1500
   ingredients:
@@ -27,8 +33,10 @@
     - Copper Ore (Small)
 
 - item: Antanian Copper Halberd
-  skillGained: 20
-  maxSkillForGains: 7
+  name: Copper Halberd
+  category: Antanian Weaponry
+  skillGained: 2
+  maxSkillForGains: 4
   requiredSkill: 0
   xpGained: 1500
   ingredients:
@@ -36,53 +44,65 @@
     - Copper Ore (Large)
 
 - item: Antanian Silver Axe
-  skillGained: 20
+  name: Silver Axe
+  category: Antanian Weaponry
+  skillGained: 2
   maxSkillForGains: 7
-  requiredSkill: 0
+  requiredSkill: 3
   xpGained: 1500
   ingredients:
     - Antanian Twig
     - Silver Ore (Small)
 
 - item: Antanian Silver Hammer
-  skillGained: 20
+  name: Silver Hammer
+  category: Antanian Weaponry
+  skillGained: 2
   maxSkillForGains: 7
-  requiredSkill: 0
+  requiredSkill: 3
   xpGained: 1500
   ingredients:
     - Antanian Twig
     - Silver Ore (Large)
 
 - item: Antanian Silver Greataxe
-  skillGained: 20
+  name: Silver Greataxe
+  category: Antanian Weaponry
+  skillGained: 2
   maxSkillForGains: 7
-  requiredSkill: 0
+  requiredSkill: 3
   xpGained: 1500
   ingredients:
     - Antanian Branch
     - Silver Ore (Small)
 
 - item: Antanian Silver Greatmace
-  skillGained: 20
+  name: Silver Greatmace
+  category: Antanian Weaponry
+  skillGained: 2
   maxSkillForGains: 7
-  requiredSkill: 0
+  requiredSkill: 3
   xpGained: 1500
   ingredients:
     - Antanian Branch
     - Silver Ore (Large)
 
 - item: Antanian Golden Staff
-  skillGained: 50
-  maxSkillForGains: 14
-  requiredSkill: 7
+  name: Golden Staff
+  category: Antanian Weaponry
+  skillGained: 2
+  maxSkillForGains: 8
+  requiredSkill: 4
   xpGained: 15000
   ingredients:
     - Antanian Branch
     - Gold Ore (Small)
 
 - item: Antanian Crafted Arrows
-  skillGained: 20
-  maxSkillForGains: 7
+  name: Wooden Arrows
+  category: Antanian Weaponry
+  skillGained: 2
+  maxSkillForGains: 3
   requiredSkill: 0
   xpGained: 1500
   ingredients:

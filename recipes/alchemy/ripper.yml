@@ -1,10 +1,13 @@
 
 
 - item: EtherFire Potion (5oz)
-  skillGained: 50
-  maxSkillForGains: 9
-  requiredSkill: 2
+  name: Etherfire Potion
+  category: Holy Water
+  skillGained: 3
+  maxSkillForGains: 15
+  requiredSkill: 11
   xpGained: 5000
+  requireClass: [Healer]
   ingredients:
     - Holy Water
     - Weak BarFire Potion
@@ -12,20 +15,26 @@
     - Maze Corpseflower
 
 - item: BeastRipper Potion (5oz)
-  skillGained: 50
-  maxSkillForGains: 9
-  requiredSkill: 2
+  name: Beastripper Potion
+  category: Holy Water
+  skillGained: 3
+  maxSkillForGains: 15
+  requiredSkill: 11
   xpGained: 5000
+  requireClass: [Healer]
   ingredients:
     - Holy Water
     - Weak BarNecro Potion
     - Antanian Bear Meat
 
 - item: ScaleShredder Potion (5oz)
-  skillGained: 50
-  maxSkillForGains: 9
-  requiredSkill: 2
+  name: Scaleshredder Potion
+  category: Holy Water
+  skillGained: 3
+  maxSkillForGains: 15
+  requiredSkill: 11
   xpGained: 5000
+  requireClass: [Healer]
   ingredients:
     - Holy Water
     - Weak BarFrost Potion

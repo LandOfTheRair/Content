@@ -1,6 +1,8 @@
 
 - item: Weak EagleEye Potion
-  skillGained: 50
+  name: Small EagleEye Potion
+  category: Spell Bottles
+  skillGained: 2
   maxSkillForGains: 7
   requiredSkill: 2
   xpGained: 7500
@@ -9,7 +11,9 @@
     - Mines Caveflower
 
 - item: Weak EagleEye Potion (10oz)
-  skillGained: 50
+  name: Large EagleEye Potion
+  category: Spell Bottles
+  skillGained: 2
   maxSkillForGains: 7
   requiredSkill: 2
   xpGained: 7500
@@ -18,7 +22,9 @@
     - Mines Caveflower
 
 - item: Weak Absorption Potion
-  skillGained: 50
+  name: Small Absorption Potion
+  category: Spell Bottles
+  skillGained: 2
   maxSkillForGains: 7
   requiredSkill: 2
   xpGained: 7500
@@ -28,7 +34,9 @@
     - Mines Caveflower
 
 - item: Weak Absorption Potion (10oz)
-  skillGained: 50
+  name: Large Absorption Potion
+  category: Spell Bottles
+  skillGained: 2
   maxSkillForGains: 7
   requiredSkill: 2
   xpGained: 7500
@@ -38,7 +46,9 @@
     - Mines Caveflower
 
 - item: Weak BarWater Potion (10oz)
-  skillGained: 5
+  name: Large BarWater Potion
+  category: Spell Bottles
+  skillGained: 2
   maxSkillForGains: 4
   xpGained: 150
   ingredients:
@@ -46,7 +56,9 @@
     - Antanian Pint of Water
 
 - item: Weak BarFire Potion (10oz)
-  skillGained: 5
+  name: Large BarFire Potion
+  category: Spell Bottles
+  skillGained: 2
   maxSkillForGains: 4
   xpGained: 150
   ingredients:
@@ -55,7 +67,9 @@
     - Antanian Pint of Water
 
 - item: Weak BarFrost Potion (10oz)
-  skillGained: 5
+  name: Large BarFrost Potion
+  category: Spell Bottles
+  skillGained: 2
   maxSkillForGains: 4
   xpGained: 150
   ingredients:
@@ -64,7 +78,9 @@
     - Yzalt Steffen Apple
 
 - item: Weak BarNecro Potion (10oz)
-  skillGained: 5
+  name: Large BarNecro Potion
+  category: Spell Bottles
+  skillGained: 2
   maxSkillForGains: 4
   xpGained: 150
   ingredients:
@@ -73,7 +89,9 @@
     - Antanian Pint of Water
 
 - item: DarkVision Potion (10oz)
-  skillGained: 10
+  name: Large DarkVision Potion
+  category: Spell Bottles
+  skillGained: 2
   maxSkillForGains: 7
   requiredSkill: 1
   xpGained: 600
@@ -82,7 +100,9 @@
     - Antanian Pint of Water
 
 - item: TrueSight Potion (10oz)
-  skillGained: 10
+  name: Large TrueSight Potion
+  category: Spell Bottles
+  skillGained: 2
   maxSkillForGains: 7
   requiredSkill: 1
   xpGained: 600
@@ -91,9 +111,11 @@
     - Antanian Pint of Water
 
 - item: Weak Regen Potion
-  skillGained: 10
-  maxSkillForGains: 7
-  requiredSkill: 1
+  name: Small Regen Potion
+  category: Spell Bottles
+  skillGained: 2
+  maxSkillForGains: 8
+  requiredSkill: 5
   xpGained: 600
   ingredients:
     - Tower Goblood
@@ -101,9 +123,11 @@
     - Antanian Pint of Water
 
 - item: Weak Regen Potion (5oz)
-  skillGained: 10
-  maxSkillForGains: 7
-  requiredSkill: 1
+  name: Large Regen Potion
+  category: Spell Bottles
+  skillGained: 2
+  maxSkillForGains: 8
+  requiredSkill: 5
   xpGained: 600
   ingredients:
     - Tower Goblood
@@ -111,24 +135,33 @@
     - Antanian Pint of Water
 
 - item: Medium BarFire Potion (10oz)
-  skillGained: 100
-  maxSkillForGains: 12
+  name: Large BarFire Potion II
+  category: Spell Bottles
+  skillGained: 2
+  maxSkillForGains: 15
+  requiredSkill: 13
   xpGained: 15000
   ingredients:
     - Frostlands Gourd
     - Weak BarFire Potion (10oz)
 
 - item: Medium BarFrost Potion (10oz)
-  skillGained: 100
-  maxSkillForGains: 12
+  name: Large BarFrost Potion II
+  category: Spell Bottles
+  skillGained: 2
+  maxSkillForGains: 15
+  requiredSkill: 13
   xpGained: 15000
   ingredients:
     - Frostlands Gourd
     - Weak BarFrost Potion (10oz)
 
 - item: Medium BarNecro Potion (10oz)
-  skillGained: 100
-  maxSkillForGains: 12
+  name: Large BarNecro Potion II
+  category: Spell Bottles
+  skillGained: 2
+  maxSkillForGains: 15
+  requiredSkill: 13
   xpGained: 15000
   ingredients:
     - Frostlands Gourd

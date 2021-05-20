@@ -1,9 +1,11 @@
 
 
 - item: Risan Strength Potion
-  skillGained: 1000
-  maxSkillForGains: 17
-  requiredSkill: 8
+  name: Basic Strength Potion
+  category: Basic Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 21
+  requiredSkill: 18
   xpGained: 15000
   ingredients:
     - Silver Scale (Refined)
@@ -16,9 +18,11 @@
     - Catacombs Frostflower
 
 - item: Risan Dexterity Potion
-  skillGained: 1000
-  maxSkillForGains: 17
-  requiredSkill: 8
+  name: Basic Dexterity Potion
+  category: Basic Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 21
+  requiredSkill: 18
   xpGained: 15000
   ingredients:
     - Silver Scale (Refined)
@@ -31,9 +35,11 @@
     - Catacombs Frostflower
 
 - item: Risan Intelligence Potion
-  skillGained: 1000
-  maxSkillForGains: 17
-  requiredSkill: 8
+  name: Basic Intelligence Potion
+  category: Basic Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 21
+  requiredSkill: 18
   xpGained: 15000
   ingredients:
     - Silver Scale (Refined)
@@ -46,9 +52,11 @@
     - Catacombs Frostflower
 
 - item: Risan Wisdom Potion
-  skillGained: 1000
-  maxSkillForGains: 17
-  requiredSkill: 8
+  name: Basic Wisdom Potion
+  category: Basic Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 21
+  requiredSkill: 18
   xpGained: 15000
   ingredients:
     - Silver Scale (Refined)
@@ -61,9 +69,11 @@
     - Catacombs Frostflower
 
 - item: Risan Agility Potion
-  skillGained: 1000
-  maxSkillForGains: 17
-  requiredSkill: 8
+  name: Basic Agility Potion
+  category: Basic Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 21
+  requiredSkill: 18
   xpGained: 15000
   ingredients:
     - Silver Scale (Refined)
@@ -76,9 +86,11 @@
     - Catacombs Frostflower
 
 - item: Risan Willpower Potion
-  skillGained: 1000
-  maxSkillForGains: 20
-  requiredSkill: 10
+  name: Basic Willpower Potion
+  category: Basic Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 21
+  requiredSkill: 18
   xpGained: 15000
   ingredients:
     - Silver Scale (Refined)
@@ -91,9 +103,11 @@
     - Risan Constitution Potion
 
 - item: Risan Charisma Potion
-  skillGained: 1000
-  maxSkillForGains: 20
-  requiredSkill: 10
+  name: Basic Charisma Potion
+  category: Basic Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 21
+  requiredSkill: 18
   xpGained: 15000
   ingredients:
     - Silver Scale (Refined)
@@ -106,9 +120,11 @@
     - Risan Agility Potion
 
 - item: Risan Luck Potion
-  skillGained: 1000
-  maxSkillForGains: 25
-  requiredSkill: 12
+  name: Basic Luck Potion
+  category: Basic Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 21
+  requiredSkill: 18
   xpGained: 15000
   ingredients:
     - Risan Strength Potion

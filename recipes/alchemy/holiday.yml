@@ -1,6 +1,9 @@
 
 - item: Halloween Brew
-  skillGained: 1000
+  name: Candy Stew
+  category: Holiday
+  requireLearn: true
+  skillGained: 2
   maxSkillForGains: 7
   requiredSkill: 0
   xpGained: 5000
@@ -14,7 +17,10 @@
     - Halloween Candy - Mints
 
 - item: Christmas Gingerbread
-  skillGained: 1000
+  name: Gingerbread Cookie
+  category: Holiday
+  requireLearn: true
+  skillGained: 2
   maxSkillForGains: 7
   requiredSkill: 0
   xpGained: 5000
@@ -23,7 +29,10 @@
     - Christmas Walnuts
 
 - item: Christmas Egg Nog
-  skillGained: 1000
+  name: Egg Nog
+  category: Holiday
+  requireLearn: true
+  skillGained: 2
   maxSkillForGains: 7
   requiredSkill: 0
   xpGained: 5000

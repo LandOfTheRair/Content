@@ -10,6 +10,9 @@ const addRecipeData = (recipe) => {
 }
 
 const validateRecipe = (recipe, allItems) => {
+  if(!recipe.name) return false;
+  if(!recipe.category) return false;
+  if(!recipe.item) return false;
   // TODO: https://github.com/LandOfTheRair/landoftherair/blob/master/src/server/tasks/recipes.ts
   return true;
 };
