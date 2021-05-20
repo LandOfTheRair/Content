@@ -93,6 +93,7 @@
     con: 25
     perception: 8
     mpregen: 10
+    damageFactor: 0.5
 
   gold:
     min: 1550
