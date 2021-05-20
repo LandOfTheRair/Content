@@ -51,18 +51,6 @@ slots:
     sprite: 950
     withdrawInOunces: true
 
-  CopperIngot:
-    items: [Copper Ingot (Pillars)]
-    sprite: 996
-
-  SilverIngot:
-    items: [Silver Ingot (Hourglass)]
-    sprite: 1001
-
-  GoldIngot:
-    items: [Gold Ingot (Infinity)]
-    sprite: 409
-
   # Twigs
   AntanianTwig:
     items: [Antanian Twig]
@@ -101,11 +89,16 @@ slots:
     items: [Silver Scale (Refined)]
     sprite: 967
 
+  # Dust
+  EnosDust:
+    items: [Enchanting Dust - Enos]
+    sprite: 1037
+    withdrawInOunces: true
+
 layouts:
   - category: Raw Materials
     items: [
-      CopperOre, SilverOre, GoldOre, null, null,
-      CopperIngot, SilverIngot, GoldIngot, null, null,
+      CopperOre, SilverOre, GoldOre, EnosDust, null,
       AntanianTwig, AntanianBranch, RisanTwig, RisanBranch, RisanTwigFrozen
     ]
 

@@ -3,9 +3,9 @@
 - item: Antanian Strength Potion
   name: Minor Strength Potion
   category: Minor Stat Bottles
-  skillGained: 3
-  maxSkillForGains: 18
-  requiredSkill: 15
+  skillGained: 5
+  maxSkillForGains: 15
+  requireSkill: 11
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -20,9 +20,9 @@
 - item: Antanian Dexterity Potion
   name: Minor Dexterity Potion
   category: Minor Stat Bottles
-  skillGained: 3
-  maxSkillForGains: 18
-  requiredSkill: 15
+  skillGained: 5
+  maxSkillForGains: 15
+  requireSkill: 11
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -37,9 +37,9 @@
 - item: Antanian Intelligence Potion
   name: Minor Intelligence Potion
   category: Minor Stat Bottles
-  skillGained: 3
-  maxSkillForGains: 18
-  requiredSkill: 15
+  skillGained: 5
+  maxSkillForGains: 15
+  requireSkill: 11
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -54,9 +54,9 @@
 - item: Antanian Wisdom Potion
   name: Minor Wisdom Potion
   category: Minor Stat Bottles
-  skillGained: 3
-  maxSkillForGains: 18
-  requiredSkill: 15
+  skillGained: 5
+  maxSkillForGains: 15
+  requireSkill: 11
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -71,9 +71,9 @@
 - item: Antanian Agility Potion
   name: Minor Agility Potion
   category: Minor Stat Bottles
-  skillGained: 3
-  maxSkillForGains: 18
-  requiredSkill: 15
+  skillGained: 5
+  maxSkillForGains: 15
+  requireSkill: 11
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -88,9 +88,9 @@
 - item: Antanian Willpower Potion
   name: Minor Willpower Potion
   category: Minor Stat Bottles
-  skillGained: 3
-  maxSkillForGains: 18
-  requiredSkill: 15
+  skillGained: 10
+  maxSkillForGains: 17
+  requireSkill: 13
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -105,9 +105,9 @@
 - item: Antanian Charisma Potion
   name: Minor Charisma Potion
   category: Minor Stat Bottles
-  skillGained: 3
-  maxSkillForGains: 18
-  requiredSkill: 15
+  skillGained: 10
+  maxSkillForGains: 17
+  requireSkill: 13
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -122,9 +122,9 @@
 - item: Antanian Luck Potion
   name: Minor Luck Potion
   category: Minor Stat Bottles
-  skillGained: 3
-  maxSkillForGains: 18
-  requiredSkill: 15
+  skillGained: 15
+  maxSkillForGains: 19
+  requireSkill: 15
   xpGained: 5000
   ingredients:
     - Antanian Strength Potion
@@ -138,11 +138,11 @@
 
 # substitution recipes, using the turtle egg instead of the other component
 - item: Antanian Strength Potion
-  name: Minor Strength Potion
+  name: Minor Strength Potion (Alt)
   category: Minor Stat Bottles
   skillGained: 3
-  maxSkillForGains: 18
-  requiredSkill: 15
+  maxSkillForGains: 15
+  requireSkill: 11
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -155,11 +155,11 @@
     - Tower Goblood
 
 - item: Antanian Dexterity Potion
-  name: Minor Dexterity Potion
+  name: Minor Dexterity Potion (Alt)
   category: Minor Stat Bottles
   skillGained: 3
-  maxSkillForGains: 18
-  requiredSkill: 15
+  maxSkillForGains: 15
+  requireSkill: 11
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -172,11 +172,11 @@
     - Yzalt Steffen Apple
 
 - item: Antanian Intelligence Potion
-  name: Minor Intelligence Potion
+  name: Minor Intelligence Potion (Alt)
   category: Minor Stat Bottles
   skillGained: 3
-  maxSkillForGains: 18
-  requiredSkill: 15
+  maxSkillForGains: 15
+  requireSkill: 11
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -189,11 +189,11 @@
     - Yzalt Bogweed
 
 - item: Antanian Wisdom Potion
-  name: Minor Wisdom Potion
+  name: Minor Wisdom Potion (Alt)
   category: Minor Stat Bottles
   skillGained: 3
-  maxSkillForGains: 18
-  requiredSkill: 15
+  maxSkillForGains: 15
+  requireSkill: 11
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -206,11 +206,11 @@
     - Rylt Blueflower
 
 - item: Antanian Agility Potion
-  name: Minor Agility Potion
+  name: Minor Agility Potion (Alt)
   category: Minor Stat Bottles
   skillGained: 3
-  maxSkillForGains: 18
-  requiredSkill: 15
+  maxSkillForGains: 15
+  requireSkill: 11
   xpGained: 5000
   ingredients:
     - Ether Scale (Refined)
@@ -226,8 +226,8 @@
   name: Minor Magic Potion
   category: Minor Stat Bottles
   skillGained: 2
-  maxSkillForGains: 8
-  requiredSkill: 6
+  maxSkillForGains: 10
+  requireSkill: 6
   xpGained: 5000
   ingredients:
     - Tower Goblood

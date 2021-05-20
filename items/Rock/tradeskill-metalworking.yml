@@ -1,4 +1,5 @@
 
+# Copper ore
 - name: Copper Ore (Small)
   sprite: 993
   desc: "copper ore"
@@ -11,21 +12,38 @@
   ounces: 5
   value: 500
 
+# Copper ingot
 - name: Copper Ingot (Pillars)
   sprite: 996
   desc: "a copper ingot inscribed with ancient pillars"
   value: 11000
+  canUpgradeWith: true
+
+  stats:
+    hpregen: 2
+    mpregen: 2
 
 - name: Copper Ingot (Infinity)
   sprite: 997
   desc: "a copper ingot inscribed with the symbol of infinity"
   value: 11000
+  canUpgradeWith: true
+
+  stats:
+    physicalResist: 3
+    magicalResist: 3
 
 - name: Copper Ingot (Hourglass)
   sprite: 998
   desc: "a copper ingot inscribed with an hourglass"
   value: 11000
+  canUpgradeWith: true
 
+  stats:
+    physicalReflect: 35
+    magicalReflect: 35
+
+# Silver ore
 - name: Silver Ore (Small)
   sprite: 614
   desc: "silver ore"
@@ -38,21 +56,35 @@
   ounces: 5
   value: 1500
 
+# Silver ingot
 - name: Silver Ingot (Pillars)
   sprite: 999
   desc: "a silver ingot inscribed with ancient pillars"
   value: 33000
+  canUpgradeWith: true
+
+  stats:
+    armorClass: 2
 
 - name: Silver Ingot (Infinity)
   sprite: 1000
   desc: "a silver ingot inscribed with the symbol of infinity"
   value: 33000
+  canUpgradeWith: true
+
+  stats:
+    mitigation: 1
 
 - name: Silver Ingot (Hourglass)
   sprite: 1001
   desc: "a silver ingot inscribed with an hourglass"
   value: 33000
+  canUpgradeWith: true
 
+  stats:
+    weaponArmorClass: 7
+
+# Gold ore
 - name: Gold Ore (Small)
   sprite: 950
   desc: "gold ore"
@@ -65,20 +97,33 @@
   ounces: 5
   value: 2500
 
+# Gold ingot
 - name: Gold Ingot (Pillars)
   sprite: 408
   desc: "a gold ingot inscribed with ancient pillars"
   value: 55000
+  canUpgradeWith: true
+
+  stats:
+    perception: 3
 
 - name: Gold Ingot (Infinity)
   sprite: 409
   desc: "a gold ingot inscribed with the symbol of infinity"
   value: 55000
+  canUpgradeWith: true
+
+  stats:
+    spellCriticalPercent: 2
 
 - name: Gold Ingot (Hourglass)
   sprite: 410
   desc: "a gold ingot inscribed with an hourglass"
   value: 55000
+  canUpgradeWith: true
+
+  stats:
+    stealth: 2
 
 - name: Titanium Ingot (Daus)
   sprite: 68

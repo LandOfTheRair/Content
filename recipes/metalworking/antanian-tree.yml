@@ -4,7 +4,7 @@
   category: Antanian Weaponry
   skillGained: 2
   maxSkillForGains: 4
-  requiredSkill: 0
+  requireSkill: 0
   xpGained: 1500
   ingredients:
     - Antanian Twig
@@ -14,8 +14,8 @@
   name: Copper Longsword
   category: Antanian Weaponry
   skillGained: 2
-  maxSkillForGains: 4
-  requiredSkill: 0
+  maxSkillForGains: 5
+  requireSkill: 1
   xpGained: 1500
   ingredients:
     - Antanian Twig
@@ -25,8 +25,8 @@
   name: Copper Greatsword
   category: Antanian Weaponry
   skillGained: 2
-  maxSkillForGains: 4
-  requiredSkill: 0
+  maxSkillForGains: 6
+  requireSkill: 2
   xpGained: 1500
   ingredients:
     - Antanian Branch
@@ -36,8 +36,8 @@
   name: Copper Halberd
   category: Antanian Weaponry
   skillGained: 2
-  maxSkillForGains: 4
-  requiredSkill: 0
+  maxSkillForGains: 7
+  requireSkill: 3
   xpGained: 1500
   ingredients:
     - Antanian Branch
@@ -47,8 +47,8 @@
   name: Silver Axe
   category: Antanian Weaponry
   skillGained: 2
-  maxSkillForGains: 7
-  requiredSkill: 3
+  maxSkillForGains: 8
+  requireSkill: 4
   xpGained: 1500
   ingredients:
     - Antanian Twig
@@ -58,8 +58,8 @@
   name: Silver Hammer
   category: Antanian Weaponry
   skillGained: 2
-  maxSkillForGains: 7
-  requiredSkill: 3
+  maxSkillForGains: 9
+  requireSkill: 5
   xpGained: 1500
   ingredients:
     - Antanian Twig
@@ -69,8 +69,8 @@
   name: Silver Greataxe
   category: Antanian Weaponry
   skillGained: 2
-  maxSkillForGains: 7
-  requiredSkill: 3
+  maxSkillForGains: 10
+  requireSkill: 6
   xpGained: 1500
   ingredients:
     - Antanian Branch
@@ -80,8 +80,8 @@
   name: Silver Greatmace
   category: Antanian Weaponry
   skillGained: 2
-  maxSkillForGains: 7
-  requiredSkill: 3
+  maxSkillForGains: 11
+  requireSkill: 7
   xpGained: 1500
   ingredients:
     - Antanian Branch
@@ -92,7 +92,7 @@
   category: Antanian Weaponry
   skillGained: 2
   maxSkillForGains: 8
-  requiredSkill: 4
+  requireSkill: 4
   xpGained: 15000
   ingredients:
     - Antanian Branch
@@ -102,8 +102,8 @@
   name: Wooden Arrows
   category: Antanian Weaponry
   skillGained: 2
-  maxSkillForGains: 3
-  requiredSkill: 0
+  maxSkillForGains: 4
+  requireSkill: 1
   xpGained: 1500
   ingredients:
     - Antanian Twig

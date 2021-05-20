@@ -67,3 +67,23 @@
     duration: 10
     potency: 50
   value: 500
+
+- name: Instant Heal Regen Bottle (50oz)
+  desc: "a small purple bottle labeled Instant Heal"
+  extendedDesc: "a healing potion"
+  sprite: 959
+  ounces: 50
+  useEffect:
+    name: ExactHealRegen
+    potency: 1000
+  value: 1
+
+- name: Instant Heal Regen Bottle (100oz)
+  desc: "a small purple bottle labeled Instant Heal"
+  extendedDesc: "a healing potion"
+  sprite: 959
+  ounces: 100
+  useEffect:
+    name: ExactHealRegen
+    potency: 1000
+  value: 1

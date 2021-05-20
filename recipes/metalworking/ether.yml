@@ -5,7 +5,7 @@
   category: Ether Armor
   skillGained: 3
   maxSkillForGains: 19
-  requiredSkill: 15
+  requireSkill: 15
   xpGained: 25000
   ingredients:
     - Antanian Breastplate
@@ -17,9 +17,9 @@
   requireLearn: true
   skillGained: 3
   maxSkillForGains: 22
-  requiredSkill: 18
+  requireSkill: 18
   xpGained: 25000
-  transferOwner: true
+  transferOwnerFrom: Ether Fullplate
   ingredients:
     - Ether Fullplate
     - Ether Scale (Refined)
@@ -29,7 +29,7 @@
   category: Ether Armor
   skillGained: 3
   maxSkillForGains: 19
-  requiredSkill: 15
+  requireSkill: 15
   xpGained: 50000
   ingredients:
     - Risan Breastplate
@@ -41,9 +41,9 @@
   requireLearn: true
   skillGained: 3
   maxSkillForGains: 22
-  requiredSkill: 18
+  requireSkill: 18
   xpGained: 100000
-  transferOwner: true
+  transferOwnerFrom: Silver Fullplate
   ingredients:
     - Silver Fullplate
     - Silver Scale (Refined)
@@ -54,7 +54,7 @@
   category: Ether Armor
   skillGained: 3
   maxSkillForGains: 19
-  requiredSkill: 15
+  requireSkill: 15
   xpGained: 25000
   ingredients:
     - Antanian Scalemail Tunic
@@ -66,9 +66,9 @@
   requireLearn: true
   skillGained: 3
   maxSkillForGains: 22
-  requiredSkill: 18
+  requireSkill: 18
   xpGained: 25000
-  transferOwner: true
+  transferOwnerFrom: Ether Scaleplate
   ingredients:
     - Ether Scaleplate
     - Ether Scale (Refined)
@@ -78,7 +78,7 @@
   category: Ether Armor
   skillGained: 3
   maxSkillForGains: 19
-  requiredSkill: 15
+  requireSkill: 15
   xpGained: 50000
   ingredients:
     - Risan Scalemail Tunic
@@ -90,9 +90,9 @@
   requireLearn: true
   skillGained: 3
   maxSkillForGains: 22
-  requiredSkill: 18
+  requireSkill: 18
   xpGained: 100000
-  transferOwner: true
+  transferOwnerFrom: Silver Scaleplate
   ingredients:
     - Silver Scaleplate
     - Silver Scale (Refined)
@@ -103,7 +103,7 @@
   category: Ether Weaponry
   skillGained: 3
   maxSkillForGains: 17
-  requiredSkill: 13
+  requireSkill: 13
   xpGained: 25000
   ingredients:
     - Antanian Longsword
@@ -114,7 +114,7 @@
   category: Ether Weaponry
   skillGained: 3
   maxSkillForGains: 17
-  requiredSkill: 13
+  requireSkill: 13
   xpGained: 25000
   ingredients:
     - Antanian Axe
@@ -125,7 +125,7 @@
   category: Ether Weaponry
   skillGained: 3
   maxSkillForGains: 17
-  requiredSkill: 13
+  requireSkill: 13
   xpGained: 25000
   ingredients:
     - Antanian Dagger
@@ -136,7 +136,7 @@
   category: Ether Weaponry
   skillGained: 3
   maxSkillForGains: 17
-  requiredSkill: 13
+  requireSkill: 13
   xpGained: 25000
   ingredients:
     - Antanian Greataxe
@@ -147,7 +147,7 @@
   category: Ether Weaponry
   skillGained: 3
   maxSkillForGains: 17
-  requiredSkill: 13
+  requireSkill: 13
   xpGained: 25000
   ingredients:
     - Antanian Greatsword
@@ -158,7 +158,7 @@
   category: Ether Weaponry
   skillGained: 3
   maxSkillForGains: 17
-  requiredSkill: 13
+  requireSkill: 13
   xpGained: 25000
   ingredients:
     - Antanian Halberd
@@ -169,7 +169,7 @@
   category: Ether Weaponry
   skillGained: 3
   maxSkillForGains: 17
-  requiredSkill: 13
+  requireSkill: 13
   xpGained: 25000
   ingredients:
     - Antanian Longbow
@@ -180,7 +180,7 @@
   category: Ether Weaponry
   skillGained: 3
   maxSkillForGains: 17
-  requiredSkill: 13
+  requireSkill: 13
   xpGained: 25000
   ingredients:
     - Antanian Mace
@@ -191,7 +191,7 @@
   category: Ether Weaponry
   skillGained: 3
   maxSkillForGains: 17
-  requiredSkill: 13
+  requireSkill: 13
   xpGained: 25000
   ingredients:
     - Antanian Spear
@@ -202,7 +202,7 @@
   category: Ether Weaponry
   skillGained: 3
   maxSkillForGains: 17
-  requiredSkill: 13
+  requireSkill: 13
   xpGained: 25000
   ingredients:
     - Antanian Leather Gloves

@@ -7,6 +7,14 @@ ExactHeal:
   effectMeta:
     effectRef: ExactHeal
 
+ExactHealRegen:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  effectMeta:
+    effectRef: ExactHealRegen
+
 ChristmasCarrot:
   effect:
     type: useonly

@@ -1,0 +1,13 @@
+
+- item: Basic Machleum Ring
+  name: Machleum Ring
+  category: Machleum
+  skillGained: 20
+  maxSkillForGains: 14
+  requireSkill: 10
+  xpGained: 25000
+  ingredients:
+    - Enchanting Brick - Owts
+    - Enchanting Brick - Enos
+    - Enchanting Brick - Daus
+    - Enchanting Brick - Oles

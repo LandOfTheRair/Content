@@ -3,9 +3,9 @@
 - item: Risan Strength Potion
   name: Basic Strength Potion
   category: Basic Stat Bottles
-  skillGained: 3
-  maxSkillForGains: 21
-  requiredSkill: 18
+  skillGained: 5
+  maxSkillForGains: 19
+  requireSkill: 15
   xpGained: 15000
   ingredients:
     - Silver Scale (Refined)
@@ -20,9 +20,9 @@
 - item: Risan Dexterity Potion
   name: Basic Dexterity Potion
   category: Basic Stat Bottles
-  skillGained: 3
-  maxSkillForGains: 21
-  requiredSkill: 18
+  skillGained: 5
+  maxSkillForGains: 19
+  requireSkill: 15
   xpGained: 15000
   ingredients:
     - Silver Scale (Refined)
@@ -37,9 +37,9 @@
 - item: Risan Intelligence Potion
   name: Basic Intelligence Potion
   category: Basic Stat Bottles
-  skillGained: 3
-  maxSkillForGains: 21
-  requiredSkill: 18
+  skillGained: 5
+  maxSkillForGains: 19
+  requireSkill: 15
   xpGained: 15000
   ingredients:
     - Silver Scale (Refined)
@@ -54,9 +54,9 @@
 - item: Risan Wisdom Potion
   name: Basic Wisdom Potion
   category: Basic Stat Bottles
-  skillGained: 3
-  maxSkillForGains: 21
-  requiredSkill: 18
+  skillGained: 5
+  maxSkillForGains: 19
+  requireSkill: 15
   xpGained: 15000
   ingredients:
     - Silver Scale (Refined)
@@ -71,9 +71,9 @@
 - item: Risan Agility Potion
   name: Basic Agility Potion
   category: Basic Stat Bottles
-  skillGained: 3
-  maxSkillForGains: 21
-  requiredSkill: 18
+  skillGained: 5
+  maxSkillForGains: 19
+  requireSkill: 15
   xpGained: 15000
   ingredients:
     - Silver Scale (Refined)
@@ -88,9 +88,9 @@
 - item: Risan Willpower Potion
   name: Basic Willpower Potion
   category: Basic Stat Bottles
-  skillGained: 3
+  skillGained: 10
   maxSkillForGains: 21
-  requiredSkill: 18
+  requireSkill: 17
   xpGained: 15000
   ingredients:
     - Silver Scale (Refined)
@@ -105,9 +105,9 @@
 - item: Risan Charisma Potion
   name: Basic Charisma Potion
   category: Basic Stat Bottles
-  skillGained: 3
+  skillGained: 10
   maxSkillForGains: 21
-  requiredSkill: 18
+  requireSkill: 17
   xpGained: 15000
   ingredients:
     - Silver Scale (Refined)
@@ -122,9 +122,9 @@
 - item: Risan Luck Potion
   name: Basic Luck Potion
   category: Basic Stat Bottles
-  skillGained: 3
-  maxSkillForGains: 21
-  requiredSkill: 18
+  skillGained: 20
+  maxSkillForGains: 23
+  requireSkill: 19
   xpGained: 15000
   ingredients:
     - Risan Strength Potion

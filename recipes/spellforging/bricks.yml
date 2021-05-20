@@ -1,0 +1,49 @@
+
+
+- item: Enchanting Brick - Enos
+  name: Enos Brick
+  category: Dust Refinement
+  skillGained: 10
+  maxSkillForGains: 4
+  requireSkill: 0
+  xpGained: 15000
+  ozIngredients:
+    - filter: Enchanting Dust - Enos
+      display: Enchanting Dust - Enos
+      ounces: 50
+
+- item: Enchanting Brick - Owts
+  name: Owts Brick
+  category: Dust Refinement
+  skillGained: 10
+  maxSkillForGains: 16
+  requireSkill: 12
+  xpGained: 15000
+  ozIngredients:
+    - filter: Enos Dust
+      display: Enchanting Dust - Enos
+      ounces: 200
+
+- item: Enchanting Brick - Daus
+  name: Daus Brick
+  category: Dust Refinement
+  skillGained: 10
+  maxSkillForGains: 8
+  requireSkill: 4
+  xpGained: 15000
+  ozIngredients:
+    - filter: Enos Dust
+      display: Enchanting Dust - Enos
+      ounces: 100
+
+- item: Enchanting Brick - Oles
+  name: Oles Brick
+  category: Dust Refinement
+  skillGained: 10
+  maxSkillForGains: 12
+  requireSkill: 8
+  xpGained: 15000
+  ozIngredients:
+    - filter: Enos Dust
+      display: Enchanting Dust - Enos
+      ounces: 100

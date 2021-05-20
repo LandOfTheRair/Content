@@ -1,11 +1,11 @@
 
 - item: Halloween Brew
-  name: Candy Stew
+  name: Candy Brew
   category: Holiday
   requireLearn: true
   skillGained: 2
   maxSkillForGains: 7
-  requiredSkill: 0
+  requireSkill: 0
   xpGained: 5000
   ingredients:
     - Halloween Gem
@@ -22,7 +22,7 @@
   requireLearn: true
   skillGained: 2
   maxSkillForGains: 7
-  requiredSkill: 0
+  requireSkill: 0
   xpGained: 5000
   ingredients:
     - Antanian Bottle of Water
@@ -34,7 +34,7 @@
   requireLearn: true
   skillGained: 2
   maxSkillForGains: 7
-  requiredSkill: 0
+  requireSkill: 0
   xpGained: 5000
   ingredients:
     - Antanian Bottle of Water

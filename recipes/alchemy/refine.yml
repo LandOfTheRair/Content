@@ -5,7 +5,7 @@
   category: Refine
   skillGained: 5
   maxSkillForGains: 12
-  requiredSkill: 8
+  requireSkill: 8
   xpGained: 2000
   ingredients:
     - Ether Scale
@@ -19,7 +19,7 @@
   category: Refine
   skillGained: 5
   maxSkillForGains: 11
-  requiredSkill: 7
+  requireSkill: 7
   xpGained: 5000
   ingredients:
     - Yeti Bile (Small)
@@ -31,7 +31,7 @@
   category: Refine
   skillGained: 5
   maxSkillForGains: 15
-  requiredSkill: 11
+  requireSkill: 11
   xpGained: 12000
   ingredients:
     - Ether Scale (Refined)
@@ -41,8 +41,8 @@
   name: Shining Silver Scale
   category: Refine
   skillGained: 5
-  maxSkillForGains: 15
-  requiredSkill: 11
+  maxSkillForGains: 17
+  requireSkill: 13
   xpGained: 10000
   ingredients:
     - Silver Scale

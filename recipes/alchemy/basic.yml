@@ -20,11 +20,12 @@
     - Antanian Loaf of Bread
 
 - item: Bear Meat Antidote (10oz)
-  name: Bear Meat Bottle (10oz)
+  name: Bear Meat Bottle
   category: Basic
   skillGained: 2
   maxSkillForGains: 2
-  requiredSkill: 1
+  requireSkill: 1
+  requireLearn: true
   xpGained: 300
   ingredients:
     - Bear Meat Antidote
@@ -38,7 +39,7 @@
   requireLearn: true
   skillGained: 4
   maxSkillForGains: 10
-  requiredSkill: 6
+  requireSkill: 6
   xpGained: 15000
   ingredients:
     - Antanian Bottle of Water
@@ -50,7 +51,7 @@
   category: Holy Water
   skillGained: 4
   maxSkillForGains: 9
-  requiredSkill: 4
+  requireSkill: 4
   xpGained: 25000
   requireClass: [Healer]
   ingredients:

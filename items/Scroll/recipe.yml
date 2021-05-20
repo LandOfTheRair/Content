@@ -1,0 +1,56 @@
+
+# Alchemy
+- name: Recipe Book - Bear Meat Bottle
+  sprite: 1019
+  desc: "a recipe for \"Bear Meat Bottle\""
+  recipe: Bear Meat Bottle
+  value: 500
+
+- name: Recipe Book - Minotaur Horn Flask
+  sprite: 1019
+  desc: "a recipe for \"Minotaur Horn Flask\""
+  recipe: Minotaur Horn Flask
+  value: 500
+
+- name: Recipe Book - Candy Brew
+  sprite: 1019
+  desc: "a recipe for \"Candy Brew\""
+  recipe: Candy Brew
+  value: 100
+
+- name: Recipe Book - Gingerbread Cookie
+  sprite: 1019
+  desc: "a recipe for \"Gingerbread Cookie\""
+  recipe: Gingerbread Cookie
+  value: 100
+
+- name: Recipe Book - Egg Nog
+  sprite: 1019
+  desc: "a recipe for \"Egg Nog\""
+  recipe: Egg Nog
+  value: 100
+
+# Metalworking
+- name: Recipe Book - Red Fullplate II
+  sprite: 1017
+  desc: "a recipe for \"Red Fullplate II\""
+  recipe: Red Fullplate II
+  value: 100000
+  
+- name: Recipe Book - Silver Fullplate II
+  sprite: 1017
+  desc: "a recipe for \"Silver Fullplate II\""
+  recipe: Silver Fullplate II
+  value: 100000
+  
+- name: Recipe Book - Red Scaleplate II
+  sprite: 1017
+  desc: "a recipe for \"Red Scaleplate II\""
+  recipe: Red Scaleplate II
+  value: 100000
+  
+- name: Recipe Book - Silver Scaleplate II
+  sprite: 1017
+  desc: "a recipe for \"Silver Scaleplate II\""
+  recipe: Silver Scaleplate II
+  value: 100000

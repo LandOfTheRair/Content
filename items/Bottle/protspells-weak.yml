@@ -106,7 +106,7 @@
 - name: Weak EagleEye Potion
   desc: "a small white bottle covered in animalistic eyes"
   extendedDesc: "a flask of EagleEye"
-  sprite: 250
+  sprite: 254
   useEffect:
     name: EagleEye
     potency: 1
@@ -116,7 +116,7 @@
 - name: Weak EagleEye Potion (10oz)
   desc: "a small red bottle covered in animalistic eyes"
   extendedDesc: "a flask of EagleEye"
-  sprite: 250
+  sprite: 254
   ounces: 10
   useEffect:
     name: EagleEye

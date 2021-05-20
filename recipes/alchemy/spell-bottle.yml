@@ -4,7 +4,7 @@
   category: Spell Bottles
   skillGained: 2
   maxSkillForGains: 7
-  requiredSkill: 2
+  requireSkill: 2
   xpGained: 7500
   ingredients:
     - Antanian Bottle of Water
@@ -15,7 +15,7 @@
   category: Spell Bottles
   skillGained: 2
   maxSkillForGains: 7
-  requiredSkill: 2
+  requireSkill: 2
   xpGained: 7500
   ingredients:
     - Antanian Pint of Water
@@ -26,7 +26,7 @@
   category: Spell Bottles
   skillGained: 2
   maxSkillForGains: 7
-  requiredSkill: 2
+  requireSkill: 2
   xpGained: 7500
   ingredients:
     - Antanian Bottle of Water
@@ -38,7 +38,7 @@
   category: Spell Bottles
   skillGained: 2
   maxSkillForGains: 7
-  requiredSkill: 2
+  requireSkill: 2
   xpGained: 7500
   ingredients:
     - Antanian Pint of Water
@@ -93,7 +93,7 @@
   category: Spell Bottles
   skillGained: 2
   maxSkillForGains: 7
-  requiredSkill: 1
+  requireSkill: 1
   xpGained: 600
   ingredients:
     - Tower Goblood
@@ -104,7 +104,7 @@
   category: Spell Bottles
   skillGained: 2
   maxSkillForGains: 7
-  requiredSkill: 1
+  requireSkill: 1
   xpGained: 600
   ingredients:
     - Maze Corpseflower
@@ -115,7 +115,7 @@
   category: Spell Bottles
   skillGained: 2
   maxSkillForGains: 8
-  requiredSkill: 5
+  requireSkill: 5
   xpGained: 600
   ingredients:
     - Tower Goblood
@@ -126,8 +126,8 @@
   name: Large Regen Potion
   category: Spell Bottles
   skillGained: 2
-  maxSkillForGains: 8
-  requiredSkill: 5
+  maxSkillForGains: 9
+  requireSkill: 5
   xpGained: 600
   ingredients:
     - Tower Goblood
@@ -138,8 +138,8 @@
   name: Large BarFire Potion II
   category: Spell Bottles
   skillGained: 2
-  maxSkillForGains: 15
-  requiredSkill: 13
+  maxSkillForGains: 17
+  requireSkill: 13
   xpGained: 15000
   ingredients:
     - Frostlands Gourd
@@ -149,8 +149,8 @@
   name: Large BarFrost Potion II
   category: Spell Bottles
   skillGained: 2
-  maxSkillForGains: 15
-  requiredSkill: 13
+  maxSkillForGains: 17
+  requireSkill: 13
   xpGained: 15000
   ingredients:
     - Frostlands Gourd
@@ -160,8 +160,8 @@
   name: Large BarNecro Potion II
   category: Spell Bottles
   skillGained: 2
-  maxSkillForGains: 15
-  requiredSkill: 13
+  maxSkillForGains: 17
+  requireSkill: 13
   xpGained: 15000
   ingredients:
     - Frostlands Gourd

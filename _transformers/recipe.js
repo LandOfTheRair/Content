@@ -3,7 +3,7 @@ const YAML = require('js-yaml');
 const recurse = require('recursive-readdir');
 const fs = require('fs');
 
-const allTradeskills = ['alchemy', 'metalworking'];
+const allTradeskills = ['alchemy', 'metalworking', 'spellforging'];
 
 const addRecipeData = (recipe) => {
   if(!recipe.requiredSkill) recipe.requiredSkill = 0;
@@ -39,6 +39,13 @@ const merge = async () => {
     }).flat();
   
     const allRecipeData = (await Promise.all(allFiles)).flat();
+
+    const names = {};
+    allRecipeData.forEach(recipe => {
+      if(names[recipe.name]) throw new Error(`Recipe ${recipe.name} already exists!`);
+      
+      names[recipe.name] = true;
+    });
   
     console.log(`Loading ${allRecipeData.length} recipes...`);
 

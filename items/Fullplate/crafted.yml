@@ -6,7 +6,6 @@
     fireResist: 50
     iceResist: 50
   desc: "a red fullplate made of refined ether"
-  binds: true
   maxUpgrades: 1
   value: 5000
 
@@ -22,7 +21,6 @@
     fireResist: 100
     iceResist: 100
   desc: "a red fullplate, twice refined, forged with ether"
-  binds: true
   maxUpgrades: 1
   value: 15000
 
@@ -39,7 +37,6 @@
     energyResist: 325
     necroticResist: 325
   desc: "a silver fullplate made of refined silver ether scales"
-  binds: true
   maxUpgrades: 1
   value: 5000
 
@@ -55,7 +52,6 @@
     energyResist: 450
     necroticResist: 450
   desc: "a silver fullplate, twice refined, forged with silver ether scales"
-  binds: true
   maxUpgrades: 1
   value: 15000
 

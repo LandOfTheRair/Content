@@ -154,8 +154,8 @@
 
   dropPool:
     choose:
-      min: 2
-      max: 2
+      min: 1
+      max: 1
     items:
       - Rune Scroll - Holy Affliction I
       - Rune Scroll - Effective Supporter I
@@ -167,6 +167,8 @@
       - Rune Scroll - Holy Protection I
       - Rune Scroll - Martial Agility I
       - Rune Scroll - Sterling Armor I
+      - Recipe Book - Red Fullplate II
+      - Recipe Book - Red Scaleplate II
 
   triggers:
     combat:

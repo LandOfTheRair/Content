@@ -46,6 +46,8 @@ behaviors:
       - item: Christmas Snowglobe
       - item: Christmas Snowball
       - item: Cosmetic Scroll - Snowflake Joy
+      - item: Recipe Book - Gingerbread Cookie
+      - item: Recipe Book - Egg Nog
 
     dailyVendorItems: 
       - item: Antanian Willpower Potion

@@ -21,7 +21,7 @@ Spellforging:
   icon: 'minerals'
   color: '#f0f'
   mode: 'autoActivate'
-  tooltipDesc: 'Open the metalworking window.'
+  tooltipDesc: 'Open the spellforging window.'
 
 Disenchant:
   name: 'Disenchant'

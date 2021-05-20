@@ -5,7 +5,7 @@
   category: Holy Water
   skillGained: 3
   maxSkillForGains: 15
-  requiredSkill: 11
+  requireSkill: 11
   xpGained: 5000
   requireClass: [Healer]
   ingredients:
@@ -19,7 +19,7 @@
   category: Holy Water
   skillGained: 3
   maxSkillForGains: 15
-  requiredSkill: 11
+  requireSkill: 11
   xpGained: 5000
   requireClass: [Healer]
   ingredients:
@@ -32,10 +32,38 @@
   category: Holy Water
   skillGained: 3
   maxSkillForGains: 15
-  requiredSkill: 11
+  requireSkill: 11
   xpGained: 5000
   requireClass: [Healer]
   ingredients:
     - Holy Water
     - Weak BarFrost Potion
     - Catacombs Frostflower
+
+- item: Instant Heal Regen Bottle (50oz)
+  name: Healing Regen Bottle
+  category: Conjured Healing
+  skillGained: 3
+  maxSkillForGains: 9
+  requireSkill: 5
+  xpGained: 5000
+  requireClass: [Mage]
+  ingredients:
+    - Conjured Healing Potion
+    - Conjured Healing Potion
+    - Conjured Healing Potion
+    - Rylt Blueflower
+
+- item: Instant Heal Regen Bottle (100oz)
+  name: Healing Regen Bottle II
+  category: Conjured Healing
+  skillGained: 3
+  maxSkillForGains: 15
+  requireSkill: 11
+  xpGained: 5000
+  requireClass: [Mage]
+  ingredients:
+    - Conjured Healing Potion
+    - Conjured Healing Potion
+    - Conjured Healing Potion
+    - Frostlands Gourd

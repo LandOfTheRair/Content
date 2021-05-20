@@ -8,6 +8,10 @@
   chance: 1
   maxChance: 200
 
+- result: Recipe Book - Bear Meat Bottle
+  chance: 1
+  maxChance: 2000
+
 - result: Broom
   chance: 1
   maxChance: 1000000

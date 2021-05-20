@@ -87,6 +87,12 @@
       maxChance: 10
     - result: Silver Scale
       chance: -1
+    - result: Recipe Book - Silver Fullplate II
+      chance: 1
+      maxChance: 100
+    - result: Recipe Book - Silver Scaleplate II
+      chance: 1
+      maxChance: 100
 
   tansFor: Catacombs Silver Dragon Scale Tunic
   tanSkillRequired: 18
@@ -147,6 +153,12 @@
       maxChance: 10
     - result: Silver Scale
       chance: -1
+    - result: Recipe Book - Silver Fullplate II
+      chance: 1
+      maxChance: 100
+    - result: Recipe Book - Silver Scaleplate II
+      chance: 1
+      maxChance: 100
 
   baseEffects:
     - name: Mood
@@ -306,6 +318,12 @@
       maxChance: 10
     - result: Silver Scale
       chance: -1
+    - result: Recipe Book - Silver Fullplate II
+      chance: 1
+      maxChance: 100
+    - result: Recipe Book - Silver Scaleplate II
+      chance: 1
+      maxChance: 100
 
   usableSkills:
     - Thruststrike
@@ -417,6 +435,8 @@
       - Catacombs Raw Topaz
       - Catacombs Raw Tourmaline
       - Catacombs Raw Amber
+      - Recipe Book - Silver Scaleplate II
+      - Recipe Book - Silver Fullplate II
 
   usableSkills:
     - result: Thruststrike

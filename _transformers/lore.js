@@ -65,6 +65,7 @@ const gemDescItems = (itemData, mapDropData, regionDropData) => {
 
 const recipeScrollItems = (itemData, regionDropData, recipeData) => {
 
+  /*
   const allIngScrollDescs = recipeData.map(x => {
 
     let leader = 'Someone\'s Book';
@@ -118,7 +119,8 @@ const recipeScrollItems = (itemData, regionDropData, recipeData) => {
       drops.push({ result: itemName, chance: 1, maxChance: DROP_RATE_MAX });
     });
   });
-
+  */
+ 
 };
 
 const merge = async () => {

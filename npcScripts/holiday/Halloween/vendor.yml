@@ -32,6 +32,7 @@ behaviors:
       - item: Halloween Gem
       - item: Halloween Pumpkin Shield
       - item: Halloween Moon Boots
+      - item: Recipe Book - Candy Brew
 
     dailyVendorItems: 
       - item: Antanian Strength Potion
