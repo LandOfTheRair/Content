@@ -514,8 +514,8 @@
     max: 1000
 
   giveXp:
-    min: 3500
-    max: 5800
+    min: 7500
+    max: 8800
 
   copyDrops:
     - result: 'equipment.armor'

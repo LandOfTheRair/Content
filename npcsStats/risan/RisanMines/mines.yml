@@ -114,8 +114,8 @@
     max: 37350
 
   giveXp:
-    min: 6500
-    max: 8100
+    min: 9500
+    max: 10100
 
   items:
     equipment:
@@ -196,8 +196,8 @@
     max: 37350
 
   giveXp:
-    min: 5600
-    max: 6900
+    min: 8600
+    max: 9900
 
   usableSkills:
     - Kick

@@ -79,8 +79,8 @@
     max: 1000
 
   giveXp:
-    min: 5200
-    max: 5500
+    min: 14200
+    max: 14500
 
   tansFor: Frostlands Yeti Fur
   tanSkillRequired: 13
@@ -167,8 +167,8 @@
     max: 1000
 
   giveXp:
-    min: 7200
-    max: 7500
+    min: 19200
+    max: 20500
 
   tansFor: Frostlands Strong Yeti Fur
   tanSkillRequired: 14
@@ -315,8 +315,8 @@
     max: 15000
 
   giveXp:
-    min: 162000
-    max: 165000
+    min: 662000
+    max: 665000
 
   drops:
     - result: Risan Frost Larimar
