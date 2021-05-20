@@ -26,7 +26,7 @@
   desc: "a wooden post with a strange tribal club attached to it"
   tier: 2
   stats:
-    restorationBonus: 4
+    restorationBonus: 2
   strikeEffect:
     name: HolyFire
     potency: 150
@@ -52,7 +52,7 @@
   desc: "a bloody wooden totem with a hand carved into it"
   tier: 3
   stats:
-    restorationBonus: 5
+    restorationBonus: 2
   strikeEffect:
     name: Afflict
     potency: 200

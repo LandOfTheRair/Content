@@ -1,0 +1,21 @@
+
+
+- name: Enos Healing Totem
+  quality: 5
+  desc: "a wooden pole with a glowing hand attached to it"
+  tier: 2
+  stats:
+    restorationBonus: 1
+  trait:
+    name: HealingFocus
+    level: 3
+  breakEffect:
+    name: HolyFire
+    potency: 2500
+  maxUpgrades: 1
+  type: Wand
+  value: 3500
+  sprite: 459
+
+  requirements:
+    level: 12

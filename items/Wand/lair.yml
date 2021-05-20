@@ -22,62 +22,12 @@
   value: 1500
   sprite: 281
 
-- name: Heniz FireMist Wand
-  desc: "a blue wand engraved with the blazing Heniz runes"
-  tier: 1
-  stats:
-    conjurationBonus: 1
-  strikeEffect:
-    name: Combust
-    potency: 80
-    chance: 10
-  trait:
-    name: WandSpecialty
-    level: 1
-  breakEffect:
-    name: FireMist
-    potency: 500
-  maxUpgrades: 1
-  offhand: true
-  binds: true
-  type: Wand
-  value: 750
-  sprite: 281
-
-  requirements:
-    level: 5
-
-- name: Heniz IceMist Wand
-  desc: "a blue wand engraved with the frozen Heniz runes"
-  tier: 1
-  stats:
-    conjurationBonus: 1
-  strikeEffect:
-    name: Hail
-    potency: 80
-    chance: 10
-  breakEffect:
-    name: IceMist
-    potency: 500
-  trait:
-    name: WandSpecialty
-    level: 1
-  maxUpgrades: 1
-  offhand: true
-  binds: true
-  type: Wand
-  value: 750
-  sprite: 281
-
-  requirements:
-    level: 5
-
 - name: Crazed Saraxa Wand
   quality: 5
   desc: "a crimson wand stained from over-exposure to ether mist"
   tier: 3
   stats:
-    conjurationBonus: 5
+    conjurationBonus: 2
   strikeEffect:
     name: MagicBolt
     potency: 150
@@ -108,7 +58,7 @@
   desc: "a blue wand forged with metals from the Risan mines"
   tier: 2
   stats:
-    conjurationBonus: 4
+    conjurationBonus: 2
   strikeEffect:
     name: Asper
     potency: 25

@@ -1,0 +1,51 @@
+
+
+- name: Heniz FireMist Wand
+  desc: "a blue wand engraved with the blazing Heniz runes"
+  tier: 1
+  stats:
+    conjurationBonus: 1
+  strikeEffect:
+    name: Combust
+    potency: 80
+    chance: 10
+  trait:
+    name: WandSpecialty
+    level: 1
+  breakEffect:
+    name: FireMist
+    potency: 500
+  maxUpgrades: 1
+  offhand: true
+  binds: true
+  type: Wand
+  value: 750
+  sprite: 281
+
+  requirements:
+    level: 5
+
+- name: Heniz IceMist Wand
+  desc: "a blue wand engraved with the frozen Heniz runes"
+  tier: 1
+  stats:
+    conjurationBonus: 1
+  strikeEffect:
+    name: Hail
+    potency: 80
+    chance: 10
+  breakEffect:
+    name: IceMist
+    potency: 500
+  trait:
+    name: WandSpecialty
+    level: 1
+  maxUpgrades: 1
+  offhand: true
+  binds: true
+  type: Wand
+  value: 750
+  sprite: 281
+
+  requirements:
+    level: 5

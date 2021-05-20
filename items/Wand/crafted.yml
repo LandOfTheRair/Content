@@ -1,0 +1,39 @@
+
+
+- name: Enos Fire Wand
+  desc: "a blue wand swirling with fiery runes"
+  tier: 1
+  stats:
+    conjurationBonus: 1
+  trait:
+    name: FireFocus
+    level: 2
+  breakEffect:
+    name: FireMist
+    potency: 500
+  maxUpgrades: 1
+  type: Wand
+  value: 750
+  sprite: 281
+
+  requirements:
+    level: 12
+
+- name: Enos Ice Wand
+  desc: "a blue wand enraptured by chilled runes"
+  tier: 1
+  stats:
+    conjurationBonus: 1
+  trait:
+    name: IceFocus
+    level: 2
+  breakEffect:
+    name: IceMist
+    potency: 500
+  maxUpgrades: 1
+  type: Wand
+  value: 750
+  sprite: 281
+
+  requirements:
+    level: 12
