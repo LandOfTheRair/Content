@@ -72,10 +72,55 @@
   name: Holy Bile Water
   category: Holy Water
   skillGained: 4
-  maxSkillForGains: 9
-  requireSkill: 4
+  maxSkillForGains: 15
+  requireSkill: 11
   xpGained: 25000
   requireClass: [Healer]
   ingredients:
     - Holy Water
     - Yeti Bile (Small)
+
+- item: Weak Stun Potion (5oz)
+  name: Stun Bottle
+  category: Applications
+  skillGained: 4
+  maxSkillForGains: 15
+  requireSkill: 11
+  xpGained: 25000
+  requireClass: [Thief]
+  ingredients:
+    - Antanian Pint of Water
+    - Maze Corpseflower
+    - Maze Corpseflower
+    - Maze Corpseflower
+    - Rylt Blueflower
+
+- item: Weak Daze Potion (5oz)
+  name: Daze Bottle
+  category: Applications
+  skillGained: 4
+  maxSkillForGains: 16
+  requireSkill: 12
+  xpGained: 25000
+  requireClass: [Thief]
+  ingredients:
+    - Antanian Pint of Water
+    - Maze Corpseflower
+    - Maze Corpseflower
+    - Maze Corpseflower
+    - Tower Goblood
+
+- item: Weak Snare Potion (5oz)
+  name: Snare Bottle
+  category: Applications
+  skillGained: 4
+  maxSkillForGains: 17
+  requireSkill: 13
+  xpGained: 25000
+  requireClass: [Thief]
+  ingredients:
+    - Antanian Pint of Water
+    - Maze Corpseflower
+    - Maze Corpseflower
+    - Maze Corpseflower
+    - Mines Caveflower

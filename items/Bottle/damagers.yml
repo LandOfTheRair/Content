@@ -35,6 +35,42 @@
     canApply: true
   value: 3000
 
+- name: Weak Stun Potion (5oz)
+  desc: "a yellow bottle with flowers painted along the sides etched with the word \"STUN\""
+  extendedDesc: "a bottle of Stun"
+  sprite: 261
+  ounces: 5
+  useEffect:
+    name: Stun
+    duration: 5
+    potency: 10
+    canApply: true
+  value: 3000
+
+- name: Weak Daze Potion (5oz)
+  desc: "a yellow bottle with flowers painted along the sides etched with the word \"DAZE\""
+  extendedDesc: "a bottle of Daze"
+  sprite: 261
+  ounces: 5
+  useEffect:
+    name: Daze
+    duration: 60
+    potency: 15
+    canApply: true
+  value: 3000
+
+- name: Weak Snare Potion (5oz)
+  desc: "a yellow bottle with flowers painted along the sides etched with the word \"SNARE\""
+  extendedDesc: "a bottle of Snare"
+  sprite: 261
+  ounces: 5
+  useEffect:
+    name: Snare
+    duration: 60
+    potency: 10
+    canApply: true
+  value: 3000
+
 - name: Medium Venom Potion (5oz)
   desc: "a yellow bottle with flowers painted along the sides etched with the word \"VENOM\""
   extendedDesc: "a bottle of Venom"
