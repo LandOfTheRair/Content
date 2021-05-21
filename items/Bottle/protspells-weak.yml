@@ -91,6 +91,7 @@
   useEffect:
     name: Absorption
     potency: 150
+    duration: 600
   value: 1500
 
 - name: Weak Absorption Potion (10oz)
@@ -101,6 +102,7 @@
   useEffect:
     name: Absorption
     potency: 150
+    duration: 600
   value: 2500
 
 - name: Weak EagleEye Potion
@@ -121,5 +123,26 @@
   useEffect:
     name: EagleEye
     potency: 1
+    duration: 600
+  value: 2500
+
+- name: Weak Protection Potion
+  desc: "a blue bottle emblazoned with a holy cross"
+  extendedDesc: "a flask of Protection"
+  sprite: 250
+  useEffect:
+    name: Protection
+    potency: 150
+    duration: 600
+  value: 1500
+
+- name: Weak Protection Potion (10oz)
+  desc: "a blue bottle emblazoned with a holy cross"
+  extendedDesc: "a flask of Protection"
+  sprite: 250
+  ounces: 10
+  useEffect:
+    name: Protection
+    potency: 150
     duration: 600
   value: 2500
