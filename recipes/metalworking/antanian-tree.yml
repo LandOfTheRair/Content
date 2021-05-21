@@ -6,9 +6,13 @@
   maxSkillForGains: 4
   requireSkill: 0
   xpGained: 1500
+  ozIngredients:
+    - filter: Copper Ore
+      display: Copper Ore (Small)
+      ounces: 1
+
   ingredients:
     - Antanian Twig
-    - Copper Ore (Small)
 
 - item: Antanian Copper Longsword
   name: Copper Longsword
@@ -17,9 +21,13 @@
   maxSkillForGains: 5
   requireSkill: 1
   xpGained: 1500
+  ozIngredients:
+    - filter: Copper Ore
+      display: Copper Ore (Small)
+      ounces: 5
+
   ingredients:
     - Antanian Twig
-    - Copper Ore (Large)
 
 - item: Antanian Copper Greatsword
   name: Copper Greatsword
@@ -28,9 +36,13 @@
   maxSkillForGains: 6
   requireSkill: 2
   xpGained: 1500
+  ozIngredients:
+    - filter: Copper Ore
+      display: Copper Ore (Small)
+      ounces: 1
+
   ingredients:
     - Antanian Branch
-    - Copper Ore (Small)
 
 - item: Antanian Copper Halberd
   name: Copper Halberd
@@ -39,9 +51,13 @@
   maxSkillForGains: 7
   requireSkill: 3
   xpGained: 1500
+  ozIngredients:
+    - filter: Copper Ore
+      display: Copper Ore (Small)
+      ounces: 5
+
   ingredients:
     - Antanian Branch
-    - Copper Ore (Large)
 
 - item: Antanian Silver Axe
   name: Silver Axe
@@ -50,9 +66,13 @@
   maxSkillForGains: 8
   requireSkill: 4
   xpGained: 1500
+  ozIngredients:
+    - filter: Silver Ore
+      display: Silver Ore (Small)
+      ounces: 1
+
   ingredients:
     - Antanian Twig
-    - Silver Ore (Small)
 
 - item: Antanian Silver Hammer
   name: Silver Hammer
@@ -61,9 +81,13 @@
   maxSkillForGains: 9
   requireSkill: 5
   xpGained: 1500
+  ozIngredients:
+    - filter: Silver Ore
+      display: Silver Ore (Small)
+      ounces: 5
+
   ingredients:
     - Antanian Twig
-    - Silver Ore (Large)
 
 - item: Antanian Silver Greataxe
   name: Silver Greataxe
@@ -72,9 +96,13 @@
   maxSkillForGains: 10
   requireSkill: 6
   xpGained: 1500
+  ozIngredients:
+    - filter: Silver Ore
+      display: Silver Ore (Small)
+      ounces: 1
+
   ingredients:
     - Antanian Branch
-    - Silver Ore (Small)
 
 - item: Antanian Silver Greatmace
   name: Silver Greatmace
@@ -83,9 +111,13 @@
   maxSkillForGains: 11
   requireSkill: 7
   xpGained: 1500
+  ozIngredients:
+    - filter: Silver Ore
+      display: Silver Ore (Small)
+      ounces: 5
+
   ingredients:
     - Antanian Branch
-    - Silver Ore (Large)
 
 - item: Antanian Golden Staff
   name: Golden Staff
@@ -94,9 +126,13 @@
   maxSkillForGains: 8
   requireSkill: 4
   xpGained: 15000
+  ozIngredients:
+    - filter: Gold Ore
+      display: Gold Ore (Small)
+      ounces: 1
+
   ingredients:
     - Antanian Branch
-    - Gold Ore (Small)
 
 - item: Antanian Crafted Arrows
   name: Wooden Arrows

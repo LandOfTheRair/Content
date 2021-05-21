@@ -6,9 +6,13 @@
   maxSkillForGains: 14
   requireSkill: 10
   xpGained: 15000
+  ozIngredients:
+    - filter: Copper Ore
+      display: Copper Ore (Small)
+      ounces: 1
+
   ingredients:
     - Risan Twig
-    - Copper Ore (Small)
 
 - item: Risan Copper Longsword
   name: Copper Longsword II
@@ -17,9 +21,13 @@
   maxSkillForGains: 15
   requireSkill: 11
   xpGained: 15000
+  ozIngredients:
+    - filter: Copper Ore
+      display: Copper Ore (Small)
+      ounces: 5
+
   ingredients:
     - Risan Twig
-    - Copper Ore (Large)
 
 - item: Risan Copper Greatsword
   name: Copper Greatsword II
@@ -28,9 +36,13 @@
   maxSkillForGains: 16
   requireSkill: 12
   xpGained: 15000
+  ozIngredients:
+    - filter: Copper Ore
+      display: Copper Ore (Small)
+      ounces: 1
+
   ingredients:
     - Risan Branch
-    - Copper Ore (Small)
 
 - item: Risan Copper Halberd
   name: Copper Halberd II
@@ -39,9 +51,13 @@
   maxSkillForGains: 17
   requireSkill: 13
   xpGained: 15000
+  ozIngredients:
+    - filter: Copper Ore
+      display: Copper Ore (Small)
+      ounces: 5
+
   ingredients:
     - Risan Branch
-    - Copper Ore (Large)
 
 - item: Risan Silver Axe
   name: Silver Axe II
@@ -50,9 +66,13 @@
   maxSkillForGains: 18
   requireSkill: 14
   xpGained: 15000
+  ozIngredients:
+    - filter: Silver Ore
+      display: Silver Ore (Small)
+      ounces: 1
+
   ingredients:
     - Risan Twig
-    - Silver Ore (Small)
 
 - item: Risan Silver Hammer
   name: Silver Hammer II
@@ -61,9 +81,13 @@
   maxSkillForGains: 19
   requireSkill: 15
   xpGained: 15000
+  ozIngredients:
+    - filter: Silver Ore
+      display: Silver Ore (Small)
+      ounces: 5
+
   ingredients:
     - Risan Twig
-    - Silver Ore (Large)
 
 - item: Risan Silver Greataxe
   name: Silver Greataxe II
@@ -72,9 +96,13 @@
   maxSkillForGains: 20
   requireSkill: 16
   xpGained: 15000
+  ozIngredients:
+    - filter: Silver Ore
+      display: Silver Ore (Small)
+      ounces: 1
+
   ingredients:
     - Risan Branch
-    - Silver Ore (Small)
 
 - item: Risan Silver Greatmace
   name: Silver Greatmace II
@@ -83,9 +111,13 @@
   maxSkillForGains: 21
   requireSkill: 17
   xpGained: 15000
+  ozIngredients:
+    - filter: Silver Ore
+      display: Silver Ore (Small)
+      ounces: 5
+
   ingredients:
     - Risan Branch
-    - Silver Ore (Large)
 
 - item: Risan Golden Staff
   name: Golden Staff II
@@ -94,9 +126,13 @@
   maxSkillForGains: 17
   requireSkill: 13
   xpGained: 15000
+  ozIngredients:
+    - filter: Old Ore
+      display: Gold Ore (Small)
+      ounces: 1
+
   ingredients:
-    - Risan Branch
-    - Gold Ore (Small)
+    - Risan Twig
 
 - item: Risan Crafted Arrows
   name: Wooden Arrows II
