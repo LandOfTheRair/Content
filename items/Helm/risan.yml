@@ -11,6 +11,9 @@
     hp:
       min: 50
       max: 75
+  trait:
+    name: CombatFortitude
+    level: 2
   maxUpgrades: 1
   desc: "a helmet designed to protect the face from overexposure to heat"
   value: 4500
@@ -26,6 +29,9 @@
     hp:
       min: 50
       max: 75
+  trait:
+    name: CombatFortitude
+    level: 2
   maxUpgrades: 1
   desc: "a helmet designed to protect the face from overexposure to heat"
   value: 4500
@@ -41,6 +47,9 @@
     mp:
       min: 50
       max: 75
+  trait:
+    name: CombatFortitude
+    level: 2
   maxUpgrades: 1
   desc: "a helmet designed to protect the face from overexposure to heat"
   value: 4500
@@ -56,6 +65,9 @@
     mp:
       min: 50
       max: 75
+  trait:
+    name: CombatFortitude
+    level: 2
   maxUpgrades: 1
   desc: "a helmet designed to protect the face from overexposure to heat"
   value: 4500
@@ -69,6 +81,9 @@
   desc: "a helmet crafted with the finest metals in Risan"
   value: 1500
   binds: true
+  trait:
+    name: CombatFortitude
+    level: 2
 
   requirements:
     level: 35

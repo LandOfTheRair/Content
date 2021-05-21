@@ -28,3 +28,9 @@ DivineDancing:
   desc: Move around automatically while stunned.
   icon: boot-stomp
   valuePerTier: 1
+
+CombatFortitude:
+  name: Combat Fortitude
+  desc: Reduce your chance of getting stunned by physical attacks.
+  icon: defibrilate
+  valuePerTier: 1
