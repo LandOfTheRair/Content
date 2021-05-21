@@ -7,6 +7,14 @@ ExactHeal:
   effectMeta:
     effectRef: ExactHeal
 
+ExactHealMP:
+  effect:
+    type: useonly
+    extra:
+      potency: 1
+  effectMeta:
+    effectRef: ExactHealMP
+
 ExactHealRegen:
   effect:
     type: useonly

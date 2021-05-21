@@ -18,6 +18,16 @@
     potency: 200
   value: 30
 
+- name: Mend Bottle (50oz)
+  desc: "a small bottle filled with fizzy purple liquid"
+  extendedDesc: "a mending potion"
+  sprite: 107
+  ounces: 50
+  useEffect:
+    name: ExactHeal
+    potency: 200
+  value: 500
+
 - name: Instant Heal Bottle
   desc: "a small bottle labeled Instant Heal"
   extendedDesc: "a healing potion"
@@ -87,3 +97,33 @@
     name: ExactHealRegen
     potency: 1000
   value: 1
+
+- name: Instant MP Bottle
+  desc: "a small, purple bottle with a visible lightning bolt"
+  extendedDesc: "a mana potion"
+  sprite: 259
+  ounces: 1
+  useEffect:
+    name: ExactHealMP
+    potency: 250
+  value: 3000
+
+- name: Instant MP Bottle (5oz)
+  desc: "a small, purple bottle with a visible lightning bolt"
+  extendedDesc: "a mana potion"
+  sprite: 259
+  ounces: 5
+  useEffect:
+    name: ExactHealMP
+    potency: 250
+  value: 3000
+
+- name: Instant MP Bottle (50oz)
+  desc: "a small, purple bottle with a visible lightning bolt"
+  extendedDesc: "a mana potion"
+  sprite: 259
+  ounces: 50
+  useEffect:
+    name: ExactHealMP
+    potency: 250
+  value: 3000

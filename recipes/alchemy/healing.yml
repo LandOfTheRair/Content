@@ -1,0 +1,40 @@
+
+
+- item: Mend Bottle (50oz)
+  name: Healing Bottle
+  category: Restoration
+  skillGained: 1
+  maxSkillForGains: 8
+  requireSkill: 4
+  xpGained: 5000
+  ingredients:
+    - Mend Bottle
+    - Antanian Pint of Water
+    - Rylt Blueflower
+
+- item: Instant Heal Bottle (50oz)
+  name: Healing Bottle II
+  category: Restoration
+  skillGained: 2
+  maxSkillForGains: 14
+  requireSkill: 9
+  xpGained: 5000
+  ingredients:
+    - Instant Heal Bottle
+    - Antanian Pint of Water
+    - Mines Caveflower
+
+- item: Instant MP Bottle (50oz)
+  name: Mana Bottle
+  category: Restoration
+  skillGained: 2
+  maxSkillForGains: 14
+  requireSkill: 9
+  xpGained: 5000
+  ingredients:
+    - Instant Heal Bottle
+    - Antanian Magic Potion
+    - Antanian Pint of Water
+    - Antanian Pint of Water
+    - Antanian Pint of Water
+    - Antanian Pint of Water
