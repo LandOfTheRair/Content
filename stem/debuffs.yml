@@ -240,6 +240,7 @@ Stun:
     effectMeta:
       effectRef: Stun
       recentlyRef: RecentlyStunned
+      canStack: false
       castSfx: 'spell-debuff-give'
       applySfx: 'spell-debuff-receive'
       castMessage: 'You stunned %target.'
