@@ -17,7 +17,7 @@
 
 - result: Catacombs Frostflower
   chance: 1
-  maxChance: 500
+  maxChance: 125
   noLuckBonus: true
 
 
