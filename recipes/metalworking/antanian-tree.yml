@@ -123,8 +123,8 @@
   name: Golden Staff
   category: Antanian Weaponry
   skillGained: 2
-  maxSkillForGains: 8
-  requireSkill: 4
+  maxSkillForGains: 12
+  requireSkill: 8
   xpGained: 15000
   ozIngredients:
     - filter: Gold Ore
