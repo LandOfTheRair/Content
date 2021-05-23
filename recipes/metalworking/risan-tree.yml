@@ -123,8 +123,8 @@
   name: Golden Staff II
   category: Risan Weaponry
   skillGained: 2
-  maxSkillForGains: 17
-  requireSkill: 13
+  maxSkillForGains: 22
+  requireSkill: 18
   xpGained: 15000
   ozIngredients:
     - filter: Old Ore
