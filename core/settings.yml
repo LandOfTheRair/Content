@@ -63,14 +63,25 @@ npcgen:
   normalLootMult: 1
 
   potionDrops:
-    Strength: 100
-    Agility: 100
-    Dexterity: 50
-    Intelligence: 100
-    Wisdom: 100
-    Willpower: 250
-    Luck: 500
-    Charisma: 400
+    Antania:
+      Antanian Strength Potion: 100
+      Antanian Agility Potion: 100
+      Antanian Dexterity Potion: 50
+      Antanian Intelligence Potion: 100
+      Antanian Wisdom Potion: 100
+      Antanian Willpower Potion: 250
+      Antanian Luck Potion: 500
+      Antanian Charisma Potion: 400
+
+    Risan:
+      Risan Strength Potion: 150
+      Risan Agility Potion: 150
+      Risan Dexterity Potion: 100
+      Risan Intelligence Potion: 150
+      Risan Wisdom Potion: 150
+      Risan Willpower Potion: 350
+      Risan Luck Potion: 700
+      Risan Charisma Potion: 550
 
 players:
   saveTicks: 150
