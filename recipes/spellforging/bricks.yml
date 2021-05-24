@@ -20,7 +20,7 @@
   requireSkill: 12
   xpGained: 15000
   ozIngredients:
-    - filter: Enos Dust
+    - filter: Dust - Enos
       display: Enchanting Dust - Enos
       ounces: 200
 
@@ -32,7 +32,7 @@
   requireSkill: 4
   xpGained: 15000
   ozIngredients:
-    - filter: Enos Dust
+    - filter: Dust - Enos
       display: Enchanting Dust - Enos
       ounces: 100
 
@@ -44,6 +44,6 @@
   requireSkill: 8
   xpGained: 15000
   ozIngredients:
-    - filter: Enos Dust
+    - filter: Dust - Enos
       display: Enchanting Dust - Enos
       ounces: 100
