@@ -29,4 +29,4 @@ Disenchant:
   icon: 'sparkles'
   color: '#f0f'
   mode: 'autoActivate'
-  tooltipDesc: 'Disenchant the item in your right hand.'
+  tooltipDesc: 'Disenchant the item in your right hand or matching items in your sack.'
