@@ -62,6 +62,16 @@ npcgen:
   eliteLootMult: 2
   normalLootMult: 1
 
+  potionDrops:
+    Strength: 100
+    Agility: 100
+    Dexterity: 50
+    Intelligence: 100
+    Wisdom: 100
+    Willpower: 250
+    Luck: 500
+    Charisma: 400
+
 players:
   saveTicks: 150
 
