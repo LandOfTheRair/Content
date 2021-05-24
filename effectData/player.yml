@@ -126,6 +126,22 @@ LowCON:
     unapplyMessage: 'You are no longer in danger of losing health or getting stripped.'
     effectRef: LowCON
 
+EtherManipulation:
+  tooltip:
+    icon: 'vortex'
+    color: '#f00'
+    desc: 'Any items dropped by this character will be transported outside the ether.'
+  effect:
+    type: debuff
+    duration: -1
+    extra:
+      doesTick: true
+      unique: true
+  effectMeta:
+    applyMessage: 'You enter an ether-heavy area!'
+    unapplyMessage: 'The ether here is less powerful.'
+    effectRef: EtherManipulation
+
 Newbie:
   tooltip:
     icon: 'person'
