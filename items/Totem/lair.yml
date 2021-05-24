@@ -14,7 +14,7 @@
   breakEffect:
     name: EnergyWave
     potency: 500
-  maxUpgrades: 2
+  maxUpgrades: 1
   binds: true
   tellsBind: true
   type: Wand
@@ -37,7 +37,7 @@
   breakEffect:
     name: HolyFire
     potency: 2500
-  maxUpgrades: 2
+  maxUpgrades: 1
   binds: true
   tellsBind: true
   type: Wand
@@ -63,7 +63,7 @@
   trait:
     name: TotemSpecialty
     level: 3
-  maxUpgrades: 2
+  maxUpgrades: 1
   binds: true
   tellsBind: true
   type: Wand

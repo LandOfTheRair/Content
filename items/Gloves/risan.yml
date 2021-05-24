@@ -11,7 +11,7 @@
 
   binds: true
   tellsBind: true
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   requirements:
     level: 27
@@ -30,7 +30,7 @@
 
   binds: true
   tellsBind: true
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   requirements:
     level: 27
@@ -49,7 +49,7 @@
 
   binds: true
   tellsBind: true
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   requirements:
     level: 27
@@ -68,7 +68,7 @@
 
   binds: true
   tellsBind: true
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   requirements:
     level: 27

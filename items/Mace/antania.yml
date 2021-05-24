@@ -25,7 +25,7 @@
     armorClass: 2
     offense: 3
     threatMultiplier: 0.25
-  maxUpgrades: 2
+  maxUpgrades: 1
   tier: 2
   type: Mace
   binds: true

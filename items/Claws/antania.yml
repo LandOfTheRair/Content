@@ -55,7 +55,7 @@
     potency: 15
     chance: 33
 
-  maxUpgrades: 2
+  maxUpgrades: 1
   binds: true
   tellsBind: true
 

@@ -102,7 +102,7 @@
     armorClass: 3
     defense: 6
   binds: true
-  maxUpgrades: 2
+  maxUpgrades: 1
   sprite: 2
   desc: "an amulet set with the fangs of an ancient beast"
   value: 20000
@@ -117,7 +117,7 @@
     armorClass: 4
     defense: 8
   binds: true
-  maxUpgrades: 2
+  maxUpgrades: 1
   sprite: 2
   desc: "an amulet set with the fangs of an ancient beast"
   value: 25000
@@ -132,7 +132,7 @@
     armorClass: 5
     defense: 10
   binds: true
-  maxUpgrades: 2
+  maxUpgrades: 1
   sprite: 2
   desc: "an amulet set with the fangs of an ancient beast"
   value: 30000

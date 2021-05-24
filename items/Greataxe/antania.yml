@@ -22,7 +22,7 @@
   stats:
     accuracy: 1
     offense: 2
-  maxUpgrades: 2
+  maxUpgrades: 1
   tier: 3
   proneChance: 8
   binds: true
@@ -42,7 +42,7 @@
     offense: 2
     defense: -1
     weaponArmorClass: 4
-  maxUpgrades: 2
+  maxUpgrades: 1
   type: Axe
   value: 3549
   sprite: 455

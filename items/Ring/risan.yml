@@ -141,7 +141,7 @@
   stats:
     hp: 100
     armorClass: 5
-  maxUpgrades: 2
+  maxUpgrades: 1
   sprite: 624
   binds: true
   desc: "a twin machleum ring set with a highly-polished etherfrost larimar"

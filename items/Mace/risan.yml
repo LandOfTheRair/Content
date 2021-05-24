@@ -38,7 +38,7 @@
     accuracy: 5
     offense: 5
     defense: 5
-  maxUpgrades: 2
+  maxUpgrades: 1
   desc: "an ancient mace crafted in the ancient Risan kingdom"
   tier: 7
   type: Mace
@@ -54,7 +54,7 @@
     accuracy: 6
     offense: 6
     defense: 6
-  maxUpgrades: 2
+  maxUpgrades: 1
   desc: "an ancient mace crafted in the ancient Risan kingdom"
   tier: 7
   type: Mace

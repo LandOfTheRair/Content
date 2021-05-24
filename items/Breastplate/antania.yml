@@ -42,7 +42,7 @@
   sprite: 974
   desc: "a mesmerizing breastplate bathed in a crimson ether glow, depicting the eruption of a volcano in the dead of night"
   value: 25042
-  maxUpgrades: 2
+  maxUpgrades: 1
   binds: true
   tellsBind: true
 

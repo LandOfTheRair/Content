@@ -54,7 +54,7 @@
     offense: 7
     defense: 7
     accuracy: 5
-  maxUpgrades: 2
+  maxUpgrades: 1
   tier: 7
   type: Axe
   value: 25443
@@ -70,7 +70,7 @@
     offense: 8
     defense: 8
     accuracy: 6
-  maxUpgrades: 2
+  maxUpgrades: 1
   tier: 8
   type: Axe
   value: 25443

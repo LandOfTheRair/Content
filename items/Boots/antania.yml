@@ -84,7 +84,7 @@
     iceResist: 100
   isHeavy: true
   tier: 6
-  maxUpgrades: 2
+  maxUpgrades: 1
   sprite: 975
   desc: "a mesmerizing pair of chausses bathed in a crimson ether glow"
   value: 20042

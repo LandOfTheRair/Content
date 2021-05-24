@@ -174,7 +174,7 @@
     armorClass: 15
     iceResist: 400
     fireResist: 400
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   desc: "a fluffy robe made of chilled sparkling feathers"
   value: 5500

@@ -46,7 +46,7 @@
     potency: 150
     chance: 25
   desc: "a club forged from the bones of a yeti frozen solid by the bitter Frostlands wind"
-  maxUpgrades: 2
+  maxUpgrades: 1
   binds: true
   tellsBind: true
   tier: 7

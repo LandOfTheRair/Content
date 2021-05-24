@@ -23,7 +23,7 @@
   tellsBind: true
   sprite: 319
   desc: "an amulet crafted from many pearls and engraved with the markings of a shaman"
-  maxUpgrades: 2
+  maxUpgrades: 1
   value: 1000
 
   requirements:
@@ -77,7 +77,7 @@
     mp: 50
   binds: true
   tellsBind: true
-  maxUpgrades: 2
+  maxUpgrades: 1
   sprite: 318
   desc: "an amulet set with a polished gem made of refined crimson ether"
   value: 3000
@@ -98,7 +98,7 @@
     mp: 100
   binds: true
   tellsBind: true
-  maxUpgrades: 2
+  maxUpgrades: 1
   sprite: 360
   desc: "an shimmering golden amulet set with a sparkling diamond"
   value: 10000

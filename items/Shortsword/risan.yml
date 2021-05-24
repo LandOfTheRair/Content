@@ -85,7 +85,7 @@
     defense: 5
     accuracy: 5
     weaponArmorClass: 5
-  maxUpgrades: 2
+  maxUpgrades: 1
   offhand: true
   tier: 7
   type: Shortsword
@@ -102,7 +102,7 @@
     defense: 6
     accuracy: 6
     weaponArmorClass: 6
-  maxUpgrades: 2
+  maxUpgrades: 1
   offhand: true
   tier: 7
   type: Shortsword
@@ -119,7 +119,7 @@
     defense: 7
     accuracy: 7
     weaponArmorClass: 7
-  maxUpgrades: 2
+  maxUpgrades: 1
   offhand: true
   tier: 8
   type: Shortsword

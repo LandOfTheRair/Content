@@ -87,7 +87,7 @@
   value: 12000
   sprite: 511
   binds: true
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   requirements:
     level: 35
@@ -103,7 +103,7 @@
   value: 16000
   sprite: 511
   binds: true
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   requirements:
     level: 40
@@ -119,7 +119,7 @@
   value: 20000
   sprite: 511
   binds: true
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   requirements:
     level: 45

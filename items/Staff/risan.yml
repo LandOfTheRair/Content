@@ -39,7 +39,7 @@
     mpregen: 10
     conjurationBonus: 2
     restorationBonus: 2
-  maxUpgrades: 2
+  maxUpgrades: 1
   tier: 5
   type: Staff
   value: 9567
@@ -114,7 +114,7 @@
     weaponArmorClass: 8
     armorClass: 8
     mpregen: 12
-  maxUpgrades: 2
+  maxUpgrades: 1
   desc: "a wooden staff carved from wood from the ancient Risan kingdom"
   tier: 7
   type: Staff
@@ -133,7 +133,7 @@
     weaponArmorClass: 10
     armorClass: 10
     mpregen: 16
-  maxUpgrades: 2
+  maxUpgrades: 1
   desc: "a wooden staff carved from wood from the ancient Risan kingdom"
   tier: 7
   type: Staff

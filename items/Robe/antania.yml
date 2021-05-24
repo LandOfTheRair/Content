@@ -160,7 +160,7 @@
     level: 3
   binds: true
   tellsBind: true
-  maxUpgrades: 2
+  maxUpgrades: 1
   desc: "a gold-trimmed robe stained crimson from ether mist"
   value: 7891
   sprite: 488
@@ -177,7 +177,7 @@
     armorClass: 3
   binds: true
   tellsBind: true
-  maxUpgrades: 2
+  maxUpgrades: 1
   desc: "a gold-trimmed robe stained with chunks of glowing ether"
   value: 5667
   sprite: 488
@@ -197,7 +197,7 @@
   sprite: 485
   binds: true
   tellsBind: true
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   requirements:
     level: 13

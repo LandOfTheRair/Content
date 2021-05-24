@@ -21,7 +21,7 @@
     armorClass: 4
     defense: 2
     offense: 2
-  maxUpgrades: 2
+  maxUpgrades: 1
   sprite: 475
   desc: "a sash with the image of a sword sewn into it"
   binds: true
@@ -36,7 +36,7 @@
     offense:
       min: 2
       max: 4
-  maxUpgrades: 2
+  maxUpgrades: 1
   sprite: 475
   desc: "a sash emblazoned with the glorious Steffen blade"
   binds: true

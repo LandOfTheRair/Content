@@ -20,7 +20,7 @@
   trait:
     name: ShadowDaggers
     level: 1
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   desc: "a crystal longbow, glowing with dark magic"
   tier: 2

@@ -28,7 +28,7 @@
     fireResist: 50
     iceResist: 50
 
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   requirements:
     level: 5

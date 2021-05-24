@@ -52,7 +52,7 @@
   value: 9000
   sprite: 5
   binds: true
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   requirements:
     level: 35
@@ -71,7 +71,7 @@
   value: 12000
   sprite: 5
   binds: true
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   requirements:
     level: 40
@@ -90,7 +90,7 @@
   value: 15000
   sprite: 5
   binds: true
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   requirements:
     level: 45

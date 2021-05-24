@@ -50,7 +50,7 @@
     weaponArmorClass: 6
     offense: 5
     defense: 5
-  maxUpgrades: 2
+  maxUpgrades: 1
   tier: 7
   offhand: true
   type: Sword
@@ -67,7 +67,7 @@
     weaponArmorClass: 8
     offense: 6
     defense: 6
-  maxUpgrades: 2
+  maxUpgrades: 1
   tier: 7
   offhand: true
   type: Sword
@@ -84,7 +84,7 @@
     weaponArmorClass: 10
     offense: 7
     defense: 7
-  maxUpgrades: 2
+  maxUpgrades: 1
   tier: 8
   offhand: true
   type: Sword

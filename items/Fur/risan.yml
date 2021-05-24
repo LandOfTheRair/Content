@@ -31,7 +31,7 @@
     spellReflectChance: 5
   value: 10011
   sprite: 219
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   requirements:
     level: 15
@@ -92,7 +92,7 @@
     diseaseResist: 50
     armorClass: 30
     defense: 5
-  maxUpgrades: 2
+  maxUpgrades: 1
   value: 3300
   sprite: 358
 
@@ -107,7 +107,7 @@
     iceResist: 500
     armorClass: 30
     defense: 5
-  maxUpgrades: 2
+  maxUpgrades: 1
   value: 23300
   sprite: 219
 

@@ -76,7 +76,7 @@
   sprite: 517
   binds: true
   tellsBind: true
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   requirements:
     level: 17
@@ -92,7 +92,7 @@
   sprite: 1004
   binds: true
   tellsBind: true
-  maxUpgrades: 2
+  maxUpgrades: 1
 
   requirements:
     level: 25

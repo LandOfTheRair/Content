@@ -25,7 +25,7 @@
   type: Mace
   value: 20141
   sprite: 1002
-  maxUpgrades: 2
+  maxUpgrades: 1
   binds: true
   tellsBind: true
 

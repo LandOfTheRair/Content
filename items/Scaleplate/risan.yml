@@ -21,7 +21,7 @@
     offense: 3
     iceResist: 400
     energyResist: 500
-  maxUpgrades: 2
+  maxUpgrades: 1
   requirements:
     level: 25
   desc: "a tunic tanned from the silky, arcane scales of an elder silver dragon"
