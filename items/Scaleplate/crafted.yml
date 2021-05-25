@@ -2,7 +2,7 @@
 - name: Ether Scaleplate
   sprite: 273
   stats:
-    armorClass: 10
+    armorClass: 20
     fireResist: 150
     iceResist: 150
   maxUpgrades: 1
@@ -16,7 +16,7 @@
 - name: Ether Scaleplate II
   sprite: 270
   stats:
-    armorClass: 20
+    armorClass: 30
     fireResist: 200
     iceResist: 200
   maxUpgrades: 2
@@ -31,7 +31,7 @@
   sprite: 302
   stats:
     defense: 3
-    armorClass: 30
+    armorClass: 40
     iceResist: 300
     energyResist: 400
     necroticResist: 400
@@ -47,7 +47,7 @@
   sprite: 955
   stats:
     defense: 5
-    armorClass: 35
+    armorClass: 45
     iceResist: 500
     energyResist: 600
     necroticResist: 600
