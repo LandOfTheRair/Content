@@ -2,7 +2,7 @@
 - name: Ether Fullplate
   sprite: 383
   stats:
-    armorClass: 20
+    armorClass: 30
     fireResist: 50
     iceResist: 50
   desc: "a red fullplate made of refined ether"
@@ -15,7 +15,7 @@
 - name: Ether Fullplate II
   sprite: 524
   stats:
-    armorClass: 25
+    armorClass: 35
     offense: 3
     defense: 3
     fireResist: 100
@@ -32,7 +32,7 @@
   sprite: 528
   stats:
     offense: 3
-    armorClass: 35
+    armorClass: 45
     iceResist: 250
     energyResist: 325
     necroticResist: 325
@@ -47,7 +47,7 @@
   sprite: 529
   stats:
     offense: 5
-    armorClass: 40
+    armorClass: 50
     iceResist: 400
     energyResist: 450
     necroticResist: 450
