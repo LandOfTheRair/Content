@@ -68,7 +68,7 @@
     defense: -2
   equipEffect:
     name: NecroticAura
-    potency: 25
+    potency: 150
     autocast: true
   maxUpgrades: 1
   tier: 4
