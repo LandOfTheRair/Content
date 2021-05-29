@@ -2159,6 +2159,162 @@
                  "width":64,
                  "x":1280,
                  "y":1472
+                }, 
+                {
+                 "gid":2555,
+                 "height":64,
+                 "id":1636,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":5184,
+                 "y":1152
+                }, 
+                {
+                 "gid":2555,
+                 "height":64,
+                 "id":1637,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":5440,
+                 "y":1280
+                }, 
+                {
+                 "gid":2555,
+                 "height":64,
+                 "id":1638,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":5824,
+                 "y":2688
+                }, 
+                {
+                 "gid":2555,
+                 "height":64,
+                 "id":1639,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":4416,
+                 "y":3648
+                }, 
+                {
+                 "gid":2555,
+                 "height":64,
+                 "id":1640,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":4928,
+                 "y":3904
+                }, 
+                {
+                 "gid":2555,
+                 "height":64,
+                 "id":1641,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":4672,
+                 "y":2304
+                }, 
+                {
+                 "gid":2555,
+                 "height":64,
+                 "id":1643,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":4800,
+                 "y":2560
+                }, 
+                {
+                 "gid":2555,
+                 "height":64,
+                 "id":1644,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":5568,
+                 "y":3904
+                }, 
+                {
+                 "gid":2555,
+                 "height":64,
+                 "id":1645,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":5440,
+                 "y":3584
+                }, 
+                {
+                 "gid":2555,
+                 "height":64,
+                 "id":1646,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":5824,
+                 "y":3072
+                }, 
+                {
+                 "gid":2555,
+                 "height":64,
+                 "id":1647,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":5568,
+                 "y":960
+                }, 
+                {
+                 "gid":2555,
+                 "height":64,
+                 "id":1648,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":4352,
+                 "y":1792
+                }, 
+                {
+                 "gid":2555,
+                 "height":64,
+                 "id":1651,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":4352,
+                 "y":1280
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -4381,7 +4537,7 @@
          "name":"NPCs",
          "objects":[
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":875,
                  "name":"Alchemist",
@@ -4405,7 +4561,7 @@
                  "y":11200
                 }, 
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":876,
                  "name":"",
@@ -4425,7 +4581,7 @@
                  "y":10944
                 }, 
                 {
-                 "gid":3147,
+                 "gid":3179,
                  "height":64,
                  "id":877,
                  "name":"Banker",
@@ -4449,7 +4605,7 @@
                  "y":10816
                 }, 
                 {
-                 "gid":2607,
+                 "gid":2639,
                  "height":64,
                  "id":878,
                  "name":"Smith",
@@ -4473,7 +4629,7 @@
                  "y":10816
                 }, 
                 {
-                 "gid":3142,
+                 "gid":3174,
                  "height":64,
                  "id":879,
                  "name":"",
@@ -4495,7 +4651,7 @@
                  "y":10624
                 }, 
                 {
-                 "gid":3092,
+                 "gid":3124,
                  "height":64,
                  "id":888,
                  "name":"",
@@ -4519,7 +4675,7 @@
                  "y":10496
                 }, 
                 {
-                 "gid":3107,
+                 "gid":3139,
                  "height":64,
                  "id":889,
                  "name":"",
@@ -4543,7 +4699,7 @@
                  "y":10688
                 }, 
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":946,
                  "name":"",
@@ -4563,7 +4719,7 @@
                  "y":10944
                 }, 
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":947,
                  "name":"",
@@ -4583,7 +4739,7 @@
                  "y":10944
                 }, 
                 {
-                 "gid":3462,
+                 "gid":3494,
                  "height":64,
                  "id":961,
                  "name":"Heniz Botanist",
@@ -4603,7 +4759,7 @@
                  "y":11072
                 }, 
                 {
-                 "gid":3462,
+                 "gid":3494,
                  "height":64,
                  "id":962,
                  "name":"Steffen Botanist",
@@ -4623,7 +4779,7 @@
                  "y":1088
                 }, 
                 {
-                 "gid":2577,
+                 "gid":2609,
                  "height":64,
                  "id":1027,
                  "name":"Kranton",
@@ -4643,7 +4799,7 @@
                  "y":1216
                 }, 
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":1030,
                  "name":"Alchemist",
@@ -4667,7 +4823,7 @@
                  "y":896
                 }, 
                 {
-                 "gid":3097,
+                 "gid":3129,
                  "height":64,
                  "id":1031,
                  "name":"",
@@ -4691,7 +4847,7 @@
                  "y":2304
                 }, 
                 {
-                 "gid":3087,
+                 "gid":3119,
                  "height":64,
                  "id":1032,
                  "name":"",
@@ -4715,7 +4871,7 @@
                  "y":2304
                 }, 
                 {
-                 "gid":3147,
+                 "gid":3179,
                  "height":64,
                  "id":1093,
                  "name":"Banker",
@@ -4739,7 +4895,7 @@
                  "y":704
                 }, 
                 {
-                 "gid":2607,
+                 "gid":2639,
                  "height":64,
                  "id":1097,
                  "name":"Smith",
@@ -4763,7 +4919,7 @@
                  "y":1728
                 }, 
                 {
-                 "gid":3142,
+                 "gid":3174,
                  "height":64,
                  "id":1098,
                  "name":"",
@@ -4785,7 +4941,7 @@
                  "y":1408
                 }, 
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":1108,
                  "name":"",
@@ -4805,7 +4961,7 @@
                  "y":704
                 }, 
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":1109,
                  "name":"",
@@ -4825,7 +4981,7 @@
                  "y":704
                 }, 
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":1110,
                  "name":"",
@@ -4845,7 +5001,7 @@
                  "y":896
                 }, 
                 {
-                 "gid":3447,
+                 "gid":3479,
                  "height":64,
                  "id":1113,
                  "name":"Ergorat",
@@ -4865,7 +5021,7 @@
                  "y":9728
                 }, 
                 {
-                 "gid":3452,
+                 "gid":3484,
                  "height":64,
                  "id":1115,
                  "name":"Saboteur",
@@ -4885,7 +5041,7 @@
                  "y":10624
                 }, 
                 {
-                 "gid":3447,
+                 "gid":3479,
                  "height":64,
                  "id":1116,
                  "name":"Planner",
@@ -4905,7 +5061,7 @@
                  "y":10112
                 }, 
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":1118,
                  "name":"Alchemist",
@@ -4929,7 +5085,7 @@
                  "y":2944
                 }, 
                 {
-                 "gid":2607,
+                 "gid":2639,
                  "height":64,
                  "id":1119,
                  "name":"Smith",
@@ -4953,7 +5109,7 @@
                  "y":2944
                 }, 
                 {
-                 "gid":3182,
+                 "gid":3214,
                  "height":64,
                  "id":1188,
                  "name":"",
@@ -4979,7 +5135,7 @@
                  "y":1088
                 }, 
                 {
-                 "gid":3182,
+                 "gid":3214,
                  "height":64,
                  "id":1189,
                  "name":"",
@@ -5005,7 +5161,7 @@
                  "y":1984
                 }, 
                 {
-                 "gid":3147,
+                 "gid":3179,
                  "height":64,
                  "id":1190,
                  "name":"Encruster",
@@ -5027,7 +5183,7 @@
                  "y":896
                 }, 
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":1284,
                  "name":"Protra",
@@ -5047,7 +5203,7 @@
                  "y":2944
                 }, 
                 {
-                 "gid":3177,
+                 "gid":3209,
                  "height":64,
                  "id":1285,
                  "name":"Crier",
@@ -5067,7 +5223,7 @@
                  "y":1536
                 }, 
                 {
-                 "gid":2582,
+                 "gid":2614,
                  "height":64,
                  "id":1345,
                  "name":"Sedgwick",
@@ -5087,7 +5243,7 @@
                  "y":8768
                 }, 
                 {
-                 "gid":3447,
+                 "gid":3479,
                  "height":64,
                  "id":1358,
                  "name":"Dungeon Delver",
@@ -5107,7 +5263,7 @@
                  "y":11200
                 }, 
                 {
-                 "gid":3107,
+                 "gid":3139,
                  "height":64,
                  "id":1424,
                  "name":"Master Thief",
@@ -5127,7 +5283,7 @@
                  "y":2240
                 }, 
                 {
-                 "gid":2632,
+                 "gid":2664,
                  "height":64,
                  "id":1437,
                  "name":"Bureaucrat",
@@ -5147,7 +5303,7 @@
                  "y":2112
                 }, 
                 {
-                 "gid":3177,
+                 "gid":3209,
                  "height":64,
                  "id":1443,
                  "name":"Diplomat",
@@ -5167,7 +5323,7 @@
                  "y":4672
                 }, 
                 {
-                 "gid":2587,
+                 "gid":2619,
                  "height":64,
                  "id":1444,
                  "name":"Zarn",
@@ -5187,7 +5343,7 @@
                  "y":4096
                 }, 
                 {
-                 "gid":3142,
+                 "gid":3174,
                  "height":64,
                  "id":1586,
                  "name":"Tristian",
@@ -5207,7 +5363,7 @@
                  "y":4800
                 }, 
                 {
-                 "gid":4452,
+                 "gid":4484,
                  "height":64,
                  "id":1629,
                  "name":"",
@@ -5229,7 +5385,7 @@
                  "y":11264
                 }, 
                 {
-                 "gid":4452,
+                 "gid":4484,
                  "height":64,
                  "id":1630,
                  "name":"",
@@ -9185,7 +9341,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1633,
+ "nextobjectid":1652,
  "orientation":"orthogonal",
  "properties":
     {
@@ -10456,11 +10612,11 @@
          "tilewidth":64
         }, 
         {
-         "columns":32,
+         "columns":40,
          "firstgid":1329,
          "image":"..\/..\/__assets\/spritesheets\/decor.png",
-         "imageheight":2496,
-         "imagewidth":2048,
+         "imageheight":2048,
+         "imagewidth":2560,
          "margin":0,
          "name":"Decor",
          "spacing":0,
@@ -10521,7 +10677,7 @@
                  "name":"LoudRugNoShineVert",
                  "tile":569
                 }],
-         "tilecount":1248,
+         "tilecount":1280,
          "tileheight":64,
          "tiles":
             {
@@ -11034,7 +11190,7 @@
         }, 
         {
          "columns":40,
-         "firstgid":2577,
+         "firstgid":2609,
          "image":"..\/..\/__assets\/spritesheets\/creatures.png",
          "imageheight":3008,
          "imagewidth":2560,
