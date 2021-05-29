@@ -23,7 +23,7 @@
   desc: "an iron greatmace that smells of death"
   equipEffect:
     name: NecroticAura
-    potency: 25
+    potency: 100
     autocast: true
   maxUpgrades: 1
   tier: 4
