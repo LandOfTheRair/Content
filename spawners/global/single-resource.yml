@@ -1,5 +1,5 @@
 npcIds: []
-respawnRate: 1800
+respawnRate: 450
 initialSpawn: 1
 maxSpawn: 1
 maxCreatures: 1
