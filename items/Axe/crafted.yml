@@ -35,7 +35,6 @@
   type: Axe
   value: 2346
   sprite: 41
-  binds: true
 
   requirements:
     level: 15

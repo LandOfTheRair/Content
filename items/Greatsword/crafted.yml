@@ -35,7 +35,6 @@
   type: Twohanded
   value: 2341
   sprite: 43
-  binds: true
 
   requirements:
     level: 15

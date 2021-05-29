@@ -37,7 +37,6 @@
   type: Polearm
   value: 2344
   sprite: 44
-  binds: true
 
   requirements:
     level: 15
