@@ -7,7 +7,6 @@
     iceResist: 150
   maxUpgrades: 1
   desc: "a bright red scaleplate made of refined ether"
-  binds: true
   value: 5000
 
   requirements:
@@ -37,7 +36,6 @@
     necroticResist: 400
   maxUpgrades: 1
   desc: "a shining silver scaleplate made of silver scales"
-  binds: true
   value: 5000
 
   requirements:

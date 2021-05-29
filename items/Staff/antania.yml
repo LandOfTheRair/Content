@@ -29,7 +29,6 @@
   type: Staff
   value: 567
   sprite: 326
-  binds: true
 
   requirements:
     level: 5
