@@ -22805,7 +22805,7 @@
                     {
                      "lairName":"Dedlaen Ghast",
                      "randomWalkRadius":7,
-                     "respawnRate":3600,
+                     "respawnRate":1800,
                      "shouldStrip":true,
                      "stripRadius":1,
                      "stripX":24,
@@ -23487,7 +23487,7 @@
                      "lairName":"Dedlaen Crypt Thing",
                      "maxSpawn":1,
                      "randomWalkRadius":7,
-                     "respawnRate":3600,
+                     "respawnRate":1800,
                      "shouldStrip":false,
                      "tag":"Global Lair"
                     },
@@ -23519,7 +23519,7 @@
                      "lairName":"Dedlaen Death Knight",
                      "maxSpawn":1,
                      "randomWalkRadius":7,
-                     "respawnRate":7200,
+                     "respawnRate":1800,
                      "shouldStrip":false,
                      "tag":"Global Lair"
                     },
@@ -23551,7 +23551,7 @@
                      "lairName":"Dedlaen Vampire",
                      "maxSpawn":1,
                      "randomWalkRadius":25,
-                     "respawnRate":14400,
+                     "respawnRate":1800,
                      "shouldStrip":true,
                      "stripRadius":1,
                      "stripX":36,
@@ -23829,7 +23829,7 @@
                      "lairName":"Dedlaen Minotaur",
                      "maxSpawn":1,
                      "randomWalkRadius":25,
-                     "respawnRate":3600,
+                     "respawnRate":1800,
                      "shouldStrip":false,
                      "tag":"Global Lair"
                     },
@@ -23861,7 +23861,7 @@
                      "lairName":"Dedlaen Dragon Turtle",
                      "maxSpawn":1,
                      "randomWalkRadius":20,
-                     "respawnRate":7200,
+                     "respawnRate":1800,
                      "shouldEatTier":1,
                      "shouldStrip":true,
                      "stripRadius":1,

@@ -24083,7 +24083,7 @@
                      "lairName":"Catacombs Frost Dragon",
                      "maxSpawn":1,
                      "randomWalkRadius":10,
-                     "respawnRate":3600,
+                     "respawnRate":1800,
                      "shouldEatTier":2,
                      "shouldStrip":true,
                      "stripRadius":1,
@@ -24123,7 +24123,7 @@
                      "lairName":"Catacombs Tomb Guardian",
                      "maxSpawn":1,
                      "randomWalkRadius":10,
-                     "respawnRate":3600,
+                     "respawnRate":1800,
                      "shouldEatTier":2,
                      "shouldStrip":true,
                      "stripRadius":1,
@@ -24163,7 +24163,7 @@
                      "lairName":"Catacombs Tomb Guardian",
                      "maxSpawn":1,
                      "randomWalkRadius":10,
-                     "respawnRate":3600,
+                     "respawnRate":1800,
                      "shouldEatTier":2,
                      "shouldStrip":true,
                      "stripRadius":1,
@@ -24203,7 +24203,7 @@
                      "lairName":"Catacombs Frost Knight",
                      "maxSpawn":1,
                      "randomWalkRadius":10,
-                     "respawnRate":3600,
+                     "respawnRate":1800,
                      "tag":"Global Lair"
                     },
                  "propertytypes":
@@ -24233,7 +24233,7 @@
                      "lairName":"Catacombs Frost Knight",
                      "maxSpawn":1,
                      "randomWalkRadius":10,
-                     "respawnRate":3600,
+                     "respawnRate":1800,
                      "tag":"Global Lair"
                     },
                  "propertytypes":
@@ -24263,7 +24263,7 @@
                      "lairName":"Catacombs Frost Knight",
                      "maxSpawn":1,
                      "randomWalkRadius":10,
-                     "respawnRate":3600,
+                     "respawnRate":1800,
                      "tag":"Global Lair"
                     },
                  "propertytypes":
@@ -24293,7 +24293,7 @@
                      "lairName":"Catacombs Frost Knight",
                      "maxSpawn":1,
                      "randomWalkRadius":10,
-                     "respawnRate":3600,
+                     "respawnRate":1800,
                      "tag":"Global Lair"
                     },
                  "propertytypes":

@@ -1463,7 +1463,7 @@
                      "lairName":"Christmas King Snowman",
                      "maxSpawn":1,
                      "randomWalkRadius":20,
-                     "respawnRate":3600,
+                     "respawnRate":1800,
                      "shouldStrip":true,
                      "stripRadius":1,
                      "stripX":94,

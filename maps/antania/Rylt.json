@@ -7686,7 +7686,7 @@
                      "isDangerous":false,
                      "lairName":"Rylt Renegade Commander",
                      "randomWalkRadius":15,
-                     "respawnRate":3600,
+                     "respawnRate":1800,
                      "shouldStrip":true,
                      "stripRadius":1,
                      "stripX":81,
@@ -8101,7 +8101,7 @@
                     {
                      "lairName":"Saraxa",
                      "randomWalkRadius":20,
-                     "respawnRate":3600,
+                     "respawnRate":1800,
                      "shouldStrip":true,
                      "stripRadius":1,
                      "stripX":135,
@@ -8135,7 +8135,7 @@
                     {
                      "lairName":"Saraxa Rocky",
                      "randomWalkRadius":20,
-                     "respawnRate":1200,
+                     "respawnRate":600,
                      "shouldStrip":false,
                      "tag":"Global Lair"
                     },
@@ -8163,6 +8163,7 @@
                     {
                      "lairName":"Tonwin",
                      "randomWalkRadius":15,
+                     "respawnRate":1800,
                      "shouldStrip":true,
                      "stripRadius":1,
                      "stripX":21,
@@ -8173,6 +8174,7 @@
                     {
                      "lairName":"string",
                      "randomWalkRadius":"int",
+                     "respawnRate": "int",
                      "shouldStrip":"bool",
                      "stripRadius":"int",
                      "stripX":"int",

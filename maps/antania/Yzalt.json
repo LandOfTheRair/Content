@@ -7125,7 +7125,7 @@
                     {
                      "lairName":"Ranata",
                      "randomWalkRadius":10,
-                     "respawnRate":3600,
+                     "respawnRate":1800,
                      "shouldStrip":true,
                      "stripRadius":1,
                      "stripX":90,

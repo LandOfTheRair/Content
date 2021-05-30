@@ -4719,7 +4719,7 @@
                     {
                      "lairName":"Thanksgiving King Gobbler",
                      "randomWalkRadius":10,
-                     "respawnRate":3600,
+                     "respawnRate":1800,
                      "shouldEatTier":1,
                      "shouldStrip":true,
                      "stripRadius":1,
