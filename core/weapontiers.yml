@@ -92,13 +92,13 @@ __damageVeryHigh: &damageVeryHigh { 0: 7,       1: 20,      2: 40,      3: 75,  
 ## Variance Measures (% variance bonus per hit)
 
 __varianceNone: &varianceNone         { min: 0,  max: 0   }
-__varianceVeryLow: &varianceVeryLow   { min: 15, max: 25  }
-__varianceLow: &varianceLow           { min: 20, max: 25  }
-__varianceMidLow: &varianceMidLow     { min: 20, max: 35  }
-__varianceMid: &varianceMid           { min: 25, max: 50  }
-__varianceMidHigh: &varianceMidHigh   { min: 15, max: 60  }
-__varianceHigh: &varianceHigh         { min: 15, max: 80  }
-__varianceVeryHigh: &varianceVeryHigh { min: 0,  max: 125 }
+__varianceVeryLow: &varianceVeryLow   { min: 5,  max: 15  }
+__varianceLow: &varianceLow           { min: 10, max: 20  }
+__varianceMidLow: &varianceMidLow     { min: 10, max: 30  }
+__varianceMid: &varianceMid           { min: 15, max: 25  }
+__varianceMidHigh: &varianceMidHigh   { min: 20, max: 35  }
+__varianceHigh: &varianceHigh         { min: 5,  max: 35  }
+__varianceVeryHigh: &varianceVeryHigh { min: 0,  max: 50  }
 
 ## Scaling Measures (Bonus multiplier per skill)
 
