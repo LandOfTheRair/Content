@@ -376,7 +376,7 @@
     - result: Identify
       chance: 0
     - result: Transmute
-      chance: 5
+      chance: 1
 
   gold:
     min: 350
@@ -499,7 +499,7 @@
     - result: Identify
       chance: 0
     - result: Transmute
-      chance: 5
+      chance: 1
 
   gold:
     min: 1350
