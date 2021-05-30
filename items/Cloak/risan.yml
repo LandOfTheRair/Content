@@ -27,6 +27,7 @@
   value: 2500
   sprite: 17
   binds: true
+  quality: 1
   maxUpgrades: 1
 
   trait:
@@ -48,6 +49,7 @@
   value: 2500
   sprite: 17
   binds: true
+  quality: 1
   maxUpgrades: 1
 
   trait:
@@ -69,6 +71,7 @@
   value: 2500
   sprite: 17
   binds: true
+  quality: 1
   maxUpgrades: 1
 
   trait:
@@ -90,6 +93,7 @@
   value: 2500
   sprite: 17
   binds: true
+  quality: 1
   maxUpgrades: 1
 
   trait:
@@ -111,6 +115,7 @@
   value: 500
   sprite: 17
   binds: true
+  quality: 1
   maxUpgrades: 1
 
   trait:
@@ -129,6 +134,7 @@
   value: 13000
   sprite: 483
   binds: true
+  quality: 5
   maxUpgrades: 1
 
   requirements:
