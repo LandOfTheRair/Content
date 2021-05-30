@@ -5947,28 +5947,8 @@
                  "type":"",
                  "visible":true,
                  "width":64,
-                 "x":4480,
-                 "y":1280
-                }, 
-                {
-                 "gid":2363,
-                 "height":64,
-                 "id":1517,
-                 "name":"Crazed Dryad Spawner",
-                 "properties":
-                    {
-                     "tag":"Risan Risanmines Crazed-dryad"
-                    },
-                 "propertytypes":
-                    {
-                     "tag":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":4480,
-                 "y":1408
+                 "x":4736,
+                 "y":1536
                 }, 
                 {
                  "gid":2363,
@@ -5987,8 +5967,8 @@
                  "type":"",
                  "visible":true,
                  "width":64,
-                 "x":4352,
-                 "y":1408
+                 "x":4160,
+                 "y":1600
                 }, 
                 {
                  "gid":2363,
@@ -6007,8 +5987,8 @@
                  "type":"",
                  "visible":true,
                  "width":64,
-                 "x":4416,
-                 "y":1344
+                 "x":4608,
+                 "y":1088
                 }, 
                 {
                  "gid":2363,
@@ -6085,8 +6065,8 @@
                  "type":"",
                  "visible":true,
                  "width":64,
-                 "x":4352,
-                 "y":1280
+                 "x":4160,
+                 "y":1152
                 }, 
                 {
                  "gid":2363,
