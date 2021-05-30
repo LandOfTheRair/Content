@@ -1,0 +1,198 @@
+
+# Thief
+
+- item: Crafted Darkness Scroll
+  name: Darkness Scroll
+  category: Spell Scrolls
+  skillGained: 2
+  maxSkillForGains: 13
+  requireSkill: 9
+  xpGained: 5000
+  requireClass: [Thief]
+  requireSpell: Darkness
+  copySkillToPotency: true
+  potencyScalar: 10
+  ozIngredients:
+    - filter: Dust - Enos
+      display: Enchanting Dust - Enos
+      ounces: 10
+
+- item: Crafted DarkVision Scroll
+  name: DarkVision Scroll
+  category: Spell Scrolls
+  skillGained: 2
+  maxSkillForGains: 14
+  requireSkill: 10
+  xpGained: 5000
+  requireClass: [Thief]
+  requireSpell: DarkVision
+  copySkillToPotency: true
+  potencyScalar: 10
+  ozIngredients:
+    - filter: Dust - Enos
+      display: Enchanting Dust - Enos
+      ounces: 15
+
+- item: Crafted Transmute Scroll
+  name: Transmute Scroll
+  category: Spell Scrolls
+  skillGained: 2
+  maxSkillForGains: 15
+  requireSkill: 11
+  xpGained: 5000
+  requireClass: [Thief]
+  requireSpell: Transmute
+  copySkillToPotency: true
+  potencyScalar: 1
+  ozIngredients:
+    - filter: Dust - Enos
+      display: Enchanting Dust - Enos
+      ounces: 20
+
+- item: Crafted EagleEye Scroll
+  name: EagleEye Scroll
+  category: Spell Scrolls
+  skillGained: 2
+  maxSkillForGains: 16
+  requireSkill: 12
+  xpGained: 5000
+  requireClass: [Thief]
+  requireSpell: EagleEye
+  copySkillToPotency: true
+  potencyScalar: 5
+  ozIngredients:
+    - filter: Dust - Enos
+      display: Enchanting Dust - Enos
+      ounces: 25
+
+# Healer
+
+- item: Crafted TrueSight Scroll
+  name: TrueSight Scroll
+  category: Spell Scrolls
+  skillGained: 2
+  maxSkillForGains: 13
+  requireSkill: 9
+  xpGained: 5000
+  requireClass: [Healer]
+  requireSpell: TrueSight
+  copySkillToPotency: true
+  potencyScalar: 10
+  ozIngredients:
+    - filter: Dust - Enos
+      display: Enchanting Dust - Enos
+      ounces: 10
+
+- item: Crafted BarFire Scroll
+  name: BarFire Scroll
+  category: Spell Scrolls
+  skillGained: 2
+  maxSkillForGains: 14
+  requireSkill: 10
+  xpGained: 5000
+  requireClass: [Healer]
+  requireSpell: BarFire
+  copySkillToPotency: true
+  potencyScalar: 10
+  ozIngredients:
+    - filter: Dust - Enos
+      display: Enchanting Dust - Enos
+      ounces: 15
+
+- item: Crafted BarFrost Scroll
+  name: BarFrost Scroll
+  category: Spell Scrolls
+  skillGained: 2
+  maxSkillForGains: 15
+  requireSkill: 11
+  xpGained: 5000
+  requireClass: [Healer]
+  requireSpell: BarFrost
+  copySkillToPotency: true
+  potencyScalar: 10
+  ozIngredients:
+    - filter: Dust - Enos
+      display: Enchanting Dust - Enos
+      ounces: 20
+
+- item: Crafted Succor Scroll
+  name: Succor Scroll
+  category: Spell Scrolls
+  skillGained: 2
+  maxSkillForGains: 16
+  requireSkill: 12
+  xpGained: 5000
+  requireClass: [Healer]
+  requireSpell: Succor
+  copySkillToPotency: true
+  potencyScalar: 2
+  ozIngredients:
+    - filter: Dust - Enos
+      display: Enchanting Dust - Enos
+      ounces: 25
+
+# Healer
+
+- item: Crafted FleetOfFoot Scroll
+  name: FleetOfFoot Scroll
+  category: Spell Scrolls
+  skillGained: 2
+  maxSkillForGains: 13
+  requireSkill: 9
+  xpGained: 5000
+  requireClass: [Mage]
+  requireSpell: FleetOfFoot
+  copySkillToPotency: true
+  potencyScalar: 10
+  ozIngredients:
+    - filter: Dust - Enos
+      display: Enchanting Dust - Enos
+      ounces: 10
+
+- item: Crafted EnergyWave Scroll
+  name: EnergyWave Scroll
+  category: Spell Scrolls
+  skillGained: 2
+  maxSkillForGains: 14
+  requireSkill: 10
+  xpGained: 5000
+  requireClass: [Mage]
+  requireSpell: EnergyWave
+  copySkillToPotency: true
+  potencyScalar: 15
+  ozIngredients:
+    - filter: Dust - Enos
+      display: Enchanting Dust - Enos
+      ounces: 15
+
+- item: Crafted Protection Scroll
+  name: Protection Scroll
+  category: Spell Scrolls
+  skillGained: 2
+  maxSkillForGains: 15
+  requireSkill: 11
+  xpGained: 5000
+  requireClass: [Mage]
+  requireSpell: Protection
+  copySkillToPotency: true
+  potencyScalar: 15
+  ozIngredients:
+    - filter: Dust - Enos
+      display: Enchanting Dust - Enos
+      ounces: 20
+
+- item: Crafted Absorption Scroll
+  name: Absorption Scroll
+  category: Spell Scrolls
+  skillGained: 2
+  maxSkillForGains: 16
+  requireSkill: 12
+  xpGained: 5000
+  requireClass: [Mage]
+  requireSpell: Absorption
+  copySkillToPotency: true
+  potencyScalar: 15
+  ozIngredients:
+    - filter: Dust - Enos
+      display: Enchanting Dust - Enos
+      ounces: 25

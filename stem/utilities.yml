@@ -395,6 +395,7 @@ MassTeleport:
 
   # trait info
   trait:
+    name: Mass Teleport
     borderColor: "#a0a"
 
   # macro info

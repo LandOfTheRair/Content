@@ -1187,6 +1187,7 @@ MagicMirror:
 
   # trait info
   trait:
+    name: Magic Mirror
     borderColor: "#ccc"
 
   # macro info

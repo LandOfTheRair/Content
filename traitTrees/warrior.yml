@@ -248,7 +248,7 @@ Warrior:
           - name: UnarmoredSavant
             maxLevel: 1
 
-          - name: BrassKnuckles
+          - name: Shield
             maxLevel: 1
           
         - traits: 
@@ -257,7 +257,7 @@ Warrior:
           - name: StrongSweep
             maxLevel: 5
 
-          - name: Shield
+          - name: BrassKnuckles
             maxLevel: 1
           
           - name: MartialAgility
