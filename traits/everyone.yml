@@ -29,7 +29,8 @@ InternalFortitude:
   name: Internal Fortitude
   desc: Increase your saving throw to resist spells by +$2$.
   icon: brain
-  valuePerTier: 2
+  statsGiven:
+    savingThrow: 2
   
 CarrotVision:
   name: Carrot Vision

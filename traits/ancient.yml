@@ -20,7 +20,8 @@ AncientFortitude:
   desc: Increase your saving throw to resist spells by +$3$.
   icon: brain
   isAncient: true
-  valuePerTier: 3
+  statsGiven:
+    savingThrow: 3
 
 AncientAnger:
   name: Ancient Anger
