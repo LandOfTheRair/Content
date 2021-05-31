@@ -19,7 +19,6 @@
     weaponArmorClass: 3
   offhand: true
   tier: 5
-  quality: 1
   type: Shortsword
   value: 3411
   sprite: 305
