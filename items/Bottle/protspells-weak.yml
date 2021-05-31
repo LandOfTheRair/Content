@@ -146,3 +146,47 @@
     potency: 150
     duration: 600
   value: 2500
+
+- name: Weak Lifepool Potion (10oz)
+  desc: "a clear bottle filled with blue liquid, marked with two red arrows"
+  extendedDesc: "a flask of Lifepool"
+  sprite: 39
+  ounces: 10
+  useEffect:
+    name: Lifepool
+    potency: 200
+    duration: 3600
+  value: 2500
+
+- name: Weak Manapool Potion (10oz)
+  desc: "a clear bottle filled with bluish liquid, marked with two red arrows"
+  extendedDesc: "a flask of Manapool"
+  sprite: 39
+  ounces: 10
+  useEffect:
+    name: Manapool
+    potency: 200
+    duration: 3600
+  value: 2500
+
+- name: Weak BulgingMuscles Potion (10oz)
+  desc: "a dark bottle marked with many glowing red circles"
+  extendedDesc: "a flask of Bulging Muscles"
+  sprite: 256
+  ounces: 10
+  useEffect:
+    name: BulgingMuscles
+    potency: 10
+    duration: 3600
+  value: 2500
+
+- name: Weak Barkskin Potion (10oz)
+  desc: "a tan bottle corked with a chunk of bark"
+  extendedDesc: "a flask of Barkskin"
+  sprite: 262
+  ounces: 10
+  useEffect:
+    name: Barkskin
+    potency: 5
+    duration: 3600
+  value: 2500

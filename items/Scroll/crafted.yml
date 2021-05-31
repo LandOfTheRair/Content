@@ -112,3 +112,39 @@
     name: Absorption
     uses: 1
     potency: 1
+
+- name: Crafted Spellshield Scroll
+  sprite: 224
+  desc: "a scroll with magical, glowing writing that says \"SPELLSHIELD\""
+  value: 1
+  useEffect:
+    name: Spellshield
+    uses: 10
+    potency: 5
+
+- name: Crafted DeftStrikes Scroll
+  sprite: 224
+  desc: "a scroll with magical, glowing writing that says \"DEFT STRIKES\""
+  value: 1
+  useEffect:
+    name: DeftStrikes
+    uses: 10
+    potency: 3
+
+- name: Crafted CombatPower Scroll
+  sprite: 224
+  desc: "a scroll with magical, glowing writing that says \"COMBAT POWER\""
+  value: 1
+  useEffect:
+    name: CombatPower
+    uses: 10
+    potency: 5
+
+- name: Crafted ThreateningAura Scroll
+  sprite: 224
+  desc: "a scroll with magical, glowing writing that says \"THREATENING AURA\""
+  value: 1
+  useEffect:
+    name: ThreateningAura
+    uses: 10
+    potency: 1

@@ -1299,3 +1299,367 @@ FirethornsAura:
     name: Firethorns
     for: Firethorns
     mode: 'clickToTarget'
+    
+Lifepool:
+
+  # global info
+  all:
+    desc: "Increase the maximum health of the target. Cost: 100 MP."
+    icon: ball-glow
+    color: "#f00"
+
+  # spell cast info
+  spell: 
+    mpCost: 100
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
+
+    spellMeta:
+      doesOvertime: true
+      staticPotency: true
+
+  # trait info
+  trait:
+    borderColor: "#f00"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Your maximum health is increased.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        unique: 'pool'
+        canRemove: true
+    effectMeta:
+      effectRef: Lifepool
+      castSfx: 'spell-buff-give'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast Lifepool on %target.'
+      applyMessage: "Your chest begins to glow bright red!"
+      unapplyMessage: 'Your red glow fades.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+    
+Manapool:
+
+  # global info
+  all:
+    desc: "Increase the maximum mana of the target. Cost: 100 MP."
+    icon: ball-glow
+    color: "#00f"
+
+  # spell cast info
+  spell: 
+    mpCost: 100
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
+
+    spellMeta:
+      doesOvertime: true
+      staticPotency: true
+
+  # trait info
+  trait:
+    borderColor: "#f00"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Your maximum mana is increased.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        unique: 'pool'
+        canRemove: true
+    effectMeta:
+      effectRef: Manapool
+      castSfx: 'spell-buff-give'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast Manapool on %target.'
+      applyMessage: "Your chest begins to glow bright blue!"
+      unapplyMessage: 'Your blue glow fades.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+    
+Barkskin:
+
+  # global info
+  all:
+    desc: "Increase the physical resistance of the target. Cost: 35 MP."
+    icon: tree-branch
+    color: "#964b00"
+
+  # spell cast info
+  spell: 
+    mpCost: 35
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 2]
+      - [21, 3]
+      - [31, 4]
+
+    spellMeta:
+      doesOvertime: true
+      staticPotency: true
+
+  # trait info
+  trait:
+    borderColor: "#f00"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Your physical resistance is increased.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        unique: 'skin'
+        canRemove: true
+    effectMeta:
+      effectRef: Barkskin
+      castSfx: 'spell-buff-give'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast Barkskin on %target.'
+      applyMessage: "Your skin hardens like a tree!"
+      unapplyMessage: 'Your skin returns to normal.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+    
+BulgingMuscles:
+
+  # global info
+  all:
+    desc: "Increase the physical damage of the target. Cost: 50 MP."
+    icon: strong
+    color: "#f00"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      doesOvertime: true
+      staticPotency: true
+
+  # trait info
+  trait:
+    borderColor: "#f00"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Your physical damage is increased.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+    effectMeta:
+      effectRef: BulgingMuscles
+      castSfx: 'spell-buff-give'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast Bulging Muscles on %target.'
+      applyMessage: "Your muscles bulge unnaturally!"
+      unapplyMessage: 'Your muscles return to normal.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+    
+Spellshield:
+
+  # global info
+  all:
+    desc: "Increase the saving throw capabilities of the target. Cost: 50 MP."
+    icon: shield-echoes
+    color: "#f0f"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      doesOvertime: true
+      staticPotency: true
+
+  # trait info
+  trait:
+    borderColor: "#f00"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Your saving throw chance is increased.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+    effectMeta:
+      effectRef: Spellshield
+      castSfx: 'spell-buff-give'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast Spellshield on %target.'
+      applyMessage: "You feel resistant to magic!"
+      unapplyMessage: 'Your magic resistance fades.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+    
+DeftStrikes:
+
+  # global info
+  all:
+    desc: "Increase the number of attacks for the target. Cost: 50 MP."
+    icon: sword-brandish
+    color: "#f00"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      doesOvertime: true
+      staticPotency: true
+
+  # trait info
+  trait:
+    borderColor: "#f00"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Your number of attacks is increased.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+    effectMeta:
+      effectRef: DeftStrikes
+      castSfx: 'spell-buff-give'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast Deft Strikes on %target.'
+      applyMessage: "Your weapon feels lighter!"
+      unapplyMessage: 'Your weapons weight returns to normal.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+    
+CombatPower:
+
+  # global info
+  all:
+    desc: "Increase the defense and offense of the target. Cost: 50 MP."
+    icon: swords-emblem
+    color: "#f00"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      doesOvertime: true
+      staticPotency: true
+
+  # trait info
+  trait:
+    borderColor: "#f00"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Your offense and defense is increased.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+    effectMeta:
+      effectRef: CombatPower
+      castSfx: 'spell-buff-give'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast Combat Power on %target.'
+      applyMessage: "You feel more combat-ready!"
+      unapplyMessage: 'Your readiness fades.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+    
+ThreateningAura:
+
+  # global info
+  all:
+    desc: "Increase the threat generation of the target. Cost: 50 MP."
+    icon: aura
+    color: "#f00"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    maxSkillForGain: 20
+    skillMultiplierChanges:
+      - [0,  1]
+
+    spellMeta:
+      doesOvertime: true
+      staticPotency: true
+
+  # trait info
+  trait:
+    borderColor: "#f00"
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Your threat generation is increased.'
+    effect:
+      type: buff
+      duration: 600
+      extra:
+        canRemove: true
+    effectMeta:
+      effectRef: ThreateningAura
+      castSfx: 'spell-buff-give'
+      applySfx: 'spell-buff-magical'
+      castMessage: 'You cast Threatening Aura on %target.'
+      applyMessage: "You feel more threatening!"
+      unapplyMessage: 'Your threatening aura fades.'
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'

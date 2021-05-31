@@ -124,3 +124,66 @@
     - Maze Corpseflower
     - Maze Corpseflower
     - Mines Caveflower
+
+- item: Weak Lifepool Potion (10oz)
+  name: Lifepool Bottle
+  category: War Bottles
+  skillGained: 4
+  maxSkillForGains: 15
+  requireSkill: 11
+  xpGained: 25000
+  requireClass: [Warrior]
+  ingredients:
+    - Antanian Pint of Water
+    - Mines Caveflower
+    - Rylt Blueflower
+  ozIngredients:
+    - filter: Copper Ore
+      display: Copper Ore (Small)
+      ounces: 1
+
+- item: Weak Manapool Potion (10oz)
+  name: Manapool Bottle
+  category: War Bottles
+  skillGained: 4
+  maxSkillForGains: 16
+  requireSkill: 12
+  xpGained: 25000
+  requireClass: [Warrior]
+  ingredients:
+    - Antanian Pint of Water
+    - Mines Caveflower
+    - Rylt Blueflower
+  ozIngredients:
+    - filter: Silver Ore
+      display: Silver Ore (Small)
+      ounces: 1
+
+- item: Weak BulgingMuscles Potion (10oz)
+  name: Bulging Muscules Bottle
+  category: War Bottles
+  skillGained: 4
+  maxSkillForGains: 17
+  requireSkill: 13
+  xpGained: 25000
+  requireClass: [Warrior]
+  ingredients:
+    - Antanian Pint of Water
+    - Mines Caveflower
+    - Rylt Blueflower
+    - Yzalt Steffen Apple
+
+- item: Weak Barkskin Potion (10oz)
+  name: Barkskin Bottle
+  category: War Bottles
+  skillGained: 4
+  maxSkillForGains: 18
+  requireSkill: 14
+  xpGained: 25000
+  requireClass: [Warrior]
+  ingredients:
+    - Antanian Pint of Water
+    - Antanian Twig
+    - Antanian Twig
+    - Antanian Branch
+    - Antanian Branch
