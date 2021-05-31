@@ -95,7 +95,7 @@ Warrior:
 
           - name: ''
 
-          - name: Blindstrike
+          - name: Multistrike
             maxLevel: 1
           
         - traits: 
@@ -104,13 +104,16 @@ Warrior:
             requires: Provoke
 
           - name: ''
-          - name: ''
+
+          - name: Blindstrike
+            maxLevel: 1
           
           - name: Thruststrike
             maxLevel: 1
 
-          - name: Multistrike
+          - name: Multitarget
             maxLevel: 1
+            requires: Multistrike
           
         - traits: 
 
@@ -123,8 +126,8 @@ Warrior:
           - name: ''
           - name: ''
 
-          - name: Multitarget
-            maxLevel: 1
+          - name: Multifocus
+            maxLevel: 5
             requires: Multistrike
           
         - traits: 
@@ -140,10 +143,8 @@ Warrior:
           - name: DoubleThrust
             maxLevel: 1
             requires: Thruststrike
-
-          - name: Multifocus
-            maxLevel: 5
-            requires: Multistrike
+            
+          - name: ''
 
     Duelist:
       desc: The Duelist tree
