@@ -192,7 +192,7 @@ Sweep:
 
   # global info
   all:
-    desc: "Attack multiple creatures on your tile with a kick attack."
+    desc: "Attack multiple creatures on your tile with a kick attack at the expense of defense."
     icon: foot-trip
     color: "#a00"
 
