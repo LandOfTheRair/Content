@@ -3,7 +3,7 @@ npcIds:
 respawnRate: 7
 initialSpawn: 1
 maxCreatures: 7
-spawnRadius: 7
+spawnRadius: 3
 randomWalkRadius: 12
 leashRadius: 18
 attributeAddChance: 1
