@@ -8174,7 +8174,7 @@
                     {
                      "lairName":"string",
                      "randomWalkRadius":"int",
-                     "respawnRate": "int",
+                     "respawnRate":"int",
                      "shouldStrip":"bool",
                      "stripRadius":"int",
                      "stripX":"int",

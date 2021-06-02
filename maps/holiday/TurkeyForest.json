@@ -2331,7 +2331,7 @@
          "name":"NPCs",
          "objects":[
                 {
-                 "gid":3572,
+                 "gid":3604,
                  "height":64,
                  "id":1198,
                  "name":"Sacagawea",
@@ -2351,7 +2351,7 @@
                  "y":3200
                 }, 
                 {
-                 "gid":3532,
+                 "gid":3564,
                  "height":64,
                  "id":1199,
                  "name":"Tuhren",
@@ -2371,7 +2371,7 @@
                  "y":6272
                 }, 
                 {
-                 "gid":3562,
+                 "gid":3594,
                  "height":64,
                  "id":1200,
                  "name":"Koda",
@@ -2391,7 +2391,7 @@
                  "y":6464
                 }, 
                 {
-                 "gid":3532,
+                 "gid":3564,
                  "height":64,
                  "id":1201,
                  "name":"Planst",
@@ -2411,7 +2411,7 @@
                  "y":768
                 }, 
                 {
-                 "gid":3587,
+                 "gid":3619,
                  "height":64,
                  "id":1202,
                  "name":"Klarc",
@@ -2431,7 +2431,7 @@
                  "y":3456
                 }, 
                 {
-                 "gid":3587,
+                 "gid":3619,
                  "height":64,
                  "id":1203,
                  "name":"Welis",
@@ -2451,7 +2451,7 @@
                  "y":3456
                 }, 
                 {
-                 "gid":3577,
+                 "gid":3609,
                  "height":64,
                  "id":1204,
                  "name":"Toussaint",
@@ -2471,7 +2471,7 @@
                  "y":4096
                 }, 
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":1405,
                  "name":"",
@@ -2491,7 +2491,7 @@
                  "y":3968
                 }, 
                 {
-                 "gid":3182,
+                 "gid":3214,
                  "height":64,
                  "id":1406,
                  "name":"",
@@ -2517,7 +2517,7 @@
                  "y":4672
                 }, 
                 {
-                 "gid":3582,
+                 "gid":3614,
                  "height":64,
                  "id":1520,
                  "name":"Annalie",
@@ -2537,7 +2537,7 @@
                  "y":4352
                 }, 
                 {
-                 "gid":3097,
+                 "gid":3129,
                  "height":64,
                  "id":1608,
                  "name":"",
@@ -7356,11 +7356,11 @@
          "tilewidth":64
         }, 
         {
-         "columns":32,
+         "columns":40,
          "firstgid":1329,
          "image":"..\/..\/__assets\/spritesheets\/decor.png",
-         "imageheight":2496,
-         "imagewidth":2048,
+         "imageheight":2048,
+         "imagewidth":2560,
          "margin":0,
          "name":"Decor",
          "spacing":0,
@@ -7421,7 +7421,7 @@
                  "name":"LoudRugNoShineVert",
                  "tile":569
                 }],
-         "tilecount":1248,
+         "tilecount":1280,
          "tileheight":64,
          "tiles":
             {
@@ -7934,7 +7934,7 @@
         }, 
         {
          "columns":40,
-         "firstgid":2577,
+         "firstgid":2609,
          "image":"..\/..\/__assets\/spritesheets\/creatures.png",
          "imageheight":3008,
          "imagewidth":2560,

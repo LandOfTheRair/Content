@@ -1931,11 +1931,11 @@
          "tilewidth":64
         }, 
         {
-         "columns":32,
+         "columns":40,
          "firstgid":1329,
          "image":"..\/..\/__assets\/spritesheets\/decor.png",
-         "imageheight":2496,
-         "imagewidth":2048,
+         "imageheight":2048,
+         "imagewidth":2560,
          "margin":0,
          "name":"Decor",
          "spacing":0,
@@ -1996,7 +1996,7 @@
                  "name":"LoudRugNoShineVert",
                  "tile":569
                 }],
-         "tilecount":1248,
+         "tilecount":1280,
          "tileheight":64,
          "tiles":
             {
@@ -2509,7 +2509,7 @@
         }, 
         {
          "columns":40,
-         "firstgid":2577,
+         "firstgid":2609,
          "image":"..\/..\/__assets\/spritesheets\/creatures.png",
          "imageheight":3008,
          "imagewidth":2560,

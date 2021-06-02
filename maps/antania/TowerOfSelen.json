@@ -7095,7 +7095,7 @@
          "name":"NPCs",
          "objects":[
                 {
-                 "gid":3107,
+                 "gid":3139,
                  "height":64,
                  "id":1856,
                  "name":"",
@@ -7119,7 +7119,7 @@
                  "y":3392
                 }, 
                 {
-                 "gid":3092,
+                 "gid":3124,
                  "height":64,
                  "id":1857,
                  "name":"",
@@ -7143,7 +7143,7 @@
                  "y":3136
                 }, 
                 {
-                 "gid":3087,
+                 "gid":3119,
                  "height":64,
                  "id":1858,
                  "name":"",
@@ -7167,7 +7167,7 @@
                  "y":3648
                 }, 
                 {
-                 "gid":3097,
+                 "gid":3129,
                  "height":64,
                  "id":1859,
                  "name":"",
@@ -7191,7 +7191,7 @@
                  "y":2432
                 }, 
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":1955,
                  "name":"Alchemist",
@@ -7215,7 +7215,7 @@
                  "y":2432
                 }, 
                 {
-                 "gid":2607,
+                 "gid":2639,
                  "height":64,
                  "id":1956,
                  "name":"Smith",
@@ -7239,7 +7239,7 @@
                  "y":3648
                 }, 
                 {
-                 "gid":3142,
+                 "gid":3174,
                  "height":64,
                  "id":1958,
                  "name":"",
@@ -7261,7 +7261,7 @@
                  "y":3520
                 }, 
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":1959,
                  "name":"",
@@ -7281,7 +7281,7 @@
                  "y":2624
                 }, 
                 {
-                 "gid":3182,
+                 "gid":3214,
                  "height":64,
                  "id":2266,
                  "name":"Chef",
@@ -7301,7 +7301,7 @@
                  "y":1600
                 }, 
                 {
-                 "gid":3462,
+                 "gid":3494,
                  "height":64,
                  "id":2330,
                  "name":"Botanist",
@@ -7321,7 +7321,7 @@
                  "y":384
                 }, 
                 {
-                 "gid":2602,
+                 "gid":2634,
                  "height":64,
                  "id":2467,
                  "name":"Orjan",
@@ -7341,7 +7341,7 @@
                  "y":2880
                 }, 
                 {
-                 "gid":2602,
+                 "gid":2634,
                  "height":64,
                  "id":2468,
                  "name":"Gorji",
@@ -7361,7 +7361,7 @@
                  "y":5440
                 }, 
                 {
-                 "gid":3342,
+                 "gid":3374,
                  "height":64,
                  "id":2469,
                  "name":"Aychp'oc",
@@ -7383,7 +7383,7 @@
                  "y":4224
                 }, 
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":2486,
                  "name":"",
@@ -7403,7 +7403,7 @@
                  "y":4032
                 }, 
                 {
-                 "gid":3137,
+                 "gid":3169,
                  "height":64,
                  "id":2544,
                  "name":"",
@@ -11276,11 +11276,11 @@
          "tilewidth":64
         }, 
         {
-         "columns":32,
+         "columns":40,
          "firstgid":1329,
          "image":"..\/..\/__assets\/spritesheets\/decor.png",
-         "imageheight":2496,
-         "imagewidth":2048,
+         "imageheight":2048,
+         "imagewidth":2560,
          "margin":0,
          "name":"Decor",
          "spacing":0,
@@ -11341,7 +11341,7 @@
                  "name":"LoudRugNoShineVert",
                  "tile":569
                 }],
-         "tilecount":1248,
+         "tilecount":1280,
          "tileheight":64,
          "tiles":
             {
@@ -11854,7 +11854,7 @@
         }, 
         {
          "columns":40,
-         "firstgid":2577,
+         "firstgid":2609,
          "image":"..\/..\/__assets\/spritesheets\/creatures.png",
          "imageheight":3008,
          "imagewidth":2560,

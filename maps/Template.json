@@ -203,7 +203,7 @@
  "tileheight":64,
  "tilesets":[
         {
-         "columns":0,
+         "columns":24,
          "firstgid":1,
          "image":"..\/..\/__assets\/spritesheets\/terrain.png",
          "imageheight":2560,
@@ -1432,7 +1432,7 @@
          "tilewidth":64
         }, 
         {
-         "columns":0,
+         "columns":16,
          "firstgid":960,
          "image":"..\/..\/__assets\/spritesheets\/walls.png",
          "imageheight":1472,
@@ -1445,11 +1445,11 @@
          "tilewidth":64
         }, 
         {
-         "columns":0,
+         "columns":40,
          "firstgid":960,
          "image":"..\/..\/__assets\/spritesheets\/decor.png",
-         "imageheight":2496,
-         "imagewidth":2048,
+         "imageheight":2048,
+         "imagewidth":2560,
          "margin":0,
          "name":"Decor",
          "spacing":0,
@@ -2022,7 +2022,7 @@
          "tilewidth":64
         }, 
         {
-         "columns":0,
+         "columns":40,
          "firstgid":1944,
          "image":"..\/..\/__assets\/spritesheets\/creatures.png",
          "imageheight":3008,

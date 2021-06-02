@@ -1059,7 +1059,7 @@
          "name":"NPCs",
          "objects":[
                 {
-                 "gid":4362,
+                 "gid":4394,
                  "height":64,
                  "id":1185,
                  "name":"Santa Claus",
@@ -1079,7 +1079,7 @@
                  "y":832
                 }, 
                 {
-                 "gid":3612,
+                 "gid":3644,
                  "height":64,
                  "id":1186,
                  "name":"Rudolph",
@@ -1099,7 +1099,7 @@
                  "y":5760
                 }, 
                 {
-                 "gid":3607,
+                 "gid":3639,
                  "height":64,
                  "id":1188,
                  "name":"Blitzen",
@@ -1119,7 +1119,7 @@
                  "y":1024
                 }, 
                 {
-                 "gid":3607,
+                 "gid":3639,
                  "height":64,
                  "id":1190,
                  "name":"Donner",
@@ -1139,7 +1139,7 @@
                  "y":448
                 }, 
                 {
-                 "gid":3607,
+                 "gid":3639,
                  "height":64,
                  "id":1198,
                  "name":"Prancer",
@@ -1159,7 +1159,7 @@
                  "y":2176
                 }, 
                 {
-                 "gid":3607,
+                 "gid":3639,
                  "height":64,
                  "id":1226,
                  "name":"Dancer",
@@ -1179,7 +1179,7 @@
                  "y":2176
                 }, 
                 {
-                 "gid":3607,
+                 "gid":3639,
                  "height":64,
                  "id":1229,
                  "name":"Dasher",
@@ -1199,7 +1199,7 @@
                  "y":6144
                 }, 
                 {
-                 "gid":3607,
+                 "gid":3639,
                  "height":64,
                  "id":1231,
                  "name":"Vixen",
@@ -1219,7 +1219,7 @@
                  "y":3968
                 }, 
                 {
-                 "gid":3607,
+                 "gid":3639,
                  "height":64,
                  "id":1232,
                  "name":"Cupid",
@@ -1239,7 +1239,7 @@
                  "y":2816
                 }, 
                 {
-                 "gid":3607,
+                 "gid":3639,
                  "height":64,
                  "id":1233,
                  "name":"Comet",
@@ -1259,7 +1259,7 @@
                  "y":5888
                 }, 
                 {
-                 "gid":3602,
+                 "gid":3634,
                  "height":64,
                  "id":1235,
                  "name":"Keeble",
@@ -1279,7 +1279,7 @@
                  "y":2560
                 }, 
                 {
-                 "gid":3602,
+                 "gid":3634,
                  "height":64,
                  "id":1236,
                  "name":"Mrs. Claus",
@@ -1299,7 +1299,7 @@
                  "y":5376
                 }, 
                 {
-                 "gid":3597,
+                 "gid":3629,
                  "height":64,
                  "id":1320,
                  "name":"Frosty",
@@ -1319,7 +1319,7 @@
                  "y":5568
                 }, 
                 {
-                 "gid":3602,
+                 "gid":3634,
                  "height":64,
                  "id":1367,
                  "name":"Alf",
@@ -1339,7 +1339,7 @@
                  "y":5184
                 }, 
                 {
-                 "gid":3602,
+                 "gid":3634,
                  "height":64,
                  "id":1398,
                  "name":"Alan",
@@ -1359,7 +1359,7 @@
                  "y":5504
                 }, 
                 {
-                 "gid":3602,
+                 "gid":3634,
                  "height":64,
                  "id":1399,
                  "name":"James",
@@ -1379,7 +1379,7 @@
                  "y":6144
                 }, 
                 {
-                 "gid":3602,
+                 "gid":3634,
                  "height":64,
                  "id":1401,
                  "name":"Vici",
@@ -1399,7 +1399,7 @@
                  "y":5888
                 }, 
                 {
-                 "gid":4362,
+                 "gid":4394,
                  "height":64,
                  "id":1442,
                  "name":"Krampus",
@@ -1419,7 +1419,7 @@
                  "y":448
                 }, 
                 {
-                 "gid":3097,
+                 "gid":3129,
                  "height":64,
                  "id":1476,
                  "name":"",
@@ -5542,11 +5542,11 @@
          "tilewidth":64
         }, 
         {
-         "columns":32,
+         "columns":40,
          "firstgid":1329,
          "image":"..\/..\/__assets\/spritesheets\/decor.png",
-         "imageheight":2496,
-         "imagewidth":2048,
+         "imageheight":2048,
+         "imagewidth":2560,
          "margin":0,
          "name":"Decor",
          "spacing":0,
@@ -5607,7 +5607,7 @@
                  "name":"LoudRugNoShineVert",
                  "tile":569
                 }],
-         "tilecount":1248,
+         "tilecount":1280,
          "tileheight":64,
          "tiles":
             {
@@ -6120,7 +6120,7 @@
         }, 
         {
          "columns":40,
-         "firstgid":2577,
+         "firstgid":2609,
          "image":"..\/..\/__assets\/spritesheets\/creatures.png",
          "imageheight":3008,
          "imagewidth":2560,
