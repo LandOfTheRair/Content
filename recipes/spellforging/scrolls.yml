@@ -1,4 +1,19 @@
 
+# Traveller
+
+- item: Crafted Fate Scroll
+  name: Fate Scroll
+  category: Spell Scrolls
+  skillGained: 3
+  maxSkillForGains: 16
+  requireSkill: 9
+  xpGained: 5000
+  requireClass: [Traveller]
+  ozIngredients:
+    - filter: Dust - Enos
+      display: Enchanting Dust - Enos
+      ounces: 5
+
 # Thief
 
 - item: Crafted Darkness Scroll

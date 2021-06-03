@@ -187,3 +187,39 @@
     - Antanian Twig
     - Antanian Branch
     - Antanian Branch
+
+- item: Antanian Skill Potion
+  name: Skill Potion
+  category: Mysterious Bottles
+  skillGained: 4
+  maxSkillForGains: 18
+  requireSkill: 14
+  xpGained: 25000
+  requireClass: [Traveller]
+  copySkillToPotency: true
+  potencyScalar: 25
+  ingredients:
+    - Antanian Pint of Water
+    - Rylt Blueflower
+    - Yzalt Steffen Apple
+    - Yzalt Bogweed
+    - Maze Corpseflower
+    - Tower Goblood
+
+- item: Antanian Experience Potion
+  name: Experience Potion
+  category: Mysterious Bottles
+  skillGained: 4
+  maxSkillForGains: 18
+  requireSkill: 14
+  xpGained: 25000
+  requireClass: [Traveller]
+  copySkillToPotency: true
+  potencyScalar: 2500
+  ingredients:
+    - Antanian Pint of Water
+    - Rylt Blueflower
+    - Yzalt Steffen Apple
+    - Yzalt Bogweed
+    - Maze Corpseflower
+    - Tower Goblood
