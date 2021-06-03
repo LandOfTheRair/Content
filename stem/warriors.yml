@@ -289,6 +289,7 @@ Shield:
       - [0,  1]
 
     spellMeta:
+      staticPotency: true
       noReflect: true
       doesOvertime: true
 
