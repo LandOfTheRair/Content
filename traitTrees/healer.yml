@@ -85,8 +85,9 @@ Healer:
         - traits: 
           - name: NecroticFocus
             maxLevel: 5
-            
-          - name: ''
+
+          - name: HolyFire
+            maxLevel: 1
             
           - name: Light
             maxLevel: 1
@@ -99,11 +100,9 @@ Healer:
           - name: HolyAura
             maxLevel: 1
 
-          - name: HolyAffliction
-            maxLevel: 5
+          - name: ''
 
-          - name: HolyFire
-            maxLevel: 1
+          - name: ''
 
           - name: ''
 
@@ -113,7 +112,10 @@ Healer:
         - traits: 
           - name: ''
           - name: ''
-          - name: ''
+
+          - name: HolyAffliction
+            maxLevel: 5
+            
           - name: ''
           - name: ''
           
