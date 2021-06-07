@@ -4,7 +4,7 @@ PowerBalladSong:
 
   # global info
   all:
-    desc: "Sing a song that buffs nearby allies' offensive stats."
+    desc: "Sing a song that buffs nearby allies' offensive stats. Cost: 5 Stealth/round"
     icon: music-spell
     color: "#f00"
 
@@ -21,7 +21,7 @@ PowerBalladSong:
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      desc: 'Song. Boosting nearby allies offense.'
+      desc: 'Song. Boosting nearby allies offense. Cost: 5 Stealth/round'
     effect:
       type: outgoing
       duration: 600
@@ -45,7 +45,7 @@ WistfulFugueSong:
 
   # global info
   all:
-    desc: "Sing a song that debuffs nearby enemies' defensive stats."
+    desc: "Sing a song that debuffs nearby enemies' defensive stats. Cost: 5 Stealth/round"
     icon: music-spell
     color: "#00f"
 
@@ -86,7 +86,7 @@ DeadlyDirgeSong:
 
   # global info
   all:
-    desc: "Sing a song that does sonic damage to nearby enemies."
+    desc: "Sing a song that does sonic damage to nearby enemies. Cost: 5 Stealth/round"
     icon: music-spell
     color: "#808"
 
@@ -134,7 +134,7 @@ TranquilTrillSong:
 
   # global info
   all:
-    desc: "Sing a song that heals nearby allies."
+    desc: "Sing a song that heals nearby allies. Cost: 5 Stealth/round"
     icon: music-spell
     color: "#080"
 
@@ -182,7 +182,7 @@ AriaOfRefugeSong:
 
   # global info
   all:
-    desc: "Sing a song that buffs nearby allies' resistances."
+    desc: "Sing a song that buffs nearby allies' resistances. Cost: 5 Stealth/round"
     icon: music-spell
     color: "#aa0"
 
@@ -230,7 +230,7 @@ NightmareSerenadeSong:
 
   # global info
   all:
-    desc: "Sing a song that debuffs nearby enemies' resistances."
+    desc: "Sing a song that debuffs nearby enemies' resistances. Cost: 5 Stealth/round"
     icon: music-spell
     color: "#0aa"
 
