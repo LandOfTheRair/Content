@@ -1218,8 +1218,7 @@ FrostspikesAura:
 
   # trait info
   trait:
-    name: Frostspikes
-    spellGiven: Frostspikes
+    name: Frostspikes Aura
     borderColor: "#000080"
 
   # effect info (tooltip, duration, messages)
@@ -1242,9 +1241,6 @@ FrostspikesAura:
 
   # macro info
   macro:
-    macro: cast frostspikes
-    name: Frostspikes
-    for: Frostspikes
     mode: 'clickToTarget' 
     
 FirethornsAura:
@@ -1271,8 +1267,7 @@ FirethornsAura:
 
   # trait info
   trait:
-    name: Firethorns
-    spellGiven: Firethorns
+    name: Firethorns Aura
     borderColor: "#f00"
 
   # effect info (tooltip, duration, messages)
@@ -1295,9 +1290,6 @@ FirethornsAura:
 
   # macro info
   macro:
-    macro: cast firethorns
-    name: Firethorns
-    for: Firethorns
     mode: 'clickToTarget'
     
 Lifepool:
