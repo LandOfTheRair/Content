@@ -181,3 +181,19 @@ ReflectingVoice:
   desc: Your spell reflect chance is increased by +$2$ while singing.
   icon: sing
   valuePerTier: 2
+
+BoomerangArm:
+  name: Boomerang Arm
+  desc: All weapons are treated as returning.
+  icon: boomerang
+
+Multithrow:
+  name: Multithrow
+  desc: All thrown weapons attack an additional time.
+  icon: boomerang-cross
+  valuePerTier: 1
+
+BouncingThrows:
+  name: Bouncing Throws
+  desc: All thrown weapons will bounce to a nearby target.
+  icon: bouncing-sword

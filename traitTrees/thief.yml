@@ -46,10 +46,9 @@ Thief:
 
           - name: Disguise
             maxLevel: 1
-            
-          - name: DarknessWiden
+
+          - name: Multithrow
             maxLevel: 1
-            requires: Darkness
 
           - name: ''
 
@@ -58,9 +57,15 @@ Thief:
             requires: Identify
           
         - traits: 
+          - name: BouncingThrows
+            maxLevel: 1
+            
           - name: ''
-          - name: ''
-          - name: ''
+            
+          - name: DarknessWiden
+            maxLevel: 1
+            requires: Darkness
+
           - name: ChainKunai
             maxLevel: 1
             
@@ -68,7 +73,10 @@ Thief:
           
         - traits: 
           - name: ''
-          - name: ''
+
+          - name: BoomerangArm
+            maxLevel: 1
+
           - name: ''
           - name: ''
           - name: ''
