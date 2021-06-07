@@ -260,37 +260,42 @@ Thief:
 
           - name: PoisonFocus 
             maxLevel: 5
+            requires: Poison
           
           - name: BetterBackstab
             maxLevel: 5
+            requires: Backstab
+
+          - name: ShadowDaggers
+            maxLevel: 5
 
           - name: ''
-
-          - name: EnhancedApplications
-            maxLevel: 5
           
         - traits: 
           - name: ''
 
           - name: CorrosivePoison
             maxLevel: 1
+            requires: Poison
 
           - name: ''
           
           - name: ShadowSheath
             maxLevel: 5
 
-          - name: ''
+          - name: EnhancedApplications
+            maxLevel: 5
+            requires: Apply
           
         - traits: 
           - name: DegenerativeVenom
             maxLevel: 1
+            requires: Venom
 
           - name: FindFamiliarShadowClones
             maxLevel: 1
-          
-          - name: ShadowSwap
-            maxLevel: 5
+
+          - name: ''
 
           - name: ''
 
@@ -299,8 +304,8 @@ Thief:
           
         - traits: 
           - name: ''
-
-          - name: ShadowDaggers
+          
+          - name: ShadowSwap
             maxLevel: 5
 
           - name: ''
