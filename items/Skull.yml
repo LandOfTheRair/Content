@@ -4,7 +4,6 @@
   value: 1
   equipEffect:
     name: Newbie
-    autocast: true
     potency: 1
   binds: true
   sprite: 359

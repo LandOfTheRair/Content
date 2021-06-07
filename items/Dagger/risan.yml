@@ -37,7 +37,6 @@
   equipEffect:
     name: ImbueFrost
     potency: 100
-    autocast: true
   offhand: true
   returnsOnThrow: true
   type: Ranged

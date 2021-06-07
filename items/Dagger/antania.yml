@@ -87,7 +87,6 @@
   equipEffect:
     name: ImbueFlame
     potency: 100
-    autocast: true
   trait:
     name: BetterBackstab
     level: 2

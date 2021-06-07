@@ -10,7 +10,6 @@
     armorClass: 1
   equipEffect:
     name: Newbie
-    autocast: true
     potency: 1
   sprite: 234
   binds: true

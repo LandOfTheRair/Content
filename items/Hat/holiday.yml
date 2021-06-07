@@ -6,7 +6,6 @@
   equipEffect:
     name: TrueSight
     potency: 1
-    autocast: true
   maxUpgrades: 1
   sprite: 568
   desc: "a traditional pilgrim hat"
@@ -26,7 +25,6 @@
   equipEffect:
     name: DarkVision
     potency: 1
-    autocast: true
   maxUpgrades: 1
   sprite: 578
   desc: "a top hat worn by the snowmen of Winter Wonderland"

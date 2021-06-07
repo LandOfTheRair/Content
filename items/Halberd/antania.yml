@@ -69,7 +69,6 @@
   equipEffect:
     name: NecroticAura
     potency: 150
-    autocast: true
   maxUpgrades: 1
   tier: 4
   type: Polearm
