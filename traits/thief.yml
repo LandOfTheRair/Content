@@ -195,5 +195,6 @@ Multithrow:
 
 BouncingThrows:
   name: Bouncing Throws
-  desc: All thrown weapons will bounce to a nearby target.
+  desc: All thrown weapons have a +$10$% chance to bounce to another target.
   icon: bouncing-sword
+  valuePerTier: 10
