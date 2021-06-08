@@ -307,7 +307,7 @@ ConjureSword:
     mpCost: 25
     maxSkillForGain: 7
     skillMultiplierChanges:
-      - [0,  1]
+      - [0,  0]
 
     spellMeta:
       casterMessage: 'You channel magical energy into the form of a sword.'
@@ -336,7 +336,7 @@ ConjureShield:
     mpCost: 25
     maxSkillForGain: 7
     skillMultiplierChanges:
-      - [0,  0.3]
+      - [0,  0]
 
     spellMeta:
       casterMessage: 'You channel magical energy into the form of a shield.'
