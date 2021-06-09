@@ -24,3 +24,17 @@ NecroticAura:
   effectMeta:
     effectRef: NecroticAura
   
+Lightbath:
+  tooltip:
+    icon: 'abstract-010'
+    color: '#aa0'
+    desc: 'A beacon of radiance.'
+  effect:
+    type: buff
+    duration: 600
+    extra:
+      canRemove: true
+      unique: true
+  effectMeta:
+    effectRef: Lightbath
+  
