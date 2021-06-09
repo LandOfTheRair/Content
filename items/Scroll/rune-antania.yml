@@ -271,6 +271,7 @@
     level: 1
     restrict:
       - Warrior
+      - Thief
   value: 1
 
 - name: Rune Scroll - Riposte I
