@@ -10,5 +10,5 @@
   value: 1
   sprite: 192
   animation: 23
-  binds: true
-  tellsBind: true
+  quality: 5
+  maxUpgrades: 5
