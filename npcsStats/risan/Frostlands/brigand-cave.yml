@@ -630,7 +630,7 @@
     StunningFist: 5
     Riposte: 2
     MartialAgility: 10
-    BrassKnuckles: 2
+    BrassKnuckles: 1
     Punchkick: 1
 
   skillOnKill: 60

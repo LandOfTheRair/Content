@@ -25,7 +25,7 @@
   traitLevels:
     Riposte: 5
     SterlingArmor: 5
-    BrassKnuckles: 2
+    BrassKnuckles: 1
     MartialAgility: 5
 
   skillOnKill: 45
@@ -107,7 +107,7 @@
     InternalFortitude: 5
     Riposte: 5
     SterlingArmor: 5
-    BrassKnuckles: 3
+    BrassKnuckles: 2
     MartialAgility: 10
 
   skillOnKill: 100
