@@ -70,7 +70,7 @@
 
   otherStats:
     defense: 30
-    armorClass: 20
+    armorClass: 10
     perception: 15
 
   items:

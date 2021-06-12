@@ -14,7 +14,7 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.7
+    damageFactor: 0.3
 
   items:
     equipment:
@@ -116,7 +116,7 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.7
+    damageFactor: 0.3
 
   items:
     equipment:
@@ -217,7 +217,7 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.7
+    damageFactor: 0.3
 
   items:
     equipment:
@@ -333,7 +333,7 @@
   otherStats:
     stealth: 25
     perception: 15
-    damageFactor: 0.5
+    damageFactor: 0.2
 
   items:
     equipment:
@@ -485,7 +485,7 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.7
+    damageFactor: 0.3
 
   items:
     equipment:
@@ -582,7 +582,7 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.7
+    damageFactor: 0.3
 
   items:
     equipment:
