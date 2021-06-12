@@ -26,8 +26,8 @@
     max: 8470
 
   giveXp:
-    min: 1850
-    max: 1950
+    min: 7850
+    max: 8950
 
   items:
     equipment:
@@ -106,7 +106,6 @@
         name: "monster-goblin"
         maxChance: 20
 
-
 - npcId: Dedlaen Goblin Thief
   name: sneakgoblin
   hostility: Always
@@ -140,8 +139,8 @@
     max: 700
 
   giveXp:
-    min: 4600
-    max: 5650
+    min: 7850
+    max: 8950
 
   items:
     equipment:
@@ -287,8 +286,8 @@
     max: 15950
 
   giveXp:
-    min: 8950
-    max: 9350
+    min: 9950
+    max: 10350
 
   items:
     equipment:
@@ -395,8 +394,8 @@
     max: 18350
 
   giveXp:
-    min: 3700
-    max: 3800
+    min: 7850
+    max: 8950
 
   items:
     equipment:
@@ -487,8 +486,8 @@
     max: 700
 
   giveXp:
-    min: 3700
-    max: 4800
+    min: 7850
+    max: 8950
 
   usableSkills:
     - Afflict
@@ -590,8 +589,8 @@
     max: 700
 
   giveXp:
-    min: 3700
-    max: 4800
+    min: 7850
+    max: 8950
 
   usableSkills:
     - MagicBolt
@@ -678,8 +677,8 @@
     max: 33350
 
   giveXp:
-    min: 4700
-    max: 5800
+    min: 9850
+    max: 10950
 
   items:
     equipment:
@@ -770,8 +769,8 @@
     max: 700
 
   giveXp:
-    min: 3600
-    max: 3900
+    min: 7850
+    max: 8950
 
   usableSkills:
     - FireMist
