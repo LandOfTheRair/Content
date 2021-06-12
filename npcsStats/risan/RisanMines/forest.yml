@@ -391,8 +391,8 @@
     max: 1000
 
   giveXp:
-    min: 3500
-    max: 5800
+    min: 10500
+    max: 13800
 
   copyDrops:
     - result: 'equipment.armor'
@@ -514,8 +514,8 @@
     max: 1000
 
   giveXp:
-    min: 7500
-    max: 8800
+    min: 20500
+    max: 24800
 
   copyDrops:
     - result: 'equipment.armor'
