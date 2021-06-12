@@ -78,8 +78,8 @@
     max: 1000
 
   giveXp:
-    min: 14200
-    max: 14500
+    min: 21200
+    max: 26500
 
   tansFor: Frostlands Yeti Fur
   tanSkillRequired: 13
@@ -165,8 +165,8 @@
     max: 1000
 
   giveXp:
-    min: 19200
-    max: 20500
+    min: 29200
+    max: 30500
 
   tansFor: Frostlands Strong Yeti Fur
   tanSkillRequired: 14
@@ -199,8 +199,8 @@
     max: 37350
 
   giveXp:
-    min: 4600
-    max: 4900
+    min: 14600
+    max: 14900
 
   usableSkills:
     - Kick
