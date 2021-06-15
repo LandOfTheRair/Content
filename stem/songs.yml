@@ -38,6 +38,7 @@ PowerBalladSong:
 
   # macro info
   macro:
+    name: Power Ballad
     macro: song powerballadsong
     mode: 'autoActivate'
 
@@ -79,6 +80,7 @@ WistfulFugueSong:
 
   # macro info
   macro:
+    name: Wistful Fugue
     macro: song wistfulfuguesong
     mode: 'autoActivate'
 
@@ -127,6 +129,7 @@ DeadlyDirgeSong:
 
   # macro info
   macro:
+    name: Deadly Dirge
     macro: song deadlydirgesong
     mode: 'autoActivate'
 
@@ -175,6 +178,7 @@ TranquilTrillSong:
 
   # macro info
   macro:
+    name: Tranquil Trill
     macro: song tranquiltrillsong
     mode: 'autoActivate'
     
@@ -223,6 +227,7 @@ AriaOfRefugeSong:
 
   # macro info
   macro:
+    name: Aria of Refuge
     macro: song ariaofrefugesong
     mode: 'autoActivate'
     
@@ -272,5 +277,6 @@ NightmareSerenadeSong:
 
   # macro info
   macro:
+    name: Nightmare Serenade
     macro: song nightmareserenadesong
     mode: 'autoActivate'

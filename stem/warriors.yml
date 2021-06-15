@@ -113,6 +113,7 @@ MockingShout:
 
   # macro info
   macro:
+    name: Mocking Shout
     mode: 'autoActivate'
     macro: 'art mockingshout'
 

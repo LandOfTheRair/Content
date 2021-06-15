@@ -239,6 +239,7 @@ ChainKunai:
 
   # macro info
   macro:
+    name: Chain Kunai
     mode: 'clickToTarget'
 
 MultiShot:
@@ -256,4 +257,5 @@ MultiShot:
 
   # macro info
   macro:
+    name: Multi Shot
     mode: 'lockActivation'

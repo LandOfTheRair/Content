@@ -24,7 +24,7 @@ const merge = async () => {
       stem.macro.bgColor = stem.macro.bgColor || stem.all.bgColor;
       stem.macro.tooltipDesc = stem.macro.tooltipDesc || stem.all.desc;
 
-      file[stemKey] = stem.macro;
+      file[stem.macro.name] = stem.macro;
     });
 
     console.log(`Loading ${Object.values(file).length} macros...`);

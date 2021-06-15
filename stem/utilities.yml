@@ -118,6 +118,7 @@ ConjureHealing:
 
   # macro info
   macro:
+    name: Conjure Healing
     mode: 'autoActivate'
 
 Augury:
@@ -320,6 +321,7 @@ ConjureSword:
 
   # macro info
   macro:
+    name: Conjure Sword
     mode: 'autoActivate'
 
 ConjureShield:
@@ -349,6 +351,7 @@ ConjureShield:
 
   # macro info
   macro:
+    name: Conjure Shield
     mode: 'autoActivate'
 
 Teleport:
@@ -400,6 +403,7 @@ MassTeleport:
 
   # macro info
   macro:
+    name: Mass Teleport
     mode: 'autoActivate'
 
 Vortex:

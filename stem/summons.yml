@@ -41,6 +41,7 @@ FindFamiliarLight:
 
   # macro info
   macro:
+    name: Find Familiar (Light)
     macro: findfamiliar light
     mode: 'autoActivate'
 
@@ -86,6 +87,7 @@ FindFamiliarNature:
 
   # macro info
   macro:
+    name: Find Familiar (Nature)
     macro: findfamiliar nature
     mode: 'autoActivate'
 
@@ -131,6 +133,7 @@ FindFamiliarWater:
 
   # macro info
   macro:
+    name: Find Familiar (Water)
     macro: findfamiliar water
     mode: 'autoActivate'
 
@@ -173,6 +176,7 @@ FindFamiliarSpider:
 
   # macro info
   macro:
+    name: Find Familiar (Spider)
     macro: findfamiliar spider
     mode: 'autoActivate'
 
@@ -215,6 +219,7 @@ FindFamiliarSalamander:
 
   # macro info
   macro:
+    name: Find Familiar (Salamander)
     macro: findfamiliar salamander
     mode: 'autoActivate'
 
@@ -257,6 +262,7 @@ FindFamiliarBear:
 
   # macro info
   macro:
+    name: Find Familiar (Bear)
     macro: findfamiliar bear
     mode: 'autoActivate'
 
@@ -299,6 +305,7 @@ FindFamiliarWolf:
 
   # macro info
   macro:
+    name: Find Familiar (Wolf)
     macro: findfamiliar wolf
     mode: 'autoActivate'
 
@@ -341,6 +348,7 @@ FindFamiliarShadowClones:
 
   # macro info
   macro:
+    name: Shadow Clones
     macro: findfamiliar shadowclones
     mode: 'autoActivate'
 
@@ -383,6 +391,7 @@ FindFamiliarDistraction:
 
   # macro info
   macro:
+    name: Distraction
     macro: findfamiliar distraction
     mode: 'autoActivate'
 
@@ -425,6 +434,7 @@ FindFamiliarSnowman:
 
   # macro info
   macro:
+    name: Find Familiar (Snowman)
     macro: findfamiliar snowman
     mode: 'autoActivate'
 
@@ -467,6 +477,7 @@ FindFamiliarTurkey:
 
   # macro info
   macro:
+    name: Find Familiar (Turkey)
     macro: findfamiliar turkey
     mode: 'autoActivate'
 
@@ -509,6 +520,7 @@ FindFamiliarGolem:
 
   # macro info
   macro:
+    name: Find Familiar (Golem)
     macro: findfamiliar golem
     mode: 'autoActivate'
 
@@ -550,5 +562,6 @@ FindFamiliarDragon:
 
   # macro info
   macro:
+    name: Find Familiar (Dragon)
     macro: findfamiliar dragon
     mode: 'autoActivate'

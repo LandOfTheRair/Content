@@ -41,6 +41,7 @@ VolcanoStance:
 
   # macro info
   macro:
+    name: Volcano Stance
     mode: 'autoActivate'
     
 GlacierStance:
@@ -85,6 +86,7 @@ GlacierStance:
 
   # macro info
   macro:
+    name: Glacier Stance
     mode: 'autoActivate'
     
 ParryStance:
@@ -130,6 +132,7 @@ ParryStance:
 
   # macro info
   macro:
+    name: Parry Stance
     macro: art parrystance
     mode: 'autoActivate'
     
@@ -176,6 +179,7 @@ RageStance:
 
   # macro info
   macro:
+    name: Rage Stance
     macro: art ragestance
     mode: 'autoActivate'
     
@@ -222,6 +226,7 @@ TurtleStance:
 
   # macro info
   macro:
+    name: Turtle Stance
     macro: art turtlestance
     mode: 'autoActivate'
     
@@ -268,5 +273,6 @@ TigerStance:
 
   # macro info
   macro:
+    name: Tiger Stance
     macro: art tigerstance
     mode: 'autoActivate'

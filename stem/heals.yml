@@ -69,6 +69,7 @@ PowerwordHeal:
 
   # macro info
   macro:
+    name: Powerword Heal
     macro: 'powerword heal'
     mode: 'autoActivate'
 

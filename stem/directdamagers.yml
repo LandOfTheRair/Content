@@ -81,6 +81,7 @@ MagicMissile:
 
   # macro info
   macro:
+    name: Magic Missile
     mode: 'lockActivation'
 
 MagicBolt:
@@ -124,6 +125,7 @@ MagicBolt:
 
   # macro info
   macro:
+    name: Magic Bolt
     mode: 'lockActivation'
 
 Combust:
@@ -253,6 +255,7 @@ HolyFire:
 
   # macro info
   macro:
+    name: Holy Fire
     mode: 'lockActivation'
 
 EnergyWave:
@@ -298,6 +301,7 @@ EnergyWave:
 
   # macro info
   macro:
+    name: Energy Wave
     mode: 'autoActivate'
 
 Antipode:
@@ -380,6 +384,7 @@ IceMist:
 
   # macro info
   macro:
+    name: Ice Mist
     mode: 'clickToTarget'
 
 FireMist:
@@ -426,6 +431,7 @@ FireMist:
 
   # macro info
   macro:
+    name: Fire Mist
     mode: 'clickToTarget'
 
 Drain:
@@ -515,4 +521,5 @@ RiftSlash:
 
   # macro info
   macro:
+    name: Rift Slash
     mode: 'lockActivation'
