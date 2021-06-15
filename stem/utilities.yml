@@ -499,7 +499,7 @@ Reincarnate:
   spell: 
     damageClass: physical
     mpCost: 100
-    cooldown: 60
+    cooldown: 900
     maxSkillForGain: 15
     skillMultiplierChanges:
       - [0,  1]
