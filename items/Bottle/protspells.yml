@@ -84,6 +84,8 @@
     name: VitalEssence
     potency: 7
     duration: -1
+    extra:
+      charges: 10000
   value: 1000
 
 - name: EtherFire Potion
