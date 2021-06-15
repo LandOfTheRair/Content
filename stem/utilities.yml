@@ -418,7 +418,7 @@ Vortex:
   spell: 
     damageClass: physical
     mpCost: 100
-    cooldown: 5
+    cooldown: 15
     maxSkillForGain: 15
     skillMultiplierChanges:
       - [0,  1]

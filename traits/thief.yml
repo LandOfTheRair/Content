@@ -198,3 +198,9 @@ BouncingThrows:
   desc: All thrown weapons have a +$10$% chance to bounce to another target.
   icon: bouncing-sword
   valuePerTier: 10
+
+VortexWiden:
+  name: Vortex Widen
+  desc: Your Vortex spell will extend outwards and additional +$1$ tile.
+  icon: wind-hole
+  valuePerTier: 1

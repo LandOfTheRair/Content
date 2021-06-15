@@ -3,7 +3,7 @@
   tier: 5
   useEffect:
     name: Vortex
-    potency: 3
+    potency: 1
     uses: -1
   maxUpgrades: 5
   type: Staff
