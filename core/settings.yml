@@ -41,7 +41,7 @@ corpse:
   npcExpire: 120
   rotStrLossChance: 5
   rotAgiLossChance: 5
-  eatXpLossMultiplier: 0.1
+  eatXpLossMultiplier: 0.01
   eatSkillLossMultiplier: 500
 
 # 1/X chance for a common event to happen randomly
