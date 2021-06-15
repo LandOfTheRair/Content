@@ -96,7 +96,7 @@
     offense: 10
     defense: 15
     perception: 20
-    damageFactor: 0.5
+    damageFactor: 0.2
 
   items:
     equipment:

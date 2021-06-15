@@ -260,6 +260,7 @@
     offense: 25
     defense: 10
     perception: 35
+    damageFactor: 0.3
 
 
   items:
