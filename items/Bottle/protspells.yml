@@ -83,6 +83,7 @@
   useEffect:
     name: VitalEssence
     potency: 7
+    duration: -1
   value: 1000
 
 - name: EtherFire Potion
