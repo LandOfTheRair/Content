@@ -285,7 +285,7 @@ EnergyWave:
     spellMeta:
       aoe: true
       aoeRangeTrait: EnergyWaveWiden
-      range: 1
+      range: 2
       doesAttack: true
       casterAttackMessage: 'You blast %0 with a wave of energy!'
       casterSfx: 'combat-hit-spell'
