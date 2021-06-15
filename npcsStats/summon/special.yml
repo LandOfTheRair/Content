@@ -1,0 +1,37 @@
+
+
+- npcId: Special Summon Dragon
+  name: dragon
+  monsterClass: Dragon
+  sprite: 255
+  stats: 15
+  skills: 5
+  level: 1
+
+  summonStatModifiers:
+    hp: 20000
+    int: 0.5
+    str: 0.5
+
+  noCorpseDrop: true
+
+  items:
+    equipment:
+      armor: Catacombs Silver Dragon Scale Tunic
+      hands: Catacombs Lair Claws
+
+  usableSkills:
+    - PoisonBiteWeak
+    - IceMist
+
+  gold:
+    min: 0
+    max: 0
+
+  giveXp:
+    min: 0
+    max: 0
+
+  hp:
+    min: 500
+    max: 500

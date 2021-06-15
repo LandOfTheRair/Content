@@ -511,3 +511,44 @@ FindFamiliarGolem:
   macro:
     macro: findfamiliar golem
     mode: 'autoActivate'
+
+FindFamiliarDragon:
+
+  # global info
+  all:
+    desc: "Summon a dragon to slay enemies. Cost: 150 MP"
+    icon: "dragon-spiral"
+    color: "#000"
+
+  # spell cast info
+  spell: 
+    mpCost: 150
+    castTime: 10
+    cooldown: 60
+    maxSkillForGain: 1
+
+    spellMeta:
+      creatureSummoned: [Special Summon Dragon]
+      casterMessage: 'You begin channeling for a familiar...'
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Dragon slays enemies and adds +2 STR/INT'
+    effect:
+      type: buff
+      duration: 0
+      extra:
+        statChanges:
+          int: 2
+          str: 2
+    effectMeta:
+      effectRef: FindFamiliar
+      castSfx: 'spell-conjure'
+      applySfx: 'spell-conjure'
+      unapplyMessage: 'Your dragon has returned to the ether.'
+
+  # macro info
+  macro:
+    macro: findfamiliar dragon
+    mode: 'autoActivate'
