@@ -48,7 +48,10 @@ Warrior:
         - traits: 
           - name: ''
           - name: ''
-          - name: ''
+
+          - name: TitanGrip
+            maxLevel: 1
+
           - name: ''
           - name: ''
           
@@ -194,7 +197,8 @@ Warrior:
           - name: ''
           - name: ''
 
-          - name: ''
+          - name: BalancedGrip
+            maxLevel: 1
           
           - name: Boost
             maxLevel: 1

@@ -157,6 +157,16 @@ ConsumingRage:
   desc: Periodically consume Rage while attacking to boost your damage.
   icon: enrage
 
+TitanGrip:
+  name: Titan Grip
+  desc: Use any two-handed weapon in one hand.
+  icon: mailed-fist
+
+BalancedGrip:
+  name: Balanced Grip
+  desc: Use any one-handed weapon in your offhand.
+  icon: switch-weapon
+
 MaceSpecialty:
   name: Mace Specialty
   desc: Your advanced mastery of maces grants you an additional mace skill level.
