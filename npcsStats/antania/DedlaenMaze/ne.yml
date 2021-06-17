@@ -880,6 +880,8 @@
       chance: -1
     - result: Dedlaen Minotaur Horn
       chance: -1
+    - result: Dedlaen Minotaur Horn
+      chance: -1
 
   copyDrops:
     - result: 'equipment.leftHand'
