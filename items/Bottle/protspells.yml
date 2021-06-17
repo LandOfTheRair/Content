@@ -96,6 +96,7 @@
   useEffect:
     name: EtherFire
     potency: 2
+    duration: 3600
   value: 2000
 
 - name: EtherFire Potion (5oz)
@@ -106,6 +107,7 @@
   useEffect:
     name: EtherFire
     potency: 2
+    duration: 3600
   value: 10000
 
 - name: BeastRipper Potion
@@ -116,6 +118,7 @@
   useEffect:
     name: BeastRipper
     potency: 2
+    duration: 3600
   value: 2000
 
 - name: BeastRipper Potion (5oz)
@@ -126,6 +129,7 @@
   useEffect:
     name: BeastRipper
     potency: 2
+    duration: 3600
   value: 10000
 
 - name: ScaleShredder Potion
@@ -136,6 +140,7 @@
   useEffect:
     name: ScaleShredder
     potency: 2
+    duration: 3600
   value: 2000
 
 - name: ScaleShredder Potion (5oz)
@@ -146,4 +151,5 @@
   useEffect:
     name: ScaleShredder
     potency: 2
+    duration: 3600
   value: 10000
