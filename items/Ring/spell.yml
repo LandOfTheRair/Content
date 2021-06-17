@@ -43,6 +43,7 @@
     name: DarkVision
     uses: 10
     potency: 10
+    duration: 3600
 
 - name: Revive Ring
   sprite: 1033
@@ -61,6 +62,7 @@
     name: EagleEye
     uses: 10
     potency: 100
+    duration: 3600
 
 - name: BarFire Ring
   sprite: 1032
@@ -70,6 +72,7 @@
     name: BarFire
     uses: 10
     potency: 100
+    duration: 3600
 
 - name: BarFrost Ring
   sprite: 239
@@ -79,6 +82,7 @@
     name: BarFrost
     uses: 10
     potency: 100
+    duration: 3600
 
 - name: BarNecro Ring
   sprite: 1031
@@ -88,6 +92,7 @@
     name: BarNecro
     uses: 10
     potency: 100
+    duration: 3600
 
 - name: Secondwind Ring
   sprite: 970
@@ -100,6 +105,7 @@
     name: SecondWind
     uses: 100
     potency: 50
+    duration: 3600
   requirements:
     level: 20
 
@@ -138,6 +144,7 @@
     name: DarkVision
     uses: 30
     potency: 20
+    duration: 7200
 
 - name: Revive Ring (Medium)
   sprite: 1033
@@ -156,6 +163,7 @@
     name: EagleEye
     uses: 30
     potency: 200
+    duration: 7200
 
 - name: BarFire Ring (Medium)
   sprite: 1032
@@ -165,6 +173,7 @@
     name: BarFire
     uses: 30
     potency: 200
+    duration: 7200
 
 - name: BarFrost Ring (Medium)
   sprite: 239
@@ -174,3 +183,4 @@
     name: BarFrost
     uses: 30
     potency: 200
+    duration: 7200

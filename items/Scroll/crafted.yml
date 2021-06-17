@@ -18,6 +18,7 @@
     name: DarkVision
     uses: 1
     potency: 1
+    duration: 3600
 
 - name: Crafted Transmute Scroll
   sprite: 224
@@ -36,6 +37,7 @@
     name: EagleEye
     uses: 1
     potency: 1
+    duration: 3600
 
 # Healer Scrolls
 
@@ -47,6 +49,7 @@
     name: TrueSight
     uses: 1
     potency: 1
+    duration: 3600
 
 - name: Crafted BarFire Scroll
   sprite: 224
@@ -56,6 +59,7 @@
     name: BarFire
     uses: 1
     potency: 1
+    duration: 3600
 
 - name: Crafted BarFrost Scroll
   sprite: 224
@@ -65,6 +69,7 @@
     name: BarFrost
     uses: 1
     potency: 1
+    duration: 3600
 
 - name: Crafted Succor Scroll
   sprite: 224
@@ -85,6 +90,7 @@
     name: FleetOfFoot
     uses: 1
     potency: 1
+    duration: 3600
 
 - name: Crafted EnergyWave Scroll
   sprite: 224
@@ -103,6 +109,7 @@
     name: Protection
     uses: 1
     potency: 1
+    duration: 3600
 
 - name: Crafted Absorption Scroll
   sprite: 224
@@ -112,6 +119,7 @@
     name: Absorption
     uses: 1
     potency: 1
+    duration: 3600
 
 - name: Crafted Spellshield Scroll
   sprite: 224
@@ -121,6 +129,7 @@
     name: Spellshield
     uses: 10
     potency: 5
+    duration: 3600
 
 - name: Crafted DeftStrikes Scroll
   sprite: 224
@@ -130,6 +139,7 @@
     name: DeftStrikes
     uses: 10
     potency: 3
+    duration: 3600
 
 - name: Crafted CombatPower Scroll
   sprite: 224
@@ -139,6 +149,7 @@
     name: CombatPower
     uses: 10
     potency: 5
+    duration: 3600
 
 - name: Crafted ThreateningAura Scroll
   sprite: 224
@@ -148,3 +159,4 @@
     name: ThreateningAura
     uses: 10
     potency: 1
+    duration: 3600
