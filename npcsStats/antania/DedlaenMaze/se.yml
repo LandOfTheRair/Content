@@ -76,6 +76,70 @@
     min: 26900
     max: 27500
 
+- npcId: Dedlaen Crypt Naga
+  name: crypt naga
+  hostility: OnHit
+  baseClass: Mage
+  monsterGroup: Naga
+  sprite: 430
+  stats: 22
+  skillLevels: 7
+  level: 23
+
+  skillOnKill: 30
+
+  otherStats:
+    waterResist: 5000
+    con: 25
+    perception: 8
+    mpregen: 10
+    damageFactor: 0.5
+
+  gold:
+    min: 1550
+    max: 1700
+
+  hp:
+    min: 40950
+    max: 55350
+
+  mp:
+    min: 900
+    max: 1000
+
+  giveXp:
+    min: 5000
+    max: 6500
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0.5
+        damageType: 'fire'
+
+    - name: Attribute
+      extra:
+        potency: 1.75
+        damageType: 'ice'
+
+  usableSkills:
+    - IceMist
+    - BarFrost
+    - DarkVision
+    - Absorption
+    - ChillBiteMedium
+    - Disease
+    - Leash
+
+  drops:
+    - result: Dedlaen Naga Key
+      chance: 1
+      maxChance: 100
+
+    - result: Dedlaen CryptThing Heart
+      chance: 1
+      maxChance: 5
+
 - npcId: Dedlaen Water Naga
   name: water naga
   hostility: OnHit

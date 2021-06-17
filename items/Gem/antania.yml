@@ -130,9 +130,6 @@
   value: 1
   sprite: 361
 
-  binds: true
-  tellsBind: true
-
   encrustGive:
     slots: ['wrists']
 
@@ -148,9 +145,6 @@
   value: 1
   sprite: 361
 
-  binds: true
-  tellsBind: true
-
   encrustGive:
     slots: ['neck']
 
@@ -165,9 +159,6 @@
   sellValue: 7500
   value: 1
   sprite: 361
-
-  binds: true
-  tellsBind: true
 
   encrustGive:
     slots: ['neck']

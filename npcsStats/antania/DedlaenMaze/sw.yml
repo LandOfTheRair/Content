@@ -359,3 +359,64 @@
       chance: -1
     - result: 'equipment.armor'
       chance: -1
+
+- npcId: Dedlaen Deathless
+  name: deathless
+  hostility: Always
+  monsterClass: Undead
+  monsterGroup: Undead
+  sprite: 155
+  alignment: Evil
+  stats: 16
+  skillLevels: 4
+  level: 15
+
+  skillOnKill: 10
+
+  otherStats:
+    con: 15
+    accuracy: 4
+    offense: 4
+    perception: 7
+    damageFactor: 0.5
+
+  gold:
+    min: 550
+    max: 700
+
+  hp:
+    min: 16350
+    max: 16470
+
+  giveXp:
+    min: 4000
+    max: 6500
+
+  items:
+    equipment:
+      hands: Ghast Claws
+      robe1: Yzalt Mummy Cloak
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 1.5
+        damageType: 'fire'
+
+    - name: Attribute
+      extra:
+        potency: 0.5
+        damageType: 'physical'
+
+  copyDrops:
+    - result: 'equipment.robe1'
+      chance: -1
+
+  drops:
+    - result: Rotting Mummy Grub
+      chance: 1
+      maxChance: 50
+
+    - result: Dedlaen Ghast Heart
+      chance: 1
+      maxChance: 5

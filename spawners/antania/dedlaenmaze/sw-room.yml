@@ -1,7 +1,8 @@
 npcIds:
-    - {result: 'Dedlaen Spectre', chance: 1}
-    - {result: 'Dedlaen Mummy', chance: 5}
-    - {result: 'Dedlaen Ghoul', chance: 3}
+    - {result: 'Dedlaen Deathless', chance: 1}
+    - {result: 'Dedlaen Spectre', chance: 15}
+    - {result: 'Dedlaen Mummy', chance: 25}
+    - {result: 'Dedlaen Ghoul', chance: 20}
 respawnRate: 20
 initialSpawn: 2
 maxCreatures: 10
