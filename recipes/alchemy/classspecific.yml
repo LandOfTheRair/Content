@@ -136,7 +136,7 @@
   ingredients:
     - Antanian Pint of Water
     - Mines Caveflower
-    - Rylt Blueflower
+    - Frostlands Gourd
   ozIngredients:
     - filter: Copper Ore
       display: Copper Ore (Small)
@@ -153,7 +153,7 @@
   ingredients:
     - Antanian Pint of Water
     - Mines Caveflower
-    - Rylt Blueflower
+    - Frostlands Gourd
   ozIngredients:
     - filter: Silver Ore
       display: Silver Ore (Small)
@@ -170,7 +170,7 @@
   ingredients:
     - Antanian Pint of Water
     - Mines Caveflower
-    - Rylt Blueflower
+    - Frostlands Gourd
     - Yzalt Steffen Apple
 
 - item: Weak Barkskin Potion (10oz)
