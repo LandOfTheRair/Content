@@ -64,7 +64,7 @@
 
 ### Misc
 # Type        | Damage    | Variance    | Scaling   | Weak Hit %
-# Arrow       | Low       | Low         | Low       | 25%
+# Arrow       | Mid       | Low         | Low       | 25%
 
 ## Damage Measures (Base damage per tier)
 
@@ -176,7 +176,7 @@ __bonusHigh: &bonusHigh [
 
 # Weapon Combinations
 
-Arrow:          { damage: *damageLow,       variance: *varianceLow,       scaling: *scalingLow,   bonus: *bonusNone,    weakPercent: 25, strongPercent: 0  }
+Arrow:          { damage: *damageMid,       variance: *varianceLow,       scaling: *scalingLow,   bonus: *bonusNone,    weakPercent: 25, strongPercent: 0  }
 Axe:            { damage: *damageMidHigh,   variance: *varianceLow,       scaling: *scalingMid,   bonus: *bonusMid,     weakPercent: 10, strongPercent: 10 }
 Blunderbuss:    { damage: *damageMidLow,    variance: *varianceVeryHigh,  scaling: *scalingLow,   bonus: *bonusNone,    weakPercent: 30, strongPercent: 5  }
 Broadsword:     { damage: *damageMid,       variance: *varianceMid,       scaling: *scalingMid,   bonus: *bonusMid,     weakPercent: 5,  strongPercent: 10 }
