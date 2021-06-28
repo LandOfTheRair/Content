@@ -46,8 +46,8 @@ Thief:
 
           - name: Disguise
             maxLevel: 1
-
-          - name: Multithrow
+          
+          - name: BouncingThrows
             maxLevel: 1
 
           - name: ''
@@ -57,7 +57,8 @@ Thief:
             requires: Identify
           
         - traits: 
-          - name: BouncingThrows
+
+          - name: Multithrow
             maxLevel: 1
             
           - name: ''
