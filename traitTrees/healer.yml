@@ -78,7 +78,10 @@ Healer:
             maxLevel: 1
 
           - name: ''
-          - name: ''
+            
+          - name: Light
+            maxLevel: 1
+
           - name: ''
           - name: ''
 
@@ -89,7 +92,7 @@ Healer:
           - name: HolyFire
             maxLevel: 1
             
-          - name: Light
+          - name: Spellshield
             maxLevel: 1
 
           - name: ''
@@ -104,10 +107,10 @@ Healer:
 
           - name: ''
 
-          - name: ''
-
           - name: TotemSpecialty
             maxLevel: 5
+
+          - name: ''
           
         - traits: 
           - name: ''
