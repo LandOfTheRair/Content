@@ -402,6 +402,7 @@
     armorClass: 10
     defense: 10
     agi: 11
+    damageFactor: 0.6
 
   items:
     equipment:
@@ -473,7 +474,7 @@
       chance: 100
 
   traitLevels:
-    EnergyFocus: 3
+    EnergyFocus: 2
     ConcussiveBolt: 2
 
   gold:

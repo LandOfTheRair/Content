@@ -396,6 +396,7 @@
     armorClass: 7
     defense: 7
     agi: 9
+    damageFactor: 0.6
 
   items:
     equipment:
@@ -465,7 +466,7 @@
       chance: 100
 
   traitLevels:
-    EnergyFocus: 2
+    EnergyFocus: 1
 
   gold:
     min: 4550
