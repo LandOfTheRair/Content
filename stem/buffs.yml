@@ -659,17 +659,16 @@ Aid:
   spell: 
     mpCost: 100
     maxSkillForGain: 10
+    potencyMultiplier: 0.5
     skillMultiplierChanges:
       - [0,  1]
-      - [11, 2]
-      - [21, 3]
-      - [31, 4]
 
     spellMeta:
       noReflect: true
       noHostileTarget: true
       doesOvertime: true
       staticPotency: true
+      useSkillAsPotency: true
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -1023,6 +1022,7 @@ VitalEssence:
       noHostileTarget: true
       doesOvertime: true
       staticPotency: true
+      useSkillAsPotency: true
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -1453,8 +1453,10 @@ BulgingMuscles:
       - [0,  1]
 
     spellMeta:
+      noReflect: true
       doesOvertime: true
       staticPotency: true
+      useSkillAsPotency: true
 
   # trait info
   trait:
@@ -1493,12 +1495,15 @@ Spellshield:
   spell: 
     mpCost: 50
     maxSkillForGain: 20
+    potencyMultiplier: 0.5
     skillMultiplierChanges:
       - [0,  1]
 
     spellMeta:
+      noReflect: true
       doesOvertime: true
       staticPotency: true
+      useSkillAsPotency: true
 
   # trait info
   trait:
@@ -1541,8 +1546,10 @@ DeftStrikes:
       - [0,  1]
 
     spellMeta:
+      noReflect: true
       doesOvertime: true
       staticPotency: true
+      useSkillAsPotency: true
 
   # trait info
   trait:
@@ -1585,8 +1592,10 @@ CombatPower:
       - [0,  1]
 
     spellMeta:
+      noReflect: true
       doesOvertime: true
       staticPotency: true
+      useSkillAsPotency: true
 
   # trait info
   trait:
@@ -1629,8 +1638,10 @@ ThreateningAura:
       - [0,  1]
 
     spellMeta:
+      noReflect: true
       doesOvertime: true
       staticPotency: true
+      useSkillAsPotency: true
 
   # trait info
   trait:
