@@ -136,13 +136,13 @@ Healer:
           - name: Plague
             maxLevel: 1
 
+          - name: Antidote
+            maxLevel: 1
+
           - name: Stun
             maxLevel: 1
             
           - name: Blind
-            maxLevel: 1
-
-          - name: Antidote
             maxLevel: 1
 
           - name: Vision
@@ -152,10 +152,11 @@ Healer:
           - name: DiseaseFocus
             maxLevel: 5
 
-          - name: Daze
+          - name: Disease
             maxLevel: 1
 
-          - name: ''
+          - name: Daze
+            maxLevel: 1
 
           - name: Snare
             maxLevel: 1
@@ -164,8 +165,11 @@ Healer:
             maxLevel: 1
           
         - traits: 
-          - name: Disease
+          - name: ContagiousPlague
             maxLevel: 1
+            requires: Plague
+
+          - name: ''
 
           - name: IrresistibleStun
             maxLevel: 5
@@ -175,21 +179,22 @@ Healer:
             maxLevel: 5
             requires: Blind
 
-          - name: ''
           
           - name: FindFamiliarWater
             maxLevel: 1
           
         - traits: 
-          - name: ContagiousPlague
+
+          - name: ''
+
+          - name: DebilitatingDisease
             maxLevel: 1
-            requires: Plague
+            requires: Disease
 
           - name: DazingOutlook
             maxLevel: 5
             requires: Daze
 
-          - name: ''
           - name: Roots
             maxLevel: 1
             requires: Snare
@@ -198,10 +203,8 @@ Healer:
             maxLevel: 1
           
         - traits: 
-          - name: DebilitatingDisease
-            maxLevel: 1
-            requires: Disease
 
+          - name: ''
           - name: ''
           - name: ''
           - name: ''
