@@ -228,7 +228,7 @@ Healer:
           - name: ''
           
         - traits: 
-          - name: Aid
+          - name: VitalEssence
             maxLevel: 1
 
           - name: ''
@@ -241,7 +241,7 @@ Healer:
             maxLevel: 1
           
         - traits: 
-          - name: VitalEssence
+          - name: Aid
             maxLevel: 1
 
           - name: PowerwordBarFire
