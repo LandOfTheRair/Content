@@ -24216,6 +24216,10 @@
                      "maxSpawn":1,
                      "randomWalkRadius":10,
                      "respawnRate":1800,
+                     "shouldStrip":true,
+                     "stripRadius":1,
+                     "stripX":32,
+                     "stripY":12,
                      "tag":"Global Lair"
                     },
                  "propertytypes":
@@ -24225,6 +24229,10 @@
                      "maxSpawn":"int",
                      "randomWalkRadius":"int",
                      "respawnRate":"int",
+                     "shouldStrip":"bool",
+                     "stripRadius":"int",
+                     "stripX":"int",
+                     "stripY":"int",
                      "tag":"string"
                     },
                  "rotation":0,
@@ -24246,6 +24254,10 @@
                      "maxSpawn":1,
                      "randomWalkRadius":10,
                      "respawnRate":1800,
+                     "shouldStrip":true,
+                     "stripRadius":1,
+                     "stripX":32,
+                     "stripY":12,
                      "tag":"Global Lair"
                     },
                  "propertytypes":
@@ -24255,6 +24267,10 @@
                      "maxSpawn":"int",
                      "randomWalkRadius":"int",
                      "respawnRate":"int",
+                     "shouldStrip":"bool",
+                     "stripRadius":"int",
+                     "stripX":"int",
+                     "stripY":"int",
                      "tag":"string"
                     },
                  "rotation":0,
@@ -24276,6 +24292,10 @@
                      "maxSpawn":1,
                      "randomWalkRadius":10,
                      "respawnRate":1800,
+                     "shouldStrip":true,
+                     "stripRadius":1,
+                     "stripX":32,
+                     "stripY":12,
                      "tag":"Global Lair"
                     },
                  "propertytypes":
@@ -24285,6 +24305,10 @@
                      "maxSpawn":"int",
                      "randomWalkRadius":"int",
                      "respawnRate":"int",
+                     "shouldStrip":"bool",
+                     "stripRadius":"int",
+                     "stripX":"int",
+                     "stripY":"int",
                      "tag":"string"
                     },
                  "rotation":0,
@@ -24306,6 +24330,10 @@
                      "maxSpawn":1,
                      "randomWalkRadius":10,
                      "respawnRate":1800,
+                     "shouldStrip":true,
+                     "stripRadius":1,
+                     "stripX":32,
+                     "stripY":12,
                      "tag":"Global Lair"
                     },
                  "propertytypes":
@@ -24315,6 +24343,10 @@
                      "maxSpawn":"int",
                      "randomWalkRadius":"int",
                      "respawnRate":"int",
+                     "shouldStrip":"bool",
+                     "stripRadius":"int",
+                     "stripX":"int",
+                     "stripY":"int",
                      "tag":"string"
                     },
                  "rotation":0,

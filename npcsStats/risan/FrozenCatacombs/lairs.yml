@@ -271,13 +271,13 @@
           chance: 1
 
       leftHand:
-        - result: Catacombs Longsword 5F
+        - result: Catacombs Longsword 3F
           chance: 50
-        - result: Catacombs Dagger 5F
+        - result: Catacombs Dagger 3F
           chance: 50
-        - result: Catacombs Shortsword 5F
+        - result: Catacombs Shortsword 3F
           chance: 50
-        - result: Catacombs Shield 5F
+        - result: Catacombs Shield 3F
           chance: 50
         - result: Frostlands Royal Shield
           chance: 1
