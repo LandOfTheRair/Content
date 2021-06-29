@@ -41,7 +41,7 @@
     "generate:meta": "node _tasks/generate-meta.js",
     "fix:spawnersandmaps": "node _tasks/convert-spawners-and-maps",
     "dump:props": "node _tasks/dump-props",
-    "validate:all": "npm run validate:items && npm run validate:npcs && npm run validate:spawners && npm run validate:npc-scripts && npm run validte:maps",
+    "validate:all": "npm run validate:items && npm run validate:npcs && npm run validate:spawners && npm run validate:npc-scripts && npm run validate:maps",
     "test": "npm run build:all && npm run validate:all",
     "postinstall": "npm run build:all",
     "watch:all": "nodemon --ext yml --watch core --watch macros --watch effectData --watch droptables --watch items --watch npcScripts --watch npcsStats --watch quests --watch recipes --watch spawners --watch traitTrees --watch traits --watch spells --watch spritesData --watch stem --exec \"npm run build:all\"",
