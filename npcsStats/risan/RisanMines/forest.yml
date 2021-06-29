@@ -501,6 +501,10 @@
     - result: Transmute
       chance: 1
 
+  baseEffects:
+    - name: DarkVision
+      endsAt: -1
+
   gold:
     min: 1350
     max: 1500
@@ -591,6 +595,10 @@
     - Darkness
     - Shadowmeld
     - TrueSight
+
+  baseEffects:
+    - name: DarkVision
+      endsAt: -1
 
   gold:
     min: 43850

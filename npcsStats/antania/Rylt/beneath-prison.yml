@@ -243,6 +243,10 @@
     - Darkness
     - TrueSight
 
+  baseEffects:
+    - name: DarkVision
+      endsAt: -1
+
   copyDrops:
     - result: 'equipment.rightHand'
       chance: -1

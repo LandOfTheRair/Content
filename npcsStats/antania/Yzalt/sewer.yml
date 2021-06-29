@@ -54,6 +54,10 @@
     - Darkness
     - DarkVision
 
+  baseEffects:
+    - name: DarkVision
+      endsAt: -1
+
   triggers:
     spawn:
       messages:
@@ -126,6 +130,10 @@
     - DiseaseBiteWeak
     - Darkness
     - DarkVision
+
+  baseEffects:
+    - name: DarkVision
+      endsAt: -1
     
   triggers:
     spawn:

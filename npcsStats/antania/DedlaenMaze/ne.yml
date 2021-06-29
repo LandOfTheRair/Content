@@ -250,6 +250,10 @@
     - result: Transmute
       chance: 5
 
+  baseEffects:
+    - name: DarkVision
+      endsAt: -1
+
   triggers:
     spawn:
       messages:

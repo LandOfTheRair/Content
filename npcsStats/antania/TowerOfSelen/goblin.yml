@@ -216,6 +216,10 @@
         name: "monster-goblin"
         maxChance: 20
 
+  baseEffects:
+    - name: DarkVision
+      endsAt: -1
+
 - npcId: Tower Hobgoblin
   name: hobgoblin
   hostility: Always

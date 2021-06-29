@@ -25,6 +25,10 @@
     - Darkness
     - DarkVision
 
+  baseEffects:
+    - name: DarkVision
+      endsAt: -1
+
   gold:
     min: 1550
     max: 1900
@@ -134,6 +138,10 @@
     - result: Leash
       chance: 10
 
+  baseEffects:
+    - name: DarkVision
+      endsAt: -1
+
   traitLevels:
     InternalFortitude: 5
     Roots: 1
@@ -211,6 +219,10 @@
     - Cure
     - Plague
     - Disease
+
+  baseEffects:
+    - name: DarkVision
+      endsAt: -1
 
   traitLevels:
     DebilitatingDisease: 1
@@ -345,6 +357,10 @@
     - BarFire
     - BarFrost
     - DarkVision
+
+  baseEffects:
+    - name: DarkVision
+      endsAt: -1
 
   items:
     equipment:
@@ -485,6 +501,10 @@
     - DarkVision
     - Darkness
     - EagleEye
+
+  baseEffects:
+    - name: DarkVision
+      endsAt: -1
 
   traitLevels:
     DarknessWiden: 2
@@ -647,6 +667,10 @@
 
   usableSkills:
     - Charge
+
+  baseEffects:
+    - name: DarkVision
+      endsAt: -1
 
   items:
     equipment:

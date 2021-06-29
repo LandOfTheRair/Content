@@ -454,6 +454,10 @@
     - result: Transmute
       chance: 5
 
+  baseEffects:
+    - name: DarkVision
+      endsAt: -1
+
   gold:
     min: 4550
     max: 4900
