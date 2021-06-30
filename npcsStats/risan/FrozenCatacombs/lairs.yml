@@ -236,6 +236,7 @@
     offense: 10
     perception: 55
     mpregen: 50
+    damageFactor: 0.5
 
   gold:
     min: 23050
