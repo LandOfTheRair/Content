@@ -124,7 +124,7 @@
   sprite: 963
 
   encrustGive:
-    slots: ['weapon', 'hands', 'feet']
+    slots: ['weapon', 'hands', 'feet', 'ring']
 
     stats:
       hp: 200
