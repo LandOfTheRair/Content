@@ -104,7 +104,10 @@
   sprite: 924
 
   encrustGive:
-    slots: ['weapon', 'hands', 'feet']
+    slots: ['weapon', 'hands', 'feet', 'ring']
+
+    stats:
+      hp: 100
 
     strikeEffect:
       name: Dispel
