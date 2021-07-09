@@ -13564,6 +13564,30 @@
                  "width":64,
                  "x":7616,
                  "y":6656
+                }, 
+                {
+                 "gid":3179,
+                 "height":64,
+                 "id":3059,
+                 "name":"Banker",
+                 "properties":
+                    {
+                     "bankId":"Risan",
+                     "branchId":"Castle Town",
+                     "tag":"Banker"
+                    },
+                 "propertytypes":
+                    {
+                     "bankId":"string",
+                     "branchId":"string",
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":11520,
+                 "y":15104
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -22611,7 +22635,7 @@
          "y":0
         }],
  "nextlayerid":17,
- "nextobjectid":3059,
+ "nextobjectid":3060,
  "orientation":"orthogonal",
  "properties":
     {
