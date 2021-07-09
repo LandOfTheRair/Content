@@ -80,7 +80,7 @@
   drops:
     - result: Catacombs Raw Garnet
       chance: 1
-      maxchance: 700
+      maxChance: 700
 
   skillOnKill: 80
 
@@ -200,7 +200,7 @@
   drops:
     - result: Catacombs Raw Garnet
       chance: 1
-      maxchance: 700
+      maxChance: 700
 
   skillOnKill: 80
 
@@ -307,7 +307,7 @@
   drops:
     - result: Catacombs Raw Turquoise
       chance: 1
-      maxchance: 700
+      maxChance: 700
 
   skillOnKill: 80
 
@@ -448,7 +448,7 @@
   drops:
     - result: Catacombs Raw Topaz
       chance: 1
-      maxchance: 700
+      maxChance: 700
 
   skillOnKill: 80
 
@@ -572,7 +572,7 @@
   drops:
     - result: Catacombs Raw Amber
       chance: 1
-      maxchance: 700
+      maxChance: 700
 
   skillOnKill: 80
 
@@ -756,7 +756,7 @@
   drops:
     - result: Catacombs Raw Tourmaline
       chance: 1
-      maxchance: 700
+      maxChance: 700
 
   baseEffects:
     - name: DarkVision
@@ -880,4 +880,4 @@
   drops:
     - result: Catacombs Raw Tourmaline
       chance: 1
-      maxchance: 700
+      maxChance: 700
