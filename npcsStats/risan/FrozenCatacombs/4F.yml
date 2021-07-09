@@ -262,6 +262,7 @@
     armorClass: 10
     defense: 10
     agi: 11
+    damageFactor: 0.4
 
   items:
     equipment:
@@ -402,7 +403,7 @@
     armorClass: 10
     defense: 10
     agi: 11
-    damageFactor: 0.6
+    damageFactor: 0.3
 
   items:
     equipment:
