@@ -27,8 +27,9 @@ Thief:
           - name: Mug
             maxLevel: 1
             requires: ImprovedSteal
-
-          - name: ''
+          
+          - name: BouncingThrows
+            maxLevel: 1
 
           - name: Darkness
             maxLevel: 1
@@ -44,10 +45,10 @@ Thief:
             maxLevel: 5
             requires: ImprovedSteal
 
-          - name: Disguise
+          - name: Multithrow
             maxLevel: 1
-          
-          - name: BouncingThrows
+
+          - name: Disguise
             maxLevel: 1
 
           - name: ''
@@ -57,9 +58,7 @@ Thief:
             requires: Identify
           
         - traits: 
-
-          - name: Multithrow
-            maxLevel: 1
+          - name: ''
             
           - name: ''
             
