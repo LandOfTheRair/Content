@@ -632,7 +632,7 @@
   level: 45
 
   otherStats:
-    stealth: 100
+    stealth: 75
     perception: 55
     offense: 50
     accuracy: 50
