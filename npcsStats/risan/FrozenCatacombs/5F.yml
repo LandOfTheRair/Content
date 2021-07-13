@@ -19,7 +19,7 @@
     armorClass: 15
     defense: 15
     agi: 13
-    damageFactor: 0.2
+    damageFactor: 0.1
 
   items:
     equipment:
@@ -153,7 +153,7 @@
     armorClass: 15
     defense: 15
     agi: 13
-    damageFactor: 0.2
+    damageFactor: 0.1
 
   items:
     equipment:
@@ -527,7 +527,7 @@
     armorClass: 20
     defense: 20
     agi: 13
-    damageFactor: 0.4
+    damageFactor: 0.3
 
   items:
     equipment:
