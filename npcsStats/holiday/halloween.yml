@@ -171,7 +171,8 @@
       maxChance: 20000
 
   usableSkills:
-    - ShredTenPercent
+    - ShredFivePercent
+    - ShredOnePercent
     - HalloweenZombieScratch
 
 - npcId: Halloween Skeleton
