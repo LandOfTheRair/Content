@@ -7385,7 +7385,7 @@
                  "properties":
                     {
                      "identifyCost":1000,
-                     "identifyTier":1,
+                     "identifyTier":3,
                      "tag":"Identifier"
                     },
                  "propertytypes":
