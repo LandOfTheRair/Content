@@ -162,3 +162,16 @@ ZombieScratch:
       unique: true
   effectMeta:
     effectRef: ZombieScratch
+
+DecayingCorpse:
+  tooltip:
+    icon: 'shambling-zombie'
+    color: '#a00'
+    desc: Walking dead. Will take its last step soon.
+  effect:
+    type: debuff
+    duration: 300
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: DecayingCorpse
