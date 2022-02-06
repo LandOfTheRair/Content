@@ -29,3 +29,38 @@
   desc: "a chunk of raw garnet"
   sellValue: 100000
   value: 1
+
+- name: Catacombs 1F Gold Nugget
+  sprite: 952
+  desc: "a small gold nugget, fetching a low price in the Frostlands"
+  sellValue: 100000
+  value: 1
+  quality: 1
+
+- name: Catacombs 2F Gold Nugget
+  sprite: 952
+  desc: "a small gold nugget, fetching a moderate price in the Frostlands"
+  sellValue: 250000
+  value: 1
+  quality: 1
+
+- name: Catacombs 3F Gold Nugget
+  sprite: 952
+  desc: "a small gold nugget, fetching a fair price in the Frostlands"
+  sellValue: 500000
+  value: 1
+  quality: 1
+
+- name: Catacombs 4F Gold Nugget
+  sprite: 952
+  desc: "a small gold nugget, fetching a good price in the Frostlands"
+  sellValue: 750000
+  value: 1
+  quality: 1
+
+- name: Catacombs 5F Gold Nugget
+  sprite: 952
+  desc: "a small gold nugget, fetching a high price in the Frostlands"
+  sellValue: 1000000
+  value: 1
+  quality: 1

@@ -74,6 +74,10 @@
       chance: 1
       maxChance: 1000
 
+    - result: Catacombs 1F Gold Nugget
+      chance: 1
+      maxChance: 1000
+
   skillOnKill: 65
 
   gold:
@@ -179,6 +183,10 @@
       chance: 1
       maxChance: 1000
 
+    - result: Catacombs 1F Gold Nugget
+      chance: 1
+      maxChance: 1000
+
   skillOnKill: 65
 
   gold:
@@ -267,6 +275,10 @@
 
   drops:
     - result: Catacombs Raw Turquoise
+      chance: 1
+      maxChance: 1000
+
+    - result: Catacombs 1F Gold Nugget
       chance: 1
       maxChance: 1000
 
@@ -387,6 +399,10 @@
       chance: 1
       maxChance: 1000
 
+    - result: Catacombs 1F Gold Nugget
+      chance: 1
+      maxChance: 1000
+
   skillOnKill: 65
 
   usableSkills:
@@ -492,6 +508,10 @@
 
   drops:
     - result: Catacombs Raw Amber
+      chance: 1
+      maxChance: 1000
+
+    - result: Catacombs 1F Gold Nugget
       chance: 1
       maxChance: 1000
 
@@ -625,6 +645,10 @@
       chance: 1
       maxChance: 1000
 
+    - result: Catacombs 1F Gold Nugget
+      chance: 1
+      maxChance: 1000
+
   baseEffects:
     - name: DarkVision
       endsAt: -1
@@ -737,5 +761,9 @@
 
   drops:
     - result: Catacombs Raw Tourmaline
+      chance: 1
+      maxChance: 1000
+
+    - result: Catacombs 1F Gold Nugget
       chance: 1
       maxChance: 1000
