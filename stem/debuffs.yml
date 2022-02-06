@@ -101,6 +101,10 @@ Venom:
       applyMessage: "You feel a deadly venom coursing through your veins!"
       unapplyMessage: 'You are no longer envenomed.'
 
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
 Disease:
 
   # global info
