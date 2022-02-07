@@ -180,3 +180,17 @@ EtherSickness:
   effectMeta:
     applyMessage: 'You feel sick from the ether infusion!'
     unapplyMessage: 'The ether sickness has worn off.'
+
+LimitedInvulnerability:
+  tooltip:
+    icon: 'skull-shield'
+    color: '#fff'
+    bgColor: '#0a6'
+    desc: Taking no damage from any source temporarily.
+  effect:
+    type: incoming
+    duration: 1
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: Invulnerable
