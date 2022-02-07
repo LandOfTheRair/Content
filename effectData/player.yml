@@ -157,3 +157,26 @@ Newbie:
         xpBonusPercent: 10
   effectMeta:
     effectRef: Newbie
+
+EtherSickness:
+  tooltip:
+    icon: 'pill-drop'
+    color: '#f00'
+    desc: 'Forcibly returned from the Ether and still recovering from your last death.'
+  effect:
+    type: debuff
+    duration: 60
+    extra:
+      unique: true
+      statChanges:
+        str: -3
+        dex: -3
+        agi: -3
+        int: -3
+        wis: -3
+        wil: -3
+        cha: -3
+        luk: -3
+  effectMeta:
+    applyMessage: 'You feel sick from the ether infusion!'
+    unapplyMessage: 'The ether sickness has worn off.'
