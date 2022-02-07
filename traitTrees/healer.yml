@@ -31,6 +31,7 @@ Healer:
 
           - name: Revive
             maxLevel: 1
+            requires: Cure
 
           - name: Wellspring
             maxLevel: 1
@@ -48,6 +49,7 @@ Healer:
             
           - name: SnapHeal
             maxLevel: 1
+            requires: Revive
 
           - name: ''
           - name: ''
