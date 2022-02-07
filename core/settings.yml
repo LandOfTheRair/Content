@@ -26,6 +26,7 @@ character:
   fallDamagePercent: 15
   trainingCostGoldMultiplier: 25
   axpPerLevel: 500
+  baseXP: 1000
 
 combat:
   buildUpDecay: 3
