@@ -59,6 +59,12 @@ EtherRecombobulation:
   icon: glowing-artifact
   valuePerTier: 0.1
 
+RecombobulativeBarrier:
+  name: Recombulative Barrier
+  desc: When reviving, you have additional +$2$ ticks of invulnerability.
+  icon: surrounded-shield
+  valuePerTier: 2
+
 SweetTooth:
   name: Sweet Tooth
   desc: All food boosts your HP and MP regen by +$5$%.
