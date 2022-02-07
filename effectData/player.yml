@@ -193,4 +193,4 @@ LimitedInvulnerability:
     extra:
       unique: true
   effectMeta:
-    effectRef: Invulnerable
+    effectRef: LimitedInvulnerability

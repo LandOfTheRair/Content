@@ -27,10 +27,10 @@ Healer:
             maxLevel: 5
             requires: Cure
 
+          - name: ''
+
           - name: Revive
             maxLevel: 1
-
-          - name: ''
 
           - name: Wellspring
             maxLevel: 1
@@ -46,7 +46,9 @@ Healer:
           - name: Regen
             maxLevel: 1
             
-          - name: ''
+          - name: SnapHeal
+            maxLevel: 1
+
           - name: ''
           - name: ''
           

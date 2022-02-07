@@ -81,3 +81,8 @@ DiseaseFocus:
   icon: death-zone
   statsGiven:
     diseaseBoostPercent: 10
+
+SnapHeal:
+  name: Snap Heal
+  desc: Cast Heal on a target automatically after reviving them.
+  icon: heart-beats
