@@ -27,6 +27,7 @@ character:
   trainingCostGoldMultiplier: 25
   axpPerLevel: 500
   baseXP: 1000
+  baseRep: 500
 
 combat:
   buildUpDecay: 3
