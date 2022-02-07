@@ -22,12 +22,15 @@ Core:
 
         - traits: 
           - name: ''
-          - name: ''
           
           - name: EffectivePotions
             maxLevel: 5
 
           - name: ''
+
+          - name: EtherRecombobulation
+            maxLevel: 5
+          
           - name: ''
 
         - traits:     

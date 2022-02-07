@@ -53,6 +53,12 @@ SilentStrikes:
   statsGiven:
     threatMultiplier: -0.1
 
+EtherRecombobulation:
+  name: Ether Recombulation
+  desc: When reviving, you restore an additional +$10$% HP.
+  icon: glowing-artifact
+  valuePerTier: 0.1
+
 SweetTooth:
   name: Sweet Tooth
   desc: All food boosts your HP and MP regen by +$5$%.
