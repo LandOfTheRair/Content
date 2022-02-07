@@ -27,11 +27,11 @@ Healer:
             maxLevel: 5
             requires: Cure
 
-          - name: ''
-
           - name: Revive
             maxLevel: 1
             requires: Cure
+
+          - name: ''
 
           - name: Wellspring
             maxLevel: 1
@@ -43,35 +43,40 @@ Healer:
           - name: PowerwordHeal
             maxLevel: 1
             requires: Cure
+            
+          - name: ''
+
+          - name: ''
 
           - name: Regen
             maxLevel: 1
+
+          - name: ''
+          
+        - traits: 
+
+          - name: ''
             
           - name: SnapHeal
             maxLevel: 1
             requires: Revive
 
           - name: ''
-          - name: ''
-          
-        - traits: 
+
           - name: SecondWind
             maxLevel: 1
 
           - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
           
         - traits: 
 
+          - name: ''
+          - name: ''
+          - name: ''
+          - name: ''
+
           - name: Clearcasting
             maxLevel: 1
-
-          - name: ''
-          - name: ''
-          - name: ''
-          - name: ''
 
     Diviner:
       desc: The Diviner tree
