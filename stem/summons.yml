@@ -282,7 +282,7 @@ FindFamiliarWolf:
     maxSkillForGain: 1
 
     spellMeta:
-      creatureSummoned: Mage Summon Wolf
+      creatureSummoned: [Mage Summon Wolf]
       casterMessage: 'You begin channeling for a familiar...'
 
   # effect info (tooltip, duration, messages)
