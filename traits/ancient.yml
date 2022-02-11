@@ -78,7 +78,7 @@ DefensiveManifestation:
   icon: body-balance
   isAncient: true
   statsGiven:
-    defenseClass: 3
+    defense: 3
     
 OffensiveManifestation:
   name: Offensive Manifestation
@@ -86,7 +86,7 @@ OffensiveManifestation:
   icon: sword-clash
   isAncient: true
   statsGiven:
-    offenseClass: 3
+    offense: 3
 
 # 20-of
 EnergyManifestation:

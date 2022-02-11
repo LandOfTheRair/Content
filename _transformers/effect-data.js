@@ -28,6 +28,9 @@ const merge = async () => {
       eff.effectMeta = eff.effectMeta || {};
       eff.tooltip = eff.tooltip || {};
       eff.effect.extra = eff.effect.extra || {};
+      eff.effect.extra.potency = eff.effect.extra.potency || 0;
+
+      eff.effect.duration = eff.effect.duration || 0;
     });
 
     console.log(`Loading ${Object.values(file).length} effects...`);
