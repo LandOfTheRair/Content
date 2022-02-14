@@ -3,6 +3,8 @@ const YAML = require('js-yaml');
 const recurse = require('recursive-readdir');
 const fs = require('fs');
 
+const { fillInProperties } = require('./props/quest');
+
 const merge = async () => {
   try {
     const files = await recurse(`quests`);
@@ -11,6 +13,7 @@ const merge = async () => {
 
     files.forEach(file => {
       const quest = YAML.load(fs.readFileSync(file));
+      fillInProperties(quest);
       questHash[quest.name] = quest;
     });
 

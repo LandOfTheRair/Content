@@ -3,8 +3,7 @@ const YAML = require('js-yaml');
 const recurse = require('recursive-readdir');
 const fs = require('fs');
 
-const conditionallyAddInformation = (script) => {
-};
+const { fillInProperties } = require('./props/npc-scripts');
 
 const validateScript = (script) => {
   let hasBad = false;
@@ -28,7 +27,7 @@ const merge = async () => {
     const scriptsData = files.map(file => {
       const scriptData = YAML.load(fs.readFileSync(file));
 
-      conditionallyAddInformation(scriptData);
+      fillInProperties(scriptData);
       if(!validateScript(scriptData)) throw new Error(`${scriptData.tag} failed validation.`);
 
       return scriptData;

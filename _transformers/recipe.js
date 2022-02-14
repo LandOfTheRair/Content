@@ -3,11 +3,9 @@ const YAML = require('js-yaml');
 const recurse = require('recursive-readdir');
 const fs = require('fs');
 
-const allTradeskills = ['alchemy', 'metalworking', 'spellforging'];
+const { fillInProperties } = require('./props/recipe');
 
-const addRecipeData = (recipe) => {
-  if(!recipe.requiredSkill) recipe.requiredSkill = 0;
-}
+const allTradeskills = ['alchemy', 'metalworking', 'spellforging'];
 
 const validateRecipe = (recipe, allItems) => {
   if(!recipe.name) return false;
@@ -27,7 +25,7 @@ const merge = async () => {
         const itemsOfType = YAML.load(fs.readFileSync(file));
   
         return itemsOfType.map(itemData => {
-          addRecipeData(itemData);
+          fillInProperties(itemData);
           if(!validateRecipe(itemData)) throw new Error(`${itemData.name} failed validation.`);
 
           return {

@@ -3,8 +3,7 @@ const YAML = require('js-yaml');
 const recurse = require('recursive-readdir');
 const fs = require('fs');
 
-const conditionallyAddInformation = (spawner) => {
-};
+const { fillInProperties } = require('./props/spawner');
 
 const validateSpawner = (spawner) => {
   return true;
@@ -17,7 +16,7 @@ const merge = async () => {
     const spawnerDatas = files.map(file => {
       const spawnerData = YAML.load(fs.readFileSync(file));
 
-      conditionallyAddInformation(spawnerData);
+      fillInProperties(spawnerData);
       if(!validateSpawner(spawnerData)) throw new Error(`${spawnerData.tag} failed validation.`);
 
       return spawnerData;
