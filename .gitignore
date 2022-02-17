@@ -3,3 +3,5 @@ _output
 __assets
 .vscode
 *.tiled-*
+maps/custom
+mods
