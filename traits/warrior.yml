@@ -142,7 +142,7 @@ ImprovedRapidpunch:
 
 UnarmoredSavant:
   name: Unarmored Savant
-  desc: Your base mitigation will be 60 if you have a fur, robe, or cloak in your main armor slot.
+  desc: Your base mitigation will be 60 if you have a fur, robe, or cloak in your main armor slot. This bonus is lowered if you are holding anything in your right hand.
   icon: robe
   valuePerTier: 60
 
