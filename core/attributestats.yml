@@ -3,6 +3,7 @@
   stats:
     - stat: luk
       boost: 10
+  effects: []
 
 - attribute: strong
   stats:
@@ -10,6 +11,7 @@
       boost: 2
     - stat: defense
       boost: 5
+  effects: []
 
 - attribute: smart
   stats:
@@ -17,6 +19,7 @@
       boost: 3
     - stat: mpregen
       boost: 10
+  effects: []
 
 - attribute: wise
   stats:
@@ -24,11 +27,13 @@
       boost: 3
     - stat: mpregen
       boost: 10
+  effects: []
 
 - attribute: willful
   stats:
     - stat: wil
       boost: 3
+  effects: []
 
 - attribute: agile
   stats:
@@ -36,6 +41,7 @@
       boost: 2
     - stat: defense
       boost: 5
+  effects: []
 
 - attribute: deft
   stats:
@@ -43,6 +49,7 @@
       boost: 2
     - stat: offense
       boost: 5
+  effects: []
 
 - attribute: fit
   stats:
@@ -50,6 +57,7 @@
       boost: 3
     - stat: defense
       boost: 5
+  effects: []
 
 - attribute: fighty
   stats:
@@ -57,6 +65,7 @@
       boost: 5
     - stat: defense
       boost: 5
+  effects: []
 
 - attribute: berserk
   stats:
@@ -66,6 +75,7 @@
       boost: 5
     - stat: agi
       boost: 5
+  effects: []
 
 - attribute: frantic
   stats:
@@ -75,3 +85,54 @@
       boost: 5
     - stat: wil
       boost: 5
+  effects: []
+
+- attribute: burning
+  stats: []
+  effects:
+    - name: ImbueFlame
+      extra:
+        potency: 100
+
+- attribute: freezing
+  stats: []
+  effects:
+    - name: ImbueFrost
+      extra:
+        potency: 100
+
+- attribute: persistent
+  stats: []
+  effects:
+    - name: SecondWind
+
+- attribute: swift
+  stats: []
+  effects:
+    - name: Haste
+
+- attribute: fastidious
+  stats: []
+  effects:
+    - name: FleetOfFoot
+
+- attribute: assaulting
+  stats: []
+  effects:
+    - name: DeftStrikes
+      extra:
+        potency: 1
+
+- attribute: commanding
+  stats: []
+  effects:
+    - name: CombatPower
+      extra:
+        potency: 3
+
+- attribute: resistant
+  stats: []
+  effects:
+    - name: Spellshield
+      extra:
+        potency: 3
