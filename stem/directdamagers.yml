@@ -186,17 +186,17 @@ Hail:
     potencyMultiplier: 1.5
     willSaveThreshold: 25
     willSavePercent: 50
-    bonusRollsMin: 1
-    bonusRollsMax: 3
+    bonusRollsMin: 3
+    bonusRollsMax: 4
     skillMultiplierChanges:
       - [0,  0.75]
-      - [6,  1.5]
-      - [11, 2.25]
-      - [16, 3]
-      - [21, 3.75]
-      - [26, 4.5]
-      - [31, 7]
-      - [36, 12]
+      - [6,  1.75]
+      - [11, 2.75]
+      - [16, 3.75]
+      - [21, 4.75]
+      - [26, 5.75]
+      - [31, 7.75]
+      - [36, 14]
 
     spellMeta:
       doesAttack: true
