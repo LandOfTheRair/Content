@@ -450,7 +450,7 @@ Fear:
       - [41, 2]
 
     spellMeta:
-      doesOvertime: true
+      # doesOvertime: true - we would set this IFF fear didn't have pre-reqs to be checked
       canBeResisted: true
 
   # effect info (tooltip, duration, messages)
