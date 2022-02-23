@@ -199,6 +199,12 @@ BouncingThrows:
   icon: bouncing-sword
   valuePerTier: 10
 
+BouncingArrows:
+  name: Bouncing Arrows
+  desc: All ranged weapons have a +$10$% chance to bounce to another target.
+  icon: arrow-cluster
+  valuePerTier: 10
+
 VortexWiden:
   name: Vortex Widen
   desc: Your Vortex spell will extend outwards and additional +$1$ tile.

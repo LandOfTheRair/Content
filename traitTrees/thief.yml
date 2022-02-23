@@ -86,7 +86,9 @@ Thief:
 
       tree: 
         - traits: 
-          - name: ''
+          - name: BouncingArrows
+            maxLevel: 5
+            
           - name: ''
 
           - name: DeadlyDirgeSong
