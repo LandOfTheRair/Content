@@ -16,7 +16,8 @@ BuildupHeat:
 Burning:
   tooltip:
     icon: 'fire'
-    color: '#dc143c'
+    color: '#fff'
+    bgColor: '#dc143c'
     desc: Constantly receiving fire damage.
   effect:
     type: debuff
@@ -43,7 +44,8 @@ BuildupChill:
 Chilled:
   tooltip:
     icon: 'cold-heart'
-    color: '#000080'
+    color: '#fff'
+    bgColor: '#000080'
     desc: Actions are 50% slower.
   effect:
     type: debuff
@@ -58,7 +60,7 @@ Frozen:
   tooltip:
     icon: 'cold-heart'
     color: '#fff'
-    bgColor: '#000080'
+    bgColor: '#00d9d2'
     desc: Frozen solid.
   effect:
     type: debuff
@@ -68,3 +70,31 @@ Frozen:
   effectMeta:
     effectRef: Frozen
     recentlyRef: RecentlyChilled
+      
+BuildupEnergy:
+  tooltip:
+    icon: 'flame-tunnel'
+    color: '#a0a'
+    desc: Energy is building up.
+  effect:
+    type: incoming
+    duration: -1
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: BuildupEnergy
+      
+Overcharged:
+  tooltip:
+    icon: 'flame-tunnel'
+    color: '#fff'
+    bgColor: '#a0a'
+    desc: Stunned.
+  effect:
+    type: debuff
+    duration: 30
+    extra:
+      unique: true
+  effectMeta:
+    effectRef: Overcharged
+    recentlyRef: RecentlyOvercharged

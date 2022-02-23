@@ -88,6 +88,17 @@ RecentlyChilled:
     extra:
       unique: true
 
+RecentlyOvercharged:
+  tooltip:
+    icon: 'flame-tunnel'
+    color: '#000'
+    desc: 'You were recently overcharged.'
+  effect:
+    type: debuff
+    duration: 15
+    extra:
+      unique: true
+
 RecentlyHasted:
   tooltip:
     icon: 'time-trap'
