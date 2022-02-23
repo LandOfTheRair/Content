@@ -777,6 +777,8 @@ Protection:
       noHostileTarget: true
       doesOvertime: true
       staticPotency: true
+      fizzledBy:
+        - WizardStance
 
   # effect info (tooltip, duration, messages)
   effect:
@@ -826,6 +828,8 @@ Absorption:
       noHostileTarget: true
       doesOvertime: true
       staticPotency: true
+      fizzledBy:
+        - WizardStance
 
   # effect info (tooltip, duration, messages)
   effect:
