@@ -32,6 +32,7 @@ ImbueFrost:
       extra:
         canRemove: true
         unique: 'Imbue'
+        canOverlapUniqueIfEquipped: true
     effectMeta:
       castSfx: 'spell-buff-physical'
       applySfx: 'spell-buff-physical'
@@ -81,6 +82,7 @@ ImbueFlame:
       extra:
         canRemove: true
         unique: 'Imbue'
+        canOverlapUniqueIfEquipped: true
     effectMeta:
       castSfx: 'spell-buff-physical'
       applySfx: 'spell-buff-physical'
@@ -130,6 +132,7 @@ ImbueEnergy:
       extra:
         canRemove: true
         unique: 'Imbue'
+        canOverlapUniqueIfEquipped: true
     effectMeta:
       castSfx: 'spell-buff-physical'
       applySfx: 'spell-buff-physical'
