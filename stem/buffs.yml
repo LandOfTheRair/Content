@@ -323,6 +323,7 @@ SecondWind:
   effect:
     tooltip:
       icon: 'wing-cloak'
+      desc: 'Will not lose gear on death.'
     effect:
       type: buff
       duration: 600
