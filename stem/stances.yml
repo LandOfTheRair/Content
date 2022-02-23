@@ -88,6 +88,51 @@ GlacierStance:
   macro:
     name: Glacier Stance
     mode: 'autoActivate'
+
+WizardStance:
+
+  # global info
+  all:
+    desc: "Adopt a stance of true wizardry, lowering incoming damage from all sources and automatically firing bolts of energy when attacked magically."
+    icon: burning-passion
+    color: "#a0a"
+
+  # spell cast info
+  spell:
+    mpCost: 0
+    maxSkillForGain: 1
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 2]
+      - [21, 4]
+      - [31, 7]
+      - [41, 10]
+
+    spellMeta:
+      noHostileTarget: true
+      doesOvertime: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Stance. Acting wizardly.'
+    effect:
+      type: outgoing
+      duration: -1
+      extra:
+        canRemove: true
+        unique: 'Stance'
+    effectMeta: {}
+
+  # trait info
+  trait:
+    name: Wizard Stance
+    borderColor: "#a0a"
+
+  # macro info
+  macro:
+    name: Wizard Stance
+    mode: 'autoActivate'
     
 ParryStance:
 

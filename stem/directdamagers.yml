@@ -504,7 +504,7 @@ RiftSlash:
 
   # global info
   all:
-    desc: "Warp through the void to your target and attack them. Cost: 10 MP"
+    desc: "Warp through the ether to your target and attack them. Cost: 10 MP"
     icon: running-ninja
     color: "#a0a"
 

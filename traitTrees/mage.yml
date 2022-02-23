@@ -229,8 +229,7 @@ Mage:
           - name: ConjureSword
             maxLevel: 1
 
-          - name: ConjureShield
-            maxLevel: 1
+          - name: ''
 
           - name: VolcanoStance
             maxLevel: 1
@@ -243,7 +242,8 @@ Mage:
           
         - traits: 
 
-          - name: ''
+          - name: ConjureShield
+            maxLevel: 1
 
           - name: ''
 
@@ -260,10 +260,10 @@ Mage:
           - name: Drain
             maxLevel: 1
 
-          - name: Asper
+          - name: RiftSlash
             maxLevel: 1
 
-          - name: RiftSlash
+          - name: WizardStance
             maxLevel: 1
 
           - name: ImbueEnergy
@@ -277,11 +277,11 @@ Mage:
             maxLevel: 5
             requires: Drain
 
-          - name: AsperSlash
-            maxLevel: 5
-            requires: Asper
+          - name: Asper
+            maxLevel: 1
 
           - name: ''
+
           - name: ''
 
           - name: FindFamiliarSalamander
@@ -291,9 +291,13 @@ Mage:
           - name: LightenArmor
             maxLevel: 1
 
+          - name: AsperSlash
+            maxLevel: 5
+            requires: Asper
+            
           - name: ''
+
           - name: StrongMind
             maxLevel: 5
 
-          - name: ''
           - name: ''
