@@ -131,3 +131,14 @@ RecentlyImmobilized:
     duration: 5
     extra:
       unique: true
+
+RecentlyFeared:
+  tooltip:
+    icon: 'screaming'
+    color: '#000'
+    desc: 'You were recently feared.'
+  effect:
+    type: debuff
+    duration: 20
+    extra:
+      unique: true

@@ -408,7 +408,7 @@ Debilitate:
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      desc: 'Acting twice as fast.'
+      desc: 'All attacks count as backstabs.'
     effect:
       type: debuff
       duration: 15
@@ -422,6 +422,54 @@ Debilitate:
       castMessage: 'You cast Debilitate on %target.'
       applyMessage: 'You see daggers in every corner of your eyes!'
       unapplyMessage: 'Your paranoia fades.'
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'clickToTarget'
+
+Fear:
+
+  # global info
+  all:
+    desc: "Make your target run away from you. Cost: 50 MP"
+    icon: "screaming"
+    color: "#a00"
+
+  # spell cast info
+  spell: 
+    mpCost: 50
+    maxSkillForGain: 15
+    skillMultiplierChanges:
+      - [0,  1]
+      - [11, 1]
+      - [21, 1]
+      - [41, 2]
+
+    spellMeta:
+      doesOvertime: true
+      canBeResisted: true
+
+  # effect info (tooltip, duration, messages)
+  effect:
+    tooltip:
+      desc: 'Fleeing in terror.'
+    effect:
+      type: debuff
+      duration: 10
+      extra:
+        canRemove: true
+        unique: true
+    effectMeta:
+      recentlyRef: RecentlyFeared
+      castSfx: 'spell-debuff-magical'
+      applySfx: 'spell-debuff-magical'
+      castMessage: 'You cast Fear on %target.'
+      applyMessage: 'You are terrified!'
+      unapplyMessage: 'You gain your resolve back.'
 
   # trait info
   trait:
