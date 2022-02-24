@@ -79,6 +79,49 @@ Ragerang:
     mode: 'autoTarget'
     macro: 'art ragerang'
 
+MadDash:
+
+  # global info
+  all:
+    desc: "Dash madly at a creature in sight, attacking them and generating 30 Rage."
+    icon: fire-dash
+    color: "#f00"
+
+  # spell cast info
+  spell: 
+    damageClass: physical
+    maxSkillForGain: 15
+    mpCost: 0
+    cooldown: 30
+    potencyMultiplier: 1.25
+    skillMultiplierChanges:
+      - [0,  2]
+      - [6,  3]
+      - [11, 4]
+      - [16, 6]
+      - [21, 8]
+      - [26, 10]
+      - [31, 13]
+      - [36, 17]
+
+    spellMeta:
+      doesAttack: true
+      casterAttackMessage: 'You hit %0!'
+      casterSfx: ''
+      targetAttackMessage: '%0 hit you!'
+
+  # trait info
+  trait:
+    name: Mad Dash
+    desc: Dash madly at a creature in sight, attacking them and generating 30 Rage.
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    name: Mad Dash
+    mode: 'autoTarget'
+    macro: 'art maddash'
+
 Provoke:
 
   # global info

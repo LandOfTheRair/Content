@@ -41,10 +41,13 @@ Warrior:
         - traits: 
           - name: Ragerang
             maxLevel: 1
-            
+
           - name: ''
           - name: ''
-          - name: ''
+          
+          - name: MadDash
+            maxLevel: 1
+
           - name: ''
           
         - traits: 
