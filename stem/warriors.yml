@@ -25,6 +25,7 @@ Cleave:
 
     spellMeta:
       doesAttack: true
+      staticPotency: true
       casterAttackMessage: 'You cleave %0!'
       casterSfx: ''
       targetAttackMessage: '%0 cleaved you!'

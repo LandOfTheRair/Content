@@ -3,7 +3,7 @@ Bleeding:
   tooltip:
     icon: 'bloody-sword'
     color: '#900'
-    desc: 'You are stunned.'
+    desc: 'You are bleeding.'
   effect:
     type: debuff
     duration: 15
