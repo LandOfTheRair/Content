@@ -7,6 +7,8 @@ Bleeding:
   effect:
     type: debuff
     duration: 15
+  effectMeta:
+    effectRef: Bleeding
 
 Stunned:
   tooltip:
