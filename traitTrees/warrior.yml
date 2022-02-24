@@ -39,7 +39,9 @@ Warrior:
           - name: ''
           
         - traits: 
-          - name: ''
+          - name: Ragerang
+            maxLevel: 1
+            
           - name: ''
           - name: ''
           - name: ''

@@ -39,6 +39,46 @@ Cleave:
     mode: 'autoTarget'
     macro: 'art cleave'
 
+Ragerang:
+
+  # global info
+  all:
+    desc: "Throw your weapon at current target for massive damage. Cost: 10 Rage"
+    icon: boomerang-cross
+    color: "#f00"
+
+  # spell cast info
+  spell: 
+    damageClass: physical
+    maxSkillForGain: 15
+    mpCost: 10
+    potencyMultiplier: 1.25
+    skillMultiplierChanges:
+      - [0,  4]
+      - [6,  6]
+      - [11, 8]
+      - [16, 14]
+      - [21, 18]
+      - [26, 25]
+      - [31, 30]
+      - [36, 40]
+
+    spellMeta:
+      doesAttack: true
+      casterAttackMessage: 'You hit %0!'
+      casterSfx: ''
+      targetAttackMessage: '%0 hit you!'
+
+  # trait info
+  trait:
+    desc: Throw your weapon at a target, consuming 10 Rage and dealing massive damage.
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'autoTarget'
+    macro: 'art ragerang'
+
 Provoke:
 
   # global info
