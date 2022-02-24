@@ -169,7 +169,7 @@ BalancedGrip:
 
 DeepCuts:
   name: Deep Cuts
-  desc: Your cleaves cut deep, and bleed the target for an additional $5$% of your cleave damage over 15 seconds.
+  desc: Your cleaves cut deep, and have a 10% chance to bleed the target for an additional $5$% of your cleave damage over 15 seconds.
   icon: bloody-sword
   valuePerTier: 0.05
 
