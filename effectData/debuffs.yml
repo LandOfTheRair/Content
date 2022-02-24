@@ -1,4 +1,13 @@
 
+Bleeding:
+  tooltip:
+    icon: 'bloody-sword'
+    color: '#900'
+    desc: 'You are stunned.'
+  effect:
+    type: debuff
+    duration: 15
+
 Stunned:
   tooltip:
     icon: 'knockout'

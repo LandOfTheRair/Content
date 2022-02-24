@@ -167,6 +167,12 @@ BalancedGrip:
   desc: Use any one-handed weapon in your offhand.
   icon: switch-weapon
 
+DeepCuts:
+  name: Deep Cuts
+  desc: Your cleaves cut deep, and bleed the target for an additional $5$% of your cleave damage over 15 seconds.
+  icon: bloody-sword
+  valuePerTier: 0.05
+
 MaceSpecialty:
   name: Mace Specialty
   desc: Your advanced mastery of maces grants you an additional mace skill level.

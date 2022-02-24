@@ -39,10 +39,14 @@ Warrior:
           - name: ''
           
         - traits: 
+
+          - name: DeepCuts
+            maxLevel: 5
+            requires: Cleave
+
           - name: Ragerang
             maxLevel: 1
 
-          - name: ''
           - name: ''
           
           - name: MadDash
