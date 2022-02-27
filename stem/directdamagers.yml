@@ -18,13 +18,13 @@ Afflict:
     bonusRollsMax: 3
     skillMultiplierChanges:
       - [0,  1]
-      - [6,  1.75]
-      - [11, 2.5]
-      - [16, 4]
-      - [21, 6]
-      - [26, 9]
-      - [31, 12]
-      - [36, 15]
+      - [6,  3]
+      - [11, 5]
+      - [16, 8]
+      - [21, 12]
+      - [26, 16]
+      - [31, 22]
+      - [36, 28]
 
     spellMeta:
       doesAttack: true
