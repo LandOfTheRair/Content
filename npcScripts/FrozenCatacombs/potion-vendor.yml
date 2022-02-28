@@ -24,8 +24,8 @@ behaviors:
       - item: Instant Heal Bottle
       - item: Instant Heal Bottle (5oz)
       - item: EtherFire Potion
-        valueMult: 25
+        valueMult: 15
       - item: BeastRipper Potion
-        valueMult: 25
+        valueMult: 15
       - item: ScaleShredder Potion
-        valueMult: 25
+        valueMult: 15
