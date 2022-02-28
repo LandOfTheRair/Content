@@ -41,3 +41,5 @@ behaviors:
         valueMult: 25
       - item: EagleEye Ring
         valueMult: 25
+      - item: BeastRipper Potion
+        valueMult: 25
