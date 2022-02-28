@@ -51,7 +51,8 @@ Mage:
           - name: EnergyWave
             maxLevel: 1
 
-          - name: ''
+          - name: Teleport
+            maxLevel: 1
 
           - name: WandSpecialty
             maxLevel: 5
@@ -68,8 +69,7 @@ Mage:
             
           - name: ''
 
-          - name: Teleport
-            maxLevel: 1
+          - name: ''
           
         - traits: 
 
