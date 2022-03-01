@@ -30,4 +30,8 @@ behaviors:
       - item: Antanian Bottle of Water
       - item: Antanian Pint of Water
       - item: Empty Bottle
+      - item: Weak BarNecro Potion
+      - item: Weak BarFire Potion
+      - item: Weak BarWater Potion
+      - item: Weak BarFrost Potion
       - item: Succor Ring
