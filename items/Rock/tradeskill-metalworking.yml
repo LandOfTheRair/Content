@@ -11,6 +11,32 @@
   desc: "copper ore"
   ounces: 5
   value: 500
+  
+# Orikalcum ore
+- name: Orikalcum Ore (Small)
+  sprite: 1049
+  desc: "shimmering pink ore"
+  ounces: 1
+  value: 10000
+
+- name: Orikalcum Ore (Large)
+  sprite: 1050
+  desc: "shimmering pink ore"
+  ounces: 5
+  value: 50000
+  
+# Soronite ore
+- name: Soronite Ore (Small)
+  sprite: 1047
+  desc: "glowing blue ore"
+  ounces: 1
+  value: 10000
+
+- name: Soronite Ore (Large)
+  sprite: 1048
+  desc: "glowing blue ore"
+  ounces: 5
+  value: 50000
 
 # Copper ingot
 - name: Copper Ingot (Pillars)

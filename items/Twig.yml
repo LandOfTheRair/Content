@@ -44,3 +44,13 @@
   sprite: 1008
   desc: "an oddly-shaped branch taken from a Risan tree"
   value: 25
+
+- name: Orikurnis Twig
+  sprite: 1052
+  desc: "a vibrant purple twig taken from an Orikurnis tree"
+  value: 25000
+
+- name: Solokar Twig
+  sprite: 1051
+  desc: "an strangely deep-hued blue tweet taken from a Solokar tree"
+  value: 25000

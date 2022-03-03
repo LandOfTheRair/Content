@@ -1,0 +1,21 @@
+
+tag: Solokar Exit Warper
+hostility: Never
+affiliation: Expert Navigator
+
+hp:
+  min: 10000
+  max: 10000
+
+level: 15
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Risan Royal Spear
+    armor: Antanian Tunic
+
+behaviors:
+  - type: exitwarper

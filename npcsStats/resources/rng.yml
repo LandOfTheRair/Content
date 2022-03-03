@@ -1,0 +1,377 @@
+
+
+- npcId: Basic Orikalcum Vein
+  name: orikalcum vein
+  hostility: OnHit
+  allegiance: NaturalResource
+  sprite: 1845
+  alignment: Neutral
+  stats: 1
+  skillLevels: 1
+  level: 1
+
+  skillOnKill: 1
+
+  gold:
+    min: 0
+    max: 0
+
+  hp:
+    min: 6
+    max: 10
+
+  giveXp:
+    min: 100
+    max: 150
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
+
+  items:
+    equipment:
+      armor: Orikalcum Ore (Small)
+
+  dropPool:
+    replace: true
+    choose:
+      min: 1
+      max: 3
+    items:
+      - result: Orikalcum Ore (Small)
+        chance: 20
+      - result: Orikalcum Ore (Large)
+        chance: 1
+
+- npcId: Rich Orikalcum Vein
+  name: rich orikalcum vein
+  hostility: OnHit
+  allegiance: NaturalResource
+  sprite: 1845
+  alignment: Neutral
+  stats: 1
+  skillLevels: 1
+  level: 1
+
+  skillOnKill: 1
+
+  gold:
+    min: 0
+    max: 0
+
+  hp:
+    min: 10
+    max: 15
+
+  giveXp:
+    min: 100
+    max: 150
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
+
+  items:
+    equipment:
+      armor: Orikalcum Ore (Large)
+
+  dropPool:
+    replace: true
+    choose:
+      min: 2
+      max: 3
+    items:
+      - result: Orikalcum Ore (Small)
+        chance: 5
+      - result: Orikalcum Ore (Large)
+        chance: 1
+
+  drops:
+    - result: Orikalcum Ore (Large)
+      chance: -1
+
+- npcId: Basic Soronite Vein
+  name: soronite vein
+  hostility: OnHit
+  allegiance: NaturalResource
+  sprite: 1845
+  alignment: Neutral
+  stats: 1
+  skillLevels: 1
+  level: 1
+
+  skillOnKill: 1
+
+  gold:
+    min: 0
+    max: 0
+
+  hp:
+    min: 6
+    max: 10
+
+  giveXp:
+    min: 100
+    max: 150
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
+
+  items:
+    equipment:
+      armor: Soronite Ore (Small)
+
+  dropPool:
+    replace: true
+    choose:
+      min: 1
+      max: 3
+    items:
+      - result: Soronite Ore (Small)
+        chance: 20
+      - result: Soronite Ore (Large)
+        chance: 1
+
+- npcId: Rich Soronite Vein
+  name: rich soronite vein
+  hostility: OnHit
+  allegiance: NaturalResource
+  sprite: 1845
+  alignment: Neutral
+  stats: 1
+  skillLevels: 1
+  level: 1
+
+  skillOnKill: 1
+
+  gold:
+    min: 0
+    max: 0
+
+  hp:
+    min: 10
+    max: 15
+
+  giveXp:
+    min: 100
+    max: 150
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
+
+  items:
+    equipment:
+      armor: Soronite Ore (Large)
+
+  dropPool:
+    replace: true
+    choose:
+      min: 2
+      max: 3
+    items:
+      - result: Soronite Ore (Small)
+        chance: 5
+      - result: Soronite Ore (Large)
+        chance: 1
+
+  drops:
+    - result: Soronite Ore (Large)
+      chance: -1
+
+- npcId: Small Orikurnis Dying Tree
+  name: ori tree
+  hostility: OnHit
+  allegiance: NaturalResource
+  sprite: 1865
+  alignment: Neutral
+  stats: 1
+  skillLevels: 1
+  level: 1
+
+  skillOnKill: 1
+
+  gold:
+    min: 0
+    max: 0
+
+  hp:
+    min: 6
+    max: 10
+
+  giveXp:
+    min: 100
+    max: 150
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
+
+  items:
+    equipment:
+      armor: Orikurnis Twig
+
+  drops:
+    - result: Orikurnis Twig
+      chance: -1
+
+  dropPool:
+    replace: true
+    choose:
+      min: 1
+      max: 3
+    items:
+      - result: Orikurnis Twig
+        chance: 1
+
+- npcId: Large Orikurnis Dying Tree
+  name: large ori tree
+  hostility: OnHit
+  allegiance: NaturalResource
+  sprite: 1870
+  alignment: Neutral
+  stats: 1
+  skillLevels: 1
+  level: 1
+
+  skillOnKill: 1
+
+  gold:
+    min: 0
+    max: 0
+
+  hp:
+    min: 10
+    max: 15
+
+  giveXp:
+    min: 100
+    max: 150
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
+
+  items:
+    equipment:
+      armor: Orikurnis Twig
+
+  drops:
+    - result: Orikurnis Twig
+      chance: -1
+
+  dropPool:
+    replace: true
+    choose:
+      min: 2
+      max: 3
+    items:
+      - result: Orikurnis Twig
+        chance: 1
+
+- npcId: Small Solokar Dying Tree
+  name: sol tree
+  hostility: OnHit
+  allegiance: NaturalResource
+  sprite: 1865
+  alignment: Neutral
+  stats: 1
+  skillLevels: 1
+  level: 1
+
+  skillOnKill: 1
+
+  gold:
+    min: 0
+    max: 0
+
+  hp:
+    min: 6
+    max: 10
+
+  giveXp:
+    min: 100
+    max: 150
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
+
+  items:
+    equipment:
+      armor: Solokar Twig
+
+  drops:
+    - result: Solokar Twig
+      chance: -1
+
+  dropPool:
+    replace: true
+    choose:
+      min: 1
+      max: 3
+    items:
+      - result: Solokar Twig
+        chance: 1
+
+- npcId: Large Solokar Dying Tree
+  name: large sol tree
+  hostility: OnHit
+  allegiance: NaturalResource
+  sprite: 1870
+  alignment: Neutral
+  stats: 1
+  skillLevels: 1
+  level: 1
+
+  skillOnKill: 1
+
+  gold:
+    min: 0
+    max: 0
+
+  hp:
+    min: 10
+    max: 15
+
+  giveXp:
+    min: 100
+    max: 150
+
+  baseEffects:
+    - name: Attribute
+      extra:
+        potency: 0
+        damageType: 'magical'
+
+  items:
+    equipment:
+      armor: Solokar Twig
+
+  drops:
+    - result: Solokar Twig
+      chance: -1
+
+  dropPool:
+    replace: true
+    choose:
+      min: 2
+      max: 3
+    items:
+      - result: Solokar Twig
+        chance: 1

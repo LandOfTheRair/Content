@@ -491,6 +491,151 @@ configs:
         - quantity: [4, 5, 6, 7, 8, 9]
           decor: [*plantDead]
 
+npcs:
+  identifier: &npcIndentifier
+    name: ''
+    gid: 3154
+    props:
+      tag: Identifier
+
+  smith: &npcSmith
+    name: Smith
+    gid: 2639
+    props:
+      tag: Smith
+      costPerThousand: 2
+      repairsUpToCondition: 60000
+
+  trainerHealer: &npcTrainerHealer
+    name: ''
+    gid: 3129
+    props:
+      tag: Trainer Healer
+      maxLevelUpLevel: 50
+      maxSkillTrain: 30
+
+  trainerMage: &npcTrainerMage
+    name: ''
+    gid: 3124
+    props:
+      tag: Trainer Mage
+      maxLevelUpLevel: 50
+      maxSkillTrain: 30
+
+  trainerWarrior: &npcTrainerWarrior
+    name: ''
+    gid: 3119
+    props:
+      tag: Trainer Warrior
+      maxLevelUpLevel: 50
+      maxSkillTrain: 30
+
+  trainerThief: &npcTrainerThief
+    name: ''
+    gid: 3139
+    props:
+      tag: Trainer Thief
+      maxLevelUpLevel: 50
+      maxSkillTrain: 30
+
+  smallTanner: &npcSmallTanner
+    name: ''
+    gid: 3174
+    props:
+      tag: Tanner
+      maxTanLevel: 30
+
+  largeTanner: &npcLargeTanner
+    name: ''
+    gid: 3174
+    props:
+      tag: Tanner
+      maxTanLevel: 50
+
+  smallBradley: &npcSmallBradley
+    name: Darwin
+    gid: 3559
+    props:
+      tag: Solokar Small Bradley
+
+  largeBradley: &npcLargeBradley
+    name: Darwin
+    gid: 3559
+    props:
+      tag: Solokar Large Bradley
+
+  detecter: &npcDetecter
+    name: Detecter
+    gid: 3099
+    props:
+      tag: Solokar Detecter
+
+  warper: &npcWarper
+    name: Warper
+    gid: 3479
+    props:
+      tag: Solokar Exit Warper
+
+resources:
+
+  # ores
+  copperBasic: &resourceCopperBasic
+    id: Basic Copper Vein
+    
+  copperRich: &resourceCopperRich
+    id: Rich Copper Vein
+
+  silverBasic: &resourceSilverBasic
+    id: Basic Silver Vein
+
+  silverRich: &resourceSilverRich
+    id: Rich Silver Vein
+
+  goldBasic: &resourceGoldBasic
+    id: Basic Gold Vein
+
+  goldRich: &resourceGoldRich
+    id: Rich Gold Vein
+
+  # special ores
+  orikalcumBasic: &resourceOrikalcumBasic
+    id: Basic Orikalcum Vein
+
+  orikalcumRich: &resourceOrikalcumRich
+    id: Rich Orikalcum Vein
+
+  soroniteBasic: &resourceSoroniteBasic
+    id: Basic Soronite Vein
+
+  soroniteRich: &resourceSoroniteRich
+    id: Rich Soronite Vein
+
+  # trees
+  treeAntanianSmall: &resourceTreeAntanianSmall
+    id: Small Antanian Dying Tree
+
+  treeAntanianLarge: &resourceTreeAntanianLarge
+    id: Large Antanian Dying Tree
+
+  treeRisanSmall: &resourceTreeRisanSmall
+    id: Small Risan Dying Tree
+
+  treeRisanLarge: &resourceTreeRisanLarge
+    id: Large Risan Dying Tree
+
+  # special trees
+  treeOrikurnisSmall: &resourceTreeOrikurnisSmall
+    id: Small Orikurnis Dying Tree
+    
+  treeOrikurnisLarge: &resourceTreeOrikurnisLarge
+    id: Large Orikurnis Dying Tree
+
+  treeSolokarSmall: &resourceTreeSolokarSmall
+    id: Small Solokar Dying Tree
+
+  treeSolokarLarge: &resourceTreeSolokarLarge
+    id: Large Solokar Dying Tree
+
 # dungeon configs
 dungeonConfigs:
   - name: 'Solokar'
@@ -509,6 +654,12 @@ dungeonConfigs:
         teleportTagMap: 'Frostlands'
         teleportTag: 'SolokarExitStairs'
         teleportTagRef: 'SolokarInsideStairs'
+    npcProps:
+      validNPCs: [*npcIndentifier, *npcSmith, *npcTrainerHealer, *npcTrainerMage, *npcTrainerWarrior, *npcTrainerThief, *npcLargeTanner, *npcLargeBradley, *npcDetecter, *npcWarper]
+      npcCounts: [3, 5, 7]
+    resourceProps:
+      validOre: [*resourceCopperBasic, *resourceCopperRich, *resourceSilverBasic, *resourceSilverRich, *resourceGoldBasic, *resourceGoldRich, *resourceSoroniteBasic, *resourceSoroniteRich]
+      validTrees: [*resourceTreeAntanianSmall, *resourceTreeAntanianLarge, *resourceTreeRisanSmall, *resourceTreeRisanLarge, *resourceTreeSolokarSmall, *resourceTreeSolokarLarge]
         
   - name: 'Orikurnis'
     mapProps:
@@ -526,3 +677,9 @@ dungeonConfigs:
         teleportTagMap: 'RisanMines'
         teleportTag: 'OrikurnisExitStairs'
         teleportTagRef: 'OrikurnisInsideStairs'
+    npcProps:
+      validNPCs: [*npcIndentifier, *npcSmith, *npcTrainerHealer, *npcTrainerMage, *npcTrainerWarrior, *npcTrainerThief, *npcSmallTanner, *npcSmallBradley, *npcDetecter, *npcWarper]
+      npcCounts: [2, 4, 6]
+    resourceProps:
+      validOre: [*resourceCopperBasic, *resourceSilverBasic, *resourceGoldBasic, *resourceOrikalcumBasic, *resourceOrikalcumRich]
+      validTrees: [*resourceTreeAntanianSmall, *resourceTreeRisanSmall, *resourceTreeOrikurnisSmall, *resourceTreeOrikurnisLarge]

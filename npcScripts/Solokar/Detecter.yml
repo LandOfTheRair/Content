@@ -1,0 +1,35 @@
+
+tag: Solokar Detecter
+name: Visionary
+hostility: Never
+affiliation: Master Seer
+
+hp:
+  min: 1000000
+  max: 1000000
+
+level: 50
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    armor: Antanian Tunic
+
+dialog:
+  keyword:
+    hello:
+      actions:
+        - type: giveEffect
+          effect: TrueSight
+          duration: 3600
+
+        - type: chat
+          maxDistance: 2
+          message: >
+            Enjoy the seer's magic!
+
+          options:
+            - text: Awesome, thanks
+              action: noop

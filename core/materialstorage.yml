@@ -51,6 +51,16 @@ slots:
     sprite: 950
     withdrawInOunces: true
 
+  OrikalcumOre:
+    items: [Orikalcum Ore (Small), Orikalcum Ore (Large)]
+    sprite: 1049
+    withdrawInOunces: true
+
+  SoroniteOre:
+    items: [Soronite Ore (Small), Soronite Ore (Large)]
+    sprite: 1047
+    withdrawInOunces: true
+
   # Twigs
   AntanianTwig:
     items: [Antanian Twig]
@@ -71,6 +81,14 @@ slots:
   RisanTwigFrozen:
     items: [Risan Frozen Twig]
     sprite: 283
+
+  OrikurnisTwig:
+    items: [Orikurnis Twig]
+    sprite: 1052
+
+  SolokarTwig:
+    items: [Solokar Twig]
+    sprite: 1051
 
   # Scales
   EtherScale:
@@ -98,8 +116,9 @@ slots:
 layouts:
   - category: Raw Materials
     items: [
-      CopperOre, SilverOre, GoldOre, EnosDust, null,
-      AntanianTwig, AntanianBranch, RisanTwig, RisanBranch, RisanTwigFrozen
+      CopperOre, SilverOre, GoldOre, OrikalcumOre, SoroniteOre,
+      AntanianTwig, AntanianBranch, RisanTwig, RisanBranch, RisanTwigFrozen,
+      OrikurnisTwig, SolokarTwig, EnosDust, null, null
     ]
 
   - category: Flowers
