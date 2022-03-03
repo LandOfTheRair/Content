@@ -30,6 +30,14 @@ decor:
   water:          &decorWater       [2275, 2276, 2277, 2278, 2279, 2280]
   oil:            &decorOil         [2281, 2282, 2283, 2284, 2285, 2286]
   blood:          &decorBlood       [2287, 2288, 2289, 2290, 2291]
+  weapons:        &decorWeapons     [1533, 1534, 1535, 1536]
+  armor:          &decorArmor       [1537, 1538, 1539, 1540]
+  hay:            &decorHay         [1521, 1522, 1523, 1524]
+  nest:           &decorNest        [1804, 1805, 1806, 1807, 1808]
+  egg:            &decorEgg         [1823, 1810, 1811, 1812, 1813]
+  plantIndoor:    &plantIndoor      [1613, 1615, 1617, 1619, 1802, 1803]
+  plantOutdoor:   &plantOutdoor     [2268, 2269, 2271, 2272]
+  plantDead:      &plantDead        [1614, 1614, 1616, 1618, 1620, 2267, 2270]
   directional:    &decorDirectional [1501, 1502, 1503, 1504, 1505, 1506, 1507, 1508, 1509, 1510, 1511, 1512, 1513, 1514, 1515, 1516, 1521, 1522, 1523, 1524, 1529, 1530, 1531, 1532, 1533, 1534, 1535, 1536, 1537, 1538, 1539, 1540, 1541, 1542, 1543, 1544, 1601, 1602, 1603, 1604]
   
   town:           &decorTown        [*decorFurrug, *decorBed, *decorBarrel, *decorFurniture, *decorDirectional]
@@ -415,6 +423,73 @@ configs:
       decors:
         - quantity: [4, 5, 6, 7, 8, 9, 10]
           decor: [*decorGrave]
+
+    - name: Armory
+      allowCustomFloor: true
+      customFloors: [*floorWood, *floorDarktile, *floorNicetile, *floorCobblestone]
+      decors:
+        - quantity: [5, 6, 7, 8]
+          decor: [*decorWeapons]
+
+        - quantity: [5, 6, 7, 8]
+          decor: [*decorArmor]
+
+    - name: Nest
+      allowCustomFloor: true
+      customFloors: [*floorSwamp, *floorGrassair]
+      decors:
+        - quantity: [5, 6, 7, 8]
+          decor: [*decorNest]
+
+        - quantity: [1, 3, 5]
+          decor: [*decorHay]
+
+    - name: Nest w/ eggs
+      allowCustomFloor: true
+      customFloors: [*floorSwamp, *floorGrassair]
+      decors:
+        - quantity: [5, 6, 7, 8]
+          decor: [*decorNest]
+
+        - quantity: [1, 3, 5]
+          decor: [*decorHay]
+
+        - quantity: [1, 3, 5]
+          decor: [*decorEgg]
+
+    - name: Botany Chamber
+      allowCustomFloor: true
+      customFloors: [*floorSwamp, *floorGrassair, *floorWood, *floorDarktile, *floorNicetile, *floorCobblestone]
+      decors:
+        - quantity: [5, 6, 7, 8]
+          decor: [*plantIndoor]
+
+    - name: Botany Chamber (outside)
+      allowCustomFloor: true
+      customFloors: [*floorSwamp, *floorGrassair]
+      decors:
+        - quantity: [1, 2, 3, 4]
+          decor: [*plantIndoor]
+          
+        - quantity: [4, 5, 6, 7, 8]
+          decor: [*plantOutdoor]
+
+    - name: Botany Chamber (outside, dead)
+      allowCustomFloor: true
+      customFloors: [*floorSwamp, *floorGrassair]
+      decors:
+        - quantity: [1, 2, 3, 4]
+          decor: [*plantDead]
+          
+        - quantity: [4, 5, 6, 7, 8]
+          decor: [*plantOutdoor]
+
+    - name: Botany Chamber (outside, only dead)
+      allowCustomFloor: true
+      customFloors: [*floorSwamp, *floorGrassair]
+      decors:
+        - quantity: [4, 5, 6, 7, 8, 9]
+          decor: [*plantDead]
 
 # dungeon configs
 dungeonConfigs:
