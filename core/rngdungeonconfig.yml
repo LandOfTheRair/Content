@@ -1,0 +1,453 @@
+
+# layer configs
+fluids:
+  water: &fluidWater
+    spriteStart: 384
+
+  darkwater: &fluidDarkwater
+    spriteStart: 768
+
+  lava: &fluidLava
+    spriteStart: 432
+
+# foliage configs
+foliage:
+  apple:          &foliageApple     [1998, 1999, 2000, 2001, 2002, 2003]
+  fall:           &foliageFall      [2004, 2005, 2006, 2007, 2012, 2013, 2014, 2015, 2016, 2017, 2018]
+  dead:           &foliageDead      [2133, 2134, 2135, 2136, 2137, 2138, 2139, 2140, 2172, 2173, 2174, 2175, 2177, 2178, 2179, 2180, 2146, 2147, 2148, 2149, 2150, 2151, 2152, 2153, 2159, 2160, 2161, 2162, 2163, 2164, 2166, 2167]
+  evergreen:      &foliageEvergreen [2169, 2170, 2171, 2141, 2142, 2144, 2145, 2181, 2182, 2183, 2184, 2155, 2156, 2157, 2158, 2168]
+
+# decor configs
+decor:
+  furrug:         &decorFurrug      [1701, 1702, 1703, 1704, 1705, 1706, 1707, 1708, 1709, 1710, 1711, 1712]
+  bed:            &decorBed         [1729, 1730, 1731, 1732, 1733, 1734, 1735, 1736, 1737, 1738, 1739, 1740, 1725, 1726, 1727, 1728, 1517, 1518, 1519, 1520]
+  pillar:         &decorPillar      [2259, 2260, 2261, 2210]
+  grave:          &decorGrave       [1761, 1762, 1763, 1764, 1765, 1766, 1767, 1768, 1769, 1770, 1771, 1772, 1773, 1774, 1775, 1776, 1796, 1797, 1798, 1799, 1800, 1801]
+  fountain:       &decorFountain    [2226, 2227, 2228, 2229]
+  barrel:         &decorBarrel      [2374, 2375, 2206]
+  misc:           &decorMisc        [1613, 1614, 1615, 1616, 2211, 2212, 2213, 2214, 2215, 2209, 2223, 2224, 2105, 1840, 1841, 1842, 1843, 1844, 1845, 1846, 1847, 1848, 2207, 2208, 2203, 1838, 1839, 1849, 1850, 1851, 1852, 1853, 1854, 1855]
+  furniture:      &decorFurniture   [1581, 1582, 1583, 1584, 1585, 1586, 1587, 1588, 1589, 1590, 1591, 1592, 1593, 1594, 1595, 1596, 1597, 1598, 1599, 1600]
+  water:          &decorWater       [2275, 2276, 2277, 2278, 2279, 2280]
+  oil:            &decorOil         [2281, 2282, 2283, 2284, 2285, 2286]
+  blood:          &decorBlood       [2287, 2288, 2289, 2290, 2291]
+  directional:    &decorDirectional [1501, 1502, 1503, 1504, 1505, 1506, 1507, 1508, 1509, 1510, 1511, 1512, 1513, 1514, 1515, 1516, 1521, 1522, 1523, 1524, 1529, 1530, 1531, 1532, 1533, 1534, 1535, 1536, 1537, 1538, 1539, 1540, 1541, 1542, 1543, 1544, 1601, 1602, 1603, 1604]
+  
+  town:           &decorTown        [*decorFurrug, *decorBed, *decorBarrel, *decorFurniture, *decorDirectional]
+  all:            &decorAll         [*decorFurrug, *decorBed, *decorGrave, *decorFountain, *decorBarrel, *decorMisc, *decorFurniture, *decorWater, *decorOil, *decorBlood, *decorDirectional]
+
+# floor config
+floors:
+  darktile: &floorDarktile   
+    spriteStart: 0
+    allowFluids: true
+    fluids: [*fluidWater, *fluidDarkwater, *fluidLava]
+    decor: [*decorTown] 
+
+  sand: &floorSand
+    spriteStart: 48
+    allowFluids: true
+    fluids: [*fluidWater, *fluidLava]
+    decor: [*decorOil, *decorBlood, *decorWater, *decorBarrel]
+
+  nicetile: &floorNicetile
+    spriteStart: 96
+    allowFluids: true
+    fluids: [*fluidWater, *fluidDarkwater, *fluidLava]
+    decor: [*decorTown]
+
+  wood: &floorWood
+    spriteStart: 144
+    decor: [*decorTown]
+  
+  mist: &floorMist
+    spriteStart: 288
+    decor: []
+
+  grassair: &floorGrassair
+    spriteStart: 576
+    flipLR: true
+    allowFluids: true
+    fluids: [*fluidWater, *fluidDarkwater]
+    allowTrees: true
+    trees: [*foliageApple, *foliageFall, *foliageDead, *foliageEvergreen]
+    decor: [*decorGrave, *decorMisc, *decorDirectional]
+
+  cobblestone: &floorCobblestone 
+    spriteStart: 672
+    allowFluids: true
+    fluids: [*fluidWater, *fluidLava]
+    decor: [*decorTown]
+
+  snow: &floorSnow
+    spriteStart: 720
+    allowFluids: true
+    fluids: [*fluidDarkwater]
+    allowTrees: true
+    trees: [*foliageDead, *foliageEvergreen]
+    decor: [*decorGrave, *decorMisc, *decorDirectional]
+
+  flowergrass: &floorFlowergrass
+    spriteStart: 816
+    allowFluids: true
+    fluids: [*fluidWater, *fluidDarkwater]
+    allowTrees: true
+    trees: [*foliageApple]
+    decor: [*decorMisc]
+
+  deepgrass: &floorDeepgrass  
+    spriteStart: 864
+    allowFluids: true
+    fluids: [*fluidWater, *fluidDarkwater]
+    decor: [*decorMisc]
+
+  swamp: &floorSwamp
+    spriteStart: 912
+    allowFluids: true
+    fluids: [*fluidWater, *fluidDarkwater]
+    allowTrees: true
+    trees: [*foliageDead, *foliageEvergreen]
+    decor: [*decorGrave, *decorMisc, *decorDirectional]
+
+# wall config
+walls:
+  ether:  &wallEther
+    spriteStart: 0
+    allowDoors: true
+    doorStart: 8
+    allowHiddenWalls: true
+
+  undead: &wallUndead
+    spriteStart: 16
+    allowDoors: true
+    doorStart: 10
+    allowHiddenWalls: true
+
+  cave: &wallCave
+    spriteStart: 48
+    allowDoors: true
+    doorStart: 12
+    allowHiddenWalls: true
+    allowEmptyWalls: true
+
+  stone: &wallStone 
+    spriteStart: 64
+    allowDoors: true
+    doorStart: 14
+    allowHiddenWalls: true
+
+  goldstone: &wallGoldstone
+    spriteStart: 80
+    allowDoors: true
+    doorStart: 16
+
+  town: &wallTown
+    spriteStart: 96
+    allowDoors: true
+    doorStart: 18
+    allowHiddenWalls: true
+
+  nicetown: &wallNicetown
+    spriteStart: 160
+    allowDoors: true
+    doorStart: 24
+    allowHiddenWalls: true
+
+  nicetownwhite: &wallNicetownwhite
+    spriteStart: 176
+    allowDoors: true
+    doorStart: 26
+
+  nicestone: &wallNicestone
+    spriteStart: 192
+    allowDoors: true
+    doorStart: 28
+
+  tent: &wallTent
+    spriteStart: 208
+    allowDoors: true
+    doorStart: 6
+    
+  vibrant: &wallVibrant
+    spriteStart: 224
+    allowEmptyWalls: true
+
+  icestone: &wallIcestone
+    spriteStart: 272
+    allowEmptyWalls: true
+
+  tree: &wallTree
+    spriteStart: 288
+    allowEmptyWalls: true
+
+  library: &wallLibrary 
+    spriteStart: 320
+
+  goldcave: &wallGoldcave
+    spriteStart: 336
+    allowDoors: true
+    doorStart: 30
+    allowHiddenWalls: true
+
+configs:
+
+  themes:
+    basictown:        { floor: *floorWood,        wall: *wallTown }
+    basictown2:       { floor: *floorWood,        wall: *wallNicetown }
+    basictown3:       { floor: *floorWood,        wall: *wallNicetownwhite }
+    
+    cobbletown:       { floor: *floorCobblestone, wall: *wallTown }
+    cobbletown2:      { floor: *floorCobblestone, wall: *wallNicetown }
+    cobbletown3:      { floor: *floorCobblestone, wall: *wallNicetownwhite }
+    
+    darkcobbletown:   { floor: *floorDarktile,    wall: *wallTown }
+    darkcobbletown2:  { floor: *floorDarktile,    wall: *wallNicetown }
+    darkcobbletown3:  { floor: *floorDarktile,    wall: *wallNicetownwhite }
+
+    dungeon:          { floor: *floorNicetile,    wall: *wallStone }
+    dungeon2:         { floor: *floorNicetile,    wall: *wallGoldstone }
+    dungeon3:         { floor: *floorNicetile,    wall: *wallIcestone }
+    dungeon4:         { floor: *floorDarktile,    wall: *wallStone }
+    dungeon5:         { floor: *floorDarktile,    wall: *wallGoldstone }
+    dungeon6:         { floor: *floorDarktile,    wall: *wallIcestone }
+    dungeon7:         { floor: *floorCobblestone, wall: *wallStone }
+    dungeon8:         { floor: *floorCobblestone, wall: *wallGoldstone }
+    dungeon9:         { floor: *floorCobblestone, wall: *wallIcestone }
+    dungeon10:        { floor: *floorNicetile,    wall: *wallEther }
+    dungeon11:        { floor: *floorNicetile,    wall: *wallGoldcave }
+
+    undeadtown:       { floor: *floorDarktile,    wall: *wallUndead }
+    undeadtown2:      { floor: *floorNicetile,    wall: *wallUndead }
+
+    desert:           { floor: *floorSand,        wall: *wallUndead }
+    deserttree:       { floor: *floorSand,        wall: *wallTree }
+    deserttown:       { floor: *floorSand,        wall: *wallTown }
+    deserttown2:      { floor: *floorSand,        wall: *wallNicestone }
+    deserttent:       { floor: *floorSand,        wall: *wallTent }
+
+    forest:           { floor: *floorGrassair,    wall: *wallTree }
+    forest2:          { floor: *floorGrassair,    wall: *wallCave }
+    forest3:          { floor: *floorGrassair,    wall: *wallStone }
+
+    forest4:          { floor: *floorSwamp,       wall: *wallTree }
+    forest5:          { floor: *floorSwamp,       wall: *wallCave }
+    forest6:          { floor: *floorSwamp,       wall: *wallStone }
+
+    forest7:          { floor: *floorFlowergrass, wall: *wallTree }
+    forest8:          { floor: *floorFlowergrass, wall: *wallCave }
+    forest9:          { floor: *floorFlowergrass, wall: *wallStone }
+
+    forest10:         { floor: *floorDeepgrass,   wall: *wallTree }
+    forest11:         { floor: *floorDeepgrass,   wall: *wallCave }
+    forest12:         { floor: *floorDeepgrass,   wall: *wallStone }
+
+    mountain:         { floor: *floorSnow,        wall: *wallTree }
+    mountain2:        { floor: *floorSnow,        wall: *wallCave }
+    mountain3:        { floor: *floorSnow,        wall: *wallStone }
+    mountain4:        { floor: *floorSnow,        wall: *wallIcestone }
+
+    library:          { floor: *floorWood,        wall: *wallLibrary }
+
+    vibrant:          { floor: *floorNicetile,    wall: *wallVibrant }
+    vibrant2:         { floor: *floorMist,        wall: *wallVibrant }  
+
+  mapGen:
+    - name: 'Digger Maze'
+      algo: 'Digger'
+      algoArgs: [100, 100, { roomWidth: [5, 10], roomHeight: [5, 10], corridorLength: [3, 10],   dugPercentage: 0.35 }]
+      iterations: 1
+      doors: true
+
+    - name: 'Digger Maze, More Rooms'
+      algo: 'Digger'
+      algoArgs: [100, 100, { roomWidth: [3, 7], roomHeight: [3, 7], corridorLength: [6, 15], dugPercentage: 0.5 }]
+      iterations: 1
+      doors: true
+
+    - name: 'Uniform Maze'
+      algo: 'Uniform'
+      algoArgs: [100, 100, { roomWidth: [4, 7], roomHeight: [4, 7], roomDugPercentage: 0.7 }]
+      iterations: 1
+      doors: true
+
+    - name: 'Cavelike, Open'
+      algo: 'Cellular'
+      algoArgs: [100, 100, { connected: true }]
+      randomize: 0.4
+      iterations: 1
+      connect: true
+
+    - name: 'Cavelike, Organic Dug-In'
+      algo: 'Cellular'
+      algoArgs: [100, 100, { connected: true }]
+      randomize: 0.6
+      iterations: 1
+      connect: true
+
+    - name: 'Cavelike, Cavernous'
+      algo: 'Cellular'
+      algoArgs: [100, 100, { connected: true, born: [4, 5, 6, 7, 8], survive: [2, 3, 4, 5] }]
+      randomize: 0.7
+      iterations: 1
+      connect: true
+
+    - name: 'Cavelike, Cavernous, Open'
+      algo: 'Cellular'
+      algoArgs: [100, 100, { connected: true, born: [4, 5, 6, 7, 8], survive: [2, 3, 4, 5] }]
+      randomize: 0.8
+      iterations: 1
+      connect: true
+
+    - name: 'Cavelike, Cavernous, Wide Open'
+      algo: 'Cellular'
+      algoArgs: [100, 100, { connected: true, born: [2, 4, 6, 8], survive: [2, 4, 6] }]
+      randomize: 0.9
+      iterations: 3
+      connect: true
+
+    - name: 'Cavelike, Cavernous, Super Wide Open'
+      algo: 'Cellular'
+      algoArgs: [100, 100, { connected: true, born: [4, 5, 6, 7, 8], survive: [1, 2, 3, 4, 5] }]
+      randomize: 0.9
+      iterations: 50
+      connect: true
+
+  # these are supposed to generate 110x110
+  fluidGen:
+    - name: '(Wet) Uniform Maze'
+      algo: 'Uniform'
+      algoArgs: [110, 110, { roomWidth: [3, 4], roomHeight: [3, 4], corridorLength: [3, 8], roomDugPercentage: 0.3 }]
+      
+    - name: '(Wet) Cavelike, Cavernous, Open'
+      algo: 'Cellular'
+      algoArgs: [110, 110, { born: [4, 5, 6, 7, 8], survive: [3, 4, 5] }]
+      randomize: 0.3
+      invert: true
+
+  roomDecor:
+    - name: Bedroom
+      decors:
+        - quantity: [1, 2]
+          decor: [*decorBed]
+
+        - quantity: [1, 2]
+          decor: [*decorFurniture]
+
+        - quantity: [1, 2]
+          decor: [*decorFurrug]
+
+    - name: Barracks
+      decors:
+        - quantity: [7, 8, 9, 10]
+          decor: [*decorBed]
+    
+    - name: Barracks w/ extra
+      decors:
+        - quantity: [4, 5, 6]
+          decor: [*decorBed]
+
+        - quantity: [4, 5, 6]
+          decor: [*decorFurrug, *decorFurniture]
+
+    - name: Misc
+      decors:
+        - quantity: [4, 5, 6, 7, 8, 9, 10]
+          decor: [*decorMisc]
+
+    - name: Lounge
+      allowCustomFloor: true
+      customFloors: [*floorWood, *floorDarktile, *floorNicetile, *floorCobblestone]
+      decors:
+        - quantity: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+          decor: [*decorFurniture, *decorFurrug]
+
+    - name: Storage
+      decors:
+        - quantity: [4, 5, 6, 7, 8, 9, 10]
+          decor: [*decorBarrel]
+
+    - name: Bloody Storage
+      decors:
+        - quantity: [4, 5, 6, 7, 8, 9, 10]
+          decor: [*decorBarrel]
+          
+        - quantity: [1, 2, 3, 4, 5]
+          decor: [*decorBlood]
+
+    - name: Wet Storage
+      decors:
+        - quantity: [4, 5, 6, 7, 8, 9, 10]
+          decor: [*decorBarrel]
+          
+        - quantity: [1, 2, 3, 4, 5]
+          decor: [*decorWater]
+
+    - name: Oil Storage
+      decors:
+        - quantity: [4, 5, 6, 7, 8, 9, 10]
+          decor: [*decorBarrel]
+          
+        - quantity: [1, 2, 3, 4, 5]
+          decor: [*decorOil]
+
+    - name: Struggle
+      decors:
+        - quantity: [5, 6, 7, 8, 9, 10]
+          decor: [*decorBlood]
+
+    - name: Spill
+      decors:
+        - quantity: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+          decor: [*decorWater]
+
+    - name: Oil
+      decors:
+        - quantity: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+          decor: [*decorOil]
+
+    - name: Utilities
+      decors:
+        - quantity: [4, 5, 6, 7, 8, 9, 10]
+          decor: [*decorDirectional]
+
+    - name: Graves
+      allowCustomFloor: true
+      customFloors: [*floorSwamp, *floorGrassair]
+      decors:
+        - quantity: [4, 5, 6, 7, 8, 9, 10]
+          decor: [*decorGrave]
+
+# dungeon configs
+dungeonConfigs:
+  - name: 'Solokar'
+    mapProps:
+      map: Frostlands
+      x: 174
+      y: 224
+      blockEntryMessage: The maze is currently shifting... try again soon!
+    objProps:
+      entry:
+        teleportTagRef: 'SolokarLanding-'
+      exit:
+        teleportTagMap: 'Frostlands'
+        teleportTag: 'SolokarExit-'
+      stairs:
+        teleportTagMap: 'Frostlands'
+        teleportTag: 'SolokarExitStairs'
+        teleportTagRef: 'SolokarInsideStairs'
+        
+  - name: 'Orikurnis'
+    mapProps:
+      map: RisanMines
+      x: 87
+      y: 109
+      blockEntryMessage: The caves are currently shifting... try again soon!
+    objProps:
+      entry:
+        teleportTagRef: 'OrikurnisLanding-'
+      exit:
+        teleportTagMap: 'RisanMines'
+        teleportTag: 'OrikurnisExit-'
+      stairs:
+        teleportTagMap: 'RisanMines'
+        teleportTag: 'OrikurnisExitStairs'
+        teleportTagRef: 'OrikurnisInsideStairs'

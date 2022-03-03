@@ -142,6 +142,23 @@ EtherManipulation:
     unapplyMessage: 'The ether here is less powerful.'
     effectRef: EtherManipulation
 
+AethericForce:
+  tooltip:
+    icon: 'vortex'
+    color: '#f0f'
+    desc: 'Any items dropped by this character will be transported outside the ether. Also, this creature will be forcibly removed if they remain too long.'
+  effect:
+    type: debuff
+    duration: 20
+    extra:
+      doesTick: true
+      unique: true
+      persistThroughDeath: true
+  effectMeta:
+    applyMessage: 'You enter an area dense with ether!'
+    unapplyMessage: 'You breathe a breath of fresh air.'
+    effectRef: AethericForce
+
 Newbie:
   tooltip:
     icon: 'person'

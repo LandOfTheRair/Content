@@ -5,3 +5,6 @@ __assets
 *.tiled-*
 maps/custom
 mods
+maps/solokartest
+maps/generated
+maps/Solokar.json
