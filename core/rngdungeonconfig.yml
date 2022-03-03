@@ -49,27 +49,34 @@ floors:
     spriteStart: 0
     allowFluids: true
     fluids: [*fluidWater, *fluidDarkwater, *fluidLava]
-    decor: [*decorTown] 
+    decor: [*decorTown]
+    placeOre: true
 
   sand: &floorSand
     spriteStart: 48
     allowFluids: true
     fluids: [*fluidWater, *fluidLava]
     decor: [*decorOil, *decorBlood, *decorWater, *decorBarrel]
+    placeOre: true
+    placeTwigs: true
 
   nicetile: &floorNicetile
     spriteStart: 96
     allowFluids: true
     fluids: [*fluidWater, *fluidDarkwater, *fluidLava]
     decor: [*decorTown]
+    placeOre: true
 
   wood: &floorWood
     spriteStart: 144
     decor: [*decorTown]
+    placeOre: true
   
   mist: &floorMist
     spriteStart: 288
     decor: []
+    placeOre: true
+    placeTwigs: true
 
   grassair: &floorGrassair
     spriteStart: 576
@@ -79,12 +86,14 @@ floors:
     allowTrees: true
     trees: [*foliageApple, *foliageFall, *foliageDead, *foliageEvergreen]
     decor: [*decorGrave, *decorMisc, *decorDirectional]
+    placeTwigs: true
 
   cobblestone: &floorCobblestone 
     spriteStart: 672
     allowFluids: true
     fluids: [*fluidWater, *fluidLava]
     decor: [*decorTown]
+    placeOre: true
 
   snow: &floorSnow
     spriteStart: 720
@@ -93,6 +102,8 @@ floors:
     allowTrees: true
     trees: [*foliageDead, *foliageEvergreen]
     decor: [*decorGrave, *decorMisc, *decorDirectional]
+    placeTwigs: true
+    placeOre: true
 
   flowergrass: &floorFlowergrass
     spriteStart: 816
@@ -101,12 +112,14 @@ floors:
     allowTrees: true
     trees: [*foliageApple]
     decor: [*decorMisc]
+    placeTwigs: true
 
   deepgrass: &floorDeepgrass  
     spriteStart: 864
     allowFluids: true
     fluids: [*fluidWater, *fluidDarkwater]
     decor: [*decorMisc]
+    placeTwigs: true
 
   swamp: &floorSwamp
     spriteStart: 912
@@ -115,6 +128,7 @@ floors:
     allowTrees: true
     trees: [*foliageDead, *foliageEvergreen]
     decor: [*decorGrave, *decorMisc, *decorDirectional]
+    placeTwigs: true
 
 # wall config
 walls:
@@ -658,6 +672,7 @@ dungeonConfigs:
       validNPCs: [*npcIndentifier, *npcSmith, *npcTrainerHealer, *npcTrainerMage, *npcTrainerWarrior, *npcTrainerThief, *npcLargeTanner, *npcLargeBradley, *npcDetecter, *npcWarper]
       npcCounts: [3, 5, 7]
     resourceProps:
+      numResources: 70
       validOre: [*resourceCopperBasic, *resourceCopperRich, *resourceSilverBasic, *resourceSilverRich, *resourceGoldBasic, *resourceGoldRich, *resourceSoroniteBasic, *resourceSoroniteRich]
       validTrees: [*resourceTreeAntanianSmall, *resourceTreeAntanianLarge, *resourceTreeRisanSmall, *resourceTreeRisanLarge, *resourceTreeSolokarSmall, *resourceTreeSolokarLarge]
         
@@ -681,5 +696,6 @@ dungeonConfigs:
       validNPCs: [*npcIndentifier, *npcSmith, *npcTrainerHealer, *npcTrainerMage, *npcTrainerWarrior, *npcTrainerThief, *npcSmallTanner, *npcSmallBradley, *npcDetecter, *npcWarper]
       npcCounts: [2, 4, 6]
     resourceProps:
+      numResources: 50
       validOre: [*resourceCopperBasic, *resourceSilverBasic, *resourceGoldBasic, *resourceOrikalcumBasic, *resourceOrikalcumRich]
       validTrees: [*resourceTreeAntanianSmall, *resourceTreeRisanSmall, *resourceTreeOrikurnisSmall, *resourceTreeOrikurnisLarge]
