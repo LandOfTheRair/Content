@@ -1106,7 +1106,7 @@ creatures:
     guaranteedSkills: [DoubleAttack, Combust]
     guaranteedTraits: []
     weaponType: Halberd
-    armorType: Breastplate
+    armorType: Fullplate
 
   primitive giant: &npcPrimitiveGiant
     sprite: 440
@@ -1130,7 +1130,7 @@ creatures:
     monsterClass: Humanoid
     guaranteedSkills: [DoubleAttack]
     weaponType: Club
-    armorType: Breastplate
+    armorType: Fullplate
 
   giant guard: &npcGiantGuard
     sprite: 935
@@ -1173,7 +1173,7 @@ creatures:
     baseClass: Warrior
     weaponType: Sword
     offhandType: Shield
-    armorType: Breastplate
+    armorType: Fullplate
 
   rebel protector: &npcRebelProtector
     sprite: 670
@@ -1339,7 +1339,7 @@ creatures:
     monsterClass: Humanoid
     baseClass: Warrior
     weaponType: Broadsword
-    armorType: Breastplate
+    armorType: Fullplate
 
   brawler: &npcBrawler
     sprite: 320
@@ -2247,6 +2247,7 @@ creatureGroupings:
     creatures: [*npcBat, *npcHarpy, *npcSmallGriffin, *npcLargeGriffin, *npcTengu, *npcHarpy, *npcGargoyle, *npcSmallGriffin, *npcLargeGriffin]
     factions: [Enemy]
 
+# scenario configs
 scenarioConfigs:
 
   - name: Beast Kingdom
@@ -2352,12 +2353,173 @@ scenarioConfigs:
 
 # items
 items:
-  Sword:
-    sprites: [0, 1, 2]
-    type: [Weapon, Offensive] # Shield, Defensive, Armor, Accessory, etc
   
 
 # item configs
+itemConfigs:
+  Amulet:
+    sprites: [1, 2, 3, 231, 318, 319, 343, 344, 345, 346, 347, 348, 360, 489, 490, 491, 492, 493]
+    type: [Jewelry, Metal]
+
+  Arrow:
+    sprites: [202, 203, 291, 210]
+    type: [Weapon, Offensive, Ranged]
+
+  Axe:
+    sprites: [159, 165, 451]
+    type: [Weapon, Offensive, Sharp, OneHanded, Metal]
+
+  Boots:
+    sprites: [15, 94, 95, 96, 232, 287, 288, 335, 369, 370, 371, 372, 392, 510, 512, 513]
+    type: [Armor, Weapon, Offensive, Cloth, Metal]
+
+  Bracers:
+    sprites: [4, 5, 6, 7, 118, 119, 234, 284, 289]
+    type: [Armor, Defensive, Cloth]
+
+  Breastplate:
+    sprites: [14, 137, 138, 139, 148, 210]
+    type: [Armor, Defensive, Metal]
+
+  Broadsword:
+    sprites: [166, 350, 351, 424, 426, 428]
+    type: [Weapon, Offensive, Sharp, OneHanded, Metal]
+
+  Claws:
+    sprites: [294, 362, 395, 461, 463, 465]
+    type: [Weapon, Armor, Offensive, Sharp, Metal]
+
+  Cloak:
+    sprites: [16, 99, 100, 105, 211, 220, 279, 321]
+    type: [Armor, Defensive, Cloth]
+
+  Club:
+    sprites: [52, 238, 452]
+    type: [Weapon, Offensive, Blunt, Wood, OneHanded]
+
+  Crossbow:
+    sprites: [201]
+    type: [Weapon, Offensive, Ranged, Wood, OneHanded]
+
+  Dagger:
+    sprites: [205, 216, 305, 306, 332, 333, 379, 411, 412, 414, 415, 417, 418]
+    type: [Weapon, Offensive, Sharp, Metal, OneHanded]
+
+  Earring:
+    sprites: [393]
+    type: [Jewelry, Metal]
+
+  Flail:
+    sprites: [53, 169, 228, 349]
+    type: [Weapon, Offensive, Blunt, OneHanded, Metal]
+
+  Fullplate:
+    sprites: [383, 525, 528, 530, 534, 538]
+    type: [Armor, Defensive, Metal]
+
+  Fur:
+    sprites: [8, 19, 101, 102, 217, 218, 219, 275, 276, 278, 285, 286, 290, 296, 297, 352, 358]
+    type: [Armor, Defensive, Tanned]
+
+  Gem:
+    sprites: [58, 59, 60, 61, 62, 63, 213, 242, 243, 244, 245, 246, 247, 310, 311, 312, 313, 314, 415]
+    type: [Gem]
+
+  Gloves:
+    sprites: [233, 462, 464]
+    type: [Armor, Offensive, Cloth]
+
+  Greataxe:
+    sprites: [301, 437, 453, 454, 455, 954]
+    type: [Weapon, Offensive, Sharp, TwoHanded]
+
+  Greatmace:
+    sprites: [324, 325, 523]
+    type: [Weapon, Offensive, Blunt, TwoHanded]
+
+  Greatsword:
+    sprites: [143, 198, 308, 323, 365, 431, 435]
+    type: [Weapon, Offensive, Sharp, TwoHanded]
+
+  Halberd:
+    sprites: [135, 161, 164, 230, 436, 438, 440]
+    type: [Weapon, Offensive, Sharp, TwoHanded]
+
+  Hammer:
+    sprites: [226, 272, 292, 448]
+    type: [Weapon, Offensive, Blunt, OneHanded]
+
+  Hat:
+    sprites: [20, 21, 274]
+    type: [Armor, Defensive, Cloth]
+
+  Helm:
+    sprites: [22, 23, 146, 235, 336, 374, 375, 466]
+    type: [Armor, Defensive, Metal]
+
+  Longbow:
+    sprites: [167, 200, 295, 441, 442, 443, 444, 445]
+    type: [Weapon, Offensive, Ranged, Wood, TwoHanded]
+
+  Longsword:
+    sprites: [163, 197, 225, 227, 307, 316, 317, 423, 429]
+    type: [Weapon, Offensive, OneHanded, Sharp, Metal]
+
+  Mace:
+    sprites: [168, 204, 522]
+    type: [Weapon, Offensive, OneHanded, Blunt, Metal]
+
+  Ring:
+    sprites: [25, 26, 27, 28, 29, 30, 56, 121, 122, 123, 124, 125, 215, 239, 240, 241, 248, 249, 266, 267, 495, 496, 497, 498]
+    type: [Jewelry, Metal]
+
+  Robe:
+    sprites: [12, 17, 18, 98, 103, 104, 277, 342, 376, 380, 400, 477, 478, 488]
+    type: [Armor, Defensive, Cloth]
+
+  Sash:
+    sprites: [236, 282, 293, 356, 388, 471, 473, 475]
+    type: [Armor, Defensive, Cloth]
+
+  Saucer:
+    sprites: [309, 328]
+    type: [Armor, Defensive, Metal]
+
+  Scaleplate:
+    sprites: [13, 269, 270, 273, 302, 322, 526, 531, 535, 539, 955]
+    type: [Armor, Defensive, Metal]
+
+  Shield:
+    sprites: [309, 327, 328, 329, 330, 514, 515, 516, 517, 518]
+    type: [Armor, Weapon, Defensive, Metal, Wood]
+
+  Shortbow:
+    sprites: [199, 390]
+    type: [Weapon, Offensive, Ranged, Wood, OneHanded]
+
+  Shortsword:
+    sprites: [162, 195, 305, 416, 419, 420, 421, 422]
+    type: [Weapon, Defensive, Sharp, OneHanded, Metal]
+
+  Spear:
+    sprites: [144, 147, 160, 237, 280, 326, 405, 439]
+    type: [Weapon, Offensive, Sharp, OneHanded, Metal]
+
+  Staff:
+    sprites: [126, 196, 268, 326, 456, 457, 460]
+    type: [Weapon, Defensive, Blunt, TwoHanded]
+
+  Totem:
+    sprites: [196, 326, 439, 457, 459, 460]
+    type: [Weapon, Defensive, Blunt, TwoHanded]
+
+  Tunic:
+    sprites: [9, 10, 11, 97, 206, 207, 208, 209, 271, 331]
+    type: [Armor, Defensive, Cloth, Metal]
+
+  Wand:
+    sprites: [196, 268, 280, 281, 456]
+    type: [Weapon, Defensive, Metal]
 
 # dungeon configs
 dungeonConfigs:
@@ -2396,6 +2558,8 @@ dungeonConfigs:
       bonusCreatureSkillChoices: 2
       bonusCreatureTraitChoices: 2
       eliteTickCap: 20
+    itemProps:
+      baseTier: 7
         
   - name: 'Orikurnis'
     mapProps:
@@ -2432,3 +2596,5 @@ dungeonConfigs:
       bonusCreatureSkillChoices: 1
       bonusCreatureTraitChoices: 1
       eliteTickCap: 40
+    itemProps:
+      baseTier: 4
