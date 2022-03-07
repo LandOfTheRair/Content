@@ -31,7 +31,7 @@ const merge = async () => {
       }
 
       const promises = itemsOfType.map(itemData => {
-        itemData.itemClass = itemClassRoot;
+        itemData.itemClass = itemData.itemClass || itemClassRoot;
         fillInProperties(itemData, itemClassRoot);
         if(!validateItem(itemData)) throw new Error(`${itemData.name} failed validation.`);
         

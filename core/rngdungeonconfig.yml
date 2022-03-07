@@ -210,6 +210,7 @@ walls:
     doorStart: 30
     allowHiddenWalls: true
 
+# various theme etc configs
 configs:
 
   themes:
@@ -505,6 +506,7 @@ configs:
         - quantity: [4, 5, 6, 7, 8, 9]
           decor: [*plantDead]
 
+# npc configs
 npcs:
   identifier: &npcIndentifier
     name: ''
@@ -590,6 +592,7 @@ npcs:
     props:
       tag: Solokar Exit Warper
 
+# resource configs
 resources:
 
   # ores
@@ -650,6 +653,1712 @@ resources:
   treeSolokarLarge: &resourceTreeSolokarLarge
     id: Large Solokar Dying Tree
 
+# creature configs
+creatures:
+
+  # Beasts
+  big yeti: &npcBigYeti
+    sprite: 475
+    name: big yeti
+    isLegendary: true
+    monsterClass: Beast
+    baseClass: Warrior
+    weaponType: Club
+    armorType: Fur
+    statChanges: 
+      str: 2
+      physicalResist: 50
+      magicalResist: 50
+    guaranteedSkills: [Cleave, ShredOnePercent]
+    guaranteedTraits: [SilverSkin]
+
+  bear: &npcBear
+    sprite: 210
+    name: bear
+    armorType: Fur
+    monsterClass: Beast
+
+  wolf: &npcWolf
+    sprite: 215
+    name: wolf
+    armorType: Fur
+    monsterClass: Beast
+
+  small yeti: &npcSmallYeti
+    sprite: 220
+    name: small yeti
+    weaponType: Club
+    armorType: Fur
+    monsterClass: Beast
+
+  roc: &npcRoc
+    sprite: 370
+    name: roc
+    armorType: Fur
+    monsterClass: Beast
+
+  moose: &npcMoose
+    sprite: 470
+    name: moose
+    armorType: Fur
+    monsterClass: Beast
+
+  cougar: &npcCougar
+    sprite: 265
+    name: cougar
+    armorType: Fur
+    monsterClass: Beast
+
+  skinwolf: &npcSkinwolf
+    sprite: 405
+    name: skinwolf
+    monsterClass: Beast
+
+  stalker: &npcStalker
+    sprite: 775
+    name: stalker
+    armorType: Fur
+    monsterClass: Beast
+
+  baboon: &npcBaboon
+    sprite: 780
+    name: baboon
+    armorType: Fur
+    monsterClass: Beast
+
+  reindeer: &npcReindeer
+    sprite: 1030
+    name: reindeer
+    armorType: Fur
+    monsterClass: Beast
+
+  deer: &npcDeer
+    sprite: 205
+    name: deer
+    armorType: Fur
+    monsterClass: Beast
+
+  # Dragons
+  ancient dragon: &npcBigRedDragon
+    sprite: 240
+    name: ancient dragon
+    isLegendary: true
+    monsterClass: Dragon
+    baseClass: Mage
+    armorType: Scaleplate
+    statChanges: 
+      int: 2
+      physicalResist: 100
+      magicalResist: 100
+    guaranteedSkills: [FireMist]
+    guaranteedTraits: [FireMistWiden]
+
+  gold dragon: &npcGoldDragon
+    sprite: 245
+    name: gold dragon
+    monsterClass: Dragon
+    armorType: Scaleplate
+    statChanges: 
+      wis: 2
+      physicalResist: 50
+      magicalResist: 50
+    guaranteedSkills: [HolyFire]
+    guaranteedTraits: []
+
+  black dragon: &npcBlackDragon
+    sprite: 250
+    name: black dragon
+    monsterClass: Dragon
+    armorType: Scaleplate
+    statChanges: 
+      int: 2
+      physicalResist: 50
+      magicalResist: 50
+    guaranteedSkills: [MagicBolt]
+    guaranteedTraits: [ConcussiveBolt]
+
+  silver dragon: &npcSilverDragon
+    sprite: 255
+    name: silver dragon
+    monsterClass: Dragon
+    armorType: Scaleplate
+    statChanges: 
+      int: 2
+      physicalResist: 50
+      magicalResist: 50
+    guaranteedSkills: [IceMist]
+    guaranteedTraits: [IceMistWiden]
+
+  red dragon: &npcSmallRedDragon
+    sprite: 235
+    name: red dragon
+    monsterClass: Dragon
+    armorType: Scaleplate
+    statChanges: 
+      int: 2
+      physicalResist: 50
+      magicalResist: 50
+    guaranteedSkills: [FireMist]
+    guaranteedTraits: []
+
+  green dragon: &npcGreenDragon
+    sprite: 260
+    name: green dragon
+    monsterClass: Dragon
+    armorType: Scaleplate
+    statChanges: 
+      wis: 2
+      physicalResist: 50
+      magicalResist: 50
+    guaranteedSkills: [Afflict]
+    guaranteedTraits: []
+
+  # Scaly
+  basilisk: &npcBasilisk
+    sprite: 500
+    name: basilisk
+    isLegendary: true
+    baseClass: Thief
+    armorType: Scaleplate
+    statChanges: 
+      wis: 2
+      physicalResist: 50
+      magicalResist: 50
+    guaranteedSkills: [Stun]
+    guaranteedTraits: [IrresistibleStun]
+
+  acidsnake: &npcAcidsnake
+    sprite: 275
+    name: acidsnake
+
+  frostsnake: &npcFrostsnake
+    sprite: 270
+    name: frostsnake
+    guaranteedSkills: [ChillBiteMedium]
+
+  firesnake: &npcFiresnake
+    sprite: 230
+    name: firesnake
+    guaranteedSkills: [HeatBiteMedium]
+
+  naga: &npcNaga
+    sprite: 430
+    name: naga
+    armorType: Scaleplate
+    guaranteedSkills: [Daze]
+
+  leech: &npcLeech
+    sprite: 785
+    name: leech
+    guaranteedSkills: [Drain]
+
+  frog: &npcFrog
+    sprite: 900
+    name: frog
+    guaranteedSkills: [Poison]
+
+  remorhaz: &npcRemorhaz
+    sprite: 95
+    name: remorhaz
+    armorType: Scaleplate
+    guaranteedSkills: [Hail]
+
+  gator: &npcGator
+    sprite: 170
+    name: gator
+    statChanges:
+      str: 1
+
+  serprengi: &npcSerprengi
+    sprite: 710
+    name: serprengi
+
+  salamander: &npcSalamander
+    sprite: 385
+    name: salamander
+    guaranteedSkills: [Combust]
+
+  # Creepy
+  beholder: &npcBeholder
+    sprite: 195
+    name: beholder
+    isLegendary: true
+    baseClass: Thief
+    statChanges:
+      wis: 2
+    guaranteedSkills: [Daze, Blind]
+
+  drelb: &npcDrelb
+    sprite: 970
+    name: drelb
+
+  behir: &npcBehir
+    sprite: 910
+    name: behir
+    weaponType: Staff
+
+  beithir: &npcBeithir
+    sprite: 905
+    name: beithir
+
+  elementalist: &npcElementalist
+    sprite: 110
+    name: elementalist
+    baseClass: Mage
+
+  elemental: &npcElemental
+    sprite: 350
+    name: elemental
+    baseClass: Mage
+    guaranteedSkills: [MagicMissile]
+
+  milliblob: &npcMilliblob
+    sprite: 915
+    name: milliblob
+    baseClass: Healer
+    guaranteedSkills: [Cure]
+
+  winged umber: &npcWingedUmber
+    sprite: 980
+    name: winged umber
+    baseClass: Mage
+    weaponType: Staff
+    armorType: Fur
+
+  # Rys & Ancestor
+  medusa: &npcMedusa
+    sprite: 1040
+    name: medusa
+    isLegendary: true
+    monsterClass: Humanoid
+    baseClass: Healer
+    statChanges:
+      wis: 2
+    guaranteedSkills: [Daze, Stun]
+    guaranteedTraits: [DazingOutlook, IrresistibleStun]
+    weaponType: Mace
+    armorType: Breastplate
+
+  rys nightscout: &npcRysNightscout
+    sprite: 770
+    name: rys nightscout
+    monsterClass: Humanoid
+    baseClass: Thief
+    weaponType: Dagger
+    armorType: Tunic
+
+  rys enforcer: &npcRysEnforcer
+    sprite: 760
+    name: rys enforcer
+    monsterClass: Humanoid
+    baseClass: Warrior
+    armorType: Tunic
+
+  rys dayscout: &npcRysDayscout
+    sprite: 720
+    name: rys dayscout
+    monsterClass: Humanoid
+    baseClass: Thief
+    weaponType: Longsword
+    armorType: Tunic
+
+  rys beater: &npcRysBeater
+    sprite: 885
+    name: rys beater
+    monsterClass: Humanoid
+    baseClass: Warrior
+    armorType: Tunic
+
+  rys shooter: &npcRysShooter
+    sprite: 890
+    name: rys shooter
+    monsterClass: Humanoid
+    baseClass: Thief
+    weaponType: Shortbow
+    armorType: Tunic
+
+  rys magician: &npcRysMagician
+    sprite: 895
+    name: rys magician
+    monsterClass: Humanoid
+    baseClass: Mage
+    weaponType: Staff
+    armorType: Tunic
+
+  rys healer: &npcRysHealer
+    sprite: 870
+    name: rys healer
+    monsterClass: Humanoid
+    baseClass: Healer
+    weaponType: Staff
+    armorType: Tunic
+
+  rys spearman: &npcRysSpearman
+    sprite: 875
+    name: rys spearman
+    monsterClass: Humanoid
+    weaponType: Spear
+    armorType: Tunic
+
+  rys priest: &npcRysPriest
+    sprite: 705
+    name: rys priest
+    monsterClass: Humanoid
+    baseClass: Healer
+    weaponType: Totem
+    armorType: Tunic
+
+  rys guard: &npcRysGuard
+    sprite: 715
+    name: rys guard
+    monsterClass: Humanoid
+    baseClass: Warrior
+    weaponType: Spear
+    armorType: Breastplate
+
+  rys elder: &npcRysElder
+    sprite: 765
+    name: rys elder
+    monsterClass: Humanoid
+    armorType: Breastplate
+
+  rys trainee: &npcRysTrainee
+    sprite: 920
+    name: rys trainee
+    monsterClass: Humanoid
+    armorType: Tunic
+
+  # Creepy Crawlies
+  woodspider: &npcWoodspider
+    sprite: 790
+    name: woodspider
+    guaranteedSkills: [DedlaenSpiderImmobilize, PoisonBiteMedium]
+
+  widowmaker: &npcWidowmaker
+    sprite: 800
+    name: widowmaker
+    guaranteedSkills: [DedlaenSpiderImmobilize, DiseaseBiteMedium]
+
+  creepspider: &npcCreepspider
+    sprite: 795
+    name: creepspider
+    guaranteedSkills: [DedlaenSpiderImmobilize]
+
+  darkrat: &npcDarkrat
+    sprite: 310
+    name: darkrat
+    armorType: Fur
+    guaranteedSkills: [Darkness]
+
+  # Plants
+  flowering plant: &npcFloweringPlant
+    sprite: 840
+    name: flowering plant
+
+  carnivorous plant: &npcCarnivorousPlant
+    sprite: 845
+    name: carnivorous plant
+
+  small purple plant: &npcSmallPurplePlant
+    sprite: 850
+    name: small purple plant
+
+  large purple plant: &npcLargePurplePlant
+    sprite: 855
+    name: large purple plant
+
+  bloodstained plant: &npcBloodstainedPlant
+    sprite: 860
+    name: bloodstained plant
+
+  flourishing weed: &npcFlourishingWeed
+    sprite: 865
+    name: flourishing weed
+
+  small flytrap: &npcSmallFlytrap
+    sprite: 820
+    name: small flytrap
+
+  big flytrap: &npcBigFlytrap
+    sprite: 825
+    name: big flytrap
+
+  toxileaf: &npcToxileaf
+    sprite: 830
+    name: toxileaf
+    guaranteedSkills: [Poison]
+
+  firebush: &npcFirebush
+    sprite: 835
+    name: firebush
+    guaranteedSkills: [HeatBiteStrong]
+
+  # Giants
+  fire giant: &npcFireGiant
+    sprite: 940
+    name: fire giant
+    isLegendary: true
+    monsterClass: Humanoid
+    baseClass: Warrior
+    statChanges:
+      str: 2
+      int: 2
+    guaranteedSkills: [DoubleAttack, Combust]
+    guaranteedTraits: []
+    weaponType: Halberd
+    armorType: Breastplate
+
+  primitive giant: &npcPrimitiveGiant
+    sprite: 440
+    name: primitive giant
+    monsterClass: Humanoid
+    guaranteedSkills: [DoubleAttack]
+    weaponType: Halberd
+    armorType: Tunic
+
+  club giant: &npcClubGiant
+    sprite: 365
+    name: club giant
+    monsterClass: Humanoid
+    guaranteedSkills: [DoubleAttack]
+    weaponType: Club
+    armorType: Tunic
+
+  troglodyte: &npcTroglodyte
+    sprite: 345
+    name: troglodyte
+    monsterClass: Humanoid
+    guaranteedSkills: [DoubleAttack]
+    weaponType: Club
+    armorType: Breastplate
+
+  giant guard: &npcGiantGuard
+    sprite: 935
+    name: giant guard
+    monsterClass: Humanoid
+    baseClass: Warrior
+    statChanges:
+      str: 2
+    guaranteedSkills: [DoubleAttack]
+    weaponType: Halberd
+    armorType: Tunic
+
+  # Rebels
+  rebel leader: &npcRebelLeader
+    sprite: 485
+    name: rebel leader
+    isLegendary: true
+    monsterClass: Humanoid
+    baseClass: Thief
+    statChanges:
+      agi: 2
+    guaranteedSkills: [DoubleAttack, FindFamiliarShadowClones, Throw]
+    guaranteedTraits: [Multithrow, BoomerangArm]
+    weaponType: Dagger
+    armorType: Tunic
+
+  rebel slicer: &npcRebelSlicer
+    sprite: 635
+    name: rebel slicer
+    monsterClass: Humanoid
+    baseClass: Warrior
+    weaponType: Sword
+    offhandType: Shield
+    armorType: Breastplate
+
+  rebel slasher: &npcRebelSlasher
+    sprite: 630
+    name: rebel slasher
+    monsterClass: Humanoid
+    baseClass: Warrior
+    weaponType: Sword
+    offhandType: Shield
+    armorType: Breastplate
+
+  rebel protector: &npcRebelProtector
+    sprite: 670
+    name: rebel protector
+    monsterClass: Humanoid
+    baseClass: Warrior
+    guaranteedSkills: [Protection, Absorption]
+    weaponType: Spear
+    armorType: Tunic
+
+  rebel halberdier: &npcRebelHalberdier
+    sprite: 625
+    name: rebel halberdier
+    monsterClass: Humanoid
+    baseClass: Warrior
+    weaponType: Halberd
+    armorType: Breastplate
+
+  rebel spellspear: &npcRebelSpellspear
+    sprite: 665
+    name: rebel spellspear
+    monsterClass: Humanoid
+    baseClass: Warrior
+    guaranteedSkills: [ImbueFlame, ImbueFrost, ImbueEnergy]
+    weaponType: Spear
+    armorType: Tunic
+
+  rebel swashbuckler: &npcRebelSwashbuckler
+    sprite: 660
+    name: rebel swashbuckler
+    monsterClass: Humanoid
+    baseClass: Warrior
+    weaponType: Sword
+    offhandType: Sword
+    armorType: Breastplate
+
+  rebel smasher: &npcRebelSmasher
+    sprite: 655
+    name: rebel smasher
+    monsterClass: Humanoid
+    baseClass: Warrior
+    guaranteedSkills: [Absorption]
+    weaponType: Mage
+    offhandType: Shield
+    armorType: Breastplate
+
+  rebel hatcheteer: &npcRebelHatcheteer
+    sprite: 650
+    name: rebel hatcheteer
+    monsterClass: Humanoid
+    baseClass: Warrior
+    guaranteedSkills: [Ragerang]
+    weaponType: Axe
+    offhandType: Shield
+    armorType: Breastplate
+
+  rebel greatslasher: &npcRebelGreatslasher
+    sprite: 645
+    name: rebel greatslasher
+    monsterClass: Humanoid
+    baseClass: Warrior
+    guaranteedTraits: [TitanGrip]
+    weaponType: Greatsword
+    armorType: Breastplate
+
+  rebel duelist: &npcRebelDuelist
+    sprite: 640
+    name: rebel duelist
+    monsterClass: Humanoid
+    baseClass: Warrior
+    guaranteedSkills: [ParryStance]
+    weaponType: Sword
+    armorType: Tunic
+
+  rebel healer: &npcRebelHealer
+    sprite: 550
+    name: rebel healer
+    monsterClass: Humanoid
+    baseClass: Healer
+    guaranteedSkills: [Cure, Afflict]
+    weaponType: Totem
+    armorType: Tunic
+
+  rebel mage: &npcRebelMage
+    sprite: 545
+    name: rebel mage
+    monsterClass: Humanoid
+    baseClass: Mage
+    guaranteedSkills: [MagicMissile]
+    weaponType: Wand
+    armorType: Tunic
+
+  # Controller & Minions
+  lich: &npcLich
+    sprite: 480
+    name: lich
+    isLegendary: true
+    monsterClass: Undead
+    baseClass: Mage
+    statChanges:
+      wis: 2
+      int: 2
+    guaranteedSkills: [MagicBolt, Spellshield, Aid, MagicMirror, DarkVision, TrueSight, Protection, Absorption]
+    guaranteedTraits: []
+    weaponType: Staff
+    armorType: Tunic
+
+  monk: &npcMonk
+    sprite: 40
+    name: monk
+    monsterClass: Humanoid
+    baseClass: Warrior
+    guaranteedTraits: [UnarmoredSavant, StunningFist, MartialAgility]
+    armorType: Tunic
+
+  succubus: &npcSuccubus
+    sprite: 135
+    name: succubus
+    weaponType: Shortsword
+    armorType: Tunic
+
+  rakshasha: &npcRakshasha
+    sprite: 130
+    name: rakshasha
+    baseClass: Mage
+    guaranteedSkills: [MagicMissile]
+
+  archer: &npcArcher
+    sprite: 395
+    name: archer
+    monsterClass: Humanoid
+    baseClass: Thief
+    weaponType: Longbow
+    armorType: Tunic
+
+  shaman: &npcShaman
+    sprite: 420
+    name: shaman
+    monsterClass: Humanoid
+    baseClass: Healer
+    guaranteedSkills: [Afflict]
+    weaponType: Greatmace
+    armorType: Tunic
+
+  berserker: &npcBerserker
+    sprite: 115
+    name: berserker
+    monsterClass: Humanoid
+    guaranteedSkills: [DoubleAttack]
+    weaponType: Hammer
+    armorType: Tunic
+
+  wanderer: &npcWanderer
+    sprite: 425
+    name: wanderer
+    monsterClass: Humanoid
+    weaponType: Flail
+    armorType: Tunic
+
+  knight: &npcKnight
+    sprite: 460
+    name: knight
+    monsterClass: Humanoid
+    baseClass: Warrior
+    weaponType: Broadsword
+    armorType: Breastplate
+
+  brawler: &npcBrawler
+    sprite: 320
+    name: brawler
+    monsterClass: Humanoid
+    guaranteedSkills: [Jumpkick]
+    guaranteedTraits: [Punchkick]
+    armorType: Tunic
+
+  mutant: &npcMutant
+    sprite: 325
+    name: mutant
+    monsterClass: Undead
+
+  ninja: &npcNinja
+    sprite: 330
+    name: ninja
+    monsterClass: Humanoid
+    baseClass: Thief
+    guaranteedSkills: [Shadowmeld]
+    weaponType: Sword
+    armorType: Tunic
+
+  siren: &npcSiren
+    sprite: 180
+    name: siren
+    monsterClass: Humanoid
+    guaranteedSkills: [GhostWail]
+    weaponType: Dagger
+    armorType: Tunic
+
+  # Cavemaker & Creatures
+  cavern creator: &npcCavernCreator
+    sprite: 20
+    name: cavern creator
+    isLegendary: true
+    monsterClass: Humanoid
+    baseClass: Mage
+    statChanges:
+      int: 2
+    guaranteedSkills: [EnergyWave]
+    guaranteedTraits: []
+    weaponType: Hammer
+    armorType: Tunic
+
+  bumper: &npcBumper
+    sprite: 140
+    name: bumper
+    statChanges:
+      str: 2
+
+  xorn: &npcXorn
+    sprite: 225
+    name: xorn
+
+  mudblob: &npcMudblob
+    sprite: 390
+    name: mudblob
+    guaranteedSkills: [PoisonBiteWeak]
+
+  darkseer: &npcDarkseer
+    sprite: 105
+    name: darkseer
+    guaranteedSkills: [DarkVision, Darkness]
+
+  frogwog: &npcFrogwog
+    sprite: 380
+    name: frogwog
+    baseClass: Thief
+    guaranteedSkills: [ShadowMeld]
+    weaponType: Shortsword
+    armorType: Tunic
+
+  acidsnail: &npcAcidsnail
+    sprite: 200
+    name: acidsnail
+
+  gelatinous cube: &npcGelatinousCube
+    sprite: 280
+    name: gelatinous cube
+
+  shadowwalker: &npcShadowwalker
+    sprite: 290
+    name: shadowwalker
+    baseClass: Thief
+    guaranteedSkills: [ShadowMeld]
+
+  deepgnome: &npcDeepgnome
+    sprite: 375
+    name: deepgnome
+    monsterClass: Humanoid
+    baseClass: Thief
+    guaranteedSkills: [DarkVision, Darkness]
+
+  # Goblitaurs
+  minotaur king: &npcMinotaurKing
+    sprite: 930
+    name: minotaur king
+    isLegendary: true
+    monsterClass: Humanoid
+    baseClass: Warrior
+    statChanges:
+      str: 2
+    guaranteedSkills: [DoubleAttack]
+    guaranteedTraits: [SilverSkin, TitanGrip]
+    weaponType: Greataxe
+    armorType: Breastplate
+
+  troll: &npcTroll
+    sprite: 85
+    name: troll
+    monsterClass: Humanoid
+    weaponType: Axe
+    armorType: Breastplate
+
+  orc: &npcOrc
+    sprite: 70
+    name: orc
+    monsterClass: Humanoid
+    weaponType: Shortsword
+    armorType: Breastplate
+
+  hobgoblin: &npcHobgoblin
+    sprite: 90
+    name: hobgoblin
+    monsterClass: Humanoid
+    weaponType: Greatsword
+
+  goblin: &npcGoblin
+    sprite: 80
+    name: goblin
+    monsterClass: Humanoid
+    weaponType: Longsword
+
+  gnoll: &npcGnoll
+    sprite: 315
+    name: gnoll
+    monsterClass: Humanoid
+    weaponType: Sword
+    offhandType: Shield
+    armorType: Tunic
+
+  kobold: &npcKobold
+    sprite: 415
+    name: kobold
+    monsterClass: Humanoid
+    weaponType: Sword
+    offhandType: Sword
+
+  minotaur: &npcMinotaur
+    sprite: 445
+    name: minotaur
+    monsterClass: Humanoid
+    baseClass: Warrior
+    statChanges:
+      str: 2
+    weaponType: Greataxe
+
+  # Undead Legion
+  vampire: &npcVampire
+    sprite: 495
+    name: vampire
+    isLegendary: true
+    monsterClass: Undead
+    baseClass: Thief
+    statChanges:
+      agi: 2
+    guaranteedSkills: [SkillSuckWeak, Shadowmeld]
+    guaranteedTraits: []
+    weaponType: Crossbow
+    armorType: Tunic
+
+  mummy: &npcMummy
+    sprite: 155
+    name: mummy
+    monsterClass: Undead
+
+  skeleton: &npcSkeleton
+    sprite: 1015
+    name: skeleton
+    monsterClass: Undead
+
+  wight: &npcWight
+    sprite: 945
+    name: wight
+    monsterClass: Undead
+
+  nightwalker: &npcNightwalker
+    sprite: 975
+    name: nightwalker
+    monsterClass: Undead
+
+  fiend: &npcFiend
+    sprite: 125
+    name: fiend
+    monsterClass: Undead
+    baseClass: Thief
+
+  skeleton knight: &npcSkeletonKnight
+    sprite: 285
+    name: skeleton knight
+    monsterClass: Undead
+    baseClass: Warrior
+    statChanges:
+      str: 2
+    guaranteedSkills: [DoubleAttack]
+    guaranteedTraits: []
+    weaponType: Sword
+
+  ghost: &npcGhost
+    sprite: 300
+    name: ghost
+    monsterClass: Undead
+    baseClass: Healer
+    armorType: Tunic
+
+  ghast: &npcGhast
+    sprite: 305
+    name: ghast
+    monsterClass: Undead
+    baseClass: Mage
+
+  # Townies
+  town leader: &npcTownLeader
+    sprite: 490
+    name: town leader
+    isLegendary: true
+    monsterClass: Humanoid
+    baseClass: Mage
+    statChanges:
+      int: 2
+    guaranteedSkills: [MagicBolt]
+    guaranteedTraits: [ConcussiveBolt]
+    weaponType: Staff
+    armorType: Tunic
+
+  town banker: &npcTownBanker
+    sprite: 570
+    name: town banker
+    monsterClass: Humanoid
+    armorType: Tunic
+
+  town hitman: &npcTownHitman
+    sprite: 610
+    name: town hitman
+    monsterClass: Humanoid
+    weaponType: Dagger
+    armorType: Tunic
+
+  town alchemist: &npcTownAlchemist
+    sprite: 560
+    name: town alchemist
+    monsterClass: Humanoid
+    weaponType: Dagger
+    armorType: Tunic
+
+  town crier: &npcTownCrier
+    sprite: 600
+    name: town crier
+    monsterClass: Humanoid
+    armorType: Tunic
+
+  town merchant: &npcTownMerchant
+    sprite: 605
+    name: town merchant
+    monsterClass: Humanoid
+    weaponType: Dagger
+    armorType: Tunic
+
+  town watchman: &npcTownWatchman
+    sprite: 575
+    name: town watchman
+    monsterClass: Humanoid
+    baseClass: Warrior
+    weaponType: Spear
+    armorType: Breastplate
+
+  townee: &npcTownee
+    sprite: 580
+    name: townee
+    monsterClass: Humanoid
+    armorType: Tunic
+
+  town farmer: &npcTownFarmer
+    sprite: 615
+    name: town farmer
+    monsterClass: Humanoid
+    weaponType: Spear
+    armorType: Tunic
+
+  town drunk: &npcTownDrunk
+    sprite: 585
+    name: town drunk
+    monsterClass: Humanoid
+    armorType: Tunic
+
+  town guard: &npcTownGuard
+    sprite: 590
+    name: town guard
+    monsterClass: Humanoid
+    baseClass: Warrior
+    weaponType: Halberd
+    armorType: Breastplate
+
+  towneeWeak: &npcTowneeWeak
+    sprite: 595
+    name: townee
+    monsterClass: Humanoid
+    armorType: Tunic
+
+  town smith: &npcTownSmith
+    sprite: 5
+    name: town smith
+    monsterClass: Humanoid
+    weaponType: Hammer
+    armorType: Tunic
+
+  # Lizardfolk
+  lizard shaman: &npcLizardShaman
+    sprite: 925
+    name: lizard shaman
+    isLegendary: true
+    monsterClass: Humanoid
+    baseClass: Healer
+    statChanges:
+      wis: 2
+    guaranteedSkills: [Cure, Haste]
+    guaranteedTraits: []
+    weaponType: Totem
+    offhandType: Shield
+    armorType: Tunic
+
+  lizardman: &npcLizardman
+    sprite: 100
+    name: lizardman
+    monsterClass: Humanoid
+    weaponType: Shortsword
+    armorType: Tunic
+
+  lizard warrior: &npcLizardWarrior
+    sprite: 145
+    name: lizard warrior
+    monsterClass: Humanoid
+    weaponType: Sword
+    armorType: Tunic
+
+  earthsnake: &npcEarthsnake
+    sprite: 340
+    name: earthsnake
+    guaranteedSkills: [PoisonBiteMedium]
+
+  lizard: &npcLizard
+    sprite: 360
+    name: lizard
+    guaranteedSkills: [FireMist]
+
+  # Cyclopes
+  buff cyclops: &npcBuffCyclops
+    sprite: 150
+    name: buff cyclops
+    isLegendary: true
+    monsterClass: Humanoid
+    baseClass: Warrior
+    statChanges:
+      str: 2
+    guaranteedSkills: [DoubleAttack]
+    guaranteedTraits: []
+    weaponType: Hammer
+    armorType: Tunic
+
+  rock golem: &npcRockGolem
+    sprite: 75
+    name: rock golem
+    statChanges:
+      str: 1
+
+  meat golem: &npcMeatGolem
+    sprite: 355
+    name: meat golem
+
+  cyclops: &npcCyclops
+    sprite: 410
+    name: cyclops
+    monsterClass: Humanoid
+    statChanges:
+      str: 2
+    weaponType: Hammer
+    armorType: Tunic
+
+  muscle golem: &npcMuscleGolem
+    sprite: 450
+    name: muscle golem
+    statChanges:
+      str: 2
+
+  # Flying Terrors
+  large griffin: &npcLargeGriffin
+    sprite: 540
+    name: large griffin
+    isLegendary: true
+    monsterClass: Beast
+    baseClass: Warrior
+    statChanges:
+      str: 2
+    guaranteedSkills: [ShredOnePercent, PoisonBiteMedium]
+    guaranteedTraits: []
+    armorType: Fur
+
+  harpy: &npcHarpy
+    sprite: 295
+    name: harpy
+    monsterClass: Beast
+    guaranteedSkills: [Stun]
+    armorType: Tunic
+
+  tengu: &npcTengu
+    sprite: 335
+    name: tengu
+    armorType: Tunic
+
+  small griffin: &npcSmallGriffin
+    sprite: 435
+    name: small griffin
+    monsterClass: Beast
+    guaranteedSkills: [PoisonBiteMedium]
+    armorType: Fur
+
+  gargoyle: &npcGargoyle
+    sprite: 120
+    name: gargoyle
+
+  bat: &npcBat
+    sprite: 805
+    name: bat
+    armorType: Fur
+
+# creature attributes
+creatureAttributes:
+
+  Humanoid: []
+
+  Undead:
+    - name: Attribute
+      extra:
+        potency: 1.25
+        damageType: fire
+
+    - name: Attribute
+      extra:
+        potency: 0.75
+        damageType: physical
+        
+  Beast:
+    - name: Attribute
+      extra:
+        potency: 0.75
+        damageType: magical
+
+    - name: Attribute
+      extra:
+        potency: 1.25
+        damageType: physical
+    
+  Dragon:
+    - name: Attribute
+      extra:
+        potency: 0.5
+        damageType: magical
+
+    - name: Attribute
+      extra:
+        potency: 0.5
+        damageType: physical
+
+# creature skill configs
+creatureSkills:
+
+  Healer:
+    - name: Cure
+
+    - name: Regen
+      minLevel: 20
+
+    - name: Afflict
+      importantSpell: true
+
+    - name: HolyFire
+      importantSpell: true
+
+    - name: Push
+
+    - name: Spellshield
+
+    - name: Dispel
+      minLevel: 40
+
+    - name: Plague
+      importantSpell: true
+      
+    - name: Disease
+      importantSpell: true
+
+    - name: Daze
+
+    - name: Stun
+
+    - name: Blind
+
+    - name: Snare
+
+    - name: FindFamiliarLight
+
+    - name: FindFamiliarWater
+      minLevel: 20
+
+    - name: FindFamiliarLight
+      minLevel: 40
+
+    - name: TrueSight
+
+    - name: BarFire
+
+    - name: BarFrost
+
+    - name: BarNecro
+
+    - name: Aid
+    
+  Thief:
+    - name: Darkness
+      grants: DarkVision
+
+    - name: DarkVision
+
+    - name: TrueSight
+
+    - name: MultiShot
+
+    - name: EagleEye
+      minLevel: 20
+
+    - name: Poison
+      importantSpell: true
+
+    - name: Venom
+      importantSpell: true
+
+    - name: Shadowmeld
+      minLevel: 30
+
+    - name: FindFamiliarShadowClones
+      minLevel: 30
+
+  Warrior:
+    - name: Cleave
+      
+    - name: Multistrike
+
+    - name: Thruststrike
+
+    - name: Blindstrike
+
+    - name: RageStance
+
+    - name: ParryStance
+
+    - name: Jumpkick
+
+  Mage:
+    - name: MagicMissile
+      importantSpell: true
+      
+    - name: MagicBolt
+      importantSpell: true
+      
+    - name: EnergyWave
+      
+    - name: Push
+
+    - name: Combust
+      importantSpell: true
+
+    - name: Hail
+      importantSpell: true
+
+    - name: FireMist
+
+    - name: IceMist
+
+    - name: FirethornsAura
+      minLevel: 20
+
+    - name: FrostspikesAura
+      minLevel: 20
+
+    - name: Antipode
+      minLevel: 40
+      importantSpell: true
+
+    - name: TrueSight
+      
+    - name: BarFire
+
+    - name: BarFrost
+
+    - name: BarWater
+
+    - name: Protection
+      
+    - name: Absorption
+      
+    - name: DarkVision
+
+    - name: Darkness
+      grants: DarkVision
+
+    - name: FleetOfFoot
+      minLevel: 20
+
+    - name: Haste
+      minLevel: 30
+
+    - name: MagicMirror
+      minLevel: 30
+
+    - name: Invisibility
+      minLevel: 40
+
+    - name: VolcanoStance
+      
+    - name: GlacierStance
+
+    - name: WizardStance
+
+    - name: ImbueFlame
+    
+    - name: ImbueFrost
+
+    - name: ImbueEnergy
+
+    - name: Drain
+      minLevel: 20
+      
+    - name: Asper
+      minLevel: 30
+
+    - name: FindFamiliarBear
+
+    - name: FindFamiliarWolf
+
+    - name: FindFamiliarSpider
+      minLevel: 20
+
+    - name: FindFamiliarSalamander
+      minLevel: 30
+      
+# creature trait configs
+creatureTraits:
+
+  Healer:
+    - name: HealingFocus
+      maxLevel: 5
+      
+    - name: NecroticFocus
+      maxLevel: 5
+      
+    - name: HolyAffliction
+      maxLevel: 5
+      
+    - name: DiseaseFocus
+      maxLevel: 5
+      
+    - name: ContagiousPlague
+      maxLevel: 1
+      
+    - name: NecroticWard
+      maxLevel: 5
+      
+    - name: EffectiveSupporter
+      maxLevel: 5
+
+  Thief:
+    - name: DarkerShadows
+      maxLevel: 1
+      
+    - name: BouncingThrows
+      maxLevel: 1
+
+    - name: Multithrow
+      maxLevel: 1
+
+    - name: DarknessWiden
+      maxLevel: 1
+
+    - name: OffhandFinesse
+      maxLevel: 5
+
+    - name: GentleStep
+      maxLevel: 1
+
+    - name: BouncingArrows
+      maxLevel: 5
+
+    - name: TripleShot
+      maxLevel: 1
+
+    - name: EndlessQuiver
+      maxLevel: 5
+
+    - name: ShadowDaggers
+      maxLevel: 5
+
+    - name: ShadowSheath
+      maxLevel: 5
+
+    - name: DegenerativeVenom
+      maxLevel: 5
+
+    - name: CorrosivePoison
+      maxLevel: 5
+
+  Warrior:
+
+    - name: SharpVision
+      maxLevel: 5
+
+    - name: SwordTricks
+      maxLevel: 5
+
+    - name: FunkyMoves
+      maxLevel: 5
+
+    - name: Swashbuckler
+      maxLevel: 5
+
+    - name: ConsumingRage
+      maxLevel: 1
+
+    - name: HolyProtection
+      maxLevel: 5
+
+    - name: SilverSkin
+      maxLevel: 5
+
+    - name: SterlingArmor
+      maxLevel: 5
+
+    - name: ReflectiveCoating
+      maxLevel: 5
+
+    - name: DoubleThrust
+      maxLevel: 1
+
+    - name: OffhandFinesse
+      maxLevel: 5
+
+    - name: ForcefulStrike
+      maxLevel: 5
+
+    - name: Riposte
+      maxLevel: 5
+
+    - name: GlowingWeapon
+      maxLevel: 5
+
+    - name: ViciousAssault
+      maxLevel: 5
+
+    - name: BalancedGrip
+      maxLevel: 5
+
+    - name: TitanGrip
+      maxLevel: 5
+
+    - name: MartialAcuity
+      maxLevel: 5
+
+    - name: BrassKnuckles
+      maxLevel: 1
+
+    - name: MartialAgility
+      maxLevel: 5
+
+    - name: StrongSweep
+      maxLevel: 5
+
+    - name: StunningFist
+      maxLevel: 5
+
+  Mage:
+    - name: EnergyFocus
+      maxLevel: 5
+
+    - name: ConcussiveBolt
+      maxLevel: 5
+
+    - name: FireFocus
+      maxLevel: 5
+
+    - name: IceFocus
+      maxLevel: 5
+
+    - name: ForgedFire
+      maxLevel: 5
+
+    - name: ChilledCore
+      maxLevel: 5
+
+    - name: FireMistWiden
+      maxLevel: 1
+
+    - name: IceMistWiden
+      maxLevel: 1
+
+    - name: ThermalBarrier
+      maxLevel: 5
+
+    - name: LightenArmor
+      maxLevel: 5
+
+# creature groupings
+creatureGroupings:
+  Beasts: &groupBeasts
+    name: Beasts
+    creatures: [*npcBigYeti, *npcBear, *npcWolf, *npcSmallYeti, *npcRoc, *npcMoose, *npcMoose, *npcCougar, *npcSkinwolf, *npcStalker, *npcBaboon, *npcReindeer, *npcDeer]
+    factions: [Enemy]
+
+  Dragons: &groupDragons
+    name: Dragons
+    creatures: [*npcBigRedDragon, *npcGoldDragon, *npcBlackDragon, *npcSilverDragon, *npcSmallRedDragon, *npcGreenDragon]
+    factions: [Enemy]
+
+  Scaly Creatures: &groupScalyCreatures
+    name: Scaly Creatures
+    creatures: [*npcBasilisk, *npcAcidsnake, *npcFrostsnake, *npcFiresnake, *npcNaga, *npcLeech, *npcFrog, *npcRemorhaz, *npcGator, *npcSerprengi, *npcSalamander]
+    factions: [Enemy]
+
+  Amorphous Spookies: &groupAmorphousSpookies
+    name: Amorphous Spookies
+    creatures: [*npcBeholder, *npcDrelb, *npcBehir, *npcBeithir, *npcElementalist, *npcElemental, *npcMilliblob, *npcWingedUmber]
+    factions: [Enemy]
+
+  Rys & Ancestors: &groupRysAncestors
+    name: Rys & Ancestors
+    creatures: [*npcMedusa, *npcRysNightscout, *npcRysEnforcer, *npcRysDayscout, *npcRysBeater, *npcRysShooter, *npcRysMagician, *npcRysHealer, *npcRysSpearman, *npcRysPriest, *npcRysGuard, *npcRysElder, *npcRysTrainee]
+    factions: [Royalty, Townsfolk, Wilderness]
+
+  Creepy Crawlies: &groupCreepyCrawlies
+    name: Creepy Crawlies
+    creatures: [*npcWoodspider, *npcWidowmaker, *npcCreepspider, *npcDarkrat]
+    factions: [Enemy]
+
+  Carnivorous Fauna: &groupCarnivorousFauna
+    name: Carnivorous Fauna
+    creatures: [*npcFloweringPlant, *npcCarnivorousPlant, *npcSmallPurplePlant, *npcLargePurplePlant, *npcBloodstainedPlant, *npcFlourishingWeed, *npcSmallFlytrap, *npcBigFlytrap, *npcToxileaf, *npcFirebush]
+    factions: [Enemy]
+
+  Big Beaters: &groupBigBeaters
+    name: Big Beaters
+    creatures: [*npcFireGiant, *npcPrimitiveGiant, *npcClubGiant, *npcTroglodyte, *npcGiantGuard]
+    factions: [Underground, Enemy]
+
+  Rebels: &groupRebels
+    name: Rebels
+    creatures: [*npcRebelLeader, *npcRebelSlicer, *npcRebelProtector, *npcRebelHalberdier, *npcRebelSpellspear, *npcRebelSwashbuckler, *npcRebelSmasher, *npcRebelHatcheteer, *npcRebelGreatslasher, *npcRebelDuelist, *npcRebelHealer, *npcRebelMage]
+    factions: [Underground, Pirates, Adventurers]
+
+  Enslaved Humanoids: &groupEnslavedHumanoids
+    name: Enslaved Humanoids
+    creatures: [*npcMonk, *npcSuccubus, *npcRakshasha, *npcArcher, *npcShaman, *npcBerserker, *npcWanderer, *npcKnight, *npcBrawler, *npcMutant, *npcNinja, *npcSiren]
+    factions: [Enemy, Adventurers, Pirates, Royalty, Townsfolk, Underground, Wilderness]
+
+  Cavern Creatures: &groupCavernCreatures
+    name: Cavern Creatures
+    creatures: [*npcCavernCreator, *npcBumper, *npcXorn, *npcMudblob, *npcDarkseer, *npcFrogwog, *npcAcidsnail, *npcGelatinousCube, *npcShadowwalker, *npcDeepgnome]
+    factions: [Enemy]
+
+  Goblish Humanoids: &groupGoblishHumanoids
+    name: Goblish Humanoids
+    creatures: [*npcMinotaurKing, *npcTroll, *npcOrc, *npcHobgoblin, *npcGoblin, *npcGnoll, *npcKobold, *npcMinotaur]
+    factions: [Underground, Enemy]
+
+  Undead: &groupUndead
+    name: Undead
+    creatures: [*npcVampire, *npcMummy, *npcSkeleton, *npcWight, *npcNightwalker, *npcFiend, *npcSkeletonKnight]
+    factions: [Enemy]
+
+  Townies: &groupTownies
+    name: Townies
+    creatures: [*npcTownLeader, *npcTownBanker, *npcTownHitman, *npcTownAlchemist, *npcTownCrier, *npcTownMerchant, *npcTownWatchman, *npcTownFarmer, *npcTownDrunk, *npcTownGuard, *npcTownee, *npcTowneeWeak, *npcTownSmith]
+    factions: [Adventurers, Pirates, Royalty, Townsfolk, Underground, Wilderness]
+
+  Lizardfolk: &groupLizardfolk
+    name: Lizardfolk
+    creatures: [*npcLizardShaman, *npcLizardman, *npcLizardWarrior, *npcEarthsnake, *npcLizard]
+    factions: [Enemy]
+
+  Golem & Clops: &groupGolemClops
+    name: Golem & Clops
+    creatures: [*npcBuffCyclops, *npcRockGolem, *npcMeatGolem, *npcCyclops, *npcMuscleGolem]
+    factions: [Enemy]
+
+  Flying Terrors: &groupFlyingTerrors
+    name: Flying Terrors
+    creatures: [*npcBat, *npcHarpy, *npcSmallGriffin, *npcLargeGriffin, *npcTengu, *npcHarpy, *npcGargoyle, *npcSmallGriffin, *npcLargeGriffin]
+    factions: [Enemy]
+
+scenarioConfigs:
+
+  - name: Beast Kingdom
+    creatureSets:
+      - group: Beasts
+        options:
+          - creatures: *groupBeasts
+          - creatures: *groupFlyingTerrors
+          - creatures: *groupLizardfolk
+          - creatures: *groupDragons
+          - creatures: *groupScalyCreatures
+
+      - group: Other Beasts
+        options:
+          - creatures: *groupBeasts
+          - creatures: *groupFlyingTerrors
+          - creatures: *groupLizardfolk
+          - creatures: *groupDragons
+          - creatures: *groupScalyCreatures
+
+  - name: Town vs. Beasts
+    creatureSets:
+      - group: Town
+        options:
+          - creatures: *groupTownies
+          - creatures: *groupRysAncestors
+      - group: Beasts
+        options:
+          - creatures: *groupBeasts
+          - creatures: *groupFlyingTerrors
+          - creatures: *groupLizardfolk
+          - creatures: *groupScalyCreatures
+          - creatures: *groupCreepyCrawlies
+
+  - name: Town vs. Rebels
+    creatureSets:
+      - group: Town
+        options:
+          - creatures: *groupTownies
+          - creatures: *groupRysAncestors
+      - group: Rebels
+        options:
+          - creatures: *groupRebels
+
+  - name: Man vs. Myth
+    creatureSets:
+      - group: Man
+        options:
+          - creatures: *groupTownies
+          - creatures: *groupRebels
+      - group: Myth
+        options:
+          - creatures: *groupRysAncestors
+          - creatures: *groupGolemClops
+          - creatures: *groupGoblishHumanoids
+          - creatures: *groupBigBeaters
+
+  - name: Humans vs. Zombies
+    creatureSets:
+      - group: Humans
+        options:
+          - creatures: *groupTownies
+          - creatures: *groupRebels
+          - creatures: *groupRysAncestors
+          - creatures: *groupGoblishHumanoids
+      - group: Zombies
+        options:
+          - creatures: *groupUndead
+
+  - name: Free the Enslaved
+    creatureSets:
+      - group: Humans
+        options:
+          - creatures: *groupTownies
+          - creatures: *groupRebels
+      - group: Zombies
+        options:
+          - creatures: *groupEnslavedHumanoids
+
+  - name: Fauna vs. Zombies
+    creatureSets:
+      - group: Fauna
+        options:
+          - creatures: *groupCarnivorousFauna
+      - group: Zombies
+        options:
+          - creatures: *groupUndead
+
+  - name: Cavernous Creepers
+    creatureSets:
+      - group: Cavernous
+        options:
+          - creatures: *groupCavernCreatures
+          - creatures: *groupGolemClops
+          - creatures: *groupLizardfolk
+          - creatures: *groupGoblishHumanoids
+      - group: Other Cavernous
+        options:
+          - creatures: *groupCavernCreatures
+          - creatures: *groupGolemClops
+          - creatures: *groupLizardfolk
+          - creatures: *groupGoblishHumanoids
+
+# items
+items:
+  Sword:
+    sprites: [0, 1, 2]
+    type: [Weapon, Offensive] # Shield, Defensive, Armor, Accessory, etc
+  
+
+# item configs
+
 # dungeon configs
 dungeonConfigs:
   - name: 'Solokar'
@@ -675,6 +2384,18 @@ dungeonConfigs:
       numResources: 70
       validOre: [*resourceCopperBasic, *resourceCopperRich, *resourceSilverBasic, *resourceSilverRich, *resourceGoldBasic, *resourceGoldRich, *resourceSoroniteBasic, *resourceSoroniteRich]
       validTrees: [*resourceTreeAntanianSmall, *resourceTreeAntanianLarge, *resourceTreeRisanSmall, *resourceTreeRisanLarge, *resourceTreeSolokarSmall, *resourceTreeSolokarLarge]
+    creatureProps:
+      level: 40
+      legendaryLevel: 45
+      statScale: 3
+      baseStat: 17
+      legendaryBaseStat: 22
+      baseSkill: 8
+      legendaryBaseSkill: 10
+      creaturesPerSet: 4
+      bonusCreatureSkillChoices: 2
+      bonusCreatureTraitChoices: 2
+      eliteTickCap: 20
         
   - name: 'Orikurnis'
     mapProps:
@@ -699,3 +2420,15 @@ dungeonConfigs:
       numResources: 50
       validOre: [*resourceCopperBasic, *resourceSilverBasic, *resourceGoldBasic, *resourceOrikalcumBasic, *resourceOrikalcumRich]
       validTrees: [*resourceTreeAntanianSmall, *resourceTreeRisanSmall, *resourceTreeOrikurnisSmall, *resourceTreeOrikurnisLarge]
+    creatureProps:
+      level: 20
+      legendaryLevel: 25
+      statScale: 1
+      baseStat: 10
+      legendaryBaseStat: 15
+      creaturesPerSet: 4
+      baseSkill: 4
+      legendaryBaseSkill: 6
+      bonusCreatureSkillChoices: 1
+      bonusCreatureTraitChoices: 1
+      eliteTickCap: 40
