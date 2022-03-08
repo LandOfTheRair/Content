@@ -2528,7 +2528,7 @@ itemScenarios:
       hp: 25
       hpregen: 1
 
-  - name: The Mnetal
+  - name: The Mental
     statChanges:
       mp: 25
       mpregen: 1
