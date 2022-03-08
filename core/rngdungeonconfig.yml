@@ -2684,6 +2684,7 @@ dungeonConfigs:
       baseWeaponArmorClass: 15
       scenarioStatMultiplier: 2
       traitLevel: 2
+      tanSkillRequired: 20
         
   - name: 'Orikurnis'
     mapProps:
@@ -2729,3 +2730,4 @@ dungeonConfigs:
       baseWeaponArmorClass: 10
       scenarioStatMultiplier: 1
       traitLevel: 1
+      tanSkillRequired: 20

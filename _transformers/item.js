@@ -43,8 +43,21 @@ const merge = async () => {
   
               item.name = `${location} ${tier} ${itemData.itemClass}`;
 
-              if(tier === 'Legendary') item.quality = 5;
-              if(tier === 'Powerful') item.quality = 3;
+              if(tier === 'Legendary') {
+                item.quality = 5;
+                item.cosmetic = {
+                  name: `${location}Legendary`,
+                  isPermanent: true
+                };
+              }
+              
+              if(tier === 'Powerful') {
+                item.quality = 3;
+                item.cosmetic = {
+                  name: `${location}`,
+                  isPermanent: true
+                };
+              }
 
               fillInProperties(item, itemClassRoot);
               if(!validateItem(item)) throw new Error(`${item.name} failed validation.`);
