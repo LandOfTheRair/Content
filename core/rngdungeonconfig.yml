@@ -2685,6 +2685,7 @@ dungeonConfigs:
       scenarioStatMultiplier: 2
       traitLevel: 2
       tanSkillRequired: 20
+      numScenarios: 4
         
   - name: 'Orikurnis'
     mapProps:
@@ -2731,3 +2732,4 @@ dungeonConfigs:
       scenarioStatMultiplier: 1
       traitLevel: 1
       tanSkillRequired: 20
+      numScenarios: 2
