@@ -32,13 +32,34 @@ const merge = async () => {
 
       const promises = itemsOfType.map(itemData => {
         itemData.itemClass = itemData.itemClass || itemClassRoot;
+
+        if(itemData.name.startsWith('Generated')) {
+          const generatedItems = [];
+
+          ['Solokar', 'Orikurnis'].forEach(location => {
+            ['Basic', 'Powerful', 'Legendary'].forEach(tier => {
+              const item = JSON.parse(JSON.stringify(itemData));
+              item.desc = item.desc.split('$location$').join(location);
+  
+              item.name = `${location} ${tier} ${itemData.itemClass}`;
+
+              fillInProperties(item, itemClassRoot);
+              if(!validateItem(item)) throw new Error(`${item.name} failed validation.`);
+
+              generatedItems.push(item);
+            });
+          });
+
+          return generatedItems;
+        }
+
         fillInProperties(itemData, itemClassRoot);
         if(!validateItem(itemData)) throw new Error(`${itemData.name} failed validation.`);
         
         return itemData;
       });
 
-      return promises.flat();
+      return promises.flat(Infinity);
     }).flat();
 
     const allItemData = await Promise.all(filePromises);

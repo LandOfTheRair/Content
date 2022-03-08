@@ -2351,15 +2351,11 @@ scenarioConfigs:
           - creatures: *groupLizardfolk
           - creatures: *groupGoblishHumanoids
 
-# items
-items:
-  
-
 # item configs
 itemConfigs:
   Amulet:
     sprites: [1, 2, 3, 231, 318, 319, 343, 344, 345, 346, 347, 348, 360, 489, 490, 491, 492, 493]
-    type: [Jewelry, Metal]
+    type: [Jewelry]
 
   Arrow:
     sprites: [202, 203, 291, 210]
@@ -2407,7 +2403,7 @@ itemConfigs:
 
   Earring:
     sprites: [393]
-    type: [Jewelry, Metal]
+    type: [Jewelry]
 
   Flail:
     sprites: [53, 169, 228, 349]
@@ -2471,7 +2467,7 @@ itemConfigs:
 
   Ring:
     sprites: [25, 26, 27, 28, 29, 30, 56, 121, 122, 123, 124, 125, 215, 239, 240, 241, 248, 249, 266, 267, 495, 496, 497, 498]
-    type: [Jewelry, Metal]
+    type: [Jewelry]
 
   Robe:
     sprites: [12, 17, 18, 98, 103, 104, 277, 342, 376, 380, 400, 477, 478, 488]
@@ -2521,6 +2517,127 @@ itemConfigs:
     sprites: [196, 268, 280, 281, 456]
     type: [Weapon, Defensive, Metal]
 
+# items scenarios
+itemScenarios:
+  - name: The Metal
+    statChanges:
+      armorClass: 2
+
+  - name: The Healthy
+    statChanges:
+      hp: 25
+      hpregen: 1
+
+  - name: The Mnetal
+    statChanges:
+      mp: 25
+      mpregen: 1
+      
+  - name: The Lucky
+    statChanges:
+      luk: 1
+      
+  - name: The Body
+    statChanges:
+      str: 1
+      agi: 1
+      hpregen: 2
+
+  - name: The Mind
+    statChanges:
+      int: 1
+      wis: 1
+      mpregen: 2
+
+  - name: The Hawk
+    statChanges:
+      agi: 1
+      dex: 1
+      accuracy: 1
+
+  - name: The Accurate
+    statChanges:
+      accuracy: 3
+
+  - name: The Defensive
+    statChanges:
+      defense: 2
+      threatMultiplier: 0.03
+
+  - name: The Offensive
+    statChanges:
+      offense: 2
+      threatMultiplier: -0.03
+
+  - name: The Resistant
+    statChanges:
+      savingThrow: 1
+
+  - name: The Shadows
+    statChanges:
+      stealth: 2
+      agi: 1
+
+  - name: The Experienced
+    statChanges:
+      xpBonusPercent: 0.05
+
+  - name: The Skilled
+    statChanges:
+      skillBonusPercent: 0.05
+
+  - name: The Mirror
+    statChanges:
+      physicalReflect: 5
+      magicalReflect: 5
+
+  - name: The Artful
+    statChanges:
+      mitigation: 1
+
+  - name: The Necrotic
+    statChanges:
+      necroticBoostPercent: 3
+      necroticResist: 15
+
+  - name: The Energetic
+    statChanges:
+      energyBoostPercent: 3
+      energyResist: 15
+
+  - name: The Diseased
+    statChanges:
+      diseaseBoostPercent: 3
+      diseaseResist: 15
+
+  - name: The Poisoned
+    statChanges:
+      poisonBoostPercent: 3
+      poisonResist: 15
+
+  - name: The Flaming
+    statChanges:
+      fireBoostPercent: 3
+      fireResist: 15
+
+  - name: The Frozen
+    statChanges:
+      iceBoostPercent: 3
+      iceResist: 15
+    
+  - name: The Omni
+    statChanges:
+      magicalResist: 20
+      physicalResist: 20
+    
+  - name: The Spellshield
+    statChanges:
+      magicalResist: 40
+    
+  - name: The Ironbody
+    statChanges:
+      physicalResist: 40
+
 # dungeon configs
 dungeonConfigs:
   - name: 'Solokar'
@@ -2560,6 +2677,13 @@ dungeonConfigs:
       eliteTickCap: 20
     itemProps:
       baseTier: 7
+      baseSpecificResist: 300
+      baseGeneralResist: 100
+      baseArmorClass: 40
+      baseShieldArmorClass: 30
+      baseWeaponArmorClass: 15
+      scenarioStatMultiplier: 2
+      traitLevel: 2
         
   - name: 'Orikurnis'
     mapProps:
@@ -2598,3 +2722,10 @@ dungeonConfigs:
       eliteTickCap: 40
     itemProps:
       baseTier: 4
+      baseSpecificResist: 100
+      baseGeneralResist: 30
+      baseArmorClass: 25
+      baseShieldArmorClass: 20
+      baseWeaponArmorClass: 10
+      scenarioStatMultiplier: 1
+      traitLevel: 1
