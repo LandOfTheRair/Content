@@ -2686,6 +2686,7 @@ dungeonConfigs:
       traitLevel: 2
       tanSkillRequired: 20
       numScenarios: 4
+      mapDropItems: 16
         
   - name: 'Orikurnis'
     mapProps:
@@ -2733,3 +2734,4 @@ dungeonConfigs:
       traitLevel: 1
       tanSkillRequired: 20
       numScenarios: 2
+      mapDropItems: 16
