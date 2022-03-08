@@ -96,12 +96,6 @@
   desc: "a fur created out of the twisting ether from $location$"
   value: 1
   
-- name: Generated Gem
-  itemClass: Gem
-  sprite: 0
-  desc: "a gem created out of the twisting ether from $location$"
-  value: 1
-  
 - name: Generated Gloves
   itemClass: Gloves
   sprite: 0
