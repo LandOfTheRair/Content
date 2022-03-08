@@ -3,7 +3,7 @@
 - name: Generated Amulet
   itemClass: Amulet
   sprite: 0
-  desc: "an"
+  desc: "a"
   value: 1
   
 - name: Generated Arrow
@@ -15,7 +15,7 @@
 - name: Generated Axe
   itemClass: Axe
   sprite: 0
-  desc: "an"
+  desc: "a"
   value: 1
   
 - name: Generated Boots
