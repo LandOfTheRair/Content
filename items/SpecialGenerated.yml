@@ -31,7 +31,7 @@
   value: 1
   
 - name: Generated Breastplate
-  itemClass: Bracers
+  itemClass: Breastplate
   sprite: 0
   desc: "a breastplate created out of the twisting ether from $location$"
   value: 1
