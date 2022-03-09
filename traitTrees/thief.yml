@@ -13,7 +13,7 @@ Thief:
             maxLevel: 1
 
           - name: DarkerShadows
-            maxLevel: 1
+            maxLevel: 5
 
           - name: ImprovedHide
             maxLevel: 1
