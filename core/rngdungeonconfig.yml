@@ -2395,7 +2395,7 @@ itemConfigs:
     type: [Weapon, Offensive, Blunt, Wood, OneHanded]
 
   Crossbow:
-    sprites: [201]
+    sprites: [201, 1053, 1054]
     type: [Weapon, Offensive, Ranged, Wood, OneHanded]
 
   Dagger:
@@ -2403,7 +2403,7 @@ itemConfigs:
     type: [Weapon, Offensive, Sharp, Metal, OneHanded]
 
   Earring:
-    sprites: [393]
+    sprites: [393, 900, 906]
     type: [Jewelry]
 
   Flail:
