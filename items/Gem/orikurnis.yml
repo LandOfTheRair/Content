@@ -194,6 +194,21 @@
   requirements:
     level: 20
 
+- name: Orikurnis Resistant Alexandrite
+  desc: "an chunk of polished alexandrite"
+  sellValue: 30000
+  value: 500
+  sprite: 60
+
+  encrustGive:
+    slots: ['neck']
+
+    stats:
+      savingThrow: 1
+
+  requirements:
+    level: 20
+
 - name: Orikurnis Regenerative Rhodonite
   desc: "an crystalline chunk of rhodonite"
   sellValue: 30000

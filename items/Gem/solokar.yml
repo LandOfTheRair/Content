@@ -12,7 +12,7 @@
       move: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Raw Jade
   desc: "a chunk of raw jade that emanates extreme power"
@@ -27,7 +27,7 @@
       damageFactor: 0.1
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Diamond
   desc: "a polished diamond, refined many times over"
@@ -42,7 +42,7 @@
       mitigation: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Power Ruby
   desc: "a sharp ruby glistening with force"
@@ -57,7 +57,7 @@
       weaponDamageRolls: 5
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Amber
   desc: "a sticky chunk of amber that lets you see farther"
@@ -72,7 +72,7 @@
       perception: 30
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Reflective Citrine
   desc: "a physically reflective chunk of citrine"
@@ -87,7 +87,7 @@
       physicalDamageReflect: 100
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Mirroring Citrine
   desc: "a magically reflective chunk of citrine"
@@ -102,7 +102,7 @@
       magicalDamageReflect: 100
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Sharp Sapphire
   desc: "a sharp chunk of sapphire that refines your grip"
@@ -117,7 +117,7 @@
       accuracy: 7
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Strong Crystal
   desc: "a raw chunk of earth crystal"
@@ -132,7 +132,7 @@
       armorClass: 7
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Strong Diamond
   desc: "a rage-red diamond"
@@ -147,7 +147,7 @@
       str: 3
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Quick Diamond
   desc: "a bunny-black diamond"
@@ -162,7 +162,7 @@
       agi: 3
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Smart Diamond
   desc: "a rat-green diamond"
@@ -177,7 +177,7 @@
       int: 3
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Wise Diamond
   desc: "an owl-blue diamond"
@@ -192,7 +192,22 @@
       wis: 3
 
   requirements:
-    level: 20
+    level: 40
+
+- name: Solokar Resistant Alexandrite
+  desc: "an chunk of polished alexandrite"
+  sellValue: 30000
+  value: 500
+  sprite: 60
+
+  encrustGive:
+    slots: ['neck']
+
+    stats:
+      savingThrow: 2
+
+  requirements:
+    level: 40
 
 - name: Solokar Regenerative Rhodonite
   desc: "an crystalline chunk of rhodonite"
@@ -208,7 +223,7 @@
       mpregen: 10
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Combatative Corundum
   desc: "an crystalline chunk of corundum"
@@ -224,7 +239,7 @@
       defense: 7
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Mace Gem
   desc: "an reflective crystal inscribed with a mace"
@@ -239,7 +254,7 @@
       maceBonus: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Axe Gem
   desc: "an reflective crystal inscribed with an axe"
@@ -254,7 +269,7 @@
       axeBonus: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Dagger Gem
   desc: "an reflective crystal inscribed with a dagger"
@@ -269,7 +284,7 @@
       daggerBonus: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Sword Gem
   desc: "an reflective crystal inscribed with a sword"
@@ -284,7 +299,7 @@
       swordBonus: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Shortsword Gem
   desc: "an reflective crystal inscribed with a shortsword"
@@ -299,7 +314,7 @@
       shortswordBonus: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Polearm Gem
   desc: "an reflective crystal inscribed with a polearm"
@@ -314,7 +329,7 @@
       polearmBonus: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Wand Gem
   desc: "an reflective crystal inscribed with a wand"
@@ -329,7 +344,7 @@
       wandBonus: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Staff Gem
   desc: "an reflective crystal inscribed with a staff"
@@ -344,7 +359,7 @@
       staffBonus: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Fist Gem
   desc: "an reflective crystal inscribed with a fist"
@@ -359,7 +374,7 @@
       martialBonus: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Bow Gem
   desc: "an reflective crystal inscribed with a bow"
@@ -374,7 +389,7 @@
       rangedBonus: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Chakram Gem
   desc: "an reflective crystal inscribed with a chakram"
@@ -389,7 +404,7 @@
       throwingBonus: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Greatsword Gem
   desc: "an reflective crystal inscribed with a large weapon"
@@ -404,7 +419,7 @@
       twohandedBonus: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Thievery Gem
   desc: "an reflective crystal cloaked in shadow"
@@ -419,7 +434,7 @@
       thieveryBonus: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Conjuration Gem
   desc: "an reflective crystal cloaked in a roaring flame"
@@ -434,7 +449,7 @@
       conjurationBonus: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Solokar Restoration Gem
   desc: "an reflective crystal cloaked in a soothing mist"
@@ -449,4 +464,4 @@
       restorationBonus: 2
 
   requirements:
-    level: 20
+    level: 40
