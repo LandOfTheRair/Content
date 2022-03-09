@@ -2403,7 +2403,7 @@ itemConfigs:
     type: [Weapon, Offensive, Sharp, Metal, OneHanded]
 
   Earring:
-    sprites: [393, 900, 906]
+    sprites: [393, 900, 906, 1023]
     type: [Jewelry]
 
   Flail:
