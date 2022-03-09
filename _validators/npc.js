@@ -96,7 +96,7 @@ const validate = () => {
         const checkString = valOrObject.result || valOrObject;
         if(itemHash[checkString] || checkString === 'none') return;
 
-        throw new Error(`Result '${result}' is not a valid item in '${npc.npcId}':'${key}'`);
+        throw new Error(`Result '${checkString}' is not a valid item in '${npc.npcId}':'${key}'`);
       });
     });
 
