@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Content scripts for LotR",
   "scripts": {
-    "build:all": "npm run build:items && npm run build:npcs && npm run build:droptables && npm run build:recipes && npm run build:lores && npm run build:spawners && npm run build:npc-scripts && npm run build:macros && npm run build:effect-data && npm run build:trait-trees && npm run build:traits && npm run build:quests && npm run build:spells && npm run build:doors && npm run build:core && npm run generate:meta",
+    "build:all": "npm run build:items && npm run build:npcs && npm run build:droptables && npm run build:recipes && npm run build:lores && npm run build:spawners && npm run build:npc-scripts && npm run build:macros && npm run build:effect-data && npm run build:trait-trees && npm run build:traits && npm run build:quests && npm run build:spells && npm run build:doors && npm run build:core && npm run build:traitscrolls && npm run generate:meta",
     "build:items": "node _transformers/item.js",
     "build:npcs": "node _transformers/npc.js",
     "build:droptables": "node _transformers/droptable.js",
