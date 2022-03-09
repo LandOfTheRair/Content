@@ -1,0 +1,26 @@
+
+tag: Spoiler Logger
+affiliation: Archduke's Scout
+hostility: Never
+
+level: 10
+
+hp:
+  min: 10000
+  max: 10000
+
+mp:
+  min: 10000
+  max: 10000
+
+usableSkills:
+  - MagicMissile
+
+items:
+  equipment:
+    rightHand: Antanian Shortbow
+    armor: Antanian Tunic
+
+behaviors:
+  - type: spoilerlogger
+    props: ['spoilerLog']

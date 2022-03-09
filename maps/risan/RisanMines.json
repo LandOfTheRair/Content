@@ -3558,6 +3558,28 @@
                  "width":64,
                  "x":5760,
                  "y":6976
+                }, 
+                {
+                 "gid":3094,
+                 "height":64,
+                 "id":1671,
+                 "name":"scout",
+                 "properties":
+                    {
+                     "spoilerLog":"Orikurnis",
+                     "tag":"Spoiler Logger"
+                    },
+                 "propertytypes":
+                    {
+                     "spoilerLog":"string",
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":6080,
+                 "y":6912
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -7846,7 +7868,7 @@
          "y":0
         }],
  "nextlayerid":17,
- "nextobjectid":1671,
+ "nextobjectid":1672,
  "orientation":"orthogonal",
  "properties":
     {
