@@ -5,7 +5,7 @@ const DROP_RATE_MAX = 10000;
 
 const gemDescItems = (itemData, mapDropData, regionDropData) => {
 
-  const allGems = itemData.filter(x => x.itemClass === 'Gem');
+  const allGems = itemData.filter(x => x.itemClass === 'Gem' && !['Solokar', 'Orikurnis'].some(region => x.name.includes(region)));
   const allGemScrollDescs = allGems.map(x => {
     const allKeys = Object.keys(x.stats).filter(z => z !== 'effect').map(z => z.toUpperCase());
 
