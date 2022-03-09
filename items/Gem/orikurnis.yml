@@ -1,0 +1,452 @@
+
+- name: Orikurnis Jade
+  desc: "a small insectoid gem that appears to move whenever you turn your gaze away"
+  sellValue: 30000
+  value: 500
+  sprite: 311
+
+  encrustGive:
+    slots: ['feet']
+
+    stats:
+      move: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Raw Jade
+  desc: "a chunk of raw jade that emanates extreme power"
+  sellValue: 30000
+  value: 500
+  sprite: 310
+
+  encrustGive:
+    slots: ['hands', 'weapon']
+
+    stats:
+      damageFactor: 0.05
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Diamond
+  desc: "a polished diamond, refined many times over"
+  sellValue: 30000
+  value: 500
+  sprite: 247
+
+  encrustGive:
+    slots: ['armor', 'hands', 'feet', 'head', 'wrists']
+
+    stats:
+      mitigation: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Power Ruby
+  desc: "a sharp ruby glistening with force"
+  sellValue: 30000
+  value: 500
+  sprite: 312
+
+  encrustGive:
+    slots: ['weapon']
+
+    stats:
+      weaponDamageRolls: 3
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Amber
+  desc: "a sticky chunk of amber that lets you see farther"
+  sellValue: 30000
+  value: 500
+  sprite: 59
+
+  encrustGive:
+    slots: ['head']
+
+    stats:
+      perception: 20
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Reflective Citrine
+  desc: "a physically reflective chunk of citrine"
+  sellValue: 30000
+  value: 500
+  sprite: 58
+
+  encrustGive:
+    slots: ['robe', 'shield', 'wrists', 'waist']
+
+    stats:
+      physicalDamageReflect: 50
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Mirroring Citrine
+  desc: "a magically reflective chunk of citrine"
+  sellValue: 30000
+  value: 500
+  sprite: 58
+
+  encrustGive:
+    slots: ['robe', 'shield', 'wrists', 'waist']
+
+    stats:
+      magicalDamageReflect: 50
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Sharp Sapphire
+  desc: "a sharp chunk of sapphire that refines your grip"
+  sellValue: 30000
+  value: 500
+  sprite: 61
+
+  encrustGive:
+    slots: ['hands', 'weapon', 'shield', 'wrists']
+
+    stats:
+      accuracy: 5
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Strong Crystal
+  desc: "a raw chunk of earth crystal"
+  sellValue: 30000
+  value: 500
+  sprite: 341
+
+  encrustGive:
+    slots: ['armor', 'feet', 'hands', 'wrists']
+
+    stats:
+      armorClass: 5
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Strong Diamond
+  desc: "a rage-red diamond"
+  sellValue: 30000
+  value: 500
+  sprite: 1010
+
+  encrustGive:
+    slots: ['wrists']
+
+    stats:
+      str: 2
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Quick Diamond
+  desc: "a bunny-black diamond"
+  sellValue: 30000
+  value: 500
+  sprite: 1009
+
+  encrustGive:
+    slots: ['wrists']
+
+    stats:
+      agi: 2
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Smart Diamond
+  desc: "a rat-green diamond"
+  sellValue: 30000
+  value: 500
+  sprite: 1011
+
+  encrustGive:
+    slots: ['neck']
+
+    stats:
+      int: 2
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Wise Diamond
+  desc: "an owl-blue diamond"
+  sellValue: 30000
+  value: 500
+  sprite: 1014
+
+  encrustGive:
+    slots: ['neck']
+
+    stats:
+      wis: 2
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Regenerative Rhodonite
+  desc: "an crystalline chunk of rhodonite"
+  sellValue: 30000
+  value: 500
+  sprite: 57
+
+  encrustGive:
+    slots: ['ring', 'neck', 'wrists']
+
+    stats:
+      hpregen: 5
+      mpregen: 5
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Combatative Corundum
+  desc: "an crystalline chunk of corundum"
+  sellValue: 30000
+  value: 500
+  sprite: 62
+
+  encrustGive:
+    slots: ['feet', 'hands', 'wrists', 'robe']
+
+    stats:
+      offense: 5
+      defense: 5
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Mace Gem
+  desc: "an reflective crystal inscribed with a mace"
+  sellValue: 30000
+  value: 500
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      maceBonus: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Axe Gem
+  desc: "an reflective crystal inscribed with an axe"
+  sellValue: 30000
+  value: 500
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      axeBonus: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Dagger Gem
+  desc: "an reflective crystal inscribed with a dagger"
+  sellValue: 30000
+  value: 500
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      daggerBonus: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Sword Gem
+  desc: "an reflective crystal inscribed with a sword"
+  sellValue: 30000
+  value: 500
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      swordBonus: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Shortsword Gem
+  desc: "an reflective crystal inscribed with a shortsword"
+  sellValue: 30000
+  value: 500
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      shortswordBonus: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Polearm Gem
+  desc: "an reflective crystal inscribed with a polearm"
+  sellValue: 30000
+  value: 500
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      polearmBonus: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Wand Gem
+  desc: "an reflective crystal inscribed with a wand"
+  sellValue: 30000
+  value: 500
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      wandBonus: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Staff Gem
+  desc: "an reflective crystal inscribed with a staff"
+  sellValue: 30000
+  value: 500
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      staffBonus: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Fist Gem
+  desc: "an reflective crystal inscribed with a fist"
+  sellValue: 30000
+  value: 500
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      martialBonus: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Bow Gem
+  desc: "an reflective crystal inscribed with a bow"
+  sellValue: 30000
+  value: 500
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      rangedBonus: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Chakram Gem
+  desc: "an reflective crystal inscribed with a chakram"
+  sellValue: 30000
+  value: 500
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      throwingBonus: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Greatsword Gem
+  desc: "an reflective crystal inscribed with a large weapon"
+  sellValue: 30000
+  value: 500
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      twohandedBonus: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Thievery Gem
+  desc: "an reflective crystal cloaked in shadow"
+  sellValue: 30000
+  value: 500
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      thieveryBonus: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Conjuration Gem
+  desc: "an reflective crystal cloaked in a roaring flame"
+  sellValue: 30000
+  value: 500
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      conjurationBonus: 1
+
+  requirements:
+    level: 20
+
+- name: Orikurnis Restoration Gem
+  desc: "an reflective crystal cloaked in a soothing mist"
+  sellValue: 30000
+  value: 500
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      restorationBonus: 1
+
+  requirements:
+    level: 20

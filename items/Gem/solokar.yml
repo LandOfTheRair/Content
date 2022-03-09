@@ -1,0 +1,452 @@
+
+- name: Solokar Jade
+  desc: "a small insectoid gem that appears to move whenever you turn your gaze away"
+  sellValue: 100000
+  value: 10000
+  sprite: 311
+
+  encrustGive:
+    slots: ['feet']
+
+    stats:
+      move: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Raw Jade
+  desc: "a chunk of raw jade that emanates extreme power"
+  sellValue: 100000
+  value: 10000
+  sprite: 310
+
+  encrustGive:
+    slots: ['hands', 'weapon']
+
+    stats:
+      damageFactor: 0.1
+
+  requirements:
+    level: 20
+
+- name: Solokar Diamond
+  desc: "a polished diamond, refined many times over"
+  sellValue: 100000
+  value: 10000
+  sprite: 247
+
+  encrustGive:
+    slots: ['armor', 'hands', 'feet', 'head', 'wrists']
+
+    stats:
+      mitigation: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Power Ruby
+  desc: "a sharp ruby glistening with force"
+  sellValue: 100000
+  value: 10000
+  sprite: 312
+
+  encrustGive:
+    slots: ['weapon']
+
+    stats:
+      weaponDamageRolls: 5
+
+  requirements:
+    level: 20
+
+- name: Solokar Amber
+  desc: "a sticky chunk of amber that lets you see farther"
+  sellValue: 100000
+  value: 10000
+  sprite: 59
+
+  encrustGive:
+    slots: ['head']
+
+    stats:
+      perception: 30
+
+  requirements:
+    level: 20
+
+- name: Solokar Reflective Citrine
+  desc: "a physically reflective chunk of citrine"
+  sellValue: 100000
+  value: 10000
+  sprite: 58
+
+  encrustGive:
+    slots: ['robe', 'shield', 'wrists', 'waist']
+
+    stats:
+      physicalDamageReflect: 100
+
+  requirements:
+    level: 20
+
+- name: Solokar Mirroring Citrine
+  desc: "a magically reflective chunk of citrine"
+  sellValue: 100000
+  value: 10000
+  sprite: 58
+
+  encrustGive:
+    slots: ['robe', 'shield', 'wrists', 'waist']
+
+    stats:
+      magicalDamageReflect: 100
+
+  requirements:
+    level: 20
+
+- name: Solokar Sharp Sapphire
+  desc: "a sharp chunk of sapphire that refines your grip"
+  sellValue: 100000
+  value: 10000
+  sprite: 61
+
+  encrustGive:
+    slots: ['hands', 'weapon', 'shield', 'wrists']
+
+    stats:
+      accuracy: 7
+
+  requirements:
+    level: 20
+
+- name: Solokar Strong Crystal
+  desc: "a raw chunk of earth crystal"
+  sellValue: 100000
+  value: 10000
+  sprite: 341
+
+  encrustGive:
+    slots: ['armor', 'feet', 'hands', 'wrists']
+
+    stats:
+      armorClass: 7
+
+  requirements:
+    level: 20
+
+- name: Solokar Strong Diamond
+  desc: "a rage-red diamond"
+  sellValue: 100000
+  value: 10000
+  sprite: 1010
+
+  encrustGive:
+    slots: ['wrists']
+
+    stats:
+      str: 3
+
+  requirements:
+    level: 20
+
+- name: Solokar Quick Diamond
+  desc: "a bunny-black diamond"
+  sellValue: 100000
+  value: 10000
+  sprite: 1009
+
+  encrustGive:
+    slots: ['wrists']
+
+    stats:
+      agi: 3
+
+  requirements:
+    level: 20
+
+- name: Solokar Smart Diamond
+  desc: "a rat-green diamond"
+  sellValue: 100000
+  value: 10000
+  sprite: 1011
+
+  encrustGive:
+    slots: ['neck']
+
+    stats:
+      int: 3
+
+  requirements:
+    level: 20
+
+- name: Solokar Wise Diamond
+  desc: "an owl-blue diamond"
+  sellValue: 100000
+  value: 10000
+  sprite: 1014
+
+  encrustGive:
+    slots: ['neck']
+
+    stats:
+      wis: 3
+
+  requirements:
+    level: 20
+
+- name: Solokar Regenerative Rhodonite
+  desc: "an crystalline chunk of rhodonite"
+  sellValue: 100000
+  value: 10000
+  sprite: 57
+
+  encrustGive:
+    slots: ['ring', 'neck', 'wrists']
+
+    stats:
+      hpregen: 10
+      mpregen: 10
+
+  requirements:
+    level: 20
+
+- name: Solokar Combatative Corundum
+  desc: "an crystalline chunk of corundum"
+  sellValue: 100000
+  value: 10000
+  sprite: 62
+
+  encrustGive:
+    slots: ['feet', 'hands', 'wrists', 'robe']
+
+    stats:
+      offense: 7
+      defense: 7
+
+  requirements:
+    level: 20
+
+- name: Solokar Mace Gem
+  desc: "an reflective crystal inscribed with a mace"
+  sellValue: 100000
+  value: 10000
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      maceBonus: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Axe Gem
+  desc: "an reflective crystal inscribed with an axe"
+  sellValue: 100000
+  value: 10000
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      axeBonus: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Dagger Gem
+  desc: "an reflective crystal inscribed with a dagger"
+  sellValue: 100000
+  value: 10000
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      daggerBonus: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Sword Gem
+  desc: "an reflective crystal inscribed with a sword"
+  sellValue: 100000
+  value: 10000
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      swordBonus: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Shortsword Gem
+  desc: "an reflective crystal inscribed with a shortsword"
+  sellValue: 100000
+  value: 10000
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      shortswordBonus: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Polearm Gem
+  desc: "an reflective crystal inscribed with a polearm"
+  sellValue: 100000
+  value: 10000
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      polearmBonus: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Wand Gem
+  desc: "an reflective crystal inscribed with a wand"
+  sellValue: 100000
+  value: 10000
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      wandBonus: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Staff Gem
+  desc: "an reflective crystal inscribed with a staff"
+  sellValue: 100000
+  value: 10000
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      staffBonus: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Fist Gem
+  desc: "an reflective crystal inscribed with a fist"
+  sellValue: 100000
+  value: 10000
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      martialBonus: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Bow Gem
+  desc: "an reflective crystal inscribed with a bow"
+  sellValue: 100000
+  value: 10000
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      rangedBonus: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Chakram Gem
+  desc: "an reflective crystal inscribed with a chakram"
+  sellValue: 100000
+  value: 10000
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      throwingBonus: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Greatsword Gem
+  desc: "an reflective crystal inscribed with a large weapon"
+  sellValue: 100000
+  value: 10000
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      twohandedBonus: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Thievery Gem
+  desc: "an reflective crystal cloaked in shadow"
+  sellValue: 100000
+  value: 10000
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      thieveryBonus: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Conjuration Gem
+  desc: "an reflective crystal cloaked in a roaring flame"
+  sellValue: 100000
+  value: 10000
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      conjurationBonus: 2
+
+  requirements:
+    level: 20
+
+- name: Solokar Restoration Gem
+  desc: "an reflective crystal cloaked in a soothing mist"
+  sellValue: 100000
+  value: 10000
+  sprite: 63
+
+  encrustGive:
+    slots: ['ear']
+
+    stats:
+      restorationBonus: 2
+
+  requirements:
+    level: 20
