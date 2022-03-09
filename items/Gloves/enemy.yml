@@ -50,3 +50,23 @@
   sprite: -1
   value: 1
   destroyOnDrop: true
+
+- name: Orikurnis Punching Gloves
+  stats:
+    defense: 4
+    offense: 4
+  tier: 3
+  desc: "a pair of ether gloves"
+  sprite: -1
+  value: 1
+  destroyOnDrop: true
+
+- name: Solokar Punching Gloves
+  stats:
+    defense: 4
+    offense: 4
+  tier: 4
+  desc: "a pair of ether gloves"
+  sprite: -1
+  value: 1
+  destroyOnDrop: true

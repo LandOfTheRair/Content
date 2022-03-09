@@ -1155,6 +1155,7 @@ creatures:
     guaranteedSkills: [DoubleAttack, FindFamiliarShadowClones, Throw]
     guaranteedTraits: [Multithrow, BoomerangArm]
     weaponType: Dagger
+    offhandType: Dagger
     armorType: Tunic
 
   rebel slicer: &npcRebelSlicer
@@ -1162,7 +1163,7 @@ creatures:
     name: rebel slicer
     monsterClass: Humanoid
     baseClass: Warrior
-    weaponType: Sword
+    weaponType: Longsword
     offhandType: Shield
     armorType: Breastplate
 
@@ -1171,7 +1172,7 @@ creatures:
     name: rebel slasher
     monsterClass: Humanoid
     baseClass: Warrior
-    weaponType: Sword
+    weaponType: Longsword
     offhandType: Shield
     armorType: Fullplate
 
@@ -1206,8 +1207,8 @@ creatures:
     name: rebel swashbuckler
     monsterClass: Humanoid
     baseClass: Warrior
-    weaponType: Sword
-    offhandType: Sword
+    weaponType: Longsword
+    offhandType: Longsword
     armorType: Breastplate
 
   rebel smasher: &npcRebelSmasher
@@ -1216,7 +1217,7 @@ creatures:
     monsterClass: Humanoid
     baseClass: Warrior
     guaranteedSkills: [Absorption]
-    weaponType: Mage
+    weaponType: Mace
     offhandType: Shield
     armorType: Breastplate
 
@@ -1245,7 +1246,7 @@ creatures:
     monsterClass: Humanoid
     baseClass: Warrior
     guaranteedSkills: [ParryStance]
-    weaponType: Sword
+    weaponType: Longsword
     armorType: Tunic
 
   rebel healer: &npcRebelHealer
@@ -1360,7 +1361,7 @@ creatures:
     monsterClass: Humanoid
     baseClass: Thief
     guaranteedSkills: [Shadowmeld]
-    weaponType: Sword
+    weaponType: Longsword
     armorType: Tunic
 
   siren: &npcSiren
@@ -1478,7 +1479,7 @@ creatures:
     sprite: 315
     name: gnoll
     monsterClass: Humanoid
-    weaponType: Sword
+    weaponType: Longsword
     offhandType: Shield
     armorType: Tunic
 
@@ -1486,8 +1487,8 @@ creatures:
     sprite: 415
     name: kobold
     monsterClass: Humanoid
-    weaponType: Sword
-    offhandType: Sword
+    weaponType: Longsword
+    offhandType: Longsword
 
   minotaur: &npcMinotaur
     sprite: 445
@@ -1547,7 +1548,7 @@ creatures:
       str: 2
     guaranteedSkills: [DoubleAttack]
     guaranteedTraits: []
-    weaponType: Sword
+    weaponType: Longsword
 
   ghost: &npcGhost
     sprite: 300
@@ -1683,7 +1684,7 @@ creatures:
     sprite: 145
     name: lizard warrior
     monsterClass: Humanoid
-    weaponType: Sword
+    weaponType: Longsword
     armorType: Tunic
 
   earthsnake: &npcEarthsnake
@@ -2066,7 +2067,7 @@ creatureTraits:
     - name: SharpVision
       maxLevel: 5
 
-    - name: SwordTricks
+    - name: LongswordTricks
       maxLevel: 5
 
     - name: FunkyMoves
@@ -2687,6 +2688,10 @@ dungeonConfigs:
       tanSkillRequired: 20
       numScenarios: 4
       mapDropItems: 16
+      npcPunchItem: Solokar Punching Gloves
+      basicWeight: 1000
+      powerfulWeight: 100
+      legendaryWeight: 1
         
   - name: 'Orikurnis'
     mapProps:
@@ -2735,3 +2740,7 @@ dungeonConfigs:
       tanSkillRequired: 20
       numScenarios: 2
       mapDropItems: 16
+      npcPunchItem: Orikurnis Punching Gloves
+      basicWeight: 1000
+      powerfulWeight: 100
+      legendaryWeight: 1
