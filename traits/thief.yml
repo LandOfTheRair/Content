@@ -195,15 +195,15 @@ Multithrow:
 
 BouncingThrows:
   name: Bouncing Throws
-  desc: All thrown weapons have a +$10$% chance to bounce to another target.
+  desc: All thrown weapons have a +$5$% chance to bounce to another target.
   icon: bouncing-sword
-  valuePerTier: 10
+  valuePerTier: 5
 
 BouncingArrows:
   name: Bouncing Arrows
-  desc: All ranged weapons have a +$10$% chance to bounce to another target.
+  desc: All ranged weapons have a +$5$% chance to bounce to another target.
   icon: arrow-cluster
-  valuePerTier: 10
+  valuePerTier: 5
 
 VortexWiden:
   name: Vortex Widen

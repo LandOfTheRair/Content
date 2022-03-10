@@ -1,0 +1,69 @@
+
+- item: Enos Holy Affliction Totem
+  name: Holy Affliction Totem
+  category: Twisted Ether Weaponry
+  skillGained: 4
+  maxSkillForGains: 16
+  requireSkill: 10
+  xpGained: 35000
+  ozIngredients:
+    - filter: Orikalcum Ore
+      display: Orikalcum Ore (Small)
+      ounces: 7
+
+  ingredients:
+    - Enchanting Brick - Enos
+    - Antanian Twig
+
+- item: Plague Doctor Staff
+  name: Plague Doctor Staff
+  category: Twisted Ether Weaponry
+  skillGained: 6
+  maxSkillForGains: 21
+  requireSkill: 15
+  xpGained: 65000
+  ozIngredients:
+    - filter: Soronite Ore
+      display: Soronite Ore (Small)
+      ounces: 10
+
+  ingredients:
+    - Enchanting Brick - Enos
+    - Risan Twig
+    - Risan Twig
+
+- item: Enos Energy Sword
+  name: Energy Sword
+  category: Twisted Ether Weaponry
+  skillGained: 4
+  maxSkillForGains: 16
+  requireSkill: 10
+  xpGained: 35000
+  ozIngredients:
+    - filter: Orikalcum Ore
+      display: Orikalcum Ore (Small)
+      ounces: 7
+
+  ingredients:
+    - Enchanting Brick - Enos
+    - Silver Ingot (Pillars)
+    - Antanian Twig
+
+- item: Strongmind Sword
+  name: Strongmind Sword
+  category: Twisted Ether Weaponry
+  skillGained: 6
+  maxSkillForGains: 21
+  requireSkill: 15
+  xpGained: 65000
+  ozIngredients:
+    - filter: Soronite Ore
+      display: Soronite Ore (Small)
+      ounces: 10
+
+  ingredients:
+    - Enchanting Brick - Enos
+    - Gold Ingot (Pillars)
+    - Silver Ingot (Pillars)
+    - Risan Twig
+    - Risan Twig

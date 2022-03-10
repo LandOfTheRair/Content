@@ -19,3 +19,21 @@
 
   requirements:
     level: 12
+
+- name: Enos Holy Affliction Totem
+  quality: 5
+  desc: "an ornately-twisted pole with a crescent moon made of orikalcum attached to the tip"
+  tier: 2
+  stats:
+    restorationBonus: 1
+    wis: 1
+  trait:
+    name: HolyAffliction
+    level: 3
+  maxUpgrades: 1
+  type: Wand
+  value: 3500
+  sprite: 460
+
+  requirements:
+    level: 12

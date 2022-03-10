@@ -44,3 +44,24 @@
 
   requirements:
     level: 15
+
+- name: Orikalcum Dagger
+  stats:
+    offense: 3
+    accuracy: 5
+    daggerBonus: 1
+    hp: 50
+  desc: "a small dagger forged of orikalcum, emblazoned with a green gem"
+  offhand: true
+  returnsOnThrow: true
+  tier: 6
+  type: Dagger
+  value: 12185
+  sprite: 418
+
+  trait:
+    name: BouncingThrows
+    level: 2
+
+  requirements:
+    level: 20

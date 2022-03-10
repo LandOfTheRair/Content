@@ -29,7 +29,7 @@ Thief:
             requires: ImprovedSteal
           
           - name: BouncingThrows
-            maxLevel: 1
+            maxLevel: 5
 
           - name: Darkness
             maxLevel: 1

@@ -1,0 +1,67 @@
+
+- item: Orikalcum Axe
+  name: Orikalcum Axe
+  category: Twisted Ether Weaponry
+  skillGained: 4
+  maxSkillForGains: 16
+  requireSkill: 10
+  xpGained: 35000
+  ozIngredients:
+    - filter: Orikalcum Ore
+      display: Orikalcum Ore (Small)
+      ounces: 7
+
+  ingredients:
+    - Antanian Twig
+    - Antanian Twig
+
+- item: Soronite Axe
+  name: Soronite Axe
+  category: Twisted Ether Weaponry
+  skillGained: 6
+  maxSkillForGains: 21
+  requireSkill: 15
+  xpGained: 65000
+  ozIngredients:
+    - filter: Soronite Ore
+      display: Soronite Ore (Small)
+      ounces: 10
+
+  ingredients:
+    - Risan Twig
+    - Risan Twig
+    - Risan Polished Ruby
+
+- item: Orikalcum Dagger
+  name: Orikalcum Dagger
+  category: Twisted Ether Weaponry
+  skillGained: 4
+  maxSkillForGains: 15
+  requireSkill: 9
+  xpGained: 35000
+  ozIngredients:
+    - filter: Orikalcum Ore
+      display: Orikalcum Ore (Small)
+      ounces: 5
+
+  ingredients:
+    - Antanian Twig
+    - Antanian Twig
+    - Antanian Small Green Gem
+
+- item: Soronite Longbow
+  name: Soronite Longbow
+  category: Twisted Ether Weaponry
+  skillGained: 6
+  maxSkillForGains: 20
+  requireSkill: 14
+  xpGained: 65000
+  ozIngredients:
+    - filter: Soronite Ore
+      display: Soronite Ore (Small)
+      ounces: 15
+
+  ingredients:
+    - Risan Twig
+    - Risan Twig
+    - Risan Twig

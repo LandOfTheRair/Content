@@ -38,3 +38,40 @@
 
   requirements:
     level: 15
+
+- name: Orikalcum Axe
+  stats:
+    accuracy: 2
+    offense: 3
+  offhand: true
+  desc: "an orikalcum axe forged in the twisting ether"
+  tier: 6
+  type: Axe
+  value: 12385
+  sprite: 454
+
+  trait:
+    name: ViciousAssault
+    level: 2
+
+  requirements:
+    level: 20
+
+- name: Soronite Axe
+  stats:
+    accuracy: 4
+    offense: 6
+    weaponArmorClass: 1
+  offhand: true
+  desc: "a soronite axe forged in the twisting ether and set with a simple purple gem"
+  tier: 6
+  type: Axe
+  value: 12385
+  sprite: 455
+
+  trait:
+    name: ForcefulStrike
+    level: 2
+
+  requirements:
+    level: 40
