@@ -2364,7 +2364,7 @@ itemConfigs:
 
   Axe:
     sprites: [159, 165, 451]
-    type: [Weapon, Offensive, Sharp, OneHanded, Metal]
+    type: [Weapon, Offensive, Sharp, OneHanded, Metal, Medium]
 
   Boots:
     sprites: [15, 94, 95, 96, 232, 287, 288, 335, 369, 370, 371, 372, 392, 510, 512, 513]
@@ -2380,7 +2380,7 @@ itemConfigs:
 
   Broadsword:
     sprites: [166, 350, 351, 424, 426, 428]
-    type: [Weapon, Offensive, Sharp, OneHanded, Metal]
+    type: [Weapon, Offensive, Sharp, OneHanded, Metal, Medium]
 
   Claws:
     sprites: [294, 362, 395, 461, 463, 465]
@@ -2392,15 +2392,15 @@ itemConfigs:
 
   Club:
     sprites: [52, 238, 452]
-    type: [Weapon, Offensive, Blunt, Wood, OneHanded]
+    type: [Weapon, Offensive, Blunt, Wood, OneHanded, Medium]
 
   Crossbow:
     sprites: [201, 1053, 1054]
-    type: [Weapon, Offensive, Ranged, Wood, OneHanded]
+    type: [Weapon, Offensive, Ranged, Wood, OneHanded, Medium]
 
   Dagger:
     sprites: [205, 216, 305, 306, 332, 333, 379, 411, 412, 414, 415, 417, 418]
-    type: [Weapon, Offensive, Sharp, Metal, OneHanded]
+    type: [Weapon, Offensive, Sharp, Metal, OneHanded, Small]
 
   Earring:
     sprites: [393, 900, 906, 1023]
@@ -2408,7 +2408,7 @@ itemConfigs:
 
   Flail:
     sprites: [53, 169, 228, 349]
-    type: [Weapon, Offensive, Blunt, OneHanded, Metal]
+    type: [Weapon, Offensive, Blunt, OneHanded, Metal, Medium]
 
   Fullplate:
     sprites: [383, 525, 528, 530, 534, 538]
@@ -2418,33 +2418,29 @@ itemConfigs:
     sprites: [8, 19, 101, 102, 217, 218, 219, 275, 276, 278, 285, 286, 290, 296, 297, 352, 358]
     type: [Armor, Defensive, Tanned]
 
-  Gem:
-    sprites: [58, 59, 60, 61, 62, 63, 213, 242, 243, 244, 245, 246, 247, 310, 311, 312, 313, 314, 415]
-    type: [Gem]
-
   Gloves:
     sprites: [233, 462, 464]
     type: [Armor, Offensive, Cloth]
 
   Greataxe:
     sprites: [301, 437, 453, 454, 455, 954]
-    type: [Weapon, Offensive, Sharp, TwoHanded]
+    type: [Weapon, Offensive, Sharp, TwoHanded, Large]
 
   Greatmace:
     sprites: [324, 325, 523]
-    type: [Weapon, Offensive, Blunt, TwoHanded]
+    type: [Weapon, Offensive, Blunt, TwoHanded, Large]
 
   Greatsword:
     sprites: [143, 198, 308, 323, 365, 431, 435]
-    type: [Weapon, Offensive, Sharp, TwoHanded]
+    type: [Weapon, Offensive, Sharp, TwoHanded, Large]
 
   Halberd:
     sprites: [135, 161, 164, 230, 436, 438, 440]
-    type: [Weapon, Offensive, Sharp, TwoHanded]
+    type: [Weapon, Offensive, Sharp, TwoHanded, Large]
 
   Hammer:
     sprites: [226, 272, 292, 448]
-    type: [Weapon, Offensive, Blunt, OneHanded]
+    type: [Weapon, Offensive, Blunt, OneHanded, Small]
 
   Hat:
     sprites: [20, 21, 274]
@@ -2460,11 +2456,11 @@ itemConfigs:
 
   Longsword:
     sprites: [163, 197, 225, 227, 307, 316, 317, 423, 429]
-    type: [Weapon, Offensive, OneHanded, Sharp, Metal]
+    type: [Weapon, Offensive, OneHanded, Sharp, Metal, Medium]
 
   Mace:
     sprites: [168, 204, 522]
-    type: [Weapon, Offensive, OneHanded, Blunt, Metal]
+    type: [Weapon, Offensive, OneHanded, Blunt, Metal, Medium]
 
   Ring:
     sprites: [25, 26, 27, 28, 29, 30, 56, 121, 122, 123, 124, 125, 215, 239, 240, 241, 248, 249, 266, 267, 495, 496, 497, 498]
@@ -2496,19 +2492,19 @@ itemConfigs:
 
   Shortsword:
     sprites: [162, 195, 305, 416, 419, 420, 421, 422]
-    type: [Weapon, Defensive, Sharp, OneHanded, Metal]
+    type: [Weapon, Defensive, Sharp, OneHanded, Metal, Small]
 
   Spear:
     sprites: [144, 147, 160, 237, 280, 326, 405, 439]
-    type: [Weapon, Offensive, Sharp, OneHanded, Metal]
+    type: [Weapon, Offensive, Sharp, OneHanded, Metal, Large]
 
   Staff:
     sprites: [126, 196, 268, 326, 456, 457, 460]
-    type: [Weapon, Defensive, Blunt, TwoHanded]
+    type: [Weapon, Defensive, Blunt, TwoHanded, Large]
 
   Totem:
     sprites: [196, 326, 439, 457, 459, 460]
-    type: [Weapon, Defensive, Blunt, TwoHanded]
+    type: [Weapon, Defensive, Blunt, TwoHanded, Medium]
 
   Tunic:
     sprites: [9, 10, 11, 97, 206, 207, 208, 209, 271, 331]
@@ -2516,10 +2512,28 @@ itemConfigs:
 
   Wand:
     sprites: [196, 268, 280, 281, 456]
-    type: [Weapon, Defensive, Metal]
+    type: [Weapon, Defensive, Metal, Medium]
 
 # items scenarios
-itemScenarios:      
+itemScenarios:
+  - name: The Boulder
+    statChanges: {}
+    topLevelChanges:
+      proneChance: 15
+    requiresTypes: [Weapon, Large, Medium]
+
+  - name: The Twin Snake
+    statChanges: {}
+    topLevelChanges:
+      offhand: true
+    requiresTypes: [Weapon, Medium, Small]
+
+  - name: The Boomerang
+    statChanges: {}
+    topLevelChanges:
+      returnsOnThrow: true
+    requiresTypes: [Weapon, Medium, Small]
+
   - name: The Metal
     statChanges:
       armorClass: 2
