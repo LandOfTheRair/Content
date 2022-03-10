@@ -13,6 +13,13 @@ mp:
   min: 10000
   max: 10000
 
+otherStats:
+  move: 0
+
+baseEffects:
+  - name: Invulnerable
+    endsAt: -1
+
 usableSkills:
   - MagicMissile
 
