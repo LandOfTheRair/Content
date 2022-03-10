@@ -3589,11 +3589,17 @@
                  "properties":
                     {
                      "tag":"Treasure Claimer",
+                     "teleportMap":"RisanMines",
+                     "teleportX":87,
+                     "teleportY":109,
                      "treasureMap":"Orikurnis"
                     },
                  "propertytypes":
                     {
                      "tag":"string",
+                     "teleportMap":"string",
+                     "teleportX":"int",
+                     "teleportY":"int",
                      "treasureMap":"string"
                     },
                  "rotation":0,
@@ -7689,7 +7695,28 @@
          "draworder":"topdown",
          "id":14,
          "name":"Succorport",
-         "objects":[],
+         "objects":[
+                {
+                 "height":192,
+                 "id":1673,
+                 "name":"Treasure",
+                 "properties":
+                    {
+                     "restrictSuccor":true,
+                     "restrictTeleport":true
+                    },
+                 "propertytypes":
+                    {
+                     "restrictSuccor":"bool",
+                     "restrictTeleport":"bool"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":192,
+                 "x":5824,
+                 "y":7104
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":false,
@@ -7890,7 +7917,7 @@
          "y":0
         }],
  "nextlayerid":17,
- "nextobjectid":1673,
+ "nextobjectid":1674,
  "orientation":"orthogonal",
  "properties":
     {

@@ -14033,11 +14033,17 @@
                  "properties":
                     {
                      "tag":"Treasure Claimer",
+                     "teleportMap":"Frostlands",
+                     "teleportX":180,
+                     "teleportY":232,
                      "treasureMap":"Solokar"
                     },
                  "propertytypes":
                     {
                      "tag":"string",
+                     "teleportMap":"string",
+                     "teleportX":"int",
+                     "teleportY":"int",
                      "treasureMap":"string"
                     },
                  "rotation":0,
@@ -22947,7 +22953,7 @@
                  "y":3712
                 }, 
                 {
-                 "height":1152,
+                 "height":768,
                  "id":2923,
                  "name":"Clubhouse",
                  "properties":
@@ -22963,9 +22969,9 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":1792,
+                 "width":960,
                  "x":10304,
-                 "y":14208
+                 "y":14592
                 }, 
                 {
                  "height":448,
@@ -22987,6 +22993,48 @@
                  "width":1408,
                  "x":10688,
                  "y":15360
+                }, 
+                {
+                 "height":320,
+                 "id":3094,
+                 "name":"Clubhouse",
+                 "properties":
+                    {
+                     "restrictSuccor":true,
+                     "restrictTeleport":true
+                    },
+                 "propertytypes":
+                    {
+                     "restrictSuccor":"bool",
+                     "restrictTeleport":"bool"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":832,
+                 "x":11264,
+                 "y":15040
+                }, 
+                {
+                 "height":256,
+                 "id":3095,
+                 "name":"Treasure",
+                 "properties":
+                    {
+                     "restrictSuccor":true,
+                     "restrictTeleport":true
+                    },
+                 "propertytypes":
+                    {
+                     "restrictSuccor":"bool",
+                     "restrictTeleport":"bool"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":256,
+                 "x":11840,
+                 "y":14848
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -23169,7 +23217,7 @@
          "y":0
         }],
  "nextlayerid":17,
- "nextobjectid":3094,
+ "nextobjectid":3096,
  "orientation":"orthogonal",
  "properties":
     {
