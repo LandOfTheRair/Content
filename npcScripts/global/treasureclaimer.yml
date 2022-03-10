@@ -21,4 +21,4 @@ items:
 
 behaviors:
   - type: treasureclaimer
-    props: ['treasureMap']
+    props: ['treasureMap', 'teleportX', 'teleportY', 'teleportMap']
