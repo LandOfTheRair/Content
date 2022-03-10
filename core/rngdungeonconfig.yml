@@ -2698,10 +2698,9 @@ dungeonConfigs:
       baseArmorClass: 40
       baseShieldArmorClass: 30
       baseWeaponArmorClass: 10
-      scenarioStatMultiplier: 2
       traitLevel: 2
       tanSkillRequired: 20
-      numScenarios: 4
+      numScenarios: 5
       mapDropItems: 16
       npcPunchItem: Solokar Punching Gloves
       basicWeight: 1000
@@ -2751,10 +2750,9 @@ dungeonConfigs:
       baseArmorClass: 25
       baseShieldArmorClass: 20
       baseWeaponArmorClass: 5
-      scenarioStatMultiplier: 1
       traitLevel: 1
       tanSkillRequired: 20
-      numScenarios: 2
+      numScenarios: 3
       mapDropItems: 16
       npcPunchItem: Orikurnis Punching Gloves
       basicWeight: 1000
