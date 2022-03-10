@@ -216,7 +216,9 @@ Healer:
           
         - traits: 
 
-          - name: ''
+          - name: Pandemic
+            maxLevel: 5
+            
           - name: ''
           - name: ''
           - name: ''

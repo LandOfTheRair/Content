@@ -75,6 +75,12 @@ ContagiousPlague:
   icon: death-zone
   valuePerTier: 3
 
+Pandemic:
+  name: Pandemic
+  desc: Your Plague spell will spread to +$1$ nearby target immediately.
+  icon: telepathy
+  valuePerTier: 1
+
 DiseaseFocus:
   name: Disease Focus
   desc: Deal +$10$% more disease damage.
