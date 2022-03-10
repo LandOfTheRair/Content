@@ -14024,6 +14024,28 @@
                  "width":64,
                  "x":11648,
                  "y":14592
+                }, 
+                {
+                 "gid":4459,
+                 "height":64,
+                 "id":3093,
+                 "name":"Treasury Pylon",
+                 "properties":
+                    {
+                     "tag":"Treasure Claimer",
+                     "treasureMap":"Solokar"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string",
+                     "treasureMap":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":11968,
+                 "y":14976
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -23147,7 +23169,7 @@
          "y":0
         }],
  "nextlayerid":17,
- "nextobjectid":3093,
+ "nextobjectid":3094,
  "orientation":"orthogonal",
  "properties":
     {

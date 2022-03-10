@@ -3580,6 +3580,28 @@
                  "width":64,
                  "x":6080,
                  "y":6912
+                }, 
+                {
+                 "gid":4459,
+                 "height":64,
+                 "id":1672,
+                 "name":"Treasury Pylon",
+                 "properties":
+                    {
+                     "tag":"Treasure Claimer",
+                     "treasureMap":"Orikurnis"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string",
+                     "treasureMap":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":5952,
+                 "y":7168
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -7868,7 +7890,7 @@
          "y":0
         }],
  "nextlayerid":17,
- "nextobjectid":1672,
+ "nextobjectid":1673,
  "orientation":"orthogonal",
  "properties":
     {
