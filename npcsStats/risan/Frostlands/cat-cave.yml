@@ -15,7 +15,7 @@
     armorClass: 5
     defense: 5
     perception: 20
-    damageFactor: 0.5
+    damageFactor: 0.3
 
   items:
     equipment:

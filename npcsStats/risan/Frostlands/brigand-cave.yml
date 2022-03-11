@@ -14,7 +14,7 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.3
+    damageFactor: 0.2
 
   items:
     equipment:
@@ -116,7 +116,7 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.3
+    damageFactor: 0.2
 
   items:
     equipment:
@@ -217,7 +217,7 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.3
+    damageFactor: 0.2
 
   items:
     equipment:
@@ -489,7 +489,7 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.3
+    damageFactor: 0.2
 
   items:
     equipment:
@@ -586,7 +586,7 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.3
+    damageFactor: 0.2
 
   items:
     equipment:
