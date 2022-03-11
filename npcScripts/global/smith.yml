@@ -3,18 +3,23 @@ tag: Smith
 affiliation: Smith's Guild
 hostility: Never
 
-level: 10
+level: 50
 
 hp:
-  min: 10000
-  max: 10000
+  min: 1000000
+  max: 1000000
 
 mp:
-  min: 10000
-  max: 10000
+  min: 100000
+  max: 100000
 
 usableSkills:
   - MagicMissile
+  - MagicBolt
+
+otherStats:
+  int: 30
+  str: 30
 
 items:
   equipment:

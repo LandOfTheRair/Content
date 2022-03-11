@@ -8,10 +8,17 @@ hp:
   min: 1000000
   max: 1000000
 
+mp:
+  min: 100000
+  max: 100000
+
 level: 50
 
 usableSkills:
-  - MagicMissile
+  - MagicBolt
+
+otherStats:
+  int: 50
 
 items:
   equipment:

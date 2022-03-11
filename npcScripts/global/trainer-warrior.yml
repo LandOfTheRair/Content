@@ -4,10 +4,17 @@ hostility: Never
 affiliation: Adept Warrior
 
 hp:
+  min: 1000000
+  max: 1000000
+
+mp:
   min: 100000
   max: 100000
 
 level: 50
+
+otherStats:
+  str: 30
 
 items:
   equipment:
