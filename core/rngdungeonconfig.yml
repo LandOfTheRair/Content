@@ -554,20 +554,6 @@ npcs:
       maxLevelUpLevel: 50
       maxSkillTrain: 30
 
-  smallTanner: &npcSmallTanner
-    name: ''
-    gid: 3174
-    props:
-      tag: Tanner
-      maxTanLevel: 30
-
-  largeTanner: &npcLargeTanner
-    name: ''
-    gid: 3174
-    props:
-      tag: Tanner
-      maxTanLevel: 50
-
   smallBradley: &npcSmallBradley
     name: Darwin
     gid: 3559
@@ -2672,7 +2658,7 @@ dungeonConfigs:
         teleportTag: 'SolokarExitStairs'
         teleportTagRef: 'SolokarInsideStairs'
     npcProps:
-      validNPCs: [*npcIndentifier, *npcSmith, *npcTrainerHealer, *npcTrainerMage, *npcTrainerWarrior, *npcTrainerThief, *npcLargeTanner, *npcLargeBradley, *npcDetecter, *npcWarper]
+      validNPCs: [*npcIndentifier, *npcSmith, *npcTrainerHealer, *npcTrainerMage, *npcTrainerWarrior, *npcTrainerThief, *npcLargeBradley, *npcDetecter, *npcWarper]
       npcCounts: [3, 5, 7]
     resourceProps:
       numResources: 70
@@ -2724,7 +2710,7 @@ dungeonConfigs:
         teleportTag: 'OrikurnisExitStairs'
         teleportTagRef: 'OrikurnisInsideStairs'
     npcProps:
-      validNPCs: [*npcIndentifier, *npcSmith, *npcTrainerHealer, *npcTrainerMage, *npcTrainerWarrior, *npcTrainerThief, *npcSmallTanner, *npcSmallBradley, *npcDetecter, *npcWarper]
+      validNPCs: [*npcIndentifier, *npcSmith, *npcTrainerHealer, *npcTrainerMage, *npcTrainerWarrior, *npcTrainerThief, *npcSmallBradley, *npcDetecter, *npcWarper]
       npcCounts: [2, 4, 6]
     resourceProps:
       numResources: 50
