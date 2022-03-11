@@ -16,6 +16,9 @@
       physicalResist: 3
       magicalResist: 3
 
+  requirements:
+    level: 20
+
 - name: Risan Emerald Chunk
   desc: "a chunk of raw emerald"
   sellValue: 2500
@@ -29,7 +32,7 @@
       physicalResist: 6
 
   requirements:
-    level: 7
+    level: 20
 
 - name: Risan Raw Jade
   desc: "a chunk of raw jade"
@@ -44,7 +47,7 @@
       con: 3
 
   requirements:
-    level: 7
+    level: 20
 
 - name: Risan Carved Jade
   desc: "a chunk of jade finely-carved into the shape of a scarab"
@@ -58,7 +61,7 @@
       perception: 15
 
   requirements:
-    level: 7
+    level: 20
 
 - name: Risan Polished Ruby
   desc: "a well-polished ruby"
@@ -72,7 +75,7 @@
       magicalResist: 3
 
   requirements:
-    level: 7
+    level: 20
 
 - name: Risan White Pearl
   desc: "a large white pearl"
@@ -87,7 +90,7 @@
       hpregen: 5
 
   requirements:
-    level: 7
+    level: 20
 
 - name: Risan Black Pearl
   desc: "a large black pearl"
@@ -102,7 +105,7 @@
       mpregen: 5
 
   requirements:
-    level: 7
+    level: 20
 
 - name: Risan Small Black Pearl
   desc: "a small black pearl"
@@ -117,7 +120,7 @@
       accuracy: 2
 
   requirements:
-    level: 7
+    level: 20
 
 - name: Risan Fire Prot Crystal
   desc: "a small crystal encasing a fire frozen in time"
@@ -131,6 +134,9 @@
     stats:
       fireResist: 50
 
+  requirements:
+    level: 15
+
 - name: Risan Ice Prot Crystal
   desc: "a small crystal encasing a chunk of ice"
   sellValue: 5000
@@ -142,6 +148,9 @@
 
     stats:
       iceResist: 50
+
+  requirements:
+    level: 15
 
 - name: Risan Necrotic Prot Crystal
   desc: "a small crystal encasing a chunk of earth"
@@ -167,6 +176,9 @@
     stats:
       energyResist: 50
 
+  requirements:
+    level: 15
+
 - name: Risan Poison Prot Crystal
   desc: "an ancient piece of petrified wood"
   sellValue: 6000
@@ -179,6 +191,9 @@
     stats:
       poisonResist: 50
 
+  requirements:
+    level: 15
+
 - name: Risan Disease Prot Crystal
   desc: "a tiny piece of wood with a well-preserved beetle"
   sellValue: 4000
@@ -190,6 +205,9 @@
 
     stats:
       diseaseResist: 25
+
+  requirements:
+    level: 15
 
 - name: Risan Purple Gem
   desc: "a small purple gem with a small ray of light inside it"
