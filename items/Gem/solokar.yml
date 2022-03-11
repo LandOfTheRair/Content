@@ -36,7 +36,7 @@
   sprite: 247
 
   encrustGive:
-    slots: ['armor', 'hands', 'feet', 'head', 'wrists']
+    slots: ['armor', 'hands', 'feet', 'head', 'neck']
 
     stats:
       mitigation: 2
