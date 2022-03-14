@@ -24,6 +24,18 @@
     - Copper Ingot (Pillars)
     - Antanian Branch
 
+- item: Enos Energy Wand
+  name: Energy Focus Wand
+  category: Foci
+  skillGained: 20
+  maxSkillForGains: 11
+  requireSkill: 7
+  xpGained: 25000
+  ingredients:
+    - Enchanting Brick - Enos
+    - Gold Ingot (Pillars)
+    - Antanian Branch
+
 - item: Enos Healing Totem
   name: Healing Focus Totem
   category: Foci

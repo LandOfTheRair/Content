@@ -37,3 +37,22 @@
 
   requirements:
     level: 12
+
+- name: Enos Energy Wand
+  desc: "a blue wand pulsing with energy"
+  tier: 1
+  stats:
+    conjurationBonus: 1
+  trait:
+    name: EnergyFocus
+    level: 2
+  breakEffect:
+    name: EnergyWave
+    potency: 500
+  maxUpgrades: 1
+  type: Wand
+  value: 750
+  sprite: 281
+
+  requirements:
+    level: 12
