@@ -64,7 +64,7 @@
     weaponArmorClass: 1
   offhand: true
   desc: "a soronite axe forged in the twisting ether and set with a simple purple gem"
-  tier: 6
+  tier: 7
   type: Axe
   value: 12385
   sprite: 455

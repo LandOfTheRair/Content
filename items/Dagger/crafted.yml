@@ -54,7 +54,7 @@
   desc: "a small dagger forged of orikalcum, emblazoned with a green gem"
   offhand: true
   returnsOnThrow: true
-  tier: 6
+  tier: 7
   type: Dagger
   value: 12185
   sprite: 418
