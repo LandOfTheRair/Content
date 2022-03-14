@@ -130,10 +130,15 @@
 
       leftHand:
         - result: none
-          chance: 5
+          chance: 50
         - result: Tower Shield Weak
+          chance: 10
+        - result: Tower Offense Saucer
           chance: 1
-
+        - result: Tower Defense Saucer
+          chance: 1
+        - result: Tower Vitals Saucer
+          chance: 1
   copyDrops:
     - result: 'equipment.armor'
       chance: -1
