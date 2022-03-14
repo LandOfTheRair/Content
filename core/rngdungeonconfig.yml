@@ -2678,6 +2678,7 @@ dungeonConfigs:
       eliteTickCap: 20
     itemProps:
       baseTier: 7
+      baseArrowTier: 4
       baseSpecificResist: 300
       baseGeneralResist: 100
       baseBoostPercent: 15
@@ -2730,6 +2731,7 @@ dungeonConfigs:
       eliteTickCap: 40
     itemProps:
       baseTier: 4
+      baseArrowTier: 3
       baseSpecificResist: 100
       baseGeneralResist: 30
       baseBoostPercent: 5
