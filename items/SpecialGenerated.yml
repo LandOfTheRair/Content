@@ -11,6 +11,7 @@
   sprite: 0
   desc: "a bundle of arrows created out of the twisted ether from $location$"
   value: 1
+  shots: 10000
   
 - name: Generated Axe
   itemClass: Axe
