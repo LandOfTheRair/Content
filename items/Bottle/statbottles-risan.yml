@@ -44,7 +44,7 @@
   value: 5000
 
 - name: Risan Wisdom Potion
-  desc: "a small bottle filled with teal that smells like a herbs"
+  desc: "a small bottle filled with teal that smells like fresh herbs"
   extendedDesc: "a potion of basic wisdom"
   sprite: 156
   useEffect:
