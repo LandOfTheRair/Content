@@ -2647,6 +2647,8 @@ dungeonConfigs:
       x: 174
       y: 224
       blockEntryMessage: The maze is currently shifting... try again soon!
+      maxLevel: 50
+      maxSkill: 30
     objProps:
       entry:
         teleportTagRef: 'SolokarLanding-'
@@ -2700,6 +2702,8 @@ dungeonConfigs:
       x: 87
       y: 109
       blockEntryMessage: The caves are currently shifting... try again soon!
+      maxLevel: 30
+      maxSkill: 20
     objProps:
       entry:
         teleportTagRef: 'OrikurnisLanding-'
