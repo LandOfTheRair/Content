@@ -1,0 +1,86 @@
+
+  
+- name: Conjured Axe
+  itemClass: Axe
+  sprite: 41
+  desc: "an axe crafted from raw ether"
+  type: Axe
+  value: 1
+  
+- name: Conjured Crossbow
+  itemClass: Crossbow
+  sprite: 1053
+  desc: "a crossbow crafted from raw ether"
+  type: Ranged
+  value: 1
+  
+- name: Conjured Dagger
+  itemClass: Dagger
+  sprite: 42
+  desc: "a dagger crafted from raw ether"
+  type: Dagger
+  value: 1
+  
+- name: Conjured Greataxe
+  itemClass: Greataxe
+  sprite: 954
+  desc: "a greataxe crafted from raw ether"
+  type: Axe
+  value: 1
+  
+- name: Conjured Greatmace
+  itemClass: Greatmace
+  sprite: 45
+  desc: "a greatmace crafted from raw ether"
+  type: Mace
+  value: 1
+  
+- name: Conjured Greatsword
+  itemClass: Greatsword
+  sprite: 43
+  desc: "a greatsword crafted from raw ether"
+  type: Twohanded
+  value: 1
+  
+- name: Conjured Halberd
+  itemClass: Halberd
+  sprite: 44
+  desc: "a halberd crafted from raw ether"
+  type: Polearm
+  value: 1
+  
+- name: Conjured Longbow
+  itemClass: Longbow
+  sprite: 47
+  desc: "a longbow crafted from raw ether"
+  type: Ranged
+  value: 1
+
+- name: Conjured Longsword
+  itemClass: Longsword
+  tier: 1
+  sprite: 1035
+  desc: "a sword crafted from raw ether"
+  type: Sword
+  value: 0
+  
+- name: Conjured Mace
+  itemClass: Mace
+  sprite: 48
+  desc: "a mace crafted from raw ether"
+  type: Mace
+  value: 1
+  
+- name: Conjured Shortsword 
+  itemClass: Shortsword
+  sprite: 195
+  desc: "a shortsword crafted from raw ether"
+  type: Shortsword
+  value: 1
+  
+- name: Conjured Spear 
+  itemClass: Staff
+  sprite: 51
+  desc: "a spear crafted from raw ether"
+  type: Staff
+  value: 1

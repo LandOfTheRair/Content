@@ -316,12 +316,12 @@ ConjureSword:
 
   # trait info
   trait:
-    name: Conjure Sword
+    name: Conjure Weapon
     borderColor: "#a0a"
 
   # macro info
   macro:
-    name: Conjure Sword
+    name: Conjure Weapon
     mode: 'autoActivate'
 
 ConjureShield:
