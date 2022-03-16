@@ -2670,8 +2670,8 @@ dungeonConfigs:
       statScale: 3
       baseStat: 20
       legendaryBaseStat: 25
-      baseSkill: 8
-      legendaryBaseSkill: 10
+      baseSkill: 10
+      legendaryBaseSkill: 14
       creaturesPerSet: 4
       bonusCreatureSkillChoices: 2
       bonusCreatureTraitChoices: 2
@@ -2724,8 +2724,8 @@ dungeonConfigs:
       baseStat: 15
       legendaryBaseStat: 20
       creaturesPerSet: 4
-      baseSkill: 4
-      legendaryBaseSkill: 6
+      baseSkill: 6
+      legendaryBaseSkill: 9
       bonusCreatureSkillChoices: 1
       bonusCreatureTraitChoices: 1
       eliteTickCap: 40
