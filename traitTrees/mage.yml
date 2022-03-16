@@ -121,7 +121,8 @@ Mage:
           - name: ''
           
         - traits: 
-          - name: ''
+          - name: ExpansiveKnowledge
+            maxLevel: 1
 
           - name: ''
 

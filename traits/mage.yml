@@ -109,3 +109,8 @@ IceFocus:
   icon: plasma-bolt
   statsGiven:
     iceBoostPercent: 10
+
+ExpansiveKnowledge:
+  name: Expansive Knowledge
+  desc: Your identify spell can identify the finest details of an item.
+  icon: uncertainty
