@@ -160,7 +160,19 @@
          "draworder":"topdown",
          "id":8,
          "name":"OpaqueDecor",
-         "objects":[],
+         "objects":[
+                {
+                 "gid":1056,
+                 "height":64,
+                 "id":539,
+                 "name":"",
+                 "rotation":0,
+                 "type":"SecretWall",
+                 "visible":true,
+                 "width":64,
+                 "x":1344,
+                 "y":1472
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -2034,7 +2046,7 @@
          "y":0
         }],
  "nextlayerid":17,
- "nextobjectid":539,
+ "nextobjectid":540,
  "orientation":"orthogonal",
  "properties":
     {
