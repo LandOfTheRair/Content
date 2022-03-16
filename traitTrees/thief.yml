@@ -58,7 +58,8 @@ Thief:
             requires: Identify
           
         - traits: 
-          - name: ''
+          - name: ReplenishingShadows
+            maxLevel: 5
             
           - name: ''
             

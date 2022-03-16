@@ -210,3 +210,9 @@ VortexWiden:
   desc: Your Vortex spell will extend outwards and additional +$1$ tile.
   icon: wind-hole
   valuePerTier: 1
+
+ReplenishingShadows:
+  name: Replenishing Shadows
+  desc: +$10$% of your MP regen will apply to stealth while hidden.
+  icon: cross-mark
+  valuePerTier: 0.1
