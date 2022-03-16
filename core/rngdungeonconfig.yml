@@ -2668,8 +2668,8 @@ dungeonConfigs:
       level: 40
       legendaryLevel: 45
       statScale: 3
-      baseStat: 17
-      legendaryBaseStat: 22
+      baseStat: 20
+      legendaryBaseStat: 25
       baseSkill: 8
       legendaryBaseSkill: 10
       creaturesPerSet: 4
@@ -2721,8 +2721,8 @@ dungeonConfigs:
       level: 20
       legendaryLevel: 25
       statScale: 1
-      baseStat: 10
-      legendaryBaseStat: 15
+      baseStat: 15
+      legendaryBaseStat: 20
       creaturesPerSet: 4
       baseSkill: 4
       legendaryBaseSkill: 6
