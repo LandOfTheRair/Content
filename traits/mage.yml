@@ -114,3 +114,8 @@ ExpansiveKnowledge:
   name: Expansive Knowledge
   desc: Your identify spell can identify the finest details of an item.
   icon: uncertainty
+
+MagicalStrikes:
+  name: Magical Strikes
+  desc: Your wands can be equipped in your Ammo slot, and apply to physical attacks.
+  icon: orb-wand

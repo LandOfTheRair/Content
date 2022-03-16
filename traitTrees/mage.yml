@@ -246,7 +246,8 @@ Mage:
           - name: ConjureShield
             maxLevel: 1
 
-          - name: ''
+          - name: MagicalStrikes
+            maxLevel: 1
 
           - name: GlacierStance
             maxLevel: 1
