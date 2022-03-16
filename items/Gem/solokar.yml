@@ -141,7 +141,7 @@
   sprite: 1010
 
   encrustGive:
-    slots: ['wrists']
+    slots: ['neck']
 
     stats:
       str: 3
@@ -156,7 +156,7 @@
   sprite: 1009
 
   encrustGive:
-    slots: ['wrists']
+    slots: ['neck']
 
     stats:
       agi: 3
