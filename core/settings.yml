@@ -85,6 +85,54 @@ npcgen:
       Risan Luck Potion: 700
       Risan Charisma Potion: 550
 
+npcscript:
+  trainer:
+    assessCost: 50
+    trainCost: 200
+    resetCost: 10000
+
+  steelrose:
+    maxListings: 25
+
+  hpdoc:
+    levels:       [0, 13, 25, 50]
+    normalizers:  [100, 200, 300, 1500]
+    costs:
+      - { min: 100,     max: 500 }
+      - { min: 5000,    max: 15000 }
+      - { min: 100000,  max: 1000000 }
+      - { min: 1000000, max: 10000000 }
+    values:
+      Mage:       [100, 375, 600, 2400]
+      Thief:      [100, 425, 700, 2800]
+      Healer:     [100, 400, 650, 2600]
+      Warrior:    [100, 450, 800, 3000]
+      Traveller:  [100, 600, 550, 2200]
+
+  mpdoc:
+    levels:       [0, 13, 25, 50]
+    normalizers:  [100, 200, 300, 1500]
+    costs:
+      - { min: 100,     max: 500 }
+      - { min: 10000,   max: 30000 }
+      - { min: 200000,  max: 2000000 }
+      - { min: 2000000, max: 20000000 }
+    values:
+      Mage:       [0, 0, 1000, 2000]
+      Thief:      [0, 0, 300, 500]
+      Healer:     [0, 0, 900, 1800]
+      Warrior:    [0, 0, 200, 400]
+      Traveller:  [0, 0, 0, 0]
+
+  buffer:
+    duration: 900
+    buffs:
+      - Invisibility
+      - DarkVision
+
+  axpswapper:
+    level: 50
+
 players:
   saveTicks: 150
 
