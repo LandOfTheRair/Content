@@ -110,3 +110,27 @@
     - filter: Gold Ore
       display: Gold Ore (Small)
       ounces: 100
+
+- item: Orikalcum Ingot
+  name: Orikalcum Ingot
+  category: Ore Refinement
+  skillGained: 2
+  maxSkillForGains: 15
+  requireSkill: 9
+  xpGained: 15000
+  ozIngredients:
+    - filter: Orikalcum Ore
+      display: Orikalcum Ore (Small)
+      ounces: 100
+
+- item: Soronite Ingot
+  name: Soronite Ingot
+  category: Ore Refinement
+  skillGained: 2
+  maxSkillForGains: 20
+  requireSkill: 14
+  xpGained: 45000
+  ozIngredients:
+    - filter: Soronite Ore
+      display: Soronite Ore (Small)
+      ounces: 100

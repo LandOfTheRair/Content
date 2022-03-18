@@ -183,6 +183,24 @@
     physicalResist: 3
     magicalResist: 3
 
+- name: Orikalcum Ingot
+  sprite: 1056
+  desc: "an ingot made of pure orikalcum, commonly used by blacksmiths"
+  value: 25
+  canUpgradeWith: true
+
+  stats:
+    xpBonusPercent: 0.05
+
+- name: Soronite Ingot
+  sprite: 1055
+  desc: "a ingot made of pure soronite, commonly used by blacksmiths"
+  value: 25
+  canUpgradeWith: true
+
+  stats:
+    skillBonusPercent: 0.05
+
 - name: Armor Mold
   sprite: 992
   desc: "a mold of armor"
