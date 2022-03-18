@@ -8,8 +8,10 @@ character:
   maxSkill: 30
   maxStats: 25
   chaSlidingDiscount: 7
+  chaMaxForDiscount: 10
   hpRegenSlidingCon: 21
   defaultMove: 3
+  maxMove: 4
   defaultCasterMPRegen: 10
   thiefOOCRegen: 10
   thiefICRegen: 1
@@ -28,6 +30,94 @@ character:
   axpPerLevel: 500
   baseXP: 1000
   baseRep: 500
+  defaultInvulnDuration: 3
+  rotStatThreshold: 5
+  lowCONHPLossThreshold: 10
+  axpRewardThreshold: 5
+  skillActiveTicks: 30
+  thiefBonusMultiplier: 1.5
+  goldStealDifficulty: 3
+  itemStealDifficulty: 10
+  stealSkillLower: 3
+  stealSkillUpper: 5
+  stealLevelRangeForSkillGain: 3
+
+  creation:
+    baseMP:
+      Healer: 50
+      Mage: 70
+      Warrior: 100
+      Thief: 100
+      Traveller: 0
+      
+    learnedTraits:
+      Healer: Afflict
+      Mage: MagicMissile
+      Warrior: Cleave
+      Thief: ImprovedHide
+      Traveller: ''
+
+  levelup:
+    Healer:
+      hp: 
+        base: 3
+        randomConDivisor: 5
+        bonusConDivisor: 3
+        randomConBonusMultiplier: 3
+
+      mp:
+        base: 1
+        randomMultiplier: 1
+        randomDivisor: 3
+
+    Mage:
+      hp: 
+        base: 1
+        randomConDivisor: 1
+        bonusConDivisor: 1
+        randomConBonusMultiplier: 1
+
+      mp:
+        base: 2
+        randomMultiplier: 2
+        randomDivisor: 5
+
+    Warrior:
+      hp: 
+        base: 1
+        randomConDivisor: 2
+        bonusConDivisor: 2
+        randomConBonusMultiplier: 1
+
+      mp:
+        base: 0
+        randomMultiplier: 0
+        randomDivisor: 0
+
+    Thief:
+      hp: 
+        base: 2
+        randomConDivisor: 1
+        bonusConDivisor: 2
+        randomConBonusMultiplier: 1
+
+      mp:
+        base: 0
+        randomMultiplier: 0
+        randomDivisor: 0
+
+    Traveller:
+      hp: 
+        base: 2
+        randomConDivisor: 2
+        bonusConDivisor: 2
+        randomConBonusMultiplier: 1
+
+      mp:
+        base: 0
+        randomMultiplier: 0
+        randomDivisor: 0
+
 
 combat:
   buildUpDecay: 3
@@ -37,6 +127,24 @@ combat:
   cstunConMultiplier: 21
   offhandDamageReduction: 0.8
   resourceConditionDamage: 50
+  npcViolenceMultiplier: 5
+  magicCriticalMultiplier: 2
+  willSaveThresholdDefault: 20
+  willSavePercentDefault: 30
+  strongAttackBaseChance: 50
+  weakAttackLuckReduction: 10
+  attackVarianceBaseBonusRolls: 1
+  attackVarianceStrongBonusRolls: 2
+  skillDivisor: 4
+  damageStatDivisor: 4
+  defenseDexDivisor: 4
+  defenseOffhandSkillDivisor: 4
+  dodgeBonusDivisor: 10
+  defenderBlockBonus: 1
+  attackerAttackBonus: 10
+  levelDifferenceRange: 10
+  levelDifferenceMultiplier: 5
+  mitigationMax: 75
 
 corpse:
   playerExpire: 500
@@ -57,12 +165,52 @@ ground:
   saveTicks: 150
   expireTicks: 1800
 
+item:
+  conditionThresholds:
+    broken: 0
+    rough: 2500
+    tattered: 5000
+    belowAverage: 10000
+    average: 20000
+    aboveAverage: 30000
+    mint: 40000
+    aboveMint: 50000
+    perfect: 99999
+    heavenly: 999999
+    
+  conditionACMods:
+    broken: -4
+    rough: -3
+    tattered: -2
+    belowAverage: -1
+    average: 0
+    aboveAverage: 1
+    mint: 2
+    aboveMint: 3
+    perfect: 4
+    heavenly: 5
+
+map:
+  xpMultiplier:
+    uncut: 1
+    firstSoftCut: 0.9
+    secondSoftCut: 0.75
+    hardCut: 0.5
+    unknown: 0.1
+
+  defaultRespawnPoint:
+    map: Rylt
+    x: 68
+    y: 13
+
 npcgen:
   attrMult: 2
   eliteMult: 4
   levelFuzz: 2
+  levelFuzzMinLevel: 10
   eliteLootMult: 2
   normalLootMult: 1
+  eliteLevelBonusDivisor: 10
 
   potionDrops:
     Antania:
@@ -84,6 +232,28 @@ npcgen:
       Risan Willpower Potion: 350
       Risan Luck Potion: 700
       Risan Charisma Potion: 550
+
+npc:
+  messages:
+    hostile:
+      - Die!
+      - Begone!
+      - Leave this place!
+
+    beast:
+      - _growl_
+      - _snarl_
+
+    friendly:
+      - Hmm?
+      - What do you mean?
+      - Hello, are you looking for me?
+      - What do you want with me?
+      - Did you mean to say something else?
+      - What did you just call me?
+      - Can you get to the point of the matter?
+      - I'm very busy, can you hurry it up?
+      - Can you be more clear
 
 npcscript:
   trainer:
@@ -133,8 +303,16 @@ npcscript:
   axpswapper:
     level: 50
 
-players:
+timers:
+  dailyResetHour: 12
   saveTicks: 150
+
+inventory:
+  sackSize: 25
+  beltSize: 5
+  pouchSize: 5
+  lockerSize: 25
+  materialSize: 200
 
 potion:
   Lesser: 10
@@ -165,6 +343,12 @@ subscriber:
   xpGain: 0.05
   skillGain: 0.05
   holidayTokenGain: 2
+
+spell:
+  dazedDivisor: 2
+  encumberedDivisor: 2
+  skillGainedPerCast: 1
+  skillGainedPerAOECast: 0.01
 
 tradeskill:
   validTradeskills:
