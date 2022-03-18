@@ -17,3 +17,11 @@
   desc: "a robe made of insulating material"
   sprite: 211
   value: 1
+
+- name: Artificer Robe
+  stats:
+    agi: 2
+  destroyOnDrop: true
+  desc: "a dark robe depicting the sun setting over the etherscape"
+  sprite: 277
+  value: 1
