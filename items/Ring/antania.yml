@@ -92,7 +92,7 @@
   randomStats:
     int:
       min: 0
-      max: 2
+      max: 1
     defense:
       min: 0
       max: 2
