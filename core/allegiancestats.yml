@@ -9,7 +9,7 @@ Adventurers:
   - stat: thrownBonus
     value: 1
 
-Pirate:
+Pirates:
   - stat: weaponDamageRolls
     value: 3
 
