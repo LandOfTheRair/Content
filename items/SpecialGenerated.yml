@@ -15,6 +15,7 @@
   
 - name: Generated Axe
   itemClass: Axe
+  type: Axe
   sprite: 0
   desc: "an axe created out of the twisting ether of $location$"
   value: 1
@@ -39,6 +40,7 @@
   
 - name: Generated Broadsword
   itemClass: Broadsword
+  type: Sword
   sprite: 0
   desc: "a broadsword created out of the twisting ether of $location$"
   value: 1
@@ -57,18 +59,21 @@
   
 - name: Generated Club
   itemClass: Club
+  type: Mace
   sprite: 0
   desc: "a club created out of the twisting ether of $location$"
   value: 1
   
 - name: Generated Crossbow
   itemClass: Crossbow
+  type: Ranged
   sprite: 0
   desc: "a crossbow created out of the twisting ether of $location$"
   value: 1
   
 - name: Generated Dagger
   itemClass: Dagger
+  type: Dagger
   sprite: 0
   desc: "a dagger created out of the twisting ether of $location$"
   value: 1
@@ -81,6 +86,7 @@
   
 - name: Generated Flail
   itemClass: Flail
+  type: Mace
   sprite: 0
   desc: "a flail created out of the twisting ether of $location$"
   value: 1
@@ -105,30 +111,35 @@
   
 - name: Generated Greataxe
   itemClass: Greataxe
+  type: Axe
   sprite: 0
   desc: "a greataxe created out of the twisting ether of $location$"
   value: 1
   
 - name: Generated Greatmace
   itemClass: Greatmace
+  type: Mace
   sprite: 0
   desc: "a greatmace created out of the twisting ether of $location$"
   value: 1
   
 - name: Generated Greatsword
   itemClass: Greatsword
+  type: Twohanded
   sprite: 0
   desc: "a greatsword created out of the twisting ether of $location$"
   value: 1
   
 - name: Generated Halberd
   itemClass: Halberd
+  type: Polearm
   sprite: 0
   desc: "a halberd created out of the twisting ether of $location$"
   value: 1
   
 - name: Generated Hammer
   itemClass: Hammer
+  type: Mace
   sprite: 0
   desc: "a hammer created out of the twisting ether of $location$"
   value: 1
@@ -147,18 +158,21 @@
   
 - name: Generated Longbow
   itemClass: Longbow
+  type: Ranged
   sprite: 0
   desc: "a longbow created out of the twisting ether of $location$"
   value: 1
 
 - name: Generated Longsword
   itemClass: Longsword
+  type: Sword
   sprite: 0
   desc: "a longsword created out of the twisting ether of $location$"
   value: 1
   
 - name: Generated Mace
   itemClass: Mace
+  type: Mace
   sprite: 0
   desc: "a mace created out of the twisting ether of $location$"
   value: 1
@@ -201,30 +215,35 @@
   
 - name: Generated Shortbow
   itemClass: Shortbow
+  type: Ranged
   sprite: 0
   desc: "a shortbow created out of the twisting ether of $location$"
   value: 1
   
 - name: Generated Shortsword 
   itemClass: Shortsword
+  type: Shortsword
   sprite: 0
   desc: "a shortsword created out of the twisting ether of $location$"
   value: 1
   
 - name: Generated Spear
   itemClass: Spear
+  type: Staff
   sprite: 0
   desc: "a spear created out of the twisting ether of $location$"
   value: 1
   
 - name: Generated Staff 
   itemClass: Staff
+  type: Staff
   sprite: 0
   desc: "a staff created out of the twisting ether of $location$"
   value: 1
   
 - name: Generated Totem 
   itemClass: Totem
+  type: Wand
   sprite: 0
   desc: "a totem created out of the twisting ether of $location$"
   value: 1
@@ -237,6 +256,7 @@
   
 - name: Generated Wand 
   itemClass: Wand
+  type: Wand
   sprite: 0
   desc: "a wand created out of the twisting ether of $location$"
   value: 1

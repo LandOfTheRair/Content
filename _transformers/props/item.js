@@ -141,6 +141,7 @@ const conditionallyAddInformation = (item) => {
     item.isBeltable = false;
     item.twoHanded = true;
     item.attackRange = 1;
+    if(isUndefined(item.proneChance)) item.proneChance = 5;
   }
 
   if(['Blunderbuss', 'Shortbow', 'Longbow', 'Greatmace', 'Greataxe'].includes(item.itemClass)) {
@@ -161,6 +162,23 @@ const conditionallyAddInformation = (item) => {
     if(!item.stats.accuracy) item.stats.accuracy = 0;
     if(!item.stats.mitigation) item.stats.mitigation = 5;
     if(!item.tier) item.tier = 1;
+  }
+
+  if(item.itemClass === 'Mace' && isUndefined(item.proneChance)) {
+    item.proneChance = 5;
+  }
+
+  if(item.itemClass === 'Flail' && isUndefined(item.proneChance)) {
+    item.proneChance = 10;
+  }
+
+  if(item.itemClass === 'Club' && isUndefined(item.proneChance)) {
+    item.proneChance = 10;
+  }
+
+  if(item.type === 'Staff') {
+    if(isUndefined(item.twoHanded)) item.twoHanded = true;
+    if(isUndefined(item.proneChance))item.proneChance = 10;
   }
 
   if(item.type === 'Twohanded' || item.secondaryType === 'Twohanded') {
