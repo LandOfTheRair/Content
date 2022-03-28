@@ -195,7 +195,7 @@
     level: 20
 
 - name: Orikurnis Resistant Alexandrite
-  desc: "an chunk of polished alexandrite"
+  desc: "a chunk of polished alexandrite"
   sellValue: 30000
   value: 500
   sprite: 60
@@ -210,7 +210,7 @@
     level: 20
 
 - name: Orikurnis Regenerative Rhodonite
-  desc: "an crystalline chunk of rhodonite"
+  desc: "a crystalline chunk of rhodonite"
   sellValue: 30000
   value: 500
   sprite: 57
@@ -226,7 +226,7 @@
     level: 20
 
 - name: Orikurnis Combatative Corundum
-  desc: "an crystalline chunk of corundum"
+  desc: "a crystalline chunk of corundum"
   sellValue: 30000
   value: 500
   sprite: 62
@@ -242,7 +242,7 @@
     level: 20
 
 - name: Orikurnis Mace Gem
-  desc: "an reflective crystal inscribed with a mace"
+  desc: "a reflective crystal inscribed with a mace"
   sellValue: 30000
   value: 500
   sprite: 63
@@ -257,7 +257,7 @@
     level: 20
 
 - name: Orikurnis Axe Gem
-  desc: "an reflective crystal inscribed with an axe"
+  desc: "a reflective crystal inscribed with an axe"
   sellValue: 30000
   value: 500
   sprite: 63
@@ -272,7 +272,7 @@
     level: 20
 
 - name: Orikurnis Dagger Gem
-  desc: "an reflective crystal inscribed with a dagger"
+  desc: "a reflective crystal inscribed with a dagger"
   sellValue: 30000
   value: 500
   sprite: 63
@@ -287,7 +287,7 @@
     level: 20
 
 - name: Orikurnis Sword Gem
-  desc: "an reflective crystal inscribed with a sword"
+  desc: "a reflective crystal inscribed with a sword"
   sellValue: 30000
   value: 500
   sprite: 63
@@ -302,7 +302,7 @@
     level: 20
 
 - name: Orikurnis Shortsword Gem
-  desc: "an reflective crystal inscribed with a shortsword"
+  desc: "a reflective crystal inscribed with a shortsword"
   sellValue: 30000
   value: 500
   sprite: 63
@@ -317,7 +317,7 @@
     level: 20
 
 - name: Orikurnis Polearm Gem
-  desc: "an reflective crystal inscribed with a polearm"
+  desc: "a reflective crystal inscribed with a polearm"
   sellValue: 30000
   value: 500
   sprite: 63
@@ -332,7 +332,7 @@
     level: 20
 
 - name: Orikurnis Wand Gem
-  desc: "an reflective crystal inscribed with a wand"
+  desc: "a reflective crystal inscribed with a wand"
   sellValue: 30000
   value: 500
   sprite: 63
@@ -347,7 +347,7 @@
     level: 20
 
 - name: Orikurnis Staff Gem
-  desc: "an reflective crystal inscribed with a staff"
+  desc: "a reflective crystal inscribed with a staff"
   sellValue: 30000
   value: 500
   sprite: 63
@@ -362,7 +362,7 @@
     level: 20
 
 - name: Orikurnis Fist Gem
-  desc: "an reflective crystal inscribed with a fist"
+  desc: "a reflective crystal inscribed with a fist"
   sellValue: 30000
   value: 500
   sprite: 63
@@ -377,7 +377,7 @@
     level: 20
 
 - name: Orikurnis Bow Gem
-  desc: "an reflective crystal inscribed with a bow"
+  desc: "a reflective crystal inscribed with a bow"
   sellValue: 30000
   value: 500
   sprite: 63
@@ -392,7 +392,7 @@
     level: 20
 
 - name: Orikurnis Chakram Gem
-  desc: "an reflective crystal inscribed with a chakram"
+  desc: "a reflective crystal inscribed with a chakram"
   sellValue: 30000
   value: 500
   sprite: 63
@@ -407,7 +407,7 @@
     level: 20
 
 - name: Orikurnis Greatsword Gem
-  desc: "an reflective crystal inscribed with a large weapon"
+  desc: "a reflective crystal inscribed with a large weapon"
   sellValue: 30000
   value: 500
   sprite: 63
@@ -422,7 +422,7 @@
     level: 20
 
 - name: Orikurnis Thievery Gem
-  desc: "an reflective crystal cloaked in shadow"
+  desc: "a reflective crystal cloaked in shadow"
   sellValue: 30000
   value: 500
   sprite: 63
@@ -437,7 +437,7 @@
     level: 20
 
 - name: Orikurnis Conjuration Gem
-  desc: "an reflective crystal cloaked in a roaring flame"
+  desc: "a reflective crystal cloaked in a roaring flame"
   sellValue: 30000
   value: 500
   sprite: 63
@@ -452,7 +452,7 @@
     level: 20
 
 - name: Orikurnis Restoration Gem
-  desc: "an reflective crystal cloaked in a soothing mist"
+  desc: "a reflective crystal cloaked in a soothing mist"
   sellValue: 30000
   value: 500
   sprite: 63

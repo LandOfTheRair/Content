@@ -1,6 +1,6 @@
 
 - name: Solokar Jade
-  desc: "a small insectoid gem that appears to move whenever you turn your gaze away"
+  desc: "a shimmering insectoid gem that appears to move whenever you turn your gaze away"
   sellValue: 100000
   value: 10000
   sprite: 311
@@ -15,7 +15,7 @@
     level: 40
 
 - name: Solokar Raw Jade
-  desc: "a chunk of raw jade that emanates extreme power"
+  desc: "a shimmering chunk of raw jade that emanates extreme power"
   sellValue: 100000
   value: 10000
   sprite: 310
@@ -30,7 +30,7 @@
     level: 40
 
 - name: Solokar Diamond
-  desc: "a polished diamond, refined many times over"
+  desc: "a shimmering diamond, refined many times over"
   sellValue: 100000
   value: 10000
   sprite: 247
@@ -45,7 +45,7 @@
     level: 40
 
 - name: Solokar Power Ruby
-  desc: "a sharp ruby glistening with force"
+  desc: "a shimmering sharp ruby glistening with force"
   sellValue: 100000
   value: 10000
   sprite: 312
@@ -60,7 +60,7 @@
     level: 40
 
 - name: Solokar Amber
-  desc: "a sticky chunk of amber that lets you see farther"
+  desc: "a shimmering sticky chunk of amber that lets you see farther"
   sellValue: 100000
   value: 10000
   sprite: 59
@@ -75,7 +75,7 @@
     level: 40
 
 - name: Solokar Reflective Citrine
-  desc: "a physically reflective chunk of citrine"
+  desc: "a shimmering physically reflective chunk of citrine"
   sellValue: 100000
   value: 10000
   sprite: 58
@@ -90,7 +90,7 @@
     level: 40
 
 - name: Solokar Mirroring Citrine
-  desc: "a magically reflective chunk of citrine"
+  desc: "a shimmering magically reflective chunk of citrine"
   sellValue: 100000
   value: 10000
   sprite: 58
@@ -105,7 +105,7 @@
     level: 40
 
 - name: Solokar Sharp Sapphire
-  desc: "a sharp chunk of sapphire that refines your grip"
+  desc: "a shimmering sharp chunk of sapphire that refines your grip"
   sellValue: 100000
   value: 10000
   sprite: 61
@@ -120,7 +120,7 @@
     level: 40
 
 - name: Solokar Strong Crystal
-  desc: "a raw chunk of earth crystal"
+  desc: "a shimmering chunk of earth crystal"
   sellValue: 100000
   value: 10000
   sprite: 341
@@ -135,7 +135,7 @@
     level: 40
 
 - name: Solokar Strong Diamond
-  desc: "a rage-red diamond"
+  desc: "a shimmering rage-red diamond"
   sellValue: 100000
   value: 10000
   sprite: 1010
@@ -150,7 +150,7 @@
     level: 40
 
 - name: Solokar Quick Diamond
-  desc: "a bunny-black diamond"
+  desc: "a shimmering bunny-black diamond"
   sellValue: 100000
   value: 10000
   sprite: 1009
@@ -165,7 +165,7 @@
     level: 40
 
 - name: Solokar Smart Diamond
-  desc: "a rat-green diamond"
+  desc: "a shimmering rat-green diamond"
   sellValue: 100000
   value: 10000
   sprite: 1011
@@ -180,7 +180,7 @@
     level: 40
 
 - name: Solokar Wise Diamond
-  desc: "an owl-blue diamond"
+  desc: "a shimmering owl-blue diamond"
   sellValue: 100000
   value: 10000
   sprite: 1014
@@ -195,7 +195,7 @@
     level: 40
 
 - name: Solokar Resistant Alexandrite
-  desc: "an chunk of polished alexandrite"
+  desc: "a shimmering chunk of polished alexandrite"
   sellValue: 30000
   value: 500
   sprite: 60
@@ -210,7 +210,7 @@
     level: 40
 
 - name: Solokar Regenerative Rhodonite
-  desc: "an crystalline chunk of rhodonite"
+  desc: "a shimmering crystalline chunk of rhodonite"
   sellValue: 100000
   value: 10000
   sprite: 57
@@ -226,7 +226,7 @@
     level: 40
 
 - name: Solokar Combatative Corundum
-  desc: "an crystalline chunk of corundum"
+  desc: "a shimmering crystalline chunk of corundum"
   sellValue: 100000
   value: 10000
   sprite: 62
@@ -242,7 +242,7 @@
     level: 40
 
 - name: Solokar Mace Gem
-  desc: "an reflective crystal inscribed with a mace"
+  desc: "a shimmering crystal inscribed with a mace"
   sellValue: 100000
   value: 10000
   sprite: 63
@@ -257,7 +257,7 @@
     level: 40
 
 - name: Solokar Axe Gem
-  desc: "an reflective crystal inscribed with an axe"
+  desc: "a shimmering crystal inscribed with an axe"
   sellValue: 100000
   value: 10000
   sprite: 63
@@ -272,7 +272,7 @@
     level: 40
 
 - name: Solokar Dagger Gem
-  desc: "an reflective crystal inscribed with a dagger"
+  desc: "a shimmering crystal inscribed with a dagger"
   sellValue: 100000
   value: 10000
   sprite: 63
@@ -287,7 +287,7 @@
     level: 40
 
 - name: Solokar Sword Gem
-  desc: "an reflective crystal inscribed with a sword"
+  desc: "a shimmering crystal inscribed with a sword"
   sellValue: 100000
   value: 10000
   sprite: 63
@@ -302,7 +302,7 @@
     level: 40
 
 - name: Solokar Shortsword Gem
-  desc: "an reflective crystal inscribed with a shortsword"
+  desc: "a shimmering crystal inscribed with a shortsword"
   sellValue: 100000
   value: 10000
   sprite: 63
@@ -317,7 +317,7 @@
     level: 40
 
 - name: Solokar Polearm Gem
-  desc: "an reflective crystal inscribed with a polearm"
+  desc: "a shimmering crystal inscribed with a polearm"
   sellValue: 100000
   value: 10000
   sprite: 63
@@ -332,7 +332,7 @@
     level: 40
 
 - name: Solokar Wand Gem
-  desc: "an reflective crystal inscribed with a wand"
+  desc: "a shimmering crystal inscribed with a wand"
   sellValue: 100000
   value: 10000
   sprite: 63
@@ -347,7 +347,7 @@
     level: 40
 
 - name: Solokar Staff Gem
-  desc: "an reflective crystal inscribed with a staff"
+  desc: "a shimmering crystal inscribed with a staff"
   sellValue: 100000
   value: 10000
   sprite: 63
@@ -362,7 +362,7 @@
     level: 40
 
 - name: Solokar Fist Gem
-  desc: "an reflective crystal inscribed with a fist"
+  desc: "a shimmering crystal inscribed with a fist"
   sellValue: 100000
   value: 10000
   sprite: 63
@@ -377,7 +377,7 @@
     level: 40
 
 - name: Solokar Bow Gem
-  desc: "an reflective crystal inscribed with a bow"
+  desc: "a shimmering crystal inscribed with a bow"
   sellValue: 100000
   value: 10000
   sprite: 63
@@ -392,7 +392,7 @@
     level: 40
 
 - name: Solokar Chakram Gem
-  desc: "an reflective crystal inscribed with a chakram"
+  desc: "a shimmering crystal inscribed with a chakram"
   sellValue: 100000
   value: 10000
   sprite: 63
@@ -407,7 +407,7 @@
     level: 40
 
 - name: Solokar Greatsword Gem
-  desc: "an reflective crystal inscribed with a large weapon"
+  desc: "a shimmering crystal inscribed with a large weapon"
   sellValue: 100000
   value: 10000
   sprite: 63
@@ -422,7 +422,7 @@
     level: 40
 
 - name: Solokar Thievery Gem
-  desc: "an reflective crystal cloaked in shadow"
+  desc: "a shimmering crystal cloaked in shadow"
   sellValue: 100000
   value: 10000
   sprite: 63
@@ -437,7 +437,7 @@
     level: 40
 
 - name: Solokar Conjuration Gem
-  desc: "an reflective crystal cloaked in a roaring flame"
+  desc: "a shimmering crystal cloaked in a roaring flame"
   sellValue: 100000
   value: 10000
   sprite: 63
@@ -452,7 +452,7 @@
     level: 40
 
 - name: Solokar Restoration Gem
-  desc: "an reflective crystal cloaked in a soothing mist"
+  desc: "a shimmering crystal cloaked in a soothing mist"
   sellValue: 100000
   value: 10000
   sprite: 63
