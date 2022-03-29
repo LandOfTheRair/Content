@@ -2345,7 +2345,7 @@ itemConfigs:
     type: [Jewelry]
 
   Arrow:
-    sprites: [202, 203, 291, 210]
+    sprites: [202, 203, 291]
     type: [Weapon, Offensive, Ranged]
 
   Axe:
