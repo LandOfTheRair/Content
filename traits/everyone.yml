@@ -65,6 +65,11 @@ RecombobulativeBarrier:
   icon: surrounded-shield
   valuePerTier: 2
 
+BigBelt:
+  name: Big Belt
+  desc: You can now place halberds into your belt.
+  icon: halberd
+
 SweetTooth:
   name: Sweet Tooth
   desc: All food boosts your HP and MP regen by +$5$%.

@@ -43,7 +43,9 @@ Core:
             maxLevel: 5
 
           - name: ''
-          - name: ''
+          
+          - name: BigBelt
+            maxLevel: 1
 
         - traits:     
           - name: ''
