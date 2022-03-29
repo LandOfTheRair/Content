@@ -14108,6 +14108,30 @@
                  "width":64,
                  "x":11456,
                  "y":14720
+                }, 
+                {
+                 "gid":3154,
+                 "height":64,
+                 "id":3100,
+                 "name":"",
+                 "properties":
+                    {
+                     "identifyCost":10000,
+                     "identifyTier":3,
+                     "tag":"Identifier"
+                    },
+                 "propertytypes":
+                    {
+                     "identifyCost":"int",
+                     "identifyTier":"int",
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":6592,
+                 "y":9344
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -23273,7 +23297,7 @@
          "y":0
         }],
  "nextlayerid":17,
- "nextobjectid":3100,
+ "nextobjectid":3101,
  "orientation":"orthogonal",
  "properties":
     {
