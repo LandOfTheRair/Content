@@ -18,7 +18,7 @@
 
 - name: Enos Energy Sword
   desc: "a sparkling blade forged of twisting ether and orikalcum"
-  tier: 1
+  tier: 4
   stats:
     conjurationBonus: 1
     swordBonus: 1
