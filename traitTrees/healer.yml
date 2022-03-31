@@ -92,7 +92,9 @@ Healer:
             maxLevel: 1
 
           - name: ''
-          - name: ''
+          
+          - name: Foodsense
+            maxLevel: 1
 
         - traits: 
           - name: NecroticFocus
