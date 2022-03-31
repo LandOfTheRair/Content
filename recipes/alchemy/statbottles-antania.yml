@@ -237,7 +237,7 @@
   name: Minor Constitution Potion
   category: Minor Stat Bottles
   skillGained: 3
-  maxSkillForGains: 17
+  maxSkillForGains: 15
   requireSkill: 11
   xpGained: 1000
   ingredients:

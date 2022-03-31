@@ -140,7 +140,7 @@
   name: Basic Constitution Potion
   category: Basic Stat Bottles
   skillGained: 3
-  maxSkillForGains: 19
+  maxSkillForGains: 17
   requireSkill: 13
   xpGained: 5000
   ingredients:
