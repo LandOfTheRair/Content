@@ -135,3 +135,16 @@
     - Risan Willpower Potion
     - Risan Charisma Potion
     - Risan Constitution Potion
+
+- item: Risan Constitution Potion
+  name: Basic Constitution Potion
+  category: Minor Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 19
+  requireSkill: 13
+  xpGained: 5000
+  ingredients:
+    - Silver Scale
+    - Antanian Bottle of Water
+    - Antanian Constitution Potion
+    - Antanian Constitution Potion

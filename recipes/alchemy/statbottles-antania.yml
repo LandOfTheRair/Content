@@ -233,3 +233,15 @@
     - Tower Goblood
     - Tower Spider Egg
 
+- item: Antanian Constitution Potion
+  name: Minor Constitution Potion
+  category: Minor Stat Bottles
+  skillGained: 3
+  maxSkillForGains: 17
+  requireSkill: 11
+  xpGained: 1000
+  ingredients:
+    - Ether Scale (Refined)
+    - Antanian Bottle of Water
+    - Bradley Constitution Potion
+    - Bradley Constitution Potion
