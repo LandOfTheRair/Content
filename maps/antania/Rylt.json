@@ -7486,6 +7486,26 @@
                  "width":64,
                  "x":5312,
                  "y":1344
+                }, 
+                {
+                 "gid":3214,
+                 "height":64,
+                 "id":1448,
+                 "name":"Culinarian",
+                 "properties":
+                    {
+                     "tag":"Culinarian"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":3776,
+                 "y":1408
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -13043,7 +13063,7 @@
          "y":0
         }],
  "nextlayerid":17,
- "nextobjectid":1448,
+ "nextobjectid":1449,
  "orientation":"orthogonal",
  "properties":
     {

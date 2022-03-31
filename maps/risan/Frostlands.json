@@ -13326,7 +13326,7 @@
                  "type":"",
                  "visible":true,
                  "width":64,
-                 "x":6848,
+                 "x":6912,
                  "y":6528
                 }, 
                 {
@@ -14132,6 +14132,26 @@
                  "width":64,
                  "x":6592,
                  "y":9344
+                }, 
+                {
+                 "gid":3214,
+                 "height":64,
+                 "id":3101,
+                 "name":"Culinarian",
+                 "properties":
+                    {
+                     "tag":"Culinarian"
+                    },
+                 "propertytypes":
+                    {
+                     "tag":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":6784,
+                 "y":6528
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -23297,7 +23317,7 @@
          "y":0
         }],
  "nextlayerid":17,
- "nextobjectid":3101,
+ "nextobjectid":3102,
  "orientation":"orthogonal",
  "properties":
     {
