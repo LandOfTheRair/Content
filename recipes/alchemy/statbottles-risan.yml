@@ -138,7 +138,7 @@
 
 - item: Risan Constitution Potion
   name: Basic Constitution Potion
-  category: Minor Stat Bottles
+  category: Basic Stat Bottles
   skillGained: 3
   maxSkillForGains: 19
   requireSkill: 13
