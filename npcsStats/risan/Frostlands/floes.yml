@@ -72,6 +72,7 @@
     defense: 30
     armorClass: 10
     perception: 15
+    damageFactor: 0.5
 
   items:
     equipment:
