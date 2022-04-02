@@ -84,9 +84,9 @@ PhilosophersStone:
 
 EnhancedApplications:
   name: Enhanced Applications
-  desc: Your applied effects last +$120$ seconds longer.
+  desc: Your applied effects last +$1200$ seconds longer.
   icon: bloody-sword
-  valuePerTier: 120
+  valuePerTier: 1200
 
 CorrosivePoison:
   name: Corrosive Poison
