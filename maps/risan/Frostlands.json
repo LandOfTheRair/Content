@@ -14066,30 +14066,6 @@
                  "y":14976
                 }, 
                 {
-                 "gid":3154,
-                 "height":64,
-                 "id":3097,
-                 "name":"",
-                 "properties":
-                    {
-                     "identifyCost":1000,
-                     "identifyTier":3,
-                     "tag":"Identifier"
-                    },
-                 "propertytypes":
-                    {
-                     "identifyCost":"int",
-                     "identifyTier":"int",
-                     "tag":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":6592,
-                 "y":9216
-                }, 
-                {
                  "gid":2629,
                  "height":64,
                  "id":3099,
@@ -14140,10 +14116,12 @@
                  "name":"Culinarian",
                  "properties":
                     {
+                     "identifyCost":1000,
                      "tag":"Culinarian"
                     },
                  "propertytypes":
                     {
+                     "identifyCost":"int",
                      "tag":"string"
                     },
                  "rotation":0,
