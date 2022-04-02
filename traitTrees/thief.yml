@@ -37,7 +37,7 @@ Thief:
           - name: DarkVision
             maxLevel: 1
 
-          - name: LockpickSpecialty
+          - name: ReplenishingShadows
             maxLevel: 5
           
         - traits: 
@@ -58,8 +58,8 @@ Thief:
             requires: Identify
           
         - traits: 
-          - name: ReplenishingShadows
-            maxLevel: 5
+
+          - name: ''
             
           - name: ''
             
@@ -187,7 +187,8 @@ Thief:
 
           - name: ''
 
-          - name: ''
+          - name: LockpickSpecialty
+            maxLevel: 5
 
           - name: ThrownTraps
             maxLevel: 1
