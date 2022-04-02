@@ -39,6 +39,9 @@
   skillLevels: 1
   level: 1
 
+  otherStats:
+    move: 0
+
   noCorpseDrop: true
 
   items:

@@ -364,7 +364,7 @@ FindFamiliarDistraction:
   spell: 
     mpCost: 100
     castTime: 10
-    cooldown: 60
+    cooldown: 0
     maxSkillForGain: 1
 
     spellMeta:
