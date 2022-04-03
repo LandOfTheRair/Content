@@ -78,6 +78,8 @@
     uses: 3
     name: FindFamiliarDistraction
     potency: 30
+    extra:
+      isPositive: true
   value: 3500
 
   requirements:

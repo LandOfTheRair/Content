@@ -72,6 +72,8 @@
   trapEffect:
     name: FindFamiliarDistraction
     potency: 10
+    extra:
+      isPositive: true
   value: 1500
 
 - name: Antanian Darkness Thief Trap
