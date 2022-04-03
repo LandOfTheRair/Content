@@ -18,7 +18,8 @@ Thief:
           - name: ImprovedHide
             maxLevel: 1
 
-          - name: ''
+          - name: ThiefGrip
+            maxLevel: 1
           
           - name: Identify
             maxLevel: 1

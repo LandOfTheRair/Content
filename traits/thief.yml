@@ -216,3 +216,8 @@ ReplenishingShadows:
   desc: +$10$% of your MP regen will apply to stealth while hidden.
   icon: cross-mark
   valuePerTier: 0.1
+
+ThiefGrip:
+  name: Thief Grip
+  desc: Your shortswords and daggers attack with the profile of a longsword.
+  icon: dagger-rose
