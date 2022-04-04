@@ -35,6 +35,14 @@ slots:
     items: [Catacombs Frostflower]
     sprite: 745
 
+  OrikurnisOrchid:
+    items: [Orikurnis Orchid]
+    sprite: 773
+
+  SolokarStar:
+    items: [Solokar Star]
+    sprite: 793
+
   # Ore
   CopperOre:
     items: [Copper Ore (Small), Copper Ore (Large)]
@@ -124,7 +132,8 @@ layouts:
   - category: Flowers
     items: [
       RyltFlower, YzaltFlower, YzaltApple, TowerFlower, MazeFlower,
-      MinesFlower, FrostlandsFlower, CatacombsFlower, null, null
+      MinesFlower, FrostlandsFlower, CatacombsFlower, OrikurnisOrchid,
+      SolokarStar, null, null, null, null
     ]
 
   - category: Scales
