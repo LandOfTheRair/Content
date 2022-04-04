@@ -68,7 +68,7 @@
     potency: 2500
   trait:
     name: EnergyFocus
-    level: 3
+    level: 2
   maxUpgrades: 1
   offhand: true
   binds: true

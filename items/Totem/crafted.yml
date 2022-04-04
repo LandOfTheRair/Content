@@ -8,7 +8,7 @@
     restorationBonus: 1
   trait:
     name: HealingFocus
-    level: 3
+    level: 2
   breakEffect:
     name: HolyFire
     potency: 2500
@@ -29,7 +29,7 @@
     wis: 1
   trait:
     name: HolyAffliction
-    level: 3
+    level: 2
   maxUpgrades: 1
   type: Wand
   value: 3500

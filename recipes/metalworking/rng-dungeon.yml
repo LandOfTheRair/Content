@@ -12,8 +12,8 @@
       ounces: 7
 
   ingredients:
-    - Antanian Twig
-    - Antanian Twig
+    - Orikurnis Twig
+    - Orikurnis Twig
 
 - item: Soronite Axe
   name: Soronite Axe
@@ -28,8 +28,8 @@
       ounces: 10
 
   ingredients:
-    - Risan Twig
-    - Risan Twig
+    - Solokar Twig
+    - Solokar Twig
     - Risan Polished Ruby
 
 - item: Orikalcum Dagger
@@ -45,8 +45,8 @@
       ounces: 5
 
   ingredients:
-    - Antanian Twig
-    - Antanian Twig
+    - Orikurnis Twig
+    - Orikurnis Twig
     - Antanian Small Green Gem
 
 - item: Soronite Longbow
@@ -62,6 +62,264 @@
       ounces: 15
 
   ingredients:
-    - Risan Twig
-    - Risan Twig
-    - Risan Twig
+    - Solokar Twig
+    - Solokar Twig
+    - Solokar Twig
+
+- item: Crafted Magical Orikalcum Saucer
+  name: Magical Saucer
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 16
+  requireSkill: 12
+  xpGained: 65000
+  ozIngredients:
+    - filter: Orikalcum Ore
+      display: Orikalcum Ore (Small)
+      ounces: 30
+
+  ingredients:
+    - Orikurnis Twig
+    - Orikurnis Twig
+
+- item: Crafted Magical Soronite Saucer
+  name: Magical Saucer II
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 19
+  requireSkill: 15
+  xpGained: 65000
+  ozIngredients:
+    - filter: Soronite Ore
+      display: Soronite Ore (Small)
+      ounces: 30
+
+  ingredients:
+    - Solokar Twig
+    - Solokar Twig
+
+- item: Crafted Physical Orikalcum Saucer
+  name: Physical Saucer
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 16
+  requireSkill: 12
+  xpGained: 65000
+  ozIngredients:
+    - filter: Orikalcum Ore
+      display: Orikalcum Ore (Small)
+      ounces: 30
+
+  ingredients:
+    - Orikurnis Twig
+    - Orikurnis Twig
+
+- item: Crafted Physical Soronite Saucer
+  name: Physical Saucer II
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 19
+  requireSkill: 15
+  xpGained: 65000
+  ozIngredients:
+    - filter: Soronite Ore
+      display: Soronite Ore (Small)
+      ounces: 30
+
+  ingredients:
+    - Solokar Twig
+    - Solokar Twig
+
+- item: Crafted Orikalcum Boots
+  name: Offensive Boots
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 17
+  requireSkill: 13
+  xpGained: 65000
+  ozIngredients:
+    - filter: Orikalcum Ore
+      display: Orikalcum Ore (Small)
+      ounces: 50
+
+- item: Crafted Soronite Boots
+  name: Offensive Boots II
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 20
+  requireSkill: 16
+  xpGained: 65000
+  ozIngredients:
+    - filter: Soronite Ore
+      display: Soronite Ore (Small)
+      ounces: 50
+
+- item: Crafted Bodybreak Orikalcum Shield
+  name: Bodybreak Shield
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 19
+  requireSkill: 15
+  xpGained: 65000
+  ozIngredients:
+    - filter: Orikalcum Ore
+      display: Orikalcum Ore (Small)
+      ounces: 40
+
+  ingredients:
+    - Ether Scale
+    - Orikurnis Twig
+    - Orikurnis Twig
+
+- item: Crafted Ironspine Orikalcum Shield
+  name: Ironspine Shield
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 20
+  requireSkill: 16
+  xpGained: 65000
+  ozIngredients:
+    - filter: Orikalcum Ore
+      display: Orikalcum Ore (Small)
+      ounces: 40
+
+  ingredients:
+    - Ether Scale
+    - Orikurnis Twig
+    - Orikurnis Twig
+
+- item: Crafted Mindfrost Orikalcum Shield
+  name: Mindfrost Shield
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 21
+  requireSkill: 17
+  xpGained: 65000
+  ozIngredients:
+    - filter: Orikalcum Ore
+      display: Orikalcum Ore (Small)
+      ounces: 40
+
+  ingredients:
+    - Ether Scale
+    - Orikurnis Twig
+    - Orikurnis Twig
+
+- item: Crafted Mentalfire Orikalcum Shield
+  name: Mentalfire Shield
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 22
+  requireSkill: 18
+  xpGained: 65000
+  ozIngredients:
+    - filter: Orikalcum Ore
+      display: Orikalcum Ore (Small)
+      ounces: 40
+
+  ingredients:
+    - Ether Scale
+    - Orikurnis Twig
+    - Orikurnis Twig
+
+- item: Crafted Brainburst Orikalcum Shield
+  name: Brainburst Shield
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 23
+  requireSkill: 19
+  xpGained: 65000
+  ozIngredients:
+    - filter: Orikalcum Ore
+      display: Orikalcum Ore (Small)
+      ounces: 40
+
+  ingredients:
+    - Ether Scale
+    - Orikurnis Twig
+    - Orikurnis Twig
+
+- item: Crafted Bodybreak Soronite Shield
+  name: Bodybreak Shield II
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 22
+  requireSkill: 18
+  xpGained: 65000
+  ozIngredients:
+    - filter: Soronite Ore
+      display: Soronite Ore (Small)
+      ounces: 40
+
+  ingredients:
+    - Silver Scale
+    - Solokar Twig
+    - Solokar Twig
+
+- item: Crafted Ironspine Soronite Shield
+  name: Ironspine Shield II
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 23
+  requireSkill: 19
+  xpGained: 65000
+  ozIngredients:
+    - filter: Soronite Ore
+      display: Soronite Ore (Small)
+      ounces: 40
+
+  ingredients:
+    - Silver Scale
+    - Solokar Twig
+    - Solokar Twig
+
+- item: Crafted Mindfrost Soronite Shield
+  name: Mindfrost Shield II
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 24
+  requireSkill: 20
+  xpGained: 65000
+  ozIngredients:
+    - filter: Orikalcum Ore
+      display: Orikalcum Ore (Small)
+      ounces: 40
+
+  ingredients:
+    - Silver Scale
+    - Solokar Twig
+    - Solokar Twig
+
+- item: Crafted Mentalfire Soronite Shield
+  name: Mentalfire Shield II
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 25
+  requireSkill: 21
+  xpGained: 65000
+  ozIngredients:
+    - filter: Soronite Ore
+      display: Soronite Ore (Small)
+      ounces: 40
+
+  ingredients:
+    - Silver Scale
+    - Solokar Twig
+    - Solokar Twig
+
+- item: Crafted Brainburst Soronite Shield
+  name: Brainburst Shield II
+  category: Twisted Ether Armory
+  skillGained: 6
+  maxSkillForGains: 26
+  requireSkill: 22
+  xpGained: 65000
+  ozIngredients:
+    - filter: Soronite Ore
+      display: Soronite Ore (Small)
+      ounces: 40
+
+  ingredients:
+    - Silver Scale
+    - Solokar Twig
+    - Solokar Twig

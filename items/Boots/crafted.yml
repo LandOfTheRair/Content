@@ -1,0 +1,35 @@
+
+
+- name: Crafted Orikalcum Boots
+  quality: 5
+  stats:
+    offense: 4
+    physicalDamageBoostPercent: 5
+  trait:
+    name: ForcefulStrike
+    level: 1
+  tier: 6
+  maxUpgrades: 1
+  sprite: 95
+  desc: "a pair of plated boots, crafted with the force of Orikalcum"
+  value: 18000
+
+  requirements:
+    level: 20
+
+- name: Crafted Soronite Boots
+  quality: 5
+  stats:
+    offense: 8
+    physicalDamageBoostPercent: 10
+  trait:
+    name: ForcefulStrike
+    level: 2
+  tier: 8
+  maxUpgrades: 1
+  sprite: 95
+  desc: "a pair of plated boots, crafted with the force of Soronite"
+  value: 18000
+
+  requirements:
+    level: 20

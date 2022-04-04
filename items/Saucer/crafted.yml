@@ -1,0 +1,66 @@
+
+- name: Crafted Magical Orikalcum Saucer
+  sprite: 309
+  tier: 5
+  stats:
+    armorClass: 5
+    int: 1
+    wis: 1
+    mp: 50
+
+  maxUpgrades: 1
+  desc: "a small glowing saucer crafted from twisted ether ore"
+  value: 5000
+
+  requirements:
+    level: 20
+
+- name: Crafted Physical Orikalcum Saucer
+  sprite: 309
+  tier: 5
+  stats:
+    armorClass: 5
+    str: 1
+    agi: 1
+    hp: 50
+
+  maxUpgrades: 1
+  desc: "a solid saucer crafted from twisted ether ore"
+  value: 5000
+
+  requirements:
+    level: 20
+    
+- name: Crafted Magical Soronite Saucer
+  sprite: 309
+  tier: 8
+  stats:
+    armorClass: 10
+    int: 2
+    wis: 2
+    mp: 100
+    hp: 50
+
+  maxUpgrades: 1
+  desc: "a large glowing saucer crafted from twisted ether ore"
+  value: 5000
+
+  requirements:
+    level: 40
+
+- name: Crafted Physical Soronite Saucer
+  sprite: 309
+  tier: 8
+  stats:
+    armorClass: 10
+    str: 2
+    agi: 2
+    hp: 100
+    mp: 50
+
+  maxUpgrades: 1
+  desc: "a powerfully solid saucer crafted from twisted ether ore"
+  value: 5000
+
+  requirements:
+    level: 40

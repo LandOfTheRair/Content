@@ -20,6 +20,7 @@
     defense: 3
     fireResist: 100
     iceResist: 100
+  binds: true
   desc: "a red fullplate, twice refined, forged with ether"
   maxUpgrades: 2
   value: 15000
@@ -51,6 +52,7 @@
     iceResist: 400
     energyResist: 450
     necroticResist: 450
+  binds: true
   desc: "a silver fullplate, twice refined, forged with silver ether scales"
   maxUpgrades: 2
   value: 15000

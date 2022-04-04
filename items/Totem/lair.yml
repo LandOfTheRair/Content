@@ -33,7 +33,7 @@
     chance: 33
   trait:
     name: NecroticFocus
-    level: 3
+    level: 2
   breakEffect:
     name: HolyFire
     potency: 2500

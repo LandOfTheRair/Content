@@ -1,0 +1,152 @@
+
+- name: Crafted Mentalfire Orikalcum Shield
+  stats:
+    armorClass: 15
+    defense: 3
+    int: 1
+  tier: 6
+  desc: "a highly reflective shield, inscribed with a Firesnake"
+  value: 12333
+  sprite: 515
+  trait:
+    name: FireFocus
+    level: 1
+
+  requirements:
+    level: 20
+
+- name: Crafted Mindfrost Orikalcum Shield
+  stats:
+    armorClass: 15
+    defense: 3
+    int: 1
+  tier: 6
+  desc: "a highly reflective shield, inscribed with a Frostspider"
+  value: 12333
+  sprite: 515
+  trait:
+    name: IceFocus
+    level: 1
+
+  requirements:
+    level: 20
+
+- name: Crafted Brainburst Orikalcum Shield
+  stats:
+    armorClass: 15
+    defense: 3
+    int: 1
+  tier: 6
+  desc: "a highly reflective shield, inscribed with an Energyowl"
+  value: 12333
+  sprite: 515
+  trait:
+    name: EnergyFocus
+    level: 1
+
+  requirements:
+    level: 20
+
+- name: Crafted Bodybreak Orikalcum Shield
+  stats:
+    armorClass: 15
+    defense: 3
+    wis: 1
+  tier: 6
+  desc: "a highly reflective shield, inscribed with a Necrobear"
+  value: 12333
+  sprite: 515
+  trait:
+    name: NecroticFocus
+    level: 1
+
+  requirements:
+    level: 20
+
+- name: Crafted Ironspine Orikalcum Shield
+  stats:
+    armorClass: 30
+    weaponArmorClass: 10
+  tier: 6
+  desc: "a highly reflective shield, inscribed with an Irongolem"
+  value: 12333
+  sprite: 515
+
+  requirements:
+    level: 20
+    
+- name: Crafted Mentalfire Soronite Shield
+  stats:
+    armorClass: 30
+    defense: 6
+    int: 2
+  tier: 8
+  desc: "a highly reflective shield, inscribed with an imposing Firesnake"
+  value: 12333
+  sprite: 515
+  trait:
+    name: FireFocus
+    level: 2
+
+  requirements:
+    level: 20
+
+- name: Crafted Mindfrost Soronite Shield
+  stats:
+    armorClass: 30
+    defense: 6
+    int: 2
+  tier: 8
+  desc: "a highly reflective shield, inscribed with an imposing Frostspider"
+  value: 12333
+  sprite: 515
+  trait:
+    name: IceFocus
+    level: 2
+
+  requirements:
+    level: 20
+
+- name: Crafted Brainburst Soronite Shield
+  stats:
+    armorClass: 30
+    defense: 6
+    int: 2
+  tier: 8
+  desc: "a highly reflective shield, inscribed with an imposing Energyowl"
+  value: 12333
+  sprite: 515
+  trait:
+    name: EnergyFocus
+    level: 1
+
+  requirements:
+    level: 20
+
+- name: Crafted Bodybreak Soronite Shield
+  stats:
+    armorClass: 30
+    defense: 6
+    wis: 2
+  tier: 8
+  desc: "a highly reflective shield, inscribed with an imposing Necrobear"
+  value: 12333
+  sprite: 515
+  trait:
+    name: NecroticFocus
+    level: 2
+
+  requirements:
+    level: 20
+
+- name: Crafted Ironspine Soronite Shield
+  stats:
+    armorClass: 60
+    weaponArmorClass: 20
+  tier: 8
+  desc: "a highly reflective shield, inscribed with an imposing Irongolem"
+  value: 12333
+  sprite: 515
+
+  requirements:
+    level: 20
