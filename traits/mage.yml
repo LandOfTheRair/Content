@@ -11,6 +11,12 @@ BouncingMissiles:
   icon: missile-swarm
   valuePerTier: 10
 
+BiggerBottles:
+  name: Bigger Bottles
+  desc: Conjure Healing will now be +$2$x more potent, and have +$2$x more ounces.
+  icon: brandy-bottle
+  valuePerTier: 2
+
 ConcussiveBolt:
   name: Concussive Bolt
   desc: Magic Bolt has a +$4$% chance of stunning.
