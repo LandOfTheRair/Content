@@ -34,6 +34,16 @@
   desc: "a small blue flower, frozen in time"
   value: 60
 
+- name: Orikurnis Orchid
+  sprite: 773
+  desc: "a blue, partially torn orchid from the twisting ether"
+  value: 60
+
+- name: Solokar Star
+  sprite: 793
+  desc: "a violet starflower from the twisting ether"
+  value: 60
+
 - name: Thanksgiving Leaf
   sprite: 565
   desc: "a crimson leaf, symbolizing the turning of the season"

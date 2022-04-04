@@ -100,7 +100,7 @@
 
 - name: Instant MP Bottle
   desc: "a small, purple bottle with a visible lightning bolt"
-  extendedDesc: "a mana potion"
+  extendedDesc: "a weak mana potion"
   sprite: 259
   ounces: 1
   useEffect:
@@ -110,7 +110,7 @@
 
 - name: Instant MP Bottle (5oz)
   desc: "a small, purple bottle with a visible lightning bolt"
-  extendedDesc: "a mana potion"
+  extendedDesc: "a weak mana potion"
   sprite: 259
   ounces: 5
   useEffect:
@@ -120,10 +120,92 @@
 
 - name: Instant MP Bottle (50oz)
   desc: "a small, purple bottle with a visible lightning bolt"
-  extendedDesc: "a mana potion"
+  extendedDesc: "a weak mana potion"
   sprite: 259
   ounces: 50
   useEffect:
     name: ExactHealMP
     potency: 250
   value: 3000
+
+# Orikurnis Bottles
+- name: Minor Instant MP Bottle (10oz)
+  desc: "a purple bottle with a minute lightning bolt etched into the side"
+  extendedDesc: "a minor mana potion"
+  sprite: 259
+  ounces: 10
+  useEffect:
+    name: ExactHealMP
+    potency: 500
+  value: 10000
+
+- name: Minor Instant MP Bottle (50oz)
+  desc: "a purple bottle with a minute lightning bolt etched into the side"
+  extendedDesc: "a minor mana potion"
+  sprite: 259
+  ounces: 50
+  useEffect:
+    name: ExactHealMP
+    potency: 500
+  value: 10000
+  
+- name: Minor Instant Heal Bottle (10oz)
+  desc: "a small bottle labeled Instant Heal"
+  extendedDesc: "a minor healing potion"
+  sprite: 260
+  ounces: 10
+  useEffect:
+    name: ExactHeal
+    potency: 1500
+  value: 30000
+  
+- name: Minor Instant Heal Bottle (50oz)
+  desc: "a small bottle labeled Instant Heal"
+  extendedDesc: "a minor healing potion"
+  sprite: 260
+  ounces: 50
+  useEffect:
+    name: ExactHeal
+    potency: 1500
+  value: 30000
+
+# Solokar Bottles
+- name: Basic Instant MP Bottle (10oz)
+  desc: "a purple bottle with a modestly-sized lightning bolt etched into the side"
+  extendedDesc: "a basic mana potion"
+  sprite: 259
+  ounces: 10
+  useEffect:
+    name: ExactHealMP
+    potency: 750
+  value: 10000
+
+- name: Basic Instant MP Bottle (50oz)
+  desc: "a purple bottle with a modestly-sized lightning bolt etched into the side"
+  extendedDesc: "a basic mana potion"
+  sprite: 259
+  ounces: 50
+  useEffect:
+    name: ExactHealMP
+    potency: 750
+  value: 10000
+  
+- name: Basic Instant Heal Bottle (10oz)
+  desc: "a small bottle labeled Instant Heal"
+  extendedDesc: "a basic healing potion"
+  sprite: 260
+  ounces: 10
+  useEffect:
+    name: ExactHeal
+    potency: 2000
+  value: 30000
+  
+- name: Basic Instant Heal Bottle (50oz)
+  desc: "a small bottle labeled Instant Heal"
+  extendedDesc: "a basic healing potion"
+  sprite: 260
+  ounces: 50
+  useEffect:
+    name: ExactHeal
+    potency: 2000
+  value: 30000

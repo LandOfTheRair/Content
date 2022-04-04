@@ -24,6 +24,62 @@
     - Antanian Pint of Water
     - Mines Caveflower
 
+- item: Minor Instant Heal Bottle (10oz)
+  name: Healing Bottle III
+  category: Restoration
+  skillGained: 2
+  maxSkillForGains: 14
+  requireSkill: 10
+  xpGained: 5000
+  ingredients:
+    - Orikurnis Orchid
+    - Antanian Pint of Water
+
+- item: Minor Instant Heal Bottle (50oz)
+  name: Healing Bottle III (large)
+  category: Restoration
+  skillGained: 2
+  maxSkillForGains: 14
+  requireSkill: 10
+  xpGained: 5000
+  ingredients:
+    - Orikurnis Orchid
+    - Orikurnis Orchid
+    - Orikurnis Orchid
+    - Orikurnis Orchid
+    - Orikurnis Orchid
+    - Antanian Pint of Water
+    - Antanian Pint of Water
+    - Antanian Pint of Water
+
+- item: Basic Instant Heal Bottle (10oz)
+  name: Healing Bottle IV
+  category: Restoration
+  skillGained: 2
+  maxSkillForGains: 18
+  requireSkill: 14
+  xpGained: 5000
+  ingredients:
+    - Solokar Star
+    - Antanian Pint of Water
+
+- item: Basic Instant Heal Bottle (50oz)
+  name: Healing Bottle IV (large)
+  category: Restoration
+  skillGained: 2
+  maxSkillForGains: 18
+  requireSkill: 15
+  xpGained: 5000
+  ingredients:
+    - Solokar Star
+    - Solokar Star
+    - Solokar Star
+    - Solokar Star
+    - Solokar Star
+    - Antanian Pint of Water
+    - Antanian Pint of Water
+    - Antanian Pint of Water
+
 - item: Instant MP Bottle (50oz)
   name: Mana Bottle
   category: Restoration
@@ -35,6 +91,62 @@
     - Instant Heal Bottle
     - Antanian Magic Potion
     - Antanian Pint of Water
+    - Antanian Pint of Water
+    - Antanian Pint of Water
+    - Antanian Pint of Water
+
+- item: Minor Instant MP Bottle (10oz)
+  name: Mana Bottle II
+  category: Restoration
+  skillGained: 2
+  maxSkillForGains: 16
+  requireSkill: 12
+  xpGained: 5000
+  ingredients:
+    - Orikurnis Orchid
+    - Antanian Pint of Water
+
+- item: Minor Instant MP Bottle (50oz)
+  name: Mana Bottle II (large)
+  category: Restoration
+  skillGained: 2
+  maxSkillForGains: 16
+  requireSkill: 12
+  xpGained: 5000
+  ingredients:
+    - Orikurnis Orchid
+    - Orikurnis Orchid
+    - Orikurnis Orchid
+    - Orikurnis Orchid
+    - Orikurnis Orchid
+    - Antanian Pint of Water
+    - Antanian Pint of Water
+    - Antanian Pint of Water
+
+- item: Basic Instant MP Bottle (10oz)
+  name: Mana Bottle III
+  category: Restoration
+  skillGained: 2
+  maxSkillForGains: 20
+  requireSkill: 16
+  xpGained: 5000
+  ingredients:
+    - Solokar Star
+    - Antanian Pint of Water
+
+- item: Basic Instant MP Bottle (50oz)
+  name: Mana Bottle III (large)
+  category: Restoration
+  skillGained: 2
+  maxSkillForGains: 20
+  requireSkill: 16
+  xpGained: 5000
+  ingredients:
+    - Solokar Star
+    - Solokar Star
+    - Solokar Star
+    - Solokar Star
+    - Solokar Star
     - Antanian Pint of Water
     - Antanian Pint of Water
     - Antanian Pint of Water

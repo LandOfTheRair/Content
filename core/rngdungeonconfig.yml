@@ -2700,6 +2700,11 @@ dungeonConfigs:
       basicWeight: 1000
       powerfulWeight: 100
       legendaryWeight: 1
+    droptableProps:
+      alwaysDrop:
+        - result: Solokar Star
+          chance: 1
+          maxChance: 200
         
   - name: 'Orikurnis'
     mapProps:
@@ -2755,3 +2760,8 @@ dungeonConfigs:
       basicWeight: 1000
       powerfulWeight: 100
       legendaryWeight: 1
+    droptableProps:
+      alwaysDrop:
+        - result: Orikurnis Orchid
+          chance: 1
+          maxChance: 200
