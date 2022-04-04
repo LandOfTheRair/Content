@@ -9,8 +9,7 @@ Thief:
 
       tree: 
         - traits: 
-          - name: ImprovedSteal
-            maxLevel: 1
+          - name: ''
 
           - name: DarkerShadows
             maxLevel: 5
@@ -24,11 +23,7 @@ Thief:
           - name: Identify
             maxLevel: 1
 
-        - traits:
-          - name: Mug
-            maxLevel: 1
-            requires: ImprovedSteal
-          
+        - traits:          
           - name: BouncingThrows
             maxLevel: 5
 
@@ -38,13 +33,14 @@ Thief:
           - name: DarkVision
             maxLevel: 1
 
+          - name: HiddenHealing
+            maxLevel: 5
+
           - name: ReplenishingShadows
             maxLevel: 5
           
         - traits: 
-          - name: NimbleFingers
-            maxLevel: 5
-            requires: ImprovedSteal
+          - name: ''
 
           - name: Multithrow
             maxLevel: 1
@@ -166,14 +162,14 @@ Thief:
 
       tree: 
         - traits: 
+          - name: ImprovedSteal
+            maxLevel: 1
 
           - name: 'TrueSight'
             maxLevel: 1
             
           - name: GentleStep
             maxLevel: 1
-
-          - name: ''
 
           - name: Set
             maxLevel: 1
@@ -183,10 +179,12 @@ Thief:
             requires: Set
           
         - traits: 
+          - name: Mug
+            maxLevel: 1
+            requires: ImprovedSteal
+
           - name: OffhandFinesse
             maxLevel: 5
-
-          - name: ''
 
           - name: LockpickSpecialty
             maxLevel: 5
@@ -198,10 +196,12 @@ Thief:
           - name: ''
           
         - traits: 
+          - name: NimbleFingers
+            maxLevel: 5
+            requires: ImprovedSteal
+
           - name: EagleEye
             maxLevel: 1
-            
-          - name: ''
 
           - name: Transmute
             maxLevel: 1
