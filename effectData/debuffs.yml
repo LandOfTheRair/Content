@@ -60,6 +60,7 @@ Immobilized:
       unique: true
   effectMeta:
     effectRef: Immobilized
+    recentlyRef: RecentlyImmobilized
 
 MinerFever:
   tooltip:

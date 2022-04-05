@@ -128,7 +128,7 @@ RecentlyImmobilized:
     desc: 'You were recently immobilized'
   effect:
     type: debuff
-    duration: 5
+    duration: 10
     extra:
       unique: true
 
