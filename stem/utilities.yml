@@ -49,6 +49,31 @@ Foodsense:
   macro:
     mode: 'autoActivate'
 
+Gemsense:
+
+  # global info
+  all:
+    desc: "Sense the bonuses of the gem in your right hand. Cost: 15 MP"
+    icon: gem-chain
+    color: "#665600"
+
+  # spell cast info
+  spell: 
+    mpCost: 15
+    maxSkillForGain: 5
+
+    spellMeta:
+      casterMessage: 'You begin to sense the attributes of the gem in your right hand...'
+      casterSfx: 'spell-buff-magical'
+
+  # trait info
+  trait:
+    borderColor: "#ccc"
+
+  # macro info
+  macro:
+    mode: 'autoActivate'
+
 Succor:
 
   # global info

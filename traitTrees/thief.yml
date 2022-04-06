@@ -9,8 +9,6 @@ Thief:
 
       tree: 
         - traits: 
-          - name: ''
-
           - name: DarkerShadows
             maxLevel: 5
 
@@ -21,6 +19,9 @@ Thief:
             maxLevel: 1
           
           - name: Identify
+            maxLevel: 1
+
+          - name: Gemsense
             maxLevel: 1
 
         - traits:          
