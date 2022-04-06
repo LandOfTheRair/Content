@@ -1,0 +1,22 @@
+
+WallSight:
+  tooltip:
+    icon: 'all-seeing-eye'
+    color: '#a00'
+    desc: You can see everything!
+  effect:
+    type: buff
+    duration: -1
+    extra:
+      unique: true
+
+WallWalk:
+  tooltip:
+    icon: 'invisible'
+    color: '#a00'
+    desc: You can walk everywhere!
+  effect:
+    type: buff
+    duration: -1
+    extra:
+      unique: true
