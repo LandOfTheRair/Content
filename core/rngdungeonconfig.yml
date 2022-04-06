@@ -2594,8 +2594,8 @@ itemScenarios:
 
   - name: The Mirror
     statChanges:
-      physicalReflect: 5
-      magicalReflect: 5
+      physicalDamageReflect: 5
+      magicalDamageReflect: 5
 
   - name: The Artful
     statChanges:
