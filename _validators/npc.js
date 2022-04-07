@@ -17,6 +17,7 @@ const { isRollable, isDropPool, isInteger, isRandomNumber } = require('./_valida
 const npcSchema = [
   ['npcId', true, isString],
   ['sprite', true, isArray],
+  ['cr', true, isInteger],
   ['hp', true, isRandomNumber],
   ['mp', false, isRandomNumber],
   ['giveXp', true, isRandomNumber],
