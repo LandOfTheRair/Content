@@ -9,10 +9,10 @@
   hostility: Always
   monsterClass: Dragon
   monsterGroup: Dragon
-  stats: 25
+  stats: 20
   skillLevels:
-    Martial: 13
-    Conjuration: 13
+    Martial: 9
+    Conjuration: 9
   level: 25
 
   otherStats:
@@ -64,6 +64,8 @@
       endsAt: -1
     - name: DarkVision
       endsAt: -1
+
+  cr: -5
 
   gold:
     min: 32350
@@ -119,10 +121,10 @@
   hostility: Always
   monsterClass: Beast
   monsterGroup: Griffon
-  stats: 25
+  stats: 20
   skillLevels:
-    Martial: 13
-    Conjuration: 16
+    Martial: 10
+    Conjuration: 12
   level: 30
 
   otherStats:
@@ -186,6 +188,8 @@
     StunningFist: 10
     MartialAgility: 10
 
+  cr: -5
+
   gold:
     min: 41450
     max: 42500
@@ -223,7 +227,7 @@
   baseClass: Mage
   sprite: 285
   alignment: Evil
-  stats: 24
+  stats: 21
   skillLevels: 12
   level: 35
 
@@ -236,7 +240,8 @@
     offense: 10
     perception: 55
     mpregen: 50
-    damageFactor: 0.5
+
+  cr: -5
 
   gold:
     min: 23050
@@ -369,7 +374,8 @@
     mpregen: 100
     defense: 50
     offense: 50
-    damageFactor: 0.5
+
+  cr: -8
 
   gold:
     min: 123050

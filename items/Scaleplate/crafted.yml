@@ -32,8 +32,8 @@
     defense: 3
     armorClass: 40
     iceResist: 300
-    energyResist: 400
-    necroticResist: 400
+    energyResist: 200
+    necroticResist: 200
   maxUpgrades: 1
   desc: "a shining silver scaleplate made of silver scales"
   value: 5000
@@ -47,8 +47,8 @@
     defense: 5
     armorClass: 45
     iceResist: 500
-    energyResist: 600
-    necroticResist: 600
+    energyResist: 300
+    necroticResist: 300
   maxUpgrades: 2
   desc: "a shining silver scaleplate, twice refined, forged with refined silver scales"
   binds: true

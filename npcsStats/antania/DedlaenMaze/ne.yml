@@ -15,15 +15,12 @@
     con: 15
     accuracy: 10
     perception: 2
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 500
     max: 600
-
-  hp:
-    min: 8350
-    max: 8470
 
   giveXp:
     min: 7850
@@ -124,15 +121,12 @@
     accuracy: 10
     stealth: 10
     perception: 3
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 800
     max: 900
-
-  hp:
-    min: 15050
-    max: 16250
 
   mp:
     min: 500
@@ -279,15 +273,12 @@
     con: 15
     accuracy: 3
     perception: 4
-    damageFactor: 0.3
+    
+  cr: -7
 
   gold:
     min: 800
     max: 900
-
-  hp:
-    min: 15550
-    max: 15950
 
   giveXp:
     min: 9950
@@ -387,15 +378,12 @@
   otherStats:
     con: 15
     perception: 5
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 550
     max: 700
-
-  hp:
-    min: 16950
-    max: 18350
 
   giveXp:
     min: 7850
@@ -475,15 +463,12 @@
   otherStats:
     con: 15
     perception: 5
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 550
     max: 700
-
-  hp:
-    min: 18000
-    max: 20000
 
   mp:
     min: 500
@@ -578,15 +563,12 @@
   otherStats:
     con: 15
     perception: 5
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 550
     max: 700
-
-  hp:
-    min: 18000
-    max: 20000
 
   mp:
     min: 500
@@ -670,15 +652,12 @@
   otherStats:
     con: 15
     perception: 6
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 1550
     max: 1700
-
-  hp:
-    min: 32950
-    max: 33350
 
   giveXp:
     min: 9850
@@ -758,15 +737,12 @@
     con: 15
     perception: 6
     mpregen: 10
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 1550
     max: 1700
-
-  hp:
-    min: 30950
-    max: 35350
 
   mp:
     min: 500
@@ -851,7 +827,8 @@
     offense: 7
     perception: 8
     hpregen: 100
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 52050
@@ -917,6 +894,8 @@
   gold:
     min: 1
     max: 5
+    
+  cr: 5
 
   hp:
     min: 5000
@@ -956,6 +935,8 @@
 
   otherStats:
     move: 2
+    
+  cr: 5
 
   gold:
     min: 1

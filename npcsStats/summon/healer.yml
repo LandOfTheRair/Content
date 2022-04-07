@@ -22,6 +22,8 @@
     - Plague
     - Disease
     - Blind
+    
+  cr: 0
 
   gold:
     min: 0
@@ -61,6 +63,8 @@
     - Regen
     - Vision
     - Antidote
+    
+  cr: 0
 
   gold:
     min: 0
@@ -103,6 +107,8 @@
     - TrueSight
     - Protection
     - Absorption
+    
+  cr: 0
 
   gold:
     min: 0

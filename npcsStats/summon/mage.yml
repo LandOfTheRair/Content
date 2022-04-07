@@ -19,6 +19,8 @@
 
   usableSkills:
     - PoisonBiteWeak
+    
+  cr: 0
 
   gold:
     min: 0
@@ -50,6 +52,8 @@
 
   otherStats:
     perception: 15
+    
+  cr: 0
 
   hp:
     min: 1000
@@ -90,6 +94,8 @@
 
   otherStats:
     perception: 15
+    
+  cr: 0
 
   gold:
     min: 40
@@ -133,6 +139,8 @@
 
   otherStats:
     fireResist: 5000
+    
+  cr: 0
 
   hp:
     min: 2500
@@ -174,6 +182,8 @@
     martial: 0.5
 
   noCorpseDrop: true
+    
+  cr: 0
 
   hp:
     min: 3000

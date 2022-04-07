@@ -13,14 +13,12 @@
 
   otherStats:
     waterResist: 5000
+    
+  cr: 0
 
   gold:
     min: 10
     max: 30
-
-  hp:
-    min: 100
-    max: 150
 
   giveXp:
     min: 5
@@ -44,18 +42,15 @@
 
   otherStats:
     waterResist: 5000
-    damageFactor: 0.1
 
   aquaticOnly: true
   skillOnKill: 3
+    
+  cr: -4
 
   gold:
     min: 10
     max: 30
-
-  hp:
-    min: 500
-    max: 750
 
   giveXp:
     min: 25

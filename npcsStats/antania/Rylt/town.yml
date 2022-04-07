@@ -10,10 +10,8 @@
   skillOnKill: 1
 
   sprite: [580, 595, 610, 615]
-
-  hp:
-    min: 500
-    max: 700
+    
+  cr: 5
 
   gold:
     min: 0
@@ -82,6 +80,8 @@
   skillOnKill: 5
 
   sprite: 625
+    
+  cr: 10
 
   hp:
     min: 2500

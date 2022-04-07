@@ -23,6 +23,8 @@
   usableSkills:
     - PoisonBiteWeak
     - IceMist
+    
+  cr: 0
 
   gold:
     min: 0

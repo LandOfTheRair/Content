@@ -26,6 +26,8 @@
 
   traitLevels:
     Punchkick: 1
+    
+  cr: 0
 
   hp:
     min: 500000

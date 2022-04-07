@@ -9,6 +9,8 @@
     - name: Unshakeable
     - name: SecondWind
       endsAt: -1
+    
+  cr: 0
 
   gold:
     min: 0
@@ -44,6 +46,8 @@
   skillOnKill: 1
 
   sprite: 65
+    
+  cr: 0
 
   hp:
     min: 500

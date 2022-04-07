@@ -73,7 +73,7 @@
     offense: 5
     fireResist: 200
     iceResist: 200
-    energyResist: 200
+    energyResist: 100
   maxUpgrades: 1
   requirements:
     level: 25

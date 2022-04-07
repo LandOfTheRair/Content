@@ -8,6 +8,8 @@
   skillOnKill: 1
 
   sprite: [580, 595, 610, 615]
+    
+  cr: -10
 
   hp:
     min: 1000
@@ -68,6 +70,8 @@
     equipment:
       armor: Tutorial Fur
       hands: Basic Claws
+    
+  cr: -10
 
   gold:
     min: 0
@@ -91,8 +95,9 @@
   level: 1
 
   otherStats:
-    damageFactor: 0.3
     accuracy: -10
+    
+  cr: -10
 
   gold:
     min: 10
@@ -130,9 +135,10 @@
 
   otherStats:
     accuracy: -10
-    damageFactor: 0.5
 
   skillOnKill: 30
+    
+  cr: -10
 
   gold:
     min: 100

@@ -28,6 +28,8 @@
   baseEffects:
     - name: DarkVision
       endsAt: -1
+    
+  cr: 0
 
   gold:
     min: 1550
@@ -63,7 +65,6 @@
     accuracy: 15
     stealth: 15
     perception: 15
-    damageFactor: 0.3
     int: 30
     dex: 30
     str: 23
@@ -78,6 +79,8 @@
   skillOnKill: 175
 
   sprite: 480
+    
+  cr: -6
 
   hp:
     min: 7500000
@@ -195,6 +198,8 @@
   level: 25
 
   skillOnKill: 55
+    
+  cr: 0
 
   gold:
     min: 3150
@@ -331,6 +336,8 @@
   level: 25
 
   skillOnKill: 55
+    
+  cr: 0
 
   gold:
     min: 3150
@@ -477,6 +484,8 @@
   level: 25
 
   skillOnKill: 55
+    
+  cr: 0
 
   gold:
     min: 3150
@@ -647,6 +656,8 @@
   level: 25
 
   skillOnKill: 55
+    
+  cr: 0
 
   gold:
     min: 3150

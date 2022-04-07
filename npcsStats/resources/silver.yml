@@ -11,6 +11,8 @@
   level: 1
 
   skillOnKill: 1
+    
+  cr: 0
 
   gold:
     min: 0
@@ -67,6 +69,8 @@
   level: 1
 
   skillOnKill: 1
+    
+  cr: 0
 
   gold:
     min: 0

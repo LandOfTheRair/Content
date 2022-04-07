@@ -21,15 +21,13 @@
 
   usableSkills:
     - Charge
+    
+  cr: 10
 
   gold:
     min: 550
     max: 700
-
-  hp:
-    min: 13950
-    max: 14350
-
+    
   giveXp:
     min: 700
     max: 800

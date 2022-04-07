@@ -16,16 +16,13 @@
   otherStats:
     fireResist: 70
     perception: 1
-    damageFactor: 0.5
     accuracy: -5
+
+  cr: -5
 
   gold:
     min: 100
     max: 200
-
-  hp:
-    min: 200
-    max: 300
 
   giveXp:
     min: 215
@@ -139,16 +136,13 @@
   otherStats:
     fireResist: 70
     perception: 1
-    damageFactor: 0.5
     accuracy: -5
+
+  cr: -5
 
   gold:
     min: 150
     max: 250
-
-  hp:
-    min: 300
-    max: 350
 
   mp:
     min: 500
@@ -199,16 +193,13 @@
   otherStats:
     fireResist: 70
     perception: 1
-    damageFactor: 0.5
     accuracy: -5
+
+  cr: -5
 
   gold:
     min: 150
     max: 250
-
-  hp:
-    min: 400
-    max: 450
 
   mp:
     min: 500
@@ -262,13 +253,11 @@
     damageFactor: 0.5
     accuracy: -5
 
+  cr: -5
+
   gold:
     min: 500
     max: 700
-
-  hp:
-    min: 400
-    max: 600
 
   giveXp:
     min: 450
@@ -343,10 +332,11 @@
     con: 20
     fireResist: 70
     perception: 4
-    damageFactor: 0.5
     accuracy: -15
 
   skillOnKill: 25
+    
+  cr: -5
 
   gold:
     min: 1500

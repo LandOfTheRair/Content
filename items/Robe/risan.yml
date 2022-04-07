@@ -185,8 +185,8 @@
 
 - name: Club Shirt
   stats:
-    energyResist: 400
-    necroticResist: 400
+    energyResist: 200
+    necroticResist: 200
   maxUpgrades: 1
 
   desc: "a warm robe depicting the eruption of a volcano"

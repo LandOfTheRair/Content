@@ -5,7 +5,7 @@
     defense: 2
     wil: 1
     magicalResist: 50
-    energyResist: 100
+    energyResist: 50
   maxUpgrades: 1
   sprite: 65
   desc: "an ancient sash bathed in an arcane glow"
@@ -21,7 +21,7 @@
     defense: 4
     wil: 2
     magicalResist: 100
-    energyResist: 200
+    energyResist: 100
   maxUpgrades: 1
   sprite: 65
   desc: "an ancient sash bathed in an arcane glow"
@@ -37,7 +37,7 @@
     defense: 6
     wil: 3
     magicalResist: 150
-    energyResist: 300
+    energyResist: 150
   maxUpgrades: 1
   sprite: 65
   desc: "an ancient sash bathed in an arcane glow"
@@ -53,7 +53,7 @@
     defense: 8
     wil: 4
     magicalResist: 200
-    energyResist: 400
+    energyResist: 200
   maxUpgrades: 1
   sprite: 65
   desc: "an ancient sash bathed in an arcane glow"
@@ -69,7 +69,7 @@
     defense: 10
     wil: 5
     magicalResist: 250
-    energyResist: 500
+    energyResist: 250
   maxUpgrades: 1
   sprite: 65
   desc: "an ancient sash bathed in an arcane glow"

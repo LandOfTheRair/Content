@@ -15,6 +15,8 @@
   skillLevels: 6
 
   skillOnKill: 1
+    
+  cr: 0
 
   gold:
     min: 1
@@ -61,6 +63,8 @@
     Martial: 6
 
   skillOnKill: 1
+    
+  cr: 0
 
   gold:
     min: 1
@@ -118,14 +122,12 @@
   level: 10
 
   skillOnKill: 15
+    
+  cr: 0
 
   gold:
     min: 400
     max: 750
-
-  hp:
-    min: 600
-    max: 700
 
   mp:
     min: 300
@@ -201,14 +203,12 @@
   level: 12
 
   skillOnKill: 25
+    
+  cr: 0
 
   gold:
     min: 1000
     max: 1750
-
-  hp:
-    min: 2000
-    max: 2200
 
   mp:
     min: 300
@@ -287,6 +287,8 @@
   level: 23
 
   skillOnKill: 125
+    
+  cr: 0
 
   gold:
     min: 23000
@@ -391,17 +393,15 @@
     Enemy: -101
     Pirates: -101
 
-  level: 10
+  level: 7
 
   skillOnKill: 15
+    
+  cr: 0
 
   gold:
     min: 400
     max: 750
-
-  hp:
-    min: 600
-    max: 700
 
   mp:
     min: 300
@@ -446,17 +446,15 @@
     Enemy: -101
     Pirates: -101
 
-  level: 12
+  level: 10
 
   skillOnKill: 25
+    
+  cr: 0
 
   gold:
     min: 1000
     max: 1750
-
-  hp:
-    min: 2000
-    max: 2200
 
   mp:
     min: 300

@@ -14,7 +14,6 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -85,13 +84,11 @@
     - Boost
     - Shield
 
+  cr: -9
+
   gold:
     min: 4550
     max: 4900
-
-  hp:
-    min: 96950
-    max: 99350
 
   mp:
     min: 5000
@@ -116,7 +113,6 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -186,13 +182,11 @@
     - BarFrost
     - Protection
 
+  cr: -9
+
   gold:
     min: 4550
     max: 4900
-
-  hp:
-    min: 96950
-    max: 99350
 
   mp:
     min: 5000
@@ -217,7 +211,6 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -301,13 +294,11 @@
     - result: TrueSight
       chance: 100
 
+  cr: -9
+
   gold:
     min: 4550
     max: 4900
-
-  hp:
-    min: 96950
-    max: 99350
 
   mp:
     min: 5000
@@ -333,7 +324,6 @@
   otherStats:
     stealth: 25
     perception: 15
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -458,13 +448,11 @@
     - name: DarkVision
       endsAt: -1
 
+  cr: -9
+
   gold:
     min: 4550
     max: 4900
-
-  hp:
-    min: 96950
-    max: 99350
 
   mp:
     min: 5000
@@ -489,7 +477,6 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -555,13 +542,11 @@
     - Charge
     - Blindstrike
 
+  cr: -9
+
   gold:
     min: 4550
     max: 4900
-
-  hp:
-    min: 96950
-    max: 99350
 
   mp:
     min: 5000
@@ -586,7 +571,6 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -642,13 +626,11 @@
   usableSkills:
     - Jumpkick
 
+  cr: -9
+
   gold:
     min: 4550
     max: 4900
-
-  hp:
-    min: 96950
-    max: 99350
 
   mp:
     min: 5000

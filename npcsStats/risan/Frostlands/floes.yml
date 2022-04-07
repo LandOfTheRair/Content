@@ -16,7 +16,6 @@
     defense: 50
     armorClass: 40
     perception: 15
-    damageFactor: 0.5
 
   items:
     equipment:
@@ -43,13 +42,11 @@
   traitLevels:
     StunningFist: 5
 
+  cr: -8
+
   gold:
     min: 1350
     max: 1500
-
-  hp:
-    min: 46950
-    max: 49350
 
   giveXp:
     min: 6200
@@ -72,7 +69,6 @@
     defense: 30
     armorClass: 10
     perception: 15
-    damageFactor: 0.5
 
   items:
     equipment:
@@ -100,13 +96,11 @@
     IceMistWiden: 1
     ChilledCore: 5
 
+  cr: -8
+
   gold:
     min: 1350
     max: 1500
-
-  hp:
-    min: 49950
-    max: 53350
 
   mp:
     min: 49950

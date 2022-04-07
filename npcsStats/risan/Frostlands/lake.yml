@@ -17,7 +17,6 @@
     defense: 30
     offense: 15
     waterResist: 5000
-    damageFactor: 0.3
 
   items:
     equipment:
@@ -28,10 +27,6 @@
         - result: Frostlands Thermidor Halberd
           chance: 1
 
-  gold:
-    min: 1410
-    max: 3200
-
   usableSkills:
     - Blindstrike
     - BarFrost
@@ -41,9 +36,11 @@
     - Hail
     - PoisonBiteWeak
 
-  hp:
-    min: 45000
-    max: 55000
+  cr: -9
+
+  gold:
+    min: 1410
+    max: 3200
 
   mp:
     min: 5000

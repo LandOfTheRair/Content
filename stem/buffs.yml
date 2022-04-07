@@ -766,7 +766,7 @@ Protection:
   spell: 
     mpCost: 65
     maxSkillForGain: 15
-    potencyMultiplier: 0.8
+    potencyMultiplier: 0.5
     skillMultiplierChanges:
       - [0,  0.75]
       - [11, 1]
@@ -818,7 +818,7 @@ Absorption:
   spell: 
     mpCost: 65
     maxSkillForGain: 15
-    potencyMultiplier: 0.8
+    potencyMultiplier: 0.5
     skillMultiplierChanges:
       - [0,  0.25]
       - [11, 0.5]

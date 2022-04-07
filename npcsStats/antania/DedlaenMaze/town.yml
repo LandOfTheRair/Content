@@ -11,14 +11,12 @@
   skillLevels: 3
 
   skillOnKill: 1
+    
+  cr: 5
 
   gold:
     min: 1
     max: 5
-
-  hp:
-    min: 5000
-    max: 5000
 
   giveXp:
     min: 1000
@@ -42,14 +40,12 @@
   skillLevels: 5
 
   skillOnKill: 1
+    
+  cr: 10
 
   gold:
     min: 1
     max: 5
-
-  hp:
-    min: 15000
-    max: 15000
 
   giveXp:
     min: 1000

@@ -6,7 +6,7 @@
     defense: 3
     offense: 3
     iceResist: 100
-    energyResist: 200
+    energyResist: 150
   maxUpgrades: 1
   requirements:
     level: 14
@@ -20,7 +20,7 @@
     defense: 3
     offense: 3
     iceResist: 400
-    energyResist: 500
+    energyResist: 300
   maxUpgrades: 1
   requirements:
     level: 25

@@ -18,15 +18,12 @@
     defense: 5
     perception: 3
     accuracy: 1
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 2050
     max: 2700
-
-  hp:
-    min: 12950
-    max: 13350
 
   giveXp:
     min: 3400
@@ -88,15 +85,12 @@
     accuracy: 5
     offense: 5
     perception: 3
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 3050
     max: 3700
-
-  hp:
-    min: 18950
-    max: 20350
 
   giveXp:
     min: 4400
@@ -159,7 +153,8 @@
     accuracy: 5
     offense: 5
     perception: 3
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 3050
@@ -235,6 +230,8 @@
     offense: 5
     perception: 3
     mpregen: 50
+    
+  cr: -2
 
   gold:
     min: 23050
@@ -322,7 +319,8 @@
     perception: 3
     stealth: 20
     mpregen: 100
-    damageFactor: 0.5
+    
+  cr: -5
 
   items:
     equipment:
@@ -384,6 +382,8 @@
     agi: 30
     defense: 10
     perception: 3
+    
+  cr: 0
 
   gold:
     min: 0

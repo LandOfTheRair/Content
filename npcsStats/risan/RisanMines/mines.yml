@@ -18,19 +18,16 @@
     int: 10
     accuracy: 5
     perception: 15
-    damageFactor: 0.5
 
   allegianceReputation:
     Enemy: -101
     NaturalResource: -101
+    
+  cr: -5
 
   gold:
     min: 2850
     max: 3000
-
-  hp:
-    min: 23950
-    max: 27350
 
   giveXp:
     min: 5000
@@ -103,15 +100,12 @@
   otherStats:
     accuracy: 5
     perception: 15
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 3850
     max: 4000
-
-  hp:
-    min: 33950
-    max: 37350
 
   giveXp:
     min: 9500
@@ -183,17 +177,14 @@
     accuracy: 7
     offense: 7
     move: 2
-    damageFactor: 0.6
 
   skillOnKill: 35
+    
+  cr: -5
 
   gold:
     min: 1850
     max: 2000
-
-  hp:
-    min: 35950
-    max: 37350
 
   giveXp:
     min: 8600
@@ -256,8 +247,8 @@
     con: 30
     perception: 30
     mpregen: 30
-    damageFactor: 0.4
-
+    
+  cr: -8
 
   gold:
     min: 43850

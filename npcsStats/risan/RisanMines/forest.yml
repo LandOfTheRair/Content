@@ -14,7 +14,6 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.3
     accuracy: 7
 
   items:
@@ -42,14 +41,12 @@
       extra:
         potency: 0.75
         damageType: 'physical'
+    
+  cr: -7
 
   gold:
     min: 150
     max: 300
-
-  hp:
-    min: 12950
-    max: 14350
 
   giveXp:
     min: 3500
@@ -81,7 +78,6 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.3
     accuracy: 7
 
   items:
@@ -117,14 +113,12 @@
       extra:
         potency: 0.75
         damageType: 'physical'
+    
+  cr: -7
 
   gold:
     min: 350
     max: 500
-
-  hp:
-    min: 16950
-    max: 19350
 
   giveXp:
     min: 3200
@@ -157,7 +151,6 @@
   otherStats:
     armorClass: 10
     perception: 15
-    damageFactor: 0.3
     accuracy: 7
 
   items:
@@ -193,14 +186,12 @@
       extra:
         potency: 0.75
         damageType: 'physical'
+    
+  cr: -7
 
   gold:
     min: 450
     max: 500
-
-  hp:
-    min: 24950
-    max: 26350
 
   giveXp:
     min: 3900
@@ -233,8 +224,6 @@
   otherStats:
     armorClass: 25
     perception: 25
-    damageFactor: 0.3
-
 
   items:
     equipment:
@@ -267,6 +256,8 @@
     InternalFortitude: 5
     StunningFist: 7
     ForcefulStrike: 3
+    
+  cr: -7
 
   gold:
     min: 31450
@@ -312,7 +303,6 @@
   otherStats:
     dex: 8
     perception: 15
-    damageFactor: 0.4
 
   items:
     equipment:
@@ -377,14 +367,12 @@
       chance: 0
     - result: Transmute
       chance: 1
+    
+  cr: -8
 
   gold:
     min: 350
     max: 500
-
-  hp:
-    min: 19950
-    max: 20350
 
   mp:
     min: 500
@@ -428,7 +416,6 @@
     dex: 8
     accuracy: 5
     perception: 15
-    damageFactor: 0.3
 
   items:
     equipment:
@@ -504,14 +491,12 @@
   baseEffects:
     - name: DarkVision
       endsAt: -1
+    
+  cr: -8
 
   gold:
     min: 1350
     max: 1500
-
-  hp:
-    min: 21950
-    max: 22350
 
   mp:
     min: 500
@@ -548,7 +533,6 @@
     wil: 30
     con: 30
     perception: 25
-    damageFactor: 0.7
     stealth: -10
 
   items:
@@ -599,6 +583,8 @@
   baseEffects:
     - name: DarkVision
       endsAt: -1
+    
+  cr: -4
 
   gold:
     min: 43850

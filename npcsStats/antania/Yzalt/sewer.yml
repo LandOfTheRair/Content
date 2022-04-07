@@ -15,14 +15,12 @@
   level: 7
 
   skillOnKill: 5
+    
+  cr: 0
 
   gold:
     min: 200
     max: 350
-
-  hp:
-    min: 800
-    max: 1000
 
   mp:
     min: 300
@@ -78,17 +76,15 @@
     Martial: 5
     Axe: 4
 
-  level: 8
+  level: 13
 
   skillOnKill: 18
+    
+  cr: 0
 
   gold:
     min: 200
     max: 350
-
-  hp:
-    min: 4500
-    max: 5000
 
   mp:
     min: 300

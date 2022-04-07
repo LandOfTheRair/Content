@@ -11,19 +11,17 @@
   skillLevels: 2
   level: 10
 
-  skillOnKill:  20
+  skillOnKill: 20
 
   otherStats:
     con: 15
     perception: 5
+    
+  cr: 0
 
   gold:
     min: 150
     max: 300
-
-  hp:
-    min: 3950
-    max: 4350
 
   giveXp:
     min: 1200
@@ -54,19 +52,17 @@
   skillLevels: 2
   level: 10
 
-  skillOnKill:  20
+  skillOnKill: 20
 
   otherStats:
     con: 15
     perception: 5
+    
+  cr: 0
 
   gold:
     min: 250
     max: 400
-
-  hp:
-    min: 4250
-    max: 4550
 
   giveXp:
     min: 1230

@@ -15,16 +15,13 @@
   otherStats:
     con: 7
     perception: 1
-    damageFactor: 0.8
     accuracy: -5
+
+  cr: -2
 
   gold:
     min: 40
     max: 90
-
-  hp:
-    min: 550
-    max: 750
 
   giveXp:
     min: 500
@@ -90,13 +87,11 @@
 
   skillOnKill: 4
 
+  cr: 0
+
   gold:
     min: 40
     max: 90
-
-  hp:
-    min: 500
-    max: 600
 
   mp:
     min: 1000
@@ -186,6 +181,8 @@
 
   sprite: 545
 
+  cr: -2
+
   hp:
     min: 20000
     max: 22000
@@ -265,9 +262,10 @@
   otherStats:
     con: 15
     perception: 3
-    damageFactor: 0.6
 
   skillOnKill: 25
+
+  cr: -4
 
   gold:
     min: 400

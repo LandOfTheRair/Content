@@ -15,15 +15,12 @@
     con: 15
     accuracy: 2
     perception: 5
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 500
     max: 600
-
-  hp:
-    min: 2550
-    max: 2750
 
   giveXp:
     min: 3650
@@ -109,15 +106,12 @@
     accuracy: 2
     stealth: 25
     perception: 6
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 800
     max: 900
-
-  hp:
-    min: 4050
-    max: 4250
 
   mp:
     min: 500
@@ -243,15 +237,12 @@
     con: 14
     accuracy: 2
     perception: 7
-    damageFactor: 0.3
+    
+  cr: -7
 
   gold:
     min: 800
     max: 900
-
-  hp:
-    min: 10550
-    max: 10950
 
   giveXp:
     min: 6650

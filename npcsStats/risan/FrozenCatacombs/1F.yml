@@ -8,8 +8,8 @@
   alignment: Evil
   baseClass: Warrior
   hostility: Always
-  stats: 20
-  skillLevels: 9
+  stats: 15
+  skillLevels: 7
   level: 25
 
   otherStats:
@@ -19,7 +19,6 @@
     armorClass: 1
     defense: 1
     agi: 5
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -80,13 +79,11 @@
 
   skillOnKill: 65
 
+  cr: -9
+
   gold:
     min: 2550
     max: 2900
-
-  hp:
-    min: 56950
-    max: 59350
 
   giveXp:
     min: 35700
@@ -123,8 +120,8 @@
   alignment: Evil
   baseClass: Warrior
   hostility: Always
-  stats: 20
-  skillLevels: 9
+  stats: 15
+  skillLevels: 7
   level: 25
 
   otherStats:
@@ -134,7 +131,6 @@
     armorClass: 1
     defense: 1
     agi: 5
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -189,13 +185,11 @@
 
   skillOnKill: 65
 
+  cr: -9
+
   gold:
     min: 2550
     max: 2900
-
-  hp:
-    min: 56950
-    max: 59350
 
   giveXp:
     min: 35700
@@ -224,8 +218,8 @@
   alignment: Evil
   baseClass: Healer
   hostility: Always
-  stats: 20
-  skillLevels: 8
+  stats: 15
+  skillLevels: 7
   level: 25
 
   otherStats:
@@ -298,13 +292,11 @@
     - result: FleetOfFoot
       chance: 100
 
+  cr: -9
+
   gold:
     min: 2550
     max: 2900
-
-  hp:
-    min: 56950
-    max: 59350
 
   giveXp:
     min: 35700
@@ -345,8 +337,8 @@
   alignment: Evil
   baseClass: Mage
   hostility: Always
-  stats: 20
-  skillLevels: 9
+  stats: 15
+  skillLevels: 7
   level: 25
 
   otherStats:
@@ -415,13 +407,11 @@
     - result: DarkVision
       chance: 100
 
+  cr: -9
+
   gold:
     min: 2550
     max: 2900
-
-  hp:
-    min: 56950
-    max: 59350
 
   giveXp:
     min: 35700
@@ -450,7 +440,7 @@
   baseClass: Warrior
   hostility: Always
   stats: 20
-  skillLevels: 8
+  skillLevels: 7
   level: 25
 
   otherStats:
@@ -460,7 +450,6 @@
     armorClass: 5
     defense: 5
     agi: 5
-    damageFactor: 0.4
 
   items:
     equipment:
@@ -517,13 +506,11 @@
 
   skillOnKill: 65
 
+  cr: -9
+
   gold:
     min: 2550
     max: 2900
-
-  hp:
-    min: 56950
-    max: 59350
 
   giveXp:
     min: 35700
@@ -553,7 +540,7 @@
   baseClass: Thief
   hostility: Always
   stats: 10
-  skillLevels: 9
+  skillLevels: 7
   level: 25
 
   otherStats:
@@ -564,7 +551,6 @@
     armorClass: 1
     defense: 1
     agi: 5
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -624,13 +610,11 @@
     - Darkness
     - DarkVision
 
+  cr: -9
+
   gold:
     min: 2550
     max: 2900
-
-  hp:
-    min: 56950
-    max: 59350
 
   giveXp:
     min: 35700
@@ -674,7 +658,6 @@
     armorClass: 1
     defense: 1
     agi: 5
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -734,13 +717,11 @@
     - Darkness
     - DarkVision
 
+  cr: -9
+
   gold:
     min: 2550
     max: 2900
-
-  hp:
-    min: 56950
-    max: 59350
 
   giveXp:
     min: 35700

@@ -10,6 +10,8 @@
   skillLevels: 6
 
   skillOnKill: 1
+    
+  cr: 0
 
   gold:
     min: 1
@@ -42,6 +44,8 @@
 
   noCorpseDrop: true
   noItemDrop: true
+    
+  cr: 0
 
   gold:
     min: 0
@@ -68,17 +72,15 @@
   stats: 7
   skillLevels: 2
 
-  level: 10
+  level: 7
 
   skillOnKill: 15
+    
+  cr: 0
 
   gold:
     min: 400
     max: 750
-
-  hp:
-    min: 600
-    max: 700
 
   mp:
     min: 300
@@ -124,17 +126,15 @@
   stats: 10
   skillLevels: 3
 
-  level: 12
+  level: 9
 
   skillOnKill: 25
+    
+  cr: 0
 
   gold:
     min: 1000
     max: 1750
-
-  hp:
-    min: 2000
-    max: 2200
 
   mp:
     min: 300
@@ -187,6 +187,8 @@
   level: 16
 
   skillOnKill: 35
+    
+  cr: 0
 
   gold:
     min: 3000
@@ -253,14 +255,12 @@
   level: 20
 
   skillOnKill: 25
+    
+  cr: 0
 
   gold:
     min: 3000
     max: 3750
-
-  hp:
-    min: 20000
-    max: 22500
 
   mp:
     min: 3000
@@ -318,6 +318,8 @@
   level: 23
 
   skillOnKill: 125
+    
+  cr: 0
 
   gold:
     min: 23000

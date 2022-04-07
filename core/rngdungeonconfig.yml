@@ -2683,6 +2683,7 @@ dungeonConfigs:
       bonusCreatureSkillChoices: 2
       bonusCreatureTraitChoices: 2
       eliteTickCap: 20
+      cr: -6
     itemProps:
       baseTier: 7
       baseArrowTier: 4
@@ -2743,6 +2744,7 @@ dungeonConfigs:
       bonusCreatureSkillChoices: 1
       bonusCreatureTraitChoices: 1
       eliteTickCap: 40
+      cr: -2
     itemProps:
       baseTier: 4
       baseArrowTier: 3

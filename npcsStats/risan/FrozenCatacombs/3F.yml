@@ -8,8 +8,8 @@
   alignment: Evil
   baseClass: Warrior
   hostility: Always
-  stats: 24
-  skillLevels: 11
+  stats: 18
+  skillLevels: 9
   level: 35
 
   otherStats:
@@ -19,7 +19,6 @@
     armorClass: 7
     defense: 7
     agi: 9
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -101,13 +100,11 @@
     Swashbuckler: 3
     OffhandFinesse: 2
 
+  cr: -9
+
   gold:
     min: 4550
     max: 4900
-
-  hp:
-    min: 96950
-    max: 99350
 
   giveXp:
     min: 55700
@@ -144,8 +141,8 @@
   alignment: Evil
   baseClass: Warrior
   hostility: Always
-  stats: 24
-  skillLevels: 11
+  stats: 18
+  skillLevels: 9
   level: 35
 
   otherStats:
@@ -155,7 +152,6 @@
     armorClass: 7
     defense: 7
     agi: 9
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -220,13 +216,11 @@
     HolyProtection: 8
     Swashbuckler: 4
 
+  cr: -9
+
   gold:
     min: 4550
     max: 4900
-
-  hp:
-    min: 96950
-    max: 99350
 
   giveXp:
     min: 55700
@@ -255,7 +249,7 @@
   alignment: Evil
   baseClass: Healer
   hostility: Always
-  stats: 24
+  stats: 18
   skillLevels: 10
   level: 35
 
@@ -350,13 +344,11 @@
     NecroticFocus: 2
     Roots: 1
 
+  cr: -9
+
   gold:
     min: 4550
     max: 4900
-
-  hp:
-    min: 96950
-    max: 99350
 
   giveXp:
     min: 55700
@@ -397,8 +389,8 @@
   alignment: Evil
   baseClass: Mage
   hostility: Always
-  stats: 24
-  skillLevels: 11
+  stats: 18
+  skillLevels: 9
   level: 35
 
   otherStats:
@@ -408,7 +400,6 @@
     armorClass: 7
     defense: 7
     agi: 9
-    damageFactor: 0.6
 
   items:
     equipment:
@@ -484,13 +475,11 @@
   traitLevels:
     EnergyFocus: 1
 
+  cr: -9
+
   gold:
     min: 4550
     max: 4900
-
-  hp:
-    min: 96950
-    max: 99350
 
   giveXp:
     min: 55700
@@ -518,8 +507,8 @@
   alignment: Evil
   baseClass: Warrior
   hostility: Always
-  stats: 24
-  skillLevels: 11
+  stats: 18
+  skillLevels: 9
   level: 35
 
   otherStats:
@@ -529,7 +518,6 @@
     armorClass: 13
     defense: 13
     agi: 9
-    damageFactor: 0.4
 
   items:
     equipment:
@@ -595,13 +583,11 @@
     BrassKnuckles: 1
     Punchkick: 1
 
+  cr: -9
+
   gold:
     min: 4550
     max: 4900
-
-  hp:
-    min: 96950
-    max: 99350
 
   giveXp:
     min: 55700
@@ -630,8 +616,8 @@
   alignment: Evil
   baseClass: Thief
   hostility: Always
-  stats: 24
-  skillLevels: 11
+  stats: 14
+  skillLevels: 9
   level: 35
 
   otherStats:
@@ -642,7 +628,6 @@
     armorClass: 7
     defense: 7
     agi: 9
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -744,13 +729,11 @@
     ShadowSwap: 3
     DarknessWiden: 1
 
+  cr: -9
+
   gold:
     min: 4550
     max: 4900
-
-  hp:
-    min: 96950
-    max: 99350
 
   giveXp:
     min: 55700
@@ -782,8 +765,8 @@
   alignment: Evil
   baseClass: Thief
   hostility: Always
-  stats: 24
-  skillLevels: 11
+  stats: 18
+  skillLevels: 9
   level: 35
 
   otherStats:
@@ -794,7 +777,6 @@
     armorClass: 7
     defense: 7
     agi: 9
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -861,14 +843,11 @@
     ShadowSwap: 2
     DarkerShadows: 2
 
+  cr: -9
 
   gold:
     min: 4550
     max: 4900
-
-  hp:
-    min: 96950
-    max: 99350
 
   giveXp:
     min: 55700

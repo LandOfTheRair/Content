@@ -12,7 +12,6 @@
     con: 13
     int: 15
     perception: 6
-    damageFactor: 0.7
   skillLevels: 2
 
   level: 8
@@ -21,14 +20,12 @@
     Royalty: -101
 
   skillOnKill: 11
+    
+  cr: -3
 
   gold:
     min: 400
     max: 600
-
-  hp:
-    min: 1900
-    max: 2200
 
   mp:
     min: 3000
@@ -103,7 +100,6 @@
   otherStats:
     con: 13
     perception: 6
-    damageFactor: 0.7
   skillLevels: 2
 
   level: 8
@@ -112,14 +108,12 @@
     Royalty: -101
 
   skillOnKill: 11
+    
+  cr: -3
 
   gold:
     min: 500
     max: 900
-
-  hp:
-    min: 3900
-    max: 4300
 
   giveXp:
     min: 1235
@@ -210,7 +204,6 @@
   otherStats:
     con: 15
     perception: 6
-    damageFactor: 0.7
   skillLevels:
     Mace: 2
     Sword: 2
@@ -222,14 +215,12 @@
     Pirates: -101
 
   skillOnKill: 11
+    
+  cr: -3
 
   gold:
     min: 200
     max: 400
-
-  hp:
-    min: 2500
-    max: 2800
 
   giveXp:
     min: 1195
@@ -319,7 +310,6 @@
     con: 13
     wis: 15
     perception: 6
-    damageFactor: 0.7
   skillLevels: 2
 
   level: 8
@@ -328,14 +318,12 @@
     Pirates: -101
 
   skillOnKill: 11
+    
+  cr: -3
 
   gold:
     min: 100
     max: 300
-
-  hp:
-    min: 1500
-    max: 1600
 
   mp:
     min: 1300
@@ -413,7 +401,6 @@
   otherStats:
     con: 11
     perception: 4
-    damageFactor: 0.7
   skillLevels: 2
 
   level: 7
@@ -423,14 +410,12 @@
     Royalty: -101
 
   skillOnKill: 9
+    
+  cr: -3
 
   gold:
     min: 100
     max: 200
-
-  hp:
-    min: 1500
-    max: 1800
 
   giveXp:
     min: 895
@@ -519,20 +504,17 @@
     con: 15
     int: 11
     perception: 8
-    damageFactor: 0.7
   skillLevels: 3
 
   level: 8
 
   skillOnKill: 15
+    
+  cr: -3
 
   gold:
     min: 500
     max: 700
-
-  hp:
-    min: 2900
-    max: 3200
 
   mp:
     min: 3000
@@ -668,7 +650,6 @@
     stealth: 10
     con: 15
     perception: 8
-    damageFactor: 0.5
 
   level: 8
 
@@ -687,14 +668,12 @@
       chance: 5
 
   skillOnKill: 15
+    
+  cr: -5
 
   gold:
     min: 700
     max: 900
-
-  hp:
-    min: 4300
-    max: 4800
 
   giveXp:
     min: 1395
@@ -847,7 +826,6 @@
   otherStats:
     con: 15
     perception: 8
-    damageFactor: 0.5
   skillLevels:
     Mace: 2
     Sword: 2
@@ -856,14 +834,12 @@
   level: 8
 
   skillOnKill: 15
+    
+  cr: -5
 
   gold:
     min: 400
     max: 600
-
-  hp:
-    min: 3500
-    max: 3800
 
   giveXp:
     min: 1395
@@ -989,20 +965,17 @@
     con: 15
     wis: 17
     perception: 8
-    damageFactor: 0.7
   skillLevels: 3
 
   level: 8
 
   skillOnKill: 15
+    
+  cr: -3
 
   gold:
     min: 150
     max: 350
-
-  hp:
-    min: 2500
-    max: 2600
 
   mp:
     min: 2300
@@ -1129,6 +1102,8 @@
   level: 10
 
   skillOnKill: 25
+    
+  cr: 0
 
   gold:
     min: 2500
@@ -1207,6 +1182,8 @@
   level: 15
 
   skillOnKill: 25
+    
+  cr: 0
 
   gold:
     min: 5500

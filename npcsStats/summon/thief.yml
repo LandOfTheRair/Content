@@ -19,6 +19,8 @@
     - Backstab
     - Hide
     - Shadowmeld
+    
+  cr: 0
 
   gold:
     min: 0
@@ -50,6 +52,8 @@
 
   usableSkills:
     - Provoke
+    
+  cr: 0
 
   gold:
     min: 0

@@ -11,6 +11,8 @@
   level: 1
 
   skillOnKill: 1
+    
+  cr: -10
 
   gold:
     min: 1
@@ -48,6 +50,8 @@
 
   otherStats:
     move: 2
+    
+  cr: -10
 
   gold:
     min: 1
@@ -93,6 +97,8 @@
 
   otherStats:
     perception: 3
+    
+  cr: 0
 
   gold:
     min: 50
@@ -187,7 +193,6 @@
   stats: 9
   otherStats:
     perception: 3
-    damageFactor: 0.5
   skillLevels: 2
 
   level: 10
@@ -196,14 +201,12 @@
     Pirates: -101
 
   skillOnKill: 8
+    
+  cr: -5
 
   gold:
     min: 50
     max: 200
-
-  hp:
-    min: 2500
-    max: 3000
 
   giveXp:
     min: 175
@@ -287,7 +290,6 @@
   stats: 9
   otherStats:
     perception: 3
-    damageFactor: 0.5
   skillLevels:
     Mace: 2
     Restoration: 3
@@ -298,14 +300,12 @@
     Pirates: -101
 
   skillOnKill: 8
+    
+  cr: -5
 
   gold:
     min: 50
     max: 200
-
-  hp:
-    min: 1500
-    max: 2000
 
   giveXp:
     min: 175
@@ -384,7 +384,6 @@
   stats: 13
   otherStats:
     perception: 3
-    damageFactor: 0.5
   skillLevels: 3
 
   level: 13
@@ -393,14 +392,12 @@
     Pirates: -101
 
   skillOnKill: 8
+    
+  cr: -5
 
   gold:
     min: 50
     max: 200
-
-  hp:
-    min: 3500
-    max: 4000
 
   giveXp:
     min: 195
@@ -484,7 +481,6 @@
   stats: 15
   otherStats:
     perception: 3
-    damageFactor: 0.5
   skillLevels: 3
 
   level: 13
@@ -493,14 +489,12 @@
     Pirates: -101
 
   skillOnKill: 8
+    
+  cr: -5
 
   gold:
     min: 700
     max: 900
-
-  hp:
-    min: 1500
-    max: 2000
 
   giveXp:
     min: 185

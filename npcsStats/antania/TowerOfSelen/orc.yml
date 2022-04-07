@@ -15,16 +15,13 @@
   otherStats:
     con: 15
     perception: 7
-    damageFactor: 0.5
     accuracy: -10
+    
+  cr: -5
 
   gold:
     min: 550
     max: 700
-
-  hp:
-    min: 5950
-    max: 6350
 
   giveXp:
     min: 4650
@@ -80,16 +77,13 @@
   otherStats:
     con: 15
     perception: 7
-    damageFactor: 0.5
     accuracy: -10
+    
+  cr: -5
 
   gold:
     min: 550
     max: 700
-
-  hp:
-    min: 6950
-    max: 7350
 
   mp:
     min: 500
@@ -167,16 +161,13 @@
   otherStats:
     con: 15
     perception: 7
-    damageFactor: 0.5
     accuracy: -10
+    
+  cr: -5
 
   gold:
     min: 550
     max: 700
-
-  hp:
-    min: 6950
-    max: 7350
 
   mp:
     min: 500
@@ -238,7 +229,8 @@
   otherStats:
     con: 25
     perception: 6
-    damageFactor: 0.7
+    
+  cr: -3
 
   gold:
     min: 1550

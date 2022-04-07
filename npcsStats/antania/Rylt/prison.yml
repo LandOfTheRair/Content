@@ -16,16 +16,13 @@
   otherStats:
     con: 7
     perception: 1
-    damageFactor: 0.1
     accuracy: -5
+
+  cr: -9
 
   gold:
     min: 30
     max: 65
-
-  hp:
-    min: 30
-    max: 70
 
   giveXp:
     min: 135
@@ -124,16 +121,17 @@
   otherStats:
     con: 7
     perception: 2
-    damageFactor: 0.5
     accuracy: -5
 
   skillOnKill: 20
 
   sprite: 625
 
+  cr: -5
+
   hp:
     min: 1000
-    max: 3000
+    max: 1200
 
   gold:
     min: 500
@@ -177,16 +175,13 @@
 
   otherStats:
     perception: 3
-    damageFactor: 0.5
     accuracy: -10
+
+  cr: -5
 
   gold:
     min: 100
     max: 150
-
-  hp:
-    min: 400
-    max: 600
 
   giveXp:
     min: 435
@@ -279,16 +274,13 @@
 
   otherStats:
     perception: 4
-    damageFactor: 0.5
     accuracy: -10
+
+  cr: -5
 
   gold:
     min: 150
     max: 250
-
-  hp:
-    min: 1000
-    max: 1200
 
   giveXp:
     min: 450
@@ -389,7 +381,6 @@
   otherStats:
     stealth: 5
     perception: 4
-    damageFactor: 0.5
     accuracy: -10
 
   skillLevels: 2
@@ -397,13 +388,11 @@
   level: 4
   skillOnKill: 6
 
+  cr: -5
+
   gold:
     min: 250
     max: 350
-
-  hp:
-    min: 800
-    max: 950
 
   giveXp:
     min: 460
@@ -502,16 +491,13 @@
 
   otherStats:
     perception: 4
-    damageFactor: 0.5
     accuracy: -10
+
+  cr: -5
 
   gold:
     min: 150
     max: 250
-
-  hp:
-    min: 700
-    max: 900
 
   mp:
     min: 500
@@ -559,19 +545,16 @@
 
   otherStats:
     perception: 4
-    damageFactor: 0.5
     accuracy: -10
 
   level: 4
   skillOnKill: 7
 
+  cr: -5
+
   gold:
     min: 150
     max: 250
-
-  hp:
-    min: 1000
-    max: 1200
 
   mp:
     min: 500
@@ -618,8 +601,9 @@
     con: 20
     stealth: 10
     perception: 5
-    damageFactor: 0.5
     accuracy: -5
+
+  cr: -5
 
   level: 13
   skillOnKill: 50

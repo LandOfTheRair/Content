@@ -8,8 +8,8 @@
   alignment: Evil
   baseClass: Warrior
   hostility: Always
-  stats: 22
-  skillLevels: 10
+  stats: 16
+  skillLevels: 8
   level: 30
 
   otherStats:
@@ -19,7 +19,6 @@
     armorClass: 4
     defense: 4
     agi: 7
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -89,13 +88,11 @@
     SterlingArmor: 3
     Swashbuckler: 2
 
+  cr: -9
+
   gold:
     min: 3550
     max: 3900
-
-  hp:
-    min: 76950
-    max: 79350
 
   giveXp:
     min: 43700
@@ -132,8 +129,8 @@
   alignment: Evil
   baseClass: Warrior
   hostility: Always
-  stats: 22
-  skillLevels: 10
+  stats: 16
+  skillLevels: 8
   level: 30
 
   otherStats:
@@ -143,7 +140,6 @@
     armorClass: 4
     defense: 4
     agi: 7
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -207,13 +203,11 @@
     HolyProtection: 5
     Swashbuckler: 2
 
+  cr: -9
+
   gold:
     min: 3550
     max: 3900
-
-  hp:
-    min: 76950
-    max: 79350
 
   giveXp:
     min: 43700
@@ -242,7 +236,7 @@
   alignment: Evil
   baseClass: Healer
   hostility: Always
-  stats: 22
+  stats: 16
   skillLevels: 9
   level: 30
 
@@ -332,13 +326,11 @@
   traitLevels:
     NecroticFocus: 1
 
+  cr: -9
+
   gold:
     min: 3550
     max: 3900
-
-  hp:
-    min: 76950
-    max: 79350
 
   giveXp:
     min: 43700
@@ -379,8 +371,8 @@
   alignment: Evil
   baseClass: Mage
   hostility: Always
-  stats: 22
-  skillLevels: 10
+  stats: 16
+  skillLevels: 8
   level: 30
 
   otherStats:
@@ -455,13 +447,11 @@
   traitLevels:
     EnergyFocus: 1
 
+  cr: -9
+
   gold:
     min: 3550
     max: 3900
-
-  hp:
-    min: 76950
-    max: 79350
 
   giveXp:
     min: 43700
@@ -489,8 +479,8 @@
   alignment: Evil
   baseClass: Warrior
   hostility: Always
-  stats: 22
-  skillLevels: 10
+  stats: 16
+  skillLevels: 8
   level: 30
 
   otherStats:
@@ -566,13 +556,11 @@
     BrassKnuckles: 1
     Punchkick: 1
 
+  cr: -9
+
   gold:
     min: 3550
     max: 3900
-
-  hp:
-    min: 76950
-    max: 79350
 
   giveXp:
     min: 43700
@@ -601,8 +589,8 @@
   alignment: Evil
   baseClass: Thief
   hostility: Always
-  stats: 22
-  skillLevels: 10
+  stats: 16
+  skillLevels: 8
   level: 30
 
   otherStats:
@@ -613,7 +601,6 @@
     armorClass: 4
     defense: 4
     agi: 7
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -706,13 +693,11 @@
     ShadowDaggers: 2
     ShadowSwap: 2
 
+  cr: -9
+
   gold:
     min: 3550
     max: 3900
-
-  hp:
-    min: 76950
-    max: 79350
 
   giveXp:
     min: 43700
@@ -744,8 +729,8 @@
   alignment: Evil
   baseClass: Thief
   hostility: Always
-  stats: 22
-  skillLevels: 10
+  stats: 16
+  skillLevels: 8
   level: 30
 
   otherStats:
@@ -756,7 +741,6 @@
     armorClass: 4
     defense: 4
     agi: 7
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -820,13 +804,11 @@
     ShadowSwap: 2
     DarkerShadows: 2
 
+  cr: -9
+
   gold:
     min: 3550
     max: 3900
-
-  hp:
-    min: 76950
-    max: 79350
 
   giveXp:
     min: 43700

@@ -11,6 +11,8 @@
   level: 1
 
   skillOnKill: 1
+    
+  cr: -10
 
   gold:
     min: 1
@@ -50,14 +52,12 @@
 
   otherStats:
     perception: 3
+    
+  cr: 0
 
   gold:
     min: 100
     max: 200
-
-  hp:
-    min: 1500
-    max: 2000
 
   giveXp:
     min: 75
@@ -174,7 +174,8 @@
     iceResist: 100
     perception: 3
     stealth: 15
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 50
@@ -282,7 +283,6 @@
     fireResist: 100
     iceResist: 100
     perception: 3
-    damageFactor: 0.5
 
   level: 10
 
@@ -290,14 +290,12 @@
     Royalty: -101
 
   skillOnKill: 8
+    
+  cr: -5
 
   gold:
     min: 50
     max: 200
-
-  hp:
-    min: 1500
-    max: 2000
 
   mp:
     min: 3000
@@ -389,15 +387,12 @@
     fireResist: 100
     iceResist: 100
     perception: 3
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 50
     max: 200
-
-  hp:
-    min: 3500
-    max: 4000
 
   giveXp:
     min: 195
@@ -500,7 +495,6 @@
     fireResist: 100
     iceResist: 100
     perception: 3
-    damageFactor: 0.5
 
   level: 13
 
@@ -508,14 +502,12 @@
     Royalty: -101
 
   skillOnKill: 8
+    
+  cr: -5
 
   gold:
     min: 50
     max: 200
-
-  hp:
-    min: 1500
-    max: 2000
 
   mp:
     min: 3000

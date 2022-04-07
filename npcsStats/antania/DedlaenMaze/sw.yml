@@ -17,15 +17,12 @@
     accuracy: 4
     offense: 4
     perception: 7
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 550
     max: 700
-
-  hp:
-    min: 8350
-    max: 8470
 
   giveXp:
     min: 4000
@@ -74,18 +71,15 @@
     accuracy: 2
     offense: 2
     perception: 10
-    damageFactor: 0.5
 
   usableSkills:
     - DoubleAttack
+    
+  cr: -5
 
   gold:
     min: 1050
     max: 1350
-
-  hp:
-    min: 11950
-    max: 12350
 
   giveXp:
     min: 3900
@@ -115,6 +109,8 @@
     offense: 2
     perception: 10
     mpregen: 0
+    
+  cr: 0
 
   usableSkills:
     - DarkVision
@@ -125,10 +121,6 @@
   gold:
     min: 0
     max: 0
-
-  hp:
-    min: 6950
-    max: 7350
 
   mp:
     min: 1000
@@ -170,7 +162,6 @@
     defense: 3
     mpregen: 50
     perception: 7
-    damageFactor: 0.5
 
   usableSkills:
     - Push
@@ -179,6 +170,8 @@
     - MagicBolt
     - Asper
     - GhostWail
+    
+  cr: -5
 
   gold:
     min: 13560
@@ -256,10 +249,11 @@
     defense: 3
     mpregen: 50
     perception: 7
-    damageFactor: 0.5
 
   usableSkills:
     - DoubleAttack
+    
+  cr: -5
 
   gold:
     min: 12050
@@ -319,9 +313,10 @@
     defense: 3
     mpregen: 50
     perception: 8
-    damageFactor: 0.4
 
   skillOnKill: 25
+    
+  cr: -6
 
   gold:
     min: 9500
@@ -378,15 +373,12 @@
     accuracy: 4
     offense: 4
     perception: 7
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 550
     max: 700
-
-  hp:
-    min: 16350
-    max: 16470
 
   giveXp:
     min: 4000

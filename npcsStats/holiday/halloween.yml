@@ -5,15 +5,13 @@
   monsterGroup: Town
   stats: 15
   skillLevels: 5
-  level: 10
+  level: 7
 
   skillOnKill: 1
 
   sprite: [70, 75, 80, 85, 90, 100, 125, 305]
-
-  hp:
-    min: 500
-    max: 700
+    
+  cr: 0
 
   gold:
     min: 0
@@ -82,6 +80,8 @@
   skillOnKill: 5
 
   sprite: [140, 150, 315, 345, 380, 410]
+    
+  cr: 0
 
   hp:
     min: 2500
@@ -137,6 +137,7 @@
     Wilderness: -101
     Underground: -101
 
+  cr: 0
 
   gold:
     min: 15
@@ -194,15 +195,12 @@
     defense: 5
     perception: 3
     accuracy: 1
-    damageFactor: 0.5
+    
+  cr: -5
 
   gold:
     min: 2050
     max: 2700
-
-  hp:
-    min: 12950
-    max: 13350
 
   giveXp:
     min: 2400
@@ -268,7 +266,8 @@
     perception: 3
     stealth: 20
     mpregen: 100
-    damageFactor: 0.5
+    
+  cr: -5
 
   items:
     equipment:
@@ -363,6 +362,8 @@
     offense: 5
     perception: 3
     mpregen: 50
+    
+  cr: 0
 
   gold:
     min: 23050

@@ -67,8 +67,8 @@
 
 - name: Catacombs Amulet 1F
   stats:
-    necroticResist: 100
-    energyResist: 100
+    necroticResist: 50
+    energyResist: 50
     armorClass: 1
     defense: 2
   binds: true
@@ -82,8 +82,8 @@
 
 - name: Catacombs Amulet 2F
   stats:
-    necroticResist: 200
-    energyResist: 200
+    necroticResist: 100
+    energyResist: 100
     armorClass: 2
     defense: 4
   binds: true
@@ -97,8 +97,8 @@
 
 - name: Catacombs Amulet 3F
   stats:
-    necroticResist: 300
-    energyResist: 300
+    necroticResist: 150
+    energyResist: 150
     armorClass: 3
     defense: 6
   binds: true
@@ -112,8 +112,8 @@
 
 - name: Catacombs Amulet 4F
   stats:
-    necroticResist: 400
-    energyResist: 400
+    necroticResist: 200
+    energyResist: 200
     armorClass: 4
     defense: 8
   binds: true
@@ -127,8 +127,8 @@
 
 - name: Catacombs Amulet 5F
   stats:
-    necroticResist: 500
-    energyResist: 500
+    necroticResist: 250
+    energyResist: 250
     armorClass: 5
     defense: 10
   binds: true

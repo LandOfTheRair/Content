@@ -20,6 +20,8 @@
     agi: 30
     defense: 10
     perception: 25
+    
+  cr: 0
 
   gold:
     min: 0

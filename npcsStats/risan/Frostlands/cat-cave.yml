@@ -15,7 +15,6 @@
     armorClass: 5
     defense: 5
     perception: 20
-    damageFactor: 0.3
 
   items:
     equipment:
@@ -46,13 +45,11 @@
         potency: 0.25
         damageType: 'ice'
 
+  cr: -9
+
   gold:
     min: 1350
     max: 1500
-
-  hp:
-    min: 36950
-    max: 39350
 
   mp:
     min: 1000
@@ -96,7 +93,6 @@
     offense: 10
     defense: 15
     perception: 20
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -130,6 +126,8 @@
       extra:
         potency: 0.25
         damageType: 'ice'
+
+  cr: -9
 
   gold:
     min: 12350

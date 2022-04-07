@@ -14,7 +14,6 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.5
 
   skillOnKill: 250
 
@@ -22,6 +21,8 @@
     equipment:
       armor: Aynamai Cloak
       hands: Werebear Claws
+    
+  cr: -5
 
   hp:
     min: 15000
@@ -89,12 +90,13 @@
   stats: 14
   otherStats:
     perception: 5
-    damageFactor: 0.5
   skillLevels: 4
 
   level: 15
 
   skillOnKill: 350
+    
+  cr: -5
 
   hp:
     min: 55000
@@ -145,7 +147,8 @@
   otherStats:
     con: 25
     perception: 8
-    damageFactor: 0.7
+    
+  cr: -3
 
   hp:
     min: 85000
@@ -208,7 +211,8 @@
     con: 30
     perception: 30
     mpregen: 30
-    damageFactor: 0.4
+    
+  cr: -6
 
   hp:
     min: 500000
@@ -289,7 +293,6 @@
 
   otherStats:
     perception: 15
-    damageFactor: 0.7
 
   items:
     equipment:
@@ -326,6 +329,8 @@
     - Blindstrike
     - Boost
     - Shield
+    
+  cr: -3
 
   hp:
     min: 469500

@@ -13,7 +13,6 @@
   level: 2
 
   otherStats:
-    damageFactor: 0.7
     accuracy: -5
 
   items:
@@ -34,13 +33,11 @@
       chance: 1
       maxChance: 25
 
+  cr: -3
+
   gold:
     min: 0
     max: 0
-
-  hp:
-    min: 50
-    max: 100
 
   giveXp:
     min: 10
@@ -61,7 +58,6 @@
 
   otherStats:
     perception: 3
-    damageFactor: 0.5
     accuracy: -10
 
   skillOnKill: 25
@@ -93,6 +89,8 @@
         potency: 0.75
         damageType: 'physical'
 
+  cr: -5
+
   hp:
     min: 1700
     max: 2000
@@ -122,18 +120,15 @@
 
   otherStats:
     perception: 1
-    damageFactor: 0.5
     accuracy: -5
 
   skillOnKill: 4
 
+  cr: -5
+
   gold:
     min: 10
     max: 20
-
-  hp:
-    min: 200
-    max: 300
 
   giveXp:
     min: 50
@@ -179,18 +174,15 @@
 
   otherStats:
     perception: 1
-    damageFactor: 0.5
     accuracy: -5
 
   skillOnKill: 5
 
+  cr: -5
+
   gold:
     min: 40
     max: 90
-
-  hp:
-    min: 400
-    max: 600
 
   giveXp:
     min: 20
@@ -240,7 +232,6 @@
 
   otherStats:
     perception: 5
-    damageFactor: 0.5
     accuracy: -15
 
   skillOnKill: 25
@@ -249,6 +240,8 @@
     equipment:
       armor: Rylt Werebear Fur
       hands: Werebear Claws
+
+  cr: -5
 
   hp:
     min: 4000

@@ -8,8 +8,8 @@
   alignment: Evil
   baseClass: Warrior
   hostility: Always
-  stats: 26
-  skillLevels: 12
+  stats: 20
+  skillLevels: 10
   level: 40
 
   otherStats:
@@ -19,7 +19,6 @@
     armorClass: 10
     defense: 10
     agi: 11
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -103,13 +102,11 @@
     OffhandFinesse: 3
     BoostedBoost: 1
 
+  cr: -9
+
   gold:
     min: 5550
     max: 5900
-
-  hp:
-    min: 119150
-    max: 119350
 
   giveXp:
     min: 75700
@@ -146,8 +143,8 @@
   alignment: Evil
   baseClass: Warrior
   hostility: Always
-  stats: 26
-  skillLevels: 12
+  stats: 20
+  skillLevels: 10
   level: 40
 
   otherStats:
@@ -157,7 +154,6 @@
     armorClass: 10
     defense: 10
     agi: 11
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -224,13 +220,11 @@
     Swashbuckler: 6
     DoubleThrust: 1
 
+  cr: -9
+
   gold:
     min: 5550
     max: 5900
-
-  hp:
-    min: 119150
-    max: 119350
 
   giveXp:
     min: 75700
@@ -259,7 +253,7 @@
   alignment: Evil
   baseClass: Healer
   hostility: Always
-  stats: 26
+  stats: 20
   skillLevels: 11
   level: 40
 
@@ -270,7 +264,6 @@
     armorClass: 10
     defense: 10
     agi: 11
-    damageFactor: 0.4
 
   items:
     equipment:
@@ -357,13 +350,11 @@
     NecroticFocus: 3
     Roots: 1
 
+  cr: -9
+
   gold:
     min: 5550
     max: 5900
-
-  hp:
-    min: 119150
-    max: 119350
 
   giveXp:
     min: 75700
@@ -404,8 +395,8 @@
   alignment: Evil
   baseClass: Mage
   hostility: Always
-  stats: 26
-  skillLevels: 12
+  stats: 20
+  skillLevels: 10
   level: 40
 
   otherStats:
@@ -415,7 +406,6 @@
     armorClass: 10
     defense: 10
     agi: 11
-    damageFactor: 0.3
 
   items:
     equipment:
@@ -494,13 +484,11 @@
     EnergyFocus: 2
     ConcussiveBolt: 2
 
+  cr: -9
+
   gold:
     min: 5550
     max: 5900
-
-  hp:
-    min: 119150
-    max: 119350
 
   giveXp:
     min: 75700
@@ -528,8 +516,8 @@
   alignment: Evil
   baseClass: Warrior
   hostility: Always
-  stats: 26
-  skillLevels: 12
+  stats: 20
+  skillLevels: 10
   level: 40
 
   otherStats:
@@ -539,7 +527,6 @@
     armorClass: 19
     defense: 19
     agi: 11
-    damageFactor: 0.4
 
   items:
     equipment:
@@ -606,13 +593,11 @@
     BrassKnuckles: 2
     Punchkick: 2
 
+  cr: -9
+
   gold:
     min: 5550
     max: 5900
-
-  hp:
-    min: 119150
-    max: 119350
 
   giveXp:
     min: 75700
@@ -641,8 +626,8 @@
   alignment: Evil
   baseClass: Thief
   hostility: Always
-  stats: 26
-  skillLevels: 12
+  stats: 20
+  skillLevels: 10
   level: 40
 
   otherStats:
@@ -653,8 +638,6 @@
     armorClass: 10
     defense: 10
     agi: 11
-    damageFactor: 0.2
-
 
   items:
     equipment:
@@ -757,13 +740,11 @@
     DarknessWiden: 2
     CorrosivePoison: 1
 
+  cr: -9
+
   gold:
     min: 5550
     max: 5900
-
-  hp:
-    min: 119150
-    max: 119350
 
   giveXp:
     min: 75700
@@ -795,8 +776,8 @@
   alignment: Evil
   baseClass: Thief
   hostility: Always
-  stats: 26
-  skillLevels: 12
+  stats: 20
+  skillLevels: 10
   level: 40
 
   otherStats:
@@ -807,7 +788,6 @@
     armorClass: 10
     defense: 10
     agi: 11
-    damageFactor: 0.2
 
   items:
     equipment:
@@ -876,13 +856,11 @@
     TripleShot: 1
     DegenerativeVenom: 1
 
+  cr: -9
+
   gold:
     min: 5550
     max: 5900
-
-  hp:
-    min: 119150
-    max: 119350
 
   giveXp:
     min: 75700

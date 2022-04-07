@@ -9,14 +9,12 @@
   level: 5
 
   skillOnKill: 9
+    
+  cr: 0
 
   gold:
     min: 90
     max: 190
-
-  hp:
-    min: 750
-    max: 950
 
   giveXp:
     min: 255
