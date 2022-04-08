@@ -370,6 +370,7 @@ Shield:
     mpCost: 0
     cooldown: 60
     maxSkillForGain: 5
+    potencyMultiplier: 0.5
     skillMultiplierChanges:
       - [0,  1]
 
