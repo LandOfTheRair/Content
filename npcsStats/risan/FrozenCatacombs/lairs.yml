@@ -241,7 +241,7 @@
     perception: 55
     mpregen: 50
 
-  cr: -5
+  cr: -9
 
   gold:
     min: 23050
