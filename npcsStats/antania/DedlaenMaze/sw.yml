@@ -20,14 +20,6 @@
     
   cr: -5
 
-  gold:
-    min: 550
-    max: 700
-
-  giveXp:
-    min: 4000
-    max: 6500
-
   items:
     equipment:
       hands: Maze Mummy Claws
@@ -77,14 +69,6 @@
     
   cr: -5
 
-  gold:
-    min: 1050
-    max: 1350
-
-  giveXp:
-    min: 3900
-    max: 5200
-
   items:
     equipment:
       hands: Maze Ghoul Claws
@@ -125,10 +109,6 @@
   mp:
     min: 1000
     max: 1000
-
-  giveXp:
-    min: 7100
-    max: 8500
 
   baseEffects:
     - name: Attribute
@@ -375,14 +355,6 @@
     perception: 7
     
   cr: -5
-
-  gold:
-    min: 550
-    max: 700
-
-  giveXp:
-    min: 4000
-    max: 6500
 
   items:
     equipment:

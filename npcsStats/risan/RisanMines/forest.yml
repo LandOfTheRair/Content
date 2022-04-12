@@ -44,14 +44,6 @@
     
   cr: -7
 
-  gold:
-    min: 150
-    max: 300
-
-  giveXp:
-    min: 3500
-    max: 5800
-
   drops:
     - result: Risan Twig
       chance: 1
@@ -115,14 +107,6 @@
         damageType: 'physical'
     
   cr: -7
-
-  gold:
-    min: 350
-    max: 500
-
-  giveXp:
-    min: 3200
-    max: 5500
 
   tansFor: Crazed Beast Fur
   tanSkillRequired: 12
@@ -188,14 +172,6 @@
         damageType: 'physical'
     
   cr: -7
-
-  gold:
-    min: 450
-    max: 500
-
-  giveXp:
-    min: 3900
-    max: 5100
 
   tansFor: Crazed Bear Fur
   tanSkillRequired: 12
@@ -370,17 +346,9 @@
     
   cr: -8
 
-  gold:
-    min: 350
-    max: 500
-
   mp:
     min: 500
     max: 1000
-
-  giveXp:
-    min: 10500
-    max: 13800
 
   copyDrops:
     - result: 'equipment.armor'
@@ -494,17 +462,9 @@
     
   cr: -8
 
-  gold:
-    min: 1350
-    max: 1500
-
   mp:
     min: 500
     max: 1000
-
-  giveXp:
-    min: 20500
-    max: 24800
 
   copyDrops:
     - result: 'equipment.armor'

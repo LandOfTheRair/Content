@@ -26,10 +26,6 @@
     min: 500
     max: 500
 
-  giveXp:
-    min: 100
-    max: 200
-
   items:
     equipment:
       armor: Risan Tunic
@@ -88,10 +84,6 @@
     - result: ChristmasPresentElfDropPresent
       chance: 5
 
-  giveXp:
-    min: 100
-    max: 200
-
   items:
     equipment:
       armor: Risan Tunic
@@ -125,17 +117,9 @@
     
   cr: 0
 
-  gold:
-    min: 400
-    max: 750
-
   mp:
     min: 300
     max: 500
-
-  giveXp:
-    min: 270
-    max: 292
 
   items:
     equipment:
@@ -206,17 +190,9 @@
     
   cr: 0
 
-  gold:
-    min: 1000
-    max: 1750
-
   mp:
     min: 300
     max: 500
-
-  giveXp:
-    min: 1070
-    max: 1092
 
   items:
     equipment:
@@ -399,17 +375,9 @@
     
   cr: 0
 
-  gold:
-    min: 400
-    max: 750
-
   mp:
     min: 300
     max: 500
-
-  giveXp:
-    min: 270
-    max: 292
 
   items:
     equipment:
@@ -452,17 +420,9 @@
     
   cr: 0
 
-  gold:
-    min: 1000
-    max: 1750
-
   mp:
     min: 300
     max: 500
-
-  giveXp:
-    min: 1070
-    max: 1092
 
   items:
     equipment:

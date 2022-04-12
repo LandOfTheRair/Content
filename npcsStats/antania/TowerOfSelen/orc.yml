@@ -19,14 +19,6 @@
     
   cr: -5
 
-  gold:
-    min: 550
-    max: 700
-
-  giveXp:
-    min: 4650
-    max: 6750
-
   items:
     equipment:
       armor:
@@ -81,17 +73,9 @@
     
   cr: -5
 
-  gold:
-    min: 550
-    max: 700
-
   mp:
     min: 500
     max: 700
-
-  giveXp:
-    min: 4650
-    max: 6750
 
   usableSkills:
     - Afflict
@@ -165,17 +149,9 @@
     
   cr: -5
 
-  gold:
-    min: 550
-    max: 700
-
   mp:
     min: 500
     max: 700
-
-  giveXp:
-    min: 4650
-    max: 6750
 
   usableSkills:
     - MagicMissile
@@ -231,10 +207,6 @@
     perception: 6
     
   cr: -3
-
-  gold:
-    min: 1550
-    max: 1700
 
   hp:
     min: 45000

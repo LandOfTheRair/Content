@@ -55,14 +55,6 @@
     
   cr: 0
 
-  gold:
-    min: 100
-    max: 200
-
-  giveXp:
-    min: 75
-    max: 85
-
   repMod:
     - allegiance: Royalty
       delta: 1
@@ -177,17 +169,9 @@
     
   cr: -5
 
-  gold:
-    min: 50
-    max: 200
-
   hp:
     min: 2500
     max: 3000
-
-  giveXp:
-    min: 175
-    max: 185
 
   repMod:
     - allegiance: Royalty
@@ -293,20 +277,12 @@
     
   cr: -5
 
-  gold:
-    min: 50
-    max: 200
-
   mp:
     min: 3000
     max: 3000
 
   usableSkills:
     - MagicMissile
-
-  giveXp:
-    min: 175
-    max: 185
 
   repMod:
     - allegiance: Royalty
@@ -389,14 +365,6 @@
     perception: 3
     
   cr: -5
-
-  gold:
-    min: 50
-    max: 200
-
-  giveXp:
-    min: 195
-    max: 215
 
   repMod:
     - allegiance: Royalty
@@ -505,20 +473,12 @@
     
   cr: -5
 
-  gold:
-    min: 50
-    max: 200
-
   mp:
     min: 3000
     max: 3000
 
   usableSkills:
     - MagicMissile
-
-  giveXp:
-    min: 195
-    max: 215
 
   repMod:
     - allegiance: Royalty

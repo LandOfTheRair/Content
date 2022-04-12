@@ -102,14 +102,6 @@
 
   cr: -9
 
-  gold:
-    min: 4550
-    max: 4900
-
-  giveXp:
-    min: 55700
-    max: 59900
-
   baseEffects:
     - name: Attribute
       extra:
@@ -217,14 +209,6 @@
     Swashbuckler: 4
 
   cr: -9
-
-  gold:
-    min: 4550
-    max: 4900
-
-  giveXp:
-    min: 55700
-    max: 59900
 
   baseEffects:
     - name: Attribute
@@ -345,14 +329,6 @@
     Roots: 1
 
   cr: -9
-
-  gold:
-    min: 4550
-    max: 4900
-
-  giveXp:
-    min: 55700
-    max: 59900
 
   mp:
     min: 10000
@@ -477,14 +453,6 @@
 
   cr: -9
 
-  gold:
-    min: 4550
-    max: 4900
-
-  giveXp:
-    min: 55700
-    max: 59900
-
   mp:
     min: 10000
     max: 10000
@@ -584,14 +552,6 @@
     Punchkick: 1
 
   cr: -9
-
-  gold:
-    min: 4550
-    max: 4900
-
-  giveXp:
-    min: 55700
-    max: 59900
 
   baseEffects:
     - name: Attribute
@@ -731,14 +691,6 @@
 
   cr: -9
 
-  gold:
-    min: 4550
-    max: 4900
-
-  giveXp:
-    min: 55700
-    max: 59900
-
   mp:
     min: 1000
     max: 1000
@@ -844,14 +796,6 @@
     DarkerShadows: 2
 
   cr: -9
-
-  gold:
-    min: 4550
-    max: 4900
-
-  giveXp:
-    min: 55700
-    max: 59900
 
   mp:
     min: 1000

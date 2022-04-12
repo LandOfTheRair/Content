@@ -104,14 +104,6 @@
 
   cr: -9
 
-  gold:
-    min: 6550
-    max: 6900
-
-  giveXp:
-    min: 95700
-    max: 119900
-
   baseEffects:
     - name: Attribute
       extra:
@@ -221,14 +213,6 @@
     DoubleThrust: 1
 
   cr: -9
-
-  gold:
-    min: 6550
-    max: 6900
-
-  giveXp:
-    min: 95700
-    max: 119900
 
   baseEffects:
     - name: Attribute
@@ -351,14 +335,6 @@
     Roots: 2
 
   cr: -9
-
-  gold:
-    min: 6550
-    max: 6900
-
-  giveXp:
-    min: 95700
-    max: 119900
 
   mp:
     min: 10000
@@ -490,14 +466,6 @@
 
   cr: -9
 
-  gold:
-    min: 6550
-    max: 6900
-
-  giveXp:
-    min: 95700
-    max: 119900
-
   mp:
     min: 10000
     max: 10000
@@ -600,14 +568,6 @@
     Punchkick: 2
 
   cr: -9
-
-  gold:
-    min: 6550
-    max: 6900
-
-  giveXp:
-    min: 95700
-    max: 119900
 
   baseEffects:
     - name: Attribute
@@ -749,14 +709,6 @@
 
   cr: -9
 
-  gold:
-    min: 6550
-    max: 6900
-
-  giveXp:
-    min: 95700
-    max: 119900
-
   mp:
     min: 1000
     max: 1000
@@ -864,14 +816,6 @@
     DegenerativeVenom: 1
 
   cr: -9
-
-  gold:
-    min: 6550
-    max: 6900
-
-  giveXp:
-    min: 95700
-    max: 119900
 
   mp:
     min: 1000

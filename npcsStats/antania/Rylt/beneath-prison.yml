@@ -156,15 +156,6 @@
     min: 25000
     max: 25000
 
-  gold:
-    min: 5000
-    max: 10000
-
-  giveXp:
-    min: 25000
-    max: 27500
-
-
   items:
     equipment:
       armor: Tower Breastplate
@@ -218,15 +209,6 @@
   mp:
     min: 25000
     max: 25000
-
-  gold:
-    min: 5000
-    max: 10000
-
-  giveXp:
-    min: 25000
-    max: 27500
-
 
   traitLevels:
     LightenArmor: 1
@@ -290,15 +272,6 @@
   mp:
     min: 25000
     max: 25000
-
-  gold:
-    min: 5000
-    max: 10000
-
-  giveXp:
-    min: 25000
-    max: 27500
-
 
   traitLevels:
     LightenArmor: 1

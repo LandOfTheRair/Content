@@ -81,14 +81,6 @@
 
   cr: -9
 
-  gold:
-    min: 2550
-    max: 2900
-
-  giveXp:
-    min: 35700
-    max: 39900
-
   baseEffects:
     - name: Attribute
       extra:
@@ -186,14 +178,6 @@
   skillOnKill: 65
 
   cr: -9
-
-  gold:
-    min: 2550
-    max: 2900
-
-  giveXp:
-    min: 35700
-    max: 39900
 
   baseEffects:
     - name: Attribute
@@ -293,14 +277,6 @@
       chance: 100
 
   cr: -9
-
-  gold:
-    min: 2550
-    max: 2900
-
-  giveXp:
-    min: 35700
-    max: 39900
 
   mp:
     min: 10000
@@ -409,14 +385,6 @@
 
   cr: -9
 
-  gold:
-    min: 2550
-    max: 2900
-
-  giveXp:
-    min: 35700
-    max: 39900
-
   mp:
     min: 10000
     max: 10000
@@ -507,14 +475,6 @@
   skillOnKill: 65
 
   cr: -9
-
-  gold:
-    min: 2550
-    max: 2900
-
-  giveXp:
-    min: 35700
-    max: 39900
 
   baseEffects:
     - name: Attribute
@@ -611,14 +571,6 @@
     - DarkVision
 
   cr: -9
-
-  gold:
-    min: 2550
-    max: 2900
-
-  giveXp:
-    min: 35700
-    max: 39900
 
   mp:
     min: 1000
@@ -718,14 +670,6 @@
     - DarkVision
 
   cr: -9
-
-  gold:
-    min: 2550
-    max: 2900
-
-  giveXp:
-    min: 35700
-    max: 39900
 
   mp:
     min: 1000

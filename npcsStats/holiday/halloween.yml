@@ -13,14 +13,6 @@
     
   cr: 0
 
-  gold:
-    min: 0
-    max: 100
-
-  giveXp:
-    min: 30
-    max: 50
-
   items:
     equipment:
       armor:
@@ -87,14 +79,6 @@
     min: 2500
     max: 4000
 
-  gold:
-    min: 0
-    max: 100
-
-  giveXp:
-    min: 300
-    max: 500
-
   items:
     equipment:
       armor:
@@ -139,17 +123,9 @@
 
   cr: 0
 
-  gold:
-    min: 15
-    max: 35
-
   hp:
     min: 5000
     max: 6000
-
-  giveXp:
-    min: 50
-    max: 100
 
   items:
     equipment:
@@ -197,14 +173,6 @@
     accuracy: 1
     
   cr: -5
-
-  gold:
-    min: 2050
-    max: 2700
-
-  giveXp:
-    min: 2400
-    max: 2700
 
   items:
     equipment:

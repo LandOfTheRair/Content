@@ -31,10 +31,6 @@
     min: 13950
     max: 16350
 
-  giveXp:
-    min: 29000
-    max: 35000
-
   usableSkills:
     - PoisonBiteMedium
 

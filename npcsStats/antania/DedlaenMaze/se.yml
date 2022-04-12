@@ -75,8 +75,8 @@
     max: 10000
 
   giveXp:
-    min: 26900
-    max: 27500
+    min: 269001
+    max: 275001
 
 - npcId: Dedlaen Crypt Naga
   name: crypt naga
@@ -98,10 +98,6 @@
     
   cr: -5
 
-  gold:
-    min: 1550
-    max: 1700
-
   hp:
     min: 40950
     max: 55350
@@ -109,10 +105,6 @@
   mp:
     min: 900
     max: 1000
-
-  giveXp:
-    min: 5000
-    max: 6500
 
   baseEffects:
     - name: Attribute
@@ -163,10 +155,6 @@
     
   cr: -5
 
-  gold:
-    min: 1550
-    max: 1700
-
   hp:
     min: 30950
     max: 35350
@@ -174,10 +162,6 @@
   mp:
     min: 900
     max: 1000
-
-  giveXp:
-    min: 5000
-    max: 6500
 
   baseEffects:
     - name: Attribute
@@ -223,14 +207,6 @@
     
   cr: 0
 
-  gold:
-    min: 150
-    max: 250
-
-  giveXp:
-    min: 3300
-    max: 4500
-
   items:
     equipment:
       hands: Medium Claws
@@ -259,17 +235,9 @@
     
   cr: 0
 
-  gold:
-    min: 150
-    max: 250
-
   mp:
     min: 500
     max: 500
-
-  giveXp:
-    min: 3300
-    max: 4700
 
   items:
     equipment:

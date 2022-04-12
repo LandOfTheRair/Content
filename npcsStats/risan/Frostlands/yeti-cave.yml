@@ -66,10 +66,6 @@
 
   cr: -9
 
-  gold:
-    min: 1350
-    max: 1500
-
   hp:
     min: 46950
     max: 49350
@@ -77,10 +73,6 @@
   mp:
     min: 1000
     max: 1000
-
-  giveXp:
-    min: 21200
-    max: 26500
 
   tansFor: Frostlands Yeti Fur
   tanSkillRequired: 13
@@ -154,17 +146,9 @@
 
   cr: -8
 
-  gold:
-    min: 1550
-    max: 1900
-
   mp:
     min: 1000
     max: 1000
-
-  giveXp:
-    min: 29200
-    max: 30500
 
   tansFor: Frostlands Strong Yeti Fur
   tanSkillRequired: 14
@@ -188,14 +172,6 @@
   skillOnKill: 35
 
   cr: -9
-
-  gold:
-    min: 1850
-    max: 2000
-
-  giveXp:
-    min: 14600
-    max: 14900
 
   usableSkills:
     - Kick

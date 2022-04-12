@@ -31,10 +31,6 @@
     
   cr: 0
 
-  gold:
-    min: 1550
-    max: 1900
-
   hp:
     min: 136950
     max: 139350
@@ -42,10 +38,6 @@
   mp:
     min: 5000
     max: 5000
-
-  giveXp:
-    min: 4100
-    max: 5700
 
   noCorpseDrop: true
 
@@ -201,10 +193,6 @@
     
   cr: 0
 
-  gold:
-    min: 3150
-    max: 3350
-
   hp:
     min: 122500
     max: 122600
@@ -212,10 +200,6 @@
   mp:
     min: 12300
     max: 12400
-
-  giveXp:
-    min: 2395
-    max: 2415
 
   usableSkills:
     - Afflict
@@ -339,10 +323,6 @@
     
   cr: 0
 
-  gold:
-    min: 3150
-    max: 3350
-
   hp:
     min: 122500
     max: 122600
@@ -350,10 +330,6 @@
   mp:
     min: 12300
     max: 12400
-
-  giveXp:
-    min: 2395
-    max: 2415
 
   usableSkills:
     - MagicMissile
@@ -487,10 +463,6 @@
     
   cr: 0
 
-  gold:
-    min: 3150
-    max: 3350
-
   hp:
     min: 122500
     max: 122600
@@ -498,10 +470,6 @@
   mp:
     min: 12300
     max: 12400
-
-  giveXp:
-    min: 2395
-    max: 2415
 
   usableSkills:
     - SetTrap
@@ -659,10 +627,6 @@
     
   cr: 0
 
-  gold:
-    min: 3150
-    max: 3350
-
   hp:
     min: 142500
     max: 142600
@@ -670,10 +634,6 @@
   mp:
     min: 12300
     max: 12400
-
-  giveXp:
-    min: 2395
-    max: 2415
 
   usableSkills:
     - Charge

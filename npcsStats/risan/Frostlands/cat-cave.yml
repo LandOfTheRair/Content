@@ -47,17 +47,9 @@
 
   cr: -9
 
-  gold:
-    min: 1350
-    max: 1500
-
   mp:
     min: 1000
     max: 1000
-
-  giveXp:
-    min: 22200
-    max: 24500
 
   drops:
     - result: Frostlands Mage Earring
@@ -128,10 +120,6 @@
         damageType: 'ice'
 
   cr: -9
-
-  gold:
-    min: 12350
-    max: 13500
 
   hp:
     min: 5500000

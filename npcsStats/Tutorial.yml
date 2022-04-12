@@ -15,14 +15,6 @@
     min: 1000
     max: 2000
 
-  gold:
-    min: 0
-    max: 100
-
-  giveXp:
-    min: 300
-    max: 500
-
   items:
     equipment:
       leftHand:
@@ -73,17 +65,9 @@
     
   cr: -10
 
-  gold:
-    min: 0
-    max: 0
-
   hp:
     min: 50
     max: 100
-
-  giveXp:
-    min: 10
-    max: 50
 
 - npcId: Tutorial Wolf
   name: wolf
@@ -99,17 +83,9 @@
     
   cr: -10
 
-  gold:
-    min: 10
-    max: 20
-
   hp:
     min: 50
     max: 100
-
-  giveXp:
-    min: 50
-    max: 75
 
   items:
     equipment:
@@ -140,15 +116,7 @@
     
   cr: -10
 
-  gold:
-    min: 100
-    max: 200
-
   hp:
-    min: 100
-    max: 150
-
-  giveXp:
     min: 100
     max: 150
 

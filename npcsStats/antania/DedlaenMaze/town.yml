@@ -18,10 +18,6 @@
     min: 1
     max: 5
 
-  giveXp:
-    min: 1000
-    max: 2000
-
   items:
     equipment:
       armor: Antanian Tunic
@@ -46,10 +42,6 @@
   gold:
     min: 1
     max: 5
-
-  giveXp:
-    min: 1000
-    max: 2000
 
   items:
     equipment:

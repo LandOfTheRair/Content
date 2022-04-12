@@ -21,11 +21,6 @@
     min: 5000
     max: 5000
 
-  giveXp:
-    min: 100
-    max: 200
-
-
   items:
     equipment:
       rightHand: Thanksgiving Blunderbuss
@@ -78,17 +73,9 @@
     
   cr: 0
 
-  gold:
-    min: 400
-    max: 750
-
   mp:
     min: 300
     max: 500
-
-  giveXp:
-    min: 270
-    max: 292
 
   items:
     equipment:
@@ -132,17 +119,9 @@
     
   cr: 0
 
-  gold:
-    min: 1000
-    max: 1750
-
   mp:
     min: 300
     max: 500
-
-  giveXp:
-    min: 1070
-    max: 1092
 
   items:
     equipment:
@@ -190,10 +169,6 @@
     
   cr: 0
 
-  gold:
-    min: 3000
-    max: 3750
-
   hp:
     min: 10000
     max: 12500
@@ -201,10 +176,6 @@
   mp:
     min: 3000
     max: 5000
-
-  giveXp:
-    min: 1070
-    max: 1092
 
   items:
     equipment:
@@ -258,17 +229,9 @@
     
   cr: 0
 
-  gold:
-    min: 3000
-    max: 3750
-
   mp:
     min: 3000
     max: 5000
-
-  giveXp:
-    min: 3070
-    max: 3092
 
   items:
     equipment:

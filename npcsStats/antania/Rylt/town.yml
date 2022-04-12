@@ -13,14 +13,6 @@
     
   cr: 5
 
-  gold:
-    min: 0
-    max: 100
-
-  giveXp:
-    min: 30
-    max: 50
-
   items:
     equipment:
       armor:
@@ -86,14 +78,6 @@
   hp:
     min: 2500
     max: 4000
-
-  gold:
-    min: 0
-    max: 100
-
-  giveXp:
-    min: 300
-    max: 500
 
   items:
     equipment:

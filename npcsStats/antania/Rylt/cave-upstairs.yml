@@ -151,17 +151,9 @@
 
   cr: 0
 
-  gold:
-    min: 5000
-    max: 6000
-
   hp:
     min: 100000
     max: 100000
-
-  giveXp:
-    min: 5000
-    max: 7500
 
   items:
     equipment:
@@ -202,10 +194,6 @@
   mp:
     min: 25000
     max: 25000
-
-  giveXp:
-    min: 300
-    max: 500
 
   gold:
     min: 0

@@ -24,14 +24,6 @@
     
   cr: 10
 
-  gold:
-    min: 550
-    max: 700
-    
-  giveXp:
-    min: 700
-    max: 800
-
   items:
     equipment:
       armor: Tower Trash Breastplate

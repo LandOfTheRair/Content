@@ -100,17 +100,9 @@
     
   cr: 0
 
-  gold:
-    min: 50
-    max: 200
-
   hp:
     min: 1500
     max: 2000
-
-  giveXp:
-    min: 75
-    max: 85
 
   repMod:
     - allegiance: Pirates
@@ -204,14 +196,6 @@
     
   cr: -5
 
-  gold:
-    min: 50
-    max: 200
-
-  giveXp:
-    min: 175
-    max: 185
-
   repMod:
     - allegiance: Pirates
       delta: 1
@@ -303,14 +287,6 @@
     
   cr: -5
 
-  gold:
-    min: 50
-    max: 200
-
-  giveXp:
-    min: 175
-    max: 185
-
   repMod:
     - allegiance: Pirates
       delta: 1
@@ -394,14 +370,6 @@
   skillOnKill: 8
     
   cr: -5
-
-  gold:
-    min: 50
-    max: 200
-
-  giveXp:
-    min: 195
-    max: 225
 
   repMod:
     - allegiance: Pirates
@@ -491,14 +459,6 @@
   skillOnKill: 8
     
   cr: -5
-
-  gold:
-    min: 700
-    max: 900
-
-  giveXp:
-    min: 185
-    max: 215
 
   repMod:
     - allegiance: Pirates

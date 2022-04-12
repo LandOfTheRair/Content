@@ -22,10 +22,6 @@
     min: 6
     max: 10
 
-  giveXp:
-    min: 100
-    max: 150
-
   baseEffects:
     - name: Attribute
       extra:

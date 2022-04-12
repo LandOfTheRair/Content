@@ -44,12 +44,4 @@
 
   cr: -7
 
-  gold:
-    min: 1350
-    max: 1500
-    
-  giveXp:
-    min: 3200
-    max: 3500
-
   tansFor: Crazed Beast Fur

@@ -86,17 +86,9 @@
 
   cr: -9
 
-  gold:
-    min: 4550
-    max: 4900
-
   mp:
     min: 5000
     max: 5000
-
-  giveXp:
-    min: 27700
-    max: 29000
 
 - npcId: Frostlands Brigand Mage
   name: brigand
@@ -184,17 +176,9 @@
 
   cr: -9
 
-  gold:
-    min: 4550
-    max: 4900
-
   mp:
     min: 5000
     max: 5000
-
-  giveXp:
-    min: 27700
-    max: 29000
 
 - npcId: Frostlands Brigand Healer
   name: brigand
@@ -296,17 +280,9 @@
 
   cr: -9
 
-  gold:
-    min: 4550
-    max: 4900
-
   mp:
     min: 5000
     max: 5000
-
-  giveXp:
-    min: 27700
-    max: 29000
 
 - npcId: Frostlands Brigand Thief
   name: brigand
@@ -450,17 +426,9 @@
 
   cr: -9
 
-  gold:
-    min: 4550
-    max: 4900
-
   mp:
     min: 5000
     max: 5000
-
-  giveXp:
-    min: 27700
-    max: 29000
 
 - npcId: Frostlands Brigand Shieldbearer
   name: brigand
@@ -544,17 +512,9 @@
 
   cr: -9
 
-  gold:
-    min: 4550
-    max: 4900
-
   mp:
     min: 5000
     max: 5000
-
-  giveXp:
-    min: 27700
-    max: 29000
 
 - npcId: Frostlands Brigand Monk
   name: brigand
@@ -628,14 +588,6 @@
 
   cr: -9
 
-  gold:
-    min: 4550
-    max: 4900
-
   mp:
     min: 5000
     max: 5000
-
-  giveXp:
-    min: 27700
-    max: 29000

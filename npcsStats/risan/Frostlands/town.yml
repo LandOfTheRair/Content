@@ -13,14 +13,6 @@
 
   cr: 5
 
-  gold:
-    min: 500
-    max: 1000
-
-  giveXp:
-    min: 4300
-    max: 4500
-
   items:
     equipment:
 
@@ -70,15 +62,6 @@
   sprite: [580, 595, 610, 615]
 
   cr: 3
-
-  gold:
-    min: 500
-    max: 1000
-
-  giveXp:
-    min: 4300
-    max: 4500
-
   items:
     equipment:
 
@@ -123,14 +106,6 @@
 
   cr: 10
 
-  gold:
-    min: 1500
-    max: 2000
-
-  giveXp:
-    min: 7500
-    max: 8000
-
   items:
     equipment:
       rightHand: Risan Halberd
@@ -160,10 +135,6 @@
   gold:
     min: 0
     max: 10
-
-  giveXp:
-    min: 100
-    max: 200
 
   items:
     equipment:
