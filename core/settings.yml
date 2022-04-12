@@ -203,6 +203,11 @@ map:
     x: 68
     y: 13
 
+  defaultThievesGuild:
+    map: ThievesGuild
+    x: 15
+    y: 15
+
 npcgen:
   attrMult: 2
   eliteMult: 4
