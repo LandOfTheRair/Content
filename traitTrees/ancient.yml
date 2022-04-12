@@ -94,6 +94,7 @@ Ancient:
           - name: ''
 
           - name: SurvivalTechniques
+            isAncient: true
             maxLevel: 100
 
           - name: ''
