@@ -93,9 +93,11 @@ const merge = async () => {
     const allItemData = JSON.parse(fs.readFileSync('_output/items.json'));
     const allTraitTrees = JSON.parse(fs.readFileSync('_output/trait-trees.json'));
 
+    const oldLength = allItemData.length; 
     traitScrollItems(allItemData, allTraitTrees);
+    const newLength = allItemData.length;
 
-    console.log(`Loading trait scrolls: ${allItemData.length} trait scrolls...`)
+    console.log(`Loading trait scrolls: ${newLength - oldLength} trait scrolls...`)
 
     fs.writeFileSync('_output/items.json', JSON.stringify(allItemData, null, 4));
 
