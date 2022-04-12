@@ -7,6 +7,8 @@
   trait:
     name: SweetTooth
     level: 1
+  requirements:
+    level: 5
   binds: true
   value: 500
 
@@ -17,6 +19,8 @@
   trait:
     name: SweetTooth
     level: 2
+  requirements:
+    level: 15
   binds: true
   value: 1000
 
@@ -27,6 +31,8 @@
   trait:
     name: SweetTooth
     level: 3
+  requirements:
+    level: 25
   binds: true
   value: 2000
 
@@ -37,6 +43,8 @@
   trait:
     name: SweetTooth
     level: 4
+  requirements:
+    level: 35
   binds: true
   value: 4000
 
@@ -47,6 +55,8 @@
   trait:
     name: SweetTooth
     level: 5
+  requirements:
+    level: 45
   cosmetic:
     name: EtherNebula
     isPermanent: true
@@ -61,6 +71,8 @@
   trait:
     name: SlowDigestion
     level: 1
+  requirements:
+    level: 5
   binds: true
   value: 500
 
@@ -71,6 +83,8 @@
   trait:
     name: SlowDigestion
     level: 2
+  requirements:
+    level: 15
   binds: true
   value: 1000
 
@@ -81,6 +95,8 @@
   trait:
     name: SlowDigestion
     level: 3
+  requirements:
+    level: 25
   binds: true
   value: 2000
 
@@ -91,6 +107,8 @@
   trait:
     name: SlowDigestion
     level: 4
+  requirements:
+    level: 35
   binds: true
   value: 4000
 
@@ -101,6 +119,8 @@
   trait:
     name: SlowDigestion
     level: 5
+  requirements:
+    level: 45
   cosmetic:
     name: EtherNebula
     isPermanent: true
@@ -115,6 +135,8 @@
   trait:
     name: WintersEmbrace
     level: 1
+  requirements:
+    level: 5
   binds: true
   value: 500
 
@@ -125,6 +147,8 @@
   trait:
     name: WintersEmbrace
     level: 2
+  requirements:
+    level: 15
   binds: true
   value: 1000
 
@@ -135,6 +159,8 @@
   trait:
     name: WintersEmbrace
     level: 3
+  requirements:
+    level: 25
   binds: true
   value: 2000
 
@@ -145,6 +171,8 @@
   trait:
     name: WintersEmbrace
     level: 4
+  requirements:
+    level: 35
   binds: true
   value: 4000
 
@@ -155,6 +183,8 @@
   trait:
     name: WintersEmbrace
     level: 5
+  requirements:
+    level: 45
   cosmetic:
     name: SnowflakeJoy
     isPermanent: true

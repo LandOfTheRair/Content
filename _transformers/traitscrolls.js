@@ -45,9 +45,12 @@ const traitScrollItems = (itemData, allTraitTrees) => {
         animation: 10,
         desc: `a runic scroll imbued with the empowerment "${scrollSpaced} ${romans[i]}"`,
         trait: {
-            name: scrollName,
-            level: i,
-            restrict: scrollToClass[scrollName]
+          name: scrollName,
+          level: i,
+          restrict: scrollToClass[scrollName]
+        },
+        requirements: {
+          level: 5 + ((i - 1) * 10)
         },
         value: 1,
         itemClass: "Scroll",
