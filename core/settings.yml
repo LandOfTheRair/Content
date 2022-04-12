@@ -348,6 +348,7 @@ subscriber:
   xpGain: 0.05
   skillGain: 0.05
   holidayTokenGain: 2
+  buildSlots: 3
 
 spell:
   dazedDivisor: 2
