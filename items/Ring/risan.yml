@@ -81,6 +81,8 @@
   requirements:
     level: 27
 
+# These stats are *added* to whatever the base ring has.
+# Any base ring can be used in combination with any upgrade.
 - name: Mage Double Machleum Ring
   stats:
     int: 1
