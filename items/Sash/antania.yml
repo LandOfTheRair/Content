@@ -51,8 +51,8 @@
       min: 1
       max: 3
     agi:
-      min: 1
-      max: 3
+      min: 0
+      max: 2
   trait:
     name: ShadowSwap
     level: 1

@@ -205,7 +205,7 @@
 - name: Insane Ranata Robe
   quality: 5
   stats:
-    agi: 2
+    agi: 1
     offense: 5
     defense: 5
     hpregen: 10

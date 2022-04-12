@@ -19,8 +19,8 @@
 - name: Steffen Strength Gloves
   randomStats:
     str:
-      min: 1
-      max: 3
+      min: 0
+      max: 2
     offense:
       min: 2
       max: 4
@@ -73,8 +73,8 @@
       min: 1
       max: 3
     dex:
-      min: 2
-      max: 5
+      min: 0
+      max: 2
 
   maxUpgrades: 1
   binds: true

@@ -23,7 +23,7 @@
 
 - name: Mage Simple Machleum Ring
   stats:
-    int: 2
+    int: 1
     mpregen: 5
   sprite: 623
   binds: true
@@ -35,7 +35,7 @@
 
 - name: Healer Simple Machleum Ring
   stats:
-    wis: 2
+    wis: 1
     mpregen: 5
   sprite: 623
   binds: true
@@ -47,7 +47,7 @@
 
 - name: Warrior Simple Machleum Ring
   stats:
-    str: 2
+    str: 1
     hpregen: 5
   sprite: 623
   binds: true
@@ -59,7 +59,7 @@
 
 - name: Thief Simple Machleum Ring
   stats:
-    agi: 2
+    agi: 1
     hpregen: 5
   sprite: 623
   binds: true
@@ -84,7 +84,7 @@
 - name: Mage Double Machleum Ring
   stats:
     int: 1
-    agi: 2
+    agi: 1
     mpregen: 5
   maxUpgrades: 1
   sprite: 624
@@ -98,7 +98,7 @@
 - name: Healer Double Machleum Ring
   stats:
     wis: 1
-    wil: 2
+    wil: 1
     mpregen: 5
   maxUpgrades: 1
   sprite: 624
@@ -112,7 +112,7 @@
 - name: Warrior Double Machleum Ring
   stats:
     str: 1
-    dex: 3
+    dex: 1
     hpregen: 5
   maxUpgrades: 1
   sprite: 624
@@ -126,7 +126,7 @@
 - name: Thief Double Machleum Ring
   stats:
     agi: 1
-    stealth: 25
+    stealth: 5
     hpregen: 5
   maxUpgrades: 1
   sprite: 624

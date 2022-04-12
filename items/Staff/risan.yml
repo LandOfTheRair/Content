@@ -32,12 +32,12 @@
   quality: 5
   desc: "a finely-milled quarterstaff emanating a strong magical energy"
   stats:
-    int: 3
-    wis: 3
+    int: 2
+    wis: 2
     defense: 4
     mpregen: 10
-    conjurationBonus: 2
-    restorationBonus: 2
+    conjurationBonus: 1
+    restorationBonus: 1
   maxUpgrades: 1
   tier: 5
   type: Staff

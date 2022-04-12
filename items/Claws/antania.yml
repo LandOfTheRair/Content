@@ -3,7 +3,6 @@
   tier: 2
   stats:
     str: 1
-    dex: 1
     agi: 1
     offense: 2
     armorClass: 1
@@ -46,7 +45,6 @@
   tier: 4
   stats:
     str: 1
-    dex: 1
     agi: 1
     offense: 3
     defense: 3

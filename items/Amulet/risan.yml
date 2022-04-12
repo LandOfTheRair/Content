@@ -2,7 +2,7 @@
 
 - name: Librarian Healer Amulet
   stats:
-    wis: 2
+    wis: 1
     wil: 1
     defense: 3
     mpregen: 5
@@ -17,7 +17,7 @@
 
 - name: Librarian Mage Amulet
   stats:
-    int: 2
+    int: 1
     wil: 1
     defense: 3
     mpregen: 5
@@ -32,7 +32,7 @@
 
 - name: Librarian Warrior Amulet
   stats:
-    str: 2
+    str: 1
     mitigation: 3
   binds: true
   maxUpgrades: 1
@@ -45,8 +45,8 @@
 
 - name: Librarian Thief Amulet
   stats:
-    agi: 2
-    stealth: 15
+    agi: 1
+    stealth: 3
   binds: true
   maxUpgrades: 1
   sprite: 1

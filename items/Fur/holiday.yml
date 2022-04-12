@@ -5,7 +5,7 @@
   stats:
     armorClass: 12
     defense: 5
-    agi: 2
+    agi: 1
   maxUpgrades: 1
 
   value: 1600
@@ -16,7 +16,7 @@
   stats:
     armorClass: 17
     defense: 10
-    agi: 3
+    agi: 2
   maxUpgrades: 1
 
   value: 1600
