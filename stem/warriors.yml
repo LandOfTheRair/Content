@@ -138,14 +138,14 @@ Provoke:
     mpCost: 5
     potencyMultiplier: 4
     skillMultiplierChanges:
-      - [0,  5]
-      - [6,  6]
-      - [11, 7]
-      - [16, 8]
-      - [21, 9]
-      - [26, 10]
-      - [31, 14]
-      - [36, 20]
+      - [0,  30]
+      - [6,  40]
+      - [11, 50]
+      - [16, 60]
+      - [21, 70]
+      - [26, 80]
+      - [31, 90]
+      - [36, 100]
 
     spellMeta:
       casterAttackMessage: 'You provoke %0!'
@@ -176,14 +176,14 @@ MockingShout:
     mpCost: 25
     potencyMultiplier: 1
     skillMultiplierChanges:
-      - [0,  5]
-      - [6,  6]
-      - [11, 7]
-      - [16, 8]
-      - [21, 9]
-      - [26, 10]
-      - [31, 14]
-      - [36, 20]
+      - [0,  15]
+      - [6,  20]
+      - [11, 25]
+      - [16, 30]
+      - [21, 35]
+      - [26, 45]
+      - [31, 60]
+      - [36, 80]
 
     spellMeta:
       casterAttackMessage: 'You provoke %0!'
