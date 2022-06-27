@@ -334,7 +334,7 @@ Light:
       - [0,  0.5]
 
     spellMeta:
-      range: 1
+      range: 2
       allowDirectional: true
 
   # trait info
