@@ -335,6 +335,7 @@ Light:
 
     spellMeta:
       range: 1
+      allowDirectional: true
 
   # trait info
   trait:
