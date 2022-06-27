@@ -87,8 +87,8 @@
 
   summonStatModifiers:
     hp: 50000
-    str: 0.2
-    con: 0.2
+    str: 1
+    con: 1
 
   noCorpseDrop: true
 
@@ -124,13 +124,13 @@
   sprite: 230
   monsterClass: Beast
   baseClass: Mage
-  stats: 15
-  skills: 5
+  stats: 20
+  skills: 10
   level: 1
 
   summonStatModifiers:
     hp: 15000
-    int: 0.25
+    int: 1
 
   summonSkillModifiers:
     conjuration: 0.3
@@ -176,7 +176,7 @@
 
   summonStatModifiers:
     hp: 30000
-    str: 0.25
+    str: 1.5
 
   summonSkillModifiers:
     martial: 0.5
