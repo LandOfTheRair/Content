@@ -2,14 +2,14 @@
 ## Tier Explanations
 #
 # 0  - unused in general, but useful to have
-# 1  - ~Lv1  - basic Antanian gear                                            (fighting against 30~60 hp creatures)           - assume 10 str/int/wis, skill 2
-# 2  - ~Lv7  - Antanian rares/base lairs/Antanian crafted weapons             (fighting against 400~600 hp creatures)         - assume 10 str/int/wis, skill 7
-# 3  - ~Lv12 - Antanian late gear                                             (fighting against 1500~2500 hp creatures)       - assume 13 str/int/wis, skill 9
-# 4  - ~Lv15 - Antanian finish gear                                           (fighting against 4000~7000 hp creatures)       - assume 16 str/int/wis, skill 13
-# 5  - ~Lv20 - Risan crafted weapons / Ether weapons                          (fighting against 20000~22000 hp creatures)     - assume 20 str/int/wis, skill 17
-# 6  - ~Lv25 - Frostlands / etc                                               (fighting against 50000~100000 hp creatures)    - assume 23 str/int/wis, skill 20
-# 7  - ~Lv35 - Catacombs 2F/3F                                                (fighting against 80000~100000 hp creatures)    - assume 25 str/int/wis, skill 23
-# 8  - ~Lv45 - Catacombs 4F/5F                                                (fighting against 120000~140000 hp creatures)   - assume 30 str/int/wis, skill 27
+# 1  - ~Lv1  - basic Antanian gear                                            (fighting against 30~60 hp creatures)          - assume 10 str/int/wis, skill 2
+# 2  - ~Lv7  - Antanian rares/base lairs/Antanian crafted weapons             (fighting against 400~600 hp creatures)        - assume 10 str/int/wis, skill 7
+# 3  - ~Lv12 - Antanian late gear                                             (fighting against 900~1100 hp creatures)       - assume 13 str/int/wis, skill 9
+# 4  - ~Lv15 - Antanian finish gear                                           (fighting against 1500~2000 hp creatures)      - assume 16 str/int/wis, skill 13
+# 5  - ~Lv20 - Risan crafted weapons / Ether weapons                          (fighting against 3200~4000 hp creatures)      - assume 20 str/int/wis, skill 17
+# 6  - ~Lv25 - Frostlands / etc                                               (fighting against 5500~6800 hp creatures)      - assume 23 str/int/wis, skill 20
+# 7  - ~Lv35 - Catacombs 2F/3F                                                (fighting against 14000~16500 hp creatures)    - assume 25 str/int/wis, skill 23
+# 8  - ~Lv45 - Catacombs 4F/5F                                                (fighting against 32500~39000 hp creatures)    - assume 30 str/int/wis, skill 27
 # 9  - unused - probably Solokar gear
 # 10 - unused - probably Solokar gear / early Elgun
 
