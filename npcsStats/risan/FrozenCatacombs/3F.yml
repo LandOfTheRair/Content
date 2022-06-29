@@ -157,6 +157,8 @@
           chance: 800
         - result: Catacombs Bat Greatsword
           chance: 1
+        - result: Catacombs Bat Shortsword
+          chance: 1
         - result: Frostlands Thermidor Halberd
           chance: 1
       armor: Frostlands Trash Breastplate
@@ -615,6 +617,8 @@
         - result: Catacombs HolyFire Hammer
           chance: 1
         - result: Catacombs Bat Greatsword
+          chance: 1
+        - result: Catacombs Bat Shortsword
           chance: 1
         - result: Frost Chakram
           chance: 1

@@ -134,6 +134,8 @@
           chance: 1000
         - result: Catacombs Halberd 1F
           chance: 1000
+        - result: Catacombs Bat Shortsword
+          chance: 1
         - result: Catacombs Bat Greatsword
           chance: 1
         - result: Frostlands Thermidor Halberd
@@ -521,6 +523,8 @@
         - result: Catacombs Shortsword 1F
           chance: 1000
         - result: Catacombs HolyFire Hammer
+          chance: 1
+        - result: Catacombs Bat Shortsword
           chance: 1
         - result: Catacombs Bat Greatsword
           chance: 1
