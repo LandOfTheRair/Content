@@ -121,9 +121,7 @@
 
   cr: -5
 
-  hp:
-    min: 1000
-    max: 1200
+  hpMult: 5
 
   items:
     equipment:
@@ -554,9 +552,7 @@
     min: 4000
     max: 6000
 
-  hp:
-    min: 30000
-    max: 32000
+  hpMult: 10
 
   giveXp:
     min: 25000

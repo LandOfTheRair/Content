@@ -66,9 +66,7 @@
   traitLevels:
     InternalFortitude: 5
 
-  hp:
-    min: 337950
-    max: 341350
+  hpMult: 10
 
   mp:
     min: 10000
@@ -97,10 +95,6 @@
     mpregen: 10
     
   cr: -5
-
-  hp:
-    min: 40950
-    max: 55350
 
   mp:
     min: 900
@@ -154,10 +148,6 @@
     mpregen: 10
     
   cr: -5
-
-  hp:
-    min: 30950
-    max: 35350
 
   mp:
     min: 900
@@ -300,9 +290,7 @@
     - result: Dedlaen Dragon Turtle Egg
       chance: -1
 
-  hp:
-    min: 737950
-    max: 741350
+  hpMult: 20
 
   mp:
     min: 10000

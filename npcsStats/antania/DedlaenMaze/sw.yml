@@ -157,9 +157,7 @@
     min: 13560
     max: 14570
 
-  hp:
-    min: 227950
-    max: 229350
+  hpMult: 10
 
   mp:
     min: 10000
@@ -239,9 +237,7 @@
     min: 12050
     max: 14350
 
-  hp:
-    min: 257950
-    max: 259350
+  hpMult: 10
 
   giveXp:
     min: 19900
@@ -302,9 +298,7 @@
     min: 9500
     max: 11700
 
-  hp:
-    min: 125000
-    max: 130000
+  hpMult: 10
 
   giveXp:
     min: 129000

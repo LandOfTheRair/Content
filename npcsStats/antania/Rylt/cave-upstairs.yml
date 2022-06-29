@@ -28,9 +28,7 @@
 
   cr: 0
 
-  hp:
-    min: 1000000
-    max: 1000000
+  hpMult: 20
 
   mp:
     min: 25000
@@ -151,9 +149,7 @@
 
   cr: 0
 
-  hp:
-    min: 100000
-    max: 100000
+  hpMult: 10
 
   items:
     equipment:
@@ -186,10 +182,6 @@
     - MagicBolt
 
   cr: 0
-
-  hp:
-    min: 40000
-    max: 40000
 
   mp:
     min: 25000

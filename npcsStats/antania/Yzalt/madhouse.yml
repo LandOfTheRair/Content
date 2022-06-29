@@ -31,9 +31,7 @@
     
   cr: 0
 
-  hp:
-    min: 136950
-    max: 139350
+  hpMult: 2
 
   mp:
     min: 5000
@@ -74,9 +72,7 @@
     
   cr: -6
 
-  hp:
-    min: 7500000
-    max: 7500000
+  hpMult: 30
 
   mp:
     min: 25000
@@ -193,9 +189,7 @@
     
   cr: 0
 
-  hp:
-    min: 122500
-    max: 122600
+  hpMult: 2
 
   mp:
     min: 12300
@@ -323,9 +317,7 @@
     
   cr: 0
 
-  hp:
-    min: 122500
-    max: 122600
+  hpMult: 2
 
   mp:
     min: 12300
@@ -463,9 +455,7 @@
     
   cr: 0
 
-  hp:
-    min: 122500
-    max: 122600
+  hpMult: 2
 
   mp:
     min: 12300
@@ -627,9 +617,7 @@
     
   cr: 0
 
-  hp:
-    min: 142500
-    max: 142600
+  hpMult: 2
 
   mp:
     min: 12300

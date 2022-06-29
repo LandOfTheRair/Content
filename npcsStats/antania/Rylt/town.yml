@@ -61,7 +61,7 @@
   allegiance: None
   hostility: Faction
   stats: 30
-  level: 20
+  level: 10
   baseClass: Warrior
 
   skillLevels: 10
@@ -74,10 +74,6 @@
   sprite: 625
     
   cr: 10
-
-  hp:
-    min: 2500
-    max: 4000
 
   items:
     equipment:

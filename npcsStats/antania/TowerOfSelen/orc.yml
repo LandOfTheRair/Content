@@ -208,9 +208,7 @@
     
   cr: -3
 
-  hp:
-    min: 45000
-    max: 50000
+  hpMult: 5
 
   giveXp:
     min: 25000

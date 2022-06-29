@@ -41,6 +41,7 @@ const npcSchema = [
   ['items.sack', false, isRollable],
 
   ['level', true, isInteger],
+  ['hpMult', false, isInteger],
 
   ['monsterClass', false, isString],
   ['monsterGroup', false, isString],

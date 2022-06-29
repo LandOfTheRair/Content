@@ -100,9 +100,7 @@
     
   cr: 0
 
-  hp:
-    min: 1500
-    max: 2000
+  hpMult: 2
 
   repMod:
     - allegiance: Pirates

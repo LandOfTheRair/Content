@@ -1027,7 +1027,7 @@
     perception: 10
   skillLevels: 7
 
-  level: 10
+  level: 15
 
   skillOnKill: 25
     
@@ -1037,9 +1037,7 @@
     min: 2500
     max: 3000
 
-  hp:
-    min: 200000
-    max: 250000
+  hpMult: 10
 
   mp:
     min: 1000
@@ -1117,9 +1115,7 @@
     min: 5500
     max: 6000
 
-  hp:
-    min: 100000
-    max: 100000
+  hpMult: 10
 
   mp:
     min: 1000

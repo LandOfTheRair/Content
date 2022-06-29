@@ -128,6 +128,8 @@ const conditionallyAddInformation = (npc) => {
 
   if(!npc.skillLevels) npc.skillLevels = 0;
 
+  if(!npc.hpMult) npc.hpMult = 1;
+
   const skillLevels = npc.skillLevels || {};
   const skillSet = allSkills.reduce((prev, cur) => {
     prev[cur] = 0;

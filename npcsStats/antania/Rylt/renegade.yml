@@ -305,9 +305,7 @@
     
   cr: -5
 
-  hp:
-    min: 5000
-    max: 6000
+  hpMult: 10
 
   items:
     equipment:

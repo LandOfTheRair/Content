@@ -169,10 +169,6 @@
     
   cr: -5
 
-  hp:
-    min: 2500
-    max: 3000
-
   repMod:
     - allegiance: Royalty
       delta: 1

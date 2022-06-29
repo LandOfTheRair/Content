@@ -24,9 +24,7 @@
     
   cr: -5
 
-  hp:
-    min: 15000
-    max: 25000
+  hpMult: 10
 
   giveXp:
     min: 55000
@@ -98,9 +96,7 @@
     
   cr: -5
 
-  hp:
-    min: 55000
-    max: 59000
+  hpMult: 5
 
   giveXp:
     min: 100000
@@ -150,9 +146,7 @@
     
   cr: -3
 
-  hp:
-    min: 85000
-    max: 90000
+  hpMult: 10
 
   giveXp:
     min: 145000
@@ -214,9 +208,7 @@
     
   cr: -6
 
-  hp:
-    min: 500000
-    max: 500000
+  hpMult: 10
 
   mp:
     min: 10050
@@ -332,9 +324,7 @@
     
   cr: -3
 
-  hp:
-    min: 469500
-    max: 593500
+  hpMult: 10
 
   mp:
     min: 5000

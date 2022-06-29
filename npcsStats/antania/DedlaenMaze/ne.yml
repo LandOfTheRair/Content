@@ -770,9 +770,7 @@
     min: 52050
     max: 52700
 
-  hp:
-    min: 557950
-    max: 561350
+  hpMult: 15
 
   giveXp:
     min: 269000
@@ -833,9 +831,7 @@
     
   cr: 5
 
-  hp:
-    min: 5000
-    max: 5000
+  hpMult: 2
 
   items:
     equipment:
@@ -874,9 +870,7 @@
     min: 1
     max: 5
 
-  hp:
-    min: 15000
-    max: 15000
+  hpMult: 10
 
   items:
     equipment:

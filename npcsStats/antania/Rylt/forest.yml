@@ -87,9 +87,7 @@
 
   cr: -5
 
-  hp:
-    min: 1700
-    max: 2000
+  hpMult: 5
 
   gold:
     min: 0
@@ -219,9 +217,7 @@
 
   cr: -5
 
-  hp:
-    min: 4000
-    max: 5000
+  hpMult: 10
 
   giveXp:
     min: 15000

@@ -140,9 +140,7 @@
     
   cr: -5
 
-  hp:
-    min: 38950
-    max: 40350
+  hpMult: 2
 
   items:
     equipment:
@@ -213,9 +211,7 @@
     min: 23050
     max: 33700
 
-  hp:
-    min: 387950
-    max: 391350
+  hpMult: 10
 
   mp:
     min: 10000
@@ -310,9 +306,7 @@
     min: 32050
     max: 32700
 
-  hp:
-    min: 457950
-    max: 461350
+  hpMult: 15
 
   mp:
     min: 10000
@@ -365,9 +359,7 @@
     min: 0
     max: 0
 
-  hp:
-    min: 17950
-    max: 21350
+  hpMult: 10
 
   usableSkills:
     - PoisonBiteMedium

@@ -11,9 +11,7 @@
     
   cr: -10
 
-  hp:
-    min: 1000
-    max: 2000
+  hpMult: 20
 
   items:
     equipment:
@@ -65,10 +63,6 @@
     
   cr: -10
 
-  hp:
-    min: 50
-    max: 100
-
 - npcId: Tutorial Wolf
   name: wolf
   hostility: Always
@@ -82,10 +76,6 @@
     accuracy: -10
     
   cr: -10
-
-  hp:
-    min: 50
-    max: 100
 
   items:
     equipment:
@@ -116,9 +106,7 @@
     
   cr: -10
 
-  hp:
-    min: 100
-    max: 150
+  hpMult: 2
 
   items:
     equipment:
