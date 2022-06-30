@@ -73,8 +73,8 @@ character:
     Mage:
       hp: 
         base: 1
-        randomConDivisor: 1
-        bonusConDivisor: 1
+        randomConDivisor: 6
+        bonusConDivisor: 4
         randomConBonusMultiplier: 1
 
       mp:
@@ -97,7 +97,7 @@ character:
     Thief:
       hp: 
         base: 2
-        randomConDivisor: 1
+        randomConDivisor: 3
         bonusConDivisor: 2
         randomConBonusMultiplier: 1
 
