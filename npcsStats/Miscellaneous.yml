@@ -4,6 +4,7 @@
   alignment: Neutral
   stats: 1
   level: 1
+  monsterGroup: NeverAttack
 
   baseEffects:
     - name: Unshakeable
