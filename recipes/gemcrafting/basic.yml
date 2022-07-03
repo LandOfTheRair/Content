@@ -1,0 +1,10 @@
+
+- item: Antanian Fungus Bread
+  name: Fungus Bread Gem
+  category: Basic
+  skillGained: 2
+  maxSkillForGains: 2
+  xpGained: 100
+  ingredients:
+    - Antanian Bottle of Water
+    - Antanian Slice of Bread

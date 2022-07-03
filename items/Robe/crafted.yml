@@ -1,0 +1,37 @@
+
+
+
+- name: Cave Apprentice Robe (Trimmed)
+  stats:
+    armorClass: 1
+    defense: 2
+    energyResist: 15
+    mpregen: 3
+  binds: true
+  maxUpgrades: 1
+  desc: "a trimmed red robe with a shimmering gold trim"
+  value: 400
+  sprite: 488
+  
+- name: Yzalt Straw Robe (Trimmed)
+  stats:
+    armorClass: 2
+    stealth: 7
+    perception: 3
+    defense: 2
+    offense: 2
+    hpregen: 2
+    accuracy: 4
+    iceResist: 25
+  maxUpgrades: 1
+  desc: "a trimmed robe made entirely of straw from the Yzalt farmlands"
+  value: 934
+  sprite: 486
+  binds: true
+
+  trait:
+    name: ShadowStepper
+    level: 2
+
+  requirements:
+    level: 5

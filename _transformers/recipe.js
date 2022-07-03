@@ -5,7 +5,7 @@ const fs = require('fs');
 
 const { fillInProperties } = require('./props/recipe');
 
-const allTradeskills = ['alchemy', 'metalworking', 'spellforging'];
+const allTradeskills = ['alchemy', 'metalworking', 'spellforging', 'gemcrafting', 'weavefabricating', 'foodmaking'];
 
 const validateRecipe = (recipe, allItems) => {
   if(!recipe.name) return false;

@@ -79,6 +79,30 @@ spellforging: [
   '2nd Master Enchanter', '3rd Master Enchanter', '4th Master Enchanter', '1st Renowned Enchanter', '2nd Renowned Enchanter',
   '3rd Renowned Enchanter', '4th Renowned Enchanter', 'Legendary Enchanter' ]
 
+gemcrafting: [
+  'Unpracticed', 'Breaker of Gems', 'Novice Breaker', 'Learned Breaker', 'Skilled Breaker',
+  'Master Breaker', 'Novice Jeweler', 'Learned Jeweler', 'Skilled Jeweler', 'Master Jeweler', 'Novice Setter',
+  'Skilled Setter', 'Proficient Setter', 'Astute Setter', 'Adept Setter', '1st Prodigious Gemcrafter',
+  '2nd Prodigious Gemcrafter', '3rd Prodigious Gemcrafter', '4th Prodigious Gemcrafter', '1st Master Gemcrafter',
+  '2nd Master Gemcrafter', '3rd Master Gemcrafter', '4th Master Gemcrafter', '1st Renowned Gemcrafter', '2nd Renowned Gemcrafter',
+  '3rd Renowned Gemcrafter', '4th Renowned Gemcrafter', 'Legendary Gemcrafter' ]
+
+weavefabricating: [
+  'Unpracticed', 'Shredder of Cloaks', 'Novice Shredder', 'Learned Shredder', 'Skilled Shredder',
+  'Master Shredder', 'Novice Weaver', 'Learned Weaver', 'Skilled Weaver', 'Master Weaver', 'Novice Fabricator',
+  'Skilled Fabricator', 'Proficient Fabricator', 'Astute Fabricator', 'Adept Fabricator', '1st Prodigious Fabricator',
+  '2nd Prodigious Fabricator', '3rd Prodigious Fabricator', '4th Prodigious Fabricator', '1st Master Fabricator',
+  '2nd Master Fabricator', '3rd Master Fabricator', '4th Master Fabricator', '1st Renowned Fabricator', '2nd Renowned Fabricator',
+  '3rd Renowned Fabricator', '4th Renowned Fabricator', 'Legendary Fabricator' ]
+
+foodmaking: [
+  'Unpracticed', 'Spoon', 'Novice Knife', 'Learned Knife', 'Skilled Knife',
+  'Master Knife', 'Novice Cook', 'Learned Cook', 'Skilled Cook', 'Master Cook', 'Novice Cook',
+  'Skilled Culinarian', 'Proficient Culinarian', 'Astute Culinarian', 'Adept Culinarian', '1st Prodigious Culinarian',
+  '2nd Prodigious Culinarian', '3rd Prodigious Culinarian', '4th Prodigious Culinarian', '1st Master Culinarian',
+  '2nd Master Culinarian', '3rd Master Culinarian', '4th Master Culinarian', '1st Renowned Culinarian', '2nd Renowned Culinarian',
+  '3rd Renowned Culinarian', '4th Renowned Culinarian', 'Legendary Culinarian' ]
+
 mace: *weapon
 axe: *weapon
 dagger: *weapon
