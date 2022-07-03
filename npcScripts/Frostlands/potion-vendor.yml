@@ -34,6 +34,7 @@ behaviors:
       - item: Ink Vial (15oz)
       - item: Dye Vial
       - item: Dye Vial (15oz)
+      - item: String - Fabric
       - item: Empty Bottle
       - item: Revive Ring
         valueMult: 25
