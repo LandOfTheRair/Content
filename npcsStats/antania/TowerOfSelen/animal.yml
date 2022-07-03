@@ -19,14 +19,6 @@
     
   cr: 0
 
-  gold:
-    min: 150
-    max: 300
-
-  giveXp:
-    min: 1200
-    max: 1300
-
   items:
     equipment:
       armor: Tower Warg Leather
@@ -59,14 +51,6 @@
     perception: 5
     
   cr: 0
-
-  gold:
-    min: 250
-    max: 400
-
-  giveXp:
-    min: 1230
-    max: 1330
 
   items:
     equipment:

@@ -19,14 +19,6 @@
 
   cr: -2
 
-  gold:
-    min: 40
-    max: 90
-
-  giveXp:
-    min: 500
-    max: 725
-
   items:
     equipment:
       hands: Rylt Rockgolem Gloves
@@ -89,17 +81,9 @@
 
   cr: 0
 
-  gold:
-    min: 40
-    max: 90
-
   mp:
     min: 1000
     max: 1500
-
-  giveXp:
-    min: 900
-    max: 1425
 
   items:
     equipment:
@@ -183,9 +167,7 @@
 
   cr: -2
 
-  hp:
-    min: 20000
-    max: 22000
+  hpMult: 2
 
   mp:
     min: 2000
@@ -267,17 +249,7 @@
 
   cr: -4
 
-  gold:
-    min: 400
-    max: 900
-
-  hp:
-    min: 4500
-    max: 5000
-
-  giveXp:
-    min: 1250
-    max: 1272
+  hpMult: 5
 
   items:
     equipment:

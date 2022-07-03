@@ -44,14 +44,6 @@
 
   cr: -8
 
-  gold:
-    min: 1350
-    max: 1500
-
-  giveXp:
-    min: 6200
-    max: 6500
-
 - npcId: Frostlands Remorhaz
   name: remorhaz
   sprite: 95
@@ -98,16 +90,8 @@
 
   cr: -8
 
-  gold:
-    min: 1350
-    max: 1500
-
   mp:
     min: 49950
     max: 53350
-
-  giveXp:
-    min: 5200
-    max: 6900
 
   tansFor: Remorhaz Scales Tunic

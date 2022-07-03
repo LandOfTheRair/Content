@@ -32,5 +32,7 @@ behaviors:
       - item: Scribe Scroll
       - item: Ink Vial
       - item: Ink Vial (15oz)
+      - item: Dye Vial
+      - item: Dye Vial (15oz)
       - item: Empty Bottle
       - item: Bradley Constitution Potion

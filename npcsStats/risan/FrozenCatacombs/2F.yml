@@ -90,14 +90,6 @@
 
   cr: -9
 
-  gold:
-    min: 3550
-    max: 3900
-
-  giveXp:
-    min: 43700
-    max: 45900
-
   baseEffects:
     - name: Attribute
       extra:
@@ -168,6 +160,8 @@
           chance: 900
         - result: Catacombs Bat Greatsword
           chance: 1
+        - result: Catacombs Bat Shortsword
+          chance: 1
         - result: Frostlands Thermidor Halberd
           chance: 1
 
@@ -204,14 +198,6 @@
     Swashbuckler: 2
 
   cr: -9
-
-  gold:
-    min: 3550
-    max: 3900
-
-  giveXp:
-    min: 43700
-    max: 45900
 
   baseEffects:
     - name: Attribute
@@ -328,14 +314,6 @@
 
   cr: -9
 
-  gold:
-    min: 3550
-    max: 3900
-
-  giveXp:
-    min: 43700
-    max: 45900
-
   mp:
     min: 10000
     max: 10000
@@ -449,14 +427,6 @@
 
   cr: -9
 
-  gold:
-    min: 3550
-    max: 3900
-
-  giveXp:
-    min: 43700
-    max: 45900
-
   mp:
     min: 10000
     max: 10000
@@ -558,14 +528,6 @@
 
   cr: -9
 
-  gold:
-    min: 3550
-    max: 3900
-
-  giveXp:
-    min: 43700
-    max: 45900
-
   baseEffects:
     - name: Attribute
       extra:
@@ -628,6 +590,8 @@
         - result: Catacombs HolyFire Hammer
           chance: 1
         - result: Catacombs Bat Greatsword
+          chance: 1
+        - result: Catacombs Bat Shortsword
           chance: 1
         - result: Frost Chakram
           chance: 1
@@ -694,14 +658,6 @@
     ShadowSwap: 2
 
   cr: -9
-
-  gold:
-    min: 3550
-    max: 3900
-
-  giveXp:
-    min: 43700
-    max: 45900
 
   mp:
     min: 1000
@@ -805,14 +761,6 @@
     DarkerShadows: 2
 
   cr: -9
-
-  gold:
-    min: 3550
-    max: 3900
-
-  giveXp:
-    min: 43700
-    max: 45900
 
   mp:
     min: 1000

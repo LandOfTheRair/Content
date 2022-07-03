@@ -25,14 +25,6 @@
     
   cr: -5
 
-  gold:
-    min: 2850
-    max: 3000
-
-  giveXp:
-    min: 5000
-    max: 6100
-
   items:
     equipment:
       armor: Mines Trash Breastplate
@@ -102,14 +94,6 @@
     perception: 15
     
   cr: -5
-
-  gold:
-    min: 3850
-    max: 4000
-
-  giveXp:
-    min: 9500
-    max: 10100
 
   items:
     equipment:
@@ -182,14 +166,6 @@
     
   cr: -5
 
-  gold:
-    min: 1850
-    max: 2000
-
-  giveXp:
-    min: 8600
-    max: 9900
-
   usableSkills:
     - Kick
     - Jumpkick
@@ -254,9 +230,7 @@
     min: 43850
     max: 44000
 
-  hp:
-    min: 1004950
-    max: 1016350
+  hpMult: 10
 
   mp:
     min: 10050

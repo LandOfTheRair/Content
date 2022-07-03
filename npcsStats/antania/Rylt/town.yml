@@ -13,14 +13,6 @@
     
   cr: 5
 
-  gold:
-    min: 0
-    max: 100
-
-  giveXp:
-    min: 30
-    max: 50
-
   items:
     equipment:
       armor:
@@ -69,7 +61,7 @@
   allegiance: None
   hostility: Faction
   stats: 30
-  level: 20
+  level: 10
   baseClass: Warrior
 
   skillLevels: 10
@@ -82,18 +74,6 @@
   sprite: 625
     
   cr: 10
-
-  hp:
-    min: 2500
-    max: 4000
-
-  gold:
-    min: 0
-    max: 100
-
-  giveXp:
-    min: 300
-    max: 500
 
   items:
     equipment:

@@ -38,9 +38,6 @@
     weaponArmorClass:
       min: 5
       max: 10
-  trait:
-    name: DeathGrip
-    level: 5
   strikeEffect:
     name: Hail
     potency: 150

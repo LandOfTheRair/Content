@@ -15,6 +15,7 @@ const merge = async () => {
       const stem = allStem[stemKey];
       if(!stem.spell) return;
       
+      stem.spell.spellName = stemKey;
       stem.spell.spellMeta = stem.spell.spellMeta || {};
       stem.spell.spellMeta.spellRef = stem.spell.spellMeta.spellRef || stemKey;
 

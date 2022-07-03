@@ -21,10 +21,6 @@
     min: 6
     max: 10
 
-  giveXp:
-    min: 100
-    max: 150
-
   baseEffects:
     - name: Attribute
       extra:
@@ -98,10 +94,6 @@
   hp:
     min: 10
     max: 15
-
-  giveXp:
-    min: 100
-    max: 150
 
   baseEffects:
     - name: Attribute
@@ -180,10 +172,6 @@
     min: 6
     max: 10
 
-  giveXp:
-    min: 100
-    max: 150
-
   baseEffects:
     - name: Attribute
       extra:
@@ -234,10 +222,6 @@
   hp:
     min: 10
     max: 15
-
-  giveXp:
-    min: 100
-    max: 150
 
   baseEffects:
     - name: Attribute

@@ -25,6 +25,8 @@ behaviors:
       - item: Scribe Scroll
       - item: Ink Vial
       - item: Ink Vial (15oz)
+      - item: Dye Vial
+      - item: Dye Vial (15oz)
       - item: Tweans Gem Codex
       - item: Selens Alchemical Guide
       - item: Pandiras Hammer Teachings

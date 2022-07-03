@@ -23,10 +23,6 @@
     
   cr: -3
 
-  gold:
-    min: 400
-    max: 600
-
   mp:
     min: 3000
     max: 3000
@@ -35,10 +31,6 @@
     - MagicMissile
     - EnergyWave
     - DarkVision
-
-  giveXp:
-    min: 1235
-    max: 1265
 
   repMod:
     - allegiance: Royalty
@@ -110,14 +102,6 @@
   skillOnKill: 11
     
   cr: -3
-
-  gold:
-    min: 500
-    max: 900
-
-  giveXp:
-    min: 1235
-    max: 1255
 
   repMod:
     - allegiance: Royalty
@@ -218,14 +202,6 @@
     
   cr: -3
 
-  gold:
-    min: 200
-    max: 400
-
-  giveXp:
-    min: 1195
-    max: 1225
-
   usableSkills:
     - Boost
     - Charge
@@ -321,17 +297,9 @@
     
   cr: -3
 
-  gold:
-    min: 100
-    max: 300
-
   mp:
     min: 1300
     max: 1400
-
-  giveXp:
-    min: 1215
-    max: 1245
 
   repMod:
     - allegiance: Pirates
@@ -412,14 +380,6 @@
   skillOnKill: 9
     
   cr: -3
-
-  gold:
-    min: 100
-    max: 200
-
-  giveXp:
-    min: 895
-    max: 925
 
   repMod:
     - allegiance: Pirates
@@ -512,10 +472,6 @@
     
   cr: -3
 
-  gold:
-    min: 500
-    max: 700
-
   mp:
     min: 3000
     max: 3000
@@ -528,10 +484,6 @@
     - BarFire
     - BarFrost
     - DarkVision
-
-  giveXp:
-    min: 1395
-    max: 1415
 
   items:
     equipment:
@@ -670,14 +622,6 @@
   skillOnKill: 15
     
   cr: -5
-
-  gold:
-    min: 700
-    max: 900
-
-  giveXp:
-    min: 1395
-    max: 1415
 
   repMod:
     - allegiance: Royalty
@@ -837,14 +781,6 @@
     
   cr: -5
 
-  gold:
-    min: 400
-    max: 600
-
-  giveXp:
-    min: 1395
-    max: 1415
-
   usableSkills:
     - Boost
     - Charge
@@ -973,17 +909,9 @@
     
   cr: -3
 
-  gold:
-    min: 150
-    max: 350
-
   mp:
     min: 2300
     max: 2400
-
-  giveXp:
-    min: 1395
-    max: 1415
 
   usableSkills:
     - Afflict
@@ -1099,7 +1027,7 @@
     perception: 10
   skillLevels: 7
 
-  level: 10
+  level: 15
 
   skillOnKill: 25
     
@@ -1109,9 +1037,7 @@
     min: 2500
     max: 3000
 
-  hp:
-    min: 200000
-    max: 250000
+  hpMult: 10
 
   mp:
     min: 1000
@@ -1189,9 +1115,7 @@
     min: 5500
     max: 6000
 
-  hp:
-    min: 100000
-    max: 100000
+  hpMult: 10
 
   mp:
     min: 1000

@@ -81,14 +81,6 @@
 
   cr: -9
 
-  gold:
-    min: 2550
-    max: 2900
-
-  giveXp:
-    min: 35700
-    max: 39900
-
   baseEffects:
     - name: Attribute
       extra:
@@ -142,6 +134,8 @@
           chance: 1000
         - result: Catacombs Halberd 1F
           chance: 1000
+        - result: Catacombs Bat Shortsword
+          chance: 1
         - result: Catacombs Bat Greatsword
           chance: 1
         - result: Frostlands Thermidor Halberd
@@ -186,14 +180,6 @@
   skillOnKill: 65
 
   cr: -9
-
-  gold:
-    min: 2550
-    max: 2900
-
-  giveXp:
-    min: 35700
-    max: 39900
 
   baseEffects:
     - name: Attribute
@@ -293,14 +279,6 @@
       chance: 100
 
   cr: -9
-
-  gold:
-    min: 2550
-    max: 2900
-
-  giveXp:
-    min: 35700
-    max: 39900
 
   mp:
     min: 10000
@@ -409,14 +387,6 @@
 
   cr: -9
 
-  gold:
-    min: 2550
-    max: 2900
-
-  giveXp:
-    min: 35700
-    max: 39900
-
   mp:
     min: 10000
     max: 10000
@@ -508,14 +478,6 @@
 
   cr: -9
 
-  gold:
-    min: 2550
-    max: 2900
-
-  giveXp:
-    min: 35700
-    max: 39900
-
   baseEffects:
     - name: Attribute
       extra:
@@ -561,6 +523,8 @@
         - result: Catacombs Shortsword 1F
           chance: 1000
         - result: Catacombs HolyFire Hammer
+          chance: 1
+        - result: Catacombs Bat Shortsword
           chance: 1
         - result: Catacombs Bat Greatsword
           chance: 1
@@ -611,14 +575,6 @@
     - DarkVision
 
   cr: -9
-
-  gold:
-    min: 2550
-    max: 2900
-
-  giveXp:
-    min: 35700
-    max: 39900
 
   mp:
     min: 1000
@@ -718,14 +674,6 @@
     - DarkVision
 
   cr: -9
-
-  gold:
-    min: 2550
-    max: 2900
-
-  giveXp:
-    min: 35700
-    max: 39900
 
   mp:
     min: 1000

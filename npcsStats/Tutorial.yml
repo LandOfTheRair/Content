@@ -11,17 +11,7 @@
     
   cr: -10
 
-  hp:
-    min: 1000
-    max: 2000
-
-  gold:
-    min: 0
-    max: 100
-
-  giveXp:
-    min: 300
-    max: 500
+  hpMult: 20
 
   items:
     equipment:
@@ -73,18 +63,6 @@
     
   cr: -10
 
-  gold:
-    min: 0
-    max: 0
-
-  hp:
-    min: 50
-    max: 100
-
-  giveXp:
-    min: 10
-    max: 50
-
 - npcId: Tutorial Wolf
   name: wolf
   hostility: Always
@@ -98,18 +76,6 @@
     accuracy: -10
     
   cr: -10
-
-  gold:
-    min: 10
-    max: 20
-
-  hp:
-    min: 50
-    max: 100
-
-  giveXp:
-    min: 50
-    max: 75
 
   items:
     equipment:
@@ -140,17 +106,7 @@
     
   cr: -10
 
-  gold:
-    min: 100
-    max: 200
-
-  hp:
-    min: 100
-    max: 150
-
-  giveXp:
-    min: 100
-    max: 150
+  hpMult: 2
 
   items:
     equipment:

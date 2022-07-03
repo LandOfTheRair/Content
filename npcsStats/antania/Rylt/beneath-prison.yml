@@ -34,9 +34,7 @@
 
   cr: -8
 
-  hp:
-    min: 2000000
-    max: 2000000
+  hpMult: 30
 
   mp:
     min: 25000
@@ -148,22 +146,11 @@
 
   cr: -8
 
-  hp:
-    min: 1000000
-    max: 1000000
+  hpMult: 10
 
   mp:
     min: 25000
     max: 25000
-
-  gold:
-    min: 5000
-    max: 10000
-
-  giveXp:
-    min: 25000
-    max: 27500
-
 
   items:
     equipment:
@@ -211,22 +198,11 @@
 
   cr: -8
 
-  hp:
-    min: 1000000
-    max: 1000000
+  hpMult: 10
 
   mp:
     min: 25000
     max: 25000
-
-  gold:
-    min: 5000
-    max: 10000
-
-  giveXp:
-    min: 25000
-    max: 27500
-
 
   traitLevels:
     LightenArmor: 1
@@ -283,22 +259,11 @@
 
   cr: -8
 
-  hp:
-    min: 1000000
-    max: 1000000
+  hpMult: 10
 
   mp:
     min: 25000
     max: 25000
-
-  gold:
-    min: 5000
-    max: 10000
-
-  giveXp:
-    min: 25000
-    max: 27500
-
 
   traitLevels:
     LightenArmor: 1

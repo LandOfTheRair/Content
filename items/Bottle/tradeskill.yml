@@ -1,4 +1,62 @@
 
+- name: Vial of Blood
+  sprite: 926
+  desc: "a vial of blood"
+  value: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "-2 CON"
+      message: "Yuck! Blood is not the best choice to drink."
+      statChanges:
+        con: -1
+    duration: 30
+  
+- name: Dye Vial
+  sprite: 263
+  desc: "a small vial of multicolored dye"
+  value: 500
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "-1 CON"
+      message: "Yuck! Dye is not the best choice to drink."
+      statChanges:
+        con: -1
+    duration: 30
+  
+- name: Dye Vial (15oz)
+  sprite: 263
+  desc: "a small vial of multicolored dye"
+  value: 500
+  ounces: 15
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "-1 CON"
+      message: "Yuck! Dye is not the best choice to drink."
+      statChanges:
+        con: -1
+    duration: 30
+  
+- name: Dye Vial (50oz)
+  sprite: 263
+  desc: "a small vial of multicolored dye"
+  value: 500
+  ounces: 50
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "-1 CON"
+      message: "Yuck! Dye is not the best choice to drink."
+      statChanges:
+        con: -1
+    duration: 30
+
 - name: Endless Ink Vial
   desc: "a small vial filled with endless amounts of ink"
   sprite: 899

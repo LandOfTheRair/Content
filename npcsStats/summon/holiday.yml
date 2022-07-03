@@ -42,8 +42,8 @@
     max: 0
 
   giveXp:
-    min: 0
-    max: 0
+    min: 1
+    max: 1
 
   triggers:
     spawn:
@@ -96,8 +96,8 @@
     max: 0
 
   giveXp:
-    min: 0
-    max: 0
+    min: 1
+    max: 1
 
   hp:
     min: 2000

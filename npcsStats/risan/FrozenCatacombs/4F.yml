@@ -104,14 +104,6 @@
 
   cr: -9
 
-  gold:
-    min: 5550
-    max: 5900
-
-  giveXp:
-    min: 75700
-    max: 89900
-
   baseEffects:
     - name: Attribute
       extra:
@@ -182,6 +174,8 @@
           chance: 700
         - result: Catacombs Bat Greatsword
           chance: 1
+        - result: Catacombs Bat Shortsword
+          chance: 1
         - result: Frostlands Thermidor Halberd
           chance: 1
 
@@ -221,14 +215,6 @@
     DoubleThrust: 1
 
   cr: -9
-
-  gold:
-    min: 5550
-    max: 5900
-
-  giveXp:
-    min: 75700
-    max: 89900
 
   baseEffects:
     - name: Attribute
@@ -351,14 +337,6 @@
     Roots: 1
 
   cr: -9
-
-  gold:
-    min: 5550
-    max: 5900
-
-  giveXp:
-    min: 75700
-    max: 89900
 
   mp:
     min: 10000
@@ -486,14 +464,6 @@
 
   cr: -9
 
-  gold:
-    min: 5550
-    max: 5900
-
-  giveXp:
-    min: 75700
-    max: 89900
-
   mp:
     min: 10000
     max: 10000
@@ -595,14 +565,6 @@
 
   cr: -9
 
-  gold:
-    min: 5550
-    max: 5900
-
-  giveXp:
-    min: 75700
-    max: 89900
-
   baseEffects:
     - name: Attribute
       extra:
@@ -649,6 +611,8 @@
         - result: Catacombs HolyFire Hammer
           chance: 1
         - result: Catacombs Bat Greatsword
+          chance: 1
+        - result: Catacombs Bat Shortsword
           chance: 1
         - result: Frost Chakram
           chance: 1
@@ -741,14 +705,6 @@
     CorrosivePoison: 1
 
   cr: -9
-
-  gold:
-    min: 5550
-    max: 5900
-
-  giveXp:
-    min: 75700
-    max: 89900
 
   mp:
     min: 1000
@@ -857,14 +813,6 @@
     DegenerativeVenom: 1
 
   cr: -9
-
-  gold:
-    min: 5550
-    max: 5900
-
-  giveXp:
-    min: 75700
-    max: 89900
 
   mp:
     min: 1000

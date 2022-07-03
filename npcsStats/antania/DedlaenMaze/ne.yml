@@ -18,14 +18,6 @@
     
   cr: -5
 
-  gold:
-    min: 500
-    max: 600
-
-  giveXp:
-    min: 7850
-    max: 8950
-
   items:
     equipment:
       armor:
@@ -124,17 +116,9 @@
     
   cr: -5
 
-  gold:
-    min: 800
-    max: 900
-
   mp:
     min: 500
     max: 700
-
-  giveXp:
-    min: 7850
-    max: 8950
 
   items:
     equipment:
@@ -276,14 +260,6 @@
     
   cr: -7
 
-  gold:
-    min: 800
-    max: 900
-
-  giveXp:
-    min: 9950
-    max: 10350
-
   items:
     equipment:
       armor:
@@ -381,14 +357,6 @@
     
   cr: -5
 
-  gold:
-    min: 550
-    max: 700
-
-  giveXp:
-    min: 7850
-    max: 8950
-
   items:
     equipment:
       armor:
@@ -466,17 +434,9 @@
     
   cr: -5
 
-  gold:
-    min: 550
-    max: 700
-
   mp:
     min: 500
     max: 700
-
-  giveXp:
-    min: 7850
-    max: 8950
 
   usableSkills:
     - Afflict
@@ -566,17 +526,9 @@
     
   cr: -5
 
-  gold:
-    min: 550
-    max: 700
-
   mp:
     min: 500
     max: 700
-
-  giveXp:
-    min: 7850
-    max: 8950
 
   usableSkills:
     - MagicBolt
@@ -655,14 +607,6 @@
     
   cr: -5
 
-  gold:
-    min: 1550
-    max: 1700
-
-  giveXp:
-    min: 9850
-    max: 10950
-
   items:
     equipment:
       hands: Maze Skeleton Claws
@@ -740,17 +684,9 @@
     
   cr: -5
 
-  gold:
-    min: 1550
-    max: 1700
-
   mp:
     min: 500
     max: 700
-
-  giveXp:
-    min: 7850
-    max: 8950
 
   usableSkills:
     - FireMist
@@ -834,9 +770,7 @@
     min: 52050
     max: 52700
 
-  hp:
-    min: 557950
-    max: 561350
+  hpMult: 15
 
   giveXp:
     min: 269000
@@ -897,13 +831,7 @@
     
   cr: 5
 
-  hp:
-    min: 5000
-    max: 5000
-
-  giveXp:
-    min: 3000
-    max: 4000
+  hpMult: 2
 
   items:
     equipment:
@@ -942,13 +870,7 @@
     min: 1
     max: 5
 
-  hp:
-    min: 15000
-    max: 15000
-
-  giveXp:
-    min: 3000
-    max: 4000
+  hpMult: 10
 
   items:
     equipment:

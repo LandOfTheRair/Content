@@ -2684,6 +2684,12 @@ dungeonConfigs:
       bonusCreatureTraitChoices: 2
       eliteTickCap: 20
       cr: -6
+      hpMultiplierNormal: 3
+      hpMultiplierLegendary: 30
+      goldMultiplierNormal: 1
+      goldMultiplierLegendary: 25
+      xpMultiplierNormal: 1
+      xpMultiplierLegendary: 10
     itemProps:
       baseTier: 7
       baseArrowTier: 4
@@ -2745,6 +2751,12 @@ dungeonConfigs:
       bonusCreatureTraitChoices: 1
       eliteTickCap: 40
       cr: -2
+      hpMultiplierNormal: 1
+      hpMultiplierLegendary: 20
+      goldMultiplierNormal: 1
+      goldMultiplierLegendary: 25
+      xpMultiplierNormal: 1
+      xpMultiplierLegendary: 10
     itemProps:
       baseTier: 4
       baseArrowTier: 3

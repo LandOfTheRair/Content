@@ -18,17 +18,9 @@
     
   cr: 0
 
-  gold:
-    min: 200
-    max: 350
-
   mp:
     min: 300
     max: 500
-
-  giveXp:
-    min: 370
-    max: 392
 
   items:
     equipment:
@@ -82,17 +74,9 @@
     
   cr: 0
 
-  gold:
-    min: 200
-    max: 350
-
   mp:
     min: 300
     max: 500
-
-  giveXp:
-    min: 900
-    max: 1242
 
   items:
     equipment:

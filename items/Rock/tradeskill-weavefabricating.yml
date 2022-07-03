@@ -1,0 +1,13 @@
+
+- name: String - Fabric
+  sprite: 948
+  desc: "a strand of fabric"
+  value: 100
+  ounces: 1
+  
+- name: String - Fiber
+  sprite: 869
+  desc: "a strand of fiber"
+  value: 100
+  ounces: 1
+

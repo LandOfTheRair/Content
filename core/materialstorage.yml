@@ -120,13 +120,29 @@ slots:
     items: [Enchanting Dust - Enos]
     sprite: 1037
     withdrawInOunces: true
+    
+  GemDust:
+    items: [Gem Dust]
+    sprite: 1057
+    withdrawInOunces: true
+    
+  StringFabric:
+    items: [String - Fabric]
+    sprite: 948
+    withdrawInOunces: true
+    
+  StringFiber:
+    items: [String - Fiber]
+    sprite: 869
+    withdrawInOunces: true
 
 layouts:
   - category: Raw Materials
     items: [
       CopperOre, SilverOre, GoldOre, OrikalcumOre, SoroniteOre,
       AntanianTwig, AntanianBranch, RisanTwig, RisanBranch, RisanTwigFrozen,
-      OrikurnisTwig, SolokarTwig, EnosDust, null, null
+      OrikurnisTwig, SolokarTwig, null, null, null,
+      EnosDust, GemDust, StringFabric, StringFiber, null
     ]
 
   - category: Flowers

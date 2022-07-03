@@ -38,14 +38,6 @@
 
   cr: -9
 
-  gold:
-    min: 1410
-    max: 3200
-
   mp:
     min: 5000
     max: 5000
-
-  giveXp:
-    min: 18200
-    max: 18900

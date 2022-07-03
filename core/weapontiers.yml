@@ -2,14 +2,14 @@
 ## Tier Explanations
 #
 # 0  - unused in general, but useful to have
-# 1  - ~Lv1  - basic Antanian gear                                            (fighting against 30~60 hp creatures)           - assume 10 str/int/wis, skill 2
-# 2  - ~Lv7  - Antanian rares/base lairs/Antanian crafted weapons             (fighting against 400~600 hp creatures)         - assume 10 str/int/wis, skill 7
-# 3  - ~Lv12 - Antanian late gear                                             (fighting against 1500~2500 hp creatures)       - assume 13 str/int/wis, skill 9
-# 4  - ~Lv15 - Antanian finish gear                                           (fighting against 4000~7000 hp creatures)       - assume 16 str/int/wis, skill 13
-# 5  - ~Lv20 - Risan crafted weapons / Ether weapons                          (fighting against 20000~22000 hp creatures)     - assume 20 str/int/wis, skill 17
-# 6  - ~Lv25 - Frostlands / etc                                               (fighting against 50000~100000 hp creatures)    - assume 23 str/int/wis, skill 20
-# 7  - ~Lv35 - Catacombs 2F/3F                                                (fighting against 80000~100000 hp creatures)    - assume 25 str/int/wis, skill 23
-# 8  - ~Lv45 - Catacombs 4F/5F                                                (fighting against 120000~140000 hp creatures)   - assume 30 str/int/wis, skill 27
+# 1  - ~Lv1  - basic Antanian gear                                            (fighting against 30~60 hp creatures)          - assume 10 str/int/wis, skill 2
+# 2  - ~Lv7  - Antanian rares/base lairs/Antanian crafted weapons             (fighting against 400~600 hp creatures)        - assume 10 str/int/wis, skill 7
+# 3  - ~Lv12 - Antanian late gear                                             (fighting against 900~1100 hp creatures)       - assume 13 str/int/wis, skill 9
+# 4  - ~Lv15 - Antanian finish gear                                           (fighting against 1500~2000 hp creatures)      - assume 16 str/int/wis, skill 13
+# 5  - ~Lv20 - Risan crafted weapons / Ether weapons                          (fighting against 3200~4000 hp creatures)      - assume 20 str/int/wis, skill 17
+# 6  - ~Lv25 - Frostlands / etc                                               (fighting against 5500~6800 hp creatures)      - assume 23 str/int/wis, skill 20
+# 7  - ~Lv35 - Catacombs 2F/3F                                                (fighting against 14000~16500 hp creatures)    - assume 25 str/int/wis, skill 23
+# 8  - ~Lv45 - Catacombs 4F/5F                                                (fighting against 32500~39000 hp creatures)    - assume 30 str/int/wis, skill 27
 # 9  - unused - probably Solokar gear
 # 10 - unused - probably Solokar gear / early Elgun
 
@@ -68,26 +68,40 @@
 
 ## Damage Measures (Base damage per tier)
 
-__damageVeryLow: &damageVeryLow   { 0: 1,       1: 3,       2: 10,      3: 15,      4: 20,    5: 30,    6: 50,    7: 100,   8: 300,   9: 500,     10: 1000,
-                                    11: 1500,   12: 2000,   13: 3000,   14: 4500,   15: 7000   }
+__damageVeryLow: &damageVeryLow   { 0: 1,       
+                                    1: 5,       2: 10,      3: 15,      4: 20,      5: 30,      
+                                    6: 50,      7: 100,     8: 200,     9: 350,     10: 600,
+                                    11: 1000,   12: 1600,   13: 2600,   14: 3900,   15: 5600   }
 
-__damageLow: &damageLow           { 0: 2,       1: 5,       2: 14,      3: 30,      4: 50,    5: 150,   6: 400,   7: 800,   8: 1200,  9: 1700,    10: 2500,
-                                    11: 3500,   12: 5000,   13: 7000,   14: 9500,   15: 12500  }
+__damageLow: &damageLow           { 0: 2,       
+                                    1: 7,       2: 14,      3: 25,      4: 35,      5: 50,      
+                                    6: 80,      7: 140,     8: 260,     9: 440,     10: 740,
+                                    11: 1240,   12: 2040,   13: 3440,   14: 5140,   15: 7240  }
 
-__damageMidLow: &damageMidLow     { 0: 3,       1: 7,       2: 18,      3: 45,      4: 65,    5: 180,   6: 450,   7: 900,   8: 1350,  9: 2000,    10: 3000,
-                                    11: 4500,   12: 5500,   13: 7500,   14: 10000,  15: 13000  }
+__damageMidLow: &damageMidLow     { 0: 3,       
+                                    1: 9,       2: 18,      3: 30,      4: 45,      5: 70,      
+                                    6: 110,     7: 180,     8: 320,     9: 530,     10: 880,
+                                    11: 1480,   12: 2480,   13: 4280,   14: 6280,   15: 8780  }
 
-__damageMid: &damageMid           { 0: 4,       1: 9,       2: 22,      3: 50,      4: 90,    5: 200,   6: 500,   7: 1000,  8: 1500,  9: 2500,    10: 3500,
-                                    11: 5000,   12: 6500,   13: 8000,   14: 10500,  15: 14000  }
+__damageMid: &damageMid           { 0: 4,       
+                                    1: 11,      2: 22,      3: 35,      4: 55,      5: 90,      
+                                    6: 140,     7: 220,     8: 380,     9: 620,     10: 1020,
+                                    11: 1720,   12: 2920,   13: 5120,   14: 7420,   15: 9320  }
 
-__damageMidHigh: &damageMidHigh   { 0: 5,       1: 13,      2: 26,      3: 55,      4: 110,   5: 225,   6: 570,   7: 1140,  8: 1710,  9: 2800,    10: 4000,
-                                    11: 5500,   12: 7000,   13: 9500,   14: 11500,  15: 15500  }
+__damageMidHigh: &damageMidHigh   { 0: 5,       
+                                    1: 13,      2: 26,      3: 40,      4: 65,      5: 110,     
+                                    6: 170,     7: 260,     8: 440,     9: 710,     10: 1160,
+                                    11: 1960,   12: 3360,   13: 5960,   14: 8560,   15: 11860  }
 
-__damageHigh: &damageHigh         { 0: 6,       1: 15,      2: 30,      3: 60,      4: 140,   5: 255,   6: 690,   7: 1380,  8: 2070,  9: 3100,    10: 4500,
-                                    11: 6500,   12: 8500,   13: 11000,  14: 12500,  15: 16500  }
+__damageHigh: &damageHigh         { 0: 6,       
+                                    1: 15,      2: 30,      3: 45,      4: 75,      5: 130,     
+                                    6: 200,     7: 300,     8: 500,     9: 800,     10: 1300,
+                                    11: 2200,   12: 3800,   13: 6800,   14: 9700,   15: 13400  }
 
-__damageVeryHigh: &damageVeryHigh { 0: 7,       1: 20,      2: 40,      3: 75,      4: 180,   5: 300,   6: 800,   7: 1600,  8: 2400,  9: 3500,    10: 5000,
-                                    11: 7500,   12: 9500,   13: 12500,  14: 14000,  15: 19000  }
+__damageVeryHigh: &damageVeryHigh { 0: 7,       
+                                    1: 20,      2: 40,      3: 55,      4: 90,      5: 150,     
+                                    6: 230,     7: 340,     8: 560,     9: 890,     10: 1440,
+                                    11: 2440,   12: 4240,   13: 7640,   14: 10840,  15: 14940  }
 
 ## Variance Measures (% variance bonus per hit)
 

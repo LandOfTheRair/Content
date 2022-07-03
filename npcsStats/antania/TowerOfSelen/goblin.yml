@@ -18,14 +18,6 @@
     
   cr: -5
 
-  gold:
-    min: 500
-    max: 600
-
-  giveXp:
-    min: 3650
-    max: 4750
-
   items:
     equipment:
       armor:
@@ -109,17 +101,9 @@
     
   cr: -5
 
-  gold:
-    min: 800
-    max: 900
-
   mp:
     min: 500
     max: 700
-
-  giveXp:
-    min: 3650
-    max: 4750
 
   items:
     equipment:
@@ -239,14 +223,6 @@
     perception: 7
     
   cr: -7
-
-  gold:
-    min: 800
-    max: 900
-
-  giveXp:
-    min: 6650
-    max: 6750
 
   items:
     equipment:

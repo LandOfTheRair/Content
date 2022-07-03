@@ -118,11 +118,17 @@ const conditionallyAddInformation = (npc) => {
 
   if(!npc.level) npc.level = 1;
 
-  if(!npc.hp) npc.hp = { min: 0, max: 0 };
+  if(!npc.hp) npc.hp = { min: -1, max: -1 };
 
-  if(!npc.gold) npc.gold = { min: 0, max: 0 };
+  if(!npc.gold) npc.gold = { min: -1, max: -1 };
 
-  if(!npc.giveXp) npc.giveXp = { min: 0, max: 0 };
+  if(!npc.giveXp) npc.giveXp = { min: -1, max: -1 };
+
+  if(!npc.stats) npc.stats = 0;
+
+  if(!npc.skillLevels) npc.skillLevels = 0;
+
+  if(!npc.hpMult) npc.hpMult = 1;
 
   const skillLevels = npc.skillLevels || {};
   const skillSet = allSkills.reduce((prev, cur) => {
@@ -138,6 +144,10 @@ const conditionallyAddInformation = (npc) => {
     Object.keys(skillLevels).forEach(skill => {
       skillSet[skill.toLowerCase()] = skillXPFromLevel(skillLevels[skill]);
     });
+
+    if(!skillSet.martial) {
+      skillSet.martial = 1;
+    }
   }
 
   npc.skills = skillSet;

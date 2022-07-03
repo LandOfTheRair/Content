@@ -20,14 +20,6 @@
 
   cr: -9
 
-  gold:
-    min: 30
-    max: 65
-
-  giveXp:
-    min: 135
-    max: 175
-
   items:
     equipment:
 
@@ -129,17 +121,7 @@
 
   cr: -5
 
-  hp:
-    min: 1000
-    max: 1200
-
-  gold:
-    min: 500
-    max: 1000
-
-  giveXp:
-    min: 2100
-    max: 2200
+  hpMult: 5
 
   items:
     equipment:
@@ -178,14 +160,6 @@
     accuracy: -10
 
   cr: -5
-
-  gold:
-    min: 100
-    max: 150
-
-  giveXp:
-    min: 435
-    max: 450
 
   items:
     equipment:
@@ -277,14 +251,6 @@
     accuracy: -10
 
   cr: -5
-
-  gold:
-    min: 150
-    max: 250
-
-  giveXp:
-    min: 450
-    max: 570
 
   items:
     equipment:
@@ -390,14 +356,6 @@
 
   cr: -5
 
-  gold:
-    min: 250
-    max: 350
-
-  giveXp:
-    min: 460
-    max: 580
-
   items:
     equipment:
 
@@ -495,18 +453,9 @@
 
   cr: -5
 
-  gold:
-    min: 150
-    max: 250
-
   mp:
     min: 500
     max: 600
-
-  giveXp:
-    min: 460
-    max: 510
-
 
   items:
     equipment:
@@ -551,19 +500,10 @@
   skillOnKill: 7
 
   cr: -5
-
-  gold:
-    min: 150
-    max: 250
-
+  
   mp:
     min: 500
     max: 600
-
-  giveXp:
-    min: 460
-    max: 510
-
 
   usableSkills:
     - Afflict
@@ -612,9 +552,7 @@
     min: 4000
     max: 6000
 
-  hp:
-    min: 30000
-    max: 32000
+  hpMult: 10
 
   giveXp:
     min: 25000

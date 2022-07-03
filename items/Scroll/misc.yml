@@ -20,3 +20,6 @@
     name: Fate
     uses: 1
     potency: 1
+
+  requirements:
+    level: 15

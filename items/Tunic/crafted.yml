@@ -1,0 +1,8 @@
+
+- name: Antanian Tunic (Stitched)
+  stats:
+    armorClass: 2
+    defense: 2
+  desc: "a stitched leather tunic"
+  value: 20
+  sprite: 206

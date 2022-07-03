@@ -102,14 +102,6 @@
 
   cr: -9
 
-  gold:
-    min: 4550
-    max: 4900
-
-  giveXp:
-    min: 55700
-    max: 59900
-
   baseEffects:
     - name: Attribute
       extra:
@@ -165,6 +157,8 @@
           chance: 800
         - result: Catacombs Bat Greatsword
           chance: 1
+        - result: Catacombs Bat Shortsword
+          chance: 1
         - result: Frostlands Thermidor Halberd
           chance: 1
       armor: Frostlands Trash Breastplate
@@ -217,14 +211,6 @@
     Swashbuckler: 4
 
   cr: -9
-
-  gold:
-    min: 4550
-    max: 4900
-
-  giveXp:
-    min: 55700
-    max: 59900
 
   baseEffects:
     - name: Attribute
@@ -345,14 +331,6 @@
     Roots: 1
 
   cr: -9
-
-  gold:
-    min: 4550
-    max: 4900
-
-  giveXp:
-    min: 55700
-    max: 59900
 
   mp:
     min: 10000
@@ -477,14 +455,6 @@
 
   cr: -9
 
-  gold:
-    min: 4550
-    max: 4900
-
-  giveXp:
-    min: 55700
-    max: 59900
-
   mp:
     min: 10000
     max: 10000
@@ -585,14 +555,6 @@
 
   cr: -9
 
-  gold:
-    min: 4550
-    max: 4900
-
-  giveXp:
-    min: 55700
-    max: 59900
-
   baseEffects:
     - name: Attribute
       extra:
@@ -655,6 +617,8 @@
         - result: Catacombs HolyFire Hammer
           chance: 1
         - result: Catacombs Bat Greatsword
+          chance: 1
+        - result: Catacombs Bat Shortsword
           chance: 1
         - result: Frost Chakram
           chance: 1
@@ -730,14 +694,6 @@
     DarknessWiden: 1
 
   cr: -9
-
-  gold:
-    min: 4550
-    max: 4900
-
-  giveXp:
-    min: 55700
-    max: 59900
 
   mp:
     min: 1000
@@ -844,14 +800,6 @@
     DarkerShadows: 2
 
   cr: -9
-
-  gold:
-    min: 4550
-    max: 4900
-
-  giveXp:
-    min: 55700
-    max: 59900
 
   mp:
     min: 1000

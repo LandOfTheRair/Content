@@ -39,10 +39,6 @@
     min: 0
     max: 0
 
-  giveXp:
-    min: 10
-    max: 50
-
   tanSkillRequired: 1
   tansFor: Deer Robe
 
@@ -91,13 +87,7 @@
 
   cr: -5
 
-  hp:
-    min: 1700
-    max: 2000
-
-  giveXp:
-    min: 400
-    max: 500
+  hpMult: 5
 
   gold:
     min: 0
@@ -125,14 +115,6 @@
   skillOnKill: 4
 
   cr: -5
-
-  gold:
-    min: 10
-    max: 20
-
-  giveXp:
-    min: 50
-    max: 65
 
   items:
     equipment:
@@ -179,14 +161,6 @@
   skillOnKill: 5
 
   cr: -5
-
-  gold:
-    min: 40
-    max: 90
-
-  giveXp:
-    min: 20
-    max: 32
 
   items:
     equipment:
@@ -243,9 +217,7 @@
 
   cr: -5
 
-  hp:
-    min: 4000
-    max: 5000
+  hpMult: 10
 
   giveXp:
     min: 15000

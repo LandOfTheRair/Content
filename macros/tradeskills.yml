@@ -30,3 +30,43 @@ Disenchant:
   color: '#f0f'
   mode: 'autoActivate'
   tooltipDesc: 'Disenchant the item in your right hand or matching items in your sack.'
+
+Gemcrafting:
+  name: 'Gemcrafting'
+  macro: 'tradeskill Gemcrafting'
+  icon: 'gem-chain'
+  color: '#aa7d00'
+  mode: 'autoActivate'
+  tooltipDesc: 'Open the gemcrafting window.'
+
+Shatter:
+  name: 'Shatter'
+  macro: 'shatter'
+  icon: 'gems'
+  color: '#aa7d00'
+  mode: 'autoActivate'
+  tooltipDesc: 'Break the item in your right hand or matching items in your sack.'
+
+Weavefabricating:
+  name: 'Weavefabricating'
+  macro: 'tradeskill Weavefabricating'
+  icon: 'robe'
+  color: '#aa00a2'
+  mode: 'autoActivate'
+  tooltipDesc: 'Open the weavefabricating window.'
+
+Tear:
+  name: 'Tear'
+  macro: 'tear'
+  icon: 'bowie-knife'
+  color: '#aa00a2'
+  mode: 'autoActivate'
+  tooltipDesc: 'Tear the item in your right hand or matching items in your sack.'
+
+Foodmaking:
+  name: 'Foodmaking'
+  macro: 'tradeskill Foodmaking'
+  icon: 'meat'
+  color: '#00f'
+  mode: 'autoActivate'
+  tooltipDesc: 'Open the foodmaking window.'
