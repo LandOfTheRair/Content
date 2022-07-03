@@ -10,4 +10,10 @@
   desc: "a strand of fiber"
   value: 100
   ounces: 1
+  
+- name: String - Spell
+  sprite: 145
+  desc: "a clump of spellthread"
+  value: 100
+  ounces: 1
 

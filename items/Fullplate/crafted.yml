@@ -28,7 +28,6 @@
   requirements:
     level: 25
 
-
 - name: Silver Fullplate
   sprite: 528
   stats:

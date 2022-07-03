@@ -135,6 +135,11 @@ slots:
     items: [String - Fiber]
     sprite: 869
     withdrawInOunces: true
+    
+  StringSpell:
+    items: [String - Spell]
+    sprite: 145
+    withdrawInOunces: true
 
 layouts:
   - category: Raw Materials
@@ -142,7 +147,7 @@ layouts:
       CopperOre, SilverOre, GoldOre, OrikalcumOre, SoroniteOre,
       AntanianTwig, AntanianBranch, RisanTwig, RisanBranch, RisanTwigFrozen,
       OrikurnisTwig, SolokarTwig, null, null, null,
-      EnosDust, GemDust, StringFabric, StringFiber, null
+      EnosDust, GemDust, StringFabric, StringFiber, StringSpell
     ]
 
   - category: Flowers
