@@ -1,4 +1,102 @@
 
+- name: Antanian Leather Boots (Stitched)
+  stats:
+    accuracy: 3
+    defense: 2
+  tier: 1
+  sprite: 232
+  desc: "a pair of leather boots"
+  value: 50
+
+- name: Yzalt Combat Boots (Stitched)
+  stats:
+    armorClass: 3
+    defense: 1
+    offense: 3
+  tier: 2
+  maxUpgrades: 1
+  sprite: 369
+  desc: "a pair of black leather combat boots"
+  value: 580
+  binds: true
+
+  requirements:
+    level: 5
+
+- name: Griffon Spring Boots (Stitched)
+  quality: 5
+  stats:
+    offense: 4
+    defense: 4
+    armorClass: 1
+  equipEffect:
+    name: FleetOfFoot
+    potency: 1
+  tier: 5
+  maxUpgrades: 1
+  sprite: 372
+  desc: "a stitched pair of spongy, springy boots that allows you to move more quickly"
+  value: 1980
+  binds: true
+  tellsBind: true
+
+  requirements:
+    level: 15
+
+- name: Stealth Boots
+  quality: 5
+  stats:
+    defense: 2
+    agi: 1
+  tier: 5
+  maxUpgrades: 1
+  sprite: 642
+  desc: "a pair of jet-black boots"
+  value: 19801
+
+  trait:
+    name: ShadowStepper
+    level: 2
+
+  requirements:
+    level: 15
+
+- name: Dancing Boots
+  quality: 5
+  stats:
+    defense: 5
+    agi: 1
+  tier: 5
+  maxUpgrades: 1
+  sprite: 643
+  desc: "a pair of boots that seem to tap on their own"
+  value: 39801
+
+  trait:
+    name: DivineDancing
+    level: 1
+
+  requirements:
+    level: 25
+
+- name: Resistant Boots
+  quality: 5
+  stats:
+    defense: 3
+    wil: 1
+    magicalResist: 50
+  tier: 5
+  maxUpgrades: 1
+  sprite: 288
+  desc: "a brightly-colored pair of boots that depict a magical moonscape"
+  value: 59801
+
+  trait:
+    name: InternalFortitude
+    level: 2
+
+  requirements:
+    level: 35
 
 - name: Crafted Orikalcum Boots
   quality: 5
@@ -32,4 +130,4 @@
   value: 18000
 
   requirements:
-    level: 20
+    level: 40

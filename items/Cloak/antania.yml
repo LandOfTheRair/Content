@@ -40,6 +40,9 @@
   binds: true
   maxUpgrades: 1
 
+  requirements:
+    level: 7
+
 - name: Tower Trash Cloak
   stats:
     armorClass: 5

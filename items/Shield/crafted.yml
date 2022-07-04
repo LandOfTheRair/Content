@@ -89,7 +89,7 @@
     level: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Crafted Mindfrost Soronite Shield
   stats:
@@ -105,7 +105,7 @@
     level: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Crafted Brainburst Soronite Shield
   stats:
@@ -121,7 +121,7 @@
     level: 1
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Crafted Bodybreak Soronite Shield
   stats:
@@ -137,7 +137,7 @@
     level: 2
 
   requirements:
-    level: 20
+    level: 40
 
 - name: Crafted Ironspine Soronite Shield
   stats:
@@ -149,4 +149,4 @@
   sprite: 515
 
   requirements:
-    level: 20
+    level: 40

@@ -172,8 +172,8 @@
     offense: 5
     defense: 5
     armorClass: 15
-    iceResist: 400
-    fireResist: 400
+    iceResist: 300
+    fireResist: 300
   maxUpgrades: 1
 
   desc: "a fluffy robe made of chilled sparkling feathers"

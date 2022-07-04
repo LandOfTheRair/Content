@@ -1,4 +1,26 @@
 
+- name: Werebear Claws (Stitched)
+  tier: 2
+  stats:
+    str: 1
+    agi: 1
+    offense: 3
+    armorClass: 2
+  strikeEffect:
+    name: Poison
+    potency: 25
+    chance: 50
+
+  binds: true
+  tellsBind: true
+  maxUpgrades: 1
+
+  requirements:
+    level: 5
+
+  sprite: 938
+  desc: "a stitched pair of grizzly sharp claws"
+  value: 500
 
 - name: Ether Claws
   desc: "an pair of claws forged from ether"

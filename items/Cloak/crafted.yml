@@ -20,6 +20,9 @@
   binds: true
   maxUpgrades: 1
 
+  requirements:
+    level: 7
+
 - name: Risan Cloak (Stitched)
   stats:
     armorClass: 5
@@ -27,3 +30,6 @@
   desc: "a woolen cloak tailored in the land of Risan"
   value: 10000
   sprite: 211
+
+  requirements:
+    level: 10

@@ -1,0 +1,72 @@
+
+- name: Antanian Leather Gloves (Stitched)
+  stats:
+    accuracy: 3
+    defense: 2
+  tier: 1
+  sprite: 233
+  desc: "a pair of stitched leather gloves"
+  value: 50
+
+- name: Careful Gloves
+  tier: 5
+  quality: 5
+  stats:
+    defense: 3
+    stealth: 2
+    dex: 1
+
+  maxUpgrades: 1
+
+  trait:
+    name: CarefulTouch
+    level: 2
+
+  requirements:
+    level: 15
+
+  sprite: 465
+  desc: "tenderly-crafted gloves that allow for extremely precise gripping of weapons"
+  value: 27001
+
+- name: Gripping Gloves
+  tier: 6
+  quality: 5
+  stats:
+    defense: 7
+    dex: 1
+    str: 1
+
+  maxUpgrades: 1
+
+  requirements:
+    level: 25
+
+  trait:
+    name: DeathGrip
+    level: 3
+
+  sprite: 461
+  desc: "extremely strong gloves that have an unnatural grip"
+  value: 20001
+
+- name: Mending Gloves
+  tier: 7
+  quality: 5
+  stats:
+    armorClass: 7
+    defense: 5
+    offense: 5
+
+  maxUpgrades: 1
+
+  requirements:
+    level: 35
+
+  trait:
+    name: EffectivePotions
+    level: 1
+
+  sprite: 464
+  desc: "a pair of soothing gloves that have magic coursing through its fingertips"
+  value: 30001

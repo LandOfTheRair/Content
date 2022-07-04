@@ -1,0 +1,69 @@
+
+- name: Antanian Sash (Stitched)
+  stats:
+    armorClass: 1
+    defense: 1
+  sprite: 236
+  desc: "a simple silk sash"
+  value: 150
+
+- name: Tonwin Sash (Stitched)
+  quality: 5
+  stats:
+    armorClass: 4
+    defense: 3
+    offense: 3
+  maxUpgrades: 1
+  sprite: 475
+  desc: "a sash with the image of a sword sewn into it"
+  binds: true
+  tellsBind: true
+  value: 3500
+
+  requirements:
+    level: 5
+
+- name: Big Sash
+  quality: 5
+  maxUpgrades: 1
+  sprite: 396
+  desc: "a loincloth that allows for some extra storage space"
+  binds: true
+  value: 6554
+
+  trait:
+    name: BigBelt
+    level: 1
+
+  requirements:
+    level: 15
+
+- name: Digestion Sash
+  quality: 5
+  maxUpgrades: 1
+  sprite: 869
+  desc: "a naturally-made sash that constricts the blood flow of the wearer"
+  binds: true
+  value: 12344
+
+  trait:
+    name: SlowDigestion
+    level: 1
+
+  requirements:
+    level: 25
+
+- name: Recombobulative Sash
+  quality: 5
+  maxUpgrades: 1
+  sprite: 474
+  desc: "a glowing sash that pulses with energy"
+  binds: true
+  value: 22344
+
+  trait:
+    name: RecombobulativeBarrier
+    level: 2
+
+  requirements:
+    level: 25
