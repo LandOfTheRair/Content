@@ -1,6 +1,6 @@
 
 - item: Antanian Purple Gem
-  name: Armor Gem
+  name: Armor Gem (Basic)
   category: Antanian Gems
   skillGained: 2
   maxSkillForGains: 2
@@ -11,7 +11,7 @@
       ounces: 4
 
 - item: Antanian Small Green Gem
-  name: Health Gem
+  name: Health Gem (Basic)
   category: Antanian Gems
   skillGained: 2
   maxSkillForGains: 3
@@ -23,7 +23,7 @@
       ounces: 4
 
 - item: Antanian Big Green Gem
-  name: Defense Gem
+  name: Defense Gem (Basic)
   category: Antanian Gems
   skillGained: 2
   maxSkillForGains: 4
@@ -35,7 +35,7 @@
       ounces: 4
 
 - item: Antanian Small Red Gem
-  name: Mana Gem
+  name: Mana Gem (Basic)
   category: Antanian Gems
   skillGained: 2
   maxSkillForGains: 5
@@ -47,7 +47,7 @@
       ounces: 4
 
 - item: Antanian Big Red Gem
-  name: Offense Gem
+  name: Offense Gem (Basic)
   category: Antanian Gems
   skillGained: 2
   maxSkillForGains: 6

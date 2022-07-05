@@ -1,6 +1,6 @@
 
 - item: Risan Purple Gem
-  name: Armor Gem
+  name: Armor Gem (Minor)
   category: Risan Gems
   skillGained: 2
   maxSkillForGains: 12
@@ -12,7 +12,7 @@
       ounces: 10
 
 - item: Risan Small Green Gem
-  name: Health Gem
+  name: Health Gem (Minor)
   category: Risan Gems
   skillGained: 2
   maxSkillForGains: 13
@@ -24,7 +24,7 @@
       ounces: 10
 
 - item: Risan Big Green Gem
-  name: Defense Gem
+  name: Defense Gem (Minor)
   category: Risan Gems
   skillGained: 2
   maxSkillForGains: 14
@@ -36,7 +36,7 @@
       ounces: 10
 
 - item: Risan Small Red Gem
-  name: Mana Gem
+  name: Mana Gem (Minor)
   category: Risan Gems
   skillGained: 2
   maxSkillForGains: 15
@@ -48,7 +48,7 @@
       ounces: 10
 
 - item: Risan Big Red Gem
-  name: Offense Gem
+  name: Offense Gem (Minor)
   category: Risan Gems
   skillGained: 2
   maxSkillForGains: 16
@@ -60,7 +60,7 @@
       ounces: 10
 
 - item: Risan Emerald Chunk
-  name: Physical Resist Gem
+  name: Physical Resist Gem (Minor)
   category: Risan Gems
   skillGained: 2
   maxSkillForGains: 17
@@ -72,7 +72,7 @@
       ounces: 10
 
 - item: Risan Polished Ruby
-  name: Magical Resist Gem
+  name: Magical Resist Gem (Minor)
   category: Risan Gems
   skillGained: 2
   maxSkillForGains: 18
@@ -84,7 +84,7 @@
       ounces: 10
 
 - item: Risan Carved Jade
-  name: Perception Gem
+  name: Perception Gem (Minor)
   category: Risan Gems
   skillGained: 2
   maxSkillForGains: 19
@@ -96,7 +96,7 @@
       ounces: 10
 
 - item: Risan Diamond
-  name: Diamond
+  name: Diamond (Minor)
   category: Risan Gems
   skillGained: 4
   maxSkillForGains: 20
