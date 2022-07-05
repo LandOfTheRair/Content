@@ -1,0 +1,108 @@
+
+- item: Risan Purple Gem
+  name: Armor Gem
+  category: Risan Gems
+  skillGained: 2
+  maxSkillForGains: 12
+  requireSkill: 10
+  xpGained: 5000
+  ozIngredients:
+    - filter: Gem Dust
+      display: Gem Dust
+      ounces: 10
+
+- item: Risan Small Green Gem
+  name: Health Gem
+  category: Risan Gems
+  skillGained: 2
+  maxSkillForGains: 13
+  requireSkill: 11
+  xpGained: 5000
+  ozIngredients:
+    - filter: Gem Dust
+      display: Gem Dust
+      ounces: 10
+
+- item: Risan Big Green Gem
+  name: Defense Gem
+  category: Risan Gems
+  skillGained: 2
+  maxSkillForGains: 14
+  requireSkill: 12
+  xpGained: 5000
+  ozIngredients:
+    - filter: Gem Dust
+      display: Gem Dust
+      ounces: 10
+
+- item: Risan Small Red Gem
+  name: Mana Gem
+  category: Risan Gems
+  skillGained: 2
+  maxSkillForGains: 15
+  requireSkill: 13
+  xpGained: 5000
+  ozIngredients:
+    - filter: Gem Dust
+      display: Gem Dust
+      ounces: 10
+
+- item: Risan Big Red Gem
+  name: Offense Gem
+  category: Risan Gems
+  skillGained: 2
+  maxSkillForGains: 16
+  requireSkill: 14
+  xpGained: 5000
+  ozIngredients:
+    - filter: Gem Dust
+      display: Gem Dust
+      ounces: 10
+
+- item: Risan Emerald Chunk
+  name: Physical Resist Gem
+  category: Risan Gems
+  skillGained: 2
+  maxSkillForGains: 17
+  requireSkill: 15
+  xpGained: 5000
+  ozIngredients:
+    - filter: Gem Dust
+      display: Gem Dust
+      ounces: 10
+
+- item: Risan Polished Ruby
+  name: Magical Resist Gem
+  category: Risan Gems
+  skillGained: 2
+  maxSkillForGains: 18
+  requireSkill: 16
+  xpGained: 5000
+  ozIngredients:
+    - filter: Gem Dust
+      display: Gem Dust
+      ounces: 10
+
+- item: Risan Carved Jade
+  name: Perception Gem
+  category: Risan Gems
+  skillGained: 2
+  maxSkillForGains: 19
+  requireSkill: 17
+  xpGained: 5000
+  ozIngredients:
+    - filter: Gem Dust
+      display: Gem Dust
+      ounces: 10
+
+- item: Risan Diamond
+  name: Diamond
+  category: Risan Gems
+  skillGained: 4
+  maxSkillForGains: 20
+  requireSkill: 18
+  xpGained: 50000
+  ozIngredients:
+    - filter: Gem Dust
+      display: Gem Dust
+      ounces: 50

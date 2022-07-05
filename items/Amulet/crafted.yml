@@ -1,0 +1,37 @@
+
+
+- name: Regen Amulet (Basic)
+  stats:
+    mpregen: 2
+    hpregen: 2
+    defense: 1
+  sprite: 318
+  desc: "an glowing amulet set with a small red gem"
+  maxUpgrades: 1
+  value: 500
+  requirements:
+    level: 10
+
+- name: Regen Amulet (Minor)
+  stats:
+    mpregen: 5
+    hpregen: 5
+    defense: 2
+  sprite: 318
+  desc: "an glowing amulet set with a medium red gem"
+  maxUpgrades: 1
+  value: 5000
+  requirements:
+    level: 20
+
+- name: Regen Amulet (Lesser)
+  stats:
+    mpregen: 10
+    hpregen: 10
+    defense: 3
+  sprite: 318
+  desc: "an glowing amulet set with a large red gem"
+  maxUpgrades: 1
+  value: 25000
+  requirements:
+    level: 30

@@ -1,0 +1,55 @@
+
+
+- name: Defense Ring (Lesser)
+  stats:
+    defense: 4
+  sprite: 267
+  desc: "a simple gold ring, set with a small-sized blue gem resembling a shield"
+  value: 150
+  requirements:
+    level: 10
+
+- name: Defense Ring (Minor)
+  stats:
+    defense: 8
+  sprite: 267
+  desc: "a simple gold ring, set with a medium-sized blue gem resembling a shield"
+  value: 1500
+  requirements:
+    level: 20
+
+- name: Defense Ring (Basic)
+  stats:
+    defense: 12
+  sprite: 267
+  desc: "a simple gold ring, set with a large-sized blue gem resembling a shield"
+  value: 15000
+  requirements:
+    level: 30
+
+- name: Offense Ring (Lesser)
+  stats:
+    offense: 4
+  sprite: 240
+  desc: "a simple gold ring, set with a small-sized green gem resembling a sword"
+  value: 150
+  requirements:
+    level: 10
+
+- name: Offense Ring (Minor)
+  stats:
+    offense: 8
+  sprite: 240
+  desc: "a simple gold ring, set with a medium-sized green gem resembling a sword"
+  value: 1500
+  requirements:
+    level: 20
+
+- name: Offense Ring (Basic)
+  stats:
+    offense: 12
+  sprite: 240
+  desc: "a simple gold ring, set with a large-sized green gem resembling a sword"
+  value: 15000
+  requirements:
+    level: 30

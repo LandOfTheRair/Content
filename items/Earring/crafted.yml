@@ -1,0 +1,24 @@
+
+- name: Tier I Earring
+  sprite: 900
+  desc: "a basic golden earring"
+  value: 1000
+
+  requirements:
+    level: 9
+
+- name: Tier II Earring
+  sprite: 900
+  desc: "a minor golden earring"
+  value: 5000
+
+  requirements:
+    level: 18
+
+- name: Tier III Earring
+  sprite: 900
+  desc: "a lesser golden earring"
+  value: 15000
+
+  requirements:
+    level: 27
