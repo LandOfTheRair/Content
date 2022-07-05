@@ -1,10 +1,331 @@
 
-- item: Antanian Fungus Bread
-  name: Fungus Bread Weave
-  category: Basic
-  skillGained: 2
-  maxSkillForGains: 2
-  xpGained: 100
+# tier 1 crafts
+- item: Careful Gloves
+  name: Careful Gloves
+  category: Custom Crafts
+  skillGained: 3
+  maxSkillForGains: 12
+  requireSkill: 8
+  xpGained: 5000
   ingredients:
-    - Antanian Bottle of Water
-    - Antanian Slice of Bread
+    - Antanian Leather Gloves
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 4
+    - filter: String - Fabric
+      display: String - Fabric
+      ounces: 2
+
+- item: Big Sash
+  name: Big Sash
+  category: Custom Crafts
+  skillGained: 3
+  maxSkillForGains: 14
+  requireSkill: 10
+  xpGained: 5000
+  ingredients:
+    - Antanian Sash
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 3
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 4
+    - filter: String - Fabric
+      display: String - Fabric
+      ounces: 2
+
+- item: Stealth Boots
+  name: Stealth Boots
+  category: Custom Crafts
+  skillGained: 3
+  maxSkillForGains: 15
+  requireSkill: 11
+  xpGained: 5000
+  ingredients:
+    - Antanian Leather Boots
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 2
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 2
+    - filter: String - Fabric
+      display: String - Fabric
+      ounces: 2
+
+- item: Insulatory Robe I
+  name: Insulatory Robe (Lesser)
+  category: Custom Crafts
+  skillGained: 3
+  maxSkillForGains: 14
+  requireSkill: 10
+  xpGained: 5000
+  ingredients:
+    - Antanian Leather Cloak
+    - Weak BarFire Potion
+    - Weak BarFrost Potion
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 4
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 6
+
+- item: Necrotic Robe I
+  name: Necrotic Robe (Lesser)
+  category: Custom Crafts
+  skillGained: 3
+  maxSkillForGains: 15
+  requireSkill: 11
+  xpGained: 5000
+  ingredients:
+    - Antanian Leather Cloak
+    - Weak BarNecro Potion
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 4
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 8
+
+# tier 1.5 crafts
+- item: Etherscale Tunic
+  name: Etherscale Tunic
+  category: Custom Crafts
+  skillGained: 5
+  maxSkillForGains: 15
+  requireSkill: 11
+  xpGained: 25000
+  ingredients:
+    - Antanian Tunic
+    - Ether Scale
+    - Weak BarFire Potion
+    - Weak BarFrost Potion
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 6
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 2
+
+# tier 2 crafts
+- item: Gripping Gloves
+  name: Gripping Gloves
+  category: Custom Crafts
+  skillGained: 3
+  maxSkillForGains: 15
+  requireSkill: 11
+  xpGained: 5000
+  ingredients:
+    - Antanian Leather Gloves
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 4
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 4
+
+- item: Digestion Sash
+  name: Digestion Sash
+  category: Custom Crafts
+  skillGained: 3
+  maxSkillForGains: 17
+  requireSkill: 13
+  xpGained: 5000
+  ingredients:
+    - Antanian Sash
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 3
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 8
+    - filter: String - Fabric
+      display: String - Fabric
+      ounces: 2
+
+- item: Dancing Boots
+  name: Dancing Boots
+  category: Custom Crafts
+  skillGained: 3
+  maxSkillForGains: 18
+  requireSkill: 14
+  xpGained: 5000
+  ingredients:
+    - Antanian Leather Boots
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 2
+    - filter: String - Fabric
+      display: String - Fabric
+      ounces: 2
+
+- item: Insulatory Robe II
+  name: Insulatory Robe (Minor)
+  category: Custom Crafts
+  skillGained: 3
+  maxSkillForGains: 17
+  requireSkill: 13
+  xpGained: 5000
+  ingredients:
+    - Antanian Leather Cloak
+    - Medium BarFrost Potion
+    - Medium BarFire Potion
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 4
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 6
+
+- item: Necrotic Robe II
+  name: Necrotic Robe (Minor)
+  category: Custom Crafts
+  skillGained: 3
+  maxSkillForGains: 18
+  requireSkill: 14
+  xpGained: 5000
+  ingredients:
+    - Antanian Leather Cloak
+    - Medium BarNecro Potion
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 2
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 8
+
+# tier 2.5 crafts
+- item: Silverscale Tunic
+  name: Silverscale Tunic
+  category: Custom Crafts
+  skillGained: 5
+  maxSkillForGains: 19
+  requireSkill: 15
+  xpGained: 35000
+  ingredients:
+    - Antanian Tunic
+    - Silver Scale
+    - Medium BarFire Potion
+    - Medium BarFrost Potion
+    - Medium BarNecro Potion
+    - Risan White Pearl
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 10
+    - filter: String - Fabric
+      display: String - Fabric
+      ounces: 2
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 2
+
+# tier 3 crafts
+- item: Mending Gloves
+  name: Mending Gloves
+  category: Custom Crafts
+  skillGained: 3
+  maxSkillForGains: 18
+  requireSkill: 14
+  xpGained: 5000
+  ingredients:
+    - Antanian Leather Gloves
+    - Risan White Pearl
+    - Risan White Pearl
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 12
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 4
+
+- item: Recombobulative Sash
+  name: Recombobulative Sash
+  category: Custom Crafts
+  skillGained: 3
+  maxSkillForGains: 20
+  requireSkill: 16
+  xpGained: 5000
+  ingredients:
+    - Antanian Sash
+    - Risan Purple Gem
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 3
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 8
+    - filter: String - Fabric
+      display: String - Fabric
+      ounces: 2
+
+- item: Resistant Boots
+  name: Resistant Boots
+  category: Custom Crafts
+  skillGained: 3
+  maxSkillForGains: 21
+  requireSkill: 17
+  xpGained: 5000
+  ingredients:
+    - Antanian Leather Boots
+    - Risan Polished Ruby
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 2
+    - filter: String - Fabric
+      display: String - Fabric
+      ounces: 2
+
+- item: Insulatory Robe III
+  name: Insulatory Robe (Basic)
+  category: Custom Crafts
+  skillGained: 3
+  maxSkillForGains: 20
+  requireSkill: 16
+  xpGained: 5000
+  ingredients:
+    - Antanian Leather Cloak
+    - Risan Ice Prot Crystal
+    - Risan Fire Prot Crystal
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 4
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 6
+
+- item: Necrotic Robe III
+  name: Necrotic Robe (Basic)
+  category: Custom Crafts
+  skillGained: 3
+  maxSkillForGains: 21
+  requireSkill: 17
+  xpGained: 5000
+  ingredients:
+    - Antanian Leather Cloak
+    - Risan Necrotic Prot Crystal
+    - Risan Energy Prot Crystal
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 2
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 8

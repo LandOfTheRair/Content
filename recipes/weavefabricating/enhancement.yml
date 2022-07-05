@@ -1,38 +1,201 @@
 
-# === Enhancements ===
+- item: Antanian Leather Boots (Stitched)
+  name: Stitched Leather Boots
+  category: Upgrades
+  skillGained: 3
+  maxSkillForGains: 2
+  requireSkill: 0
+  xpGained: 1000
+  transferOwnerFrom: Antanian Leather Boots
+  ingredients:
+    - Antanian Leather Boots
+  ozIngredients:
+    - filter: String - Fabric
+      display: String - Fabric
+      ounces: 2
 
-# Antanian Leather Boots (Stitched)
-# Yzalt Combat Boots (Stitched)
-# Werebear Claws (Stitched)
-# Antanian Leather Gloves (Stitched)
-# Antanian Cloak (Stitched)
-# Yzalt Fungus Cloak (Stitched)
-# Risan Cloak (Stitched)
-# Antanian Tunic (Stitched)
-# Antanian Sash (Stitched)
-# Tonwin Sash (Stitched)
-# Cave Apprentice Robe (Trimmed)
-# Yzalt Straw Robe (Trimmed)
+- item: Antanian Sash (Stitched)
+  name: Stitched Sash
+  category: Upgrades
+  skillGained: 3
+  maxSkillForGains: 3
+  requireSkill: 1
+  xpGained: 1000
+  transferOwnerFrom: Antanian Sash
+  ingredients:
+    - Antanian Sash
+  ozIngredients:
+    - filter: String - Fabric
+      display: String - Fabric
+      ounces: 4
 
-# === Customs ===
-# Etherscale Tunic
-# Silverscale Tunic
+- item: Antanian Leather Gloves (Stitched)
+  name: Stitched Leather Gloves
+  category: Upgrades
+  skillGained: 3
+  maxSkillForGains: 4
+  requireSkill: 2
+  xpGained: 1000
+  transferOwnerFrom: Antanian Leather Gloves
+  ingredients:
+    - Antanian Leather Gloves
+  ozIngredients:
+    - filter: String - Fabric
+      display: String - Fabric
+      ounces: 2
 
-# Careful Gloves
-# Gripping Gloves
-# Mending Gloves
+- item: Antanian Tunic (Stitched)
+  name: Stitched Tunic
+  category: Upgrades
+  skillGained: 3
+  maxSkillForGains: 5
+  requireSkill: 3
+  xpGained: 1000
+  transferOwnerFrom: Antanian Tunic
+  ingredients:
+    - Antanian Tunic
+  ozIngredients:
+    - filter: String - Fabric
+      display: String - Fabric
+      ounces: 8
 
-# Big Sash
-# Digestion Sash
-# Recombobulative Sash
+- item: Antanian Cloak (Stitched)
+  name: Stitched Cloak
+  category: Upgrades
+  skillGained: 3
+  maxSkillForGains: 6
+  requireSkill: 4
+  xpGained: 1000
+  transferOwnerFrom: Antanian Cloak
+  ingredients:
+    - Antanian Cloak
+  ozIngredients:
+    - filter: String - Fabric
+      display: String - Fabric
+      ounces: 6
 
-# Stealth Boots
-# Dancing Boots
-# Resistant Boots
+- item: Werebear Claws (Stitched)
+  name: Stitched Werebear Claws
+  category: Upgrades
+  skillGained: 3
+  maxSkillForGains: 7
+  requireSkill: 5
+  xpGained: 10000
+  transferOwnerFrom: Werebear Claws
+  ingredients:
+    - Werebear Claws
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 1
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 6
 
-# Insulatory Robe I
-# Necrotic Robe I
-# Insulatory Robe II
-# Necrotic Robe II
-# Insulatory Robe III 
-# Necrotic Robe III 
+- item: Cave Apprentice Robe (Trimmed)
+  name: Trimmed Cave Apprentice Robe
+  category: Upgrades
+  skillGained: 3
+  maxSkillForGains: 8
+  requireSkill: 6
+  xpGained: 10000
+  transferOwnerFrom: Cave Apprentice Robe
+  ingredients:
+    - Cave Apprentice Robe
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 3
+
+- item: Tonwin Sash (Stitched)
+  name: Stitched Tonwin Sash
+  category: Upgrades
+  skillGained: 3
+  maxSkillForGains: 9
+  requireSkill: 7
+  xpGained: 10000
+  transferOwnerFrom: Tonwin Sash
+  ingredients:
+    - Tonwin Sash
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 3
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 2
+
+- item: Yzalt Combat Boots (Stitched)
+  name: Stitched Yzalt Combat Boots
+  category: Upgrades
+  skillGained: 3
+  maxSkillForGains: 10
+  requireSkill: 8
+  xpGained: 5000
+  transferOwnerFrom: Yzalt Combat Boots
+  ingredients:
+    - Yzalt Combat Boots
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 1
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 4
+
+- item: Yzalt Straw Robe (Trimmed)
+  name: Trimmed Yzalt Straw Robe
+  category: Upgrades
+  skillGained: 3
+  maxSkillForGains: 11
+  requireSkill: 9
+  xpGained: 5000
+  transferOwnerFrom: Yzalt Straw Robe
+  ingredients:
+    - Yzalt Straw Robe
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 1
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 2
+
+- item: Yzalt Fungus Cloak (Stitched)
+  name: Stitched Yzalt Fungus Cloak
+  category: Upgrades
+  skillGained: 3
+  maxSkillForGains: 12
+  requireSkill: 10
+  xpGained: 5000
+  transferOwnerFrom: Yzalt Fungus Cloak
+  ingredients:
+    - Yzalt Fungus Cloak
+  ozIngredients:
+    - filter: String - Spell
+      display: String - Spell
+      ounces: 1
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 1
+    - filter: String - Fabric
+      display: String - Fabric
+      ounces: 6
+
+- item: Risan Cloak (Stitched)
+  name: Stitched Risan Cloak
+  category: Upgrades
+  skillGained: 3
+  maxSkillForGains: 13
+  requireSkill: 11
+  xpGained: 5000
+  transferOwnerFrom: Yzalt Risan Cloak
+  ingredients:
+    - Risan Cloak
+  ozIngredients:
+    - filter: String - Fiber
+      display: String - Fiber
+      ounces: 2
+    - filter: String - Fabric
+      display: String - Fabric
+      ounces: 8

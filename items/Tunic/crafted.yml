@@ -10,6 +10,8 @@
 - name: Etherscale Tunic
   sprite: 383
   stats:
+    defense: 3
+    hpregen: 15
     armorClass: 20
     fireResist: 75
     iceResist: 75
@@ -23,13 +25,14 @@
 - name: Silverscale Tunic
   sprite: 13
   stats:
-    defense: 3
-    armorClass: 30
+    defense: 6
+    hpregen: 25
+    armorClass: 25
     fireResist: 200
     iceResist: 200
     energyResist: 250
     necroticResist: 250
-  desc: "a silver scale tunic stitched together with refined ether and threads"
+  desc: "a pulsating silver scale tunic stitched together with refined ether and threads"
   maxUpgrades: 1
   value: 5000
 
