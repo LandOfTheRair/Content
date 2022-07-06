@@ -70,11 +70,28 @@
     name: Nourishment
     potency: 1
     extra:
-      tooltip: "+1 INT, +1 STR"
+      tooltip: "+1 INT, +1 STR, +1 WIL"
       message: "The bread is unappealing, but filling!"
       statChanges:
         str: 1
         int: 1
+        wil: 1
+    duration: 42200
+
+- name: Apple Bread
+  sprite: 610
+  desc: "a slice of bread encrusted with apple chunks"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "HP Regen +5, Energy Damage +5%"
+      message: "The bread is filling!"
+      statChanges: 
+        hpregen: 5
+        energyBoostPercent: 5
     duration: 42200
 
 - name: Nut-grain Bread
@@ -86,9 +103,75 @@
     name: Nourishment
     potency: 1
     extra:
-      tooltip: ""
+      tooltip: "HP Regen +5, Armor Class +5"
       message: "The bread is filling!"
       statChanges: 
+        hpregen: 5
+        armorClass: 5
+    duration: 42200
+
+- name: Clover Bread
+  sprite: 610
+  desc: "a slice of bread with clover paste on it"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "HP Regen +5, Poison Damage +5%"
+      message: "The bread is filling!"
+      statChanges: 
+        hpregen: 5
+        poisonDamageBoostPercent: 5
+    duration: 42200
+
+- name: Cherry Bread
+  sprite: 610
+  desc: "a slice of bread with cherries baked into it"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "HP Regen +5, Ice Damage +5%"
+      message: "The bread is filling!"
+      statChanges: 
+        hpregen: 5
+        iceDamageBoostPercent: 5
+    duration: 42200
+
+- name: Mushroom Bread
+  sprite: 610
+  desc: "a slice of bread with tiny chunks of mushroom baked into it"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "HP Regen +5, Disease Damage +5%"
+      message: "The bread is filling!"
+      statChanges: 
+        hpregen: 5
+        diseaseDamageBoostPercent: 5
+    duration: 42200
+
+- name: Flower Bread
+  sprite: 610
+  desc: "a slice of bread with chunks of flower in it"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "HP Regen +5, Healing +5%"
+      message: "The bread is filling!"
+      statChanges: 
+        hpregen: 5
+        healingBoostPercent: 5
     duration: 42200
 
 - name: Herb Bread
@@ -100,9 +183,11 @@
     name: Nourishment
     potency: 1
     extra:
-      tooltip: ""
+      tooltip: "HP Regen +5, Physical Damage +5%"
       message: "The bread is filling!"
       statChanges: 
+        hpregen: 5
+        physicalDamageBoostPercent: 5
     duration: 42200
 
 - name: Spicy Bread
@@ -114,9 +199,27 @@
     name: Nourishment
     potency: 1
     extra:
-      tooltip: ""
+      tooltip: "HP Regen +5, Fire Damage +5%"
       message: "The bread is filling!"
       statChanges: 
+        hpregen: 5
+        fireDamageBoostPercent: 5
+    duration: 42200
+
+- name: Bitter Bread
+  sprite: 610
+  desc: "a slice of bread made with bitter roots"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "HP Regen +5, Perception +5"
+      message: "The bread is filling!"
+      statChanges: 
+        hpregen: 5
+        perception: 5
     duration: 42200
 
 - name: Apple-smoked Bear Meat
@@ -128,9 +231,29 @@
     name: Nourishment
     potency: 1
     extra:
-      tooltip: ""
-      message: "The meat is delicious!"
+      tooltip: "+1 STR, +1 INT, +10% XP"
+      message: "The meat is sweet and delicious!"
       statChanges:
+        str: 1
+        int: 1
+        xpBonusPercent: 0.1
+    duration: 42200
+
+- name: Herb-roasted Bear Meat
+  sprite: 561
+  desc: "a fragrant slab of meat that smells like fresh herbs"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "+1 STR, +1 INT, +10% Skill"
+      message: "The meat is savory and delicious!"
+      statChanges:
+        str: 1
+        int: 1
+        skillBonusPercent: 0.1
     duration: 42200
 
 - name: Bear Meat Soup
@@ -142,9 +265,13 @@
     name: Nourishment
     potency: 1
     extra:
-      tooltip: ""
+      tooltip: "+1 STR, +3 Offense, +10% Threat"
       message: "The soup is delicious!"
       statChanges:
+        str: 1
+        offense: 3
+        threatMultiplier: 0.1
+
     duration: 42200
 
 - name: Rotting Grub Soup
