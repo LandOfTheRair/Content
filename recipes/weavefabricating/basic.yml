@@ -16,6 +16,9 @@
     - filter: String - Fabric
       display: String - Fabric
       ounces: 2
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 - item: Big Sash
   name: Big Sash
@@ -36,6 +39,9 @@
     - filter: String - Fabric
       display: String - Fabric
       ounces: 2
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 - item: Stealth Boots
   name: Stealth Boots
@@ -56,6 +62,9 @@
     - filter: String - Fabric
       display: String - Fabric
       ounces: 2
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 - item: Insulatory Robe I
   name: Insulatory Robe (Lesser)
@@ -75,6 +84,9 @@
     - filter: String - Fiber
       display: String - Fiber
       ounces: 6
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 - item: Necrotic Robe I
   name: Necrotic Robe (Lesser)
@@ -93,6 +105,9 @@
     - filter: String - Fiber
       display: String - Fiber
       ounces: 8
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 # tier 1.5 crafts
 - item: Etherscale Tunic
@@ -114,6 +129,9 @@
     - filter: String - Fiber
       display: String - Fiber
       ounces: 2
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 # tier 2 crafts
 - item: Gripping Gloves
@@ -132,6 +150,9 @@
     - filter: String - Fiber
       display: String - Fiber
       ounces: 4
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 - item: Digestion Sash
   name: Digestion Sash
@@ -152,6 +173,9 @@
     - filter: String - Fabric
       display: String - Fabric
       ounces: 2
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 - item: Dancing Boots
   name: Dancing Boots
@@ -169,6 +193,9 @@
     - filter: String - Fabric
       display: String - Fabric
       ounces: 2
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 - item: Insulatory Robe II
   name: Insulatory Robe (Minor)
@@ -188,6 +215,9 @@
     - filter: String - Fiber
       display: String - Fiber
       ounces: 6
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 - item: Necrotic Robe II
   name: Necrotic Robe (Minor)
@@ -206,6 +236,9 @@
     - filter: String - Fiber
       display: String - Fiber
       ounces: 8
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 # tier 2.5 crafts
 - item: Silverscale Tunic
@@ -232,6 +265,9 @@
     - filter: String - Fiber
       display: String - Fiber
       ounces: 2
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 # tier 3 crafts
 - item: Mending Gloves
@@ -252,6 +288,9 @@
     - filter: String - Fiber
       display: String - Fiber
       ounces: 4
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 - item: Recombobulative Sash
   name: Recombobulative Sash
@@ -273,6 +312,9 @@
     - filter: String - Fabric
       display: String - Fabric
       ounces: 2
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 - item: Resistant Boots
   name: Resistant Boots
@@ -291,6 +333,9 @@
     - filter: String - Fabric
       display: String - Fabric
       ounces: 2
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 - item: Insulatory Robe III
   name: Insulatory Robe (Basic)
@@ -310,6 +355,9 @@
     - filter: String - Fiber
       display: String - Fiber
       ounces: 6
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1
 
 - item: Necrotic Robe III
   name: Necrotic Robe (Basic)
@@ -329,3 +377,6 @@
     - filter: String - Fiber
       display: String - Fiber
       ounces: 8
+    - filter: Dye Vial
+      display: Dye Vial
+      ounces: 1

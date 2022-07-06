@@ -87,3 +87,8 @@ WintersEmbrace:
   desc: When chilling an opponent, you have a +$10$% chance to freeze them solid instead.
   icon: frozen-orb
   valuePerTier: 10
+
+Unimbued:
+  name: Unimbued
+  desc: This trait is really just a placeholder for items that can be imbued.
+  icon: question-mark

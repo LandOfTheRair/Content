@@ -1,24 +1,4 @@
 
-- item: Antanian Fungus Bread
-  name: Fungus Bread
-  category: Basic
-  skillGained: 2
-  maxSkillForGains: 2
-  xpGained: 100
-  ingredients:
-    - Antanian Bottle of Water
-    - Antanian Slice of Bread
-
-- item: Antanian Fungus Loaf
-  name: Fungus Loaf
-  category: Basic
-  skillGained: 2
-  maxSkillForGains: 2
-  xpGained: 150
-  ingredients:
-    - Antanian Pint of Water
-    - Antanian Loaf of Bread
-
 - item: Bear Meat Antidote (10oz)
   name: Bear Meat Bottle
   category: Basic

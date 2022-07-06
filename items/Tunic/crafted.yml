@@ -8,7 +8,7 @@
   sprite: 206
 
 - name: Etherscale Tunic
-  sprite: 383
+  sprite: 271
   stats:
     defense: 3
     hpregen: 15

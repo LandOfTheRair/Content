@@ -4,6 +4,10 @@
   desc: "a basic golden earring"
   value: 1000
 
+  trait:
+    name: Unimbued
+    level: 1
+
   requirements:
     level: 9
 
@@ -12,6 +16,10 @@
   desc: "a minor golden earring"
   value: 5000
 
+  trait:
+    name: Unimbued
+    level: 2
+
   requirements:
     level: 18
 
@@ -19,6 +27,10 @@
   sprite: 900
   desc: "a lesser golden earring"
   value: 15000
+
+  trait:
+    name: Unimbued
+    level: 3
 
   requirements:
     level: 27
