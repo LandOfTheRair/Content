@@ -77,7 +77,217 @@
         int: 1
     duration: 42200
 
-- name: Dried Apple Packet
+- name: Nut-grain Bread
+  sprite: 610
+  desc: "a slice of bread encrusted with nuts"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: ""
+      message: "The bread is filling!"
+      statChanges: 
+    duration: 42200
+
+- name: Herb Bread
+  sprite: 610
+  desc: "a slice of bread baked with herbs"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: ""
+      message: "The bread is filling!"
+      statChanges: 
+    duration: 42200
+
+- name: Spicy Bread
+  sprite: 610
+  desc: "a slice of bread with chunks of pepper in it"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: ""
+      message: "The bread is filling!"
+      statChanges: 
+    duration: 42200
+
+- name: Apple-smoked Bear Meat
+  sprite: 561
+  desc: "a fragrant slab of meat that smells like apples"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: ""
+      message: "The meat is delicious!"
+      statChanges:
+    duration: 42200
+
+- name: Bear Meat Soup
+  sprite: 561
+  desc: "a hearty bowl of bear meat soup"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: ""
+      message: "The soup is delicious!"
+      statChanges:
+    duration: 42200
+
+- name: Rotting Grub Soup
+  sprite: 561
+  desc: ""
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: ""
+      message: "The soup is repulsive!"
+      statChanges:
+    duration: 42200
+
+- name: Flower Soup
+  sprite: 561
+  desc: ""
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: ""
+      message: "The soup is repulsive!"
+      statChanges:
+    duration: 42200
+
+- name: Turtle Egg Soup
+  sprite: 561
+  desc: ""
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: ""
+      message: "The soup is repulsive!"
+      statChanges:
+    duration: 42200
+
+- name: Snake Egg Soup
+  sprite: 561
+  desc: ""
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: ""
+      message: "The soup is repulsive!"
+      statChanges:
+    duration: 42200
+
+- name: Crazed Bear and Mushroom
+  sprite: 932
+  desc: ""
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: ""
+      message: "The soup is repulsive!"
+      statChanges:
+    duration: 42200
+
+- name: Crazed Wolf and Herbs
+  sprite: 933
+  desc: ""
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: ""
+      message: "The soup is repulsive!"
+      statChanges:
+    duration: 42200
+
+- name: Bitter Tongue
+  sprite: 933
+  desc: ""
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: ""
+      message: "The soup is repulsive!"
+      statChanges:
+    duration: 42200
+
+- name: Heart Soup
+  sprite: 561
+  desc: ""
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: ""
+      message: "The soup is repulsive!"
+      statChanges:
+    duration: 42200
+
+- name: Flavored Gourd
+  sprite: 115
+  desc: ""
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: ""
+      message: "The soup is repulsive!"
+      statChanges:
+    duration: 42200
+
+- name: Bile Stew
+  sprite: 561
+  desc: ""
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: ""
+      message: "The soup is repulsive!"
+      statChanges:
+    duration: 42200
+
+- name: Dried Apple Chips
   sprite: 74
   desc: "a packet of dried apples"
   value: 1
@@ -92,7 +302,7 @@
         int: 2
     duration: 42200
 
-- name: Dried Clover Packet
+- name: Dried Clover Chips
   sprite: 76
   desc: "a packet of dried clovers"
   value: 1
@@ -107,8 +317,8 @@
         hp: 100
     duration: 42200
 
-- name: Dried Mushroom Packet
-  sprite: 76
+- name: Dried Mushroom Chips
+  sprite: 78
   desc: "a packet of dried mushrooms"
   value: 1
   ounces: 1
@@ -124,7 +334,7 @@
         poisonResist: 50
     duration: 42200
 
-- name: Dried Flower Packet
+- name: Dried Flower Chips
   sprite: 79
   desc: "a packet of dried flowers"
   value: 1
@@ -139,7 +349,7 @@
         savingThrow: 10
     duration: 42200
 
-- name: Dried Weeds Packet
+- name: Dried Herb Chips
   sprite: 80
   desc: "a packet of dried weeds"
   value: 1
