@@ -60,3 +60,97 @@
         str: 1
         wil: 1
     duration: 42200
+
+- name: Apple Fungus Bread
+  sprite: 106
+  desc: "a moldy slice of apple bread"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "+1 INT, +1 STR"
+      message: "The bread is unappealing, but filling!"
+      statChanges:
+        str: 1
+        int: 1
+    duration: 42200
+
+- name: Dried Apple Packet
+  sprite: 74
+  desc: "a packet of dried apples"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "+2 INT"
+      message: "The dried apples taste phenomenal!"
+      statChanges:
+        int: 2
+    duration: 42200
+
+- name: Dried Clover Packet
+  sprite: 76
+  desc: "a packet of dried clovers"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "+100 HP"
+      message: "The dried clovers taste strange!"
+      statChanges:
+        hp: 100
+    duration: 42200
+
+- name: Dried Mushroom Packet
+  sprite: 76
+  desc: "a packet of dried mushrooms"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "+50 Disease/Poison Resist, +10% Necrotic Damage"
+      message: "The dried mushrooms taste strange!"
+      statChanges:
+        necroticBoostPercent: 10
+        diseaseResist: 50
+        poisonResist: 50
+    duration: 42200
+
+- name: Dried Flower Packet
+  sprite: 79
+  desc: "a packet of dried flowers"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "+10 Saving Throw"
+      message: "The dried flowers taste strange!"
+      statChanges:
+        savingThrow: 10
+    duration: 42200
+
+- name: Dried Weeds Packet
+  sprite: 80
+  desc: "a packet of dried weeds"
+  value: 1
+  ounces: 1
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "+5 Offense/Defense"
+      message: "The dried weeds taste bitter!"
+      statChanges:
+        offense: 5
+        defense: 5
+    duration: 42200
