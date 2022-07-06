@@ -16,8 +16,6 @@
   maxUpgrades: 1
   sprite: 475
   desc: "a sash with the image of a sword sewn into it"
-  binds: true
-  tellsBind: true
   value: 3500
 
   requirements:
@@ -28,7 +26,6 @@
   maxUpgrades: 1
   sprite: 396
   desc: "a loincloth that allows for some extra storage space"
-  binds: true
   value: 6554
 
   trait:
@@ -43,7 +40,6 @@
   maxUpgrades: 1
   sprite: 869
   desc: "a naturally-made sash that constricts the blood flow of the wearer"
-  binds: true
   value: 12344
 
   trait:
@@ -58,7 +54,6 @@
   maxUpgrades: 1
   sprite: 474
   desc: "a glowing sash that pulses with energy"
-  binds: true
   value: 22344
 
   trait:
