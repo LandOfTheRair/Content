@@ -1,0 +1,85 @@
+
+
+- name: Apple Juice
+  sprite: 111
+  desc: "a bottle of freshly-squeezed apple juice"
+  value: 50
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "+3 HP Regen"
+      message: "The bread is delicious!"
+      statChanges:
+        hpregen: 3
+    duration: 21600
+
+- name: Green Drink
+  sprite: 33
+  desc: "a fizzy bottle of freshly-squeezed herbs and nutrients"
+  value: 50
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "+3 HP Regen"
+      message: "The bread is delicious!"
+      statChanges:
+        hpregen: 3
+    duration: 21600
+
+- name: Protein Drink
+  sprite: 33
+  desc: "an odorous bottle that smells like raw protein"
+  value: 50
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "+3 HP Regen"
+      message: "The bread is delicious!"
+      statChanges:
+        hpregen: 3
+    duration: 21600
+
+- name: Acorn Milk
+  sprite: 214
+  desc: "an odorous bottle that smells like raw protein"
+  value: 50
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "+3 HP Regen"
+      message: "The bread is delicious!"
+      statChanges:
+        hpregen: 3
+    duration: 21600
+
+- name: Frosted Drink
+  sprite: 378
+  desc: "an odorous bottle that smells like raw protein"
+  value: 50
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "+3 HP Regen"
+      message: "The bread is delicious!"
+      statChanges:
+        hpregen: 3
+    duration: 21600
+
+- name: Hot and Spicy Drink
+  sprite: 377
+  desc: "an odorous bottle that smells like raw protein"
+  value: 50
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "+3 HP Regen"
+      message: "The bread is delicious!"
+      statChanges:
+        hpregen: 3
+    duration: 21600

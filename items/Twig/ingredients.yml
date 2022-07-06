@@ -1,0 +1,54 @@
+
+- name: Dried Apple Packet
+  sprite: 74
+  ounces: 1
+  desc: "a packet of dried apples"
+  value: 5000
+  
+- name: Dried Acorn Packet
+  sprite: 75
+  ounces: 1
+  desc: "a packet of dried acorn nuts"
+  value: 5000
+  
+- name: Dried Clover Packet
+  sprite: 76
+  ounces: 1
+  desc: "a packet of dried clovers"
+  value: 5000
+  
+- name: Dried Cherry Packet
+  sprite: 77
+  ounces: 1
+  desc: "a packet of dried cherries"
+  value: 5000
+
+- name: Dried Mushroom Packet
+  sprite: 78
+  ounces: 1
+  desc: "a packet of dried mushrooms"
+  value: 5000
+  
+- name: Dried Flower Packet
+  sprite: 79
+  ounces: 1
+  desc: "a packet of aromatic flowers"
+  value: 5000
+  
+- name: Dried Herbs Packet
+  sprite: 80
+  ounces: 1
+  desc: "a packet of savory herbs"
+  value: 5000
+  
+- name: Dried Pepper Packet
+  sprite: 81
+  ounces: 1
+  desc: "a packet of dried peppers"
+  value: 5000
+  
+- name: Dried Bitterroot Packet
+  sprite: 82
+  ounces: 1
+  desc: "a packet of dried bitterroots"
+  value: 5000

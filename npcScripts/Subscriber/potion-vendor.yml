@@ -34,6 +34,7 @@ behaviors:
       - item: Dye Vial
       - item: Dye Vial (15oz)
       - item: Dye Vial (50oz)
+      - item: String - Fabric
       - item: Antanian Slice of Bread
       - item: Antanian Loaf of Bread
       - item: Antanian Bottle of Water

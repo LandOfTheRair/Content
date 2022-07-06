@@ -1,24 +1,4 @@
-- name: Steffen LostChild Doll
-  sprite: 354
-  desc: "a small childrens doll"
-  value: 0
-  binds: true
-  destroyOnDrop: true
 
-- name: Renegade Feather
-  sprite: 116
-  desc: "a pink feather taken from a renegade"
-  sellValue: 500
-  value: 1
-  binds: true
-  requirements:
-    quest: RenegadeFeathers
-
-- name: Thanksgiving Turkey Feather
-  sprite: 553
-  desc: "a fan of fine feathers plucked from a turkey"
-  sellValue: 500
-  value: 1
 
 - name: Antanian Twig
   sprite: 222
