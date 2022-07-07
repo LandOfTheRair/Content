@@ -97,8 +97,8 @@
     name: Nourishment
     potency: 1
     extra:
-      tooltip: "+2 INT"
+      tooltip: "+2 WIS"
       message: "The egg contents are delicious!"
       statChanges:
-        int: 2
+        wis: 2
     duration: 10800

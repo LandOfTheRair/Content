@@ -276,30 +276,36 @@
 
 - name: Rotting Grub Soup
   sprite: 561
-  desc: ""
+  desc: "a repulsive soup made of grubs and herbs"
   value: 1
   ounces: 1
   useEffect:
     name: Nourishment
     potency: 1
     extra:
-      tooltip: ""
+      tooltip: "Poison Resist +200, Disease Resist +100, WIL +1, Saving Throw +5"
       message: "The soup is repulsive!"
       statChanges:
+        poisonResist: 200
+        diseaseResist: 100
+        wil: 1
+        savingThrow: 5
     duration: 42200
 
 - name: Flower Soup
   sprite: 561
-  desc: ""
+  desc: "an aromatic, flowery soup"
   value: 1
   ounces: 1
   useEffect:
     name: Nourishment
     potency: 1
     extra:
-      tooltip: ""
+      tooltip: "Magical Reflect +100, Physical Reflect +100"
       message: "The soup is repulsive!"
       statChanges:
+        physicalDamageReflect: 100
+        magicalDamageReflect: 100
     duration: 42200
 
 - name: Turtle Egg Soup
@@ -311,93 +317,135 @@
     name: Nourishment
     potency: 1
     extra:
-      tooltip: ""
-      message: "The soup is repulsive!"
+      tooltip: "All Stats +1, All Skills +1"
+      message: "The soup is astonishing!"
       statChanges:
+        str: 1
+        dex: 1
+        agi: 1
+        int: 1
+        wil: 1
+        wis: 1
+        con: 1
+        luk: 1
+        cha: 1
+        maceBonus: 1
+        axeBonus: 1
+        daggerBonus: 1
+        swordBonus: 1
+        shortswordBonus: 1
+        polearmBonus: 1
+        wandBonus: 1
+        staffBonus: 1
+        martialBonus: 1
+        rangedBonus: 1
+        throwingBonus: 1
+        twohandedBonus: 1
+        thieveryBonus: 1
+        conjurationBonus: 1
+        restorationBonus: 1
     duration: 42200
 
 - name: Snake Egg Soup
   sprite: 561
-  desc: ""
+  desc: "a magically aromatic soup"
   value: 1
   ounces: 1
   useEffect:
     name: Nourishment
     potency: 1
     extra:
-      tooltip: ""
-      message: "The soup is repulsive!"
+      tooltip: "WIS/INT +2, Magical Damage +5%"
+      message: "The soup is tangy and delicious!"
       statChanges:
+        int: 2
+        wis: 2
+        magicalDamageBoostPercent: 5
+
     duration: 42200
 
 - name: Crazed Bear and Mushroom
   sprite: 932
-  desc: ""
+  desc: "a meaty stew with mushrooms floating in it"
   value: 1
   ounces: 1
   useEffect:
     name: Nourishment
     potency: 1
     extra:
-      tooltip: ""
-      message: "The soup is repulsive!"
+      tooltip: "STR +2, Physical Damage +5%"
+      message: "The soup is hearty and delicious!"
       statChanges:
+        str: 2
+        physicalDamageBoostPercent: 5
     duration: 42200
 
 - name: Crazed Wolf and Herbs
   sprite: 933
-  desc: ""
+  desc: "a meaty stew with herbs floating in it"
   value: 1
   ounces: 1
   useEffect:
     name: Nourishment
     potency: 1
     extra:
-      tooltip: ""
-      message: "The soup is repulsive!"
+      tooltip: "HP +200, HP Regen +20"
+      message: "The soup is hearty and delicious!"
       statChanges:
+        hpregen: 20
+        hp: 200
     duration: 42200
 
 - name: Bitter Tongue
   sprite: 933
-  desc: ""
+  desc: "a bitter-looking soup with a tongue floating in it"
   value: 1
   ounces: 1
   useEffect:
     name: Nourishment
     potency: 1
     extra:
-      tooltip: ""
+      tooltip: "HP Regen +35, MP Regen +35"
       message: "The soup is repulsive!"
       statChanges:
+        hpregen: 35
+        mpregen: 35
     duration: 42200
 
 - name: Heart Soup
   sprite: 561
-  desc: ""
+  desc: "a bowl with more heart in it than soup"
   value: 1
   ounces: 1
   useEffect:
     name: Nourishment
     potency: 1
     extra:
-      tooltip: ""
-      message: "The soup is repulsive!"
+      tooltip: "Perception +35, Stealth +15"
+      message: "The soup is hearty!"
       statChanges:
+        perception: 35
+        stealth: 15
     duration: 42200
 
 - name: Flavored Gourd
   sprite: 115
-  desc: ""
+  desc: "a gourd flavored with fruits and flowers"
   value: 1
   ounces: 1
   useEffect:
     name: Nourishment
     potency: 1
     extra:
-      tooltip: ""
+      tooltip: "HP/MP +100, HP/MP Regen +10, Magical/Physical Resist +30"
       message: "The soup is repulsive!"
       statChanges:
+        hp: 100
+        mp: 100
+        hpregen: 10
+        mpregen: 10
+        physicalResist: 30
+        magicalResist: 30
     duration: 42200
 
 - name: Bile Stew
@@ -409,9 +457,14 @@
     name: Nourishment
     potency: 1
     extra:
-      tooltip: ""
+      tooltip: "WIL/CON +3, Necrotic Resist +300, Poison Resist +150, Disease Resist +125"
       message: "The soup is repulsive!"
       statChanges:
+        wil: 3
+        con: 3
+        necroticResist: 300
+        poisonResist: 150
+        diseaseResist: 125
     duration: 42200
 
 - name: Dried Apple Chips
