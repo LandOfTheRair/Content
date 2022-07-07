@@ -2,7 +2,7 @@
 
 - name: Apple Juice
   sprite: 111
-  desc: "a bottle of freshly-squeezed apple juice"
+  desc: "a bottle of freshly-made apple juice"
   value: 50
   useEffect:
     name: Nourishment
@@ -12,6 +12,20 @@
       message: "The juice is delicious and sweet!"
       statChanges:
         spellCriticalPercent: 5
+    duration: 21600
+
+- name: Cherry Juice
+  sprite: 111
+  desc: "a bottle of freshly-made cherry juice"
+  value: 50
+  useEffect:
+    name: Nourishment
+    potency: 1
+    extra:
+      tooltip: "Spell Reflect +10%"
+      message: "The juice is delicious and sweet!"
+      statChanges:
+        spellReflectChance: 5
     duration: 21600
 
 - name: Green Drink
