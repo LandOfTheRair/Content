@@ -16,6 +16,7 @@ Afflict:
     willSavePercent: 50
     bonusRollsMin: 1
     bonusRollsMax: 3
+    potencyMultiplier: 0.2
     skillMultiplierChanges:
       - [0,  1]
       - [6,  3]
@@ -57,6 +58,7 @@ MagicMissile:
     willSavePercent: 50
     bonusRollsMin: 1
     bonusRollsMax: 3
+    potencyMultiplier: 0.2
     skillMultiplierChanges:
       - [0,  1]
       - [6,  1.75]
@@ -97,7 +99,7 @@ MagicBolt:
     damageClass: energy
     mpCost: 20
     maxSkillForGain: 40
-    potencyMultiplier: 2
+    potencyMultiplier: 0.25
     willSaveThreshold: 25
     willSavePercent: 30
     bonusRollsMin: 3
@@ -141,7 +143,7 @@ Combust:
     damageClass: fire
     mpCost: 10
     maxSkillForGain: 40
-    potencyMultiplier: 2
+    potencyMultiplier: 0.22
     willSaveThreshold: 25
     willSavePercent: 50
     bonusRollsMin: 2
@@ -183,7 +185,7 @@ Hail:
     damageClass: ice
     mpCost: 10
     maxSkillForGain: 40
-    potencyMultiplier: 1.5
+    potencyMultiplier: 0.2
     willSaveThreshold: 25
     willSavePercent: 50
     bonusRollsMin: 3
@@ -225,7 +227,7 @@ HolyFire:
     damageClass: fire
     mpCost: 25
     maxSkillForGain: 40
-    potencyMultiplier: 1.5
+    potencyMultiplier: 0.15
     willSaveThreshold: 25
     willSavePercent: 30
     bonusRollsMin: 1
@@ -273,6 +275,7 @@ EnergyWave:
     maxSkillForGain: 20
     willSaveThreshold: 20
     willSavePercent: 50
+    potencyMultiplier: 0.1
     bonusRollsMin: 1
     bonusRollsMax: 3
     skillMultiplierChanges:
@@ -317,7 +320,7 @@ Antipode:
     damageClass: energy
     mpCost: 25
     maxSkillForGain: 40
-    potencyMultiplier: 0.8
+    potencyMultiplier: 0.3
     willSaveThreshold: 25
     willSavePercent: 30
     bonusRollsMin: 0
@@ -353,7 +356,7 @@ IceMist:
     damageClass: ice
     mpCost: 25
     maxSkillForGain: 40
-    potencyMultiplier: 1
+    potencyMultiplier: 0.1
     willSaveThreshold: 25
     willSavePercent: 30
     bonusRollsMin: 1
@@ -400,7 +403,7 @@ FireMist:
     damageClass: fire
     mpCost: 25
     maxSkillForGain: 40
-    potencyMultiplier: 1.5
+    potencyMultiplier: 0.15
     willSaveThreshold: 25
     willSavePercent: 30
     bonusRollsMin: 2
@@ -447,7 +450,7 @@ Drain:
     damageClass: energy
     mpCost: 10
     maxSkillForGain: 30
-    potencyMultiplier: 1
+    potencyMultiplier: 0.3
     willSaveThreshold: 25
     willSavePercent: 30
     bonusRollsMin: 0
@@ -480,7 +483,7 @@ Asper:
     damageClass: energy
     mpCost: 10
     maxSkillForGain: 30
-    potencyMultiplier: 2
+    potencyMultiplier: 1
     willSaveThreshold: 25
     willSavePercent: 30
     bonusRollsMin: 0
