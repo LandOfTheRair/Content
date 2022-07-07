@@ -223,7 +223,7 @@
     duration: 42200
 
 - name: Apple-smoked Bear Meat
-  sprite: 561
+  sprite: 932
   desc: "a fragrant slab of meat that smells like apples"
   value: 1
   ounces: 1
@@ -240,7 +240,7 @@
     duration: 42200
 
 - name: Herb-roasted Bear Meat
-  sprite: 561
+  sprite: 932
   desc: "a fragrant slab of meat that smells like fresh herbs"
   value: 1
   ounces: 1
@@ -397,7 +397,7 @@
     duration: 42200
 
 - name: Bitter Tongue
-  sprite: 933
+  sprite: 928
   desc: "a bitter-looking soup with a tongue floating in it"
   value: 1
   ounces: 1

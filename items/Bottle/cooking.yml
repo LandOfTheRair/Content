@@ -44,7 +44,7 @@
     duration: 21600
 
 - name: Protein Drink
-  sprite: 33
+  sprite: 31
   desc: "an odorous bottle that smells like raw protein"
   value: 50
   useEffect:
