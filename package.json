@@ -66,6 +66,6 @@
   "devDependencies": {
     "concurrently": "^6.0.0",
     "download-github-repo": "^0.1.4",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.20"
   }
 }
