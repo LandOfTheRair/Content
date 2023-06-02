@@ -1,0 +1,17 @@
+
+.item {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+
+  .name {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+
+  .actions {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

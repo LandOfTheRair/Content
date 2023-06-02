@@ -1,0 +1,7 @@
+{
+  "name": "content-creator",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
