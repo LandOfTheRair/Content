@@ -4430,15 +4430,17 @@
                  "gid":1779,
                  "height":64,
                  "id":1574,
-                 "name":"",
+                 "name":"Depths Stairs",
                  "properties":
                     {
+                     "requireTester":true,
                      "teleportMap":"DepthsOfMadness",
                      "teleportX":62,
                      "teleportY":24
                     },
                  "propertytypes":
                     {
+                     "requireTester":"bool",
                      "teleportMap":"string",
                      "teleportX":"int",
                      "teleportY":"int"
