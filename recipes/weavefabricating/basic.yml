@@ -1,4 +1,3 @@
-
 # tier 1 crafts
 - item: Careful Gloves
   name: Careful Gloves
@@ -251,9 +250,9 @@
   ingredients:
     - Antanian Tunic
     - Silver Scale
-    - Medium BarFire Potion
-    - Medium BarFrost Potion
-    - Medium BarNecro Potion
+    - Medium BarFire Potion (10oz)
+    - Medium BarFrost Potion (10oz)
+    - Medium BarNecro Potion (10oz)
     - Risan White Pearl
   ozIngredients:
     - filter: String - Spell
