@@ -1,4 +1,3 @@
-
 - npcId: Healer Summon Nature Spirit
   name: nature spirit
   baseClass: Healer
@@ -12,7 +11,7 @@
     wis: 0.25
 
   summonSkillModifiers:
-    restoration: 0.3
+    Restoration: 0.3
 
   noCorpseDrop: true
 
@@ -22,7 +21,7 @@
     - Plague
     - Disease
     - Blind
-    
+
   cr: 0
 
   gold:
@@ -54,7 +53,7 @@
     wis: 0.25
 
   summonSkillModifiers:
-    restoration: 0.25
+    Restoration: 0.25
 
   noCorpseDrop: true
 
@@ -63,7 +62,7 @@
     - Regen
     - Vision
     - Antidote
-    
+
   cr: 0
 
   gold:
@@ -95,7 +94,7 @@
     wis: 0.25
 
   summonSkillModifiers:
-    restoration: 0.3
+    Restoration: 0.3
 
   noCorpseDrop: true
 
@@ -107,7 +106,7 @@
     - TrueSight
     - Protection
     - Absorption
-    
+
   cr: 0
 
   gold:
