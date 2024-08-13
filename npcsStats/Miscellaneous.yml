@@ -10,7 +10,7 @@
     - name: Unshakeable
     - name: SecondWind
       endsAt: -1
-    
+
   cr: 0
 
   gold:
@@ -26,10 +26,11 @@
     max: 1
 
 - npcId: Dog
-  name: 
+  name:
     - dog
     - Ein
     - Dew
+    - Tia
     - Borks
     - Teddy
     - Grumble
@@ -47,7 +48,7 @@
   skillOnKill: 1
 
   sprite: 65
-    
+
   cr: 0
 
   gold:
