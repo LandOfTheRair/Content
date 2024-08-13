@@ -1,11 +1,10 @@
-
 - npcId: Rylt Renegade
   name: renegade
   monsterClass: Humanoid
   monsterGroup: Renegade
   hostility: Always
   sprite: [630, 635, 645, 650]
-  alignment: Evil
+  alignment: evil
   stats: 5
   skillLevels: 3
 
@@ -22,7 +21,6 @@
 
   items:
     equipment:
-
       rightHand:
         - Antanian Staff
         - Antanian Dagger
@@ -83,23 +81,23 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: -1
 
   drops:
@@ -110,7 +108,6 @@
       chance: 1
       maxChance: 40
 
-
 - npcId: Rylt Renegade Mage
   name: renegade
   monsterClass: Humanoid
@@ -118,7 +115,7 @@
   hostility: Always
   baseClass: Mage
   sprite: 545
-  alignment: Evil
+  alignment: evil
   stats: 5
   skillLevels: 1
 
@@ -143,9 +140,9 @@
       rightHand: Rylt Renegade Staff
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
 
   usableSkills:
@@ -167,7 +164,7 @@
   baseClass: Healer
   hostility: Always
   sprite: 550
-  alignment: Evil
+  alignment: evil
   stats: 10
   skillLevels: 2
 
@@ -195,9 +192,9 @@
       rightHand: Rylt Renegade Mace
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
 
   drops:
@@ -214,7 +211,7 @@
   monsterGroup: Renegade
   hostility: Always
   sprite: 640
-  alignment: Evil
+  alignment: evil
   stats: 10
   skillLevels: 3
 
@@ -232,7 +229,6 @@
 
   items:
     equipment:
-
       rightHand:
         - Rylt Renegade Staff
         - Rylt Renegade Dagger
@@ -264,23 +260,23 @@
       maxChance: 20
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: 50
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: 20
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: 20
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: 20
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: 20
 
 - npcId: Rylt Renegade Commander
@@ -289,7 +285,7 @@
   monsterGroup: Renegade
   hostility: Always
   sprite: 590
-  alignment: Evil
+  alignment: evil
   stats: 10
   skillLevels: 4
 
@@ -302,14 +298,13 @@
     accuracy: -15
 
   skillOnKill: 25
-    
+
   cr: -5
 
   hpMult: 10
 
   items:
     equipment:
-
       rightHand:
         - Rylt Renegade Greataxe
         - Rylt Renegade Greatmace
@@ -339,21 +334,21 @@
       maxChance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: 10
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: 10
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: 10
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: 10

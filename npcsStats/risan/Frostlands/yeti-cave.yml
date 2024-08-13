@@ -1,9 +1,8 @@
-
 - npcId: Frostlands Yeti
   name: yeti
   sprite: 220
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   hostility: Always
   monsterClass: Beast
   monsterGroup: Snake
@@ -42,7 +41,7 @@
       maxChance: 20000
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
 
   usableSkills:
@@ -54,15 +53,15 @@
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
+        damageType: "physical"
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'fire'
+        damageType: "fire"
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'ice'
+        damageType: "ice"
 
   cr: -9
 
@@ -77,7 +76,7 @@
   name: yeti
   sprite: 220
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   hostility: Always
   monsterClass: Beast
   monsterGroup: Snake
@@ -112,7 +111,7 @@
       maxChance: 19000
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
 
   traitLevels:
@@ -130,15 +129,15 @@
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
+        damageType: "physical"
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'fire'
+        damageType: "fire"
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'ice'
+        damageType: "ice"
 
   cr: -8
 
@@ -197,14 +196,14 @@
       maxChance: 20000
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
 
   triggers:
     spawn:
       messages:
         - "the sound of rocks grinding together"
-      sfx: 
+      sfx:
         name: "monster-rocks"
         maxChance: 20
 
@@ -214,7 +213,7 @@
   affiliation: Frozen Terror
   baseClass: Mage
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   hostility: Always
   monsterClass: Beast
   monsterGroup: Snake
@@ -255,14 +254,14 @@
     - name: Attribute
       extra:
         potency: 1.75
-        damageType: 'fire'
+        damageType: "fire"
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'ice'
+        damageType: "ice"
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
 
   cr: -9

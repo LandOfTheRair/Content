@@ -1,16 +1,15 @@
-
 - npcId: Rylt Flowerbush
   name: flower bush
   hostility: OnHit
   allegiance: NaturalResource
   sprite: 835
-  alignment: Neutral
+  alignment: neutral
   stats: 1
   skillLevels: 1
   level: 1
 
   skillOnKill: 1
-    
+
   cr: 0
 
   gold:
@@ -25,7 +24,7 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'magical'
+        damageType: "magical"
 
   drops:
     - result: Rylt Blueflower
@@ -41,13 +40,13 @@
   hostility: OnHit
   allegiance: NaturalResource
   sprite: 840
-  alignment: Neutral
+  alignment: neutral
   stats: 1
   skillLevels: 1
   level: 1
 
   skillOnKill: 1
-    
+
   cr: 0
 
   gold:
@@ -62,7 +61,7 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'magical'
+        damageType: "magical"
 
   drops:
     - result: Yzalt Steffen Apple
@@ -78,13 +77,13 @@
   hostility: OnHit
   allegiance: NaturalResource
   sprite: 830
-  alignment: Neutral
+  alignment: neutral
   stats: 1
   skillLevels: 1
   level: 1
 
   skillOnKill: 1
-    
+
   cr: 0
 
   gold:
@@ -99,7 +98,7 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'magical'
+        damageType: "magical"
 
   drops:
     - result: Yzalt Bogweed
@@ -115,13 +114,13 @@
   hostility: OnHit
   allegiance: NaturalResource
   sprite: 850
-  alignment: Neutral
+  alignment: neutral
   stats: 1
   skillLevels: 1
   level: 1
 
   skillOnKill: 1
-    
+
   cr: 0
 
   gold:
@@ -136,7 +135,7 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'magical'
+        damageType: "magical"
 
   drops:
     - result: Tower Goblood
@@ -152,13 +151,13 @@
   hostility: OnHit
   allegiance: NaturalResource
   sprite: 830
-  alignment: Neutral
+  alignment: neutral
   stats: 1
   skillLevels: 1
   level: 1
 
   skillOnKill: 1
-    
+
   cr: 0
 
   gold:
@@ -173,7 +172,7 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'magical'
+        damageType: "magical"
 
   drops:
     - result: Maze Corpseflower
@@ -185,13 +184,13 @@
   hostility: OnHit
   allegiance: NaturalResource
   sprite: 830
-  alignment: Neutral
+  alignment: neutral
   stats: 1
   skillLevels: 1
   level: 1
 
   skillOnKill: 1
-    
+
   cr: 0
 
   gold:
@@ -206,7 +205,7 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'magical'
+        damageType: "magical"
 
   drops:
     - result: Mines Caveflower
@@ -222,13 +221,13 @@
   hostility: OnHit
   allegiance: NaturalResource
   sprite: 830
-  alignment: Neutral
+  alignment: neutral
   stats: 1
   skillLevels: 1
   level: 1
 
   skillOnKill: 1
-    
+
   cr: 0
 
   gold:
@@ -243,7 +242,7 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'magical'
+        damageType: "magical"
 
   drops:
     - result: Frostlands Gourd
@@ -259,13 +258,13 @@
   hostility: OnHit
   allegiance: NaturalResource
   sprite: 840
-  alignment: Neutral
+  alignment: neutral
   stats: 1
   skillLevels: 1
   level: 1
 
   skillOnKill: 1
-    
+
   cr: 0
 
   gold:

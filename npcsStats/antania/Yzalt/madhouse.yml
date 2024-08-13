@@ -1,10 +1,9 @@
-
 - npcId: Ranata Shade
   name: shade
   sprite: 290
   allegiance: Enemy
   monsterGroup: Crazed
-  alignment: Evil
+  alignment: evil
   baseClass: Mage
   hostility: Always
   stats: 22
@@ -28,7 +27,7 @@
   baseEffects:
     - name: DarkVision
       endsAt: -1
-    
+
   cr: 0
 
   hpMult: 2
@@ -45,7 +44,7 @@
   affiliation: Insanity Embodied
   monsterClass: Humanoid
   monsterGroup: Crazed
-  alignment: Evil
+  alignment: evil
   baseClass: Healer
   stats: 25
 
@@ -69,7 +68,7 @@
   skillOnKill: 175
 
   sprite: 480
-    
+
   cr: -6
 
   hpMult: 30
@@ -85,7 +84,6 @@
   giveXp:
     min: 350000
     max: 375000
-
 
   items:
     equipment:
@@ -139,11 +137,11 @@
     LightenArmor: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
 
   drops:
@@ -186,7 +184,7 @@
   level: 25
 
   skillOnKill: 55
-    
+
   cr: 0
 
   hpMult: 2
@@ -211,7 +209,6 @@
 
   items:
     equipment:
-
       rightHand:
         - result: Antanian Mace
           chance: 30
@@ -276,29 +273,29 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.ring2'
+    - result: "equipment.ring2"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-    - result: 'equipment.wrists'
+    - result: "equipment.wrists"
       chance: -1
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: -1
 
 - npcId: Lunatic Mage
@@ -314,7 +311,7 @@
   level: 25
 
   skillOnKill: 55
-    
+
   cr: 0
 
   hpMult: 2
@@ -338,7 +335,6 @@
 
   items:
     equipment:
-
       rightHand:
         - result: Antanian Staff
           chance: 15
@@ -413,29 +409,29 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.ring2'
+    - result: "equipment.ring2"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-    - result: 'equipment.wrists'
+    - result: "equipment.wrists"
       chance: -1
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: -1
 
 - npcId: Lunatic Thief
@@ -444,7 +440,7 @@
   monsterGroup: Crazed
   hostility: Always
   sprite: 585
-  alignment: Evil
+  alignment: evil
   baseClass: Thief
   stats: 25
   skillLevels: 7
@@ -452,7 +448,7 @@
   level: 25
 
   skillOnKill: 55
-    
+
   cr: 0
 
   hpMult: 2
@@ -477,7 +473,6 @@
 
   items:
     equipment:
-
       rightHand:
         - result: Antanian Dagger
           chance: 15
@@ -574,31 +569,31 @@
         maxChance: 100
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.ring2'
+    - result: "equipment.ring2"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-    - result: 'equipment.wrists'
+    - result: "equipment.wrists"
       chance: -1
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: -1
-    - result: 'equipment.ammo'
+    - result: "equipment.ammo"
       chance: -1
 
 - npcId: Lunatic Warrior
@@ -614,7 +609,7 @@
   level: 25
 
   skillOnKill: 55
-    
+
   cr: 0
 
   hpMult: 2
@@ -632,7 +627,6 @@
 
   items:
     equipment:
-
       rightHand:
         - result: Antanian Greatmace
           chance: 15
@@ -708,27 +702,27 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.ring2'
+    - result: "equipment.ring2"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-    - result: 'equipment.wrists'
+    - result: "equipment.wrists"
       chance: -1
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: -1

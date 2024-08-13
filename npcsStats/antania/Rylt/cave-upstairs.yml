@@ -4,7 +4,7 @@
   monsterGroup: CaveApprentice
   hostility: Always
   affiliation: Crazed
-  alignment: Evil
+  alignment: evil
   baseClass: Mage
   stats: 15
   level: 20
@@ -48,7 +48,7 @@
       neck: Crazed Saraxa Amulet
 
       robe1: FireIce Prot Robe 500
-      robe2: 
+      robe2:
         - result: Crazed Saraxa Robe
           chance: 5
         - result: Crazed Saraxa Reflect Robe
@@ -91,11 +91,11 @@
       endsAt: -1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
 
   drops:
@@ -131,7 +131,7 @@
 - npcId: Crazed Saraxa Rocky
   name: Crazed Rocky
   hostility: Always
-  alignment: Evil
+  alignment: evil
   baseClass: Warrior
   monsterGroup: CaveApprentice
   sprite: 75
@@ -163,7 +163,7 @@
 - npcId: Crazed Saraxa Acolyte
   name: crazed acolyte
   hostility: Always
-  alignment: Evil
+  alignment: evil
   baseClass: Mage
   monsterGroup: CaveApprentice
   stats: 15

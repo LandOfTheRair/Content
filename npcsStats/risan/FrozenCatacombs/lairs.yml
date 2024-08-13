@@ -1,11 +1,9 @@
-
-
 - npcId: Catacombs Frost Dragon
   name: dragon
   sprite: 255
   baseClass: Mage
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   hostility: Always
   monsterClass: Dragon
   monsterGroup: Dragon
@@ -55,11 +53,11 @@
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
+        damageType: "physical"
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'ice'
+        damageType: "ice"
     - name: TrueSight
       endsAt: -1
     - name: DarkVision
@@ -101,13 +99,13 @@
     leash:
       messages:
         - "a billowing gust of wind displaced by a strong crunching sound"
-      sfx: 
+      sfx:
         name: "monster-dragon"
         maxChance: 1
     spawn:
       messages:
         - "a billowing gust of wind displaced by a strong crunching sound"
-      sfx: 
+      sfx:
         name: "monster-dragon"
         maxChance: 1
 
@@ -115,7 +113,7 @@
   name: tomb guardian
   sprite: 370
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   hostility: Always
   monsterClass: Beast
   monsterGroup: Griffon
@@ -174,12 +172,12 @@
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'magical'
+        damageType: "magical"
 
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
+        damageType: "physical"
 
   traitLevels:
     InternalFortitude: 5
@@ -205,13 +203,13 @@
     leash:
       messages:
         - "the screeching of an enormous bird"
-      sfx: 
+      sfx:
         name: "monster-bird"
         maxChance: 1
     spawn:
       messages:
         - "the screeching of an enormous bird"
-      sfx: 
+      sfx:
         name: "monster-bird"
         maxChance: 1
 
@@ -222,7 +220,7 @@
   hostility: Always
   baseClass: Mage
   sprite: 285
-  alignment: Evil
+  alignment: evil
   stats: 21
   skillLevels: 12
   level: 35
@@ -288,19 +286,19 @@
     - name: Attribute
       extra:
         potency: 0.5
-        damageType: 'magical'
+        damageType: "magical"
 
     - name: Attribute
       extra:
         potency: 0.5
-        damageType: 'physical'
+        damageType: "physical"
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
 
   dropPool:
@@ -356,7 +354,7 @@
   hostility: Always
   baseClass: Mage
   sprite: 480
-  alignment: Evil
+  alignment: evil
   stats: 24
   skillLevels: 15
   level: 45
@@ -389,7 +387,6 @@
 
   items:
     equipment:
-
       rightHand: Risan Royal Spear
       armor: Catacombs Bone Tunic
       hands: Catacombs Lair Claws
@@ -399,11 +396,11 @@
     - name: Attribute
       extra:
         potency: 0.25
-        damageType: 'physical'
+        damageType: "physical"
     - name: Attribute
       extra:
         potency: 0.25
-        damageType: 'magical'
+        damageType: "magical"
 
     - name: TrueSight
       endsAt: -1
@@ -411,11 +408,11 @@
     - name: DarkVision
       endsAt: -1
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
 
   drops:

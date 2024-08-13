@@ -1,10 +1,9 @@
-
 - npcId: Rylt Rockgolem
   name: rockgolem
   hostility: Always
   monsterGroup: CaveApprentice
   sprite: 75
-  alignment: Evil
+  alignment: evil
   stats: 7
   skillLevels:
     Martial: 2
@@ -46,14 +45,14 @@
       maxChance: 100
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
 
   triggers:
     spawn:
       messages:
         - "the sound of rocks grinding together"
-      sfx: 
+      sfx:
         name: "monster-rocks"
         maxChance: 20
 
@@ -63,7 +62,7 @@
   monsterGroup: CaveApprentice
   hostility: Always
   sprite: 545
-  alignment: Evil
+  alignment: evil
   baseClass: Mage
   stats: 15
   skillLevels:
@@ -118,15 +117,15 @@
     - MagicMissile
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.wrists'
+    - result: "equipment.wrists"
       chance: -1
 
   drops:
@@ -144,7 +143,7 @@
   monsterGroup: CaveApprentice
   hostility: Always
   affiliation: Corrupted
-  alignment: Evil
+  alignment: evil
   baseClass: Mage
   stats: 2
   otherStats:
@@ -191,7 +190,7 @@
         - Cure Ring
 
       robe1: FireIce Prot Robe 100
-      robe2: 
+      robe2:
         - result: Saraxa Robe
           chance: 5
         - result: Saraxa Reflect Robe
@@ -205,13 +204,13 @@
     - IceMist
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
 
   drops:
@@ -233,7 +232,7 @@
   name: Rocky
   hostility: Always
   monsterGroup: CaveApprentice
-  alignment: Evil
+  alignment: evil
   baseClass: Warrior
   sprite: 75
   stats: 15
@@ -285,5 +284,5 @@
       chance: -1
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1

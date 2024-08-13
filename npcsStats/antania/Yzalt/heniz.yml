@@ -4,14 +4,14 @@
   monsterGroup: Heniz
   allegiance: Pirates
   sprite: 60
-  alignment: Evil
+  alignment: evil
   stats: 1
   skillLevels: 1
 
   level: 1
 
   skillOnKill: 1
-    
+
   cr: -10
 
   gold:
@@ -39,7 +39,7 @@
   monsterClass: Humanoid
   monsterGroup: Heniz
   sprite: [580, 595, 610, 615]
-  alignment: Evil
+  alignment: evil
   stats: 15
   skillLevels: 3
 
@@ -52,7 +52,7 @@
 
   otherStats:
     perception: 3
-    
+
   cr: 0
 
   repMod:
@@ -121,25 +121,25 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: -1
-    - result: 'equipment.ammo'
+    - result: "equipment.ammo"
       chance: -1
 
 - npcId: Heniz Thief Defender
@@ -149,7 +149,7 @@
   hostility: Faction
   allegiance: Pirates
   sprite: 585
-  alignment: Evil
+  alignment: evil
   baseClass: Thief
   stats: 15
   skillLevels: 4
@@ -166,7 +166,7 @@
     iceResist: 100
     perception: 3
     stealth: 15
-    
+
   cr: -5
 
   repMod:
@@ -175,7 +175,6 @@
 
   items:
     equipment:
-
       rightHand:
         - result: Antanian Dagger
           chance: 30
@@ -232,19 +231,19 @@
         - "The Steffen never learn, do they?"
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.wrists'
+    - result: "equipment.wrists"
       chance: -1
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: -1
-    - result: 'equipment.ammo'
+    - result: "equipment.ammo"
       chance: -1
 
 - npcId: Heniz Mage Defender
@@ -254,7 +253,7 @@
   hostility: Faction
   allegiance: Pirates
   sprite: 545
-  alignment: Evil
+  alignment: evil
   baseClass: Mage
   stats: 15
   skillLevels: 4
@@ -270,7 +269,7 @@
     Royalty: -101
 
   skillOnKill: 8
-    
+
   cr: -5
 
   mp:
@@ -286,7 +285,6 @@
 
   items:
     equipment:
-
       rightHand:
         - result: Antanian Staff
           chance: 30
@@ -325,15 +323,15 @@
         - "The Steffen never learn, do they?"
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
 
 - npcId: Heniz Thief Offender
@@ -343,7 +341,7 @@
   hostility: Faction
   allegiance: Pirates
   sprite: 585
-  alignment: Evil
+  alignment: evil
   baseClass: Thief
   stats: 15
   skillLevels: 4
@@ -359,7 +357,7 @@
     fireResist: 100
     iceResist: 100
     perception: 3
-    
+
   cr: -5
 
   repMod:
@@ -368,7 +366,6 @@
 
   items:
     equipment:
-
       rightHand:
         - result: Antanian Dagger
           chance: 30
@@ -425,19 +422,19 @@
         - "The Steffen never learn, do they?"
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.wrists'
+    - result: "equipment.wrists"
       chance: -1
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: -1
-    - result: 'equipment.ammo'
+    - result: "equipment.ammo"
       chance: -1
 
 - npcId: Heniz Mage Offender
@@ -447,7 +444,7 @@
   hostility: Faction
   allegiance: Pirates
   sprite: 545
-  alignment: Evil
+  alignment: evil
   baseClass: Mage
   stats: 15
   skillLevels:
@@ -466,7 +463,7 @@
     Royalty: -101
 
   skillOnKill: 8
-    
+
   cr: -5
 
   mp:
@@ -482,7 +479,6 @@
 
   items:
     equipment:
-
       rightHand:
         - result: Antanian Staff
           chance: 30
@@ -521,13 +517,13 @@
         - "The Steffen never learn, do they?"
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1

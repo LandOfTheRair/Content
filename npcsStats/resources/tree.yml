@@ -1,16 +1,15 @@
-
 - npcId: Small Antanian Dying Tree
   name: dying tree
   hostility: OnHit
   allegiance: NaturalResource
   sprite: 1865
-  alignment: Neutral
+  alignment: neutral
   stats: 1
   skillLevels: 1
   level: 1
 
   skillOnKill: 1
-    
+
   cr: 0
 
   gold:
@@ -25,7 +24,7 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'magical'
+        damageType: "magical"
 
   items:
     equipment:
@@ -78,13 +77,13 @@
   hostility: OnHit
   allegiance: NaturalResource
   sprite: 1870
-  alignment: Neutral
+  alignment: neutral
   stats: 1
   skillLevels: 1
   level: 1
 
   skillOnKill: 1
-    
+
   cr: 0
 
   gold:
@@ -99,7 +98,7 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'magical'
+        damageType: "magical"
 
   items:
     equipment:
@@ -155,13 +154,13 @@
   hostility: OnHit
   allegiance: NaturalResource
   sprite: 1865
-  alignment: Neutral
+  alignment: neutral
   stats: 1
   skillLevels: 1
   level: 1
 
   skillOnKill: 1
-    
+
   cr: 0
 
   gold:
@@ -176,7 +175,7 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'magical'
+        damageType: "magical"
 
   items:
     equipment:
@@ -206,13 +205,13 @@
   hostility: OnHit
   allegiance: NaturalResource
   sprite: 1870
-  alignment: Neutral
+  alignment: neutral
   stats: 1
   skillLevels: 1
   level: 1
 
   skillOnKill: 1
-    
+
   cr: 0
 
   gold:
@@ -227,7 +226,7 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'magical'
+        damageType: "magical"
 
   items:
     equipment:

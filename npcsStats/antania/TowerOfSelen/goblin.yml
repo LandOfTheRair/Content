@@ -1,10 +1,9 @@
-
 - npcId: Tower Goblin
   name: goblin
   hostility: Always
   monsterGroup: Goblin
   sprite: 80
-  alignment: Evil
+  alignment: evil
   stats: 7
   skillLevels: 2
   level: 12
@@ -15,7 +14,7 @@
     con: 15
     accuracy: 2
     perception: 5
-    
+
   cr: -5
 
   items:
@@ -61,22 +60,22 @@
       endsAt: -1
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   triggers:
     spawn:
       messages:
         - "the indecipherable blabbering of goblins"
-      sfx: 
+      sfx:
         name: "monster-goblin"
         maxChance: 20
 
@@ -86,7 +85,7 @@
   baseClass: Thief
   monsterGroup: Goblin
   sprite: 80
-  alignment: Evil
+  alignment: evil
   stats: 6
   skillLevels: 2
   level: 14
@@ -98,7 +97,7 @@
     accuracy: 2
     stealth: 25
     perception: 6
-    
+
   cr: -5
 
   mp:
@@ -165,17 +164,17 @@
         maxChance: 100
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.ammo'
+    - result: "equipment.ammo"
       chance: -1
 
   usableSkills:
@@ -196,7 +195,7 @@
     spawn:
       messages:
         - "the indecipherable blabbering of goblins"
-      sfx: 
+      sfx:
         name: "monster-goblin"
         maxChance: 20
 
@@ -210,7 +209,7 @@
   baseClass: Warrior
   monsterGroup: Goblin
   sprite: 90
-  alignment: Evil
+  alignment: evil
   stats: 2
   skillLevels: 2
   level: 14
@@ -221,7 +220,7 @@
     con: 14
     accuracy: 2
     perception: 7
-    
+
   cr: -7
 
   items:
@@ -268,21 +267,21 @@
     - Boost
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   triggers:
     spawn:
       messages:
         - "the indecipherable blabbering of goblins"
-      sfx: 
+      sfx:
         name: "monster-goblin"
         maxChance: 20

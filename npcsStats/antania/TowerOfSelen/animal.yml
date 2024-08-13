@@ -1,12 +1,10 @@
-
-
 - npcId: Tower Warg
   name: warg
   hostility: Always
   monsterClass: Beast
   monsterGroup: Goblin
   sprite: 405
-  alignment: Evil
+  alignment: evil
   stats: 10
   skillLevels: 2
   level: 10
@@ -16,7 +14,7 @@
   otherStats:
     con: 15
     perception: 5
-    
+
   cr: 0
 
   items:
@@ -39,7 +37,7 @@
   monsterClass: Beast
   monsterGroup: Goblin
   sprite: 800
-  alignment: Evil
+  alignment: evil
   stats: 9
   skillLevels: 2
   level: 10
@@ -49,7 +47,7 @@
   otherStats:
     con: 15
     perception: 5
-    
+
   cr: 0
 
   items:

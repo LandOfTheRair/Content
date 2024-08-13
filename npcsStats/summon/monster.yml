@@ -1,9 +1,8 @@
-
 - npcId: Summoned Vampire Bat
   name: bat
   hostility: Always
   sprite: 805
-  alignment: Evil
+  alignment: evil
   stats: 18
   skillLevels: 4
   level: 18
@@ -20,7 +19,7 @@
     agi: 30
     defense: 10
     perception: 25
-    
+
   cr: 0
 
   gold:

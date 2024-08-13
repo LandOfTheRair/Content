@@ -1,11 +1,10 @@
-
 - npcId: Dedlaen Crypt Thing
   name: crypt thing
   monsterClass: Undead
   monsterGroup: CryptThing
   hostility: Always
   sprite: 225
-  alignment: Evil
+  alignment: evil
   stats: 20
   skillLevels: 4
   level: 20
@@ -18,7 +17,7 @@
     accuracy: 5
     offense: 5
     perception: 15
-    
+
   cr: -2
 
   gold:
@@ -29,7 +28,7 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'magical'
+        damageType: "magical"
 
   items:
     equipment:
@@ -37,7 +36,7 @@
       waist: Dedlaen Crypt Thing Sash
 
   copyDrops:
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: -1
 
   drops:
@@ -93,7 +92,7 @@
     con: 25
     perception: 8
     mpregen: 10
-    
+
   cr: -5
 
   mp:
@@ -104,12 +103,12 @@
     - name: Attribute
       extra:
         potency: 0.5
-        damageType: 'fire'
+        damageType: "fire"
 
     - name: Attribute
       extra:
         potency: 1.75
-        damageType: 'ice'
+        damageType: "ice"
 
   usableSkills:
     - IceMist
@@ -146,7 +145,7 @@
     con: 25
     perception: 8
     mpregen: 10
-    
+
   cr: -5
 
   mp:
@@ -157,12 +156,12 @@
     - name: Attribute
       extra:
         potency: 0.5
-        damageType: 'fire'
+        damageType: "fire"
 
     - name: Attribute
       extra:
         potency: 1.75
-        damageType: 'ice'
+        damageType: "ice"
 
   usableSkills:
     - IceMist
@@ -184,7 +183,7 @@
   monsterGroup: Spider
   monsterClass: Beast
   sprite: 800
-  alignment: Evil
+  alignment: evil
   stats: 15
   skillLevels: 2
   level: 20
@@ -194,7 +193,7 @@
   otherStats:
     con: 25
     perception: 7
-    
+
   cr: 0
 
   items:
@@ -212,7 +211,7 @@
   monsterClass: Beast
   monsterGroup: Leech
   sprite: 785
-  alignment: Evil
+  alignment: evil
   stats: 15
   skillLevels: 2
   level: 18
@@ -222,7 +221,7 @@
   otherStats:
     con: 25
     perception: 7
-    
+
   cr: 0
 
   mp:
@@ -242,7 +241,7 @@
   monsterGroup: Turtle
   sprite: 455
   baseClass: Mage
-  alignment: Evil
+  alignment: evil
   stats: 20
   skillLevels: 8
   level: 20
@@ -260,7 +259,7 @@
     offense: 10
     perception: 8
     mpregen: 20
-    
+
   cr: -5
 
   gold:
@@ -304,13 +303,12 @@
     leash:
       messages:
         - "the splashing and crunching of a giant sea creature"
-      sfx: 
+      sfx:
         name: "monster-dragon"
         maxChance: 1
     spawn:
       messages:
         - "the splashing and crunching of a giant sea creature"
-      sfx: 
+      sfx:
         name: "monster-dragon"
         maxChance: 1
-

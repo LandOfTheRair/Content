@@ -1,11 +1,10 @@
-
 - npcId: Catacombs Skeleton 5F
   name: skeleton king
   monsterClass: Undead
   monsterGroup: Undead
   sprite: 1015
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   baseClass: Warrior
   hostility: Always
   stats: 23
@@ -63,17 +62,17 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: 1
       maxChance: 100
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: 1
       maxChance: 10
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   drops:
@@ -108,12 +107,12 @@
     - name: Attribute
       extra:
         potency: 1.25
-        damageType: 'fire'
+        damageType: "fire"
 
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'sharp'
+        damageType: "sharp"
 
     - name: DarkVision
       endsAt: -1
@@ -122,7 +121,7 @@
     spawn:
       messages:
         - "the clattering of bones"
-      sfx: 
+      sfx:
         name: "monster-skeleton"
         maxChance: 20
 
@@ -132,7 +131,7 @@
   monsterGroup: Undead
   sprite: 155
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   baseClass: Warrior
   hostility: Always
   stats: 23
@@ -180,15 +179,15 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: 1
       maxChance: 100
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: 1
       maxChance: 10
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
 
   drops:
@@ -220,12 +219,12 @@
     - name: Attribute
       extra:
         potency: 1.25
-        damageType: 'fire'
+        damageType: "fire"
 
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'blunt'
+        damageType: "blunt"
 
     - name: DarkVision
       endsAt: -1
@@ -236,7 +235,7 @@
   monsterGroup: Undead
   sprite: 300
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   baseClass: Healer
   hostility: Always
   stats: 23
@@ -278,17 +277,17 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: 1
       maxChance: 100
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: 1
       maxChance: 10
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   drops:
@@ -346,12 +345,12 @@
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
+        damageType: "physical"
 
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'magical'
+        damageType: "magical"
 
     - name: DarkVision
       endsAt: -1
@@ -360,7 +359,7 @@
     spawn:
       messages:
         - "the screeching of an ancient banshee"
-      sfx: 
+      sfx:
         name: "monster-ghost"
         maxChance: 20
 
@@ -370,7 +369,7 @@
   monsterGroup: Undead
   sprite: 980
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   baseClass: Mage
   hostility: Always
   stats: 23
@@ -412,17 +411,17 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: 1
       maxChance: 100
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: 1
       maxChance: 10
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   drops:
@@ -476,7 +475,7 @@
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'energy'
+        damageType: "energy"
 
     - name: DarkVision
       endsAt: -1
@@ -487,7 +486,7 @@
   monsterGroup: Undead
   sprite: 975
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   baseClass: Warrior
   hostility: Always
   stats: 23
@@ -533,17 +532,17 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: 1
       maxChance: 100
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: 1
       maxChance: 10
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   drops:
@@ -575,12 +574,12 @@
     - name: Attribute
       extra:
         potency: 1.25
-        damageType: 'fire'
+        damageType: "fire"
 
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'blunt'
+        damageType: "blunt"
 
     - name: DarkVision
       endsAt: -1
@@ -591,7 +590,7 @@
   monsterGroup: Undead
   sprite: 945
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   baseClass: Thief
   hostility: Always
   stats: 23
@@ -678,17 +677,17 @@
         maxChance: 100
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: 1
       maxChance: 100
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: 1
       maxChance: 10
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   skillOnKill: 85
@@ -736,7 +735,7 @@
   monsterGroup: Undead
   sprite: 305
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   baseClass: Thief
   hostility: Always
   stats: 23
@@ -788,19 +787,19 @@
           chance: 400
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: 1
       maxChance: 100
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: 1
       maxChance: 10
-    - result: 'equipment.wrists'
+    - result: "equipment.wrists"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.ammo'
+    - result: "equipment.ammo"
       chance: -1
 
   skillOnKill: 85
@@ -829,7 +828,7 @@
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
+        damageType: "physical"
 
     - name: DarkVision
       endsAt: -1

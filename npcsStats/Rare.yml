@@ -1,5 +1,3 @@
-
-
 - npcId: Aynamai
   affiliation: Avatar of Tai
   name: Aynamai
@@ -7,7 +5,7 @@
   hostility: OnHit
   monsterClass: Beast
   monsterGroup: WildlandBear
-  alignment: Evil
+  alignment: evil
   stats: 15
   skillLevels: 5
   level: 10
@@ -21,7 +19,7 @@
     equipment:
       armor: Aynamai Cloak
       hands: Werebear Claws
-    
+
   cr: -5
 
   hpMult: 10
@@ -41,13 +39,13 @@
     - name: Attribute
       extra:
         potency: 0.25
-        damageType: 'magical'
+        damageType: "magical"
 
     - name: Attribute
       extra:
         potency: 0.25
-        damageType: 'physical'
-        
+        damageType: "physical"
+
     - name: Mood
       extra:
         enrageTimer: 300000
@@ -61,20 +59,20 @@
       maxChance: 25
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
 
   triggers:
     leash:
       messages:
         - "a strange chirping roar"
-      sfx: 
+      sfx:
         name: "monster-bear"
         maxChance: 1
     spawn:
       messages:
         - "a strange chirping roar"
-      sfx: 
+      sfx:
         name: "monster-bear"
         maxChance: 1
 
@@ -93,7 +91,7 @@
   level: 15
 
   skillOnKill: 350
-    
+
   cr: -5
 
   hpMult: 5
@@ -115,7 +113,7 @@
     - Boost
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
 
 - npcId: Kroin
@@ -123,7 +121,7 @@
   affiliation: Manifestation of Maer
   hostility: OnHit
   sprite: 320
-  alignment: Evil
+  alignment: evil
   stats: 14
   skillLevels: 5
   level: 15
@@ -143,7 +141,7 @@
   otherStats:
     con: 25
     perception: 8
-    
+
   cr: -3
 
   hpMult: 10
@@ -205,7 +203,7 @@
     con: 30
     perception: 30
     mpregen: 30
-    
+
   cr: -6
 
   hpMult: 10
@@ -262,13 +260,13 @@
     HealingFocus: 5
 
   copyDrops:
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
 - npcId: Glebog
@@ -288,7 +286,6 @@
 
   items:
     equipment:
-
       rightHand: Glebog Sabre
 
       leftHand: Frostlands Shield
@@ -300,11 +297,11 @@
       hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   traitLevels:
@@ -321,7 +318,7 @@
     - Blindstrike
     - Boost
     - Shield
-    
+
   cr: -3
 
   hpMult: 10

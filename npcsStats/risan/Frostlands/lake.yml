@@ -2,7 +2,7 @@
   name: thermidor
   sprite: 190
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   hostility: Always
   monsterGroup: Snake
   stats: 24

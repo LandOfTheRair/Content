@@ -1,4 +1,3 @@
-
 - npcId: Antanian Dolphin
   name: dolphin
   allegiance: None
@@ -13,7 +12,7 @@
 
   otherStats:
     waterResist: 5000
-    
+
   cr: 0
 
   usableSkills:
@@ -26,7 +25,7 @@
 - npcId: Antanian Shark
   name: shark
   hostility: Always
-  alignment: Evil
+  alignment: evil
   monsterGroup: Shark
   sprite: 160
   stats: 10
@@ -37,7 +36,7 @@
 
   aquaticOnly: true
   skillOnKill: 3
-    
+
   cr: -4
 
   usableSkills:

@@ -1,5 +1,3 @@
-
-
 - npcId: Rylt Deer
   name: deer
   sprite: 205
@@ -78,12 +76,12 @@
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'magical'
+        damageType: "magical"
 
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
+        damageType: "physical"
 
   cr: -5
 
@@ -102,7 +100,7 @@
   monsterClass: Beast
   monsterGroup: WildlandWolf
   sprite: 215
-  alignment: Evil
+  alignment: evil
   stats: 4
   skillLevels:
     Martial: 1
@@ -138,7 +136,7 @@
     spawn:
       messages:
         - "the howling of a wolf"
-      sfx: 
+      sfx:
         name: "monster-wolf"
         maxChance: 20
 
@@ -148,7 +146,7 @@
   monsterClass: Beast
   monsterGroup: WildlandBear
   sprite: 210
-  alignment: Evil
+  alignment: evil
   stats: 5
   skillLevels:
     Martial: 1
@@ -187,7 +185,7 @@
     spawn:
       messages:
         - "a deep roar"
-      sfx: 
+      sfx:
         name: "monster-bear"
         maxChance: 20
 
@@ -199,7 +197,7 @@
   hostility: Always
   monsterClass: Beast
   monsterGroup: WildlandBear
-  alignment: Evil
+  alignment: evil
   stats: 10
   skillLevels: 4
   level: 7
@@ -237,13 +235,13 @@
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'magical'
+        damageType: "magical"
 
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
-        
+        damageType: "physical"
+
     - name: Mood
       extra:
         enrageTimer: 300000
@@ -272,12 +270,12 @@
     leash:
       messages:
         - "a guttural roar"
-      sfx: 
+      sfx:
         name: "monster-bear"
         maxChance: 1
     spawn:
       messages:
         - "a guttural roar"
-      sfx: 
+      sfx:
         name: "monster-bear"
         maxChance: 1

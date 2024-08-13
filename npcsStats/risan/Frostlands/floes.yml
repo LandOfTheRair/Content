@@ -1,9 +1,8 @@
-
 - npcId: Frostlands Frostsnake
   name: frostsnake
   sprite: 270
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   hostility: Always
   monsterClass: Beast
   monsterGroup: Snake
@@ -37,7 +36,7 @@
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
+        damageType: "physical"
 
   traitLevels:
     StunningFist: 5
@@ -48,7 +47,7 @@
   name: remorhaz
   sprite: 95
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   hostility: Always
   baseClass: Mage
   monsterClass: Beast
@@ -78,11 +77,11 @@
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
+        damageType: "physical"
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'ice'
+        damageType: "ice"
 
   traitLevels:
     IceMistWiden: 1

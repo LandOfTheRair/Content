@@ -1,4 +1,3 @@
-
 tag: Ralteun
 name: Ralteun
 affiliation: Bastion of Neutrality
@@ -27,7 +26,7 @@ dialog:
       actions:
         - type: checkAlignment
           alignment: neutral
-          
+
           checkPassActions:
             - type: chat
               maxDistance: 0
@@ -47,7 +46,7 @@ dialog:
               options:
                 - text: Yep, neutralize me
                   action: neutral
-                  
+
                 - text: I'm fine where I am
                   action: noop
 
@@ -61,6 +60,6 @@ dialog:
           message: >
             You are now a follower of Neutrality.
 
-          options:              
+          options:
             - text: Thanks
               action: noop

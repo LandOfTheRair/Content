@@ -1,14 +1,13 @@
-
 - npcId: Tutorial Townee
   name: townee
-  allegiance: 'None'
+  allegiance: "None"
   stats: 10
   level: 1
 
   skillOnKill: 1
 
   sprite: [580, 595, 610, 615]
-    
+
   cr: -10
 
   hpMult: 20
@@ -39,20 +38,20 @@
         - Antanian Cloak
 
   copyDrops:
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
 
 - npcId: Tutorial Deer
   name: deer
   allegiance: Wilderness
   sprite: 205
-  alignment: Good
+  alignment: good
   stats: 1
   level: 1
 
@@ -60,7 +59,7 @@
     equipment:
       armor: Tutorial Fur
       hands: Basic Claws
-    
+
   cr: -10
 
 - npcId: Tutorial Wolf
@@ -68,13 +67,13 @@
   hostility: Always
   monsterGroup: Wolf
   sprite: 215
-  alignment: Evil
+  alignment: evil
   stats: 2
   level: 1
 
   otherStats:
     accuracy: -10
-    
+
   cr: -10
 
   items:
@@ -86,7 +85,7 @@
     spawn:
       messages:
         - "the howling of a wolf"
-      sfx: 
+      sfx:
         radius: 4
         name: "monster-wolf"
         maxChance: 20
@@ -103,7 +102,7 @@
     accuracy: -10
 
   skillOnKill: 30
-    
+
   cr: -10
 
   hpMult: 2
@@ -114,7 +113,7 @@
       head: Tutorial Yeti Skull
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
 
   drops:

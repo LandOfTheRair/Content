@@ -1,17 +1,15 @@
-
-
 - npcId: Dedlaen Titanium Node
   name: titanium chunk
   hostility: OnHit
   allegiance: NaturalResource
   sprite: 1840
-  alignment: Neutral
+  alignment: neutral
   stats: 1
   skillLevels: 1
   level: 1
 
   skillOnKill: 1
-    
+
   cr: 0
 
   gold:
@@ -26,7 +24,7 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'magical'
+        damageType: "magical"
 
   items:
     equipment:

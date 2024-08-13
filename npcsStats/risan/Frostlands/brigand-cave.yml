@@ -1,11 +1,10 @@
-
 - npcId: Frostlands Brigand Fighter
   name: brigand
   monsterClass: Humanoid
   monsterGroup: Brigand
   sprite: [630, 635, 645, 650]
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   baseClass: Warrior
   hostility: Always
   stats: 22
@@ -17,7 +16,6 @@
 
   items:
     equipment:
-
       rightHand:
         - Frostlands Brigand Axe
         - Frostlands Brigand Broadsword
@@ -54,17 +52,17 @@
       hands: Frostlands Frostgolem Gloves
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: 1
       maxChance: 100
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: 1
       maxChance: 10
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   drops:
@@ -96,7 +94,7 @@
   monsterGroup: Brigand
   sprite: 545
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   baseClass: Mage
   hostility: Always
   stats: 22
@@ -141,17 +139,17 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: 1
       maxChance: 100
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: 1
       maxChance: 10
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   drops:
@@ -186,7 +184,7 @@
   monsterGroup: Brigand
   sprite: 550
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   baseClass: Healer
   hostility: Always
   stats: 22
@@ -231,17 +229,17 @@
         chance: 1
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: 1
       maxChance: 100
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: 1
       maxChance: 10
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   drops:
@@ -290,7 +288,7 @@
   monsterGroup: Brigand
   sprite: [630, 635, 645, 650]
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   baseClass: Thief
   hostility: Always
   stats: 18
@@ -370,17 +368,17 @@
         maxChance: 100
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: 1
       maxChance: 100
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: 1
       maxChance: 10
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   drops:
@@ -436,7 +434,7 @@
   monsterGroup: Brigand
   sprite: [630, 635, 645, 650]
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   baseClass: Warrior
   hostility: Always
   stats: 26
@@ -483,17 +481,17 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: 1
       maxChance: 100
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: 1
       maxChance: 10
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   drops:
@@ -522,7 +520,7 @@
   monsterGroup: Brigand
   sprite: 320
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   baseClass: Warrior
   hostility: Always
   stats: 21
@@ -559,17 +557,17 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: 1
       maxChance: 100
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: 1
       maxChance: 10
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   traitLevels:

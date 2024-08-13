@@ -1,7 +1,7 @@
 - npcId: Training Dummy
   name: training dummy
   sprite: 280
-  alignment: Neutral
+  alignment: neutral
   stats: 1
   level: 1
   monsterGroup: NeverAttack
@@ -39,7 +39,7 @@
     - Clover
 
   allegiance: None
-  alignment: Neutral
+  alignment: neutral
   monsterClass: Beast
   stats: 15
   skillLevels: 5

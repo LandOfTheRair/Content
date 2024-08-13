@@ -1,9 +1,8 @@
-
 - npcId: Risan Crazed Deer
   name: crazed deer
   sprite: 205
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   hostility: Always
   monsterClass: Beast
   monsterGroup: Crazed
@@ -35,13 +34,13 @@
     - name: Attribute
       extra:
         potency: 1.25
-        damageType: 'fire'
+        damageType: "fire"
 
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
-    
+        damageType: "physical"
+
   cr: -7
 
   drops:
@@ -59,7 +58,7 @@
   name: crazed wolf
   sprite: 215
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   hostility: Always
   monsterClass: Beast
   monsterGroup: Crazed
@@ -100,12 +99,12 @@
     - name: Attribute
       extra:
         potency: 1.5
-        damageType: 'fire'
+        damageType: "fire"
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
-    
+        damageType: "physical"
+
   cr: -7
 
   tansFor: Crazed Beast Fur
@@ -115,7 +114,7 @@
     spawn:
       messages:
         - "the howling of a wolf"
-      sfx: 
+      sfx:
         name: "monster-wolf"
         maxChance: 20
 
@@ -123,7 +122,7 @@
   name: crazed bear
   sprite: 210
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   hostility: Always
   monsterClass: Beast
   monsterGroup: Crazed
@@ -165,12 +164,12 @@
     - name: Attribute
       extra:
         potency: 1.5
-        damageType: 'fire'
+        damageType: "fire"
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
-    
+        damageType: "physical"
+
   cr: -7
 
   tansFor: Crazed Bear Fur
@@ -180,7 +179,7 @@
     spawn:
       messages:
         - "a deep roar"
-      sfx: 
+      sfx:
         name: "monster-bear"
         maxChance: 20
 
@@ -188,7 +187,7 @@
   name: griffon
   sprite: 435
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   hostility: Always
   monsterClass: Beast
   monsterGroup: Crazed
@@ -221,18 +220,18 @@
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'magical'
+        damageType: "magical"
 
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
+        damageType: "physical"
 
   traitLevels:
     InternalFortitude: 5
     StunningFist: 7
     ForcefulStrike: 3
-    
+
   cr: -7
 
   gold:
@@ -254,13 +253,13 @@
     leash:
       messages:
         - "the screeching of an crazed griffon"
-      sfx: 
+      sfx:
         name: "monster-bird"
         maxChance: 1
     spawn:
       messages:
         - "the screeching of an crazed griffon"
-      sfx: 
+      sfx:
         name: "monster-bird"
         maxChance: 1
 
@@ -269,7 +268,7 @@
   sprite: 465
   allegiance: Wilderness
   hostility: Faction
-  alignment: Good
+  alignment: good
   baseClass: Thief
   monsterGroup: Dryad
   stats: 16
@@ -343,7 +342,7 @@
       chance: 0
     - result: Transmute
       chance: 1
-    
+
   cr: -8
 
   mp:
@@ -351,14 +350,14 @@
     max: 1000
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: 1
       maxChance: 100
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   drops:
@@ -373,7 +372,7 @@
   name: crazed dryad
   sprite: 465
   hostility: Always
-  alignment: Evil
+  alignment: evil
   baseClass: Thief
   monsterGroup: Crazed
   stats: 16
@@ -459,7 +458,7 @@
   baseEffects:
     - name: DarkVision
       endsAt: -1
-    
+
   cr: -8
 
   mp:
@@ -467,14 +466,14 @@
     max: 1000
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: 1
       maxChance: 100
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
 - npcId: Dryad Queen Cyrena
@@ -482,7 +481,7 @@
   sprite: 465
   hostility: Always
   affiliation: Dryad Queen
-  alignment: Evil
+  alignment: evil
   baseClass: Thief
   monsterGroup: Crazed
   stats: 19
@@ -543,7 +542,7 @@
   baseEffects:
     - name: DarkVision
       endsAt: -1
-    
+
   cr: -4
 
   gold:
@@ -563,15 +562,15 @@
     max: 309000
 
   copyDrops:
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
 
   drops:

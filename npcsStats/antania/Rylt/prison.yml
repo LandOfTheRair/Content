@@ -1,12 +1,10 @@
-
-
 - npcId: Rylt Renegade Prisoner
   name: prisoner
   monsterClass: Humanoid
   monsterGroup: Renegade
   hostility: Always
   sprite: [630, 635, 645, 650]
-  alignment: Evil
+  alignment: evil
   stats: 1
   skillLevels: 1
 
@@ -22,7 +20,6 @@
 
   items:
     equipment:
-
       rightHand:
         - Antanian Staff
         - Antanian Dagger
@@ -76,23 +73,23 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: -1
 
   drops:
@@ -103,7 +100,7 @@
 - npcId: Rylt Prison Guard
   name: guard
   monsterClass: Humanoid
-  allegiance: 'None'
+  allegiance: "None"
   stats: 5
   level: 4
   baseClass: Warrior
@@ -132,9 +129,9 @@
         - Antanian Halberd
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
 
   drops:
@@ -148,7 +145,7 @@
   monsterGroup: Renegade
   hostility: Always
   sprite: [630, 635, 645, 650]
-  alignment: Evil
+  alignment: evil
   stats: 10
   skillLevels: 2
 
@@ -163,7 +160,6 @@
 
   items:
     equipment:
-
       rightHand:
         - Rylt Renegade Longsword
         - Rylt Renegade Axe
@@ -211,21 +207,21 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: -1
 
   drops:
@@ -239,7 +235,7 @@
   monsterGroup: Renegade
   hostility: Always
   sprite: [630, 635, 645, 650]
-  alignment: Evil
+  alignment: evil
   stats: 10
   skillLevels: 2
 
@@ -254,7 +250,6 @@
 
   items:
     equipment:
-
       rightHand:
         - Rylt Renegade Longsword
         - Rylt Renegade Axe
@@ -300,21 +295,21 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: -1
 
   drops:
@@ -322,14 +317,13 @@
       chance: 1
       maxChance: 200
 
-
 - npcId: Rylt Renegade Rebel Thief
   name: rioter
   monsterClass: Humanoid
   monsterGroup: Renegade
   hostility: Always
   sprite: [630, 635, 645, 650]
-  alignment: Evil
+  alignment: evil
   stats: 7
 
   baseClass: Thief
@@ -358,7 +352,6 @@
 
   items:
     equipment:
-
       rightHand:
         - Antanian Returning Dagger
         - Rylt Renegade Shortbow
@@ -411,21 +404,21 @@
         maxChance: 100
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: -1
-    - result: 'equipment.ammo'
+    - result: "equipment.ammo"
       chance: -1
 
   drops:
@@ -440,7 +433,7 @@
   hostility: Always
   baseClass: Mage
   sprite: 545
-  alignment: Evil
+  alignment: evil
   stats: 7
   skillLevels: 2
 
@@ -465,9 +458,9 @@
       robe2: Antanian Cloak
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
 
   usableSkills:
@@ -486,7 +479,7 @@
   baseClass: Healer
   hostility: Always
   sprite: 550
-  alignment: Evil
+  alignment: evil
   stats: 7
   skillLevels:
     Mace: 1
@@ -500,7 +493,7 @@
   skillOnKill: 7
 
   cr: -5
-  
+
   mp:
     min: 500
     max: 600
@@ -515,9 +508,9 @@
       rightHand: Rylt Renegade Mace
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
 
   drops:
@@ -533,7 +526,7 @@
   affiliation: Corrupted
   baseClass: Thief
   sprite: 5
-  alignment: Evil
+  alignment: evil
   stats: 12
   skillLevels: 2
 
@@ -572,7 +565,7 @@
     equipment:
       armor: Rylt Renegade Breastplate
       waist: Tonwin Sash
-      rightHand: 
+      rightHand:
         - result: Tonwin Sword
           chance: 5
         - result: Tonwin Mace
@@ -580,13 +573,13 @@
       leftHand: Rylt Renegade Iron Shield
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: -1
 
   drops:

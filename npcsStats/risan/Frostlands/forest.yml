@@ -1,9 +1,8 @@
-
 - npcId: Risan Crazed Moose
   name: crazed moose
   sprite: 470
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   hostility: Always
   monsterClass: Beast
   monsterGroup: Moose
@@ -37,7 +36,7 @@
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
+        damageType: "physical"
 
   traitLevels:
     StunningFist: 10

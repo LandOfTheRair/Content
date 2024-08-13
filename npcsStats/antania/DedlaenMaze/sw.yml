@@ -1,11 +1,10 @@
-
 - npcId: Dedlaen Mummy
   name: mummy
   hostility: Always
   monsterClass: Undead
   monsterGroup: Undead
   sprite: 155
-  alignment: Evil
+  alignment: evil
   stats: 12
   skillLevels: 3
   level: 13
@@ -17,7 +16,7 @@
     accuracy: 4
     offense: 4
     perception: 7
-    
+
   cr: -5
 
   items:
@@ -29,15 +28,15 @@
     - name: Attribute
       extra:
         potency: 1.5
-        damageType: 'fire'
+        damageType: "fire"
 
     - name: Attribute
       extra:
         potency: 0.5
-        damageType: 'physical'
+        damageType: "physical"
 
   copyDrops:
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
 
   drops:
@@ -51,7 +50,7 @@
   monsterClass: Undead
   monsterGroup: Undead
   sprite: 305
-  alignment: Evil
+  alignment: evil
   stats: 14
   skillLevels: 3
   level: 15
@@ -66,7 +65,7 @@
 
   usableSkills:
     - DoubleAttack
-    
+
   cr: -5
 
   items:
@@ -80,7 +79,7 @@
   monsterGroup: Undead
   sprite: 970
   baseClass: Mage
-  alignment: Evil
+  alignment: evil
   stats: 14
   skillLevels: 3
   level: 15
@@ -93,7 +92,7 @@
     offense: 2
     perception: 10
     mpregen: 0
-    
+
   cr: 0
 
   usableSkills:
@@ -114,7 +113,7 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'physical'
+        damageType: "physical"
 
   items:
     equipment:
@@ -127,7 +126,7 @@
   monsterGroup: Undead
   sprite: 300
   baseClass: Mage
-  alignment: Evil
+  alignment: evil
   stats: 14
   skillLevels: 4
   level: 18
@@ -150,7 +149,7 @@
     - MagicBolt
     - Asper
     - GhostWail
-    
+
   cr: -5
 
   gold:
@@ -186,23 +185,23 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'physical'
+        damageType: "physical"
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'magical'
+        damageType: "magical"
 
   triggers:
     leash:
       messages:
         - "the cry of a spectral horror"
-      sfx: 
+      sfx:
         name: "monster-ghost"
         maxChance: 1
     spawn:
       messages:
         - "the cry of a spectral horror"
-      sfx: 
+      sfx:
         name: "monster-ghost"
         maxChance: 1
 
@@ -212,7 +211,7 @@
   monsterClass: Undead
   monsterGroup: Undead
   sprite: 305
-  alignment: Evil
+  alignment: evil
   stats: 14
   skillLevels: 3
   level: 19
@@ -230,7 +229,7 @@
 
   usableSkills:
     - DoubleAttack
-    
+
   cr: -5
 
   gold:
@@ -252,9 +251,9 @@
       chance: -1
 
   copyDrops:
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-      
+
   traitLevels:
     InternalFortitude: 5
 
@@ -268,14 +267,14 @@
     - name: Attribute
       extra:
         potency: 0
-        damageType: 'necrotic'
+        damageType: "necrotic"
 
 - npcId: Dedlaen Revenant
   name: revenant
   hostility: Always
   monsterGroup: Undead
   sprite: 945
-  alignment: Evil
+  alignment: evil
   stats: 17
   skillLevels: 8
 
@@ -291,7 +290,7 @@
     perception: 8
 
   skillOnKill: 25
-    
+
   cr: -6
 
   gold:
@@ -312,7 +311,7 @@
     - name: Attribute
       extra:
         potency: 0.75
-        damageType: 'physical'
+        damageType: "physical"
 
   items:
     equipment:
@@ -324,9 +323,9 @@
         - Maze Revenant Halberd
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
 
 - npcId: Dedlaen Deathless
@@ -335,7 +334,7 @@
   monsterClass: Undead
   monsterGroup: Undead
   sprite: 155
-  alignment: Evil
+  alignment: evil
   stats: 16
   skillLevels: 4
   level: 15
@@ -347,7 +346,7 @@
     accuracy: 4
     offense: 4
     perception: 7
-    
+
   cr: -5
 
   items:
@@ -359,15 +358,15 @@
     - name: Attribute
       extra:
         potency: 1.5
-        damageType: 'fire'
+        damageType: "fire"
 
     - name: Attribute
       extra:
         potency: 0.5
-        damageType: 'physical'
+        damageType: "physical"
 
   copyDrops:
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
 
   drops:

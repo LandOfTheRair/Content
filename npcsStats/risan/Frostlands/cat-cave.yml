@@ -1,9 +1,8 @@
-
 - npcId: Frostlands Sabretooth
   name: sabretooth
   sprite: 265
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   hostility: Always
   monsterClass: Beast
   monsterGroup: Snake
@@ -39,11 +38,11 @@
     - name: Attribute
       extra:
         potency: 1.25
-        damageType: 'fire'
+        damageType: "fire"
     - name: Attribute
       extra:
         potency: 0.25
-        damageType: 'ice'
+        damageType: "ice"
 
   cr: -9
 
@@ -72,7 +71,7 @@
   name: Frostfang
   sprite: 265
   allegiance: Enemy
-  alignment: Evil
+  alignment: evil
   hostility: Always
   monsterClass: Beast
   monsterGroup: Snake
@@ -113,11 +112,11 @@
     - name: Attribute
       extra:
         potency: 1.5
-        damageType: 'fire'
+        damageType: "fire"
     - name: Attribute
       extra:
         potency: 0.25
-        damageType: 'ice'
+        damageType: "ice"
 
   cr: -9
 

@@ -1,11 +1,10 @@
-
 - npcId: Crazed Heniz Mage
   name: crazed mage
   monsterClass: Humanoid
   monsterGroup: Crazed
   hostility: Always
   sprite: 545
-  alignment: Evil
+  alignment: evil
   baseClass: Mage
   stats: 7
   otherStats:
@@ -20,7 +19,7 @@
     Royalty: -101
 
   skillOnKill: 11
-    
+
   cr: -3
 
   mp:
@@ -69,15 +68,15 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
 
 - npcId: Crazed Heniz Thief
@@ -86,7 +85,7 @@
   monsterGroup: Crazed
   hostility: Always
   sprite: 585
-  alignment: Evil
+  alignment: evil
   baseClass: Thief
   stats: 7
   otherStats:
@@ -100,7 +99,7 @@
     Royalty: -101
 
   skillOnKill: 11
-    
+
   cr: -3
 
   repMod:
@@ -161,19 +160,19 @@
       chance: 5
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.wrists'
+    - result: "equipment.wrists"
       chance: -1
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: -1
-    - result: 'equipment.ammo'
+    - result: "equipment.ammo"
       chance: -1
 
 - npcId: Crazed Steffen Warrior
@@ -182,7 +181,7 @@
   monsterGroup: Crazed
   hostility: Always
   sprite: 590
-  alignment: Good
+  alignment: good
   baseClass: Warrior
   stats: 7
   otherStats:
@@ -199,7 +198,7 @@
     Pirates: -101
 
   skillOnKill: 11
-    
+
   cr: -3
 
   usableSkills:
@@ -256,21 +255,21 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.ring2'
+    - result: "equipment.ring2"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
 
 - npcId: Crazed Steffen Healer
@@ -279,7 +278,7 @@
   monsterGroup: Crazed
   hostility: Always
   sprite: 550
-  alignment: Good
+  alignment: good
   baseClass: Healer
   stats: 7
   otherStats:
@@ -294,7 +293,7 @@
     Pirates: -101
 
   skillOnKill: 11
-    
+
   cr: -3
 
   mp:
@@ -344,19 +343,19 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.ring2'
+    - result: "equipment.ring2"
       chance: -1
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: -1
 
 - npcId: Crazed Mummy
@@ -378,7 +377,7 @@
     Royalty: -101
 
   skillOnKill: 9
-    
+
   cr: -3
 
   repMod:
@@ -387,17 +386,16 @@
     - allegiance: Royalty
       delta: 1
 
-
   baseEffects:
     - name: Attribute
       extra:
         potency: 1.5
-        damageType: 'fire'
+        damageType: "fire"
 
     - name: Attribute
       extra:
-        potency: 0.5 
-        damageType: 'physical'
+        potency: 0.5
+        damageType: "physical"
 
   items:
     equipment:
@@ -445,11 +443,11 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
 
 - npcId: Insane Heniz Mage
@@ -469,7 +467,7 @@
   level: 8
 
   skillOnKill: 15
-    
+
   cr: -3
 
   mp:
@@ -487,7 +485,6 @@
 
   items:
     equipment:
-
       rightHand:
         - result: Antanian Staff
           chance: 30
@@ -562,29 +559,29 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.ring2'
+    - result: "equipment.ring2"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-    - result: 'equipment.wrists'
+    - result: "equipment.wrists"
       chance: -1
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: -1
 
 - npcId: Insane Heniz Thief
@@ -593,7 +590,7 @@
   monsterGroup: Crazed
   hostility: Always
   sprite: 585
-  alignment: Evil
+  alignment: evil
   baseClass: Thief
   stats: 10
   skillLevels: 3
@@ -620,7 +617,7 @@
       chance: 5
 
   skillOnKill: 15
-    
+
   cr: -5
 
   repMod:
@@ -629,7 +626,6 @@
 
   items:
     equipment:
-
       rightHand:
         - result: Antanian Dagger
           chance: 30
@@ -732,31 +728,31 @@
         maxChance: 100
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.ring2'
+    - result: "equipment.ring2"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-    - result: 'equipment.wrists'
+    - result: "equipment.wrists"
       chance: -1
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: -1
-    - result: 'equipment.ammo'
+    - result: "equipment.ammo"
       chance: -1
 
 - npcId: Insane Steffen Warrior
@@ -778,7 +774,7 @@
   level: 8
 
   skillOnKill: 15
-    
+
   cr: -5
 
   usableSkills:
@@ -787,7 +783,6 @@
 
   items:
     equipment:
-
       rightHand:
         - result: Antanian Greatmace
           chance: 30
@@ -865,29 +860,29 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.ring2'
+    - result: "equipment.ring2"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-    - result: 'equipment.wrists'
+    - result: "equipment.wrists"
       chance: -1
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: -1
 
 - npcId: Insane Steffen Healer
@@ -906,7 +901,7 @@
   level: 8
 
   skillOnKill: 15
-    
+
   cr: -3
 
   mp:
@@ -924,7 +919,6 @@
 
   items:
     equipment:
-
       rightHand:
         - result: Antanian Mace
           chance: 30
@@ -989,29 +983,29 @@
           chance: 1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.leftHand'
+    - result: "equipment.leftHand"
       chance: -1
-    - result: 'equipment.armor'
+    - result: "equipment.armor"
       chance: -1
-    - result: 'equipment.robe2'
+    - result: "equipment.robe2"
       chance: -1
-    - result: 'equipment.ring1'
+    - result: "equipment.ring1"
       chance: -1
-    - result: 'equipment.ring2'
+    - result: "equipment.ring2"
       chance: -1
-    - result: 'equipment.head'
+    - result: "equipment.head"
       chance: -1
-    - result: 'equipment.neck'
+    - result: "equipment.neck"
       chance: -1
-    - result: 'equipment.feet'
+    - result: "equipment.feet"
       chance: -1
-    - result: 'equipment.hands'
+    - result: "equipment.hands"
       chance: -1
-    - result: 'equipment.wrists'
+    - result: "equipment.wrists"
       chance: -1
-    - result: 'equipment.waist'
+    - result: "equipment.waist"
       chance: -1
 
 - npcId: Ranata
@@ -1030,7 +1024,7 @@
   level: 15
 
   skillOnKill: 25
-    
+
   cr: 0
 
   gold:
@@ -1076,9 +1070,9 @@
       chance: -1
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
 
   baseEffects:
@@ -1108,7 +1102,7 @@
   level: 15
 
   skillOnKill: 25
-    
+
   cr: 0
 
   gold:
@@ -1179,7 +1173,7 @@
         - "FOR THE KING!"
 
   copyDrops:
-    - result: 'equipment.rightHand'
+    - result: "equipment.rightHand"
       chance: -1
-    - result: 'equipment.robe1'
+    - result: "equipment.robe1"
       chance: -1
