@@ -94,8 +94,8 @@
 - name: Enemy Medium FireMist Thief Trap
   sprite: 1024
   desc: "a trap imbued with the spell Fire Mist"
+  trapUses: 3
   trapEffect:
-    uses: 3
     name: FireMist
     potency: 35
     range: 1
@@ -105,8 +105,8 @@
 - name: Enemy Medium IceMist Thief Trap
   sprite: 1027
   desc: "a trap imbued with the spell Ice Mist"
+  trapUses: 3
   trapEffect:
-    uses: 3
     name: IceMist
     potency: 35
     range: 1
@@ -116,8 +116,8 @@
 - name: Enemy Medium Poison Thief Trap
   sprite: 1028
   desc: "a trap imbued with the spell Poison"
+  trapUses: 3
   trapEffect:
-    uses: 3
     name: Poison
     potency: 15
   value: 3000
@@ -126,8 +126,8 @@
 - name: Enemy Medium HolyFire Thief Trap
   sprite: 1025
   desc: "a trap imbued with the spell Holy Fire"
+  trapUses: 3
   trapEffect:
-    uses: 3
     name: HolyFire
     potency: 35
   value: 3000
@@ -136,8 +136,8 @@
 - name: Enemy Medium MagicBolt Thief Trap
   sprite: 1025
   desc: "a trap imbued with the spell Magic Bolt"
+  trapUses: 3
   trapEffect:
-    uses: 3
     name: MagicBolt
     potency: 35
   value: 3000
@@ -146,8 +146,8 @@
 - name: Enemy Medium Distraction Thief Trap
   sprite: 334
   desc: "a trap imbued with the spell Distraction"
+  trapUses: 3
   trapEffect:
-    uses: 3
     name: FindFamiliarDistraction
     potency: 30
   value: 3500
@@ -156,8 +156,8 @@
 - name: Enemy Medium Haste Thief Trap
   sprite: 334
   desc: "a trap imbued with the spell Haste"
+  trapUses: 3
   trapEffect:
-    uses: 3
     name: Haste
     potency: 30
     extra:
@@ -168,8 +168,8 @@
 - name: Enemy Medium Darkness Thief Trap
   sprite: 1025
   desc: "a trap imbued with the spell Darkness"
+  trapUses: 3
   trapEffect:
-    uses: 3
     name: Darkness
     potency: 35
     range: 1
@@ -179,8 +179,8 @@
 - name: Enemy Medium Snare Thief Trap
   sprite: 1028
   desc: "a trap imbued with the spell Snare"
+  trapUses: 3
   trapEffect:
-    uses: 3
     name: Snare
     potency: 20
   value: 4000
@@ -189,8 +189,8 @@
 - name: Enemy Medium Stun Thief Trap
   sprite: 1028
   desc: "a trap imbued with the spell Stun"
+  trapUses: 3
   trapEffect:
-    uses: 3
     name: Stun
     potency: 20
   value: 4000
@@ -199,8 +199,8 @@
 - name: Enemy Medium Blind Thief Trap
   sprite: 1028
   desc: "a trap imbued with the spell Blind"
+  trapUses: 3
   trapEffect:
-    uses: 3
     name: Blind
     potency: 20
   value: 4000
@@ -209,8 +209,8 @@
 - name: Enemy Medium Dispel Thief Trap
   sprite: 1028
   desc: "a trap imbued with the spell Dispel"
+  trapUses: 3
   trapEffect:
-    uses: 5
     name: Dispel
     potency: 30
   value: 4000

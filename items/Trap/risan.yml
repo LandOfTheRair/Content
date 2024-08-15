@@ -3,7 +3,6 @@
   desc: "a trap imbued with the spell Fire Mist"
   trapUses: 10
   trapEffect:
-    uses: 3
     name: FireMist
     potency: 600
     range: 1
@@ -18,7 +17,6 @@
   desc: "a trap imbued with the spell Ice Mist"
   trapUses: 10
   trapEffect:
-    uses: 3
     name: IceMist
     potency: 600
     range: 1
@@ -33,7 +31,6 @@
   desc: "a trap imbued with the spell Poison"
   trapUses: 10
   trapEffect:
-    uses: 3
     name: Poison
     potency: 300
   value: 3000
@@ -47,7 +44,6 @@
   desc: "a trap imbued with the spell Holy Fire"
   trapUses: 10
   trapEffect:
-    uses: 3
     name: HolyFire
     potency: 600
   value: 3000
@@ -61,7 +57,6 @@
   desc: "a trap imbued with the spell Magic Bolt"
   trapUses: 10
   trapEffect:
-    uses: 3
     name: MagicBolt
     potency: 600
   value: 3000
@@ -75,7 +70,6 @@
   desc: "a trap imbued with the spell Distraction"
   trapUses: 10
   trapEffect:
-    uses: 3
     name: FindFamiliarDistraction
     potency: 30
     extra:
@@ -91,7 +85,6 @@
   desc: "a trap imbued with the spell Darkness"
   trapUses: 10
   trapEffect:
-    uses: 3
     name: Darkness
     potency: 35
     range: 1
@@ -106,7 +99,6 @@
   desc: "a trap imbued with the spell Snare"
   trapUses: 10
   trapEffect:
-    uses: 3
     name: Snare
     potency: 30
   value: 4000
@@ -120,7 +112,6 @@
   desc: "a trap imbued with the spell Stun"
   trapUses: 10
   trapEffect:
-    uses: 3
     name: Stun
     potency: 35
   value: 4000
@@ -134,7 +125,6 @@
   desc: "a trap imbued with the spell Blind"
   trapUses: 10
   trapEffect:
-    uses: 3
     name: Blind
     potency: 35
   value: 4000
@@ -148,7 +138,6 @@
   desc: "a trap imbued with the spell Cure"
   trapUses: 10
   trapEffect:
-    uses: 5
     name: Cure
     potency: 1000
     extra:
@@ -164,7 +153,6 @@
   desc: "a trap imbued with the spell Dispel"
   trapUses: 5
   trapEffect:
-    uses: 5
     name: Dispel
     potency: 30
   value: 4000
