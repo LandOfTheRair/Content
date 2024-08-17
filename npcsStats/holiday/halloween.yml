@@ -295,6 +295,7 @@
       extra:
         potency: 100
     - name: Attribute
+      endsAt: -1
       extra:
         potency: 0
         damageType: "necrotic"

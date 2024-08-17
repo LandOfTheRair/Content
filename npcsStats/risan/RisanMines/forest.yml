@@ -338,8 +338,6 @@
       chance: 100
     - result: Hide
       chance: 100
-    - result: Identify
-      chance: 0
     - result: Transmute
       chance: 1
 
@@ -450,8 +448,6 @@
       chance: 100
     - result: Hide
       chance: 100
-    - result: Identify
-      chance: 0
     - result: Transmute
       chance: 1
 

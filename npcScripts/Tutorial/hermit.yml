@@ -1,4 +1,3 @@
-
 tag: Tutorial Hermit
 name: Hermit
 hostility: Never
@@ -16,6 +15,8 @@ usableSkills:
 baseEffects:
   - name: TrueSight
     endsAt: -1
+  - name: Invulnerable
+    endsAt: -1
 
 items:
   equipment:
@@ -24,16 +25,15 @@ items:
     armor: Antanian Tunic
 
 dialog:
-  keyword:  # may be superfluous, not sure yet
-
+  keyword: # may be superfluous, not sure yet
     hello:
       actions:
         - type: checkItem
           fromHands: true
-          slot:    # priority - if right hand matches, then right hand. otherwise, check left hand. otherwise, check fails
+          slot: # priority - if right hand matches, then right hand. otherwise, check left hand. otherwise, check fails
             - rightHand
             - leftHand
-          item: 
+          item:
             name: Tutorial Yeti Skull
             amount: 1 # implied
 
@@ -82,7 +82,7 @@ dialog:
           maxDistance: 0
           message: >
             Yes, I can help you, and you can help me. If you kill the nearby YETI and bring me his SKULL - just hold it in your right hand. 
-            If ya do that, I can give you a REWARD that will help you out there. I can also help you find the PROFESSION trainers. 
+            If ya do that, I can give you a REWARD that will help you out there. I can also help you find the PROFESSION trainers.
 
           options:
             - text: What yeti?
@@ -106,7 +106,7 @@ dialog:
           maxDistance: 0
           message: >
             Yes, yes. There is a yeti in the forest to the east. He plagues this small town, and no one would miss him if he were to, erm, expire. 
-            You may want to dedicate to a PROFESSION before taking him on, though. 
+            You may want to dedicate to a PROFESSION before taking him on, though.
 
           options:
             - text: A profession?
