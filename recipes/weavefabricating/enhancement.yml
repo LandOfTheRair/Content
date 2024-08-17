@@ -188,9 +188,9 @@
   maxSkillForGains: 13
   requireSkill: 11
   xpGained: 5000
-  transferOwnerFrom: Yzalt Risan Cloak
+  transferOwnerFrom: Risan Cloak
   ingredients:
-    - Yzalt Risan Cloak
+    - Risan Cloak
   ozIngredients:
     - filter: String - Fiber
       display: String - Fiber
