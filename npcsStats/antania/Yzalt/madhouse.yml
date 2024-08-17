@@ -462,7 +462,6 @@
     - Steal
     - DarkVision
     - Darkness
-    - EagleEye
 
   baseEffects:
     - name: DarkVision
