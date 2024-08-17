@@ -45,7 +45,7 @@
     str: 0.3
 
   summonSkillModifiers:
-    Martial: 0.5
+    martial: 0.5
 
   noCorpseDrop: true
 
@@ -132,7 +132,7 @@
     int: 1
 
   summonSkillModifiers:
-    Conjuration: 0.3
+    conjuration: 0.3
 
   noCorpseDrop: true
 
@@ -178,7 +178,7 @@
     str: 1.5
 
   summonSkillModifiers:
-    Martial: 0.5
+    martial: 0.5
 
   noCorpseDrop: true
 
