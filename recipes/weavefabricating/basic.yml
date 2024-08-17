@@ -73,7 +73,7 @@
   requireSkill: 10
   xpGained: 5000
   ingredients:
-    - Antanian Leather Cloak
+    - Antanian Cloak
     - Weak BarFire Potion
     - Weak BarFrost Potion
   ozIngredients:
@@ -95,7 +95,7 @@
   requireSkill: 11
   xpGained: 5000
   ingredients:
-    - Antanian Leather Cloak
+    - Antanian Cloak
     - Weak BarNecro Potion
   ozIngredients:
     - filter: String - Spell
@@ -204,7 +204,7 @@
   requireSkill: 13
   xpGained: 5000
   ingredients:
-    - Antanian Leather Cloak
+    - Antanian Cloak
     - Medium BarFrost Potion
     - Medium BarFire Potion
   ozIngredients:
@@ -226,7 +226,7 @@
   requireSkill: 14
   xpGained: 5000
   ingredients:
-    - Antanian Leather Cloak
+    - Antanian Cloak
     - Medium BarNecro Potion
   ozIngredients:
     - filter: String - Spell
@@ -344,7 +344,7 @@
   requireSkill: 16
   xpGained: 5000
   ingredients:
-    - Antanian Leather Cloak
+    - Antanian Cloak
     - Risan Ice Prot Crystal
     - Risan Fire Prot Crystal
   ozIngredients:
@@ -366,7 +366,7 @@
   requireSkill: 17
   xpGained: 5000
   ingredients:
-    - Antanian Leather Cloak
+    - Antanian Cloak
     - Risan Necrotic Prot Crystal
     - Risan Energy Prot Crystal
   ozIngredients:

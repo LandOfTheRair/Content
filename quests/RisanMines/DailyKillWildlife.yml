@@ -1,4 +1,3 @@
-
 name: Kill Wildlife (Daily)
 desc: Kill wildlife in the mines forest and report back to Interim Overseer Yelak when you've slain 15.
 giver: Yelak
@@ -10,7 +9,7 @@ requirements:
   killsRequired: 15
   npcIds:
     - Risan Crazed Deer
-    - Risan Crazed bear
+    - Risan Crazed Bear
     - Risan Crazed Wolf
 
 messages:
@@ -30,4 +29,4 @@ rewards:
     value: 5
 
   - type: holidayTokens
-    value: 30     # only granted if a holiday is going on
+    value: 30 # only granted if a holiday is going on

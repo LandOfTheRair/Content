@@ -218,15 +218,15 @@
 
       hands: Frostlands Frostgolem Gloves
 
-    rightHand: Frostlands Brigand Flail
+      rightHand: Frostlands Brigand Flail
 
-    leftHand:
-      - result: none
-        chance: 10000
-      - result: Frostlands Shield
-        chance: 1000
-      - result: Frostlands Royal Shield
-        chance: 1
+      leftHand:
+        - result: none
+          chance: 10000
+        - result: Frostlands Shield
+          chance: 1000
+        - result: Frostlands Royal Shield
+          chance: 1
 
   copyDrops:
     - result: "equipment.armor"

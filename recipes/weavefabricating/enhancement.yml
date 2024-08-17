@@ -1,4 +1,3 @@
-
 - item: Antanian Leather Boots (Stitched)
   name: Stitched Leather Boots
   category: Upgrades
@@ -191,7 +190,7 @@
   xpGained: 5000
   transferOwnerFrom: Yzalt Risan Cloak
   ingredients:
-    - Risan Cloak
+    - Yzalt Risan Cloak
   ozIngredients:
     - filter: String - Fiber
       display: String - Fiber

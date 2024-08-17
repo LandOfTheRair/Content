@@ -1,8 +1,4 @@
-
-
-const conditionallyAddInformation = (recipe) => {
-  if(!recipe.requiredSkill) recipe.requiredSkill = 0;
-};
+const conditionallyAddInformation = (recipe) => {};
 
 module.exports.fillInProperties = (recipe) => {
   conditionallyAddInformation(recipe);

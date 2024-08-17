@@ -1,7 +1,6 @@
-
 # Traveller
 
-- item: Crafted Fate Scroll
+- item: Fate Scroll
   name: Fate Scroll
   category: Spell Scrolls
   skillGained: 3
