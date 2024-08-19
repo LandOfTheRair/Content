@@ -1,9 +1,0 @@
-- name: Blindfold
-
-  equipEffect:
-    name: Blind
-    potency: 1
-
-  sprite: 236
-  desc: "a simple blindfold"
-  value: 1
