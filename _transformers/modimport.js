@@ -1,8 +1,5 @@
 const fs = require("fs-extra");
 
-// droptable-maps.json (only regions)
-// droptable-regions.json (only maps, global appended)
-
 function toHash(arr, indexProp) {
   return arr.reduce(
     (prev, cur) => ({
