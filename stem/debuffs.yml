@@ -1,6 +1,4 @@
-
 Poison:
-
   # global info
   all:
     desc: "Poison a single target. Cost: 25 MP."
@@ -8,7 +6,7 @@ Poison:
     color: "#0a0"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: necrotic
     mpCost: 25
     maxSkillForGain: 20
@@ -16,8 +14,8 @@ Poison:
     willSaveThreshold: 15
     willSavePercent: 50
     skillMultiplierChanges:
-      - [0,  1]
-      - [6,  1.25]
+      - [0, 1]
+      - [6, 1.25]
       - [11, 1.5]
       - [16, 1.75]
       - [21, 2]
@@ -36,24 +34,23 @@ Poison:
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      desc: 'You are poisoned, and continually taking damage.'
+      desc: "You are poisoned, and continually taking damage."
     effect:
       type: debuff
       duration: 0
     effectMeta:
       effectRef: Poison
-      castSfx: 'spell-debuff-give'
-      applySfx: 'spell-debuff-receive'
-      castMessage: 'You poisoned %target.'
+      castSfx: "spell-debuff-give"
+      applySfx: "spell-debuff-receive"
+      castMessage: "You poisoned %target."
       applyMessage: "You've been poisoned!"
-      unapplyMessage: 'You are no longer poisoned.'
+      unapplyMessage: "You are no longer poisoned."
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: "clickToTarget"
 
 Venom:
-
   # global info
   all:
     desc: "Inflict venom on a single target. Cost: 30 MP."
@@ -61,7 +58,7 @@ Venom:
     color: "#0a0"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: necrotic
     mpCost: 30
     maxSkillForGain: 20
@@ -69,8 +66,8 @@ Venom:
     willSaveThreshold: 20
     willSavePercent: 33
     skillMultiplierChanges:
-      - [0,  1]
-      - [6,  1.5]
+      - [0, 1]
+      - [6, 1.5]
       - [11, 2]
       - [16, 2.5]
       - [21, 3]
@@ -89,24 +86,23 @@ Venom:
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      desc: 'You are envenomed, and continually taking damage.'
+      desc: "You are envenomed, and continually taking damage."
     effect:
       type: debuff
       duration: 0
     effectMeta:
       effectRef: Venom
-      castSfx: 'spell-debuff-give'
-      applySfx: 'spell-debuff-receive'
-      castMessage: 'You cast a deadly venom on %target.'
+      castSfx: "spell-debuff-give"
+      applySfx: "spell-debuff-receive"
+      castMessage: "You cast a deadly venom on %target."
       applyMessage: "You feel a deadly venom coursing through your veins!"
-      unapplyMessage: 'You are no longer envenomed.'
+      unapplyMessage: "You are no longer envenomed."
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: "clickToTarget"
 
 Disease:
-
   # global info
   all:
     desc: "Inflict disease on a single target. Cost: 25 MP."
@@ -114,7 +110,7 @@ Disease:
     color: "#0c0"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: disease
     mpCost: 25
     maxSkillForGain: 20
@@ -122,8 +118,8 @@ Disease:
     willSaveThreshold: 15
     willSavePercent: 50
     skillMultiplierChanges:
-      - [0,  2]
-      - [6,  3]
+      - [0, 2]
+      - [6, 3]
       - [11, 4]
       - [16, 7]
       - [21, 10]
@@ -142,24 +138,23 @@ Disease:
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      desc: 'You are diseased, and continually taking damage.'
+      desc: "You are diseased, and continually taking damage."
     effect:
       type: debuff
       duration: 0
     effectMeta:
       effectRef: Disease
-      castSfx: 'spell-debuff-give'
-      applySfx: 'spell-debuff-receive'
-      castMessage: 'You diseased %target.'
+      castSfx: "spell-debuff-give"
+      applySfx: "spell-debuff-receive"
+      castMessage: "You diseased %target."
       applyMessage: "You've been diseased!"
-      unapplyMessage: 'You are no longer diseased.'
+      unapplyMessage: "You are no longer diseased."
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: "clickToTarget"
 
 Plague:
-
   # global info
   all:
     desc: "Inflict plague on a single target. Cost: 15 MP."
@@ -167,7 +162,7 @@ Plague:
     color: "#0c0"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: disease
     mpCost: 15
     maxSkillForGain: 20
@@ -175,8 +170,8 @@ Plague:
     willSaveThreshold: 15
     willSavePercent: 50
     skillMultiplierChanges:
-      - [0,  2]
-      - [6,  3]
+      - [0, 2]
+      - [6, 3]
       - [11, 4]
       - [16, 7]
       - [21, 10]
@@ -195,24 +190,23 @@ Plague:
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      desc: 'You are diseased, and continually taking damage.'
+      desc: "You are diseased, and continually taking damage."
     effect:
       type: debuff
       duration: 0
     effectMeta:
       effectRef: Plague
-      castSfx: 'spell-debuff-give'
-      applySfx: 'spell-debuff-receive'
-      castMessage: 'You plagued %target.'
+      castSfx: "spell-debuff-give"
+      applySfx: "spell-debuff-receive"
+      castMessage: "You plagued %target."
       applyMessage: "You've been plagued!"
-      unapplyMessage: 'You are no longer plagued.'
+      unapplyMessage: "You are no longer plagued."
 
   # macro info
   macro:
-    mode: 'clickToTarget'
-    
-Stun:
+    mode: "clickToTarget"
 
+Stun:
   # global info
   all:
     desc: "Stun a single target. Cost: 25 MP."
@@ -220,7 +214,7 @@ Stun:
     color: "#990"
 
   # spell cast info
-  spell: 
+  spell:
     mpCost: 25
     maxSkillForGain: 20
 
@@ -237,7 +231,7 @@ Stun:
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      desc: 'You are stunned, and cannot act.'
+      desc: "You are stunned, and cannot act."
     effect:
       type: debuff
       duration: 0
@@ -245,18 +239,17 @@ Stun:
       effectRef: Stun
       recentlyRef: RecentlyStunned
       noStack: true
-      castSfx: 'spell-debuff-give'
-      applySfx: 'spell-debuff-receive'
-      castMessage: 'You stunned %target.'
+      castSfx: "spell-debuff-give"
+      applySfx: "spell-debuff-receive"
+      castMessage: "You stunned %target."
       applyMessage: "You've been stunned!"
-      unapplyMessage: 'You are no longer stunned.'
+      unapplyMessage: "You are no longer stunned."
 
   # macro info
   macro:
-    mode: 'clickToTarget'
-    
-Snare:
+    mode: "clickToTarget"
 
+Snare:
   # global info
   all:
     desc: "Snare a single target. Cost: 25 MP."
@@ -264,7 +257,7 @@ Snare:
     color: "#0a0"
 
   # spell cast info
-  spell: 
+  spell:
     mpCost: 25
     maxSkillForGain: 15
 
@@ -281,25 +274,24 @@ Snare:
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      desc: 'You are snared, and cannot move.'
+      desc: "You are snared, and cannot move."
     effect:
       type: debuff
       duration: 0
     effectMeta:
       effectRef: Snare
       recentlyRef: RecentlySnared
-      castSfx: 'spell-debuff-give'
-      applySfx: 'spell-debuff-receive'
-      castMessage: 'You snared %target.'
+      castSfx: "spell-debuff-give"
+      applySfx: "spell-debuff-receive"
+      castMessage: "You snared %target."
       applyMessage: "You've been snared!"
-      unapplyMessage: 'You are no longer snared.'
+      unapplyMessage: "You are no longer snared."
 
   # macro info
   macro:
-    mode: 'clickToTarget'
-    
-Daze:
+    mode: "clickToTarget"
 
+Daze:
   # global info
   all:
     desc: "Daze a single target. Cost: 25 MP."
@@ -307,7 +299,7 @@ Daze:
     color: "#0aa"
 
   # spell cast info
-  spell: 
+  spell:
     mpCost: 25
     maxSkillForGain: 15
 
@@ -324,25 +316,24 @@ Daze:
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      desc: 'You are dazed. Spellcasting proficiency lowered.'
+      desc: "You are dazed. Spellcasting proficiency lowered."
     effect:
       type: debuff
       duration: 0
     effectMeta:
       effectRef: Daze
       recentlyRef: RecentlyDazed
-      castSfx: 'spell-debuff-give'
-      applySfx: 'spell-debuff-receive'
-      castMessage: 'You dazed %target.'
+      castSfx: "spell-debuff-give"
+      applySfx: "spell-debuff-receive"
+      castMessage: "You dazed %target."
       applyMessage: "You've been dazed!"
-      unapplyMessage: 'You are no longer dazed.'
+      unapplyMessage: "You are no longer dazed."
 
   # macro info
   macro:
-    mode: 'clickToTarget'
-    
-Blind:
+    mode: "clickToTarget"
 
+Blind:
   # global info
   all:
     desc: "Blind a single target. Cost: 25 MP."
@@ -350,7 +341,7 @@ Blind:
     color: "#900"
 
   # spell cast info
-  spell: 
+  spell:
     mpCost: 25
     maxSkillForGain: 15
 
@@ -367,25 +358,24 @@ Blind:
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      desc: 'You are blinded and cannot see.'
+      desc: "You are blinded and cannot see."
     effect:
       type: debuff
       duration: 0
     effectMeta:
       effectRef: Blind
       recentlyRef: RecentlyBlinded
-      castSfx: 'spell-debuff-give'
-      applySfx: 'spell-debuff-receive'
-      castMessage: 'You blinded %target.'
+      castSfx: "spell-debuff-give"
+      applySfx: "spell-debuff-receive"
+      castMessage: "You blinded %target."
       applyMessage: "You've been blinded!"
-      unapplyMessage: 'You are no longer blinded.'
+      unapplyMessage: "You are no longer blinded."
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: "clickToTarget"
 
 Debilitate:
-
   # global info
   all:
     desc: "Make all hidden attacks against your target count as backstabs. Cost: 100 MP"
@@ -393,11 +383,11 @@ Debilitate:
     color: "#a00"
 
   # spell cast info
-  spell: 
+  spell:
     mpCost: 100
     maxSkillForGain: 15
     skillMultiplierChanges:
-      - [0,  1]
+      - [0, 1]
       - [11, 1]
       - [21, 1]
       - [41, 2]
@@ -408,20 +398,19 @@ Debilitate:
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      desc: 'All attacks count as backstabs.'
+      desc: "All attacks count as backstabs."
     effect:
       type: debuff
       duration: 15
       extra:
-        canRemove: true
         unique: true
     effectMeta:
       recentlyRef: RecentlyDebilitated
-      castSfx: 'spell-debuff-physical'
-      applySfx: 'spell-debuff-physical'
-      castMessage: 'You cast Debilitate on %target.'
-      applyMessage: 'You see daggers in every corner of your eyes!'
-      unapplyMessage: 'Your paranoia fades.'
+      castSfx: "spell-debuff-physical"
+      applySfx: "spell-debuff-physical"
+      castMessage: "You cast Debilitate on %target."
+      applyMessage: "You see daggers in every corner of your eyes!"
+      unapplyMessage: "Your paranoia fades."
 
   # trait info
   trait:
@@ -429,10 +418,9 @@ Debilitate:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: "clickToTarget"
 
 Fear:
-
   # global info
   all:
     desc: "Make your target run away from you. Cost: 50 MP"
@@ -440,11 +428,11 @@ Fear:
     color: "#a00"
 
   # spell cast info
-  spell: 
+  spell:
     mpCost: 50
     maxSkillForGain: 15
     skillMultiplierChanges:
-      - [0,  1]
+      - [0, 1]
       - [11, 1]
       - [21, 1]
       - [41, 2]
@@ -456,20 +444,19 @@ Fear:
   # effect info (tooltip, duration, messages)
   effect:
     tooltip:
-      desc: 'Fleeing in terror.'
+      desc: "Fleeing in terror."
     effect:
       type: debuff
       duration: 10
       extra:
-        canRemove: true
         unique: true
     effectMeta:
       recentlyRef: RecentlyFeared
-      castSfx: 'spell-debuff-magical'
-      applySfx: 'spell-debuff-magical'
-      castMessage: 'You cast Fear on %target.'
-      applyMessage: 'You are terrified!'
-      unapplyMessage: 'You gain your resolve back.'
+      castSfx: "spell-debuff-magical"
+      applySfx: "spell-debuff-magical"
+      castMessage: "You cast Fear on %target."
+      applyMessage: "You are terrified!"
+      unapplyMessage: "You gain your resolve back."
 
   # trait info
   trait:
@@ -477,4 +464,4 @@ Fear:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: "clickToTarget"
