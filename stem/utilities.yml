@@ -1,6 +1,4 @@
-
 Identify:
-
   # global info
   all:
     desc: "Identify the attributes of the item in your right hand. Cost: 15 MP"
@@ -8,13 +6,13 @@ Identify:
     color: "#665600"
 
   # spell cast info
-  spell: 
+  spell:
     mpCost: 15
     maxSkillForGain: 5
 
     spellMeta:
-      casterMessage: 'You begin to identify the item in your right hand...'
-      casterSfx: 'spell-buff-magical'
+      casterMessage: "You begin to identify the item in your right hand..."
+      casterSfx: "spell-buff-magical"
 
   # trait info
   trait:
@@ -22,10 +20,9 @@ Identify:
 
   # macro info
   macro:
-    mode: 'autoActivate'
+    mode: "autoActivate"
 
 Foodsense:
-
   # global info
   all:
     desc: "Sense the bonuses of the food in your right hand. Cost: 15 MP"
@@ -33,13 +30,13 @@ Foodsense:
     color: "#665600"
 
   # spell cast info
-  spell: 
+  spell:
     mpCost: 15
     maxSkillForGain: 5
 
     spellMeta:
-      casterMessage: 'You begin to sense the attributes of the food in your right hand...'
-      casterSfx: 'spell-buff-magical'
+      casterMessage: "You begin to sense the attributes of the food in your right hand..."
+      casterSfx: "spell-buff-magical"
 
   # trait info
   trait:
@@ -47,10 +44,9 @@ Foodsense:
 
   # macro info
   macro:
-    mode: 'autoActivate'
+    mode: "autoActivate"
 
 Gemsense:
-
   # global info
   all:
     desc: "Sense the bonuses of the gem in your right hand. Cost: 15 MP"
@@ -58,13 +54,13 @@ Gemsense:
     color: "#665600"
 
   # spell cast info
-  spell: 
+  spell:
     mpCost: 15
     maxSkillForGain: 5
 
     spellMeta:
-      casterMessage: 'You begin to sense the attributes of the gem in your right hand...'
-      casterSfx: 'spell-buff-magical'
+      casterMessage: "You begin to sense the attributes of the gem in your right hand..."
+      casterSfx: "spell-buff-magical"
 
   # trait info
   trait:
@@ -72,10 +68,9 @@ Gemsense:
 
   # macro info
   macro:
-    mode: 'autoActivate'
+    mode: "autoActivate"
 
 Succor:
-
   # global info
   all:
     desc: "Create a consumable that will let you return to your current location. Cost: 25 MP"
@@ -83,19 +78,19 @@ Succor:
     color: "#080"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: heal
     mpCost: 25
     maxSkillForGain: 7
     skillMultiplierChanges:
-      - [0,  4]
+      - [0, 4]
       - [11, 6]
       - [21, 10]
       - [31, 15]
 
     spellMeta:
-      casterMessage: 'You begin to identify the item in your right hand...'
-      casterSfx: 'spell-conjure'
+      casterMessage: "You begin to identify the item in your right hand..."
+      casterSfx: "spell-conjure"
 
   # trait info
   trait:
@@ -103,10 +98,9 @@ Succor:
 
   # macro info
   macro:
-    mode: 'autoActivate'
+    mode: "autoActivate"
 
 Wellspring:
-
   # global info
   all:
     desc: "Create a consumable that will quell satiation. Cost: 25 MP"
@@ -114,20 +108,20 @@ Wellspring:
     color: "#080"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: heal
     mpCost: 25
     cooldown: 15
     maxSkillForGain: 7
     skillMultiplierChanges:
-      - [0,  4]
+      - [0, 4]
       - [11, 6]
       - [21, 10]
       - [31, 15]
 
     spellMeta:
-      casterMessage: 'You channel holy energy into a bottle.'
-      casterSfx: 'spell-conjure'
+      casterMessage: "You channel holy energy into a bottle."
+      casterSfx: "spell-conjure"
 
   # trait info
   trait:
@@ -135,10 +129,9 @@ Wellspring:
 
   # macro info
   macro:
-    mode: 'autoActivate'
+    mode: "autoActivate"
 
 ConjureHealing:
-
   # global info
   all:
     desc: "Create a consumable that will heal you. Cost: 25 MP"
@@ -146,20 +139,20 @@ ConjureHealing:
     color: "#080"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: heal
     mpCost: 25
     cooldown: 15
     maxSkillForGain: 7
     skillMultiplierChanges:
-      - [0,  4]
+      - [0, 4]
       - [11, 6]
       - [21, 10]
       - [31, 15]
 
     spellMeta:
-      casterMessage: 'You channel magical energy into a bottle.'
-      casterSfx: 'spell-conjure'
+      casterMessage: "You channel magical energy into a bottle."
+      casterSfx: "spell-conjure"
 
   # trait info
   trait:
@@ -169,10 +162,9 @@ ConjureHealing:
   # macro info
   macro:
     name: Conjure Healing
-    mode: 'autoActivate'
+    mode: "autoActivate"
 
 Augury:
-
   # global info
   all:
     desc: "Use the birds to divine the location of your target. Cost: 25 MP"
@@ -180,15 +172,15 @@ Augury:
     color: "#000"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: heal
     mpCost: 25
     maxSkillForGain: 15
     skillMultiplierChanges:
-      - [0,  1]
+      - [0, 1]
 
     spellMeta:
-      casterSfx: 'spell-conjure'
+      casterSfx: "spell-conjure"
 
   # trait info
   trait:
@@ -196,10 +188,9 @@ Augury:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: "clickToTarget"
 
 Push:
-
   # global info
   all:
     desc: "Push a single target around. Cost: 15 MP"
@@ -207,12 +198,12 @@ Push:
     color: "#000"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: physical
     mpCost: 15
     maxSkillForGain: 30
     skillMultiplierChanges:
-      - [0,  1]
+      - [0, 1]
 
     spellMeta:
       bonusAgro: 25
@@ -224,10 +215,9 @@ Push:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: "clickToTarget"
 
 Pull:
-
   # global info
   all:
     desc: "Pull a single target to you. Cost: 15 MP"
@@ -235,12 +225,12 @@ Pull:
     color: "#000"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: physical
     mpCost: 15
     maxSkillForGain: 30
     skillMultiplierChanges:
-      - [0,  1]
+      - [0, 1]
 
     spellMeta:
       bonusAgro: 25
@@ -252,10 +242,9 @@ Pull:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: "clickToTarget"
 
 Dispel:
-
   # global info
   all:
     desc: "Remove a buff from a target. Cost: 100 MP"
@@ -263,12 +252,12 @@ Dispel:
     color: "#000"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: physical
     mpCost: 100
     maxSkillForGain: 30
     skillMultiplierChanges:
-      - [0,  1]
+      - [0, 1]
 
     spellMeta:
       bonusAgro: 25
@@ -280,10 +269,9 @@ Dispel:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: "clickToTarget"
 
 Darkness:
-
   # global info
   all:
     desc: "Make it harder to see in a certain area. Cost: 15 MP"
@@ -291,13 +279,13 @@ Darkness:
     color: "#000"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: physical
     mpCost: 15
     maxSkillForGain: 15
     skillMultiplierChanges:
-      - [0,  1]
-      - [6,  2]
+      - [0, 1]
+      - [6, 2]
       - [11, 3]
       - [16, 4]
       - [21, 6]
@@ -315,10 +303,9 @@ Darkness:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: "clickToTarget"
 
 Light:
-
   # global info
   all:
     desc: "Remove darkness from a certain area. Cost: 15 MP"
@@ -326,15 +313,16 @@ Light:
     color: "#aa0"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: physical
     mpCost: 15
     maxSkillForGain: 15
     skillMultiplierChanges:
-      - [0,  0.5]
+      - [0, 0.5]
 
     spellMeta:
       range: 2
+      aoe: true
       allowDirectional: true
 
   # trait info
@@ -343,10 +331,9 @@ Light:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: "clickToTarget"
 
 ConjureSword:
-
   # global info
   all:
     desc: "Conjure a sword for yourself. Cost: 25 MP"
@@ -354,16 +341,16 @@ ConjureSword:
     color: "#a0a"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: heal
     mpCost: 25
     maxSkillForGain: 7
     skillMultiplierChanges:
-      - [0,  0]
+      - [0, 0]
 
     spellMeta:
-      casterMessage: 'You channel magical energy into the form of a sword.'
-      casterSfx: 'spell-conjure'
+      casterMessage: "You channel magical energy into the form of a sword."
+      casterSfx: "spell-conjure"
 
   # trait info
   trait:
@@ -373,10 +360,9 @@ ConjureSword:
   # macro info
   macro:
     name: Conjure Weapon
-    mode: 'autoActivate'
+    mode: "autoActivate"
 
 ConjureShield:
-
   # global info
   all:
     desc: "Conjure a shield for yourself. Cost: 25 MP"
@@ -384,16 +370,16 @@ ConjureShield:
     color: "#a0a"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: heal
     mpCost: 25
     maxSkillForGain: 7
     skillMultiplierChanges:
-      - [0,  0]
+      - [0, 0]
 
     spellMeta:
-      casterMessage: 'You channel magical energy into the form of a shield.'
-      casterSfx: 'spell-conjure'
+      casterMessage: "You channel magical energy into the form of a shield."
+      casterSfx: "spell-conjure"
 
   # trait info
   trait:
@@ -403,10 +389,9 @@ ConjureShield:
   # macro info
   macro:
     name: Conjure Shield
-    mode: 'autoActivate'
+    mode: "autoActivate"
 
 Teleport:
-
   # global info
   all:
     desc: "Teleport to a previously-memorized location. Memorize new locations with the memorize command and forget them with the forget command. Cost: 100 MP"
@@ -414,13 +399,13 @@ Teleport:
     color: "#a0a"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: physical
     mpCost: 100
     cooldown: 5
     maxSkillForGain: 15
     skillMultiplierChanges:
-      - [0,  1]
+      - [0, 1]
 
   # trait info
   trait:
@@ -428,10 +413,9 @@ Teleport:
 
   # macro info
   macro:
-    mode: 'autoActivate'
+    mode: "autoActivate"
 
 MassTeleport:
-
   # global info
   all:
     desc: "Teleport all players on your tile to a previously-memorized location. Memorize new locations with the memorize command and forget them with the forget command. Cost: 100 MP"
@@ -439,13 +423,13 @@ MassTeleport:
     color: "#a0a"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: physical
     mpCost: 100
     cooldown: 5
     maxSkillForGain: 15
     skillMultiplierChanges:
-      - [0,  1]
+      - [0, 1]
 
   # trait info
   trait:
@@ -455,10 +439,9 @@ MassTeleport:
   # macro info
   macro:
     name: Mass Teleport
-    mode: 'autoActivate'
+    mode: "autoActivate"
 
 Vortex:
-
   # global info
   all:
     desc: "Create a vortex which sucks in nearby items. Cost: 100 MP"
@@ -466,13 +449,13 @@ Vortex:
     color: "#333"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: physical
     mpCost: 100
     cooldown: 15
     maxSkillForGain: 15
     skillMultiplierChanges:
-      - [0,  1]
+      - [0, 1]
 
     spellMeta:
       range: 1
@@ -483,10 +466,9 @@ Vortex:
 
   # macro info
   macro:
-    mode: 'autoActivate'
+    mode: "autoActivate"
 
 Transmute:
-
   # global info
   all:
     desc: "Convert the items on the chosen tile to gold. Cost: 15 MP"
@@ -494,12 +476,12 @@ Transmute:
     color: "#665600"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: energy
     mpCost: 15
     maxSkillForGain: 20
     skillMultiplierChanges:
-      - [0,  1]
+      - [0, 1]
       - [11, 2]
       - [21, 3]
       - [32, 4]
@@ -513,10 +495,9 @@ Transmute:
 
   # macro info
   macro:
-    mode: 'clickToTarget'
+    mode: "clickToTarget"
 
 Fate:
-
   # global info
   all:
     desc: "???"
@@ -524,12 +505,12 @@ Fate:
     color: "#000"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: physical
     mpCost: 100
     maxSkillForGain: 15
     skillMultiplierChanges:
-      - [0,  1]
+      - [0, 1]
 
     spellMeta:
       range: 1
@@ -540,10 +521,9 @@ Fate:
 
   # macro info
   macro:
-    mode: 'autoActivate'
+    mode: "autoActivate"
 
 Reincarnate:
-
   # global info
   all:
     desc: "Bring a strong foe back to life."
@@ -551,13 +531,13 @@ Reincarnate:
     color: "#dc143c"
 
   # spell cast info
-  spell: 
+  spell:
     damageClass: physical
     mpCost: 100
     cooldown: 900
     maxSkillForGain: 15
     skillMultiplierChanges:
-      - [0,  1]
+      - [0, 1]
 
     spellMeta:
       range: 1
@@ -568,4 +548,4 @@ Reincarnate:
 
   # macro info
   macro:
-    mode: 'autoActivate'
+    mode: "autoActivate"
