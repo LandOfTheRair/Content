@@ -2,6 +2,7 @@ const fs = require("fs-extra");
 
 const { handleRNGDungeonConfig } = require("./helpers/rngdungeon");
 const { handleDoors } = require("./helpers/doors");
+const { handleSTEMs } = require("./helpers/stems");
 
 const OUTPUT_DIR = "_output";
 
@@ -17,7 +18,6 @@ function toHash(arr, indexProp) {
 
 function handleCoreFiles(files) {
   files.forEach((file) => {
-    console.log(file.name);
     const fData = file.json;
 
     let saveData = fData;
@@ -68,6 +68,7 @@ fs.readdirSync("mods").forEach((mod) => {
   fs.writeJSONSync(`${OUTPUT_DIR}/droptable-regions.json`, regionDrops);
 
   handleCoreFiles(modFile.cores);
+  handleSTEMs(modFile.stems);
 
   modFile.maps.forEach((mapData) => {
     const { name, map } = mapData;
