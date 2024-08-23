@@ -3,6 +3,7 @@ const fs = require("fs-extra");
 const { handleRNGDungeonConfig } = require("./helpers/rngdungeon");
 const { handleDoors } = require("./helpers/doors");
 const { handleSTEMs } = require("./helpers/stems");
+const { handleTraitTrees } = require("./helpers/traittrees");
 
 const OUTPUT_DIR = "_output";
 
@@ -69,6 +70,7 @@ fs.readdirSync("mods").forEach((mod) => {
 
   handleCoreFiles(modFile.cores);
   handleSTEMs(modFile.stems);
+  handleTraitTrees(modFile.traitTrees);
 
   modFile.maps.forEach((mapData) => {
     const { name, map } = mapData;

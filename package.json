@@ -3,18 +3,15 @@
   "version": "0.0.0",
   "description": "Content scripts for LotR",
   "scripts": {
-    "build:all": "npm run build:mods && npm run build:trait-trees && npm run generate:meta",
-    "build:trait-trees": "node _transformers/trait-tree.js",
+    "build:all": "npm run build:mods && npm run generate:meta",
     "build:mods": "node _transformers/modimport.js",
-    "watch:trait-trees": "nodemon --ext yml --watch traitTrees --exec \"npm run build:trait-trees\"",
     "watch:mods": "nodemon --ext rairmod --watch mods --exec \"npm run build:mods\"",
     "generate:meta": "node _tasks/generate-meta.js",
     "fix:spawnersandmaps": "node _tasks/convert-spawners-and-maps",
     "dump:props": "node _tasks/dump-props",
     "test": "npm run build:all",
     "postinstall": "npm run build:all",
-    "watch:all": "nodemon --ext yml --watch traitTrees --exec \"npm run build:all\"",
-    "watch": "concurrently  \"npm run watch:trait-trees\""
+    "watch": "concurrently \"npm run watch:mods\""
   },
   "repository": {
     "type": "git",
