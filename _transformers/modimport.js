@@ -81,5 +81,5 @@ fs.readdirSync("mods").forEach((mod) => {
   const strippedMod = structuredClone(modFile);
   delete strippedMod.meta._backup;
   strippedMod.maps = [];
-  fs.writeJSONSync(`${OUTPUT_DIR}/simplemods/${mod}.rairmod`, strippedMod);
+  fs.writeJSONSync(`${OUTPUT_DIR}/simplemods/${mod}.json`, strippedMod);
 });
