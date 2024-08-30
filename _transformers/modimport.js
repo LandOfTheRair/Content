@@ -44,6 +44,7 @@ function handleCoreFiles(files) {
 
 fs.ensureDirSync(OUTPUT_DIR);
 fs.ensureDirSync(`${OUTPUT_DIR}/maps`);
+fs.ensureDirSync(`${OUTPUT_DIR}/simplemods`);
 
 fs.readdirSync("mods").forEach((mod) => {
   const modFile = fs.readJSONSync(`mods/${mod}`);
@@ -76,4 +77,9 @@ fs.readdirSync("mods").forEach((mod) => {
     const { name, map } = mapData;
     fs.writeJSONSync(`${OUTPUT_DIR}/maps/${name}.json`, map);
   });
+
+  const strippedMod = structuredClone(modFile);
+  delete strippedMod.meta._backup;
+  strippedMod.maps = [];
+  fs.writeJSONSync(`${OUTPUT_DIR}/simplemods/${mod}.rairmod`, strippedMod);
 });
