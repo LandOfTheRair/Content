@@ -104,8 +104,8 @@ function handleMacros(macros) {
 }
 
 module.exports.handleSTEMs = function handleSTEMs(fData) {
-  handleSpells(fData.filter((f) => f._hasSpell));
-  handleTraits(fData.filter((f) => f._hasTrait));
-  handleEffects(fData.filter((f) => f._hasEffect));
-  handleMacros(fData.filter((f) => f._hasMacro));
+  handleSpells(fData.filter((f) => !f._isNPCOnly && f._hasSpell));
+  handleTraits(fData.filter((f) => !f._isNPCOnly && f._hasTrait));
+  handleEffects(fData.filter((f) => !f._isNPCOnly && f._hasEffect));
+  handleMacros(fData.filter((f) => !f._isNPCOnly && f._hasMacro));
 };
