@@ -54,6 +54,10 @@ fs.readdirSync("mods").forEach((mod) => {
   fs.writeJSONSync(`${OUTPUT_DIR}/npc-scripts.json`, modFile.dialogs);
   fs.writeJSONSync(`${OUTPUT_DIR}/recipes.json`, modFile.recipes);
   fs.writeJSONSync(`${OUTPUT_DIR}/spawners.json`, modFile.spawners);
+  fs.writeJSONSync(
+    `${OUTPUT_DIR}/achievements.json`,
+    toHash(modFile.achievements, "name")
+  );
 
   fs.writeJSONSync(`${OUTPUT_DIR}/quests.json`, toHash(modFile.quests, "name"));
 
