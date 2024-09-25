@@ -4,7 +4,7 @@ function handleSpells(spells) {
   const spellData = spells.reduce((prev, s) => {
     const baseSpell = s.spell;
 
-    baseSpell.spellName = s._gameId;
+    baseSpell.spellName ??= s._gameId;
     baseSpell.spellMeta ||= {};
     baseSpell.spellMeta.spellRef ||= s._gameId;
 
