@@ -78,6 +78,7 @@ fs.writeJSONSync(
 );
 
 fs.writeJSONSync(`${OUTPUT_DIR}/quests.json`, toHash(joinedMod.quests, "name"));
+fs.writeJSONSync(`${OUTPUT_DIR}/events.json`, toHash(joinedMod.events, "name"));
 
 const globalDroptable = joinedMod.drops.find((drop) => drop.isGlobal);
 const mapDrops = joinedMod.drops.filter((drop) => drop.mapName);
