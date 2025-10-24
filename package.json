@@ -9,8 +9,7 @@
     "generate:meta": "node _tasks/generate-meta.js",
     "dump:props": "node _tasks/dump-props",
     "test": "npm run build:all",
-    "postinstall": "npm run build:all",
-    "watch": "concurrently \"npm run watch:mods\""
+    "postinstall": "npm run build:all"
   },
   "repository": {
     "type": "git",
